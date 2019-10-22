@@ -1,3 +1,3 @@
 # 3aransia
 
-Moroccan Latin/Digit Language Support Framework
+Moroccan Latin/Digit Language Framework
