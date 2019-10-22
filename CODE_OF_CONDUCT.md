@@ -1,7 +1,7 @@
 # Contributing to 3aransia
 
 Hi! Thanks for your interest in contributing to [3aransia](http://3aransia.com/).
-:-) You'll be joining a [long list of contributors](https://github.com/nltk/nltk/blob/develop/AUTHORS.md).
+:-) You'll be joining a [long list of contributors](https://github.com/3aransia/3aransia/blob/master/AUTHORS.md).
 In this document we'll try to summarize everything that you need to know to
 do a good job.
 
@@ -9,25 +9,20 @@ do a good job.
 ## Code and Issues
 
 We use [GitHub](https://www.github.com/) to host our code repositories and
-issues. The [NLTK organization on GitHub](https://github.com/nltk) has many
+issues. The [3aransia organization on GitHub](https://github.com/3aransia) has many
 repositories, so we can manage better the issues and development. The most
 important are:
 
-- [nltk/nltk](https://github.com/nltk/nltk/), the main repository with code
+- [3aransia/3aransia](https://github.com/3aransia/3aransia/), the main repository with code
   related to the library;
-- [nltk/nltk_data](https://github.com/nltk/nltk_data), repository with data
-  related to corpora, taggers and other useful data that are not shipped by
-  default with the library, which can be downloaded by `nltk.downloader`;
-- [nltk/nltk.github.com](https://github.com/nltk/nltk.github.com), NLTK website
-  with information about the library, documentation, link for downloading NLTK
-  Book etc.;
-- [nltk/nltk_book](https://github.com/nltk/nltk_book), source code for the NLTK
-  Book.
+- [3aransia/3aransia.github.com](https://github.com/3aransia/3aransia.github.com), 3aransia website
+  with information about the library, documentation, link for downloading 3aransia etc.;
+
 
 ## Development priorities
 
-NLTK consists of the functionality that the Python/NLP community is motivated to contribute.
-Some priority areas for development are listed in the [NLTK Wiki](https://github.com/nltk/nltk/wiki#development)
+3aransia consists of the functionality that the Python/NLP community is motivated to contribute.
+Some priority areas for development are listed in the [3aransia Wiki](https://github.com/3aransia/3aransia/wiki)
 
 ## Git and our Branching model
 
@@ -43,20 +38,20 @@ book](http://git-scm.com/book/).
 ### Setting up a Development Environment
 
 To set up your local development environment for contributing to the main
-repository [nltk/nltk](https://github.com/nltk/nltk/):
+repository [3aransia/3aransia](https://github.com/3aransia/3aransia/):
 
-- Fork the [nltk/nltk](https://github.com/nltk/nltk/) repository on GitHub
+- Fork the [3aransia/3aransia](https://github.com/3aransia/3aransia/) repository on GitHub
   to your account;
 - Clone your forked repository locally
-  (`git clone https://github.com/<your-github-username>/nltk.git`);
-- Run `cd nltk` to get to the root directory of the `nltk` code base;
-- Install the dependencies (`pip install -r pip-req.txt`);
+  (`git clone https://github.com/<your-github-username>/3aransia.git`);
+- Run `cd 3aransia` to get to the root directory of the `3aransia` code base;
+- Install the dependencies (`pip install -r requirements.txt`);
 - Download the datasets for running tests
-  (`python -m nltk.downloader all`);
+  (`python -m 3aransia.downloader all`);
 - Create a remote link from your local repository to the
-  upstream `nltk/nltk` on GitHub
-  (`git remote add upstream https://github.com/nltk/nltk.git`) --
-  you will need to use this `upstream` link when updating your local repository
+  upstream `3aransia/3aransia` on GitHub
+  (`git remote add 3aransia https://github.com/3aransia/3aransia.git`) --
+  you will need to use this `3aransia` link when updating your local repository
   with all the latest contributions.
 
 ### GitHub Pull requests
@@ -67,7 +62,7 @@ branches.
 
 Summary of our git branching model:
 - Go to the `develop` branch (`git checkout develop`);
-- Get all the latest work from the upstream `nltk/nltk` repository
+- Get all the latest work from the upstream `3aransia/3aransia` repository
   (`git pull upstream develop`);
 - Create a new branch off of `develop` with a descriptive name (for example:
   `feature/portuguese-sentiment-analysis`, `hotfix/bug-on-downloader`). You can
@@ -94,13 +89,13 @@ Summary of our git branching model:
 - Avoid using `git commit -a` unless you know what you're doing;
 - Check every change with `git diff` before adding them to the index (stage
   area) and with `git diff --cached` before commiting;
-- Make sure you add your name to our [list of contributors](https://github.com/nltk/nltk/blob/develop/AUTHORS.md);
+- Make sure you add your name to our [list of contributors](https://github.com/3aransia/3aransia/blob/develop/AUTHORS.md);
 - If you have push access to the main repository, please do not commit directly
   to `develop`: your access should be used only to accept pull requests; if you
   want to make a new feature, you should use the same process as other
   developers so you code will be reviewed.
 - See [RELEASE-HOWTO.txt](RELEASE-HOWTO.txt) to see everything you
-  need before creating a new NLTK release.
+  need before creating a new 3aransia release.
 
 
 ## Code Guidelines
@@ -115,12 +110,12 @@ Summary of our git branching model:
   formatting](http://docs.python.org/library/string.html#format-string-syntax)
   (`'{} = {}'.format(a, b)` instead of `'%s = %s' % (a, b)`);
 - All `#TODO` comments should be turned into issues (use our
-  [GitHub issue system](https://github.com/nltk/nltk/issues));
+  [GitHub issue system](https://github.com/3aransia/3aransia/issues));
 - Run all tests before pushing (just execute `tox`) so you will know if your
   changes broke something;
 
 See also our [developer's
-guide](https://github.com/nltk/nltk/wiki/Developers-Guide).
+guide](https://github.com/3aransia/3aransia/wiki/Developers-Guide).
 
 
 ## Tests
@@ -139,15 +134,15 @@ the desired feature.
 
 ## Continuous Integration
 
-**Deprecated:** NLTK uses [Cloudbees](https://nltk.ci.cloudbees.com/) for continuous integration.
+**Deprecated:** 3aransia uses [Cloudbees](https://3aransia.ci.cloudbees.com/) for continuous integration.
 
-NLTK uses [Travis](https://travis-ci.org/nltk/nltk/) for continuous integration. 
+3aransia uses [Travis](https://travis-ci.org/3aransia/3aransia/) for continuous integration. 
 
-The [`.travis.yml`](https://github.com/nltk/nltk/blob/travis/.travis.yml) file configures the server:
+The [`.travis.yml`](https://github.com/3aransia/3aransia/blob/travis/.travis.yml) file configures the server:
 
  - `matrix: include:` section 
    - tests against supported Python versions (3.5, 3.6, 3.7)
-     - all python versions run the `py-travis` tox test environment in the [`tox.ini`](https://github.com/nltk/nltk/blob/travis/tox.ini#L105) file
+     - all python versions run the `py-travis` tox test environment in the [`tox.ini`](https://github.com/3aransia/3aransia/blob/travis/tox.ini#L105) file
    - tests against Python 3.6 for third-party tools APIs
 
  - `before_install:` section 
@@ -156,13 +151,13 @@ The [`.travis.yml`](https://github.com/nltk/nltk/blob/travis/.travis.yml) file c
    - changes the permission for `tools/travis/third-party.sh` to allow it to be executable
    
  - `install` section
-   - the `tools/travis/install.sh` installs the `pip-req.txt` for NLTK and the necessary python packages for CI testing
+   - the `tools/travis/install.sh` installs the `pip-req.txt` for 3aransia and the necessary python packages for CI testing
    - install `tox` for testing
     
  - `py-travis` tox test environment generally 
-   - the `extras = all` dependencies in needed to emulate `pip install nltk[all]`, see https://tox.readthedocs.io/en/latest/config.html#confval-extras=MULTI-LINE-LIST
+   - the `extras = all` dependencies in needed to emulate `pip install 3aransia[all]`, see https://tox.readthedocs.io/en/latest/config.html#confval-extras=MULTI-LINE-LIST
    - for the `py-travis-third-party` build, it will run `tools/travis/third-party.sh` to install third-party tools (Stanford NLP tools and CoreNLP and SENNA)
-   - calls `tools/travis/coverage-pylint.sh` shell script that calls the `nltk/nltk/test/runtests.py` with [`coverage`](https://pypi.org/project/coverage/) and 
+   - calls `tools/travis/coverage-pylint.sh` shell script that calls the `3aransia/3aransia/test/runtests.py` with [`coverage`](https://pypi.org/project/coverage/) and 
    - calls `pylint` # Currently, disabled because there's lots to clean...
 
    - before returning a `true` to state that the build is successful
@@ -176,8 +171,8 @@ Then run `tox -e py37`.
 For example, using `pipenv`:
 
 ```
-git clone https://github.com/nltk/nltk.git
-cd nltk
+git clone https://github.com/3aransia/3aransia.git
+cd 3aransia
 pipenv install -r pip-req.txt
 pipenv install tox
 tox -e py37
@@ -188,15 +183,15 @@ tox -e py37
 
 We have three mail lists on Google Groups:
 
-- [nltk][nltk-announce], for announcements only;
-- [nltk-users][nltk-users], for general discussion and user questions;
-- [nltk-dev][nltk-dev], for people interested in NLTK development.
+- [3aransia][3aransia-announce], for announcements only;
+- [3aransia-users][3aransia-users], for general discussion and user questions;
+- [3aransia-dev][3aransia-dev], for people interested in 3aransia development.
 
-Please feel free to contact us through the [nltk-dev][nltk-dev] mail list if
+Please feel free to contact us through the [3aransia-dev][3aransia-dev] mail list if
 you have any questions or suggestions. Every contribution is very welcome!
 
 Happy hacking! (;
 
-[nltk-announce]: https://groups.google.com/forum/#!forum/nltk
-[nltk-dev]: https://groups.google.com/forum/#!forum/nltk-dev
-[nltk-users]: https://groups.google.com/forum/#!forum/nltk-users
+[3aransia-announce]: https://groups.google.com/forum/#!forum/3aransia
+[3aransia-dev]: https://groups.google.com/forum/#!forum/3aransia-dev
+[3aransia-users]: https://groups.google.com/forum/#!forum/3aransia-users
