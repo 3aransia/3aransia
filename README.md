@@ -1,3 +1,3 @@
 # 3aransia
 
-Moroccan Language Recognition Framework
+Moroccan Latin/Digit Language Support Framework
