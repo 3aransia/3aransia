@@ -1,7 +1,7 @@
 # Contributing to 3aransia
 
 Hi! Thanks for your interest in contributing to [3aransia](http://3aransia.com/).
-:-) You'll be joining a [long list of contributors](https://github.com/3aransia/3aransia/blob/master/AUTHORS.md).
+You'll be joining a [long list of contributors](https://github.com/3aransia/3aransia/blob/master/AUTHORS.md).
 In this document we'll try to summarize everything that you need to know to
 do a good job.
 
