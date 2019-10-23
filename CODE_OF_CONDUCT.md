@@ -65,14 +65,13 @@ Summary of our git branching model:
 - Get all the latest work from the upstream `3aransia/3aransia` repository
   (`git pull upstream develop`);
 - Create a new branch off of `develop` with a descriptive name (for example:
-  `feature/portuguese-sentiment-analysis`, `hotfix/bug-on-downloader`). You can
+  `feature/latin_digit_moroccan-arabic-mapping`, `hotfix/bug-on-downloader`). You can
   do it switching to `develop` branch (`git checkout develop`) and then
   creating a new branch (`git checkout -b name-of-the-new-branch`);
 - Do many small commits on that branch locally (`git add files-changed`,
   `git commit -m "Add some change"`);
 - Run the tests to make sure nothing breaks
-  (`tox -e py35` if you are on Python 3.5);
-- Add your name to the `AUTHORS.md` file as a contributor;
+- **Add your name to the `AUTHORS.md` file as a contributor**;
 - Push to your fork on GitHub (with the name as your local branch:
   `git push origin branch-name`);
 - Create a pull request using the GitHub Web interface (asking us to pull the
@@ -89,13 +88,11 @@ Summary of our git branching model:
 - Avoid using `git commit -a` unless you know what you're doing;
 - Check every change with `git diff` before adding them to the index (stage
   area) and with `git diff --cached` before commiting;
-- Make sure you add your name to our [list of contributors](https://github.com/3aransia/3aransia/blob/develop/AUTHORS.md);
+- Make sure you add your name to our [list of contributors](https://github.com/3aransia/3aransia/blob/master/AUTHORS.md);
 - If you have push access to the main repository, please do not commit directly
   to `develop`: your access should be used only to accept pull requests; if you
   want to make a new feature, you should use the same process as other
   developers so you code will be reviewed.
-- See [RELEASE-HOWTO.txt](RELEASE-HOWTO.txt) to see everything you
-  need before creating a new 3aransia release.
 
 
 ## Code Guidelines
@@ -111,7 +108,7 @@ Summary of our git branching model:
   (`'{} = {}'.format(a, b)` instead of `'%s = %s' % (a, b)`);
 - All `#TODO` comments should be turned into issues (use our
   [GitHub issue system](https://github.com/3aransia/3aransia/issues));
-- Run all tests before pushing (just execute `tox`) so you will know if your
+- Run all tests before pushing so you will know if your
   changes broke something;
 
 See also our [developer's
@@ -130,68 +127,21 @@ For a better design of your code, we recommend using a technique called
 [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development),
 where you write your tests **before** writing the actual code that implements
 the desired feature.
-
-
-## Continuous Integration
-
-**Deprecated:** 3aransia uses [Cloudbees](https://3aransia.ci.cloudbees.com/) for continuous integration.
-
-3aransia uses [Travis](https://travis-ci.org/3aransia/3aransia/) for continuous integration. 
-
-The [`.travis.yml`](https://github.com/3aransia/3aransia/blob/travis/.travis.yml) file configures the server:
-
- - `matrix: include:` section 
-   - tests against supported Python versions (3.5, 3.6, 3.7)
-     - all python versions run the `py-travis` tox test environment in the [`tox.ini`](https://github.com/3aransia/3aransia/blob/travis/tox.ini#L105) file
-   - tests against Python 3.6 for third-party tools APIs
-
- - `before_install:` section 
-   - checks the Java and Python version calling the `tools/travis/pre-install.sh` script
-   - changes the permission for `tools/travis/coverage-pylint.sh` to allow it to be executable
-   - changes the permission for `tools/travis/third-party.sh` to allow it to be executable
-   
- - `install` section
-   - the `tools/travis/install.sh` installs the `pip-req.txt` for 3aransia and the necessary python packages for CI testing
-   - install `tox` for testing
-    
- - `py-travis` tox test environment generally 
-   - the `extras = all` dependencies in needed to emulate `pip install 3aransia[all]`, see https://tox.readthedocs.io/en/latest/config.html#confval-extras=MULTI-LINE-LIST
-   - for the `py-travis-third-party` build, it will run `tools/travis/third-party.sh` to install third-party tools (Stanford NLP tools and CoreNLP and SENNA)
-   - calls `tools/travis/coverage-pylint.sh` shell script that calls the `3aransia/3aransia/test/runtests.py` with [`coverage`](https://pypi.org/project/coverage/) and 
-   - calls `pylint` # Currently, disabled because there's lots to clean...
-
-   - before returning a `true` to state that the build is successful
-    
-    
-#### To test with `tox` locally
-
-First setup a new virtual environment, see https://docs.python-guide.org/dev/virtualenvs/
-Then run `tox -e py37`.
-
-For example, using `pipenv`:
-
-```
-git clone https://github.com/3aransia/3aransia.git
-cd 3aransia
-pipenv install -r pip-req.txt
-pipenv install tox
-tox -e py37
-```
  
 
-# Discussion
+# Discussion 
 
-We have three mail lists on Google Groups:
+We have three disscussion plateforms:
 
-- [3aransia][3aransia-announce], for announcements only;
-- [3aransia-users][3aransia-users], for general discussion and user questions;
-- [3aransia-dev][3aransia-dev], for people interested in 3aransia development.
+- [3aransia Messenger][3aransia Messenger] for real-time discussions and annoucements;
+- [3aransia Facebook Group][3aransia Facebook Group] for annoucements and community support;
+- [3aransia Slack][3aransia Slack] for feature developments and thread support in channels.
 
-Please feel free to contact us through the [3aransia-dev][3aransia-dev] mail list if
+Please feel free to contact us through the 3aransia@3aransia.com mail if
 you have any questions or suggestions. Every contribution is very welcome!
 
 Happy hacking! (;
 
-[3aransia-announce]: https://groups.google.com/forum/#!forum/3aransia
-[3aransia-dev]: https://groups.google.com/forum/#!forum/3aransia-dev
-[3aransia-users]: https://groups.google.com/forum/#!forum/3aransia-users
+[3aransia Messenger]: m.me/join/AbYiiixcEQfGO6Cw
+[3aransia Facebook Group]: https://www.facebook.com/groups/3aransia
+[3aransia Slack]: 3aransia.slack.com
