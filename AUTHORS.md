@@ -6,4 +6,4 @@
 
 ## Contributors
 
-- 
+- Anass JOUHRI <anass.jouhri@gmail.com>
