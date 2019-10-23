@@ -142,6 +142,6 @@ you have any questions or suggestions. Every contribution is very welcome!
 
 Happy hacking! (;
 
-[3aransia Messenger]: m.me/join/AbYiiixcEQfGO6Cw
+[3aransia Messenger]: https://m.me/join/AbYiiixcEQfGO6Cw
 [3aransia Facebook Group]: https://www.facebook.com/groups/3aransia
 [3aransia Slack]: 3aransia.slack.com
