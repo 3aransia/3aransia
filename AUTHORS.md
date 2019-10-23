@@ -6,4 +6,3 @@
 
 ## Contributors
 
-- My nice name !
