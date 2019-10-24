@@ -14,18 +14,18 @@
 12,andounissiya ,indonisia,اندونيسيا, أندونيسيا
 13,taliane ,italia,ايطاليا, إيطاليا
 14,japoune ,alyaban,اليابان, اليابان
-15,meksike ,almixik,المكسيك, المكسيك
-16,magrebe ,almaghrib,المغريب, المغرب
+15,lmixik,almixik,المكسيك, المكسيك
+16,maghrib,almaghrib,المغريب, المغرب
 17,pirou ,birou,بيرو, بيرو
 18,sbaniya ,2ispania,اسبانيا, إسبانيا
 19,taylande ,tailand,طايلاند, تايلاند
 20,mirikane ,alwilayat almota7ida alamrikia,ميريكان, الولايات المتحدة الأمريكية
-22,,loghat,لوغات, لغات
-23,aarbiya ,al3arabia,لعربية, العربية
+22,loghat,loghat,لوغات, لغات
+23,3arbia,al3arabia,لعربية, العربية
 24,siniya ,asinia,صينية, الصينية
 25,nagliziya ,al2inglizia,نجليزية, الإنجليزية
 26,fransawiya ,alfaransia,فرنساويا, الفرنسية
-27,,alalmania,المانيا, الألمانية
+27,almania,alalmania,المانيا, الألمانية
 28,younaniya ,alyounanya,يونانيا, اليونانية
 29,ihoudiya ,al3ibria,يهودية, العبرية
 30,hindiya ,alhindia,هندية, الهندية
@@ -35,16 +35,16 @@
 34,latiniya ,latinia,لاتينية, لاتينية
 35,roussiya ,roussia,روسية, الروسية
 36,spaniouliya ,2ispania,صبليونية, الأسبانية
-37,,al2ordia,الاردية, الأردية
+37,2ordia,al2ordia,الاردية, الأردية
 39,lyamate ,2ayam,ليامات, أيام
 40,tnine ,2ithnayn,تنين, الاثنين
 41,tlate ,tholatha2,تلات, الثلاثاء
-42,larbaae ,2arbi3a2,لاربعا, الأربعاء
-43,lakhmisse ,5amis,الخميس, الخميس
-44,jamaa ,jomo3a,جمعة, الجمعة
+42,larb3a,2arbi3a2,لاربعا, الأربعاء
+43,la5mis,5amis,الخميس, الخميس
+44,jam3a,jomo3a,جمعة, الجمعة
 45,sabte ,sabt,سبت, السبت
-46,lhadde ,2a7ad,الحد, الأحد
+46,l7add,2a7ad,الحد, الأحد
 48,marra ,marra,مرة, مرة
-49,saa ,sa3a,ساعة, ساعة
-50,dkika ,da9i9a,دقيقة, دقيقة
+49,sa3a,sa3a,ساعة, ساعة
+50,d9i9a,da9i9a,دقيقة, دقيقة
 51,taniya ,thania,تانية, ثان
