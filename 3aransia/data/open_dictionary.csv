@@ -1,6 +1,6 @@
 ,LDM,LDA,MA,A
-0,lmofradat,almofradat,لمفردات, المفردات
-1,lbaldane ,boldan,لبلدان, البلدان
+0,lmofradat,almofradat,مفردات, المفردات
+1,boldane,boldan,بلدان, البلدان
 2,oustouraliya ,ostoralia,استراليا, أستراليا
 3,kombodje ,kambodia,كامبودج, كمبوديا
 4,kanada ,kanada,كندا, كندا
@@ -9,12 +9,12 @@
 7,naglize ,inglaterra,نجليز, انكلترا
 8,franssa ,faransa,فرانسا, فرنسا
 9,almaniya ,almania,المانيا, ألمانيا
-10,younane ,alyounan,ليونان, اليونان
-11,lhande ,alhind,الهند, الهند
+10,younane ,alyounan,يونان , اليونان
+11,hind ,alhind,الهند, الهند
 12,andounissiya ,indonisia,اندونيسيا, أندونيسيا
 13,taliane ,italia,ايطاليا, إيطاليا
 14,japoune ,alyaban,اليابان, اليابان
-15,lmixik,almixik,المكسيك, المكسيك
+15,mixik,almixik,المكسيك, المكسيك
 16,maghrib,almaghrib,المغريب, المغرب
 17,pirou ,birou,بيرو, بيرو
 18,sbaniya ,2ispania,اسبانيا, إسبانيا
@@ -40,11 +40,51 @@
 40,tnine ,2ithnayn,تنين, الاثنين
 41,tlate ,tholatha2,تلات, الثلاثاء
 42,larb3a,2arbi3a2,لاربعا, الأربعاء
-43,la5mis,5amis,الخميس, الخميس
+43,5amis,5amis,الخميس, الخميس
 44,jam3a,jomo3a,جمعة, الجمعة
 45,sabte ,sabt,سبت, السبت
-46,l7add,2a7ad,الحد, الأحد
+46,7add,2a7ad,الحد, الأحد
 48,marra ,marra,مرة, مرة
 49,sa3a,sa3a,ساعة, ساعة
 50,d9i9a,da9i9a,دقيقة, دقيقة
 51,taniya ,thania,تانية, ثان
+,sme7lia,asif,سمحلي,اسف
+,besse7a,tahani,بصحة,تهاني
+,beslama,wada3an,بسلامة,وداعا
+,bessa7,7a9an,بصح,حقا
+,salam,mar7aban,سلام,مرحبا
+,wa7ed,wa7ed,واحد,واحد
+,jouj,ethnan,جوج,اثنان
+,tlata,thalata,تلاتة,ثلاثة
+,reb3a,arba3a,ربعة,اربعة
+,5emsa,5amsa,خمسة,خمسة
+,setta,setta,ستة,ستة
+,seb3a,sab3a,سبعة,سبعة
+,tmania,tamania,تمنية,ثمانية
+,tes3oud,tes3a,تسعود,تسعة
+,3achra,3achara,عشرة,عشرة
+,iyeh,bitab3,إييه,بالطبع
+,Lla,la,لا,لا
+,3afak,arjouk,عافاك,ارجوك
+,chokran,chokran,شكرا,شكرا
+,Kanbghik,2o7ibok,كنبغيك,احبك
+,Twe77eshtek,2ichat9t,توحشتك,اشتقت
+,Bezzaf,katir,بزاف,كثير
+,Shwiya,9alil,شوية,قلبل
+,Wakha,na3am,واخا,نعم
+,Daba,7alan,دابا,حالا
+,W,wa,و,و
+,Mashi ,laisa,ماشي,ليس
+,Bghit,2orid,بغيت,اريد
+,Salit,2intahait,ساليت,انتهيت
+,Zwin,jamil,زوين,جميل
+,Khayb,9abi7,خايب,قبيح
+,Mezyan,jayyed,مزيان,جيد
+,hder,takallam,هضر,تكلم
+,fhem,faham, فهم,فهم
+,flous,no9oud, فلوس,نقود
+,Hak,khod,هاك ,خد
+,Safi,mafhoum,صافي,مفهوم
+,Mebrouk,mabrouk,مبروك,مبروك
+,3ya,ta3ab,عيا,تعب
+,twalit,mir7ad,طواليط,مرحاض
