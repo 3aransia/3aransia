@@ -52,6 +52,12 @@ def run_tests():
     print(validate_dictionary('data/dictionary.csv'))
     print(word_distance("7alwa", "halwa"))
     print(word_distance("Halwa", "halwa"))
-    print(generate_close_words(2, ''''''))
+    print(generate_close_words(2, ''' 3aransia 3ebass 3la 3lache 3lak 3jbek ach achno 
+ahlen alkhir allah amine amine ana ana ans atkounou awedi aychre7 b9aw ba bikher 
+casa chadha couiya course da7k daba dakchi de7k dial dwa et ewa fen fin fin 
+ghi had hada hadi hamdolillah hmd hmed hna ilyass incha inshaallah inshaallah iyeh 
+jme3te kanmote khbar kidayer l3dou la3be lek lhal li lmoute lwer9a ma3autechlik 
+makaynch man mazal men mezian n3ass nass nour nta ounta parcours pieds plus rah 
+rak rani sa3a sa7bi sa7eb sahlen sbah sidi tan3ess tou7achnak twelef wata yhfde yhfdek zine'''))
 
 run_tests()
