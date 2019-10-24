@@ -2,7 +2,7 @@
 
 ## Original Author
 
-- Mohamed Amine Boulouma <amine@boulouma.com>
+- Amine M. Boulouma <amine@boulouma.com>
 
 ## Contributors
 
