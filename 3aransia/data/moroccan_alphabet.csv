@@ -1,11 +1,11 @@
 ID, Moroccan Alphabet, Arabian Alphabet, End of the word, Middle of the word, Beginning of the word
-0, a,ا‎,ـا‎,ـا‎,ا‎,a
+0, a,ا‎,ـا‎,ـا‎,ا‎
 1, b, ب‎,ـب‎,ـبـ‎,بـ‎
 2, t, ت‎,ـت‎,ـتـ‎,تـ‎
 3, t, ث‎,ـث‎,ـثـ‎,ثـ‎
 4, j, ج‎,ـج‎,ـجـ‎,جـ‎
-5,ح‎,ـح‎,ـحـ‎,حـ‎,7
-6,خ‎,ـخ‎,ـخـ‎,خـ‎,5
+5, 7 ح‎,ـح‎,ـحـ‎,حـ‎
+6, 5, خ‎,ـخ‎,ـخـ‎,خـ‎
 7, d, د‎,ـد‎,ـد‎,د‎
 8, d, ذ‎,ـذ‎,ـذ‎,ذ‎
 9, r,ر‎,ـر‎,ـر‎,ر‎
@@ -33,4 +33,3 @@ ID, Moroccan Alphabet, Arabian Alphabet, End of the word, Middle of the word, Be
 31, o,ُ ,ُ ,ُ ,ُ 
 32, i,ِ‎,ِ‎,ِ‎,ِ‎
 33, e,ُْ,ُْ,ُْ,ُْ,
-
