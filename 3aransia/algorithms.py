@@ -7,9 +7,12 @@ def word_distance(word_1, word_2):
     
 # Converte a letter to its substitute
 def letter_to_substitute(l):
-    if l == '7': return 'h'
-    elif l == '9': return 'q'
-    else : return l
+    if l == '7': 
+        return 'h'
+    elif l == '9': 
+        return 'q'
+    else : 
+        return l
 
 # Word counter
 def word_count(_str):
