@@ -10,14 +10,17 @@ from constants import *
 def morrocan_letter_to_arabian_letter(letter, position, word_length): 
     alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
     if position == 0:
-        value = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['BeginningofWord']
-        return value.values[0]
+        values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['BeginningofWord']
+        return values.values[0]
     elif position == word_length:
-        value = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['EndofWord']
-        return value.values[0]
+        values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['EndofWord']
+        return values.values[0]
+    elif position == -1:
+        values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet']
+        return values.values[0]
     elif position > 0:
-        value = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['MiddleofWord']
-        return value.values[0]
+        values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['MiddleofWord']
+        return values.values[0]
 
 # Translate Moroccan to Arabic
 def moroccan_to_arabic(_str):
@@ -25,19 +28,26 @@ def moroccan_to_arabic(_str):
     arabian_translation = []
     for word in _str.split():
         arabian_word = []
-        word_iterator = iter(range(len(word)))
+        word_iterator = iter(range(len(word.lower())))
         for i in word_iterator:
-            if word[i] in ['c', 'C'] and i+1 != len(word) and word[i+1] == 'h':
+            if word[i] in ['c'] and i+1 != len(word) and word[i+1] == 'h':
                 arabian_word.append(morrocan_letter_to_arabian_letter('ch', i , len(word)))
                 next(word_iterator)
-            elif word[i] in ['k', 'K'] and i+1 != len(word) and word[i+1] == 'h':
+            elif word[i] in ['k'] and i+1 != len(word) and word[i+1] == 'h':
                 arabian_word.append(morrocan_letter_to_arabian_letter('kh', i, len(word)))
                 next(word_iterator)
-            elif word[i] in ['s', 'S'] and i+1 != len(word) and word[i+1] == 'h':
+            elif word[i] in ['s'] and i+1 != len(word) and word[i+1] == 'h':
                 arabian_word.append(morrocan_letter_to_arabian_letter('sh', i, len(word)))
                 next(word_iterator)
-            else :
-                arabian_word.append(morrocan_letter_to_arabian_letter(word[i], i, len(word)))
+            else:
+                if i != len(word) - 1 and i+1 == len(word) - 1 and word[i+1] == 'e' and (word[i-1] in ['d', 'a', 'o', 'w', 'r', 'z', 'u']):
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], -1, len(word)))
+                elif i != len(word) - 1 and i+1 == len(word) - 1 and word[i+1] == 'e':
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], len(word), len(word)))
+                elif i > 0 and (word[i-1] in ['d', 'a', 'o', 'w', 'r', 'z', 'u']):
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], 0, len(word)))
+                else:
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], i, len(word)))
         arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
     return arabian_translation
 
