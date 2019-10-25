@@ -19,7 +19,7 @@ maghrib,almaghrib,المغريب,المغرب
 pirou,birou,بيرو,بيرو
 sbaniya,2ispania,اسبانيا,إسبانيا
 taylande,tailand,طايلاند,تايلاند
-mirikane,alwilayatalmota7idaalamrikia,ميريكان,الولاياتالمتحدةالأمريكية
+mirikane,Alwilayat almota7ida alamrikia,ميريكان,الولايات المتحدة الأمريكية
 loghat,loghat,لوغات,لغات
 3arbia,al3arabia,لعربية,العربية
 siniya,asinia,صينية,الصينية
@@ -78,7 +78,7 @@ Mashi,laisa,ماشي,ليس
 Bghit,2orid,بغيت,اريد
 Salit,2intahait,ساليت,انتهيت
 Zwin,jamil,زوين,جميل
-Khayb,9abi7,خايب,قبيح
+5ayb,9abi7,خايب,قبيح
 Mezyan,jayyed,مزيان,جيد
 hder,takallam,هضر,تكلم
 fhem,faham,فهم,فهم
@@ -88,3 +88,846 @@ Safi,mafhoum,صافي,مفهوم
 Mebrouk,mabrouk,مبروك,مبروك
 3ya,ta3ab,عيا,تعب
 twalit,mir7ad,طواليط,مرحاض
+7edash,a7ada 3achar,حْضاش,احد عشر
+Tenash,ethna 3achar,طْناش,اثتى عشر
+Teletash,thalathata 3achar,تْلطاش,ثلاثة عشر
+Rebe3tash,arba3ata 3achar,رْبعطاش,اربعة عشر
+Khemstash,5amsata 3achar,خْمسطاش,خمسة عشر
+Settash,settata 3achar,سْطاش,ستة عشر
+Sebe3tash,sab3ata 3achar,سْبعطاش,سبعة عشر
+Tementash,thamanyata 3achar,تْمنطاش,ثمانية عشر
+Teze3tash,tes3ata 3achar,تْزعطاش,تسعة عشر
+7la9em,lawzatayn,حلاقم,لوزتين
+Le7ia,le7ya,لحية,لحية
+Fomm,fam,فم,فم
+Dra3,dira3,دراع,دراع
+Mo5,mo5,مخ,مخ
+Sh3er,cha3r,شعر,شعر
+Shefr,chefr,شفر,شفر
+9elb,9alb,قلب,قلب
+3en9,3ono9,عنق,عنق
+Senna,sin,سنة,سن
+Sbe3,2osbo3,صبع,اصبع
+Deher,dahr,ضهر,ظهر
+Ktef,katif,كتف,كتف
+Me3da,ma3ida,معدة,معدة
+Kebda,kabid,كبدة,كبد
+Jebha,jabha,جبهة,جبهة
+Rekba,rokba,ركبة,ركبة
+7el9a,7al9,حلق,حلق
+7enk,7ink,حنك,حنك
+lsan,lisan,لسان,لسان
+yedd,yad,يد,يد
+Ders,dirs,ضرس,ضرس
+Nif,2anf,نيف,انف
+3in,3ayn,عين,عين
+Defer,dofr,ضفر,ظفر
+Wden,2odon,ودن,ادن
+srdine,sardine,سردين,سردين
+3dem,3adm,عضم,عظم
+Jeld,jild,جلد,جلد
+Rjel,rijl,رجل,رجل
+Sder,sidr,سدر,صدر
+Riya,ri2a,رية,رئة
+7ajeb,7ajib,حاجب,حاجب
+Ras,ra2s,راس,راس
+3er9,3ir9,عرق,عرق
+Kersh,kirch,كرش,كرش
+Wjeh,wajh,وجه,وجه
+Zebda,zobda,زبدة,زبدة
+Meslouq,maslo9,مسلوق,مسلوق
+Qehwa,9ahwa,قهوة,قهوة
+Kofitir,morabba,كوفيتير,مربى
+Kamoun,kammoun,كامون,كمون
+Ma,ma2,ما,ماء
+Degig,da9i9 ,دگيگ,دقيق 
+Meqli,ma9li,مقلي,مقلي
+Fermaj,jobn,فرماج,جبن
+Fakia,fakiha,فاكية,فاكهة
+7elwa,7olwa,حلوة,حلوة
+Zit,zayt,زيت,زيت
+3asir,3asir,عصير,عصير
+7lib,7alib,حليب,حليب
+Khodra,5odrawat,خضرة,خضروات
+3des,3adas,عدس,عدس
+3sel,3asal,عسل,عسل
+Bida,bayda,بيضة,بيضة
+Khobz,5obz,خبز,خبز
+7out,samak,حوت,سمك
+Ibzar,2ibzar,إبزار,إبزار
+Rouz,2aroz,روز,ارز
+Meshwi,machwi,مشوي,مشوي
+Shelada,salata,شلاضة,سلطة
+Mel7a,mil7,ملحة,ملح
+7rira,7asa2,حريرة,حساء
+Sekkar,sokkar,سكر,سكر
+Atay,chay,أتاي,شاي
+L7em,la7m,لحم,لحم
+Khell,khal,خل,خل
+Shkoun ?,mann,شْكُون؟,من
+Ashno ? Ash ? Shno ?,mada,أَشْنُو؟ أَشْ؟ شنو؟,مادا
+3lash ?,lima ,عْلاش؟,لما
+Lash ?,limada,لاش؟,لمادا
+Fin ?,ayna,فِينْ؟,اين
+Imta? / Fouqash,mata,إِيمْتا؟/ فوقاش؟,متى
+Lemen ?,liman,لمن؟,لمن
+Kifash ?,kaifa,كيفاشْ؟,كيف
+Sh7al ?,kamm ,شحال؟,كم
+Feddi,feddi,فضي,فضي
+Bij,beige,بيج,بيج
+Byed,abyad,بيض,ابيض
+zre9,azra9,زرق,ازرق
+Shibi,wardi,شيبي,وردي
+Grouna,ramadi,كَرونة,رمادي
+Rmadi,ramadi,رمادي,رمادي
+Sfer,asfar,صفر,اصفر
+9ehwi,bonni,قهوي,بني
+Mauve,banafsaji,موڤ,بنفسجي
+K7el,aswad,كحل,اسود
+5ezzi,5azzi,خزي,خزي
+Dehbi,dahabi,دهبي,دهبي
+Limouni,borto9ali,ليموني,برتقالي
+Ponja,2isfanja,بونجة,اسفنجة
+7mer,a7mar,حمر,احمر
+7aris,7aris,حارس,حارس
+5der,a5dar,خضر,اخضر
+Banafsaji,banafsaji,بنفسجي,بنفسجي
+7amd,7amid,حامض,حامض
+Nashit,nachit,نشيط,نشيط
+Sharf,3ajouz,شارف,عجوز
+9dim,9adim,قديم,قديم
+Temma3,tamma3,طماع,طماع
+Mezian,jayed,مزيان,جيد
+me7rou9,ma7rou9,محروق,محروق
+Meherres,mokassar,مهرس,مكسر
+Meshehour,machhour,مشهور,مشهور
+Met2akked,mota2akid,متأكد,متأكد
+s5oun,sakhin,سخون,ساخن
+Ghali,ghali,غالي,غالي
+3ziz,3aziz,عزيز,عزيز
+Mferkes,2ani9,مفركس,انيق
+Wade7,wadi7,واضح,واضح
+m3e9ed,mo3a9ad,مْعْقّدْ,مْعْقّدْ
+Mori7,mori7,مريح,مريح
+Me3rouf,ma3rouf,معروف,معروف
+9asir,9asir,قصير,قصير
+Tayeb,mathi,طايب,مطهي
+Khatir,5atir,خطير,خطير
+Fate7,fate7,فاتح,فاتح
+ghame9,ghame9,غامق,غامق
+Bnine,tayeb,بنين,طيب
+Mrewwen,fawdawi,مرون,قوضوي
+Wa3er,ra2i3,واعر,رائع
+3ali,3ali,عالي,عالي
+Me7sad,7asoud,محساد,حسود
+7ar,7ar,حار,حار 
+jerreb,jarrib,جرب,جرب
+mdye9,daye9,مضيق,ضيق
+Sahel,sahl,ساهل,سهل
+Daser,za3im,ضاسر,زعيم
+3iyyan,ta3eb,عيان,تعب
+Mesdoud,mo9fal,مسدود,مقفل
+7me9,a7ma9,حمق,حمق
+Bared,bared,بارد,بارد
+Me3esseb,mota3asseb,معصب,متعصب
+s5i,sakhy,سخي,سخي
+Drif,darif,ضريف,ضريف
+Kbir,kabir,كبير,كبير
+Ghelid,ghalid,غليض,غليض
+msetti,a7ma9,مسطي,احمق
+Fer7an,fare7,فرحان,فرح
+Mohim,mohim,مهم,مهم
+Bari2,bari2,بريء,بريء
+Dki,daki,دكي,دكي
+Meghyar,ghayour,مغيار,غيور
+Zwin,jamil,زوين,جميل
+3erid,3arid,عريض,عريض
+Khfif,khafif,خفيف,خفيف
+B3id,ba3id,بعيد,بعيد
+Twil,tawil,طويل,طويل
+t9il,ta9il,تقيل,تقيل
+r9i9,ra9i9,رقيق,رقيق
+Mrid,marid,مريض,مريض
+9bi7,9abi7,قبيح,قبيح
+M5ellet,mokhtalit,مخلط,مختلط
+Khayeb,9abi7,خايب,قبيح
+3esri,3asri,عصري,عصري
+Rteb,rateb,رطب,رطب
+Fazeg,moballal,فازڭ,مبلل
+Metwesset,motawassit,متوسط,متوسط
+Zizoun,abkam,زيزون,ابكم
+Tabi3i,tabi3i,طبيعي,طبيعي
+Darouri,darori,ضروري,ضروري
+Ktir,katir,كتير,كتير
+3adi,3adi,عادي,عادي
+Jedid,jadid,جديد,جديد
+Mesheghoul,machghoul,مشغول,مشغول
+Me7loul,maftou7,محلول,مفتوح
+Sghir,saghir,صغير,صغير
+9lil,9alil,قليل,قليل
+r5iss,ra5iss,رخيص,رخيص
+M2eddeb,mo2adab,مؤدب,مؤدب
+She3bi,cha3bi,شعبي,شعبي
+9rib,9arib,قريب,قريب
+n9i,na9i,نقي,نقي
+5anez,karih,خانز,كريه
+7resh,a7rach,حرش,احرش
+3amer,mamlou2,عامر,مملوء
+Mo7taram,mo7taram,محترم,محترم
+faye9,mostay9ed,فايق,مستيقظ
+Mdewwer,modawar,مدوّر,مدوّر
+Mossekh,motasi5,موسّخ,متسخ
+Male7,mali7,مالح,مالح
+Nashef,jaff,ناشف,جاف
+7essas,7assas,حسّاس,حسّاس
+Saket,samit,ساكت,صامت
+9ase7,9asi ,قاصح,قاسي
+Wase3,motasi3,واسع,متسع
+mkelle5,balid,مكلخ,بليد
+7lo,7olw ,حلو,حلو
+M3ettel,mota2a5ir,معطل,متأخر
+Dafi,dafi2,دافي,دافئ
+7achoumi,5ajoul,حشومي,خجول
+beldi,ta9lidi,بلدي,تقليدي   
+Madi,7add ,ماضي,حاد
+m9elle9,ghadib,مقلّق,غاضب
+Khawi,farigh,خاوي,فارغ
+t9lidi,ta9lidi,تقليدي   ,تقليدي   
+sbitar,mostachfa,صبيطار,مستشفى
+pikala,darraja,بيكالة,دراجة
+tomobil,sayara,طوموبيل,سيارة
+pici,kompioutr,بيسي,كمبيوتر
+boula,misba7,بولة,مصباح
+9ach 9ach ,ghomaida,قاشقاش,غميضة
+3attach ,3amil,عطاش,عامل
+arré ,maw9if,اري,موقف
+Atansiou ,2i7dar,اطانسيو,احدر
+Babor ,ba5ira,بابور,باخرة
+Baguitta ,khobz,باكيطا,خبز
+Bakiya ,3olba,باكية,علبة
+Balcone ,chorfa,بالكون,شرفة
+Baliza,7a9iba,باليزا,حقيبة
+Ballone ,kora,بالون,كرة
+Batroune ,ra2is,باطرون,رئيس
+bermassioun ,idn,برمسبون,ادن
+Béfane,mokabir sawt,بيفان,مكبر صوت
+Bikoup ,3Araba,بيكوب,عربة
+Barwita,3araba,برويطة ,عربة
+Baspour ,jawaz safar,باسبور,جواز سفر
+Bataillou ,mo7arib,باطايو,محارب
+Batéma ,cho9a,باطيمة,شقة 
+Banka ,bank,بانكا,بنك
+Barabole ,sa7n,بارابول,صحن
+Barbrise ,zojaj,باربرز,زجاج
+Bariziana ,khobz,باريزيانا,خبز
+Bart9iz ,bortoghal,بارطقيز,برتغال
+Birou ,maktab,بيرو,مكتب
+Biassa ,9it3a,بياسا,قطعة
+Bibi ,dik,بيبي,ديك
+Bichklita,daraja,بيشكليطة,دراجة
+Bidou ,9inina,بيدو,قنينة
+Bijama,malabis nawm,بيجاما,ملابس نوم
+Bijou,mojawharat,بيجو,مجوهرات
+Birra ,birra,بيرا,بيرة
+Bit ,ghorfa,بيت,غرفة
+Bitagaz ,9ininat gaz,بيطاغاز,فنينة غاز
+blacar,khizana,بلاكار,خزانة
+Blaka ,lafita,بلاكا ,لافتة
+Blassa ,makan,بلاصة,مكان
+Blindi ,9awi,بلاندي,قوي
+Blombi ,samkari,بلومبي,سمكري
+Blousa ,sotra,بلوزا ,سترة
+Blouza ,sotra,بلوزا ,سترة
+bogoss,jamil,بوكوص,جميل
+Boita ,3olba,بواطة,علبة
+Bombiya ,2itfa2,بومبيا,اطفاء
+bonokasio ,mosta3mal,بونوكازيو,مستعمل
+Botona ,zirr,بوطونة,زر
+Boudra ,bodra,بودرة,بودرة
+Boussa ,9obla,بوسة,قبلة
+Bouftik ,machwi,بوفتيك,مشوي
+Boulice ,chorta,بوليس,شرفة
+Boulissi ,chorti,بوليسي,شرطي
+Boune ,2isal,بون ,ايصال
+Brossi,gharama,بروصي,غرامة
+Braki ,2in3arij,براكي,انعرج
+Branchi ,tawsil,برانشي,توصيل
+Bricoule ,3amal,بريكول,عمل
+Brize ,mi9bas,بريز,مقبس
+Broblime ,mochkil,بروبليم,مشكل
+Cabrane ,ra2is,كابران,رئيس
+Cader ,2itar,كادر,اطار
+Canappi ,2arika,كانابي,اريكة
+Carabila ,bondo9ia,كارابيلا,بندقية
+carda ,bita9a,كاردا,بطافة 
+Carni ,diftar,كارني,دفتر
+Cartonna,3olba,كارطونة,علبة
+caske,5oda,كاسك,خودة
+Cassecrotte ,shatira,كاسكروط,شطيرة
+Casserona ,mi9lat,كاسرونة,مقلاة
+Cassetat ,2ostwana,كاسيطات,اسطوانة
+Certafika ,chahada,سرتافيكا,شهادة
+champpane ,champoo,شامبان,شامبو
+Chanteyyo ,3ayyena,شانتيو,عينة
+charjane ,ra2is,شارجان,رئيس
+Chauffage ,tas5in,شوفاج,تسخين
+coiffoura,7alla9a,كوافورا,حلاقة
+Cidi,2ostwana,سيدي,اسطوانة
+cima,2ismant,سيما,اسمنت
+Chifor ,sa2i9,شيفور,سائق
+Chik ,2ani9,شيك,انيق
+Chiniwi ,sini,شينوي,صيني
+Chklat ,chokola,شكلاط,شوكولاتة
+Chlada ,salata,شلاضة,سلطة
+Chofo ,2ondoro,شوفو,انظروا
+Tirran ,mal3ab,تيران,ملعب
+Tit sui ,bisor3a,تيتسوي,بسرعة
+Tkonnecta ,2itasil,تكونكطا,اتصل
+Tobiss ,7afila,طوبيس,حافلة
+Tola ,toul,طولة,طول
+Tolanti ,daki,طولانطي,دكي
+Tonobile ,sayara,طونوبيل,سيارة
+torizatio,2idn,طوريزاسيو,ادن
+touni,9amis,توني,قميص
+Traboblik ,2achghal,طرابوبليك,اشغال
+trakss,2alia,طراكس,الية
+Trane ,9itar,تران,قطار
+Zmagri ,mohajir,زماكري,مهاجر
+Zmagria ,mohajira,زماكريا,مهاجرة
+Tricinti ,kahraba2i,نريسينتي,كهربائي
+Triciyanne ,kahraba2i,تريسيان,كهربائي
+Trikou ,9amis,تريكو,قميص
+Trini ,tadarrab,تريني,تدرب
+wiskiyya ,khamr,ويسكيا,خمر
+Xciri ,2asri3,كسيري,اسرع
+zina ,jamila,زينة,جميلة
+Conta ,,,
+Contable ,,,
+Contrada ,,,
+Contour,,,
+Controlour ,,,
+Corsa ,,,
+Costa ,,,
+cotabli ,,,
+Coubbania ,,,
+Coufitire,,,
+Coulandère ,,,
+Coumissariyya ,,,
+Coumissire ,,,
+Coumissiyou ,,,
+Counji ,,,
+Coupecircui ,,,
+Courda ,,,
+Courti ,,,
+coutremage,,,
+Couzina ,,,
+Crampowate ,,,
+Cridi ,,,
+Criyo ,,,
+Croi,,,
+Crouwwate ,,,
+Crofettes ,,,
+Crwassa ,,,
+Cryone ,,,
+Daktilou ,,,
+Dala,,,
+Danone ,,,
+Dial tronik ,,,
+Difandi ,,,
+Diffou,,,
+Digage ,,,
+Digourdi ,,,
+digri ,,,
+Dimirdi ,,,
+Dinifri ,,,
+dipanaj ,,,
+directour ,,,
+Dissire ,,,
+ditay ,,,
+Djine ,,,
+Dossé ,,,
+Douachche ,,,
+Doublvi ,,,
+Douliou ,,,
+Douzyamitta ,,,
+Drajiya ,,,
+Drougri ,,,
+El bala ,,,
+El couri ,,,
+El kamouni ,,,
+Elcazé ,,,
+elgaraj ,,,
+Ellaiba ,,,
+Errrouge ,,,
+Essirou ,,,
+Ettang ,,,
+Fabor ,,,
+Factoura,,,
+Fakance ,,,
+Fakanssi ,,,
+Famila ,,,
+Farchita ,,,
+Fargonite ,,,
+Farina,,,
+Farmaciyane ,,,
+Farmage,,,
+Fasma ,,,
+Fautouye ,,,
+Fayage ,,,
+Feniyane ,,,
+Fersada,,,
+Fermli ,,,
+féria ,,,
+Figoura ,,,
+Fijta ,,,
+Filage,,,
+Firma ,,,
+firouge ,,,
+Fisa,,,
+Fisibla ,,,
+F'laxe ,,,
+Flouka ,,,
+Fofili ,,,
+Formatih ,,,
+Fotoyette ,,,
+foulara,,,
+Fourmaja ,,,
+foussi,,,
+Fra ,,,
+Frachma ,,,
+frane amane,,,
+Galizi ,,,
+Garanti ,,,
+Garçone ,,,
+Gardaf/Tgrdif ,,,
+Garro,,,
+Garssone,,,
+Garssoniyya ,,,
+gartcor,,,
+Gazouza ,,,
+Gharrafe ,,,
+Godrone ,,,
+golvazeur ,,,
+Gormeta ,,,
+Gouma ,,,
+Grafata ,,,
+Grafouze ,,,
+graydi ,,,
+Grissoune ,,,
+Griyage,,,
+Growa,,,
+Gualizi ,,,
+guidoune ,,,
+Guirra ,,,
+Guitara ,,,
+Herniss,,,
+Intirnet ,,,
+Itrou ,,,
+Jabador ,,,
+Jabile ,,,
+Jadarmi ,,,
+Jakita ,,,
+Janta ,,,
+Jarda ,,,
+Jenyor ,,,
+Jidorange ,,,
+Jippa ,,,
+jmafou ,,,
+Jonglaje (en football) ,,,
+Jornal ,,,
+jwanate,,,
+Jwane ,,,
+jwane quilace ,,,
+Jwilla ,,,
+9abtane,,,
+kachir ,,,
+Kamira ,,,
+Kamiyyo ,,,
+Kammème ,,,
+kanbou,,,
+Kandironjik ,,,
+kaneta,,,
+Kantchatti ,,,
+Karouila ,,,
+Karrossa,,,
+Kartoucha ,,,
+Kasketa ,,,
+Kasseta ,,,
+Kawatchou ,,,
+Kayberdi ,,,
+Kerrata ,,,
+kika ,,,
+kilote ,,,
+Kina ,,,
+Klaketta,,,
+Kninir ,,,
+Kofra ,,,
+Kolomit ,,,
+Kombilizou ,,,
+Korba ,,,
+9ossini ,,,
+Kotlite ,,,
+Kouippa ,,,
+Koumandi ,,,
+Kouninique ,,,
+Kouninix ,,,
+koutpi ,,,
+Kroizma ,,,
+krouchi,,,
+Krtabla ,,,
+Kssida ,,,
+Kwafour ,,,
+kwipa,,,
+L'ambbane ,,,
+L9achla ,,,
+L9ass ,,,
+La jounisse ,,,
+La troussa ,,,
+Lababou ,,,
+labani ,,,
+Labiassoune ,,,
+Labilance ,,,
+Laboti ,,,
+lacab ,,,
+laciane,,,
+Lacrime ,,,
+Ladrissa ,,,
+Laféray ,,,
+Lafermière ,,,
+Lafizite ,,,
+Lafoute ,,,
+lagrice ,,,
+laglasse,,,
+Lajoudane ,,,
+Lakabe ,,,
+laktone ,,,
+Lalmane ,,,
+Lalouwa ,,,
+Lamba ,,,
+Lambriyage,,,
+laminiou ,,,
+Lamouzik ,,,
+Lanciyanate,,,
+Lanejolovère ,,,
+langri ,,,
+Lankoul ,,,
+Lanterre ,,,
+Lantiriss ,,,
+Lantrima ,,,
+laparay ,,,
+lapissine ,,,
+laraf ,,,
+Larbit ,,,
+Laricou ,,,
+larmonica ,,,
+Lasarge ,,,
+Lasetique ,,,
+Lasosse ,,,
+lassian ,,,
+Lassorance ,,,
+Lassorté (au nord du maroc) ,,,
+lavisselle ,,,
+lbainouar,,,
+Lbarazète,,,
+lbartma ,,,
+Lbatri ,,,
+lbayasse ,,,
+Lbbandi ,,,
+lbergma ,,,
+lbidanci(en milieu carcéral),,,
+Lbidgi ,,,
+Lbiltane ,,,
+Lbirmi ,,,
+lbis ,,,
+lbissri ,,,
+Lbiyyi ,,,
+lbolangé,,,
+Lbortabel ,,,
+Lbosta ,,,
+Lboutiyyou ,,,
+Lbrika ,,,
+Lbartkiz ,,,
+Lcarta ,,,
+Lcofere ,,,
+Lcotlit ,,,
+Lcourti ,,,
+ldigradi,,,
+Lejou ,,,
+Lézigou ,,,
+Lfagoune ,,,
+Lfidiou ,,,
+Lfirage ,,,
+l'firiti ,,,
+Lfitre ,,,
+Lforma ,,,
+Lforno,,,
+Lfouriyane ,,,
+Lfrachet ,,,
+Lfransis ,,,
+lfrizi ,,,
+Lfrite ,,,
+Lgamila ,,,
+Lgrima ,,,
+lgro ,,,
+Lgrone ,,,
+lgrouwa,,,
+Lguèz ,,,
+lguerrouj ,,,
+Libwa ,,,
+licance,,,
+Likobtère ,,,
+Limiche ,,,
+Lingalizassioune ,,,
+Lingri,,,
+lintrite ,,,
+Lissance ,,,
+Lissi ,,,
+Lissi passi ,,,
+lista ,,,
+Lizindiyane ,,,
+Lkaryane ,,,
+lkayass ,,,
+lkokote ,,,
+Lkorfi ,,,
+Lkoufitire ,,,
+lkoulla,,,
+Lkoussanate ,,,
+lmadame ,,,
+Lmaleta ,,,
+Lmanda ,,,
+lmanda,,,
+Lmandari,,,
+lmanéta ,,,
+Lmarchi ,,,
+Lmarrok ,,,
+lmatariane,,,
+Lmatricoule ,,,
+lmikaniciane,,,
+Lmirikane ,,,
+Lmitrou ,,,
+lmizeria ,,,
+lmnoune ,,,
+Lmobéta ,,,
+Lmoliyyate ,,,
+Lmostache ,,,
+Lmouble ,,,
+lorma ,,,
+Lorope ,,,
+Lotel ,,,
+Lotissma,,,
+Loto ,,,
+Louzine ,,,
+lparasol ,,,
+lpince ,,,
+lranje ,,,
+Lvitrina ,,,
+Machina ,,,
+Macronia ,,,
+Magaza ,,,
+Makina,,,
+makiyaje ,,,
+mandarina,,,
+Mannak ,,,
+manouvri ,,,
+Marchariane,,,
+Marchi kriou ,,,
+Marca ,,,
+Marmeta ,,,
+Martobe ,,,
+matrikul,,,
+Mazote,,,
+Mballi ,,,
+Mblissi ,,,
+mbloki ,,,
+mbouché,,,
+mchomer ,,,
+Mcoinci ,,,
+mechcha ,,,
+mforé ,,,
+Ménioule ,,,
+Messyou ,,,
+Mezika ,,,
+mgagi,,,
+mgrissi,,,
+Mika ,,,
+mikkiyate,,,
+Milla ,,,
+Milfaya ,,,
+Minitire ,,,
+Minote ,,,
+Mirna ,,,
+Mitowale ,,,
+Mitrou,,,
+Mizi,,,
+mnirvi,,,
+monada,,,
+motarde ,,,
+mounica ,,,
+moullieuteno ,,,
+Mountif ,,,
+Moutour ,,,
+mréziga ,,,
+Mriguel ,,,
+msenter ,,,
+mserkel ,,,
+msoféj,,,
+msouger ,,,
+Mssouri ,,,
+Mzerti (du militaire) ,,,
+Mzzika ,,,
+Neglizi ,,,
+Nemra ,,,
+Nif ,,,
+Nimiro dtilifone ,,,
+Nemra,,,
+Oronji ,,,
+Oulimane ,,,
+Paleta ,,,
+palmates ,,,
+paltofa,,,
+pamor,,,
+Pamort ,,,
+Pantalo ,,,
+Parkine ,,,
+patanat ,,,
+Patronne ,,,
+pédalat ,,,
+pekala ,,,
+pélota ,,,
+piéca,,,
+pilanti ,,,
+Pille ,,,
+Piniza ,,,
+Pipa ,,,
+Plancha ,,,
+Pipi ,,,
+plaquetta,,,
+Plastika ,,,
+Pnou,,,
+Pocheta ,,,
+Pommada ,,,
+Ponja ,,,
+Poplapon ,,,
+Portecliyyate ,,,
+Posterates ,,,
+Poupouya,,,
+Pouvriyya ,,,
+Proumiane,,,
+Proutigi ,,,
+proumière métta,,,
+Ptipana ,,,
+Radiounne ,,,
+raketa ,,,
+Ramppa ,,,
+Randivou ,,,
+Raya ,,,
+Rayyonates ,,,
+Recibo,,,
+Remoke ,,,
+Restora ,,,
+Ridou ,,,
+Rijime ,,,
+Rissiptour,,,
+Riviya ,,,
+Robini ,,,
+rolma,,,
+Rondellate ,,,
+Roulou ,,,
+Roune ,,,
+Routal ,,,
+Rweda ,,,
+Sabouna ,,,
+Safi ,,,
+salgot ,,,
+Saligani ,,,
+Sandala ,,,
+Sandé ,,,
+Sandriyi ,,,
+Sansour ,,,
+Santème ,,,
+santrale ,,,
+sardil,,,
+Sarjeur ,,,
+Sbardila ,,,
+Sbiritou ,,,
+Sbissial ,,,
+Sbitar ,,,
+Semana ,,,
+serbay ,,,
+Serbisse ,,,
+Serbita ,,,
+Sérféte ,,,
+Seroual 9andrissa ,,,
+Sertafica ,,,
+Sertafica,,,
+Sictoure ,,,
+Sidi ,,,
+Sikiriti ,,,
+Silikssiouna ,,,
+Silissioune ,,,
+siloufane ,,,
+Siloune ,,,
+Simarmouk ,,,
+Sinyale ,,,
+sipir marchi ,,,
+Sitirna,,,
+Sizi ,,,
+Skolétte ,,,
+Skouila ,,,
+Sobba ,,,
+Socite,,,
+Sonepipin ,,,
+Soubbir loux ,,,
+Soudour ,,,
+Souiyyek ,,,
+Soulima ,,,
+Soumija,,,
+Soumila,,,
+Soupira ,,,
+Soupissa ,,,
+Sourci,,,
+Souttiyamate ,,,
+Souvitma ,,,
+Spicteur ,,,
+Srdine ,,,
+Ssiyyi ,,,
+Stafite ,,,
+Stafite ,,,
+Stagère ,,,
+Stalassioun ,,,
+Stali ,,,
+Stilou ,,,
+Suiglasses ,,,
+Tabboze ,,,
+Tabla ,,,
+tablia ,,,
+Tablo ,,,
+tacherone ,,,
+Tamara ,,,
+tansiou ,,,
+Tanssiyou ,,,
+Tapi ,,,
+Tappiya ,,,
+Tarifa ,,,
+Tassa,,,
+Taubba ,,,
+tbogissa ,,,
+Tchoumira ,,,
+tconnecta,,,
+Teciri ,,,
+Tenber ,,,
+Ténifoule ,,,
+Tgrissite ,,,
+Ticarbone ,,,
+Tide ,,,
+Tikita ,,,
+Tiknik ,,,
+Tiliboutik ,,,
+Tilicommode ,,,
+Tilifiziyoun ,,,
+Tilifoun,,,
+Tingrafa ,,,
+tinissa,,,
+Tinnissa ,,,
+tiri ,,,
+Tirkoise ,,,
