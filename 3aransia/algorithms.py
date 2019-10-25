@@ -1,5 +1,73 @@
+import sys
+
 import pandas as pd
+import numpy as np
 import nltk
+
+from constants import *
+
+# Translate a Moroccan letter to an Arabian letter
+def morrocan_letter_to_arabian_letter(letter, position, word_length): 
+    alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
+    if position == 0:
+        values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['BeginningofWord']
+        return values.values[0]
+    elif position == word_length:
+        values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['EndofWord']
+        return values.values[0]
+    elif position == -1:
+        values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet']
+        return values.values[0]
+    elif position > 0:
+        values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['MiddleofWord']
+        return values.values[0]
+
+# Translate Moroccan to Arabic
+def moroccan_to_arabic(_str):
+    alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
+    arabian_translation = []
+    for word in _str.split():
+        arabian_word = []
+        word = word.lower()
+        word_iterator = iter(range(len(word)))
+        for i in word_iterator:
+            if word[i] in ['l'] and i+1 != len(word) and word[i+1] == 'a':
+                arabian_word.append(morrocan_letter_to_arabian_letter('la', i , len(word)))
+                next(word_iterator)
+            elif word[i] in ['c'] and i+1 != len(word) and word[i+1] == 'h':
+                arabian_word.append(morrocan_letter_to_arabian_letter('ch', i , len(word)))
+                next(word_iterator)
+            elif word[i] in ['k'] and i+1 != len(word) and word[i+1] == 'h':
+                arabian_word.append(morrocan_letter_to_arabian_letter('kh', i, len(word)))
+                next(word_iterator)
+            elif word[i] in ['s'] and i+1 != len(word) and word[i+1] == 'h':
+                arabian_word.append(morrocan_letter_to_arabian_letter('sh', i, len(word)))
+                next(word_iterator)
+            elif word[i] in ['g'] and i+1 != len(word) and word[i+1] == 'h':
+                arabian_word.append(morrocan_letter_to_arabian_letter('gh', i, len(word)))
+                next(word_iterator)
+            else:
+                if i == 0:
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], 0, len(word)))
+                elif i == len(word)-1:
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], -1, len(word)))
+                elif i > 1 and (word[i-2] in ['d', 'a', 'o', 'w', 'r', 'z', 'u']) and word[i-1] == 'e':
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], -1, len(word)))
+                elif i > 0 and word[i-1] in ['d', 'a', 'o', 'w', 'r', 'z', 'u']:
+                    if (i+1 <= len(word)-1 and word[i+1] == 'e') or i == len(word)-1:
+                        arabian_word.append(morrocan_letter_to_arabian_letter(word[i], -1, len(word)))
+                    elif i > 0:
+                        arabian_word.append(morrocan_letter_to_arabian_letter(word[i], 0, len(word)))
+                elif i != len(word)-1 and i+1 == len(word) - 1 and word[i+1] == 'e':
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], len(word), len(word)))
+                
+                else:
+                    arabian_word.append(morrocan_letter_to_arabian_letter(word[i], i, len(word)))
+        arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
+    return arabian_translation
+
+# Translate Arabic to Moroccan
+# TODO
 
 # Function to compute the distance between two words
 def word_distance(word_1, word_2):
@@ -9,7 +77,7 @@ def word_distance(word_1, word_2):
 def letter_to_substitute(l):
     if l == '7': 
         return 'h'
-    elif l == '9': 
+    if l == '9': 
         return 'q'
     else : 
         return l
@@ -50,17 +118,15 @@ def validate_dictionary(dictionary):
 
 # Temporary function to test
 def run_tests():
-    print(word_to_substitute('7alwa'))
-    print(word_to_substitute('9o9o'))
-    print(validate_dictionary('data/dictionary.csv'))
-    print(word_distance("7alwa", "halwa"))
-    print(word_distance("Halwa", "halwa"))
-    print(generate_close_words(2, ''' 3aransia 3ebass 3la 3lache 3lak 3jbek ach achno 
-ahlen alkhir allah amine amine ana ana ans atkounou awedi aychre7 b9aw ba bikher 
-casa chadha couiya course da7k daba dakchi de7k dial dwa et ewa fen fin fin 
-ghi had hada hadi hamdolillah hmd hmed hna ilyass incha inshaallah inshaallah iyeh 
-jme3te kanmote khbar kidayer l3dou la3be lek lhal li lmoute lwer9a ma3autechlik 
-makaynch man mazal men mezian n3ass nass nour nta ounta parcours pieds plus rah 
-rak rani sa3a sa7bi sa7eb sahlen sbah sidi tan3ess tou7achnak twelef wata yhfde yhfdek zine'''))
+#     print(word_to_substitute('7alwa'))
+#     print(word_to_substitute('9o9o'))
+#     print(validate_dictionary('data/' + OPEN_DICTIONARY))
+#     print(word_distance("7alwa", "halwa"))
+#     print(word_distance("Halwa", "halwa"))
+    moroccan_words = pd.read_csv('data/' + OPEN_DICTIONARY)
+#     print(generate_close_words(2, ' '.join(moroccan_words["LDM"])))
+    for word in moroccan_to_arabic(' '.join(moroccan_words["LDM"])):
+        print(word)
+
 
 run_tests()
