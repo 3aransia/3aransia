@@ -29,7 +29,6 @@ def morrocan_letter_to_arabian(letter, position, word_length):
 
 # Translate Moroccan double letter to Arabian letter
 def moroccan_double_letter_to_arabian(double_letter, position, word):
-    flag = False
     alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
     for i in range(len(word)):
         if double_letter == 'la':
@@ -45,6 +44,13 @@ def moroccan_double_letter_to_arabian(double_letter, position, word):
         elif double_letter == 'ou':
             return morrocan_letter_to_arabian('ou', i, len(word))
 
+# Translate duplicate Moroccan letter to Arabian letter
+def moroccan_duplicate_letter_to_arabian(duplicate_letter, position, word):
+    alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
+    for i in range(len(word)):
+         if duplicate_letter in DUPLICATE_MOROCCAN_LETTERS:
+            return morrocan_letter_to_arabian(duplicate_letter, i , len(word))
+
 # Translate Moroccan to Arabic
 def moroccan_to_arabic(_str):
     alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
@@ -58,6 +64,9 @@ def moroccan_to_arabic(_str):
                 if word[:2] in DOUBLE_MOROCCAN_LETTERS:
                     arabian_word.append(moroccan_double_letter_to_arabian(word[0:2], 0, word))
                     next(word_iterator)
+                elif word[:2] in DUPLICATE_MOROCCAN_LETTERS:
+                    arabian_word.append(moroccan_duplicate_letter_to_arabian(word[0:2], 0, word))
+                    next(word_iterator)
                 else:
                     arabian_word.append(morrocan_letter_to_arabian(word[i], 0, len(word)))
             
@@ -69,6 +78,9 @@ def moroccan_to_arabic(_str):
                     if i+1 < len(word)-1 and (word[i:i+2] in DOUBLE_MOROCCAN_LETTERS):
                         arabian_word.append(moroccan_double_letter_to_arabian(word[i:i+2], -1, word))
                         next(word_iterator)
+                    elif i+1 < len(word)-1 and (word[i:i+2] in DUPLICATE_MOROCCAN_LETTERS):
+                        arabian_word.append(moroccan_duplicate_letter_to_arabian(word[i:i+2], -1, word))
+                        next(word_iterator)
                     else:
                         arabian_word.append(morrocan_letter_to_arabian(word[i], -1, len(word)))
                 elif (i+1 <= len(word)-1 and word[i+1] == 'e') or i == len(word)-1:
@@ -77,12 +89,18 @@ def moroccan_to_arabic(_str):
                     if i+1 < len(word)-1 and (word[i:i+2] in DOUBLE_MOROCCAN_LETTERS):
                         arabian_word.append(moroccan_double_letter_to_arabian(word[i:i+2], 0, word))
                         next(word_iterator)
+                    elif i+1 < len(word)-1 and (word[i:i+2] in DUPLICATE_MOROCCAN_LETTERS):
+                        arabian_word.append(moroccan_duplicate_letter_to_arabian(word[i:i+2], 0, word))
+                        next(word_iterator)
                     else:
                         arabian_word.append(morrocan_letter_to_arabian(word[i], 0, len(word)))
             
             elif i < len(word)-2 and i+2 == len(word)-1 and word[i+2] == 'e':
                 if i+1 < len(word)-1 and (word[i:i+2] in DOUBLE_MOROCCAN_LETTERS):
                     arabian_word.append(moroccan_double_letter_to_arabian(word[i:i+2], i, word))
+                    next(word_iterator)
+                elif i+1 < len(word)-1 and (word[i:i+2] in DUPLICATE_MOROCCAN_LETTERS):
+                    arabian_word.append(moroccan_duplicate_letter_to_arabian(word[i:i+2], i, word))
                     next(word_iterator)
                 else:
                     arabian_word.append(morrocan_letter_to_arabian(word[i], i, len(word)))
@@ -94,6 +112,9 @@ def moroccan_to_arabic(_str):
                 if i+1 < len(word)-1 and (word[i:i+2] in DOUBLE_MOROCCAN_LETTERS):
                     arabian_word.append(moroccan_double_letter_to_arabian(word[i:i+2], -1, word))
                     next(word_iterator)
+                elif i+1 < len(word)-1 and (word[i:i+2] in DUPLICATE_MOROCCAN_LETTERS):
+                    arabian_word.append(moroccan_duplicate_letter_to_arabian(word[i:i+2], -1, word))
+                    next(word_iterator)
                 else:
                     arabian_word.append(morrocan_letter_to_arabian(word[i], -1, len(word)))
             
@@ -101,9 +122,15 @@ def moroccan_to_arabic(_str):
                 if i+1 < len(word)-1 and (word[i:i+2] in DOUBLE_MOROCCAN_LETTERS):
                     arabian_word.append(moroccan_double_letter_to_arabian(word[i:i+2], i, word))
                     next(word_iterator)
+                elif i+1 < len(word)-1 and (word[i:i+2] in DUPLICATE_MOROCCAN_LETTERS):
+                    arabian_word.append(moroccan_duplicate_letter_to_arabian(word[i:i+2], i, word))
+                    next(word_iterator)
                 else:
                     arabian_word.append(morrocan_letter_to_arabian(word[i], i, len(word)))
-        arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
+        try:
+            arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
+        except TypeError as e:
+            print(e)
     return arabian_translation
 
 # Translate Arabic to Moroccan
