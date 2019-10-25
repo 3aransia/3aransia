@@ -40,7 +40,7 @@ def moroccan_to_arabic(_str):
                 arabian_word.append(morrocan_letter_to_arabian_letter('sh', i, len(word)))
                 next(word_iterator)
             else:
-                if i != len(word) - 1 and i+1 == len(word) - 1 and word[i+1] == 'e' and (word[i-1] in ['d', 'a', 'o', 'w', 'r', 'z', 'u']):
+                if i+1 == len(word)-1 and word[i+1] == 'e' and (word[i-1] in ['d', 'a', 'o', 'w', 'r', 'z', 'u']):
                     arabian_word.append(morrocan_letter_to_arabian_letter(word[i], -1, len(word)))
                 elif i != len(word) - 1 and i+1 == len(word) - 1 and word[i+1] == 'e':
                     arabian_word.append(morrocan_letter_to_arabian_letter(word[i], len(word), len(word)))
