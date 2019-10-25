@@ -33,6 +33,9 @@ def moroccan_to_arabic(_str):
             elif word[i] in ['k', 'K'] and i+1 != len(word) and word[i+1] == 'h':
                 arabian_word.append(morrocan_letter_to_arabian_letter('kh', i, len(word)))
                 next(word_iterator)
+            elif word[i] in ['s', 'S'] and i+1 != len(word) and word[i+1] == 'h':
+                arabian_word.append(morrocan_letter_to_arabian_letter('sh', i, len(word)))
+                next(word_iterator)
             else :
                 arabian_word.append(morrocan_letter_to_arabian_letter(word[i], i, len(word)))
         arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
