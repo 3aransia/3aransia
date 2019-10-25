@@ -12,3 +12,6 @@ LOWER_ENGLISH_VOWELS = ['a', 'e', 'i', 'o', 'u', 'y']
 LOWER_ENGLISH_CONSONS = list(set(LOWER_ENGLISH_ALPHABET) - set(LOWER_ENGLISH_VOWELS))
 
 NUMBERS = '0123456789'
+
+DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh']
+MOROCCAN_ENDING_LETTERS = ['d', 'a', 'o', 'w', 'r', 'z', 'u']
