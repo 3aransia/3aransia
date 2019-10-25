@@ -9,14 +9,21 @@ def moroccan_to_arabic(_str):
     arabian_translation = []
     for word in _str.split():
         arabian_word = []
-        for c in word:
+        word_iterator = iter(range(len(word)))
+        for i in word_iterator:
             for (m, a) in zip(alphabet['MoroccanAlphabet'], alphabet['ArabianAlphabet']):
-                if c == m:
+                if word[i] == 'c':
+                    if i != len(word) and word[i+1] == 'h':
+                        arabian_word.append('ش')
+                        next(word_iterator)
+                        break
+                if word[i] == m:
                     arabian_word.append(a)
-                    pass
-        arabian_translation.append(''.join(arabian_word[::-1]))
+                    break
+        arabian_translation.append((word, (''.join(arabian_word[::-1]).replace(u'\u200e', ''))))
     
-    return ' '.join(arabian_translation[::-1])
+    # return ' '.join(arabian_translation[::-1])
+    return arabian_translation
 
 # Translate Arabic to Moroccan
 
