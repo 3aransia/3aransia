@@ -1,53 +1,53 @@
-,LDM,LDA,MA,A
-0,lmofradat,almofradat,مفردات, المفردات
-1,boldane,boldan,بلدان, البلدان
-2,oustouraliya ,ostoralia,استراليا, أستراليا
-3,kombodje ,kambodia,كامبودج, كمبوديا
-4,kanada ,kanada,كندا, كندا
-5,sine ,sin,الصين, الصين
-6,missre ,masr,مصر, مصر
-7,naglize ,inglaterra,نجليز, انكلترا
-8,franssa ,faransa,فرانسا, فرنسا
-9,almaniya ,almania,المانيا, ألمانيا
-10,younane ,alyounan,يونان , اليونان
-11,hind ,alhind,الهند, الهند
-12,andounissiya ,indonisia,اندونيسيا, أندونيسيا
-13,taliane ,italia,ايطاليا, إيطاليا
-14,japoune ,alyaban,اليابان, اليابان
-15,mixik,almixik,المكسيك, المكسيك
-16,maghrib,almaghrib,المغريب, المغرب
-17,pirou ,birou,بيرو, بيرو
-18,sbaniya ,2ispania,اسبانيا, إسبانيا
-19,taylande ,tailand,طايلاند, تايلاند
-20,mirikane ,alwilayat almota7ida alamrikia,ميريكان, الولايات المتحدة الأمريكية
-22,loghat,loghat,لوغات, لغات
-23,3arbia,al3arabia,لعربية, العربية
-24,siniya ,asinia,صينية, الصينية
-25,nagliziya ,al2inglizia,نجليزية, الإنجليزية
-26,fransawiya ,alfaransia,فرنساويا, الفرنسية
-27,almania,alalmania,المانيا, الألمانية
-28,younaniya ,alyounanya,يونانيا, اليونانية
-29,ihoudiya ,al3ibria,يهودية, العبرية
-30,hindiya ,alhindia,هندية, الهندية
-31,italiya ,al2italia,ايطالية, الإيطالي
-32,japoniya ,alyabania,جابونية, اليابانية
-33,kordiya ,alkouria,كورية, الكورية
-34,latiniya ,latinia,لاتينية, لاتينية
-35,roussiya ,roussia,روسية, الروسية
-36,spaniouliya ,2ispania,صبليونية, الأسبانية
-37,2ordia,al2ordia,الاردية, الأردية
-39,lyamate ,2ayam,ليامات, أيام
-40,tnine ,2ithnayn,تنين, الاثنين
-41,tlate ,tholatha2,تلات, الثلاثاء
-42,larb3a,2arbi3a2,لاربعا, الأربعاء
-43,5amis,5amis,الخميس, الخميس
-44,jam3a,jomo3a,جمعة, الجمعة
-45,sabte ,sabt,سبت, السبت
-46,7add,2a7ad,الحد, الأحد
-48,marra ,marra,مرة, مرة
-49,sa3a,sa3a,ساعة, ساعة
-50,d9i9a,da9i9a,دقيقة, دقيقة
-51,taniya ,thania,تانية, ثان
+ID,LDM,LDA,MA,A
+0,lmofradat,almofradat,مفردات,المفردات
+1,boldane,boldan,بلدان,البلدان
+2,oustouraliya,ostoralia,استراليا,أستراليا
+3,kombodje,kambodia,كامبودج,كمبوديا
+4,kanada,kanada,كندا,كندا
+5,sine,sin,الصين,الصين
+6,missre,masr,مصر,مصر
+7,naglize,inglaterra,نجليز,انكلترا
+8,franssa,faransa,فرانسا,فرنسا
+9,almaniya,almania,المانيا,ألمانيا
+10,younane,alyounan,يونان,اليونان
+11,hind,alhind,الهند,الهند
+12,andounissiya,indonisia,اندونيسيا,أندونيسيا
+13,taliane,italia,ايطاليا,إيطاليا
+14,japoune,alyaban,اليابان,اليابان
+15,mixik,almixik,المكسيك,المكسيك
+16,maghrib,almaghrib,المغريب,المغرب
+17,pirou,birou,بيرو,بيرو
+18,sbaniya,2ispania,اسبانيا,إسبانيا
+19,taylande,tailand,طايلاند,تايلاند
+20,mirikane,alwilayatalmota7idaalamrikia,ميريكان,الولاياتالمتحدةالأمريكية
+22,loghat,loghat,لوغات,لغات
+23,3arbia,al3arabia,لعربية,العربية
+24,siniya,asinia,صينية,الصينية
+25,nagliziya,al2inglizia,نجليزية,الإنجليزية
+26,fransawiya,alfaransia,فرنساويا,الفرنسية
+27,almania,alalmania,المانيا,الألمانية
+28,younaniya,alyounanya,يونانيا,اليونانية
+29,ihoudiya,al3ibria,يهودية,العبرية
+30,hindiya,alhindia,هندية,الهندية
+31,italiya,al2italia,ايطالية,الإيطالي
+32,japoniya,alyabania,جابونية,اليابانية
+33,kordiya,alkouria,كورية,الكورية
+34,latiniya,latinia,لاتينية,لاتينية
+35,roussiya,roussia,روسية,الروسية
+36,spaniouliya,2ispania,صبليونية,الأسبانية
+37,2ordia,al2ordia,الاردية,الأردية
+39,lyamate,2ayam,ليامات,أيام
+40,tnine,2ithnayn,تنين,الاثنين
+41,tlate,tholatha2,تلات,الثلاثاء
+42,larb3a,2arbi3a2,لاربعا,الأربعاء
+43,5amis,5amis,الخميس,الخميس
+44,jam3a,jomo3a,جمعة,الجمعة
+45,sabte,sabt,سبت,السبت
+46,7add,2a7ad,الحد,الأحد
+48,marra,marra,مرة,مرة
+49,sa3a,sa3a,ساعة,ساعة
+50,d9i9a,da9i9a,دقيقة,دقيقة
+51,taniya,thania,تانية,ثان
 ,sme7lia,asif,سمحلي,اسف
 ,besse7a,tahani,بصحة,تهاني
 ,beslama,wada3an,بسلامة,وداعا
@@ -74,16 +74,16 @@
 ,Wakha,na3am,واخا,نعم
 ,Daba,7alan,دابا,حالا
 ,W,wa,و,و
-,Mashi ,laisa,ماشي,ليس
+,Mashi,laisa,ماشي,ليس
 ,Bghit,2orid,بغيت,اريد
 ,Salit,2intahait,ساليت,انتهيت
 ,Zwin,jamil,زوين,جميل
 ,Khayb,9abi7,خايب,قبيح
 ,Mezyan,jayyed,مزيان,جيد
 ,hder,takallam,هضر,تكلم
-,fhem,faham, فهم,فهم
-,flous,no9oud, فلوس,نقود
-,Hak,khod,هاك ,خد
+,fhem,faham,فهم,فهم
+,flous,no9oud,فلوس,نقود
+,Hak,khod,هاك,خد
 ,Safi,mafhoum,صافي,مفهوم
 ,Mebrouk,mabrouk,مبروك,مبروك
 ,3ya,ta3ab,عيا,تعب
