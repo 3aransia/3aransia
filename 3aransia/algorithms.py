@@ -11,15 +11,12 @@ def morrocan_letter_to_arabian_letter(letter, position, word_length):
     alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
     if position == 0:
         value = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['BeginningofWord']
-        print(value.values[0])
         return value.values[0]
     elif position == word_length:
         value = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['EndofWord']
-        print(value.values[0])
         return value.values[0]
     elif position > 0:
         value = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['MiddleofWord']
-        print(value.values[0])
         return value.values[0]
 
 # Translate Moroccan to Arabic
@@ -39,12 +36,10 @@ def moroccan_to_arabic(_str):
             else :
                 arabian_word.append(morrocan_letter_to_arabian_letter(word[i], i, len(word)))
         arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
-    
-    # return ' '.join(arabian_translation[::-1])
     return arabian_translation
 
 # Translate Arabic to Moroccan
-
+# TODO
 
 # Function to compute the distance between two words
 def word_distance(word_1, word_2):
