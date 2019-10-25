@@ -3,7 +3,7 @@ lmofradat,almofradat,مفردات,المفردات
 boldane,boldan,بلدان,البلدان
 oustouraliya,ostoralia,استراليا,أستراليا
 kombodje,kambodia,كامبودج,كمبوديا
-kanada,kanada,كندا,كندا
+canada,canada,كندا,كندا
 sine,sin,الصين,الصين
 missre,masr,مصر,مصر
 naglize,inglaterra,نجليز,انكلترا
@@ -164,15 +164,15 @@ Sekkar,sokkar,سكر,سكر
 Atay,chay,أتاي,شاي
 L7em,la7m,لحم,لحم
 Khell,khal,خل,خل
-Shkoun ?,mann,شْكُون؟,من
-Ashno ? Ash ? Shno ?,mada,أَشْنُو؟ أَشْ؟ شنو؟,مادا
-3lash ?,lima ,عْلاش؟,لما
-Lash ?,limada,لاش؟,لمادا
-Fin ?,ayna,فِينْ؟,اين
-Imta? / Fouqash,mata,إِيمْتا؟/ فوقاش؟,متى
-Lemen ?,liman,لمن؟,لمن
-Kifash ?,kaifa,كيفاشْ؟,كيف
-Sh7al ?,kamm ,شحال؟,كم
+Shkoun,mann,شْكُون,من
+Ashno,mada,أََشْ شنو,مادا
+3lash,lima ,عْلاش,لما
+Lash,limada,لاش,لمادا
+Fin,ayna,فِينْ,اين
+Imta,mata,فوقاش,متى
+Lemen,liman,لمن,لمن
+Kifash,kaifa,كيفاشْ,كيف
+Sh7al,kamm ,شحال,كم
 Feddi,feddi,فضي,فضي
 Bij,beige,بيج,بيج
 Byed,abyad,بيض,ابيض
@@ -499,7 +499,7 @@ frane amane,,,
 Galizi ,,,
 Garanti ,,,
 Garçone ,,,
-Gardaf/Tgrdif ,,,
+Gardaf,,,
 Garro,,,
 Garssone,,,
 Garssoniyya ,,,
@@ -533,7 +533,7 @@ Jenyor ,,,
 Jidorange ,,,
 Jippa ,,,
 jmafou ,,,
-Jonglaje (en football) ,,,
+Jonglaje,,,
 Jornal ,,,
 jwanate,,,
 Jwane ,,,
@@ -625,7 +625,7 @@ Lasetique ,,,
 Lasosse ,,,
 lassian ,,,
 Lassorance ,,,
-Lassorté (au nord du maroc) ,,,
+Lassorté ,,,
 lavisselle ,,,
 lbainouar,,,
 Lbarazète,,,
@@ -634,7 +634,7 @@ Lbatri ,,,
 lbayasse ,,,
 Lbbandi ,,,
 lbergma ,,,
-lbidanci(en milieu carcéral),,,
+lbidanci,,,
 Lbidgi ,,,
 Lbiltane ,,,
 Lbirmi ,,,
@@ -773,7 +773,7 @@ mserkel ,,,
 msoféj,,,
 msouger ,,,
 Mssouri ,,,
-Mzerti (du militaire) ,,,
+Mzerti ,,,
 Mzzika ,,,
 Neglizi ,,,
 Nemra ,,,

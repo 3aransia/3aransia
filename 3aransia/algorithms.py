@@ -130,7 +130,7 @@ def moroccan_to_arabic(_str):
         try:
             arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
         except TypeError as e:
-            print(e)
+            print(e, word)
     return arabian_translation
 
 # Translate Arabic to Moroccan
@@ -185,15 +185,10 @@ def validate_dictionary(dictionary):
 
 # Temporary function to test
 def run_tests():
-#     print(word_to_substitute('7alwa'))
-#     print(word_to_substitute('9o9o'))
-#     print(validate_dictionary('data/' + OPEN_DICTIONARY))
-#     print(word_distance("7alwa", "halwa"))
-#     print(word_distance("Halwa", "halwa"))
     moroccan_words = pd.read_csv('data/' + OPEN_DICTIONARY)
-#     print(generate_close_words(2, ' '.join(moroccan_words["LDM"])))
+    print(f'Number of words to translate : {len(moroccan_to_arabic(" ".join(moroccan_words["LDM"])))}')
     for word in moroccan_to_arabic(' '.join(moroccan_words["LDM"])):
         print(word)
-
-
+    
+# Runnin the tests
 run_tests()
