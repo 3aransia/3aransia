@@ -38,7 +38,6 @@ def moroccan_to_arabic(_str):
                 next(word_iterator)
             else :
                 arabian_word.append(morrocan_letter_to_arabian_letter(word[i], i, len(word)))
-        print(word, arabian_word)
         arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
     
     # return ' '.join(arabian_translation[::-1])
