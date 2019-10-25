@@ -13,6 +13,7 @@ def moroccan_to_arabic(_str):
             for (m, a) in zip(alphabet['MoroccanAlphabet'], alphabet['ArabianAlphabet']):
                 if c == m:
                     arabian_word.append(a)
+                    pass
         arabian_translation.append(''.join(arabian_word[::-1]))
     
     return ' '.join(arabian_translation[::-1])
