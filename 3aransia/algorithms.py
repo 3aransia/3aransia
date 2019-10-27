@@ -151,13 +151,8 @@ def letter_to_substitute(l):
 
 # Word counter
 def word_count(_str):
-    counts = dict()
     words = _str.split()
-    for word in words:
-        if word in counts:
-            counts[word] += 1
-        else:
-            counts[word] = 1
+    counts = {word: _str.count(word) for word in words}
     return counts
 
 # Get duplicated
