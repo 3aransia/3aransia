@@ -56,6 +56,6 @@ python setup.py
 
 ## Other related projects
 
-- [3aransia](https://github.com/3aransia/3aransia.web) The core application 3aransia
 - [3aransia.api](https://github.com/3aransia/3aransia.api) The API of 3aransia
+- [3aransia.web](https://github.com/3aransia/3aransia.web) The web app of 3aransia
 - [3aransia.github.io](https://github.com/3aransia/3aransia.github.io) The presentation, documentation and blog of 3aransia
