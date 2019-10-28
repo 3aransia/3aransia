@@ -153,9 +153,7 @@ def letter_to_substitute(l):
 
 # Word counter
 def word_count(_str):
-    words = _str.split()
-    counts = {word: _str.count(word) for word in words}
-    return counts
+    return {word: _str.count(word) for word in _str.split()}
 
 # Get duplicated
 def generate_duplicates(_str):
