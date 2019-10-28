@@ -47,10 +47,6 @@ cd 3aransia
 python setup.py
 ```
 
-### 3aransia
-
-`http://127.0.0.1:8000/`
-
 ## Authors
 
 - [AUTHORS.md](https://github.com/3aransia/3aransia/blob/develop/AUTHORS.md)
