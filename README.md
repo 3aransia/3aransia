@@ -13,9 +13,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Prerequisites
 
-[`Python 3.7`](https://www.python.org/downloads/)
-[`Nltk 3.4`](https://www.nltk.org/install.html)
-[`Pandas`](https://pandas.pydata.org/pandas-docs/stable/install.html)
+- [`Python 3.7`](https://www.python.org/downloads/)
+- [`Nltk 3.4`](https://www.nltk.org/install.html)
+- [`Pandas`](https://pandas.pydata.org/pandas-docs/stable/install.html)
 
 ## Installing
 
