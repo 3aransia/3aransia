@@ -4,11 +4,11 @@ import pandas as pd
 import numpy as np
 import nltk
 
-from constants import *
+from _3aransia.constants import *
 
 # Translate a Moroccan letter to an Arabian letter
 def morrocan_letter_to_arabian(letter, position, word_length): 
-    alphabet = pd.read_csv(CURRENT_DIR + DATA_DIR + MOROCCAN_ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     try:
         if position == 0:
             values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['BeginningofWord']
@@ -29,7 +29,7 @@ def morrocan_letter_to_arabian(letter, position, word_length):
 
 # Translate Moroccan double letter to Arabian letter
 def moroccan_double_letter_to_arabian(double_letter, position, word):
-    alphabet = pd.read_csv(CURRENT_DIR + DATA_DIR + MOROCCAN_ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     for i in range(len(word)):
         if double_letter == 'la':
             return morrocan_letter_to_arabian('la', i , len(word))
@@ -46,14 +46,14 @@ def moroccan_double_letter_to_arabian(double_letter, position, word):
 
 # Translate duplicate Moroccan letter to Arabian letter
 def moroccan_duplicate_letter_to_arabian(duplicate_letter, position, word):
-    alphabet = pd.read_csv(CURRENT_DIR + DATA_DIR + MOROCCAN_ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     for i in range(len(word)):
          if duplicate_letter in DUPLICATE_MOROCCAN_LETTERS:
             return morrocan_letter_to_arabian(duplicate_letter, i , len(word))
 
 # Translate Moroccan to Arabic
 def moroccan_to_arabic(_str):
-    alphabet = pd.read_csv(CURRENT_DIR + DATA_DIR + MOROCCAN_ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     arabian_translation = list()
     for word in _str.split():
         moroccan_translation_object = dict()
@@ -180,10 +180,7 @@ def validate_dictionary(dictionary):
 
 # Temporary function to test
 def run_tests():
-    moroccan_words = pd.read_csv(CURRENT_DIR + DATA_DIR + OPEN_DICTIONARY)
-    print(f'Number of words to translate : {len(moroccan_to_arabic(" ".join(moroccan_words["LDM"])))}')
-    for word in moroccan_to_arabic(' '.join(moroccan_words["LDM"])):
-        print(word)
+    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + OPEN_DICTIONARY)
+    moroccan_words_str = moroccan_words["LDM"].to_string(index=False)
+    print(moroccan_to_arabic(moroccan_words_str))
     
-# Runnin the tests
-run_tests()

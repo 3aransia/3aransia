@@ -1,4 +1,4 @@
-BASE_DIR = './3aransia'
+BASE_DIR = './_3aransia'
 DATA_DIR = '/data'
 CURRENT_DIR = '.'
 
