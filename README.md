@@ -40,7 +40,7 @@ cd 3aransia
 pip install -r requirements.txt
 ```
 
-## Start 3aransia
+### Starting 3aransia
 
 ```
 python setup.py
