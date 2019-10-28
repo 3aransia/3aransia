@@ -8,25 +8,17 @@ The Latin/Digit Moroccan Language Framework
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ## Prerequisites
 
 - [`Python 3.7`](https://www.python.org/downloads/)
 - [`Nltk 3.4`](https://www.nltk.org/install.html)
 - [`Pandas`](https://pandas.pydata.org/pandas-docs/stable/install.html)
+  
+## Getting Started
 
-## Installing
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Installing Libraries
-
-```
-pip install -r requirements.txt
-```
-
-### Clone the repository into an appropriate place
+## Cloning the repository
 
 #### Using HTTP
 
@@ -40,6 +32,12 @@ cd 3aransia
 ```
 git clone git@github.com:3aransia/3aransia.git
 cd 3aransia
+```
+
+### Installing Libraries
+
+```
+pip install -r requirements.txt
 ```
 
 ## Start 3aransia
