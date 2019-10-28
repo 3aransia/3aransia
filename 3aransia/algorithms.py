@@ -8,7 +8,7 @@ from constants import *
 
 # Translate a Moroccan letter to an Arabian letter
 def morrocan_letter_to_arabian(letter, position, word_length): 
-    alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
+    alphabet = pd.read_csv(CURRENT_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     try:
         if position == 0:
             values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['BeginningofWord']
@@ -29,7 +29,7 @@ def morrocan_letter_to_arabian(letter, position, word_length):
 
 # Translate Moroccan double letter to Arabian letter
 def moroccan_double_letter_to_arabian(double_letter, position, word):
-    alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
+    alphabet = pd.read_csv(CURRENT_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     for i in range(len(word)):
         if double_letter == 'la':
             return morrocan_letter_to_arabian('la', i , len(word))
@@ -46,16 +46,17 @@ def moroccan_double_letter_to_arabian(double_letter, position, word):
 
 # Translate duplicate Moroccan letter to Arabian letter
 def moroccan_duplicate_letter_to_arabian(duplicate_letter, position, word):
-    alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
+    alphabet = pd.read_csv(CURRENT_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     for i in range(len(word)):
          if duplicate_letter in DUPLICATE_MOROCCAN_LETTERS:
             return morrocan_letter_to_arabian(duplicate_letter, i , len(word))
 
 # Translate Moroccan to Arabic
 def moroccan_to_arabic(_str):
-    alphabet = pd.read_csv('data/' + MOROCCAN_ALPHABET)
-    arabian_translation = []
+    alphabet = pd.read_csv(CURRENT_DIR + DATA_DIR + MOROCCAN_ALPHABET)
+    arabian_translation = list()
     for word in _str.split():
+        moroccan_translation_object = dict()
         arabian_word = []
         word = word.lower()
         word_iterator = iter(range(len(word)))
@@ -128,7 +129,8 @@ def moroccan_to_arabic(_str):
                 else:
                     arabian_word.append(morrocan_letter_to_arabian(word[i], i, len(word)))
         try:
-            arabian_translation.append((word, (u''.join(arabian_word).replace(u'\u200e', ''))))
+            moroccan_translation_object = {'moroccan_word' : word, 'arabian_word' : (u''.join(arabian_word).replace(u'\u200e', ''))}
+            arabian_translation.append(moroccan_translation_object)
         except TypeError as e:
             print(e, word)
     return arabian_translation
@@ -185,7 +187,7 @@ def validate_dictionary(dictionary):
 
 # Temporary function to test
 def run_tests():
-    moroccan_words = pd.read_csv('data/' + OPEN_DICTIONARY)
+    moroccan_words = pd.read_csv(CURRENT_DIR + DATA_DIR + OPEN_DICTIONARY)
     print(f'Number of words to translate : {len(moroccan_to_arabic(" ".join(moroccan_words["LDM"])))}')
     for word in moroccan_to_arabic(' '.join(moroccan_words["LDM"])):
         print(word)
