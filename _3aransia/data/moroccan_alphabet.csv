@@ -1,6 +1,8 @@
 MoroccanAlphabet,ArabianAlphabet,EndofWord,MiddleofWord,BeginningofWord
  , , , ,
+",",،‎,،‎,،‎,،‎
 ', , , ,
+.,.,.,.,.
 2,ء,ء,ء,ء
 22,ء,ء,ء,ء
 3,ع‎,ـع‎,ـعـ‎,عـ‎
@@ -11,6 +13,7 @@ MoroccanAlphabet,ArabianAlphabet,EndofWord,MiddleofWord,BeginningofWord
 77,ح‎,ـح‎,ـحـ‎,حـ‎
 9,ق‎,ـق‎,ـقـ‎,قـ‎
 99,ق‎,ـق‎,ـقـ‎,قـ‎
+?,؟,؟,؟,؟
 A,ا‎,ـا‎,ـا‎,ا‎
 Aa,ا‎,ـا‎,ـا‎,ا‎
 B,ب‎,ـب‎,ـبـ‎,بـ‎
@@ -173,3 +176,4 @@ zz,ز‎,ـز‎,ـز‎,ز‎
 ê,ُْ,ُْ,ُْ,ُْ
 î,ِ‎,ِ‎,ِ‎,ِ‎
 ô,ُ,ُ,ُ,ُ
+!,!,!,!,!
