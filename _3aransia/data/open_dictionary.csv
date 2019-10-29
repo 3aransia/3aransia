@@ -1,5 +1,5 @@
 LDM,LDA,MA,A,Fr 
-lmofradat,almofradat,مفردات,المفردات,vocabulaire
+mofradat,almofradat,مفردات,مفردات,vocabulaire
 boldane,boldan,بلدان,البلدان,pays
 oustouraliya,ostoralia,استراليا,أستراليا,australie
 kombodje,kambodia,كامبودج,كمبوديا,cambodge
@@ -10,12 +10,12 @@ naglize,inglaterra,نجليز,انكلترا,eangleterre
 franssa,faransa,فرانسا,فرنسا,france
 almaniya,almania,المانيا,ألمانيا,allemagne
 younane,alyounan,يونان,اليونان,grece
-hind,alhind,الهند,الهند,inde
+lhind,alhind,لهند,الهند,inde
 andounissiya,indonisia,اندونيسيا,أندونيسيا,indonisie
 taliane,italia,ايطاليا,إيطاليا,italie
-japoune,alyaban,اليابان,اليابان,japon
-mixik,almixik,المكسيك,المكسيك,mexique
-maghrib,almaghrib,المغريب,المغرب,maroc
+japoune,alyaban,ليابان,اليابان,japon
+mixik,almixik,لمكسيك,المكسيك,mexique
+maghrib,almaghrib,لمغريب,المغرب,maroc
 pirou,birou,بيرو,بيرو,perou
 sbaniya,2ispania,اسبانيا,إسبانيا,espagne
 taylande,tailand,طايلاند,تايلاند,thailand
@@ -40,9 +40,9 @@ lyamate,2ayam,ليامات,أيام,jours
 tnine,2ithnayn,تنين,الاثنين,lundi
 tlate,tholatha2,تلات,الثلاثاء,mardi
 larb3a,2arbi3a2,لاربعا,الأربعاء,mercredi
-5amis,5amis,الخميس,الخميس,jeudi
-jam3a,jomo3a,جمعة,الجمعة,vendredi
-sabte,sabt,سبت,السبت,samedi
+5amis,5amis,لخميس,الخميس,jeudi
+jam3a,jomo3a,الجمعة,الجمعة,vendredi
+sabte,sabt,السبت,السبت,samedi
 7add,2a7ad,الحد,الأحد,dimanche
 marra,marra,مرة,مرة,fois
 sa3a,sa3a,ساعة,ساعة,heure 
