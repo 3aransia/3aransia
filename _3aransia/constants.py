@@ -4,7 +4,7 @@ CURRENT_DIR = '.'
 
 CONTROLLED_DICTIONARY = '/controlled_dictionary.csv'
 OPEN_DICTIONARY = '/open_dictionary.csv'
-DICTIONARY_SAMPLE = '/dictionary_sample.csv'
+OPEN_DICTIONARY_SAMPLE = '/open_dictionary_sample.csv'
 MOROCCAN_ALPHABET = '/moroccan_alphabet.csv'
 
 
