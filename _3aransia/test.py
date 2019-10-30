@@ -1,5 +1,4 @@
 from _3aransia.algorithms import *
-from _3aransia.test import *
 
 
 # Test function
