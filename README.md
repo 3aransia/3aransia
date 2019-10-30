@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### Starting 3aransia
 
 ```
-python setup.py
+python main.py
 ```
 
 ## Authors
