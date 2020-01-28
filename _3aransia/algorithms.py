@@ -67,7 +67,6 @@ def morrocan_letter_to_arabian(letter, position, word_length):
 
 # Translate Moroccan double letter to Arabian letter
 def moroccan_double_letter_to_arabian(double_letter, position, word):
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     for i in range(len(word)):
         if double_letter == 'la':
             return morrocan_letter_to_arabian('la', i , len(word))
