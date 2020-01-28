@@ -93,10 +93,7 @@ def moroccan_to_arabic(_str):
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     arabian_translation = list()
     for word in _str.split():
-        moroccan_translation_object = dict()
-        arabian_word = []
-        word = word.lower()
-        word_iterator = iter(range(len(word)))
+        moroccan_translation_object, arabian_word, word, word_iterator = dict(), [], word.lower(), iter(range(len(word)))
         for i in word_iterator:
             if i == 0:
                 if word[:2] in DOUBLE_MOROCCAN_LETTERS:
