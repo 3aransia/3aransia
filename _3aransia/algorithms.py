@@ -10,12 +10,6 @@ from _3aransia.constants import *
 # Function to compute the distance between two words
 def word_distance(word_1, word_2):
     return nltk.edit_distance(word_1, word_2)
-    
-# Converte a letter to its substitute
-def letter_to_substitute(l):
-    if l == '7': return 'h'
-    if l == '9': return 'q'
-    else : return l
 
 # Generate lexically close words
 def generate_close_words(threshold, _str):
@@ -25,10 +19,6 @@ def generate_close_words(threshold, _str):
             if w != y and word_distance(w,y) < threshold: 
                 words.add((w,y, word_distance(w,y)))
     return sorted(words, key=lambda x:len(x[0]))
-
-# Converte a word to its substitute
-def word_to_substitute(word):
-    return ''.join(list(map(lambda x:letter_to_substitute(x), word)))
 
 # Validate Latin/Digit Moroccan to Arabic dictionary
 def validate_dictionary(dictionary):
