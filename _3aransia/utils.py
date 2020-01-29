@@ -2,6 +2,14 @@ import pandas as pd
 
 from _3aransia.constants import *
 
+# Word counter
+def word_count(_str):
+    return {word: _str.count(word) for word in _str.split()}
+
+# Get duplicated
+def generate_duplicates(_str):
+    return dict(filter(lambda x:x[1] > 1, word_count(_str).items()))
+
 # Function to build training data
 def build_training_data():
     moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + OPEN_DICTIONARY_SAMPLE)
