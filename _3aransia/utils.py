@@ -10,6 +10,19 @@ def word_count(_str):
 def generate_duplicates(_str):
     return dict(filter(lambda x:x[1] > 1, word_count(_str).items()))
 
+# Function to compute the distance between two words
+def word_distance(word_1, word_2):
+    return nltk.edit_distance(word_1, word_2)
+
+# Generate lexically close words
+def generate_close_words(threshold, _str):
+    words = set()
+    for w in _str.split():
+        for y in _str.split():
+            if w != y and word_distance(w,y) < threshold: 
+                words.add((w,y, word_distance(w,y)))
+    return sorted(words, key=lambda x:len(x[0]))
+
 # Function to build training data
 def build_training_data():
     moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + OPEN_DICTIONARY_SAMPLE)
