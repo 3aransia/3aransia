@@ -1,4 +1,5 @@
 .~lock.*
+venv
 env
 __pycache__
 _3aransia/__pycache__

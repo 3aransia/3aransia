@@ -6,44 +6,6 @@ import nltk
 
 from _3aransia.constants import *
 
-
-# Function to compute the distance between two words
-def word_distance(word_1, word_2):
-    return nltk.edit_distance(word_1, word_2)
-    
-# Converte a letter to its substitute
-def letter_to_substitute(l):
-    if l == '7': return 'h'
-    if l == '9': return 'q'
-    else : return l
-
-# Word counter
-def word_count(_str):
-    return {word: _str.count(word) for word in _str.split()}
-
-# Get duplicated
-def generate_duplicates(_str):
-    return dict(filter(lambda x:x[1] > 1, word_count(_str).items()))
-
-# Generate lexically close words
-def generate_close_words(threshold, _str):
-    words = set()
-    for w in _str.split():
-        for y in _str.split():
-            if w != y and word_distance(w,y) < threshold: 
-                words.add((w,y, word_distance(w,y)))
-    return sorted(words, key=lambda x:len(x[0]))
-
-# Converte a word to its substitute
-def word_to_substitute(word):
-    return ''.join(list(map(lambda x:letter_to_substitute(x), word)))
-
-# Validate Latin/Digit Moroccan to Arabic dictionary
-def validate_dictionary(dictionary):
-    data = pd.read_csv(dictionary)
-    return data
-    #TODO
-
 # Translate a Moroccan letter to an Arabian letter
 def morrocan_letter_to_arabian(letter, position, word_length): 
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
@@ -67,7 +29,6 @@ def morrocan_letter_to_arabian(letter, position, word_length):
 
 # Translate Moroccan double letter to Arabian letter
 def moroccan_double_letter_to_arabian(double_letter, position, word):
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     for i in range(len(word)):
         if double_letter == 'la':
             return morrocan_letter_to_arabian('la', i , len(word))
@@ -94,10 +55,7 @@ def moroccan_to_arabic(_str):
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     arabian_translation = list()
     for word in _str.split():
-        moroccan_translation_object = dict()
-        arabian_word = []
-        word = word.lower()
-        word_iterator = iter(range(len(word)))
+        moroccan_translation_object, arabian_word, word, word_iterator = dict(), [], word.lower(), iter(range(len(word)))
         for i in word_iterator:
             if i == 0:
                 if word[:2] in DOUBLE_MOROCCAN_LETTERS:
