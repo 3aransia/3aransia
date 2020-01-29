@@ -17,14 +17,6 @@ def letter_to_substitute(l):
     if l == '9': return 'q'
     else : return l
 
-# Word counter
-def word_count(_str):
-    return {word: _str.count(word) for word in _str.split()}
-
-# Get duplicated
-def generate_duplicates(_str):
-    return dict(filter(lambda x:x[1] > 1, word_count(_str).items()))
-
 # Generate lexically close words
 def generate_close_words(threshold, _str):
     words = set()
