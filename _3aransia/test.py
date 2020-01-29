@@ -1,14 +1,36 @@
-from _3aransia.algorithms import *
+from _3aransia.translator import *
 from _3aransia.test import *
 from _3aransia.machine_learning import *
 
 
 # Test function
 def run_tests():
-    # moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + OPEN_DICTIONARY)
-    # moroccan_words_str = moroccan_words["LDM"].to_string(index=False)
-    # print(moroccan_to_arabic(moroccan_words_str))
+    # 3aransia test framework
 
-    run_machine_learning()
+    # Reported annomalies written in issues
+    # Fixing bugs incrementally and agilly 
+
+    # lexical Translation tests
+
+    # Test single letters
+    
+    # Test double letters
+    
+    # Test duplicate letters
+    
+    # Test words
+    
+    # Test sentenses
+
+    # Semantical Translation tests
+
+    # Test Arabic translation of words
+    
+    # Test English translation of words
+    
+    # Test French translation of words
+    
+    # Test the 3 languages of sentences
+ 
 
 
