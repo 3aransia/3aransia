@@ -2,6 +2,13 @@ import pandas as pd
 
 from _3aransia.constants import *
 
+
+# Validate Latin/Digit Moroccan to Arabic dictionary
+def validate_dictionary(dictionary):
+    data = pd.read_csv(dictionary)
+    return data
+    #TODO
+
 # Word counter
 def word_count(_str):
     return {word: _str.count(word) for word in _str.split()}
