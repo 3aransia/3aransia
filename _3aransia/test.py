@@ -9,6 +9,8 @@ def run_tests():
 
     # Reported annomalies written in issues
     # Fixing bugs incrementally and agilly 
+    # Use library logging
+    # Use exceptions to handle errors
 
     # lexical Translation tests
 
