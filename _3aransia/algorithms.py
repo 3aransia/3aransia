@@ -6,12 +6,6 @@ import nltk
 
 from _3aransia.constants import *
 
-# Validate Latin/Digit Moroccan to Arabic dictionary
-def validate_dictionary(dictionary):
-    data = pd.read_csv(dictionary)
-    return data
-    #TODO
-
 # Translate a Moroccan letter to an Arabian letter
 def morrocan_letter_to_arabian(letter, position, word_length): 
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
