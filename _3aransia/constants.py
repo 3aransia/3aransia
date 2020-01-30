@@ -1,5 +1,6 @@
 BASE_DIR = './_3aransia'
 DATA_DIR = '/data'
+LOG_DIR = '/log'
 CURRENT_DIR = '.'
 
 CONTROLLED_DICTIONARY = '/controlled_dictionary.csv'
@@ -8,6 +9,15 @@ OPEN_DICTIONARY_SAMPLE = '/open_dictionary_sample.csv'
 TRANING_DATA = '/training_data.csv'
 MOROCCAN_ALPHABET = '/moroccan_alphabet.csv'
 
+SINGLE_LETTER_TEST_LOG_FILE = '/test_single_letter.log'
+DOUBLE_LETTER_TEST_LOG_FILE = '/test_double_letter.log'
+DUPLICATE_LETTER_TEST_LOG_FILE = '/test_duplicate_letter.log'
+WORD_TEST_LOG_FILE = '/test_word.log'
+SENTENCE_TEST_LOG_FILE = '/test_sentence.log'
+
+ARABIC_TRANSLATION_TEST_LOG_FILE = '/test_arabic_translation.log'
+FRENCH_TRANSLATION_TEST_LOG_FILE = '/test_french_translation.log'
+ENGLISH_TRANSLATION_TEST_LOG_FILE = '/test_english_translation.log'
 
 UPPER_ENGLISH_ALPHABET = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'] 
 LOWER_ENGLISH_ALPHABET = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']

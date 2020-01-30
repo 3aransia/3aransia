@@ -2,7 +2,6 @@ import pandas as pd
 
 from _3aransia.constants import *
 
-
 # Validate Latin/Digit Moroccan to Arabic dictionary
 def validate_dictionary(dictionary):
     data = pd.read_csv(dictionary)

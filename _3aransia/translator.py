@@ -11,17 +11,13 @@ def morrocan_letter_to_arabian(letter, position, word_length):
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     try:
         if position == 0:
-            values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['BeginningofWord']
-            return values.values[0]
+            return alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet'].values[0]
         elif position == word_length:
-            values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['EndofWord']
-            return values.values[0]
+            return alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet'].values[0]
         elif position == -1:
-            values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet']
-            return values.values[0]
+            return alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet'].values[0]
         elif position > 0:
-            values = alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['MiddleofWord']
-            return values.values[0]
+            return alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet'].values[0]
     except IndexError as e:
         print(e)
     except TypeError as e:
@@ -130,4 +126,3 @@ def moroccan_to_arabic(_str):
         except TypeError as e:
             print(e, word)
     return arabian_translation
-
