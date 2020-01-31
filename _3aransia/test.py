@@ -30,10 +30,12 @@ def test_single_letter_translation():
     fh.setLevel(logging.INFO)
     single_letter_logger.addHandler(fh)
 
-    if str(alphabet.loc[alphabet["MoroccanAlphabet"] == "a"]["ArabianAlphabet"].values[0]) == str(moroccan_to_arabic("a")[0]["arabian_word"]):
-        single_letter_logger.info(f'Translating a ({alphabet.loc[alphabet["MoroccanAlphabet"] == "a"]["ArabianAlphabet"].values[0]}, { moroccan_to_arabic("a")[0]["arabian_word"]})')
-    else:
-        single_letter_logger.warning(f'Translating a ({alphabet.loc[alphabet["MoroccanAlphabet"] == "a"]["ArabianAlphabet"].values[0]}, { moroccan_to_arabic("a")[0]["arabian_word"]})')
+    for index, row in alphabet.iterrows():
+        arabian_letter, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])[0]["arabian_word"]
+        if arabian_letter == moroccan_translation:
+            single_letter_logger.info(f'Translating a ({arabian_letter}, {moroccan_translation})')
+        else:
+            single_letter_logger.warning(f'Translating a ({arabian_letter}, {moroccan_translation})')
 
         
 # Test double letters
