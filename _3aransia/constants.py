@@ -8,8 +8,10 @@ OPEN_DICTIONARY = '/open_dictionary.csv'
 OPEN_DICTIONARY_SAMPLE = '/open_dictionary_sample.csv'
 TRANING_DATA = '/training_data.csv'
 MOROCCAN_ALPHABET = '/moroccan_alphabet.csv'
+MOROCCAN_SIMPLE_ALPHABET = '/moroccan_simple_alphabet.csv'
 
 ALPHABET_TEST_LOG_FILE = '/test_alphabet.log'
+SIMPLE_ALPHABET_TEST_LOG_FILE = '/test_simple_alphabet.log'
 WORD_TEST_LOG_FILE = '/test_word.log'
 SENTENCE_TEST_LOG_FILE = '/test_sentence.log'
 
@@ -28,8 +30,8 @@ LOWER_ENGLISH_CONSONS = list(set(LOWER_ENGLISH_ALPHABET) - set(LOWER_ENGLISH_VOW
 
 NUMBERS = '0123456789'
 
-DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh']
+DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh', 'ch']
 MOROCCAN_ENDING_LETTERS = ['d', 'a', 'o', 'w', 'r', 'z', 'u']
 
-DUPLICATE_MOROCCAN_LETTERS = ['aa', 'bb', 'cc','dd','ee','ff','gg','hh','ii','iy','jj', 
+DUPLICATE_MOROCCAN_LETTERS = ['aa', 'bb', 'cc','dd','ee','ff','gg','hh','ii','jj', 
     'kk', 'll', 'mm','nn','oo','pp', 'qq', '77', '22', '55', '99', 'rr', 'ss', 'tt','uu','ww','xx', 'yi', 'yy','zz']

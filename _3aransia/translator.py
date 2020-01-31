@@ -1,4 +1,5 @@
 import sys
+import unidecode
 
 import pandas as pd
 import numpy as np
@@ -8,36 +9,18 @@ from _3aransia.constants import *
 
 # Translate a Moroccan letter to an Arabian letter
 def morrocan_letter_to_arabian(letter, position, word_length): 
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
-    try:
-        if position == 0:
-            return alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet'].values[0]
-        elif position == word_length:
-            return alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet'].values[0]
-        elif position == -1:
-            return alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet'].values[0]
-        elif position > 0:
-            return alphabet.loc[alphabet['MoroccanAlphabet'] == letter]['ArabianAlphabet'].values[0]
-    except IndexError as e:
-        print(e)
-    except TypeError as e:
-        print(e)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_SIMPLE_ALPHABET)
+    return alphabet.loc[alphabet['MoroccanAlphabet'] == letter.lower()]['ArabianAlphabet'].values[0]
 
 # Translate Moroccan double letter to Arabian letter
 def moroccan_double_letter_to_arabian(double_letter, position, word):
     for i in range(len(word)):
-        if double_letter == 'la':
-            return morrocan_letter_to_arabian('la', i , len(word))
-        elif double_letter == 'ch':
-            return morrocan_letter_to_arabian('ch', i , len(word))
-        elif double_letter == 'kh':
-            return morrocan_letter_to_arabian('kh', i, len(word))
-        elif double_letter == 'sh':
-            return morrocan_letter_to_arabian('sh', i, len(word))
-        elif double_letter == 'gh':
-            return morrocan_letter_to_arabian('gh', i, len(word))
-        elif double_letter == 'ou':
-            return morrocan_letter_to_arabian('ou', i, len(word))
+        if double_letter == 'la': return morrocan_letter_to_arabian('la', i , len(word))
+        elif double_letter == 'ch': return morrocan_letter_to_arabian('ch', i , len(word))
+        elif double_letter == 'kh': return morrocan_letter_to_arabian('kh', i, len(word))
+        elif double_letter == 'sh': return morrocan_letter_to_arabian('sh', i, len(word))
+        elif double_letter == 'gh': return morrocan_letter_to_arabian('gh', i, len(word))
+        elif double_letter == 'ou': return morrocan_letter_to_arabian('ou', i, len(word))
 
 # Translate duplicate Moroccan letter to Arabian letter
 def moroccan_duplicate_letter_to_arabian(duplicate_letter, position, word):
@@ -51,7 +34,7 @@ def moroccan_to_arabic(_str):
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     arabian_translation = list()
     for word in _str.split():
-        moroccan_translation_object, arabian_word, word, word_iterator = dict(), [], word.lower(), iter(range(len(word)))
+        moroccan_translation_object, arabian_word, word, word_iterator = dict(), [], unidecode.unidecode(word.lower()), iter(range(len(word)))
         for i in word_iterator:
             if i == 0:
                 if word[i] == ' ': arabian_word.append(' ')
@@ -121,9 +104,9 @@ def moroccan_to_arabic(_str):
                     next(word_iterator)
                 else:
                     arabian_word.append(morrocan_letter_to_arabian(word[i], i, len(word)))
-        # try:
-        moroccan_translation_object = {'moroccan_word' : word, 'arabian_word' : (u''.join(arabian_word).replace(u'\u200e', ''))}
-        arabian_translation.append(moroccan_translation_object)
-        # except e:
-        #     print(e, word)
+        try:
+            moroccan_translation_object = {'moroccan_word' : word, 'arabian_word' : (u''.join(arabian_word).replace(u'\u200e', ''))}
+            arabian_translation.append(moroccan_translation_object)
+        except (RuntimeError, TypeError, NameError):
+            print(f'Error in translating {_str}')
     return arabian_translation

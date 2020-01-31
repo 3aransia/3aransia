@@ -42,7 +42,4 @@ def build_training_data():
         data.append([letter[0], letter[4]])
     moroccan_alphabet_min = pd.DataFrame(data, columns = ['Moroccan', 'Moroccan Arabic'])
     training_data_set = pd.concat([moroccan_alphabet_min, moroccan_words_min], axis=0)
-    print(training_data_set.to_csv(index=False))
-
-# Build new alphabet
-
+    training_data_set.to_csv(index=False)
