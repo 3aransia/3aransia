@@ -34,11 +34,11 @@ def test_alphabet_translation():
             if arabian_letter == ' ':
                 alphabet_logger.error('Translating   ( , [])')
             elif arabian_letter == moroccan_translation[0]['arabian_word']:
-                alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation})')
+                alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]['arabian_word']})')
             else:
-                alphabet_logger.warning(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation})')
+                alphabet_logger.warning(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]['arabian_word']})')
         except:
-            alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation})')
+            alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]['arabian_word']})')
 
 # Test words
 def test_word_translation():
