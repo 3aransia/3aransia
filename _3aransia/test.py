@@ -11,9 +11,7 @@ logging.root.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 # Loggers
-single_letter_logger = logging.getLogger('single_letter_logger')
-double_letter_logger = logging.getLogger('double_letter_logger')
-duplicate_letter_logger = logging.getLogger('duplicate_letter_logger')
+alphabet_logger = logging.getLogger('alphabet_logger')
 word_logger = logging.getLogger('word_logger')
 sentence_logger = logging.getLogger('sentence_logger')
 arabic_translation_logger = logging.getLogger('arabic_translation_logger')
@@ -23,33 +21,24 @@ english_translation_logger = logging.getLogger('english_translation_logger')
 # Alphabet
 alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
 
-# Test single letters
-def test_single_letter_translation():
-    fh = logging.FileHandler(BASE_DIR + LOG_DIR + SINGLE_LETTER_TEST_LOG_FILE, 'w')
+# Test alphabet
+def test_alphabet_translation():
+    fh = logging.FileHandler(BASE_DIR + LOG_DIR + ALPHABET_TEST_LOG_FILE, 'w')
     fh.setFormatter(formatter)
     fh.setLevel(logging.INFO)
-    single_letter_logger.addHandler(fh)
+    alphabet_logger.addHandler(fh)
 
-    if str(alphabet.loc[alphabet["MoroccanAlphabet"] == "a"]["ArabianAlphabet"].values[0]) == str(moroccan_to_arabic("a")[0]["arabian_word"]):
-        single_letter_logger.info(f'Translating a ({alphabet.loc[alphabet["MoroccanAlphabet"] == "a"]["ArabianAlphabet"].values[0]}, { moroccan_to_arabic("a")[0]["arabian_word"]})')
-    else:
-        single_letter_logger.warning(f'Translating a ({alphabet.loc[alphabet["MoroccanAlphabet"] == "a"]["ArabianAlphabet"].values[0]}, { moroccan_to_arabic("a")[0]["arabian_word"]})')
-
-        
-# Test double letters
-def test_double_letter_translation():
-    fh = logging.FileHandler(BASE_DIR + LOG_DIR + DOUBLE_LETTER_TEST_LOG_FILE, 'w')
-    fh.setFormatter(formatter)
-    fh.setLevel(logging.INFO)
-    double_letter_logger.addHandler(fh)
-
-# Test duplicate letters
-def test_duplicate_letter_translation():
-    fh = logging.FileHandler(BASE_DIR + LOG_DIR + DUPLICATE_LETTER_TEST_LOG_FILE, 'w')
-    fh.setFormatter(formatter)
-    fh.setLevel(logging.INFO)
-    duplicate_letter_logger.addHandler(fh)
-
+    for index, row in alphabet.iterrows():
+        arabian_letter, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])
+        try:
+            if arabian_letter == ' ':
+                alphabet_logger.error('Translating   ( , [])')
+            elif arabian_letter == moroccan_translation[0]['arabian_word']:
+                alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation})')
+            else:
+                alphabet_logger.warning(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation})')
+        except:
+            alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation})')
 
 # Test words
 def test_word_translation():
@@ -96,14 +85,8 @@ def run_tests():
 
     # lexical Translation tests
 
-    # Test single letters
-    test_single_letter_translation()
-    
-    # Test double letters
-    test_double_letter_translation()
-    
-    # Test duplicate letters
-    test_duplicate_letter_translation()
+    # Test alphabet
+    test_alphabet_translation()
     
     # Test words
     test_word_translation()

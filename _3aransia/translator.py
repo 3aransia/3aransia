@@ -54,7 +54,8 @@ def moroccan_to_arabic(_str):
         moroccan_translation_object, arabian_word, word, word_iterator = dict(), [], word.lower(), iter(range(len(word)))
         for i in word_iterator:
             if i == 0:
-                if word[:2] in DOUBLE_MOROCCAN_LETTERS:
+                if word[i] == ' ': arabian_word.append(' ')
+                elif word[:2] in DOUBLE_MOROCCAN_LETTERS:
                     arabian_word.append(moroccan_double_letter_to_arabian(word[0:2], 0, word))
                     next(word_iterator)
                 elif word[:2] in DUPLICATE_MOROCCAN_LETTERS:
@@ -120,9 +121,9 @@ def moroccan_to_arabic(_str):
                     next(word_iterator)
                 else:
                     arabian_word.append(morrocan_letter_to_arabian(word[i], i, len(word)))
-        try:
-            moroccan_translation_object = {'moroccan_word' : word, 'arabian_word' : (u''.join(arabian_word).replace(u'\u200e', ''))}
-            arabian_translation.append(moroccan_translation_object)
-        except TypeError as e:
-            print(e, word)
+        # try:
+        moroccan_translation_object = {'moroccan_word' : word, 'arabian_word' : (u''.join(arabian_word).replace(u'\u200e', ''))}
+        arabian_translation.append(moroccan_translation_object)
+        # except e:
+        #     print(e, word)
     return arabian_translation
