@@ -18,8 +18,9 @@ arabic_translation_logger = logging.getLogger('arabic_translation_logger')
 french_translation_logger = logging.getLogger('french_translation_logger')
 english_translation_logger = logging.getLogger('english_translation_logger')
 
-# Alphabet
+# Data sets
 alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
+words = pd.read_csv(BASE_DIR + DATA_DIR + OPEN_DICTIONARY_SAMPLE)
 
 # Test alphabet
 def test_alphabet_translation():
@@ -27,18 +28,19 @@ def test_alphabet_translation():
     fh.setFormatter(formatter)
     fh.setLevel(logging.INFO)
     alphabet_logger.addHandler(fh)
+    alphabet_logger.info(f'Translating [item to test] ([expected result], [generated result result])')
 
     for index, row in alphabet.iterrows():
         arabian_letter, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])
         try:
             if arabian_letter == ' ':
                 alphabet_logger.error('Translating   ( , [])')
-            elif arabian_letter == moroccan_translation[0]['arabian_word']:
-                alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]['arabian_word']})')
+            elif arabian_letter == moroccan_translation[0]["arabian_word"]:
+                alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
             else:
-                alphabet_logger.warning(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]['arabian_word']})')
+                alphabet_logger.warning(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
         except:
-            alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]['arabian_word']})')
+            alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
 
 # Test words
 def test_word_translation():
@@ -46,6 +48,18 @@ def test_word_translation():
     fh.setFormatter(formatter)
     fh.setLevel(logging.INFO)
     word_logger.addHandler(fh)
+    word_logger.info(f'Translating [item to test] ([expected result], [generated result result])')
+
+    for index, row in words.iterrows():
+        arabian_word, moroccan_translation = row["Moroccan Arabic"], moroccan_to_arabic(row["Moroccan"])
+        try:
+            if arabian_word == moroccan_translation[0]["arabian_word"]:
+                word_logger.info(f'Translating {row["Moroccan"]} ({arabian_word}, {moroccan_translation[0]["arabian_word"]})')
+            else:
+                word_logger.warning(f'Translating {row["Moroccan"]} ({arabian_word}, {moroccan_translation[0]["arabian_word"]})')
+        except:
+            word_logger.error(f'Translating {row["Moroccan"]} ({arabian_word}, {moroccan_translation[0]["arabian_word"]})')
+
 
 # Test sentences
 def test_sentence_translation():
