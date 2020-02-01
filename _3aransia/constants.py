@@ -28,7 +28,4 @@ LOWER_ENGLISH_CONSONS = list(set(LOWER_ENGLISH_ALPHABET) - set(LOWER_ENGLISH_VOW
 
 NUMBERS = '0123456789'
 
-DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh', 'ch', 'yi']
-
-DUPLICATE_MOROCCAN_LETTERS = ['aa', 'bb', 'cc','dd','ee','ff','gg','hh','ii','jj', 
-    'kk', 'll', 'mm','nn','oo','pp', 'qq', '77', '22', '55', '99', '33', 'rr', 'ss', 'tt', 'uu','ww','xx', 'yy','zz']
+DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh', 'ch', 'yi', 'ee']

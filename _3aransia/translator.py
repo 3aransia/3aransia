@@ -23,7 +23,7 @@ def moroccan_to_arabic(_str):
                 if word[i:i+2] in DOUBLE_MOROCCAN_LETTERS:
                     arabian_word.append(morrocan_letter_to_arabian(word[i:i+2]))
                     next(word_iterator)
-                elif word[i:i+2] in DUPLICATE_MOROCCAN_LETTERS:
+                elif word[i] == word[i+1]:
                     arabian_word.append(morrocan_letter_to_arabian(word[i]))
                     next(word_iterator)
                 else: arabian_word.append(morrocan_letter_to_arabian(word[i]))
