@@ -8,10 +8,8 @@ OPEN_DICTIONARY = '/open_dictionary.csv'
 OPEN_DICTIONARY_SAMPLE = '/open_dictionary_sample.csv'
 TRANING_DATA = '/training_data.csv'
 MOROCCAN_ALPHABET = '/moroccan_alphabet.csv'
-MOROCCAN_SIMPLE_ALPHABET = '/moroccan_simple_alphabet.csv'
 
 ALPHABET_TEST_LOG_FILE = '/test_alphabet.log'
-SIMPLE_ALPHABET_TEST_LOG_FILE = '/test_simple_alphabet.log'
 WORD_TEST_LOG_FILE = '/test_word.log'
 SENTENCE_TEST_LOG_FILE = '/test_sentence.log'
 

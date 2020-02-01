@@ -11,7 +11,6 @@ logging.root.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 # Loggers
-simple_alphabet_logger = logging.getLogger('simple_alphabet_logger')
 alphabet_logger = logging.getLogger('alphabet_logger')
 word_logger = logging.getLogger('word_logger')
 sentence_logger = logging.getLogger('sentence_logger')
@@ -20,40 +19,8 @@ french_translation_logger = logging.getLogger('french_translation_logger')
 english_translation_logger = logging.getLogger('english_translation_logger')
 
 # Data sets
-simple_alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_SIMPLE_ALPHABET)
 alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
 words = pd.read_csv(BASE_DIR + DATA_DIR + OPEN_DICTIONARY_SAMPLE)
-
-# Test simple alphabet
-def test_simple_alphabet_translation():
-    fh = logging.FileHandler(BASE_DIR + LOG_DIR + SIMPLE_ALPHABET_TEST_LOG_FILE, 'w')
-    fh.setFormatter(formatter)
-    fh.setLevel(logging.INFO)
-    simple_alphabet_logger.addHandler(fh)
-    simple_alphabet_logger.info(f'Translating [item to test] ([expected result], [generated result result])')
-
-    count_infos, count_warnings, count_errors = 0, 0, 0
-
-    for index, row in simple_alphabet.iterrows():
-        arabian_letter, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])
-        try:
-            if arabian_letter == moroccan_translation[0]["arabian_word"]:
-                simple_alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
-                count_infos += 1
-            else:
-                simple_alphabet_logger.warning(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
-                count_warnings += 1
-        except IndexError:
-            simple_alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, IndexError')
-            count_errors += 1
-        except KeyError:
-            simple_alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, KeyError')
-            count_errors += 1
-        except TypeError:
-            simple_alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, TypeError')
-            count_errors += 1
-    simple_alphabet_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(simple_alphabet)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(simple_alphabet)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(simple_alphabet)*100, 2)}%)')
-
 
 # Test alphabet
 def test_alphabet_translation():
@@ -65,7 +32,7 @@ def test_alphabet_translation():
 
     count_infos, count_warnings, count_errors = 0, 0, 0
 
-    for index, row in simple_alphabet.iterrows():
+    for index, row in alphabet.iterrows():
         arabian_letter, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])
         try:
             if arabian_letter == moroccan_translation[0]["arabian_word"]:
@@ -83,7 +50,6 @@ def test_alphabet_translation():
         except TypeError:
             alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, TypeError')
             count_errors += 1
-
     alphabet_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(alphabet)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(alphabet)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet)*100, 2)}%)')
 
 # Test words
@@ -146,9 +112,6 @@ def test_english_translation_translation():
 
 # Test function
 def run_tests():
-    # Test simple alphabet
-    test_simple_alphabet_translation()
-
     # Test alphabet
     test_alphabet_translation()
     

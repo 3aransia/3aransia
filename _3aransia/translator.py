@@ -9,9 +9,8 @@ from _3aransia.constants import *
 
 # Translate a Moroccan letter to an Arabian letter
 def morrocan_letter_to_arabian(letter): 
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_SIMPLE_ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
     if letter == 'e': return ''
-    elif letter == ' ': return ' '
     else: return alphabet.loc[alphabet['MoroccanAlphabet'] == letter.lower()]['ArabianAlphabet'].values[0]
 
 # Translate Moroccan to Arabic
