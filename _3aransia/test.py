@@ -37,10 +37,7 @@ def test_simple_alphabet_translation():
     for index, row in simple_alphabet.iterrows():
         arabian_letter, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])
         try:
-            if arabian_letter == ' ':
-                simple_alphabet_logger.error('Translating   ( , [])')
-                count_errors += 1
-            elif arabian_letter == moroccan_translation[0]["arabian_word"]:
+            if arabian_letter == moroccan_translation[0]["arabian_word"]:
                 simple_alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
                 count_infos += 1
             else:
@@ -68,13 +65,10 @@ def test_alphabet_translation():
 
     count_infos, count_warnings, count_errors = 0, 0, 0
 
-    for index, row in alphabet.iterrows():
+    for index, row in simple_alphabet.iterrows():
         arabian_letter, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])
         try:
-            if arabian_letter == ' ':
-                alphabet_logger.error('Translating   ( , [])')
-                count_errors += 1
-            elif arabian_letter == moroccan_translation[0]["arabian_word"]:
+            if arabian_letter == moroccan_translation[0]["arabian_word"]:
                 alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
                 count_infos += 1
             else:
@@ -106,10 +100,10 @@ def test_word_translation():
         arabian_word, moroccan_translation = row["Moroccan Arabic"], moroccan_to_arabic(row["Moroccan"])
         try:
             if arabian_word == moroccan_translation[0]["arabian_word"]:
-                word_logger.info(f'Translating {row["Moroccan"]} ({arabian_word}, {moroccan_translation[0]["arabian_word"]})')
+                word_logger.info(f'Translating {row["Moroccan"]} ({arabian_word} , {moroccan_translation[0]["arabian_word"]})')
                 count_infos += 1
             else:
-                word_logger.warning(f'Translating {row["Moroccan"]} ({arabian_word}, {moroccan_translation[0]["arabian_word"]})')
+                word_logger.warning(f'Translating {row["Moroccan"]} ({arabian_word} , {moroccan_translation[0]["arabian_word"]})')
                 count_warnings += 1
         except IndexError:
             word_logger.error(f'Translating {row["Moroccan"]}, IndexError')
