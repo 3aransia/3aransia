@@ -11,7 +11,6 @@ The Latin/Digit Moroccan Language Framework
 ## Prerequisites
 
 - [`Python 3.7`](https://www.python.org/downloads/)
-- [`Nltk 3.4`](https://www.nltk.org/install.html)
 - [`Pandas`](https://pandas.pydata.org/pandas-docs/stable/install.html)
   
 ## Getting Started
