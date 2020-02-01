@@ -1,7 +1,6 @@
 BASE_DIR = './_3aransia'
 DATA_DIR = '/data'
 LOG_DIR = '/log'
-CURRENT_DIR = '.'
 
 CONTROLLED_DICTIONARY = '/controlled_dictionary.csv'
 OPEN_DICTIONARY = '/open_dictionary.csv'
