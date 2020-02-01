@@ -1,9 +1,7 @@
-import sys
 import unidecode
 
 import pandas as pd
 import numpy as np
-import nltk
 
 from _3aransia.constants import *
 
