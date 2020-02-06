@@ -5,11 +5,11 @@ import numpy as np
 
 from _3aransia.constants import *
 
-alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
+alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
 
 # Translate a Moroccan letter to an Arabian letter
 def morrocan_letter_to_arabian(letter, position, word): 
-    if ((letter == 'o'  and len(word) > 1) or letter == 'a') and position == 0: return 'أ'
+    if ((letter in 'o'  and len(word) > 1) or letter in ('a', 'ou')) and position == 0: return 'أ'
     elif letter in ('i', 'e') and position == 0: return 'إ'
     elif letter == 'e' and position > 0: return ''
     else: return alphabet.loc[alphabet['MoroccanAlphabet'] == letter.lower()]['ArabianAlphabet'].values[0]

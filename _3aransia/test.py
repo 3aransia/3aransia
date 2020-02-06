@@ -20,8 +20,8 @@ french_translation_logger = logging.getLogger('french_translation_logger')
 english_translation_logger = logging.getLogger('english_translation_logger')
 
 # Test sets
-alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
-words = pd.read_csv(BASE_DIR + DATA_DIR + OPEN_DICTIONARY_SAMPLE)
+alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY_SAMPLE)
 test_cases = pd.read_csv(BASE_DIR + TEST_DIR + TEST_CASES)
 
 # Test case 

@@ -4,10 +4,10 @@ LOG_DIR = '/log'
 TEST_DIR = '/test'
 
 CONTROLLED_DICTIONARY = '/controlled_dictionary.csv'
-OPEN_DICTIONARY = '/open_dictionary.csv'
-OPEN_DICTIONARY_SAMPLE = '/open_dictionary_sample.csv'
+DICTIONARY = '/dictionary.csv'
+DICTIONARY_SAMPLE = '/dictionary_sample.csv'
 TRANING_DATA = '/training_data.csv'
-MOROCCAN_ALPHABET = '/moroccan_alphabet.csv'
+ALPHABET = '/alphabet.csv'
 
 TEST_CASES = '/test_cases.csv'
 
