@@ -49,7 +49,7 @@ def arabic_moroccan_to_moroccan(_str):
         if word.isdigit(): 
             moroccan_translation.append(word)
         else: 
-            moroccan_word, word_iterator = [], iter(range(len(word)))
+            moroccan_word, word_iterator = [], iter(range(len(word))) 
             for i in word_iterator:
                 moroccan_word.append(_arabic_moroccan_letter_to_moroccan(word[i], i, word))
             moroccan_translation.append(''.join(moroccan_word))

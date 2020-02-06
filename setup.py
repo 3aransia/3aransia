@@ -1,10 +1,16 @@
 from distutils.core import setup
+
+with open('README.md') as f:
+    long_description = f.read()
+
 setup(
   name = 'aaransia',         # How you named your package folder (MyLib)
   packages = ['aaransia'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.11',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'The Moroccan Latin/Digit Language Framework 3aransia',   # Give a short description about your library
+  long_description=long_description,
+  long_description_content_type="text/markdown",
   author = 'Amine M. Boulouma',                   # Type in your name
   author_email = 'amine@boulouma.com',      # Type in your E-Mail
   url = 'https://github.com/3aransia/3aransia',   # Provide either the link to your github or to your website
