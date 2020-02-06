@@ -2,7 +2,7 @@ import re
 
 import pandas as pd
 
-from _3aransia.constants import *
+from aaransia.constants import *
 
 # Build test moroccan alphabet file
 def build_test_alphabet_ma_ar_file():

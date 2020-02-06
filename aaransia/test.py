@@ -2,10 +2,10 @@ import logging
 import logging.handlers
 import os
 
-from _3aransia.transliterator import *
-from _3aransia.constants import *
-from _3aransia.machine_learning import *
-from _3aransia.utils import *
+from aaransia.transliterator import *
+from aaransia.constants import *
+from aaransia.machine_learning import *
+from aaransia.utils import *
 
 # Refresh test files
 build_test_alphabet_ma_ar_file()
@@ -136,7 +136,7 @@ def test_alphabet_ar_ma_translation():
     count_infos, count_warnings, count_errors = 0, 0, 0
 
     for index, row in alphabet_ar_ma.iterrows():
-        expected_result, moroccan_translation = row["Expected Result"], arabic_to_moroccan(row["Test Case"])
+        expected_result, moroccan_translation = row["Expected Result"], arabic_moroccan_to_moroccan(row["Test Case"])
         try:
             if expected_result == moroccan_translation:
                 alphabet_ar_ma_logger.info(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation})')
@@ -161,7 +161,7 @@ def test_word_ar_ma_translation():
     count_infos, count_warnings, count_errors = 0, 0, 0
 
     for index, row in words_ar_ma.iterrows():
-        expected_result, moroccan_translation = row["Expected Result"], arabic_to_moroccan(row["Test Case"])
+        expected_result, moroccan_translation = row["Expected Result"], arabic_moroccan_to_moroccan(row["Test Case"])
         try:
             if expected_result.lower() == moroccan_translation:
                 word_ar_ma_logger.info(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation})')
