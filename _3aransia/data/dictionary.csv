@@ -88,15 +88,15 @@ Safi,صافي,مفهوم,compris,understood
 Mebrouk,مبروك,مبروك,congratulations,congratulation
 3ya,عيا,تعب,fatigue,tired
 twalit,طواليط,مرحاض,toilette,toilet
-7edash,حْضاش,احد عشر,onze,eleven
-Tenash,طْناش,اثتا عشر,douze,twelve
-Teletash,تْلطاش,ثلاثة عشر,treize,thirteen
-Rebe3tash,رْبعطاش,اربعة عشر,quatorze,fourteen
-Khemstash,خْمسطاش,خمسة عشر,quinze,fifteen
-Settash,سْطاش,ستة عشر,seize,sixteen
-Sebe3tash,سْبعطاش,سبعة عشر,dix sept,seventeen
-Tementash,تْمنطاش,ثمانية عشر,dix huit,eighteen
-Teze3tash,تْزعطاش,تسعة عشر,dix neuf,nineteen
+7edash,حضاش,احد عشر,onze,eleven
+Tenash,طناش,اثتا عشر,douze,twelve
+Teletash,تلطاش,ثلاثة عشر,treize,thirteen
+Rebe3tash,ربعطاش,اربعة عشر,quatorze,fourteen
+Khemstash,خمسطاش,خمسة عشر,quinze,fifteen
+Settash,سطاش,ستة عشر,seize,sixteen
+Sebe3tash,سبعطاش,سبعة عشر,dix sept,seventeen
+Tementash,تمنطاش,ثمانية عشر,dix huit,eighteen
+Teze3tash,تزعطاش,تسعة عشر,dix neuf,nineteen
 7la9em,حلاقم,لوزتين,amygdales,tonsils
 Le7ia,لحية,لحية,barbe,beard
 Fomm,فم,فم,bouche,mouth
@@ -140,7 +140,7 @@ Qehwa,قهوة,قهوة,café,coffee
 Kofitir,كوفيتير,مربا,confiture,jam
 Kamoun,كامون,كمون,cumin,cumin
 Ma,ما,ماء,eau,water
-Degig,دگيگ,دقيق ,la farine,flour
+Degig,دڭيڭ,دقيق ,la farine,flour
 Meqli,مقلي,مقلي,frit,fried
 Fermaj,فرماج,جبن,fromage,cheese
 Fakia,فاكية,فاكهة,fruits,fruits
@@ -164,21 +164,21 @@ Sekkar,سكر,سكر,sucre,sugar
 Atay,أتاي,شاي,thé,tea
 L7em,لحم,لحم,viande,meat
 Khell,خل,خل,vinaigre,vinegar
-Shkoun,شْكُون,من,Qui ,who
-Ashno,أََشْ شنو,مادا,Quoi ,What
-3lash,عْلاش,لما,Pourquoi ,Why
+Shkoun,شكون,من,Qui ,who
+Ashno,أش شنو,مادا,Quoi ,What
+3lash,علاش,لما,Pourquoi ,Why
 Lash,لاش,لمادا,Pour quelle raison ,Why
-Fin,فِينْ,اين,ou ,or
+Fin,فين,اين,ou ,or
 Imta,فوقاش,متا,quand,when
 Lemen,لمن,لمن,pour qui,for who
-Kifash,كيفاشْ,كيف,comment,How? 'Or' What
+Kifash,كيفاش,كيف,comment,How? 'Or' What
 Sh7al,شحال,كم,combien,how much
 Feddi,فضي,فضي,Argent,Money
 Bij,بيج,بيج,Beige,Beige
 Byed,بيض,ابيض,Blanc,White
 zre9,زرق,ازرق,Bleu,Blue
 Shibi,شيبي,وردي,Bleu ciel,Sky blue
-Grouna,كَرونة,رمادي,Bordeaux,Bordeaux
+Grouna,ڭرونة,رمادي,Bordeaux,Bordeaux
 Rmadi,رمادي,رمادي,Gris,Grey
 Sfer,صفر,اصفر,Jaune,Yellow
 9ehwi,قهوي,بني,Marron,Brown
@@ -207,7 +207,7 @@ Ghali,غالي,غالي,Cher,Expensive
 3ziz,عزيز,عزيز,Cher (valeur affective),Dear (emotional value)
 Mferkes,مفركس,انيق,Chic,Chic
 Wade7,واضح,واضح,Clair,Clear
-m3e9ed,مْعْقّدْ,مْعْقّدْ,"Complexé, compliqué","Complex, complicated"
+m3e9ed,مْعقّدْ,مْعقّدْ,"Complexé, compliqué","Complex, complicated"
 Mori7,مريح,مريح,Confortable,Comfortable
 Me3rouf,معروف,معروف,Connu,Known
 9asir,قصير,قصير,Court,Short
@@ -292,14 +292,14 @@ beldi,بلدي,تقليدي   ,Traditionnel,Traditional
 Madi,ماضي,حاد,Tranchant,sharp
 m9elle9,مقلق,غاضب,Triste,Sad
 Khawi,خاوي,فارغ,Vide,Empty
-t9lidi,تقليدي   ,تقليدي   ,ancien,former
+t9lidi,تقليدي,تقليدي,ancien,former
 sbitar,صبيطار,مستشفا,hopital,hospital
 pikala,بيكالة,دراجة,velo,bike
 tomobil,طوموبيل,سيارة,voiture,car
 pici,بيسي,كمبيوتر,ordinateur,computer
 boula,بولة,مصباح,ampoule,bulb
-9ach 9ach ,قاشقاش,غميضة, cache cache,cache cache
-3attach ,عطاش,عامل, homme travaillant à la tâche,man working on the task
+9ach 9achd,قاشقاش,غميضة, cache cache,cache cache
+3attach,عطاش,عامل,homme travaillant à la tâche,man working on the task
 arre,اري,موقف,arret,stop
 Atansiou,اطانسيو,احدر,attention,Warning
 Babor,بابور,باخرة,bateau,boat
@@ -308,11 +308,11 @@ Bakiya,باكية,علبة,boite,box
 Balcone,بالكون,شرفة,balcon,balcony
 Baliza,باليزا,حقيبة,valise,suitcase
 Ballone,بالون,كرة,balon,balon
-Batroune ,باطرون,رئيس,patron,boss
-bermassioun ,برمسبون,ادن,permission,permission
+Batroune,باطرون,رئيس,patron,boss
+bermassioun,برمسبون,ادن,permission,permission
 Befane,بيفان,مكبر صوت,haut parleur,loud speaker
 Bikoup,بيكوب,عربة,pickup,pickup
-Barwita,برويطة ,عربة,brouette,wheelbarrow
+Barwita,برويطة,عربة,brouette,wheelbarrow
 Baspour,باسبور,جواز سفر,passeport,passport
 Bataillou,باطايو,محارب,bataillant,battling
 Batema,باطيمة,شقة,appartement,apartment
@@ -332,12 +332,12 @@ Birra,بيرا,بيرة,bierre,beer
 Bit,بيت,غرفة,chambre,bedroom
 Bitagaz,بيطاغاز,فنينة غاز,butagaz,butagaz
 blacar,بلاكار,خزانة,placard,cupboard
-Blaka,بلاكا ,لافتة,plaque,plate
+Blaka,بلاكا,لافتة,plaque,plate
 Blassa,بلاصة,مكان,place,square
 Blindi,بلاندي,قوي,blindé,armored
 Blombi,بلومبي,سمكري,plombier,plumber
-Blousa,بلوزا ,سترة,blouson,jacket
-Blouza,بلوزا ,سترة,blouson,jacket
+Blousa,بلوزا,سترة,blouson,jacket
+Blouza,بلوزا,سترة,blouson,jacket
 bogoss,بوكوص,جميل,beau gosse,handsome kid
 Boita,بواطة,علبة,boitier,housing
 Bombiya,بومبيا,اطفاء,pompier,firefighter
@@ -516,14 +516,14 @@ tcheka 3la,تشكا علا,,se plaindre à,complain to
 kemmel,كمل,,Achevée,complete
 rekkez,ركز,,concentrer,concentrate
 hemm,هم,,préoccupation,concern
-htem,هتّم ب,,"concerné par, être","concerned with, to be"
-3taref,عتَرف,,avouer,confess
+htem,هتم,,"concerné par, être","concerned with, to be"
+3taref,عترف,,avouer,confess
 7ayyer,حير,,embrouiller,confuse
 7ar,حار,,"confus, être","confused, to be"
-henne2,هنأs,,féliciter,congratulate
+henne2,هنأ,,féliciter,congratulate
 serref,صرف,,conjuguer,conjugate
 rbet,ربط,,relier,connect
-tchawr ,تشاور,,consulter avec,consult (with)
+tchawr,تشاور,,consulter avec,consult (with)
 tasel,تصل,,"contacter, communiquer (appeler au téléphone)","contact, communicate (call on phone)"
 rda,رضا,,"content avec, être","content with, to be"
 stamer,ستمر,,Continuez,continue
@@ -548,7 +548,7 @@ k7ob,كحب,,la toux,cough
 le9em,لقّم,,croiser,cross-breed
 bka,بكا,,pleurer,cry
 bekka,بكا,,"pleurer, faire","cry, to make"
-dawa,(داوا (داوا,,guérir,cure
+dawa,داوا,guérir,cure
 bra,برا,,"guéri, être","cured, to be"
 fsel,فصل,,couper (un motif de tissu),cut (a pattern from cloth)
 7sen,حسن,,couper les cheveux,cut hair
@@ -556,8 +556,8 @@ tjre7,تجرح,,"coupé ou blessé, être","cut or injured, to be"
 9te3,قطع,,"couper, acheter un billet","cut, buy a ticket"
 jre7,جرح,,"couper, blesser, blesser (peau)","cut, injure, wound (skin)"
 5ser,خسر,,dommage,damage
-fzeg,فزگ,,"humide, pour obtenir","damp, to get"
-fezzeg,فزّگ,,humidifier,dampen
+fzeg,فزڭ,,"humide, pour obtenir","damp, to get"
+fezzeg,فزڭ,,humidifier,dampen
 chte7,شطح,,Danse,dance
 semmek,صمك,,assourdir,deafen
 t3aml m3a,تعامل معا,,traiter avec s.o.,deal with s.o.
@@ -573,12 +573,12 @@ t7edda,تحدا,,defier,defy
 hbet,هبط,,descendre,descend
 nzel,نزل,,"descendre, descendre","descend, get off"
 wsef,وصف,,décrire,describe
-sta7e9,ستّحق,,mériter,deserve
+sta7e9,ستحق,,mériter,deserve
 5ettet,خطط,,conception,design
 hdem,هدم,,détruire,destroy
 tawer,طور,,développer,develop
 mat,مات,,mourir,die
-5talef,ختّلف,,différer),differ (from)
+5talef,ختلف,,différer),differ (from)
 tkerfes 3la,تكرفس علا,,"difficile pour s., faire","difficult for s.o., to make"
 7fer,حفر,,creuser,dig
 hdem,هضم,,digérer,digest
@@ -587,7 +587,7 @@ twse5,توسخ,,"sale, pour obtenir","dirty, to get"
 wesse5,وسخ,,"sale, faire","dirty, to make"
 ghab,غاب,,"disparaître, être absent","disappear, to be absent"
 addeb,أدب,,la discipline,discipline
-ktachef,كتَشف,,découvrir,discover
+ktachef,كتشف,,découvrir,discover
 na9ech,ناقش,,discuter,discuss
 dweb,دوب,,dissoudre,dissolve
 be3ed,بعد,,se distancer (de),distance oneself (from)
