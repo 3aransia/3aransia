@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 import nltk
 
-from _3aransia.constants import *
-from _3aransia.utils import *
+from aaransia.constants import *
+from aaransia.utils import *
 
 traning_data = pd.read_csv(BASE_DIR + DATA_DIR + TRANING_DATA)
 

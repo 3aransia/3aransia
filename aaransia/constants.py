@@ -1,5 +1,5 @@
 # Project directories
-BASE_DIR = './_3aransia'
+BASE_DIR = './aaransia'
 DATA_DIR = '/data'
 LOG_DIR = '/log'
 TEST_DIR = '/test'

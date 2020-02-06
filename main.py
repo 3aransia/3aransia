@@ -1,9 +1,17 @@
-from _3aransia.transliterator import *
-from _3aransia.test import *
-from _3aransia.utils import *
+from aaransia.transliterator import *
+from aaransia.test import *
+from aaransia.utils import *
 
-# Function to translate Moroccan input to Arabic
-def translate_input(s):
-    print(' '.join([word['arabian_word'] for word in moroccan_to_arabic(s)]))
+# Function to transliterate Moroccan input to Moroccan Arabic
+def transliterate_moroccan(s):
+    print(moroccan_to_arabic(s))
 
-translate_input(input('Enter input to translate: '))
+# Function to translate Moroccan Arabic input to Moroccan
+def transliterate_moroccan_arabic(s):
+    print(arabic_to_moroccan(s))
+
+if __name__ == "__main__":
+    choice = input("Please choose tranliteration:\n1. Moroccan to Moroccan Arabic\n2. Moroccan Arabic to Moroccan\n0. Quit\n")
+    if choice == '1': transliterate_moroccan(input("Enter input to translate to Moroccan Arabic: "))
+    elif choice == '2': transliterate_moroccan_arabic(input("Enter input to translate to Moroccan: "))
+    else: print('Thank you for using 3aransia')
