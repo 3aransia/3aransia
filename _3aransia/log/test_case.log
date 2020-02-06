@@ -1,0 +1,6 @@
+2020-02-06 11:51:02,548 - test_case_logger - INFO - Translating [item to test] ([expected result], [generated result result])
+2020-02-06 11:51:02,552 - test_case_logger - INFO - Translating Ostad (أستاد, أستاد)
+2020-02-06 11:51:02,555 - test_case_logger - INFO - Translating Amine (أمين, أمين)
+2020-02-06 11:51:02,559 - test_case_logger - WARNING - Translating Intissar (إنتصار, إنتيسار)
+2020-02-06 11:51:02,561 - test_case_logger - INFO - Translating Ewa (إوا, إوا)
+2020-02-06 11:51:02,561 - test_case_logger - INFO - Total INFO logs 3 (75.0%), Total WARNING logs 1 (25%), Total ERROR logs 0 (0.0%)

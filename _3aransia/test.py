@@ -11,6 +11,7 @@ logging.root.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 # Loggers
+test_case_logger = logging.getLogger('test_case_logger')
 alphabet_logger = logging.getLogger('alphabet_logger')
 word_logger = logging.getLogger('word_logger')
 sentence_logger = logging.getLogger('sentence_logger')
@@ -18,12 +19,38 @@ arabic_translation_logger = logging.getLogger('arabic_translation_logger')
 french_translation_logger = logging.getLogger('french_translation_logger')
 english_translation_logger = logging.getLogger('english_translation_logger')
 
-# Data sets
+# Test sets
 alphabet = pd.read_csv(BASE_DIR + DATA_DIR + MOROCCAN_ALPHABET)
 words = pd.read_csv(BASE_DIR + DATA_DIR + OPEN_DICTIONARY_SAMPLE)
+test_cases = pd.read_csv(BASE_DIR + TEST_DIR + TEST_CASES)
+
+# Test case 
+def test_case():
+    fh = logging.FileHandler(BASE_DIR + LOG_DIR + TEST_CASE_LOG_FILE, 'w')
+    fh.setFormatter(formatter)
+    fh.setLevel(logging.INFO)
+    test_case_logger.addHandler(fh)
+    test_case_logger.info(f'Translating [item to test] ([expected result], [generated result result])')
+
+    count_infos, count_warnings, count_errors = 0, 0, 0
+
+    for index, row in test_cases.iterrows():
+        expected_result, moroccan_translation = row["Expected Result"], moroccan_to_arabic(row["Test Case"])
+        try:
+            if expected_result == moroccan_translation[0]["arabian_word"]:
+                test_case_logger.info(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation[0]["arabian_word"]})')
+                count_infos += 1
+            else:
+                test_case_logger.warning(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation[0]["arabian_word"]})')
+                count_warnings += 1
+        except (IndexError, KeyError, TypeError) as e:
+            test_case_logger.error(f'Translating {row["Test Case"]}, IndexError')
+            count_errors += 1
+    test_case_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(test_cases)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(test_cases)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(test_cases)*100, 2)}%)')
+
 
 # Test alphabet
-def test_alphabet_translation():
+def test_alphabet():
     fh = logging.FileHandler(BASE_DIR + LOG_DIR + ALPHABET_TEST_LOG_FILE, 'w')
     fh.setFormatter(formatter)
     fh.setLevel(logging.INFO)
@@ -33,22 +60,16 @@ def test_alphabet_translation():
     count_infos, count_warnings, count_errors = 0, 0, 0
 
     for index, row in alphabet.iterrows():
-        arabian_letter, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])
+        expected_result, moroccan_translation = row["ArabianAlphabet"], moroccan_to_arabic(row["MoroccanAlphabet"])
         try:
-            if arabian_letter == moroccan_translation[0]["arabian_word"]:
-                alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
+            if expected_result == moroccan_translation[0]["arabian_word"]:
+                alphabet_logger.info(f'Translating {row["MoroccanAlphabet"]} ({expected_result}, {moroccan_translation[0]["arabian_word"]})')
                 count_infos += 1
             else:
-                alphabet_logger.warning(f'Translating {row["MoroccanAlphabet"]} ({arabian_letter}, {moroccan_translation[0]["arabian_word"]})')
+                alphabet_logger.warning(f'Translating {row["MoroccanAlphabet"]} ({expected_result}, {moroccan_translation[0]["arabian_word"]})')
                 count_warnings += 1
-        except IndexError:
+        except (IndexError, KeyError, TypeError) as e:
             alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, IndexError')
-            count_errors += 1
-        except KeyError:
-            alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, KeyError')
-            count_errors += 1
-        except TypeError:
-            alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, TypeError')
             count_errors += 1
     alphabet_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(alphabet)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(alphabet)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet)*100, 2)}%)')
 
@@ -63,22 +84,16 @@ def test_word_translation():
     count_infos, count_warnings, count_errors = 0, 0, 0
 
     for index, row in words.iterrows():
-        arabian_word, moroccan_translation = row["Moroccan Arabic"], moroccan_to_arabic(row["Moroccan"])
+        expected_result, moroccan_translation = row["Moroccan Arabic"], moroccan_to_arabic(row["Moroccan"])
         try:
-            if arabian_word == moroccan_translation[0]["arabian_word"]:
-                word_logger.info(f'Translating {row["Moroccan"]} ({arabian_word} , {moroccan_translation[0]["arabian_word"]})')
+            if expected_result == moroccan_translation[0]["arabian_word"]:
+                word_logger.info(f'Translating {row["Moroccan"]} ({expected_result} , {moroccan_translation[0]["arabian_word"]})')
                 count_infos += 1
             else:
-                word_logger.warning(f'Translating {row["Moroccan"]} ({arabian_word} , {moroccan_translation[0]["arabian_word"]})')
+                word_logger.warning(f'Translating {row["Moroccan"]} ({expected_result} , {moroccan_translation[0]["arabian_word"]})')
                 count_warnings += 1
-        except IndexError:
-            word_logger.error(f'Translating {row["Moroccan"]}, IndexError')
-            count_errors += 1
-        except KeyError:
-            word_logger.error(f'Translating {row["Moroccan"]}, KeyError')
-            count_errors += 1
-        except TypeError:
-            word_logger.error(f'Translating {row["Moroccan"]}, TypeError')
+        except (IndexError, KeyError, TypeError) as e:
+            alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, IndexError')
             count_errors += 1
     word_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(words)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(words)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(words)*100, 2)}%)')
 
@@ -112,8 +127,11 @@ def test_english_translation_translation():
 
 # Test function
 def run_tests():
+    # Test case
+    test_case()
+
     # Test alphabet
-    test_alphabet_translation()
+    test_alphabet()
     
     # Test words
     test_word_translation()
