@@ -11,6 +11,7 @@ logging.root.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 # Loggers
+test_stats_logger = logging.getLogger('test_stats_logger')
 test_case_logger = logging.getLogger('test_case_logger')
 alphabet_logger = logging.getLogger('alphabet_logger')
 word_logger = logging.getLogger('word_logger')
@@ -23,6 +24,12 @@ english_translation_logger = logging.getLogger('english_translation_logger')
 alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
 words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY_SAMPLE)
 test_cases = pd.read_csv(BASE_DIR + TEST_DIR + TEST_CASES)
+
+# Test statistics logger
+fh = logging.FileHandler(BASE_DIR + LOG_DIR + TEST_STATS_LOG_FILE, 'a')
+fh.setFormatter(formatter)
+fh.setLevel(logging.INFO)
+test_stats_logger.addHandler(fh)
 
 # Test case 
 def test_case():
@@ -47,6 +54,7 @@ def test_case():
             test_case_logger.error(f'Translating {row["Test Case"]}, IndexError')
             count_errors += 1
     test_case_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(test_cases)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(test_cases)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(test_cases)*100, 2)}%)')
+    test_stats_logger.info(f'test_case_logger - Total INFO logs {count_infos} ({round(count_infos/len(test_cases)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(test_cases)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(test_cases)*100, 2)}%)')
 
 
 # Test alphabet
@@ -72,6 +80,7 @@ def test_alphabet():
             alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, IndexError')
             count_errors += 1
     alphabet_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(alphabet)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(alphabet)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet)*100, 2)}%)')
+    test_stats_logger.info(f'alphabet_logger - Total INFO logs {count_infos} ({round(count_infos/len(alphabet)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(alphabet)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet)*100, 2)}%)')
 
 # Test words
 def test_word_translation():
@@ -96,6 +105,7 @@ def test_word_translation():
             alphabet_logger.error(f'Translating {row["MoroccanAlphabet"]}, IndexError')
             count_errors += 1
     word_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(words)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(words)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(words)*100, 2)}%)')
+    test_stats_logger.info(f'word_logger - Total INFO logs {count_infos} ({round(count_infos/len(words)*100, 2)}%), Total WARNING logs {count_warnings} ({round(count_warnings/len(words)*100, )}%), Total ERROR logs {count_errors} ({round(count_errors/len(words)*100, 2)}%)')
 
 # Test sentences
 def test_sentence_translation():

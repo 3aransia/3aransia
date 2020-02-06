@@ -20,4 +20,6 @@ ARABIC_TRANSLATION_TEST_LOG_FILE = '/test_arabic_translation.log'
 FRENCH_TRANSLATION_TEST_LOG_FILE = '/test_french_translation.log'
 ENGLISH_TRANSLATION_TEST_LOG_FILE = '/test_english_translation.log'
 
+TEST_STATS_LOG_FILE = '/test_stats.log'
+
 DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh', 'ch', 'yi', 'ee']

@@ -1,0 +1,6 @@
+2020-02-06 13:19:47,873 - test_stats_logger - INFO - test_case_logger - Total INFO logs 3 (60.0%), Total WARNING logs 2 (40%), Total ERROR logs 0 (0.0%)
+2020-02-06 13:19:47,965 - test_stats_logger - INFO - alphabet_logger - Total INFO logs 42 (75.0%), Total WARNING logs 14 (25%), Total ERROR logs 0 (0.0%)
+2020-02-06 13:19:50,177 - test_stats_logger - INFO - word_logger - Total INFO logs 267 (44.57%), Total WARNING logs 332 (55%), Total ERROR logs 0 (0.0%)
+2020-02-06 13:20:24,678 - test_stats_logger - INFO - test_case_logger - Total INFO logs 3 (60.0%), Total WARNING logs 2 (40%), Total ERROR logs 0 (0.0%)
+2020-02-06 13:20:24,749 - test_stats_logger - INFO - alphabet_logger - Total INFO logs 42 (75.0%), Total WARNING logs 14 (25%), Total ERROR logs 0 (0.0%)
+2020-02-06 13:20:27,833 - test_stats_logger - INFO - word_logger - Total INFO logs 267 (44.57%), Total WARNING logs 332 (55%), Total ERROR logs 0 (0.0%)
