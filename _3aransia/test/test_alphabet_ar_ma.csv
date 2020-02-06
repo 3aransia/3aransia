@@ -18,7 +18,6 @@ Test Case,Expected Result
 ظ,d
  ,e
 إ,e
-ي,ee
 ف,f
 ڭ,g
 غ,gh
@@ -55,3 +54,4 @@ Test Case,Expected Result
 أ,o
 أ,a
 إ,i
+ي,ee

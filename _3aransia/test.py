@@ -62,11 +62,11 @@ def test_case():
     for index, row in test_cases.iterrows():
         expected_result, moroccan_translation = row["Expected Result"], moroccan_to_arabic(row["Test Case"])
         try:
-            if expected_result == moroccan_translation[-1]["arabian_translation"]:
-                test_case_logger.info(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation[-1]["arabian_translation"]})')
+            if expected_result == moroccan_translation:
+                test_case_logger.info(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation})')
                 count_infos += 1
             else:
-                test_case_logger.warning(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation[-1]["arabian_translation"]})')
+                test_case_logger.warning(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation})')
                 count_warnings += 1
         except (IndexError, KeyError, TypeError) as e:
             test_case_logger.error(f'Translating {row["Test Case"]}, {e}')
@@ -88,11 +88,11 @@ def test_alphabet_ma_ar_translation():
     for index, row in alphabet_ma_ar.iterrows():
         expected_result, moroccan_translation = row["Expected Result"], moroccan_to_arabic(row["Test Case"])
         try:
-            if expected_result == moroccan_translation[-1]["arabian_translation"]:
-                alphabet_ma_ar_logger.info(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation[-1]["arabian_translation"]})')
+            if expected_result == moroccan_translation:
+                alphabet_ma_ar_logger.info(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation})')
                 count_infos += 1
             else:
-                alphabet_ma_ar_logger.warning(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation[-1]["arabian_translation"]})')
+                alphabet_ma_ar_logger.warning(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation})')
                 count_warnings += 1
         except (IndexError, KeyError, TypeError) as e:
             alphabet_ma_ar_logger.error(f'Translating {row["Test Case"]}, {e}')
@@ -113,11 +113,11 @@ def test_word_ma_ar_translation():
     for index, row in words_ma_ar.iterrows():
         expected_result, moroccan_translation = row["Expected Result"], moroccan_to_arabic(row["Test Case"])
         try:
-            if expected_result == moroccan_translation[-1]["arabian_translation"]:
-                word_ma_ar_logger.info(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation[-1]["arabian_translation"]})')
+            if expected_result == moroccan_translation:
+                word_ma_ar_logger.info(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation})')
                 count_infos += 1
             else:
-                word_ma_ar_logger.warning(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation[-1]["arabian_translation"]})')
+                word_ma_ar_logger.warning(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation})')
                 count_warnings += 1
         except (IndexError, KeyError, TypeError) as e:
             alphabet_ma_ar_logger.error(f'Translating {row["Test Case"]}, {e}')
@@ -138,11 +138,11 @@ def test_alphabet_ar_ma_translation():
     for index, row in alphabet_ar_ma.iterrows():
         expected_result, moroccan_translation = row["Expected Result"], arabic_to_moroccan(row["Test Case"])
         try:
-            if expected_result == moroccan_translation[-1]["moroccan_translation"]:
-                alphabet_ar_ma_logger.info(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation[-1]["moroccan_translation"]})')
+            if expected_result == moroccan_translation:
+                alphabet_ar_ma_logger.info(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation})')
                 count_infos += 1
             else:
-                alphabet_ar_ma_logger.warning(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation[-1]["moroccan_translation"]})')
+                alphabet_ar_ma_logger.warning(f'Translating {row["Test Case"]} ({expected_result}, {moroccan_translation})')
                 count_warnings += 1
         except (IndexError, KeyError, TypeError) as e:
             alphabet_ar_ma_logger.error(f'Translating {row["Test Case"]}, {e}')
@@ -163,11 +163,11 @@ def test_word_ar_ma_translation():
     for index, row in words_ar_ma.iterrows():
         expected_result, moroccan_translation = row["Expected Result"], arabic_to_moroccan(row["Test Case"])
         try:
-            if expected_result.lower() == moroccan_translation[-1]["moroccan_translation"]:
-                word_ar_ma_logger.info(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation[-1]["moroccan_translation"]})')
+            if expected_result.lower() == moroccan_translation:
+                word_ar_ma_logger.info(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation})')
                 count_infos += 1
             else:
-                word_ar_ma_logger.warning(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation[-1]["moroccan_translation"]})')
+                word_ar_ma_logger.warning(f'Translating {row["Test Case"]} ({expected_result} , {moroccan_translation})')
                 count_warnings += 1
         except (IndexError, KeyError, TypeError) as e:
             alphabet_ar_ma_logger.error(f'Translating {row["Test Case"]}, {e}')
