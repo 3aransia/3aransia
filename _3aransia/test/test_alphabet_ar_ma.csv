@@ -31,6 +31,7 @@ Test Case,Expected Result
 م,m
 ن,n
 و,o
+و,w
 و,ou
 پ,p
 ق,q
@@ -44,7 +45,6 @@ Test Case,Expected Result
 ث,t
 و,u
 ڤ,v
-و,w
 كس,x
 كز,x
 ي,y
