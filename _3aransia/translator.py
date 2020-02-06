@@ -12,7 +12,7 @@ def morrocan_letter_to_arabian(letter, position, word):
     if ((letter in 'o'  and len(word) > 1) or letter in ('a', 'ou')) and position == 0: return 'أ'
     elif letter in ('i', 'e') and position == 0: return 'إ'
     elif letter == 'e' and position > 0: return ''
-    else: return alphabet.loc[alphabet['MoroccanAlphabet'] == letter.lower()]['ArabianAlphabet'].values[0]
+    else: return alphabet.loc[alphabet['Moroccan Alphabet'] == letter.lower()]['Arabian Alphabet'].values[0]
 
 # Translate Moroccan to Arabic
 def moroccan_to_arabic(_str):

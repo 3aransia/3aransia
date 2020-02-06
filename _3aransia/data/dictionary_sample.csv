@@ -1,4 +1,4 @@
-Moroccan,Moroccan Arabic,Arabic,French, English
+Moroccan,Moroccan Arabic,Arabic,French,English
 lmofradat,مفردات,المفردات,vocabulaire,vocabulary
 boldane,بلدان,البلدان,pays,country
 oustouraliya,استراليا,أستراليا,australie,Australia
@@ -164,14 +164,14 @@ Sekkar,سكر,سكر,sucre,sugar
 Atay,أتاي,شاي,thé,tea
 L7em,لحم,لحم,viande,meat
 Khell,خل,خل,vinaigre,vinegar
-Shkoun,شْكُون,من,Qui ,who
-Ashno,أََشْ شنو,مادا,Quoi ,What
+Shkoun,شكون,من,Qui ,who
+Ashno,أََش شنو,مادا,Quoi ,What
 3lash,عْلاش,لما,Pourquoi ,Why
 Lash,لاش,لمادا,Pour quelle raison ,Why
 Fin,فِينْ,اين,ou ,or
 Imta,فوقاش,متا,quand,when
 Lemen,لمن,لمن,pour qui,for who
-Kifash,كيفاشْ,كيف,comment,How? 'Or' What
+Kifash,كيفاش,كيف,comment,How? 'Or' What
 Sh7al,شحال,كم,combien,how much
 Feddi,فضي,فضي,Argent,Money
 Bij,بيج,بيج,Beige,Beige
@@ -516,8 +516,8 @@ tcheka 3la,تشكا علا,,se plaindre à,complain to
 kemmel,كمل,,Achevée,complete
 rekkez,ركز,,concentrer,concentrate
 hemm,هم,,préoccupation,concern
-htem,هتّم ب,,"concerné par, être","concerned with, to be"
-3taref,عتَرف,,avouer,confess
+htem,هتم ب,,"concerné par, être","concerned with, to be"
+3taref,عترف,,avouer,confess
 7ayyer,حير,,embrouiller,confuse
 7ar,حار,,"confus, être","confused, to be"
 henne2,هنأs,,féliciter,congratulate
@@ -548,7 +548,7 @@ k7ob,كحب,,la toux,cough
 le9em,لقّم,,croiser,cross-breed
 bka,بكا,,pleurer,cry
 bekka,بكا,,"pleurer, faire","cry, to make"
-dawa,(داوا (داوا,,guérir,cure
+dawa,داوا,guérir,cure
 bra,برا,,"guéri, être","cured, to be"
 fsel,فصل,,couper (un motif de tissu),cut (a pattern from cloth)
 7sen,حسن,,couper les cheveux,cut hair
@@ -557,7 +557,7 @@ tjre7,تجرح,,"coupé ou blessé, être","cut or injured, to be"
 jre7,جرح,,"couper, blesser, blesser (peau)","cut, injure, wound (skin)"
 5ser,خسر,,dommage,damage
 fzeg,فزگ,,"humide, pour obtenir","damp, to get"
-fezzeg,فزّگ,,humidifier,dampen
+fezzeg,فزگ,,humidifier,dampen
 chte7,شطح,,Danse,dance
 semmek,صمك,,assourdir,deafen
 t3aml m3a,تعامل معا,,traiter avec s.o.,deal with s.o.
@@ -573,12 +573,12 @@ t7edda,تحدا,,defier,defy
 hbet,هبط,,descendre,descend
 nzel,نزل,,"descendre, descendre","descend, get off"
 wsef,وصف,,décrire,describe
-sta7e9,ستّحق,,mériter,deserve
+sta7e9,ستحق,,mériter,deserve
 5ettet,خطط,,conception,design
 hdem,هدم,,détruire,destroy
 tawer,طور,,développer,develop
 mat,مات,,mourir,die
-5talef,ختّلف,,différer),differ (from)
+5talef,ختلف,,différer),differ (from)
 tkerfes 3la,تكرفس علا,,"difficile pour s., faire","difficult for s.o., to make"
 7fer,حفر,,creuser,dig
 hdem,هضم,,digérer,digest
@@ -587,7 +587,7 @@ twse5,توسخ,,"sale, pour obtenir","dirty, to get"
 wesse5,وسخ,,"sale, faire","dirty, to make"
 ghab,غاب,,"disparaître, être absent","disappear, to be absent"
 addeb,أدب,,la discipline,discipline
-ktachef,كتَشف,,découvrir,discover
+ktachef,كتشف,,découvrir,discover
 na9ech,ناقش,,discuter,discuss
 dweb,دوب,,dissoudre,dissolve
 be3ed,بعد,,se distancer (de),distance oneself (from)

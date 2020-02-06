@@ -10,6 +10,8 @@ TRANING_DATA = '/training_data.csv'
 ALPHABET = '/alphabet.csv'
 
 TEST_CASES = '/test_cases.csv'
+TEST_ALPHABET = '/test_alphabet.csv'
+TEST_WORDS = '/test_words.csv'
 
 TEST_CASE_LOG_FILE = '/test_case.log'
 ALPHABET_TEST_LOG_FILE = '/test_alphabet.log'
