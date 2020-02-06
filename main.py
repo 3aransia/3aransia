@@ -1,4 +1,4 @@
-from _3aransia.translator import *
+from _3aransia.transliterator import *
 from _3aransia.test import *
 from _3aransia.utils import *
 
