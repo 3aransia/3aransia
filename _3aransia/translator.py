@@ -16,7 +16,8 @@ def morrocan_letter_to_arabian(letter, position, word):
 
 # Translate Moroccan to Arabic
 def moroccan_to_arabic(_str):
-    arabian_translation = list()
+    arabian_translation_object = list()
+    arabian_translation = str()
     for word in _str.split():
         moroccan_translation_object, arabian_word, word, word_iterator = dict(), [], unidecode.unidecode(word.lower()), iter(range(len(word)))
         for i in word_iterator:
@@ -29,6 +30,10 @@ def moroccan_to_arabic(_str):
                     next(word_iterator)
                 else: arabian_word.append(morrocan_letter_to_arabian(word[i], i, word))
             else: arabian_word.append(morrocan_letter_to_arabian(word[i], i, word))
-        moroccan_translation_object = {'moroccan_word' : word, 'arabian_word' : u''.join(arabian_word).replace(u'\u200e', '')}
-        arabian_translation.append(moroccan_translation_object)
-    return arabian_translation
+        arabian_word = u''.join(arabian_word).replace(u'\u200e', '')
+        moroccan_translation_object = {'moroccan_word' : word, 'arabian_word' : arabian_word}
+        arabian_translation +=  arabian_word + ' '
+        arabian_translation_object.append(moroccan_translation_object)
+    arabian_translation = u' '.join(arabian_translation.split())
+    arabian_translation_object.append({'moroccan_sentence': _str, 'arabian_translation': arabian_translation})
+    return arabian_translation_object
