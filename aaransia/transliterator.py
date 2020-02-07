@@ -9,9 +9,9 @@ from aaransia.utils import *
 
 # Transliterate a Moroccan letter to an Arabian letter
 def _morrocan_letter_to_arabian(letter, position, word): 
-    if ((letter in 'o'  and len(word) > 1) or letter in ('a', 'ou')) and position == 0: return 'أ'
-    elif letter in ('i', 'e') and position == 0: return 'إ'
-    elif letter == 'e' and position > 0: return ''
+    if ((letter in 'o' and len(word) > 1) or letter in ('a', 'ou')) and position == 0: return 'أ'
+    elif (letter in ('i', 'e')) and position == 0: return 'إ'
+    elif (letter in ('o', 'e')) and position > 0: return ''
     else: return moroccan_alphabet[letter.lower()][0]
 
 # Translate Moroccan to Arabic

@@ -5,9 +5,10 @@ from aaransia.machine_learning import *
 from aaransia.transliterator import *
 from aaransia.constants import *
 from aaransia.utils import *
+from aaransia.make_pickle import *
+import aaransia.analyzer 
 
-# construct_moroccan_alphabet()
-# construct_moroccan_arabic_alphabet()
+make_pickle()
 
 # Refresh test files
 build_test_alphabet_ma_ar_file()

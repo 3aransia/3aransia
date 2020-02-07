@@ -12,6 +12,13 @@ DICTIONARY = '/dictionary.csv'
 DICTIONARY_SAMPLE = '/dictionary_sample.csv'
 TRANING_DATA = '/training_data.csv'
 ALPHABET = '/alphabet.csv'
+DICT_PREFIXES = '/dictprefixes.txt' 
+DICT_SUFFIXES = '/dictsuffixes.txt' 
+DICT_STEMS = '/dictstems.txt' 
+TABLE_AB = '/tableab.txt'  
+TABLE_AC = '/tableac.txt'  
+TABLE_BC = '/tablebc.txt'  
+ANAMORPH_DATA = '/anamorph.data'
 
 # Test files
 TEST_CASES = '/test_cases.csv'
