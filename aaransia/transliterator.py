@@ -7,14 +7,12 @@ import numpy as np
 from aaransia.constants import *
 from aaransia.utils import *
 
-alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
-
 # Transliterate a Moroccan letter to an Arabian letter
 def _morrocan_letter_to_arabian(letter, position, word): 
-    if ((letter in 'o'  and len(word) > 1) or letter in ('a', 'ou')) and position == 0: return 'أ'
-    elif letter in ('i', 'e') and position == 0: return 'إ'
-    elif letter == 'e' and position > 0: return ''
-    else: return alphabet.loc[alphabet['Moroccan Alphabet'] == letter.lower()]['Arabian Alphabet'].values[0]
+    if ((letter in 'o' and len(word) > 1) or letter in ('a', 'ou')) and position == 0: return 'أ'
+    elif (letter in ('i', 'e')) and position == 0: return 'إ'
+    elif (letter in ('o', 'e')) and position > 0: return ''
+    else: return moroccan_alphabet[letter.lower()][0]
 
 # Translate Moroccan to Arabic
 def moroccan_to_arabic(_str):
@@ -38,12 +36,12 @@ def moroccan_to_arabic(_str):
     return arabian_translation
 
 # Transliterate a Arabic letter to an Moroccan letter
-def _arabic_moroccan_letter_to_moroccan(letter, position, word): 
-    return alphabet.loc[alphabet['Arabian Alphabet'] == letter]['Moroccan Alphabet'].values[0]
+def _moroccan_arabic_letter_to_moroccan(letter, position, word): 
+    return moroccan_arabic_alphabet[normalize_arabic(de_noise(letter))][0]
 
 # Transliteration from arabic to moroccan
-def arabic_moroccan_to_moroccan(_str):
-    _str, moroccan_translation = normalizeArabic(deNoise(_str)), list()
+def moroccan_arabic_to_moroccan(_str):
+    _str, moroccan_translation = normalize_arabic(de_noise(_str)), list()
     str_iterator = iter(_str.split())
     for word in str_iterator:
         if word.isdigit(): 
@@ -51,7 +49,7 @@ def arabic_moroccan_to_moroccan(_str):
         else: 
             moroccan_word, word_iterator = [], iter(range(len(word))) 
             for i in word_iterator:
-                moroccan_word.append(_arabic_moroccan_letter_to_moroccan(word[i], i, word))
+                moroccan_word.append(_moroccan_arabic_letter_to_moroccan(word[i], i, word))
             moroccan_translation.append(''.join(moroccan_word))
     moroccan_translation = ' '.join(moroccan_translation)
     return moroccan_translation

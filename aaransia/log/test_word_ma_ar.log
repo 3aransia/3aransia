@@ -1,601 +1,1684 @@
-2020-02-06 18:27:51,474 - word_ma_ar_logger - INFO - Translating [item to test] ([expected result], [generated result result])
-2020-02-06 18:27:51,480 - word_ma_ar_logger - WARNING - Translating lmofradat (مفردات , لموفرادات)
-2020-02-06 18:27:51,484 - word_ma_ar_logger - WARNING - Translating boldane (بلدان , بولدان)
-2020-02-06 18:27:51,489 - word_ma_ar_logger - WARNING - Translating oustouraliya (استراليا , أستورالييا)
-2020-02-06 18:27:51,494 - word_ma_ar_logger - WARNING - Translating kombodje (كامبودج , كومبودج)
-2020-02-06 18:27:51,497 - word_ma_ar_logger - WARNING - Translating canada (كندا , كانادا)
-2020-02-06 18:27:51,501 - word_ma_ar_logger - INFO - Translating chinwa (شينوا , شينوا)
-2020-02-06 18:27:51,503 - word_ma_ar_logger - WARNING - Translating misre (مصر , ميسر)
-2020-02-06 18:27:51,507 - word_ma_ar_logger - WARNING - Translating naglize (نڭليز , ناڭليز)
-2020-02-06 18:27:51,511 - word_ma_ar_logger - INFO - Translating fransa (فرانسا , فرانسا)
-2020-02-06 18:27:51,515 - word_ma_ar_logger - WARNING - Translating almaniya (المانيا , ألمانييا)
-2020-02-06 18:27:51,519 - word_ma_ar_logger - INFO - Translating lyounane (ليونان , ليونان)
-2020-02-06 18:27:51,521 - word_ma_ar_logger - WARNING - Translating hind (لهند , هيند)
-2020-02-06 18:27:51,527 - word_ma_ar_logger - WARNING - Translating andounissiya (أندونيسيا , أندونيسييا)
-2020-02-06 18:27:51,531 - word_ma_ar_logger - WARNING - Translating taliane (طاليان , تاليان)
-2020-02-06 18:27:51,534 - word_ma_ar_logger - INFO - Translating japoune (جاپون , جاپون)
-2020-02-06 18:27:51,537 - word_ma_ar_logger - WARNING - Translating lmixik (لمكسيك , لميكسيك)
-2020-02-06 18:27:51,542 - word_ma_ar_logger - WARNING - Translating lmaghrib (لمغريب , لماغريب)
-2020-02-06 18:27:51,545 - word_ma_ar_logger - INFO - Translating lpirou (لپيرو , لپيرو)
-2020-02-06 18:27:51,549 - word_ma_ar_logger - WARNING - Translating sbaniya (سبنيا , سبانييا)
-2020-02-06 18:27:51,553 - word_ma_ar_logger - WARNING - Translating taylande (طايلاند , تايلاند)
-2020-02-06 18:27:51,557 - word_ma_ar_logger - INFO - Translating mirikane (ميريكان , ميريكان)
-2020-02-06 18:27:51,560 - word_ma_ar_logger - INFO - Translating loghat (لوغات , لوغات)
-2020-02-06 18:27:51,565 - word_ma_ar_logger - WARNING - Translating l3arbia (لعربية , لعاربيا)
-2020-02-06 18:27:51,569 - word_ma_ar_logger - WARNING - Translating chinwiya (شينويا , شينوييا)
-2020-02-06 18:27:51,574 - word_ma_ar_logger - WARNING - Translating nagliziya (نڭليزية , ناڭليزييا)
-2020-02-06 18:27:51,581 - word_ma_ar_logger - WARNING - Translating fransawiya (فرنساويا , فرانساوييا)
-2020-02-06 18:27:51,584 - word_ma_ar_logger - WARNING - Translating almania (المانيا , ألمانيا)
-2020-02-06 18:27:51,589 - word_ma_ar_logger - WARNING - Translating younaniya (يونانيا , يونانييا)
-2020-02-06 18:27:51,593 - word_ma_ar_logger - WARNING - Translating ihoudiya (يهودية , إهودييا)
-2020-02-06 18:27:51,597 - word_ma_ar_logger - WARNING - Translating hindiya (هندية , هيندييا)
-2020-02-06 18:27:51,601 - word_ma_ar_logger - WARNING - Translating italiya (ايطالية , إتالييا)
-2020-02-06 18:27:51,606 - word_ma_ar_logger - WARNING - Translating japoniya (جابونية , جاپونييا)
-2020-02-06 18:27:51,611 - word_ma_ar_logger - WARNING - Translating kordiya (كورية , كوردييا)
-2020-02-06 18:27:51,615 - word_ma_ar_logger - WARNING - Translating latiniya (لاتينية , لاتينييا)
-2020-02-06 18:27:51,619 - word_ma_ar_logger - WARNING - Translating roussiya (روسية , روسييا)
-2020-02-06 18:27:51,625 - word_ma_ar_logger - WARNING - Translating spaniouliya (صبليونية , سپانيولييا)
-2020-02-06 18:27:51,629 - word_ma_ar_logger - WARNING - Translating 2ordia (الاردية , ءورديا)
-2020-02-06 18:27:51,632 - word_ma_ar_logger - INFO - Translating lyamate (ليامات , ليامات)
-2020-02-06 18:27:51,635 - word_ma_ar_logger - INFO - Translating tnine (تنين , تنين)
-2020-02-06 18:27:51,637 - word_ma_ar_logger - INFO - Translating tlate (تلات , تلات)
-2020-02-06 18:27:51,640 - word_ma_ar_logger - INFO - Translating larb3a (لاربعا , لاربعا)
-2020-02-06 18:27:51,643 - word_ma_ar_logger - WARNING - Translating 5amis (الخميس , خاميس)
-2020-02-06 18:27:51,646 - word_ma_ar_logger - WARNING - Translating jam3a (جمعة , جامعا)
-2020-02-06 18:27:51,649 - word_ma_ar_logger - WARNING - Translating sabte (سبت , سابت)
-2020-02-06 18:27:51,651 - word_ma_ar_logger - WARNING - Translating 7add (الحد , حاد)
-2020-02-06 18:27:51,654 - word_ma_ar_logger - WARNING - Translating marra (مرة , مارا)
-2020-02-06 18:27:51,656 - word_ma_ar_logger - WARNING - Translating sa3a (ساعة , ساعا)
-2020-02-06 18:27:51,659 - word_ma_ar_logger - WARNING - Translating d9i9a (دقيقة , دقيقا)
-2020-02-06 18:27:51,663 - word_ma_ar_logger - WARNING - Translating taniya (تانية , تانييا)
-2020-02-06 18:27:51,667 - word_ma_ar_logger - WARNING - Translating sme7lia (سمحلي , سمحليا)
-2020-02-06 18:27:51,670 - word_ma_ar_logger - WARNING - Translating besse7a (بصحة , بسحا)
-2020-02-06 18:27:51,673 - word_ma_ar_logger - WARNING - Translating beslama (بسلامة , بسلاما)
-2020-02-06 18:27:51,676 - word_ma_ar_logger - WARNING - Translating bessa7 (بصح , بساح)
-2020-02-06 18:27:51,678 - word_ma_ar_logger - WARNING - Translating salam (سلام , سالام)
-2020-02-06 18:27:51,681 - word_ma_ar_logger - INFO - Translating wa7ed (واحد , واحد)
-2020-02-06 18:27:51,683 - word_ma_ar_logger - INFO - Translating jouj (جوج , جوج)
-2020-02-06 18:27:51,685 - word_ma_ar_logger - WARNING - Translating tlata (تلاتة , تلاتا)
-2020-02-06 18:27:51,688 - word_ma_ar_logger - WARNING - Translating reb3a (ربعة , ربعا)
-2020-02-06 18:27:51,691 - word_ma_ar_logger - WARNING - Translating 5emsa (خمسة , خمسا)
-2020-02-06 18:27:51,693 - word_ma_ar_logger - WARNING - Translating setta (ستة , ستا)
-2020-02-06 18:27:51,696 - word_ma_ar_logger - WARNING - Translating seb3a (سبعة , سبعا)
-2020-02-06 18:27:51,700 - word_ma_ar_logger - WARNING - Translating tmania (تمنية , تمانيا)
-2020-02-06 18:27:51,704 - word_ma_ar_logger - INFO - Translating tes3oud (تسعود , تسعود)
-2020-02-06 18:27:51,707 - word_ma_ar_logger - WARNING - Translating 3achra (عشرة , عاشرا)
-2020-02-06 18:27:51,709 - word_ma_ar_logger - WARNING - Translating iyeh (إييه , إيه)
-2020-02-06 18:27:51,711 - word_ma_ar_logger - INFO - Translating Lla (لا , لا)
-2020-02-06 18:27:51,715 - word_ma_ar_logger - INFO - Translating 3afak (عافاك , عافاك)
-2020-02-06 18:27:51,719 - word_ma_ar_logger - WARNING - Translating chokran (شكرا , شوكران)
-2020-02-06 18:27:51,723 - word_ma_ar_logger - WARNING - Translating Kanbghik (كنبغيك , كانبغيك)
-2020-02-06 18:27:51,727 - word_ma_ar_logger - INFO - Translating Twe77eshtek (توحشتك , توحشتك)
-2020-02-06 18:27:51,729 - word_ma_ar_logger - INFO - Translating Bezzaf (بزاف , بزاف)
-2020-02-06 18:27:51,732 - word_ma_ar_logger - WARNING - Translating chwia (شوية , شويا)
-2020-02-06 18:27:51,735 - word_ma_ar_logger - INFO - Translating Wakha (واخا , واخا)
-2020-02-06 18:27:51,737 - word_ma_ar_logger - INFO - Translating Daba (دابا , دابا)
-2020-02-06 18:27:51,738 - word_ma_ar_logger - INFO - Translating W (و , و)
-2020-02-06 18:27:51,741 - word_ma_ar_logger - INFO - Translating Mashi (ماشي , ماشي)
-2020-02-06 18:27:51,743 - word_ma_ar_logger - INFO - Translating Bghit (بغيت , بغيت)
-2020-02-06 18:27:51,746 - word_ma_ar_logger - INFO - Translating Salit (ساليت , ساليت)
-2020-02-06 18:27:51,749 - word_ma_ar_logger - INFO - Translating Zwin (زوين , زوين)
-2020-02-06 18:27:51,752 - word_ma_ar_logger - INFO - Translating 5ayb (خايب , خايب)
-2020-02-06 18:27:51,755 - word_ma_ar_logger - INFO - Translating Mezyan (مزيان , مزيان)
-2020-02-06 18:27:51,757 - word_ma_ar_logger - WARNING - Translating hder (هضر , هدر)
-2020-02-06 18:27:51,759 - word_ma_ar_logger - INFO - Translating fhem (فهم , فهم)
-2020-02-06 18:27:51,762 - word_ma_ar_logger - INFO - Translating flous (فلوس , فلوس)
-2020-02-06 18:27:51,764 - word_ma_ar_logger - INFO - Translating Hak (هاك , هاك)
-2020-02-06 18:27:51,766 - word_ma_ar_logger - WARNING - Translating Safi (صافي , سافي)
-2020-02-06 18:27:51,770 - word_ma_ar_logger - INFO - Translating Mebrouk (مبروك , مبروك)
-2020-02-06 18:27:51,772 - word_ma_ar_logger - INFO - Translating 3ya (عيا , عيا)
-2020-02-06 18:27:51,775 - word_ma_ar_logger - WARNING - Translating twalit (طواليط , تواليت)
-2020-02-06 18:27:51,778 - word_ma_ar_logger - WARNING - Translating 7edash (حضاش , حداش)
-2020-02-06 18:27:51,781 - word_ma_ar_logger - WARNING - Translating Tenash (طناش , تناش)
-2020-02-06 18:27:51,784 - word_ma_ar_logger - WARNING - Translating Teletash (تلطاش , تلتاش)
-2020-02-06 18:27:51,787 - word_ma_ar_logger - WARNING - Translating Rebe3tash (ربعطاش , ربعتاش)
-2020-02-06 18:27:51,791 - word_ma_ar_logger - WARNING - Translating Khemstash (خمسطاش , خمستاش)
-2020-02-06 18:27:51,794 - word_ma_ar_logger - WARNING - Translating Settash (سطاش , ستاش)
-2020-02-06 18:27:51,798 - word_ma_ar_logger - WARNING - Translating Sebe3tash (سبعطاش , سبعتاش)
-2020-02-06 18:27:51,801 - word_ma_ar_logger - WARNING - Translating Tementash (تمنطاش , تمنتاش)
-2020-02-06 18:27:51,805 - word_ma_ar_logger - WARNING - Translating Teze3tash (تزعطاش , تزعتاش)
-2020-02-06 18:27:51,808 - word_ma_ar_logger - INFO - Translating 7la9em (حلاقم , حلاقم)
-2020-02-06 18:27:51,810 - word_ma_ar_logger - WARNING - Translating Le7ia (لحية , لحيا)
-2020-02-06 18:27:51,812 - word_ma_ar_logger - WARNING - Translating Fomm (فم , فوم)
-2020-02-06 18:27:51,815 - word_ma_ar_logger - INFO - Translating Dra3 (دراع , دراع)
-2020-02-06 18:27:51,817 - word_ma_ar_logger - WARNING - Translating Mo5 (مخ , موخ)
-2020-02-06 18:27:51,819 - word_ma_ar_logger - INFO - Translating Sh3er (شعر , شعر)
-2020-02-06 18:27:51,821 - word_ma_ar_logger - INFO - Translating Shefr (شفر , شفر)
-2020-02-06 18:27:51,823 - word_ma_ar_logger - INFO - Translating 9elb (قلب , قلب)
-2020-02-06 18:27:51,825 - word_ma_ar_logger - INFO - Translating 3en9 (عنق , عنق)
-2020-02-06 18:27:51,827 - word_ma_ar_logger - WARNING - Translating Senna (سنة , سنا)
-2020-02-06 18:27:51,829 - word_ma_ar_logger - WARNING - Translating Sbe3 (صبع , سبع)
-2020-02-06 18:27:51,831 - word_ma_ar_logger - WARNING - Translating Deher (ضهر , دهر)
-2020-02-06 18:27:51,833 - word_ma_ar_logger - INFO - Translating Ktef (كتف , كتف)
-2020-02-06 18:27:51,836 - word_ma_ar_logger - WARNING - Translating Me3da (معدة , معدا)
-2020-02-06 18:27:51,838 - word_ma_ar_logger - WARNING - Translating Kebda (كبدة , كبدا)
-2020-02-06 18:27:51,841 - word_ma_ar_logger - WARNING - Translating Jebha (جبهة , جبها)
-2020-02-06 18:27:51,843 - word_ma_ar_logger - WARNING - Translating Rekba (ركبة , ركبا)
-2020-02-06 18:27:51,846 - word_ma_ar_logger - WARNING - Translating 7el9a (حلق , حلقا)
-2020-02-06 18:27:51,848 - word_ma_ar_logger - INFO - Translating 7enk (حنك , حنك)
-2020-02-06 18:27:51,851 - word_ma_ar_logger - INFO - Translating lsan (لسان , لسان)
-2020-02-06 18:27:51,852 - word_ma_ar_logger - INFO - Translating yedd (يد , يد)
-2020-02-06 18:27:51,854 - word_ma_ar_logger - WARNING - Translating Ders (ضرس , درس)
-2020-02-06 18:27:51,856 - word_ma_ar_logger - INFO - Translating Nif (نيف , نيف)
-2020-02-06 18:27:51,858 - word_ma_ar_logger - INFO - Translating 3in (عين , عين)
-2020-02-06 18:27:51,860 - word_ma_ar_logger - WARNING - Translating Defer (ضفر , دفر)
-2020-02-06 18:27:51,862 - word_ma_ar_logger - INFO - Translating Wden (ودن , ودن)
-2020-02-06 18:27:51,865 - word_ma_ar_logger - INFO - Translating srdine (سردين , سردين)
-2020-02-06 18:27:51,867 - word_ma_ar_logger - WARNING - Translating 3dem (عضم , عدم)
-2020-02-06 18:27:51,869 - word_ma_ar_logger - INFO - Translating Jeld (جلد , جلد)
-2020-02-06 18:27:51,871 - word_ma_ar_logger - INFO - Translating Rjel (رجل , رجل)
-2020-02-06 18:27:51,873 - word_ma_ar_logger - INFO - Translating Sder (سدر , سدر)
-2020-02-06 18:27:51,876 - word_ma_ar_logger - WARNING - Translating Riya (رية , رييا)
-2020-02-06 18:27:51,878 - word_ma_ar_logger - INFO - Translating 7ajeb (حاجب , حاجب)
-2020-02-06 18:27:51,881 - word_ma_ar_logger - INFO - Translating Ras (راس , راس)
-2020-02-06 18:27:51,883 - word_ma_ar_logger - INFO - Translating 3er9 (عرق , عرق)
-2020-02-06 18:27:51,885 - word_ma_ar_logger - INFO - Translating Kersh (كرش , كرش)
-2020-02-06 18:27:51,887 - word_ma_ar_logger - INFO - Translating Wjeh (وجه , وجه)
-2020-02-06 18:27:51,890 - word_ma_ar_logger - WARNING - Translating Zebda (زبدة , زبدا)
-2020-02-06 18:27:51,893 - word_ma_ar_logger - INFO - Translating Meslouq (مسلوق , مسلوق)
-2020-02-06 18:27:51,895 - word_ma_ar_logger - WARNING - Translating Qehwa (قهوة , قهوا)
-2020-02-06 18:27:51,900 - word_ma_ar_logger - INFO - Translating Kofitir (كوفيتير , كوفيتير)
-2020-02-06 18:27:51,903 - word_ma_ar_logger - INFO - Translating Kamoun (كامون , كامون)
-2020-02-06 18:27:51,905 - word_ma_ar_logger - INFO - Translating Ma (ما , ما)
-2020-02-06 18:27:51,907 - word_ma_ar_logger - INFO - Translating Degig (دڭيڭ , دڭيڭ)
-2020-02-06 18:27:51,910 - word_ma_ar_logger - INFO - Translating Meqli (مقلي , مقلي)
-2020-02-06 18:27:51,913 - word_ma_ar_logger - INFO - Translating Fermaj (فرماج , فرماج)
-2020-02-06 18:27:51,916 - word_ma_ar_logger - WARNING - Translating Fakia (فاكية , فاكيا)
-2020-02-06 18:27:51,919 - word_ma_ar_logger - WARNING - Translating 7elwa (حلوة , حلوا)
-2020-02-06 18:27:51,921 - word_ma_ar_logger - INFO - Translating Zit (زيت , زيت)
-2020-02-06 18:27:51,924 - word_ma_ar_logger - WARNING - Translating 3asir (عصير , عاسير)
-2020-02-06 18:27:51,927 - word_ma_ar_logger - INFO - Translating 7lib (حليب , حليب)
-2020-02-06 18:27:51,930 - word_ma_ar_logger - WARNING - Translating Khodra (خضرة , خودرا)
-2020-02-06 18:27:51,932 - word_ma_ar_logger - INFO - Translating 3des (عدس , عدس)
-2020-02-06 18:27:51,934 - word_ma_ar_logger - INFO - Translating 3sel (عسل , عسل)
-2020-02-06 18:27:51,936 - word_ma_ar_logger - WARNING - Translating Bida (بيضة , بيدا)
-2020-02-06 18:27:51,939 - word_ma_ar_logger - WARNING - Translating Khobz (خبز , خوبز)
-2020-02-06 18:27:51,941 - word_ma_ar_logger - INFO - Translating 7out (حوت , حوت)
-2020-02-06 18:27:51,944 - word_ma_ar_logger - INFO - Translating Ibzar (إبزار , إبزار)
-2020-02-06 18:27:51,946 - word_ma_ar_logger - INFO - Translating Rouz (روز , روز)
-2020-02-06 18:27:51,948 - word_ma_ar_logger - INFO - Translating Meshwi (مشوي , مشوي)
-2020-02-06 18:27:51,951 - word_ma_ar_logger - WARNING - Translating Shelada (شلاضة , شلادا)
-2020-02-06 18:27:51,953 - word_ma_ar_logger - WARNING - Translating Mel7a (ملحة , ملحا)
-2020-02-06 18:27:51,956 - word_ma_ar_logger - WARNING - Translating 7rira (حريرة , حريرا)
-2020-02-06 18:27:51,959 - word_ma_ar_logger - WARNING - Translating Sekkar (سكر , سكار)
-2020-02-06 18:27:51,961 - word_ma_ar_logger - INFO - Translating Atay (أتاي , أتاي)
-2020-02-06 18:27:51,963 - word_ma_ar_logger - INFO - Translating L7em (لحم , لحم)
-2020-02-06 18:27:51,964 - word_ma_ar_logger - INFO - Translating Khell (خل , خل)
-2020-02-06 18:27:51,967 - word_ma_ar_logger - INFO - Translating Shkoun (شكون , شكون)
-2020-02-06 18:27:51,969 - word_ma_ar_logger - WARNING - Translating Ashno (أش شنو , أشنو)
-2020-02-06 18:27:51,971 - word_ma_ar_logger - INFO - Translating 3lash (علاش , علاش)
-2020-02-06 18:27:51,972 - word_ma_ar_logger - INFO - Translating Lash (لاش , لاش)
-2020-02-06 18:27:51,975 - word_ma_ar_logger - INFO - Translating Fin (فين , فين)
-2020-02-06 18:27:51,977 - word_ma_ar_logger - WARNING - Translating Imta (فوقاش , إمتا)
-2020-02-06 18:27:51,979 - word_ma_ar_logger - INFO - Translating Lemen (لمن , لمن)
-2020-02-06 18:27:51,982 - word_ma_ar_logger - INFO - Translating Kifash (كيفاش , كيفاش)
-2020-02-06 18:27:51,984 - word_ma_ar_logger - INFO - Translating Sh7al (شحال , شحال)
-2020-02-06 18:27:51,986 - word_ma_ar_logger - WARNING - Translating Feddi (فضي , فدي)
-2020-02-06 18:27:51,989 - word_ma_ar_logger - INFO - Translating Bij (بيج , بيج)
-2020-02-06 18:27:51,992 - word_ma_ar_logger - WARNING - Translating Byed (بيض , بيد)
-2020-02-06 18:27:51,994 - word_ma_ar_logger - INFO - Translating zre9 (زرق , زرق)
-2020-02-06 18:27:51,997 - word_ma_ar_logger - INFO - Translating Shibi (شيبي , شيبي)
-2020-02-06 18:27:52,000 - word_ma_ar_logger - WARNING - Translating Grouna (ڭرونة , ڭرونا)
-2020-02-06 18:27:52,003 - word_ma_ar_logger - INFO - Translating Rmadi (رمادي , رمادي)
-2020-02-06 18:27:52,005 - word_ma_ar_logger - WARNING - Translating Sfer (صفر , سفر)
-2020-02-06 18:27:52,008 - word_ma_ar_logger - INFO - Translating 9ehwi (قهوي , قهوي)
-2020-02-06 18:27:52,010 - word_ma_ar_logger - WARNING - Translating Mauve (موڤ , ماوڤ)
-2020-02-06 18:27:52,012 - word_ma_ar_logger - INFO - Translating K7el (كحل , كحل)
-2020-02-06 18:27:52,014 - word_ma_ar_logger - INFO - Translating 5ezzi (خزي , خزي)
-2020-02-06 18:27:52,017 - word_ma_ar_logger - INFO - Translating Dehbi (دهبي , دهبي)
-2020-02-06 18:27:52,021 - word_ma_ar_logger - INFO - Translating Limouni (ليموني , ليموني)
-2020-02-06 18:27:52,024 - word_ma_ar_logger - WARNING - Translating Ponja (بونجة , پونجا)
-2020-02-06 18:27:52,026 - word_ma_ar_logger - INFO - Translating 7mer (حمر , حمر)
-2020-02-06 18:27:52,029 - word_ma_ar_logger - WARNING - Translating 7aris (حارس , حاريس)
-2020-02-06 18:27:52,031 - word_ma_ar_logger - WARNING - Translating 5der (خضر , خدر)
-2020-02-06 18:27:52,037 - word_ma_ar_logger - WARNING - Translating Banafsaji (بنفسجي , بانافساجي)
-2020-02-06 18:27:52,039 - word_ma_ar_logger - WARNING - Translating 7amd (حامض , حامد)
-2020-02-06 18:27:52,043 - word_ma_ar_logger - WARNING - Translating Nashit (نشيط , ناشيت)
-2020-02-06 18:27:52,045 - word_ma_ar_logger - INFO - Translating Sharf (شارف , شارف)
-2020-02-06 18:27:52,048 - word_ma_ar_logger - INFO - Translating 9dim (قديم , قديم)
-2020-02-06 18:27:52,050 - word_ma_ar_logger - WARNING - Translating Temma3 (طماع , تماع)
-2020-02-06 18:27:52,054 - word_ma_ar_logger - INFO - Translating Mezian (مزيان , مزيان)
-2020-02-06 18:27:52,057 - word_ma_ar_logger - INFO - Translating me7rou9 (محروق , محروق)
-2020-02-06 18:27:52,059 - word_ma_ar_logger - INFO - Translating Meherres (مهرس , مهرس)
-2020-02-06 18:27:52,062 - word_ma_ar_logger - INFO - Translating Meshehour (مشهور , مشهور)
-2020-02-06 18:27:52,066 - word_ma_ar_logger - WARNING - Translating Met2akked (متأكد , متءاكد)
-2020-02-06 18:27:52,069 - word_ma_ar_logger - INFO - Translating s5oun (سخون , سخون)
-2020-02-06 18:27:52,071 - word_ma_ar_logger - INFO - Translating Ghali (غالي , غالي)
-2020-02-06 18:27:52,074 - word_ma_ar_logger - INFO - Translating 3ziz (عزيز , عزيز)
-2020-02-06 18:27:52,077 - word_ma_ar_logger - INFO - Translating Mferkes (مفركس , مفركس)
-2020-02-06 18:27:52,080 - word_ma_ar_logger - WARNING - Translating Wade7 (واضح , وادح)
-2020-02-06 18:27:52,082 - word_ma_ar_logger - INFO - Translating m3e9ed (معقد , معقد)
-2020-02-06 18:27:52,085 - word_ma_ar_logger - WARNING - Translating Mori7 (مريح , موريح)
-2020-02-06 18:27:52,089 - word_ma_ar_logger - INFO - Translating Me3rouf (معروف , معروف)
-2020-02-06 18:27:52,092 - word_ma_ar_logger - WARNING - Translating 9asir (قصير , قاسير)
-2020-02-06 18:27:52,094 - word_ma_ar_logger - WARNING - Translating Tayeb (طايب , تايب)
-2020-02-06 18:27:52,097 - word_ma_ar_logger - WARNING - Translating Khatir (خطير , خاتير)
-2020-02-06 18:27:52,100 - word_ma_ar_logger - INFO - Translating Fate7 (فاتح , فاتح)
-2020-02-06 18:27:52,103 - word_ma_ar_logger - INFO - Translating ghame9 (غامق , غامق)
-2020-02-06 18:27:52,105 - word_ma_ar_logger - INFO - Translating Bnine (بنين , بنين)
-2020-02-06 18:27:52,108 - word_ma_ar_logger - INFO - Translating Mrewwen (مرون , مرون)
-2020-02-06 18:27:52,110 - word_ma_ar_logger - INFO - Translating Wa3er (واعر , واعر)
-2020-02-06 18:27:52,113 - word_ma_ar_logger - INFO - Translating 3ali (عالي , عالي)
-2020-02-06 18:27:52,116 - word_ma_ar_logger - INFO - Translating Me7sad (محساد , محساد)
-2020-02-06 18:27:52,118 - word_ma_ar_logger - INFO - Translating 7ar (حار , حار)
-2020-02-06 18:27:52,120 - word_ma_ar_logger - INFO - Translating jerreb (جرب , جرب)
-2020-02-06 18:27:52,123 - word_ma_ar_logger - WARNING - Translating mdye9 (مضيق , مديق)
-2020-02-06 18:27:52,125 - word_ma_ar_logger - INFO - Translating Sahel (ساهل , ساهل)
-2020-02-06 18:27:52,128 - word_ma_ar_logger - WARNING - Translating Daser (ضاسر , داسر)
-2020-02-06 18:27:52,131 - word_ma_ar_logger - WARNING - Translating 3iyyan (عيان , عييان)
-2020-02-06 18:27:52,134 - word_ma_ar_logger - INFO - Translating Mesdoud (مسدود , مسدود)
-2020-02-06 18:27:52,136 - word_ma_ar_logger - INFO - Translating 7me9 (حمق , حمق)
-2020-02-06 18:27:52,139 - word_ma_ar_logger - INFO - Translating Bared (بارد , بارد)
-2020-02-06 18:27:52,141 - word_ma_ar_logger - WARNING - Translating Me3esseb (معصب , معسب)
-2020-02-06 18:27:52,143 - word_ma_ar_logger - INFO - Translating s5i (سخي , سخي)
-2020-02-06 18:27:52,146 - word_ma_ar_logger - WARNING - Translating Drif (ضريف , دريف)
-2020-02-06 18:27:52,149 - word_ma_ar_logger - INFO - Translating Kbir (كبير , كبير)
-2020-02-06 18:27:52,151 - word_ma_ar_logger - WARNING - Translating Ghelid (غليض , غليد)
-2020-02-06 18:27:52,154 - word_ma_ar_logger - WARNING - Translating msetti (مسطي , مستي)
-2020-02-06 18:27:52,157 - word_ma_ar_logger - INFO - Translating Fer7an (فرحان , فرحان)
-2020-02-06 18:27:52,160 - word_ma_ar_logger - WARNING - Translating Mohim (مهم , موهيم)
-2020-02-06 18:27:52,163 - word_ma_ar_logger - WARNING - Translating Bari2 (بريء , باريء)
-2020-02-06 18:27:52,165 - word_ma_ar_logger - INFO - Translating Dki (دكي , دكي)
-2020-02-06 18:27:52,168 - word_ma_ar_logger - INFO - Translating Meghyar (مغيار , مغيار)
-2020-02-06 18:27:52,171 - word_ma_ar_logger - INFO - Translating Zwin (زوين , زوين)
-2020-02-06 18:27:52,174 - word_ma_ar_logger - WARNING - Translating 3erid (عريض , عريد)
-2020-02-06 18:27:52,177 - word_ma_ar_logger - INFO - Translating Khfif (خفيف , خفيف)
-2020-02-06 18:27:52,180 - word_ma_ar_logger - INFO - Translating B3id (بعيد , بعيد)
-2020-02-06 18:27:52,182 - word_ma_ar_logger - WARNING - Translating Twil (طويل , تويل)
-2020-02-06 18:27:52,185 - word_ma_ar_logger - INFO - Translating t9il (تقيل , تقيل)
-2020-02-06 18:27:52,188 - word_ma_ar_logger - INFO - Translating r9i9 (رقيق , رقيق)
-2020-02-06 18:27:52,191 - word_ma_ar_logger - WARNING - Translating Mrid (مريض , مريد)
-2020-02-06 18:27:52,193 - word_ma_ar_logger - INFO - Translating 9bi7 (قبيح , قبيح)
-2020-02-06 18:27:52,196 - word_ma_ar_logger - WARNING - Translating M5ellet (مخلط , مخلت)
-2020-02-06 18:27:52,199 - word_ma_ar_logger - INFO - Translating Khayeb (خايب , خايب)
-2020-02-06 18:27:52,202 - word_ma_ar_logger - WARNING - Translating 3esri (عصري , عسري)
-2020-02-06 18:27:52,204 - word_ma_ar_logger - WARNING - Translating Rteb (رطب , رتب)
-2020-02-06 18:27:52,207 - word_ma_ar_logger - INFO - Translating Fazeg (فازڭ , فازڭ)
-2020-02-06 18:27:52,210 - word_ma_ar_logger - WARNING - Translating Metwesset (متوسط , متوست)
-2020-02-06 18:27:52,213 - word_ma_ar_logger - INFO - Translating Zizoun (زيزون , زيزون)
-2020-02-06 18:27:52,217 - word_ma_ar_logger - WARNING - Translating Tabi3i (طبيعي , تابيعي)
-2020-02-06 18:27:52,221 - word_ma_ar_logger - WARNING - Translating Darouri (ضروري , داروري)
-2020-02-06 18:27:52,224 - word_ma_ar_logger - INFO - Translating Ktir (كتير , كتير)
-2020-02-06 18:27:52,227 - word_ma_ar_logger - INFO - Translating 3adi (عادي , عادي)
-2020-02-06 18:27:52,229 - word_ma_ar_logger - INFO - Translating Jedid (جديد , جديد)
-2020-02-06 18:27:52,233 - word_ma_ar_logger - INFO - Translating Mesheghoul (مشغول , مشغول)
-2020-02-06 18:27:52,236 - word_ma_ar_logger - INFO - Translating Me7loul (محلول , محلول)
-2020-02-06 18:27:52,239 - word_ma_ar_logger - WARNING - Translating Sghir (صغير , سغير)
-2020-02-06 18:27:52,241 - word_ma_ar_logger - INFO - Translating 9lil (قليل , قليل)
-2020-02-06 18:27:52,244 - word_ma_ar_logger - WARNING - Translating r5iss (رخيص , رخيس)
-2020-02-06 18:27:52,247 - word_ma_ar_logger - WARNING - Translating M2eddeb (مؤدب , مءدب)
-2020-02-06 18:27:52,250 - word_ma_ar_logger - INFO - Translating She3bi (شعبي , شعبي)
-2020-02-06 18:27:52,252 - word_ma_ar_logger - INFO - Translating 9rib (قريب , قريب)
-2020-02-06 18:27:52,255 - word_ma_ar_logger - INFO - Translating n9i (نقي , نقي)
-2020-02-06 18:27:52,257 - word_ma_ar_logger - INFO - Translating 5anez (خانز , خانز)
-2020-02-06 18:27:52,259 - word_ma_ar_logger - INFO - Translating 7resh (حرش , حرش)
-2020-02-06 18:27:52,262 - word_ma_ar_logger - INFO - Translating 3amer (عامر , عامر)
-2020-02-06 18:27:52,267 - word_ma_ar_logger - WARNING - Translating Mo7taram (محترم , موحتارام)
-2020-02-06 18:27:52,270 - word_ma_ar_logger - INFO - Translating faye9 (فايق , فايق)
-2020-02-06 18:27:52,273 - word_ma_ar_logger - INFO - Translating Mdewwer (مدور , مدور)
-2020-02-06 18:27:52,276 - word_ma_ar_logger - INFO - Translating Mossekh (موسخ , موسخ)
-2020-02-06 18:27:52,278 - word_ma_ar_logger - INFO - Translating Male7 (مالح , مالح)
-2020-02-06 18:27:52,281 - word_ma_ar_logger - INFO - Translating Nashef (ناشف , ناشف)
-2020-02-06 18:27:52,284 - word_ma_ar_logger - INFO - Translating 7essas (حساس , حساس)
-2020-02-06 18:27:52,287 - word_ma_ar_logger - INFO - Translating Saket (ساكت , ساكت)
-2020-02-06 18:27:52,289 - word_ma_ar_logger - WARNING - Translating 9ase7 (قاصح , قاسح)
-2020-02-06 18:27:52,292 - word_ma_ar_logger - INFO - Translating Wase3 (واسع , واسع)
-2020-02-06 18:27:52,295 - word_ma_ar_logger - INFO - Translating mkelle5 (مكلخ , مكلخ)
-2020-02-06 18:27:52,297 - word_ma_ar_logger - INFO - Translating 7lo (حلو , حلو)
-2020-02-06 18:27:52,300 - word_ma_ar_logger - WARNING - Translating M3ettel (معطل , معتل)
-2020-02-06 18:27:52,302 - word_ma_ar_logger - INFO - Translating Dafi (دافي , دافي)
-2020-02-06 18:27:52,306 - word_ma_ar_logger - WARNING - Translating 7achoumi (حشومي , حاشومي)
-2020-02-06 18:27:52,309 - word_ma_ar_logger - INFO - Translating beldi (بلدي , بلدي)
-2020-02-06 18:27:52,312 - word_ma_ar_logger - WARNING - Translating Madi (ماضي , مادي)
-2020-02-06 18:27:52,314 - word_ma_ar_logger - INFO - Translating m9elle9 (مقلق , مقلق)
-2020-02-06 18:27:52,317 - word_ma_ar_logger - INFO - Translating Khawi (خاوي , خاوي)
-2020-02-06 18:27:52,321 - word_ma_ar_logger - INFO - Translating t9lidi (تقليدي , تقليدي)
-2020-02-06 18:27:52,325 - word_ma_ar_logger - WARNING - Translating sbitar (صبيطار , سبيتار)
-2020-02-06 18:27:52,328 - word_ma_ar_logger - WARNING - Translating pikala (بيكالة , پيكالا)
-2020-02-06 18:27:52,333 - word_ma_ar_logger - WARNING - Translating tomobil (طوموبيل , توموبيل)
-2020-02-06 18:27:52,336 - word_ma_ar_logger - WARNING - Translating pici (بيسي , پيكي)
-2020-02-06 18:27:52,338 - word_ma_ar_logger - WARNING - Translating boula (بولة , بولا)
-2020-02-06 18:27:52,342 - word_ma_ar_logger - WARNING - Translating 9ach 9achd (قاشقاش , قاش قاشد)
-2020-02-06 18:27:52,346 - word_ma_ar_logger - WARNING - Translating 3attach (عطاش , عاتاش)
-2020-02-06 18:27:52,347 - word_ma_ar_logger - WARNING - Translating arre (اري , أر)
-2020-02-06 18:27:52,351 - word_ma_ar_logger - WARNING - Translating Atansiou (اطانسيو , أتانسيو)
-2020-02-06 18:27:52,354 - word_ma_ar_logger - INFO - Translating Babor (بابور , بابور)
-2020-02-06 18:27:52,359 - word_ma_ar_logger - WARNING - Translating Baguitta (باكيطا , باڭويتا)
-2020-02-06 18:27:52,362 - word_ma_ar_logger - WARNING - Translating Bakiya (باكية , باكييا)
-2020-02-06 18:27:52,366 - word_ma_ar_logger - INFO - Translating Balcone (بالكون , بالكون)
-2020-02-06 18:27:52,370 - word_ma_ar_logger - INFO - Translating Baliza (باليزا , باليزا)
-2020-02-06 18:27:52,374 - word_ma_ar_logger - INFO - Translating Ballone (بالون , بالون)
-2020-02-06 18:27:52,378 - word_ma_ar_logger - WARNING - Translating Batroune (باطرون , باترون)
-2020-02-06 18:27:52,383 - word_ma_ar_logger - WARNING - Translating bermassioun (برمسبون , برماسيون)
-2020-02-06 18:27:52,386 - word_ma_ar_logger - WARNING - Translating Befane (بيفان , بفان)
-2020-02-06 18:27:52,389 - word_ma_ar_logger - WARNING - Translating Bikoup (بيكوب , بيكوپ)
-2020-02-06 18:27:52,394 - word_ma_ar_logger - WARNING - Translating Barwita (برويطة , بارويتا)
-2020-02-06 18:27:52,398 - word_ma_ar_logger - WARNING - Translating Baspour (باسبور , باسپور)
-2020-02-06 18:27:52,402 - word_ma_ar_logger - WARNING - Translating Bataillou (باطايو , باتايلو)
-2020-02-06 18:27:52,406 - word_ma_ar_logger - WARNING - Translating Batema (باطيمة , باتما)
-2020-02-06 18:27:52,409 - word_ma_ar_logger - INFO - Translating Banka (بانكا , بانكا)
-2020-02-06 18:27:52,413 - word_ma_ar_logger - INFO - Translating Barabole (بارابول , بارابول)
-2020-02-06 18:27:52,418 - word_ma_ar_logger - WARNING - Translating Barbrise (باربرز , باربريس)
-2020-02-06 18:27:52,424 - word_ma_ar_logger - INFO - Translating Bariziana (باريزيانا , باريزيانا)
-2020-02-06 18:27:52,428 - word_ma_ar_logger - WARNING - Translating Bart9iz (بارطقيز , بارتقيز)
-2020-02-06 18:27:52,431 - word_ma_ar_logger - INFO - Translating Birou (بيرو , بيرو)
-2020-02-06 18:27:52,435 - word_ma_ar_logger - INFO - Translating Biassa (بياسا , بياسا)
-2020-02-06 18:27:52,438 - word_ma_ar_logger - INFO - Translating fabor (فابور , فابور)
-2020-02-06 18:27:52,443 - word_ma_ar_logger - WARNING - Translating Bichklita (بيشكليطة , بيشكليتا)
-2020-02-06 18:27:52,446 - word_ma_ar_logger - INFO - Translating Bidou (بيدو , بيدو)
-2020-02-06 18:27:52,450 - word_ma_ar_logger - INFO - Translating Bijama (بيجاما , بيجاما)
-2020-02-06 18:27:52,452 - word_ma_ar_logger - INFO - Translating Bijou (بيجو , بيجو)
-2020-02-06 18:27:52,455 - word_ma_ar_logger - INFO - Translating Birra (بيرا , بيرا)
-2020-02-06 18:27:52,457 - word_ma_ar_logger - INFO - Translating Bit (بيت , بيت)
-2020-02-06 18:27:52,462 - word_ma_ar_logger - WARNING - Translating Bitagaz (بيطاغاز , بيتاڭاز)
-2020-02-06 18:27:52,465 - word_ma_ar_logger - INFO - Translating blacar (بلاكار , بلاكار)
-2020-02-06 18:27:52,468 - word_ma_ar_logger - INFO - Translating Blaka (بلاكا , بلاكا)
-2020-02-06 18:27:52,471 - word_ma_ar_logger - WARNING - Translating Blassa (بلاصة , بلاسا)
-2020-02-06 18:27:52,475 - word_ma_ar_logger - WARNING - Translating Blindi (بلاندي , بليندي)
-2020-02-06 18:27:52,478 - word_ma_ar_logger - INFO - Translating Blombi (بلومبي , بلومبي)
-2020-02-06 18:27:52,482 - word_ma_ar_logger - WARNING - Translating Blousa (بلوزا , بلوسا)
-2020-02-06 18:27:52,486 - word_ma_ar_logger - INFO - Translating Blouza (بلوزا , بلوزا)
-2020-02-06 18:27:52,489 - word_ma_ar_logger - WARNING - Translating bogoss (بوكوص , بوڭوس)
-2020-02-06 18:27:52,492 - word_ma_ar_logger - WARNING - Translating Boita (بواطة , بويتا)
-2020-02-06 18:27:52,496 - word_ma_ar_logger - WARNING - Translating Bombiya (بومبيا , بومبييا)
-2020-02-06 18:27:52,502 - word_ma_ar_logger - WARNING - Translating bonokasio (بونوكازيو , بونوكاسيو)
-2020-02-06 18:27:52,506 - word_ma_ar_logger - WARNING - Translating Botona (بوطونة , بوتونا)
-2020-02-06 18:27:52,509 - word_ma_ar_logger - WARNING - Translating Boudra (بودرة , بودرا)
-2020-02-06 18:27:52,511 - word_ma_ar_logger - WARNING - Translating Boussa (بوسة , بوسا)
-2020-02-06 18:27:52,515 - word_ma_ar_logger - INFO - Translating Bouftik (بوفتيك , بوفتيك)
-2020-02-06 18:27:52,518 - word_ma_ar_logger - WARNING - Translating Boulice (بوليس , بوليك)
-2020-02-06 18:27:52,522 - word_ma_ar_logger - INFO - Translating Boulissi (بوليسي , بوليسي)
-2020-02-06 18:27:52,524 - word_ma_ar_logger - INFO - Translating Boune (بون , بون)
-2020-02-06 18:27:52,527 - word_ma_ar_logger - WARNING - Translating Brossi (بروصي , بروسي)
-2020-02-06 18:27:52,531 - word_ma_ar_logger - INFO - Translating Braki (براكي , براكي)
-2020-02-06 18:27:52,534 - word_ma_ar_logger - INFO - Translating Branchi (برانشي , برانشي)
-2020-02-06 18:27:52,538 - word_ma_ar_logger - INFO - Translating Bricoule (بريكول , بريكول)
-2020-02-06 18:27:52,541 - word_ma_ar_logger - INFO - Translating Brize (بريز , بريز)
-2020-02-06 18:27:52,545 - word_ma_ar_logger - INFO - Translating Broblime (بروبليم , بروبليم)
-2020-02-06 18:27:52,549 - word_ma_ar_logger - INFO - Translating Cabrane (كابران , كابران)
-2020-02-06 18:27:52,551 - word_ma_ar_logger - INFO - Translating Cader (كادر , كادر)
-2020-02-06 18:27:52,555 - word_ma_ar_logger - WARNING - Translating Canappi (كانابي , كاناپي)
-2020-02-06 18:27:52,559 - word_ma_ar_logger - INFO - Translating Carabila (كارابيلا , كارابيلا)
-2020-02-06 18:27:52,562 - word_ma_ar_logger - INFO - Translating carda (كاردا , كاردا)
-2020-02-06 18:27:52,566 - word_ma_ar_logger - INFO - Translating Carni (كارني , كارني)
-2020-02-06 18:27:52,570 - word_ma_ar_logger - WARNING - Translating Cartonna (كارطونة , كارتونا)
-2020-02-06 18:27:52,572 - word_ma_ar_logger - INFO - Translating caske (كاسك , كاسك)
-2020-02-06 18:27:52,577 - word_ma_ar_logger - WARNING - Translating Cassecrotte (كاسكروط , كاسكروت)
-2020-02-06 18:27:52,581 - word_ma_ar_logger - WARNING - Translating Casserona (كاسرونة , كاسرونا)
-2020-02-06 18:27:52,585 - word_ma_ar_logger - WARNING - Translating Cassetat (كاسيطات , كاستات)
-2020-02-06 18:27:52,590 - word_ma_ar_logger - WARNING - Translating Certafika (سرتافيكا , كرتافيكا)
-2020-02-06 18:27:52,594 - word_ma_ar_logger - WARNING - Translating champpane (شامبان , شامپان)
-2020-02-06 18:27:52,597 - word_ma_ar_logger - INFO - Translating Chanteyyo (شانتيو , شانتيو)
-2020-02-06 18:27:52,601 - word_ma_ar_logger - INFO - Translating charjane (شارجان , شارجان)
-2020-02-06 18:27:52,605 - word_ma_ar_logger - WARNING - Translating Chauffage (شوفاج , شاوفاڭ)
-2020-02-06 18:27:52,609 - word_ma_ar_logger - WARNING - Translating coiffoura (كوافورا , كويفورا)
-2020-02-06 18:27:52,612 - word_ma_ar_logger - WARNING - Translating Cidi (سيدي , كيدي)
-2020-02-06 18:27:52,615 - word_ma_ar_logger - WARNING - Translating cima (سيما , كيما)
-2020-02-06 18:27:52,618 - word_ma_ar_logger - INFO - Translating Chifor (شيفور , شيفور)
-2020-02-06 18:27:52,620 - word_ma_ar_logger - INFO - Translating Chik (شيك , شيك)
-2020-02-06 18:27:52,624 - word_ma_ar_logger - WARNING - Translating Chiniwi (شينوي , شينيوي)
-2020-02-06 18:27:52,626 - word_ma_ar_logger - WARNING - Translating Chklat (شكلاط , شكلات)
-2020-02-06 18:27:52,629 - word_ma_ar_logger - WARNING - Translating Chlada (شلاضة , شلادا)
-2020-02-06 18:27:52,632 - word_ma_ar_logger - INFO - Translating Chofo (شوفو , شوفو)
-2020-02-06 18:27:52,635 - word_ma_ar_logger - INFO - Translating Tirran (تيران , تيران)
-2020-02-06 18:27:52,639 - word_ma_ar_logger - INFO - Translating Titsuit (تيتسويت , تيتسويت)
-2020-02-06 18:27:52,643 - word_ma_ar_logger - WARNING - Translating Tkonnecta (تكونكطا , تكونكتا)
-2020-02-06 18:27:52,646 - word_ma_ar_logger - WARNING - Translating Tobiss (طوبيس , توبيس)
-2020-02-06 18:27:52,648 - word_ma_ar_logger - WARNING - Translating Tola (طولة , تولا)
-2020-02-06 18:27:52,652 - word_ma_ar_logger - WARNING - Translating Tolanti (طولانطي , تولانتي)
-2020-02-06 18:27:52,657 - word_ma_ar_logger - WARNING - Translating Tonobile (طونوبيل , تونوبيل)
-2020-02-06 18:27:52,662 - word_ma_ar_logger - WARNING - Translating torizatio (طوريزاسيو , توريزاتيو)
-2020-02-06 18:27:52,665 - word_ma_ar_logger - INFO - Translating touni (توني , توني)
-2020-02-06 18:27:52,670 - word_ma_ar_logger - WARNING - Translating Traboblik (طرابوبليك , ترابوبليك)
-2020-02-06 18:27:52,673 - word_ma_ar_logger - WARNING - Translating trakss (طراكس , تراكس)
-2020-02-06 18:27:52,676 - word_ma_ar_logger - INFO - Translating Trane (تران , تران)
-2020-02-06 18:27:52,680 - word_ma_ar_logger - WARNING - Translating Zmagri (زماكري , زماڭري)
-2020-02-06 18:27:52,685 - word_ma_ar_logger - WARNING - Translating Zmagria (زماكريا , زماڭريا)
-2020-02-06 18:27:52,690 - word_ma_ar_logger - WARNING - Translating Tricinti (نريسينتي , تريكينتي)
-2020-02-06 18:27:52,695 - word_ma_ar_logger - WARNING - Translating Triciyanne (تريسيان , تريكييان)
-2020-02-06 18:27:52,698 - word_ma_ar_logger - INFO - Translating Trikou (تريكو , تريكو)
-2020-02-06 18:27:52,701 - word_ma_ar_logger - INFO - Translating Trini (تريني , تريني)
-2020-02-06 18:27:52,705 - word_ma_ar_logger - WARNING - Translating wiskiyya (ويسكيا , ويسكييا)
-2020-02-06 18:27:52,708 - word_ma_ar_logger - WARNING - Translating Xciri (كسيري , كسكيري)
-2020-02-06 18:27:52,711 - word_ma_ar_logger - WARNING - Translating zina (زينة , زينا)
-2020-02-06 18:27:52,714 - word_ma_ar_logger - WARNING - Translating Conta (كونطا , كونتا)
-2020-02-06 18:27:52,718 - word_ma_ar_logger - WARNING - Translating Contable (كونطابل , كونتابل)
-2020-02-06 18:27:52,723 - word_ma_ar_logger - WARNING - Translating Contrada (كونطرادا , كونترادا)
-2020-02-06 18:27:52,727 - word_ma_ar_logger - INFO - Translating Contour (كونتور , كونتور)
-2020-02-06 18:27:52,732 - word_ma_ar_logger - WARNING - Translating Controlour (كونطرولور , كونترولور)
-2020-02-06 18:27:52,736 - word_ma_ar_logger - INFO - Translating Corsa (كورسا , كورسا)
-2020-02-06 18:27:52,739 - word_ma_ar_logger - WARNING - Translating Costa (كوصطا , كوستا)
-2020-02-06 18:27:52,743 - word_ma_ar_logger - INFO - Translating Coufitire (كوفيتير , كوفيتير)
-2020-02-06 18:27:52,747 - word_ma_ar_logger - WARNING - Translating Coulandere (كولاندير , كولاندر)
-2020-02-06 18:27:52,751 - word_ma_ar_logger - INFO - Translating Coumissire (كوميسير , كوميسير)
-2020-02-06 18:27:52,756 - word_ma_ar_logger - WARNING - Translating Coumissiyou (كوميسيو , كوميسييو)
-2020-02-06 18:27:52,760 - word_ma_ar_logger - INFO - Translating Counji (كونجي , كونجي)
-2020-02-06 18:27:52,763 - word_ma_ar_logger - INFO - Translating Cridi (كريدي , كريدي)
-2020-02-06 18:27:52,766 - word_ma_ar_logger - INFO - Translating Courda (كوردا , كوردا)
-2020-02-06 18:27:52,769 - word_ma_ar_logger - INFO - Translating Courti (كورتي , كورتي)
-2020-02-06 18:27:52,772 - word_ma_ar_logger - INFO - Translating Cryone (كريون , كريون)
-2020-02-06 18:27:52,776 - word_ma_ar_logger - INFO - Translating Couzina (كوزينا , كوزينا)
-2020-02-06 18:27:52,780 - word_ma_ar_logger - WARNING - Translating dipanaj (ديباناج , ديپاناج)
-2020-02-06 18:27:52,785 - word_ma_ar_logger - WARNING - Translating directour (ديريكتور , ديركتور)
-2020-02-06 18:27:52,788 - word_ma_ar_logger - INFO - Translating Dissire (ديسير , ديسير)
-2020-02-06 18:27:52,791 - word_ma_ar_logger - WARNING - Translating ditay (ديطاي , ديتاي)
-2020-02-06 18:27:52,793 - word_ma_ar_logger - INFO - Translating Djine (دجين , دجين)
-2020-02-06 18:27:52,796 - word_ma_ar_logger - WARNING - Translating Dossé (دوسي , دوس)
-2020-02-06 18:27:52,800 - word_ma_ar_logger - WARNING - Translating Douachche (دواش , دواشش)
-2020-02-06 18:27:52,803 - word_ma_ar_logger - WARNING - Translating Doublvi (دوبلفي , دوبلڤي)
-2020-02-06 18:27:52,807 - word_ma_ar_logger - WARNING - Translating elgaraj (الكراج , إلڭاراج)
-2020-02-06 18:27:52,813 - word_ma_ar_logger - WARNING - Translating Douzyam mitta  (دوزياميطا , دوزيام ميتا)
-2020-02-06 18:27:52,816 - word_ma_ar_logger - WARNING - Translating digri (ديكري , ديڭري)
-2020-02-06 18:27:52,819 - word_ma_ar_logger - WARNING - Translating darb (ديميردي , دارب)
-2020-02-06 18:27:52,822 - word_ma_ar_logger - INFO - Translating Diffou (ديفو , ديفو)
-2020-02-06 18:27:52,825 - word_ma_ar_logger - WARNING - Translating Digage (ديكاج , ديڭاڭ)
-2020-02-06 18:27:52,828 - word_ma_ar_logger - INFO - Translating Fabor (فابور , فابور)
-2020-02-06 18:27:52,832 - word_ma_ar_logger - WARNING - Translating Factoura (فاكتورة , فاكتورا)
-2020-02-06 18:27:52,836 - word_ma_ar_logger - WARNING - Translating Fakance (فاكانص , فاكانك)
-2020-02-06 18:27:52,840 - word_ma_ar_logger - WARNING - Translating Fakanssi (فاكانصي , فاكانسي)
-2020-02-06 18:27:52,844 - word_ma_ar_logger - INFO - Translating Famila (فاميلا , فاميلا)
-2020-02-06 18:27:52,848 - word_ma_ar_logger - WARNING - Translating Farchita (فرشيطا , فارشيتا)
-2020-02-06 18:27:52,853 - word_ma_ar_logger - WARNING - Translating Fargonite (فركونيط , فارڭونيت)
-2020-02-06 18:27:52,857 - word_ma_ar_logger - WARNING - Translating Farina (فرينة , فارينا)
-2020-02-06 18:27:52,863 - word_ma_ar_logger - WARNING - Translating Farmaciyane (فرماصيان , فارماكييان)
-2020-02-06 18:27:52,867 - word_ma_ar_logger - WARNING - Translating Farmage (فرماج , فارماڭ)
-2020-02-06 18:27:52,871 - word_ma_ar_logger - WARNING - Translating Fasma (فاصمة , فاسما)
-2020-02-06 18:27:52,874 - word_ma_ar_logger - WARNING - Translating Fautouye (فوطوي , فاوتوي)
-2020-02-06 18:27:52,878 - word_ma_ar_logger - WARNING - Translating Fayage (فاياج , فاياڭ)
-2020-02-06 18:27:52,881 - word_ma_ar_logger - WARNING - Translating Feniyane (فنيان , فنييان)
-2020-02-06 18:27:52,885 - word_ma_ar_logger - WARNING - Translating Fersada (فرصادا , فرسادا)
-2020-02-06 18:27:52,888 - word_ma_ar_logger - INFO - Translating Fermli (فرملي , فرملي)
-2020-02-06 18:27:52,891 - word_ma_ar_logger - INFO - Translating féria (فريا , فريا)
-2020-02-06 18:27:52,895 - word_ma_ar_logger - WARNING - Translating Figoura (فيكورا , فيڭورا)
-2020-02-06 18:27:52,898 - word_ma_ar_logger - WARNING - Translating Fijta (فيجطا , فيجتا)
-2020-02-06 18:27:52,901 - word_ma_ar_logger - WARNING - Translating Filage (فيلاج , فيلاڭ)
-2020-02-06 18:27:52,904 - word_ma_ar_logger - INFO - Translating Firma (فيرما , فيرما)
-2020-02-06 18:27:52,908 - word_ma_ar_logger - WARNING - Translating Garanti (كارانطي , ڭارانتي)
-2020-02-06 18:27:52,912 - word_ma_ar_logger - WARNING - Translating Garçone (كارصون , ڭاركون)
-2020-02-06 18:27:52,915 - word_ma_ar_logger - WARNING - Translating Garro (كارو , ڭارو)
-2020-02-06 18:27:52,919 - word_ma_ar_logger - WARNING - Translating Garssone (كارصون , ڭارسون)
-2020-02-06 18:27:52,924 - word_ma_ar_logger - WARNING - Translating Garssoniyya (كارصونيا , ڭارسونييا)
-2020-02-06 18:27:52,928 - word_ma_ar_logger - WARNING - Translating Gazouza (كازوزا , ڭازوزا)
-2020-02-06 18:27:52,932 - word_ma_ar_logger - WARNING - Translating Gharrafe (غراف , غاراف)
-2020-02-06 18:27:52,935 - word_ma_ar_logger - WARNING - Translating Godrone (كودرون , ڭودرون)
-2020-02-06 18:27:52,938 - word_ma_ar_logger - WARNING - Translating Gouma (كوما , ڭوما)
-2020-02-06 18:27:52,942 - word_ma_ar_logger - WARNING - Translating Grissoune (كريسون , ڭريسون)
-2020-02-06 18:27:52,945 - word_ma_ar_logger - WARNING - Translating Griyage (كرياج , ڭريياڭ)
-2020-02-06 18:27:52,948 - word_ma_ar_logger - WARNING - Translating Growa (كروا , ڭرووا)
-2020-02-06 18:27:52,953 - word_ma_ar_logger - WARNING - Translating Gualizi (كاليزي , ڭواليزي)
-2020-02-06 18:27:52,956 - word_ma_ar_logger - WARNING - Translating guidoune (كيدون , ڭويدون)
-2020-02-06 18:27:52,960 - word_ma_ar_logger - WARNING - Translating Guirra (كيرا , ڭويرا)
-2020-02-06 18:27:52,964 - word_ma_ar_logger - WARNING - Translating Guitara (كيتارا , ڭويتارا)
-2020-02-06 18:27:52,967 - word_ma_ar_logger - INFO - Translating 5izou (خيزو , خيزو)
-2020-02-06 18:27:52,969 - word_ma_ar_logger - INFO - Translating bzaf (بزاف , بزاف)
-2020-02-06 18:27:52,973 - word_ma_ar_logger - WARNING - Translating tilifone (تلفون , تيليفون)
-2020-02-06 18:27:52,977 - word_ma_ar_logger - WARNING - Translating korsi (كرسي , كورسي)
-2020-02-06 18:27:52,979 - word_ma_ar_logger - INFO - Translating berrad (براد , براد)
-2020-02-06 18:27:52,981 - word_ma_ar_logger - WARNING - Translating atay (اتاي , أتاي)
-2020-02-06 18:27:52,985 - word_ma_ar_logger - WARNING - Translating valiza (فاليزا , ڤاليزا)
-2020-02-06 18:27:52,988 - word_ma_ar_logger - INFO - Translating srwal (سروال , سروال)
-2020-02-06 18:27:52,992 - word_ma_ar_logger - WARNING - Translating trikot (تريكو , تريكوت)
-2020-02-06 18:27:52,994 - word_ma_ar_logger - WARNING - Translating tbe3 (طبع , تبع)
-2020-02-06 18:27:52,997 - word_ma_ar_logger - INFO - Translating 7lem (حلم , حلم)
-2020-02-06 18:27:52,999 - word_ma_ar_logger - WARNING - Translating dreb (ضرب , درب)
-2020-02-06 18:27:53,001 - word_ma_ar_logger - INFO - Translating hreb (هرب , هرب)
-2020-02-06 18:27:53,004 - word_ma_ar_logger - INFO - Translating l3eb (لعب , لعب)
-2020-02-06 18:27:53,006 - word_ma_ar_logger - INFO - Translating 3lem (علم , علم)
-2020-02-06 18:27:53,008 - word_ma_ar_logger - WARNING - Translating ztem (زطم , زتم)
-2020-02-06 18:27:53,010 - word_ma_ar_logger - INFO - Translating mne3t (منعت , منعت)
-2020-02-06 18:27:53,014 - word_ma_ar_logger - INFO - Translating chokran (شوكران , شوكران)
-2020-02-06 18:27:53,016 - word_ma_ar_logger - INFO - Translating doz (دوز , دوز)
-2020-02-06 18:27:53,018 - word_ma_ar_logger - WARNING - Translating 7ok (حك , حوك)
-2020-02-06 18:27:53,020 - word_ma_ar_logger - INFO - Translating dfen (دفن , دفن)
-2020-02-06 18:27:53,022 - word_ma_ar_logger - WARNING - Translating gol (قول , ڭول)
-2020-02-06 18:27:53,025 - word_ma_ar_logger - INFO - Translating kteb (كتب , كتب)
-2020-02-06 18:27:53,028 - word_ma_ar_logger - WARNING - Translating chahada (شهادة , شاهادا)
-2020-02-06 18:27:53,030 - word_ma_ar_logger - INFO - Translating hez (هز , هز)
-2020-02-06 18:27:53,032 - word_ma_ar_logger - INFO - Translating 5li (خلي , خلي)
-2020-02-06 18:27:53,037 - word_ma_ar_logger - WARNING - Translating inspiriti (انسبيريتي , إنسپيريتي)
-2020-02-06 18:27:53,039 - word_ma_ar_logger - INFO - Translating ba9i (باقي , باقي)
-2020-02-06 18:27:53,041 - word_ma_ar_logger - INFO - Translating 7kem (حكم , حكم)
-2020-02-06 18:27:53,044 - word_ma_ar_logger - WARNING - Translating saffa9 (صفّق , سافاق)
-2020-02-06 18:27:53,047 - word_ma_ar_logger - WARNING - Translating wadda7 (وضح , واداح)
-2020-02-06 18:27:53,049 - word_ma_ar_logger - INFO - Translating n9a (نقا , نقا)
-2020-02-06 18:27:53,053 - word_ma_ar_logger - WARNING - Translating sarra7 (سرح , ساراح)
-2020-02-06 18:27:53,056 - word_ma_ar_logger - WARNING - Translating 5ana9 (خنق , خاناق)
-2020-02-06 18:27:53,058 - word_ma_ar_logger - WARNING - Translating sadd (سد , ساد)
-2020-02-06 18:27:53,061 - word_ma_ar_logger - WARNING - Translating ghammad (غمض , غاماد)
-2020-02-06 18:27:53,064 - word_ma_ar_logger - WARNING - Translating barrad (برد , باراد)
-2020-02-06 18:27:53,066 - word_ma_ar_logger - INFO - Translating rab (راب , راب)
-2020-02-06 18:27:53,068 - word_ma_ar_logger - INFO - Translating ja (جا , جا)
-2020-02-06 18:27:53,069 - word_ma_ar_logger - INFO - Translating amer (أمر , أمر)
-2020-02-06 18:27:53,072 - word_ma_ar_logger - WARNING - Translating 3alla9 (علق , عالاق)
-2020-02-06 18:27:53,075 - word_ma_ar_logger - INFO - Translating 9arn (قارن , قارن)
-2020-02-06 18:27:53,079 - word_ma_ar_logger - INFO - Translating tcheka men (تشكا من , تشكا من)
-2020-02-06 18:27:53,082 - word_ma_ar_logger - INFO - Translating tcheka 3la (تشكا علا , تشكا علا)
-2020-02-06 18:27:53,085 - word_ma_ar_logger - INFO - Translating kemmel (كمل , كمل)
-2020-02-06 18:27:53,087 - word_ma_ar_logger - INFO - Translating rekkez (ركز , ركز)
-2020-02-06 18:27:53,089 - word_ma_ar_logger - INFO - Translating hemm (هم , هم)
-2020-02-06 18:27:53,091 - word_ma_ar_logger - INFO - Translating htem (هتم , هتم)
-2020-02-06 18:27:53,094 - word_ma_ar_logger - WARNING - Translating 3taref (عترف , عتارف)
-2020-02-06 18:27:53,097 - word_ma_ar_logger - WARNING - Translating 7ayyer (حير , حاير)
-2020-02-06 18:27:53,099 - word_ma_ar_logger - INFO - Translating 7ar (حار , حار)
-2020-02-06 18:27:53,101 - word_ma_ar_logger - WARNING - Translating henne2 (هنأ , هنء)
-2020-02-06 18:27:53,103 - word_ma_ar_logger - WARNING - Translating serref (صرف , سرف)
-2020-02-06 18:27:53,105 - word_ma_ar_logger - WARNING - Translating rbet (ربط , ربت)
-2020-02-06 18:27:53,108 - word_ma_ar_logger - INFO - Translating tchawr (تشاور , تشاور)
-2020-02-06 18:27:53,111 - word_ma_ar_logger - WARNING - Translating tasel (تصل , تاسل)
-2020-02-06 18:27:53,113 - word_ma_ar_logger - WARNING - Translating rda (رضا , ردا)
-2020-02-06 18:27:53,116 - word_ma_ar_logger - WARNING - Translating stamer (ستمر , ستامر)
-2020-02-06 18:27:53,119 - word_ma_ar_logger - INFO - Translating tabe3 (تابع , تابع)
-2020-02-06 18:27:53,121 - word_ma_ar_logger - INFO - Translating sahem (ساهم , ساهم)
-2020-02-06 18:27:53,124 - word_ma_ar_logger - INFO - Translating t7ekkem (تحكم , تحكم)
-2020-02-06 18:27:53,126 - word_ma_ar_logger - INFO - Translating sellem (سلم , سلم)
-2020-02-06 18:27:53,129 - word_ma_ar_logger - WARNING - Translating tayyeb (طيب , تايب)
-2020-02-06 18:27:53,132 - word_ma_ar_logger - INFO - Translating t3awn (تعاون , تعاون)
-2020-02-06 18:27:53,134 - word_ma_ar_logger - INFO - Translating sellek (سلك , سلك)
-2020-02-06 18:27:53,136 - word_ma_ar_logger - INFO - Translating n9el (نقل , نقل)
-2020-02-06 18:27:53,138 - word_ma_ar_logger - INFO - Translating nsekh (نسخ , نسخ)
-2020-02-06 18:27:53,140 - word_ma_ar_logger - WARNING - Translating se7e7 (صحح , سحح)
-2020-02-06 18:27:53,142 - word_ma_ar_logger - WARNING - Translating siwa (سوا , سيوا)
-2020-02-06 18:27:53,145 - word_ma_ar_logger - WARNING - Translating k7ob (كحب , كحوب)
-2020-02-06 18:27:53,148 - word_ma_ar_logger - WARNING - Translating 7asab (حسب , حاساب)
-2020-02-06 18:27:53,150 - word_ma_ar_logger - INFO - Translating 5cha (خشا , خشا)
-2020-02-06 18:27:53,152 - word_ma_ar_logger - INFO - Translating 7me9 (حمق , حمق)
-2020-02-06 18:27:53,154 - word_ma_ar_logger - INFO - Translating 7emme9 (حمق , حمق)
-2020-02-06 18:27:53,156 - word_ma_ar_logger - INFO - Translating 5le9 (خلق , خلق)
-2020-02-06 18:27:53,158 - word_ma_ar_logger - WARNING - Translating 9te3 (قطع , قتع)
-2020-02-06 18:27:53,160 - word_ma_ar_logger - WARNING - Translating le9em (لقّم , لقم)
-2020-02-06 18:27:53,162 - word_ma_ar_logger - INFO - Translating bka (بكا , بكا)
-2020-02-06 18:27:53,164 - word_ma_ar_logger - INFO - Translating bekka (بكا , بكا)
-2020-02-06 18:27:53,167 - word_ma_ar_logger - INFO - Translating dawa (داوا , داوا)
-2020-02-06 18:27:53,169 - word_ma_ar_logger - INFO - Translating bra (برا , برا)
-2020-02-06 18:27:53,171 - word_ma_ar_logger - WARNING - Translating fsel (فصل , فسل)
-2020-02-06 18:27:53,173 - word_ma_ar_logger - INFO - Translating 7sen (حسن , حسن)
-2020-02-06 18:27:53,176 - word_ma_ar_logger - INFO - Translating tjre7 (تجرح , تجرح)
-2020-02-06 18:27:53,178 - word_ma_ar_logger - WARNING - Translating 9te3 (قطع , قتع)
-2020-02-06 18:27:53,180 - word_ma_ar_logger - INFO - Translating jre7 (جرح , جرح)
-2020-02-06 18:27:53,182 - word_ma_ar_logger - INFO - Translating 5ser (خسر , خسر)
-2020-02-06 18:27:53,184 - word_ma_ar_logger - INFO - Translating fzeg (فزڭ , فزڭ)
-2020-02-06 18:27:53,187 - word_ma_ar_logger - INFO - Translating fezzeg (فزڭ , فزڭ)
-2020-02-06 18:27:53,189 - word_ma_ar_logger - WARNING - Translating chte7 (شطح , شتح)
-2020-02-06 18:27:53,191 - word_ma_ar_logger - WARNING - Translating semmek (صمك , سمك)
-2020-02-06 18:27:53,196 - word_ma_ar_logger - INFO - Translating t3aml m3a (تعامل معا , تعامل معا)
-2020-02-06 18:27:53,198 - word_ma_ar_logger - INFO - Translating 9errer (قرر , قرر)
-2020-02-06 18:27:53,200 - word_ma_ar_logger - INFO - Translating 3len (علن , علن)
-2020-02-06 18:27:53,203 - word_ma_ar_logger - WARNING - Translating n9es (نقص , نقس)
-2020-02-06 18:27:53,205 - word_ma_ar_logger - INFO - Translating hda (هدا , هدا)
-2020-02-06 18:27:53,207 - word_ma_ar_logger - INFO - Translating ghleb (غلب , غلب)
-2020-02-06 18:27:53,210 - word_ma_ar_logger - INFO - Translating dafe3 (دافع , دافع)
-2020-02-06 18:27:53,212 - word_ma_ar_logger - INFO - Translating t7edda (تحدا , تحدا)
-2020-02-06 18:27:53,215 - word_ma_ar_logger - WARNING - Translating 3ettel (عطل , عتل)
-2020-02-06 18:27:53,217 - word_ma_ar_logger - INFO - Translating 7errem (حرم , حرم)
-2020-02-06 18:27:53,219 - word_ma_ar_logger - WARNING - Translating hbet (هبط , هبت)
-2020-02-06 18:27:53,221 - word_ma_ar_logger - INFO - Translating nzel (نزل , نزل)
-2020-02-06 18:27:53,223 - word_ma_ar_logger - WARNING - Translating wsef (وصف , وسف)
-2020-02-06 18:27:53,227 - word_ma_ar_logger - WARNING - Translating sta7e9 (ستحق , ستاحق)
-2020-02-06 18:27:53,229 - word_ma_ar_logger - WARNING - Translating 5ettet (خطط , ختت)
-2020-02-06 18:27:53,231 - word_ma_ar_logger - INFO - Translating hdem (هدم , هدم)
-2020-02-06 18:27:53,234 - word_ma_ar_logger - WARNING - Translating tawer (طور , تاور)
-2020-02-06 18:27:53,236 - word_ma_ar_logger - INFO - Translating mat (مات , مات)
-2020-02-06 18:27:53,239 - word_ma_ar_logger - WARNING - Translating 5talef (ختلف , ختالف)
-2020-02-06 18:27:53,244 - word_ma_ar_logger - INFO - Translating tkerfes 3la (تكرفس علا , تكرفس علا)
-2020-02-06 18:27:53,246 - word_ma_ar_logger - INFO - Translating 7fer (حفر , حفر)
-2020-02-06 18:27:53,248 - word_ma_ar_logger - WARNING - Translating hdem (هضم , هدم)
-2020-02-06 18:27:53,250 - word_ma_ar_logger - WARNING - Translating wejjeh (وجّه , وجه)
-2020-02-06 18:27:53,253 - word_ma_ar_logger - INFO - Translating twse5 (توسخ , توسخ)
-2020-02-06 18:27:53,255 - word_ma_ar_logger - INFO - Translating wesse5 (وسخ , وسخ)
-2020-02-06 18:27:53,257 - word_ma_ar_logger - INFO - Translating ghab (غاب , غاب)
-2020-02-06 18:27:53,259 - word_ma_ar_logger - INFO - Translating addeb (أدب , أدب)
-2020-02-06 18:27:53,262 - word_ma_ar_logger - WARNING - Translating ktachef (كتشف , كتاشف)
-2020-02-06 18:27:53,265 - word_ma_ar_logger - INFO - Translating na9ech (ناقش , ناقش)
-2020-02-06 18:27:53,267 - word_ma_ar_logger - INFO - Translating dweb (دوب , دوب)
-2020-02-06 18:27:53,269 - word_ma_ar_logger - INFO - Translating be3ed (بعد , بعد)
-2020-02-06 18:27:53,271 - word_ma_ar_logger - INFO - Translating ferre9 (فرق , فرق)
-2020-02-06 18:27:53,273 - word_ma_ar_logger - INFO - Translating 9essem (قسم , قسم)
-2020-02-06 18:27:53,275 - word_ma_ar_logger - WARNING - Translating tle9 (طلق , تلق)
-2020-02-06 18:27:53,278 - word_ma_ar_logger - INFO - Translating da5 (داخ , داخ)
-2020-02-06 18:27:53,280 - word_ma_ar_logger - INFO - Translating dwe5 (دوخ , دوخ)
-2020-02-06 18:27:53,282 - word_ma_ar_logger - INFO - Translating rsem (رسم , رسم)
-2020-02-06 18:27:53,284 - word_ma_ar_logger - INFO - Translating jbed (جبد , جبد)
-2020-02-06 18:27:53,284 - word_ma_ar_logger - INFO - Total INFO logs 295 (49.25%), Total WARNING logs 304 (51%), Total ERROR logs 0 (0.0%)
+2020-02-14 21:00:51,349 - word_ma_ar_logger - INFO - Translating [item to test] ([expected result], [generated result result])
+2020-02-14 21:00:51,350 - word_ma_ar_logger - ERROR - Translating lmofradat, 'مفردات' != 'لمفرادات'
+- مفردات
++ لمفرادات
+? +   +
+
+2020-02-14 21:00:51,351 - word_ma_ar_logger - ERROR - Translating oustouraliya, 'استراليا' != 'أستورالييا'
+- استراليا
+? ^
++ أستورالييا
+? ^  +    +
+
+2020-02-14 21:00:51,351 - word_ma_ar_logger - ERROR - Translating kombodje, 'كامبودج' != 'كمبدج'
+- كامبودج
+?  -  -
++ كمبدج
+
+2020-02-14 21:00:51,352 - word_ma_ar_logger - ERROR - Translating canada, 'كندا' != 'كانادا'
+- كندا
++ كانادا
+?  + +
+
+2020-02-14 21:00:51,353 - word_ma_ar_logger - ERROR - Translating misre, 'مصر' != 'ميسر'
+- مصر
++ ميسر
+
+2020-02-14 21:00:51,354 - word_ma_ar_logger - ERROR - Translating naglize, 'نڭليز' != 'ناڭليز'
+- نڭليز
++ ناڭليز
+?  +
+
+2020-02-14 21:00:51,355 - word_ma_ar_logger - ERROR - Translating almaniya, 'المانيا' != 'ألمانييا'
+- المانيا
+? ^
++ ألمانييا
+? ^     +
+
+2020-02-14 21:00:51,357 - word_ma_ar_logger - ERROR - Translating hind, 'لهند' != 'هيند'
+- لهند
+? -
++ هيند
+?  +
+
+2020-02-14 21:00:51,358 - word_ma_ar_logger - ERROR - Translating andounissiya, 'أندونيسيا' != 'أندونيسييا'
+- أندونيسيا
++ أندونيسييا
+?         +
+
+2020-02-14 21:00:51,359 - word_ma_ar_logger - ERROR - Translating taliane, 'طاليان' != 'تاليان'
+- طاليان
+? ^
++ تاليان
+? ^
+
+2020-02-14 21:00:51,360 - word_ma_ar_logger - ERROR - Translating lmixik, 'لمكسيك' != 'لميكسيك'
+- لمكسيك
++ لميكسيك
+?   +
+
+2020-02-14 21:00:51,361 - word_ma_ar_logger - ERROR - Translating lmaghrib, 'لمغريب' != 'لماغريب'
+- لمغريب
++ لماغريب
+?   +
+
+2020-02-14 21:00:51,361 - word_ma_ar_logger - ERROR - Translating sbaniya, 'سبنيا' != 'سبانييا'
+- سبنيا
++ سبانييا
+?   + +
+
+2020-02-14 21:00:51,362 - word_ma_ar_logger - ERROR - Translating taylande, 'طايلاند' != 'تايلاند'
+- طايلاند
+? ^
++ تايلاند
+? ^
+
+2020-02-14 21:00:51,363 - word_ma_ar_logger - ERROR - Translating loghat, 'لوغات' != 'لغات'
+- لوغات
+?  -
++ لغات
+
+2020-02-14 21:00:51,363 - word_ma_ar_logger - ERROR - Translating l3arbia, 'لعربية' != 'لعاربيا'
+- لعربية
+?      ^
++ لعاربيا
+?   +   ^
+
+2020-02-14 21:00:51,363 - word_ma_ar_logger - ERROR - Translating chinwiya, 'شينويا' != 'شينوييا'
+- شينويا
++ شينوييا
+?      +
+
+2020-02-14 21:00:51,364 - word_ma_ar_logger - ERROR - Translating nagliziya, 'نڭليزية' != 'ناڭليزييا'
+- نڭليزية
+?       ^
++ ناڭليزييا
+?  +     ^^
+
+2020-02-14 21:00:51,364 - word_ma_ar_logger - ERROR - Translating fransawiya, 'فرنساويا' != 'فرانساوييا'
+- فرنساويا
++ فرانساوييا
+?   +     +
+
+2020-02-14 21:00:51,365 - word_ma_ar_logger - ERROR - Translating almania, 'المانيا' != 'ألمانيا'
+- المانيا
+? ^
++ ألمانيا
+? ^
+
+2020-02-14 21:00:51,365 - word_ma_ar_logger - ERROR - Translating younaniya, 'يونانيا' != 'يونانييا'
+- يونانيا
++ يونانييا
+?       +
+
+2020-02-14 21:00:51,365 - word_ma_ar_logger - ERROR - Translating ihoudiya, 'يهودية' != 'إهودييا'
+- يهودية
++ إهودييا
+
+2020-02-14 21:00:51,366 - word_ma_ar_logger - ERROR - Translating hindiya, 'هندية' != 'هيندييا'
+- هندية
++ هيندييا
+
+2020-02-14 21:00:51,366 - word_ma_ar_logger - ERROR - Translating italiya, 'ايطالية' != 'إتالييا'
+- ايطالية
++ إتالييا
+
+2020-02-14 21:00:51,366 - word_ma_ar_logger - ERROR - Translating japoniya, 'جابونية' != 'جاپنييا'
+- جابونية
++ جاپنييا
+
+2020-02-14 21:00:51,367 - word_ma_ar_logger - ERROR - Translating kordiya, 'كورية' != 'كردييا'
+- كورية
++ كردييا
+
+2020-02-14 21:00:51,367 - word_ma_ar_logger - ERROR - Translating latiniya, 'لاتينية' != 'لاتينييا'
+- لاتينية
+?       ^
++ لاتينييا
+?       ^^
+
+2020-02-14 21:00:51,367 - word_ma_ar_logger - ERROR - Translating roussiya, 'روسية' != 'روسييا'
+- روسية
+?     ^
++ روسييا
+?     ^^
+
+2020-02-14 21:00:51,368 - word_ma_ar_logger - ERROR - Translating spaniouliya, 'صبليونية' != 'سپانيولييا'
+- صبليونية
++ سپانيولييا
+
+2020-02-14 21:00:51,368 - word_ma_ar_logger - ERROR - Translating 2ordia, 'الاردية' != 'ءرديا'
+- الاردية
++ ءرديا
+
+2020-02-14 21:00:51,369 - word_ma_ar_logger - ERROR - Translating 5amis, 'الخميس' != 'خاميس'
+- الخميس
+?  --
++ خاميس
+? +
+
+2020-02-14 21:00:51,369 - word_ma_ar_logger - ERROR - Translating jam3a, 'جمعة' != 'جامعا'
+- جمعة
++ جامعا
+
+2020-02-14 21:00:51,369 - word_ma_ar_logger - ERROR - Translating sabte, 'سبت' != 'سابت'
+- سبت
++ سابت
+?  +
+
+2020-02-14 21:00:51,370 - word_ma_ar_logger - ERROR - Translating 7add, 'الحد' != 'حاد'
+- الحد
++ حاد
+
+2020-02-14 21:00:51,370 - word_ma_ar_logger - ERROR - Translating marra, 'مرة' != 'مارا'
+- مرة
++ مارا
+
+2020-02-14 21:00:51,370 - word_ma_ar_logger - ERROR - Translating sa3a, 'ساعة' != 'ساعا'
+- ساعة
+?    ^
++ ساعا
+?    ^
+
+2020-02-14 21:00:51,371 - word_ma_ar_logger - ERROR - Translating d9i9a, 'دقيقة' != 'دقيقا'
+- دقيقة
+?     ^
++ دقيقا
+?     ^
+
+2020-02-14 21:00:51,371 - word_ma_ar_logger - ERROR - Translating taniya, 'تانية' != 'تانييا'
+- تانية
+?     ^
++ تانييا
+?     ^^
+
+2020-02-14 21:00:51,372 - word_ma_ar_logger - ERROR - Translating sme7lia, 'سمحلي' != 'سمحليا'
+- سمحلي
++ سمحليا
+?      +
+
+2020-02-14 21:00:51,373 - word_ma_ar_logger - ERROR - Translating besse7a, 'بصحة' != 'بسحا'
+- بصحة
++ بسحا
+
+2020-02-14 21:00:51,374 - word_ma_ar_logger - ERROR - Translating beslama, 'بسلامة' != 'بسلاما'
+- بسلامة
+?      ^
++ بسلاما
+?      ^
+
+2020-02-14 21:00:51,374 - word_ma_ar_logger - ERROR - Translating bessa7, 'بصح' != 'بساح'
+- بصح
++ بساح
+
+2020-02-14 21:00:51,375 - word_ma_ar_logger - ERROR - Translating salam, 'سلام' != 'سالام'
+- سلام
++ سالام
+?  +
+
+2020-02-14 21:00:51,376 - word_ma_ar_logger - ERROR - Translating tlata, 'تلاتة' != 'تلاتا'
+- تلاتة
+?     ^
++ تلاتا
+?     ^
+
+2020-02-14 21:00:51,377 - word_ma_ar_logger - ERROR - Translating reb3a, 'ربعة' != 'ربعا'
+- ربعة
+?    ^
++ ربعا
+?    ^
+
+2020-02-14 21:00:51,377 - word_ma_ar_logger - ERROR - Translating 5emsa, 'خمسة' != 'خمسا'
+- خمسة
+?    ^
++ خمسا
+?    ^
+
+2020-02-14 21:00:51,378 - word_ma_ar_logger - ERROR - Translating setta, 'ستة' != 'ستا'
+- ستة
+?   ^
++ ستا
+?   ^
+
+2020-02-14 21:00:51,378 - word_ma_ar_logger - ERROR - Translating seb3a, 'سبعة' != 'سبعا'
+- سبعة
+?    ^
++ سبعا
+?    ^
+
+2020-02-14 21:00:51,379 - word_ma_ar_logger - ERROR - Translating tmania, 'تمنية' != 'تمانيا'
+- تمنية
+?     ^
++ تمانيا
+?   +  ^
+
+2020-02-14 21:00:51,380 - word_ma_ar_logger - ERROR - Translating 3achra, 'عشرة' != 'عاشرا'
+- عشرة
++ عاشرا
+
+2020-02-14 21:00:51,380 - word_ma_ar_logger - ERROR - Translating iyeh, 'إييه' != 'إيه'
+- إييه
+?  -
++ إيه
+
+2020-02-14 21:00:51,381 - word_ma_ar_logger - ERROR - Translating chokran, 'شكرا' != 'شكران'
+- شكرا
++ شكران
+?     +
+
+2020-02-14 21:00:51,381 - word_ma_ar_logger - ERROR - Translating Kanbghik, 'كنبغيك' != 'كانبغيك'
+- كنبغيك
++ كانبغيك
+?  +
+
+2020-02-14 21:00:51,382 - word_ma_ar_logger - ERROR - Translating chwia, 'شوية' != 'شويا'
+- شوية
+?    ^
++ شويا
+?    ^
+
+2020-02-14 21:00:51,383 - word_ma_ar_logger - ERROR - Translating hder, 'هضر' != 'هدر'
+- هضر
+?  ^
++ هدر
+?  ^
+
+2020-02-14 21:00:51,384 - word_ma_ar_logger - ERROR - Translating Safi, 'صافي' != 'سافي'
+- صافي
+? ^
++ سافي
+? ^
+
+2020-02-14 21:00:51,384 - word_ma_ar_logger - ERROR - Translating twalit, 'طواليط' != 'تواليت'
+- طواليط
++ تواليت
+
+2020-02-14 21:00:51,385 - word_ma_ar_logger - ERROR - Translating 7edash, 'حضاش' != 'حداش'
+- حضاش
+?  ^
++ حداش
+?  ^
+
+2020-02-14 21:00:51,385 - word_ma_ar_logger - ERROR - Translating Tenash, 'طناش' != 'تناش'
+- طناش
+? ^
++ تناش
+? ^
+
+2020-02-14 21:00:51,385 - word_ma_ar_logger - ERROR - Translating Teletash, 'تلطاش' != 'تلتاش'
+- تلطاش
+?   ^
++ تلتاش
+?   ^
+
+2020-02-14 21:00:51,386 - word_ma_ar_logger - ERROR - Translating Rebe3tash, 'ربعطاش' != 'ربعتاش'
+- ربعطاش
+?    ^
++ ربعتاش
+?    ^
+
+2020-02-14 21:00:51,386 - word_ma_ar_logger - ERROR - Translating Khemstash, 'خمسطاش' != 'خمستاش'
+- خمسطاش
+?    ^
++ خمستاش
+?    ^
+
+2020-02-14 21:00:51,387 - word_ma_ar_logger - ERROR - Translating Settash, 'سطاش' != 'ستاش'
+- سطاش
+?  ^
++ ستاش
+?  ^
+
+2020-02-14 21:00:51,387 - word_ma_ar_logger - ERROR - Translating Sebe3tash, 'سبعطاش' != 'سبعتاش'
+- سبعطاش
+?    ^
++ سبعتاش
+?    ^
+
+2020-02-14 21:00:51,387 - word_ma_ar_logger - ERROR - Translating Tementash, 'تمنطاش' != 'تمنتاش'
+- تمنطاش
+?    ^
++ تمنتاش
+?    ^
+
+2020-02-14 21:00:51,388 - word_ma_ar_logger - ERROR - Translating Teze3tash, 'تزعطاش' != 'تزعتاش'
+- تزعطاش
+?    ^
++ تزعتاش
+?    ^
+
+2020-02-14 21:00:51,388 - word_ma_ar_logger - ERROR - Translating Le7ia, 'لحية' != 'لحيا'
+- لحية
+?    ^
++ لحيا
+?    ^
+
+2020-02-14 21:00:51,390 - word_ma_ar_logger - ERROR - Translating Senna, 'سنة' != 'سنا'
+- سنة
+?   ^
++ سنا
+?   ^
+
+2020-02-14 21:00:51,390 - word_ma_ar_logger - ERROR - Translating Sbe3, 'صبع' != 'سبع'
+- صبع
+? ^
++ سبع
+? ^
+
+2020-02-14 21:00:51,390 - word_ma_ar_logger - ERROR - Translating Deher, 'ضهر' != 'دهر'
+- ضهر
+? ^
++ دهر
+? ^
+
+2020-02-14 21:00:51,391 - word_ma_ar_logger - ERROR - Translating Me3da, 'معدة' != 'معدا'
+- معدة
+?    ^
++ معدا
+?    ^
+
+2020-02-14 21:00:51,391 - word_ma_ar_logger - ERROR - Translating Kebda, 'كبدة' != 'كبدا'
+- كبدة
+?    ^
++ كبدا
+?    ^
+
+2020-02-14 21:00:51,391 - word_ma_ar_logger - ERROR - Translating Jebha, 'جبهة' != 'جبها'
+- جبهة
+?    ^
++ جبها
+?    ^
+
+2020-02-14 21:00:51,392 - word_ma_ar_logger - ERROR - Translating Rekba, 'ركبة' != 'ركبا'
+- ركبة
+?    ^
++ ركبا
+?    ^
+
+2020-02-14 21:00:51,392 - word_ma_ar_logger - ERROR - Translating 7el9a, 'حلق' != 'حلقا'
+- حلق
++ حلقا
+?    +
+
+2020-02-14 21:00:51,393 - word_ma_ar_logger - ERROR - Translating Ders, 'ضرس' != 'درس'
+- ضرس
+? ^
++ درس
+? ^
+
+2020-02-14 21:00:51,394 - word_ma_ar_logger - ERROR - Translating Defer, 'ضفر' != 'دفر'
+- ضفر
+? ^
++ دفر
+? ^
+
+2020-02-14 21:00:51,394 - word_ma_ar_logger - ERROR - Translating 3dem, 'عضم' != 'عدم'
+- عضم
+?  ^
++ عدم
+?  ^
+
+2020-02-14 21:00:51,395 - word_ma_ar_logger - ERROR - Translating Riya, 'رية' != 'رييا'
+- رية
++ رييا
+
+2020-02-14 21:00:51,396 - word_ma_ar_logger - ERROR - Translating Zebda, 'زبدة' != 'زبدا'
+- زبدة
+?    ^
++ زبدا
+?    ^
+
+2020-02-14 21:00:51,396 - word_ma_ar_logger - ERROR - Translating Qehwa, 'قهوة' != 'قهوا'
+- قهوة
+?    ^
++ قهوا
+?    ^
+
+2020-02-14 21:00:51,397 - word_ma_ar_logger - ERROR - Translating Kofitir, 'كوفيتير' != 'كفيتير'
+- كوفيتير
+?  -
++ كفيتير
+
+2020-02-14 21:00:51,398 - word_ma_ar_logger - ERROR - Translating Fakia, 'فاكية' != 'فاكيا'
+- فاكية
+?     ^
++ فاكيا
+?     ^
+
+2020-02-14 21:00:51,398 - word_ma_ar_logger - ERROR - Translating 7elwa, 'حلوة' != 'حلوا'
+- حلوة
+?    ^
++ حلوا
+?    ^
+
+2020-02-14 21:00:51,399 - word_ma_ar_logger - ERROR - Translating 3asir, 'عصير' != 'عاسير'
+- عصير
++ عاسير
+
+2020-02-14 21:00:51,399 - word_ma_ar_logger - ERROR - Translating Khodra, 'خضرة' != 'خدرا'
+- خضرة
++ خدرا
+
+2020-02-14 21:00:51,400 - word_ma_ar_logger - ERROR - Translating Bida, 'بيضة' != 'بيدا'
+- بيضة
++ بيدا
+
+2020-02-14 21:00:51,401 - word_ma_ar_logger - ERROR - Translating Shelada, 'شلاضة' != 'شلادا'
+- شلاضة
++ شلادا
+
+2020-02-14 21:00:51,401 - word_ma_ar_logger - ERROR - Translating Mel7a, 'ملحة' != 'ملحا'
+- ملحة
+?    ^
++ ملحا
+?    ^
+
+2020-02-14 21:00:51,401 - word_ma_ar_logger - ERROR - Translating 7rira, 'حريرة' != 'حريرا'
+- حريرة
+?     ^
++ حريرا
+?     ^
+
+2020-02-14 21:00:51,402 - word_ma_ar_logger - ERROR - Translating Sekkar, 'سكر' != 'سكار'
+- سكر
++ سكار
+?   +
+
+2020-02-14 21:00:51,403 - word_ma_ar_logger - ERROR - Translating Ashno, 'أش شنو' != 'أشن'
+- أش شنو
++ أشن
+
+2020-02-14 21:00:51,403 - word_ma_ar_logger - ERROR - Translating Imta, 'فوقاش' != 'إمتا'
+- فوقاش
++ إمتا
+
+2020-02-14 21:00:51,404 - word_ma_ar_logger - ERROR - Translating Feddi, 'فضي' != 'فدي'
+- فضي
+?  ^
++ فدي
+?  ^
+
+2020-02-14 21:00:51,404 - word_ma_ar_logger - ERROR - Translating Byed, 'بيض' != 'بيد'
+- بيض
+?   ^
++ بيد
+?   ^
+
+2020-02-14 21:00:51,405 - word_ma_ar_logger - ERROR - Translating Grouna, 'ڭرونة' != 'ڭرونا'
+- ڭرونة
+?     ^
++ ڭرونا
+?     ^
+
+2020-02-14 21:00:51,406 - word_ma_ar_logger - ERROR - Translating Sfer, 'صفر' != 'سفر'
+- صفر
+? ^
++ سفر
+? ^
+
+2020-02-14 21:00:51,406 - word_ma_ar_logger - ERROR - Translating Mauve, 'موڤ' != 'ماوڤ'
+- موڤ
++ ماوڤ
+?  +
+
+2020-02-14 21:00:51,407 - word_ma_ar_logger - ERROR - Translating Ponja, 'بونجة' != 'پنجا'
+- بونجة
++ پنجا
+
+2020-02-14 21:00:51,407 - word_ma_ar_logger - ERROR - Translating 7aris, 'حارس' != 'حاريس'
+- حارس
++ حاريس
+?    +
+
+2020-02-14 21:00:51,408 - word_ma_ar_logger - ERROR - Translating 5der, 'خضر' != 'خدر'
+- خضر
+?  ^
++ خدر
+?  ^
+
+2020-02-14 21:00:51,408 - word_ma_ar_logger - ERROR - Translating Banafsaji, 'بنفسجي' != 'بانافساجي'
+- بنفسجي
++ بانافساجي
+?  + +  +
+
+2020-02-14 21:00:51,409 - word_ma_ar_logger - ERROR - Translating 7amd, 'حامض' != 'حامد'
+- حامض
+?    ^
++ حامد
+?    ^
+
+2020-02-14 21:00:51,409 - word_ma_ar_logger - ERROR - Translating Nashit, 'نشيط' != 'ناشيت'
+- نشيط
++ ناشيت
+
+2020-02-14 21:00:51,410 - word_ma_ar_logger - ERROR - Translating Temma3, 'طماع' != 'تماع'
+- طماع
+? ^
++ تماع
+? ^
+
+2020-02-14 21:00:51,411 - word_ma_ar_logger - ERROR - Translating Met2akked, 'متأكد' != 'متءاكد'
+- متأكد
+?   ^
++ متءاكد
+?   ^^
+
+2020-02-14 21:00:51,411 - word_ma_ar_logger - ERROR - Translating Wade7, 'واضح' != 'وادح'
+- واضح
+?   ^
++ وادح
+?   ^
+
+2020-02-14 21:00:51,412 - word_ma_ar_logger - ERROR - Translating 9asir, 'قصير' != 'قاسير'
+- قصير
++ قاسير
+
+2020-02-14 21:00:51,413 - word_ma_ar_logger - ERROR - Translating Tayeb, 'طايب' != 'تايب'
+- طايب
+? ^
++ تايب
+? ^
+
+2020-02-14 21:00:51,413 - word_ma_ar_logger - ERROR - Translating Khatir, 'خطير' != 'خاتير'
+- خطير
++ خاتير
+
+2020-02-14 21:00:51,415 - word_ma_ar_logger - ERROR - Translating mdye9, 'مضيق' != 'مديق'
+- مضيق
+?  ^
++ مديق
+?  ^
+
+2020-02-14 21:00:51,415 - word_ma_ar_logger - ERROR - Translating Daser, 'ضاسر' != 'داسر'
+- ضاسر
+? ^
++ داسر
+? ^
+
+2020-02-14 21:00:51,416 - word_ma_ar_logger - ERROR - Translating 3iyyan, 'عيان' != 'عييان'
+- عيان
++ عييان
+?  +
+
+2020-02-14 21:00:51,416 - word_ma_ar_logger - ERROR - Translating Me3esseb, 'معصب' != 'معسب'
+- معصب
+?   ^
++ معسب
+?   ^
+
+2020-02-14 21:00:51,417 - word_ma_ar_logger - ERROR - Translating Drif, 'ضريف' != 'دريف'
+- ضريف
+? ^
++ دريف
+? ^
+
+2020-02-14 21:00:51,417 - word_ma_ar_logger - ERROR - Translating Ghelid, 'غليض' != 'غليد'
+- غليض
+?    ^
++ غليد
+?    ^
+
+2020-02-14 21:00:51,418 - word_ma_ar_logger - ERROR - Translating msetti, 'مسطي' != 'مستي'
+- مسطي
+?   ^
++ مستي
+?   ^
+
+2020-02-14 21:00:51,418 - word_ma_ar_logger - ERROR - Translating Mohim, 'مهم' != 'مهيم'
+- مهم
++ مهيم
+?   +
+
+2020-02-14 21:00:51,419 - word_ma_ar_logger - ERROR - Translating Bari2, 'بريء' != 'باريء'
+- بريء
++ باريء
+?  +
+
+2020-02-14 21:00:51,419 - word_ma_ar_logger - ERROR - Translating 3erid, 'عريض' != 'عريد'
+- عريض
+?    ^
++ عريد
+?    ^
+
+2020-02-14 21:00:51,420 - word_ma_ar_logger - ERROR - Translating Twil, 'طويل' != 'تويل'
+- طويل
+? ^
++ تويل
+? ^
+
+2020-02-14 21:00:51,421 - word_ma_ar_logger - ERROR - Translating Mrid, 'مريض' != 'مريد'
+- مريض
+?    ^
++ مريد
+?    ^
+
+2020-02-14 21:00:51,421 - word_ma_ar_logger - ERROR - Translating M5ellet, 'مخلط' != 'مخلت'
+- مخلط
+?    ^
++ مخلت
+?    ^
+
+2020-02-14 21:00:51,421 - word_ma_ar_logger - ERROR - Translating 3esri, 'عصري' != 'عسري'
+- عصري
+?  ^
++ عسري
+?  ^
+
+2020-02-14 21:00:51,422 - word_ma_ar_logger - ERROR - Translating Rteb, 'رطب' != 'رتب'
+- رطب
+?  ^
++ رتب
+?  ^
+
+2020-02-14 21:00:51,422 - word_ma_ar_logger - ERROR - Translating Metwesset, 'متوسط' != 'متوست'
+- متوسط
+?     ^
++ متوست
+?     ^
+
+2020-02-14 21:00:51,423 - word_ma_ar_logger - ERROR - Translating Tabi3i, 'طبيعي' != 'تابيعي'
+- طبيعي
+? ^
++ تابيعي
+? ^^
+
+2020-02-14 21:00:51,423 - word_ma_ar_logger - ERROR - Translating Darouri, 'ضروري' != 'داروري'
+- ضروري
+? ^
++ داروري
+? ^^
+
+2020-02-14 21:00:51,424 - word_ma_ar_logger - ERROR - Translating Sghir, 'صغير' != 'سغير'
+- صغير
+? ^
++ سغير
+? ^
+
+2020-02-14 21:00:51,425 - word_ma_ar_logger - ERROR - Translating r5iss, 'رخيص' != 'رخيس'
+- رخيص
+?    ^
++ رخيس
+?    ^
+
+2020-02-14 21:00:51,425 - word_ma_ar_logger - ERROR - Translating M2eddeb, 'مؤدب' != 'مءدب'
+- مؤدب
+?  ^
++ مءدب
+?  ^
+
+2020-02-14 21:00:51,426 - word_ma_ar_logger - ERROR - Translating Mo7taram, 'محترم' != 'محتارام'
+- محترم
++ محتارام
+?    + +
+
+2020-02-14 21:00:51,427 - word_ma_ar_logger - ERROR - Translating Mossekh, 'موسخ' != 'مسخ'
+- موسخ
+?  -
++ مسخ
+
+2020-02-14 21:00:51,428 - word_ma_ar_logger - ERROR - Translating 9ase7, 'قاصح' != 'قاسح'
+- قاصح
+?   ^
++ قاسح
+?   ^
+
+2020-02-14 21:00:51,428 - word_ma_ar_logger - ERROR - Translating 7lo, 'حلو' != 'حل'
+- حلو
+?   -
++ حل
+
+2020-02-14 21:00:51,429 - word_ma_ar_logger - ERROR - Translating M3ettel, 'معطل' != 'معتل'
+- معطل
+?   ^
++ معتل
+?   ^
+
+2020-02-14 21:00:51,429 - word_ma_ar_logger - ERROR - Translating 7achoumi, 'حشومي' != 'حاشومي'
+- حشومي
++ حاشومي
+?  +
+
+2020-02-14 21:00:51,430 - word_ma_ar_logger - ERROR - Translating Madi, 'ماضي' != 'مادي'
+- ماضي
+?   ^
++ مادي
+?   ^
+
+2020-02-14 21:00:51,431 - word_ma_ar_logger - ERROR - Translating sbitar, 'صبيطار' != 'سبيتار'
+- صبيطار
++ سبيتار
+
+2020-02-14 21:00:51,431 - word_ma_ar_logger - ERROR - Translating pikala, 'بيكالة' != 'پيكالا'
+- بيكالة
++ پيكالا
+
+2020-02-14 21:00:51,431 - word_ma_ar_logger - ERROR - Translating tomobil, 'طوموبيل' != 'تمبيل'
+- طوموبيل
++ تمبيل
+
+2020-02-14 21:00:51,431 - word_ma_ar_logger - ERROR - Translating pici, 'بيسي' != 'پيكي'
+- بيسي
++ پيكي
+
+2020-02-14 21:00:51,432 - word_ma_ar_logger - ERROR - Translating boula, 'بولة' != 'بولا'
+- بولة
+?    ^
++ بولا
+?    ^
+
+2020-02-14 21:00:51,432 - word_ma_ar_logger - ERROR - Translating 9ach 9achd, 'قاشقاش' != 'قاش قاشد'
+- قاشقاش
++ قاش قاشد
+?    +   +
+
+2020-02-14 21:00:51,432 - word_ma_ar_logger - ERROR - Translating 3attach, 'عطاش' != 'عاتاش'
+- عطاش
++ عاتاش
+
+2020-02-14 21:00:51,433 - word_ma_ar_logger - ERROR - Translating arre, 'اري' != 'أر'
+- اري
++ أر
+
+2020-02-14 21:00:51,433 - word_ma_ar_logger - ERROR - Translating Atansiou, 'اطانسيو' != 'أتانسيو'
+- اطانسيو
+? ^^
++ أتانسيو
+? ^^
+
+2020-02-14 21:00:51,433 - word_ma_ar_logger - ERROR - Translating Babor, 'بابور' != 'بابر'
+- بابور
+?    -
++ بابر
+
+2020-02-14 21:00:51,434 - word_ma_ar_logger - ERROR - Translating Baguitta, 'باكيطا' != 'باڭويتا'
+- باكيطا
++ باڭويتا
+
+2020-02-14 21:00:51,434 - word_ma_ar_logger - ERROR - Translating Bakiya, 'باكية' != 'باكييا'
+- باكية
+?     ^
++ باكييا
+?     ^^
+
+2020-02-14 21:00:51,435 - word_ma_ar_logger - ERROR - Translating Balcone, 'بالكون' != 'بالكن'
+- بالكون
+?     -
++ بالكن
+
+2020-02-14 21:00:51,435 - word_ma_ar_logger - ERROR - Translating Ballone, 'بالون' != 'بالن'
+- بالون
+?    -
++ بالن
+
+2020-02-14 21:00:51,435 - word_ma_ar_logger - ERROR - Translating Batroune, 'باطرون' != 'باترون'
+- باطرون
+?   ^
++ باترون
+?   ^
+
+2020-02-14 21:00:51,436 - word_ma_ar_logger - ERROR - Translating bermassioun, 'برمسبون' != 'برماسيون'
+- برمسبون
+?     ^
++ برماسيون
+?    + ^
+
+2020-02-14 21:00:51,436 - word_ma_ar_logger - ERROR - Translating Befane, 'بيفان' != 'بفان'
+- بيفان
+?  -
++ بفان
+
+2020-02-14 21:00:51,436 - word_ma_ar_logger - ERROR - Translating Bikoup, 'بيكوب' != 'بيكوپ'
+- بيكوب
+?     ^
++ بيكوپ
+?     ^
+
+2020-02-14 21:00:51,437 - word_ma_ar_logger - ERROR - Translating Barwita, 'برويطة' != 'بارويتا'
+- برويطة
++ بارويتا
+
+2020-02-14 21:00:51,437 - word_ma_ar_logger - ERROR - Translating Baspour, 'باسبور' != 'باسپور'
+- باسبور
+?    ^
++ باسپور
+?    ^
+
+2020-02-14 21:00:51,437 - word_ma_ar_logger - ERROR - Translating Bataillou, 'باطايو' != 'باتايلو'
+- باطايو
+?   ^
++ باتايلو
+?   ^  +
+
+2020-02-14 21:00:51,438 - word_ma_ar_logger - ERROR - Translating Batema, 'باطيمة' != 'باتما'
+- باطيمة
++ باتما
+
+2020-02-14 21:00:51,438 - word_ma_ar_logger - ERROR - Translating Barabole, 'بارابول' != 'بارابل'
+- بارابول
+?      -
++ بارابل
+
+2020-02-14 21:00:51,439 - word_ma_ar_logger - ERROR - Translating Barbrise, 'باربرز' != 'باربريس'
+- باربرز
+?      ^
++ باربريس
+?      ^^
+
+2020-02-14 21:00:51,439 - word_ma_ar_logger - ERROR - Translating Bart9iz, 'بارطقيز' != 'بارتقيز'
+- بارطقيز
+?    ^
++ بارتقيز
+?    ^
+
+2020-02-14 21:00:51,440 - word_ma_ar_logger - ERROR - Translating fabor, 'فابور' != 'فابر'
+- فابور
+?    -
++ فابر
+
+2020-02-14 21:00:51,440 - word_ma_ar_logger - ERROR - Translating Bichklita, 'بيشكليطة' != 'بيشكليتا'
+- بيشكليطة
+?       ^^
++ بيشكليتا
+?       ^^
+
+2020-02-14 21:00:51,441 - word_ma_ar_logger - ERROR - Translating Bitagaz, 'بيطاغاز' != 'بيتاڭاز'
+- بيطاغاز
+?   ^ ^
++ بيتاڭاز
+?   ^ ^
+
+2020-02-14 21:00:51,442 - word_ma_ar_logger - ERROR - Translating Blassa, 'بلاصة' != 'بلاسا'
+- بلاصة
++ بلاسا
+
+2020-02-14 21:00:51,442 - word_ma_ar_logger - ERROR - Translating Blindi, 'بلاندي' != 'بليندي'
+- بلاندي
+?   ^
++ بليندي
+?   ^
+
+2020-02-14 21:00:51,442 - word_ma_ar_logger - ERROR - Translating Blombi, 'بلومبي' != 'بلمبي'
+- بلومبي
+?   -
++ بلمبي
+
+2020-02-14 21:00:51,443 - word_ma_ar_logger - ERROR - Translating Blousa, 'بلوزا' != 'بلوسا'
+- بلوزا
+?    ^
++ بلوسا
+?    ^
+
+2020-02-14 21:00:51,443 - word_ma_ar_logger - ERROR - Translating bogoss, 'بوكوص' != 'بڭس'
+- بوكوص
++ بڭس
+
+2020-02-14 21:00:51,444 - word_ma_ar_logger - ERROR - Translating Boita, 'بواطة' != 'بيتا'
+- بواطة
++ بيتا
+
+2020-02-14 21:00:51,444 - word_ma_ar_logger - ERROR - Translating Bombiya, 'بومبيا' != 'بمبييا'
+- بومبيا
+?  -
++ بمبييا
+?     +
+
+2020-02-14 21:00:51,444 - word_ma_ar_logger - ERROR - Translating bonokasio, 'بونوكازيو' != 'بنكاسي'
+- بونوكازيو
++ بنكاسي
+
+2020-02-14 21:00:51,445 - word_ma_ar_logger - ERROR - Translating Botona, 'بوطونة' != 'بتنا'
+- بوطونة
++ بتنا
+
+2020-02-14 21:00:51,445 - word_ma_ar_logger - ERROR - Translating Boudra, 'بودرة' != 'بودرا'
+- بودرة
+?     ^
++ بودرا
+?     ^
+
+2020-02-14 21:00:51,445 - word_ma_ar_logger - ERROR - Translating Boussa, 'بوسة' != 'بوسا'
+- بوسة
+?    ^
++ بوسا
+?    ^
+
+2020-02-14 21:00:51,446 - word_ma_ar_logger - ERROR - Translating Boulice, 'بوليس' != 'بوليك'
+- بوليس
+?     ^
++ بوليك
+?     ^
+
+2020-02-14 21:00:51,446 - word_ma_ar_logger - ERROR - Translating Brossi, 'بروصي' != 'برسي'
+- بروصي
++ برسي
+
+2020-02-14 21:00:51,447 - word_ma_ar_logger - ERROR - Translating Broblime, 'بروبليم' != 'بربليم'
+- بروبليم
+?   -
++ بربليم
+
+2020-02-14 21:00:51,448 - word_ma_ar_logger - ERROR - Translating Canappi, 'كانابي' != 'كاناپي'
+- كانابي
+?     ^
++ كاناپي
+?     ^
+
+2020-02-14 21:00:51,449 - word_ma_ar_logger - ERROR - Translating Cartonna, 'كارطونة' != 'كارتنا'
+- كارطونة
++ كارتنا
+
+2020-02-14 21:00:51,449 - word_ma_ar_logger - ERROR - Translating Cassecrotte, 'كاسكروط' != 'كاسكرت'
+- كاسكروط
+?      ^^
++ كاسكرت
+?      ^
+
+2020-02-14 21:00:51,449 - word_ma_ar_logger - ERROR - Translating Casserona, 'كاسرونة' != 'كاسرنا'
+- كاسرونة
+?     - ^
++ كاسرنا
+?      ^
+
+2020-02-14 21:00:51,450 - word_ma_ar_logger - ERROR - Translating Cassetat, 'كاسيطات' != 'كاستات'
+- كاسيطات
+?    ^^
++ كاستات
+?    ^
+
+2020-02-14 21:00:51,450 - word_ma_ar_logger - ERROR - Translating Certafika, 'سرتافيكا' != 'كرتافيكا'
+- سرتافيكا
+? ^
++ كرتافيكا
+? ^
+
+2020-02-14 21:00:51,451 - word_ma_ar_logger - ERROR - Translating champpane, 'شامبان' != 'شامپان'
+- شامبان
+?    ^
++ شامپان
+?    ^
+
+2020-02-14 21:00:51,451 - word_ma_ar_logger - ERROR - Translating Chanteyyo, 'شانتيو' != 'شانتي'
+- شانتيو
+?      -
++ شانتي
+
+2020-02-14 21:00:51,451 - word_ma_ar_logger - ERROR - Translating Chauffage, 'شوفاج' != 'شاوفاڭ'
+- شوفاج
+?     ^
++ شاوفاڭ
+?  +   ^
+
+2020-02-14 21:00:51,452 - word_ma_ar_logger - ERROR - Translating coiffoura, 'كوافورا' != 'كيفورا'
+- كوافورا
+?  ^^
++ كيفورا
+?  ^
+
+2020-02-14 21:00:51,452 - word_ma_ar_logger - ERROR - Translating Cidi, 'سيدي' != 'كيدي'
+- سيدي
+? ^
++ كيدي
+? ^
+
+2020-02-14 21:00:51,452 - word_ma_ar_logger - ERROR - Translating cima, 'سيما' != 'كيما'
+- سيما
+? ^
++ كيما
+? ^
+
+2020-02-14 21:00:51,453 - word_ma_ar_logger - ERROR - Translating Chifor, 'شيفور' != 'شيفر'
+- شيفور
+?    -
++ شيفر
+
+2020-02-14 21:00:51,453 - word_ma_ar_logger - ERROR - Translating Chiniwi, 'شينوي' != 'شينيوي'
+- شينوي
++ شينيوي
+?    +
+
+2020-02-14 21:00:51,454 - word_ma_ar_logger - ERROR - Translating Chklat, 'شكلاط' != 'شكلات'
+- شكلاط
+?     ^
++ شكلات
+?     ^
+
+2020-02-14 21:00:51,454 - word_ma_ar_logger - ERROR - Translating Chlada, 'شلاضة' != 'شلادا'
+- شلاضة
++ شلادا
+
+2020-02-14 21:00:51,454 - word_ma_ar_logger - ERROR - Translating Chofo, 'شوفو' != 'شف'
+- شوفو
+?  - -
++ شف
+
+2020-02-14 21:00:51,455 - word_ma_ar_logger - ERROR - Translating Tkonnecta, 'تكونكطا' != 'تكنكتا'
+- تكونكطا
+?   -  ^
++ تكنكتا
+?     ^
+
+2020-02-14 21:00:51,455 - word_ma_ar_logger - ERROR - Translating Tobiss, 'طوبيس' != 'تبيس'
+- طوبيس
++ تبيس
+
+2020-02-14 21:00:51,456 - word_ma_ar_logger - ERROR - Translating Tola, 'طولة' != 'تلا'
+- طولة
++ تلا
+
+2020-02-14 21:00:51,456 - word_ma_ar_logger - ERROR - Translating Tolanti, 'طولانطي' != 'تلانتي'
+- طولانطي
++ تلانتي
+
+2020-02-14 21:00:51,456 - word_ma_ar_logger - ERROR - Translating Tonobile, 'طونوبيل' != 'تنبيل'
+- طونوبيل
++ تنبيل
+
+2020-02-14 21:00:51,456 - word_ma_ar_logger - ERROR - Translating torizatio, 'طوريزاسيو' != 'تريزاتي'
+- طوريزاسيو
++ تريزاتي
+
+2020-02-14 21:00:51,457 - word_ma_ar_logger - ERROR - Translating Traboblik, 'طرابوبليك' != 'تراببليك'
+- طرابوبليك
+? ^   -
++ تراببليك
+? ^
+
+2020-02-14 21:00:51,457 - word_ma_ar_logger - ERROR - Translating trakss, 'طراكس' != 'تراكس'
+- طراكس
+? ^
++ تراكس
+? ^
+
+2020-02-14 21:00:51,458 - word_ma_ar_logger - ERROR - Translating Zmagri, 'زماكري' != 'زماڭري'
+- زماكري
+?    ^
++ زماڭري
+?    ^
+
+2020-02-14 21:00:51,458 - word_ma_ar_logger - ERROR - Translating Zmagria, 'زماكريا' != 'زماڭريا'
+- زماكريا
+?    ^
++ زماڭريا
+?    ^
+
+2020-02-14 21:00:51,459 - word_ma_ar_logger - ERROR - Translating Tricinti, 'نريسينتي' != 'تريكينتي'
+- نريسينتي
+? ^  ^
++ تريكينتي
+? ^  ^
+
+2020-02-14 21:00:51,459 - word_ma_ar_logger - ERROR - Translating Triciyanne, 'تريسيان' != 'تريكييان'
+- تريسيان
+?    ^
++ تريكييان
+?    ^^
+
+2020-02-14 21:00:51,460 - word_ma_ar_logger - ERROR - Translating wiskiyya, 'ويسكيا' != 'ويسكييا'
+- ويسكيا
++ ويسكييا
+?      +
+
+2020-02-14 21:00:51,460 - word_ma_ar_logger - ERROR - Translating Xciri, 'كسيري' != 'كسكيري'
+- كسيري
++ كسكيري
+?   +
+
+2020-02-14 21:00:51,460 - word_ma_ar_logger - ERROR - Translating zina, 'زينة' != 'زينا'
+- زينة
+?    ^
++ زينا
+?    ^
+
+2020-02-14 21:00:51,461 - word_ma_ar_logger - ERROR - Translating Conta, 'كونطا' != 'كنتا'
+- كونطا
++ كنتا
+
+2020-02-14 21:00:51,461 - word_ma_ar_logger - ERROR - Translating Contable, 'كونطابل' != 'كنتابل'
+- كونطابل
+?  - ^
++ كنتابل
+?   ^
+
+2020-02-14 21:00:51,461 - word_ma_ar_logger - ERROR - Translating Contrada, 'كونطرادا' != 'كنترادا'
+- كونطرادا
+?  - ^
++ كنترادا
+?   ^
+
+2020-02-14 21:00:51,462 - word_ma_ar_logger - ERROR - Translating Contour, 'كونتور' != 'كنتور'
+- كونتور
+?  -
++ كنتور
+
+2020-02-14 21:00:51,462 - word_ma_ar_logger - ERROR - Translating Controlour, 'كونطرولور' != 'كنترلور'
+- كونطرولور
+?  - ^ -
++ كنترلور
+?   ^
+
+2020-02-14 21:00:51,462 - word_ma_ar_logger - ERROR - Translating Corsa, 'كورسا' != 'كرسا'
+- كورسا
+?  -
++ كرسا
+
+2020-02-14 21:00:51,463 - word_ma_ar_logger - ERROR - Translating Costa, 'كوصطا' != 'كستا'
+- كوصطا
++ كستا
+
+2020-02-14 21:00:51,463 - word_ma_ar_logger - ERROR - Translating Coulandere, 'كولاندير' != 'كولاندر'
+- كولاندير
+?       -
++ كولاندر
+
+2020-02-14 21:00:51,464 - word_ma_ar_logger - ERROR - Translating Coumissiyou, 'كوميسيو' != 'كوميسييو'
+- كوميسيو
++ كوميسييو
+?       +
+
+2020-02-14 21:00:51,465 - word_ma_ar_logger - ERROR - Translating Cryone, 'كريون' != 'كرين'
+- كريون
+?    -
++ كرين
+
+2020-02-14 21:00:51,465 - word_ma_ar_logger - ERROR - Translating dipanaj, 'ديباناج' != 'ديپاناج'
+- ديباناج
+?   ^
++ ديپاناج
+?   ^
+
+2020-02-14 21:00:51,466 - word_ma_ar_logger - ERROR - Translating directour, 'ديريكتور' != 'ديركتور'
+- ديريكتور
+?    -
++ ديركتور
+
+2020-02-14 21:00:51,466 - word_ma_ar_logger - ERROR - Translating ditay, 'ديطاي' != 'ديتاي'
+- ديطاي
+?   ^
++ ديتاي
+?   ^
+
+2020-02-14 21:00:51,467 - word_ma_ar_logger - ERROR - Translating Dossé, 'دوسي' != 'دس'
+- دوسي
+?  - -
++ دس
+
+2020-02-14 21:00:51,468 - word_ma_ar_logger - ERROR - Translating Douachche, 'دواش' != 'دواشش'
+- دواش
++ دواشش
+?     +
+
+2020-02-14 21:00:51,468 - word_ma_ar_logger - ERROR - Translating Doublvi, 'دوبلفي' != 'دوبلڤي'
+- دوبلفي
+?     ^
++ دوبلڤي
+?     ^
+
+2020-02-14 21:00:51,468 - word_ma_ar_logger - ERROR - Translating elgaraj, 'الكراج' != 'إلڭاراج'
+- الكراج
++ إلڭاراج
+
+2020-02-14 21:00:51,469 - word_ma_ar_logger - ERROR - Translating Douzyam mitta , 'دوزياميطا' != 'دوزيام ميتا'
+- دوزياميطا
+?        ^
++ دوزيام ميتا
+?       ++ ^
+
+2020-02-14 21:00:51,469 - word_ma_ar_logger - ERROR - Translating digri, 'ديكري' != 'ديڭري'
+- ديكري
+?   ^
++ ديڭري
+?   ^
+
+2020-02-14 21:00:51,470 - word_ma_ar_logger - ERROR - Translating darb, 'ديميردي' != 'دارب'
+- ديميردي
++ دارب
+
+2020-02-14 21:00:51,470 - word_ma_ar_logger - ERROR - Translating Digage, 'ديكاج' != 'ديڭاڭ'
+- ديكاج
++ ديڭاڭ
+
+2020-02-14 21:00:51,470 - word_ma_ar_logger - ERROR - Translating Fabor, 'فابور' != 'فابر'
+- فابور
+?    -
++ فابر
+
+2020-02-14 21:00:51,471 - word_ma_ar_logger - ERROR - Translating Factoura, 'فاكتورة' != 'فاكتورا'
+- فاكتورة
+?       ^
++ فاكتورا
+?       ^
+
+2020-02-14 21:00:51,471 - word_ma_ar_logger - ERROR - Translating Fakance, 'فاكانص' != 'فاكانك'
+- فاكانص
+?      ^
++ فاكانك
+?      ^
+
+2020-02-14 21:00:51,472 - word_ma_ar_logger - ERROR - Translating Fakanssi, 'فاكانصي' != 'فاكانسي'
+- فاكانصي
+?      ^
++ فاكانسي
+?      ^
+
+2020-02-14 21:00:51,472 - word_ma_ar_logger - ERROR - Translating Farchita, 'فرشيطا' != 'فارشيتا'
+- فرشيطا
+?     ^
++ فارشيتا
+?  +   ^
+
+2020-02-14 21:00:51,473 - word_ma_ar_logger - ERROR - Translating Fargonite, 'فركونيط' != 'فارڭنيت'
+- فركونيط
++ فارڭنيت
+
+2020-02-14 21:00:51,473 - word_ma_ar_logger - ERROR - Translating Farina, 'فرينة' != 'فارينا'
+- فرينة
+?     ^
++ فارينا
+?  +   ^
+
+2020-02-14 21:00:51,473 - word_ma_ar_logger - ERROR - Translating Farmaciyane, 'فرماصيان' != 'فارماكييان'
+- فرماصيان
+?     ^
++ فارماكييان
+?  +   ^^
+
+2020-02-14 21:00:51,474 - word_ma_ar_logger - ERROR - Translating Farmage, 'فرماج' != 'فارماڭ'
+- فرماج
+?     ^
++ فارماڭ
+?  +   ^
+
+2020-02-14 21:00:51,474 - word_ma_ar_logger - ERROR - Translating Fasma, 'فاصمة' != 'فاسما'
+- فاصمة
++ فاسما
+
+2020-02-14 21:00:51,474 - word_ma_ar_logger - ERROR - Translating Fautouye, 'فوطوي' != 'فاوتوي'
+- فوطوي
+?   ^
++ فاوتوي
+?  + ^
+
+2020-02-14 21:00:51,475 - word_ma_ar_logger - ERROR - Translating Fayage, 'فاياج' != 'فاياڭ'
+- فاياج
+?     ^
++ فاياڭ
+?     ^
+
+2020-02-14 21:00:51,475 - word_ma_ar_logger - ERROR - Translating Feniyane, 'فنيان' != 'فنييان'
+- فنيان
++ فنييان
+?   +
+
+2020-02-14 21:00:51,475 - word_ma_ar_logger - ERROR - Translating Fersada, 'فرصادا' != 'فرسادا'
+- فرصادا
+?   ^
++ فرسادا
+?   ^
+
+2020-02-14 21:00:51,476 - word_ma_ar_logger - ERROR - Translating Figoura, 'فيكورا' != 'فيڭورا'
+- فيكورا
+?   ^
++ فيڭورا
+?   ^
+
+2020-02-14 21:00:51,476 - word_ma_ar_logger - ERROR - Translating Fijta, 'فيجطا' != 'فيجتا'
+- فيجطا
+?    ^
++ فيجتا
+?    ^
+
+2020-02-14 21:00:51,477 - word_ma_ar_logger - ERROR - Translating Filage, 'فيلاج' != 'فيلاڭ'
+- فيلاج
+?     ^
++ فيلاڭ
+?     ^
+
+2020-02-14 21:00:51,477 - word_ma_ar_logger - ERROR - Translating Garanti, 'كارانطي' != 'ڭارانتي'
+- كارانطي
+? ^    ^
++ ڭارانتي
+? ^    ^
+
+2020-02-14 21:00:51,478 - word_ma_ar_logger - ERROR - Translating Garçone, 'كارصون' != 'ڭاركن'
+- كارصون
++ ڭاركن
+
+2020-02-14 21:00:51,478 - word_ma_ar_logger - ERROR - Translating Garro, 'كارو' != 'ڭار'
+- كارو
++ ڭار
+
+2020-02-14 21:00:51,478 - word_ma_ar_logger - ERROR - Translating Garssone, 'كارصون' != 'ڭارسن'
+- كارصون
++ ڭارسن
+
+2020-02-14 21:00:51,479 - word_ma_ar_logger - ERROR - Translating Garssoniyya, 'كارصونيا' != 'ڭارسنييا'
+- كارصونيا
++ ڭارسنييا
+
+2020-02-14 21:00:51,479 - word_ma_ar_logger - ERROR - Translating Gazouza, 'كازوزا' != 'ڭازوزا'
+- كازوزا
+? ^
++ ڭازوزا
+? ^
+
+2020-02-14 21:00:51,479 - word_ma_ar_logger - ERROR - Translating Gharrafe, 'غراف' != 'غاراف'
+- غراف
++ غاراف
+?  +
+
+2020-02-14 21:00:51,480 - word_ma_ar_logger - ERROR - Translating Godrone, 'كودرون' != 'ڭدرن'
+- كودرون
++ ڭدرن
+
+2020-02-14 21:00:51,480 - word_ma_ar_logger - ERROR - Translating Gouma, 'كوما' != 'ڭوما'
+- كوما
+? ^
++ ڭوما
+? ^
+
+2020-02-14 21:00:51,480 - word_ma_ar_logger - ERROR - Translating Grissoune, 'كريسون' != 'ڭريسون'
+- كريسون
+? ^
++ ڭريسون
+? ^
+
+2020-02-14 21:00:51,481 - word_ma_ar_logger - ERROR - Translating Griyage, 'كرياج' != 'ڭريياڭ'
+- كرياج
++ ڭريياڭ
+
+2020-02-14 21:00:51,481 - word_ma_ar_logger - ERROR - Translating Growa, 'كروا' != 'ڭروا'
+- كروا
+? ^
++ ڭروا
+? ^
+
+2020-02-14 21:00:51,481 - word_ma_ar_logger - ERROR - Translating Gualizi, 'كاليزي' != 'ڭواليزي'
+- كاليزي
+? ^
++ ڭواليزي
+? ^^
+
+2020-02-14 21:00:51,482 - word_ma_ar_logger - ERROR - Translating guidoune, 'كيدون' != 'ڭويدون'
+- كيدون
+? ^
++ ڭويدون
+? ^^
+
+2020-02-14 21:00:51,482 - word_ma_ar_logger - ERROR - Translating Guirra, 'كيرا' != 'ڭويرا'
+- كيرا
++ ڭويرا
+
+2020-02-14 21:00:51,482 - word_ma_ar_logger - ERROR - Translating Guitara, 'كيتارا' != 'ڭويتارا'
+- كيتارا
+? ^
++ ڭويتارا
+? ^^
+
+2020-02-14 21:00:51,483 - word_ma_ar_logger - ERROR - Translating tilifone, 'تلفون' != 'تيليفن'
+- تلفون
+?    -
++ تيليفن
+?  + +
+
+2020-02-14 21:00:51,484 - word_ma_ar_logger - ERROR - Translating atay, 'اتاي' != 'أتاي'
+- اتاي
+? ^
++ أتاي
+? ^
+
+2020-02-14 21:00:51,484 - word_ma_ar_logger - ERROR - Translating valiza, 'فاليزا' != 'ڤاليزا'
+- فاليزا
+? ^
++ ڤاليزا
+? ^
+
+2020-02-14 21:00:51,485 - word_ma_ar_logger - ERROR - Translating trikot, 'تريكو' != 'تريكت'
+- تريكو
+?     ^
++ تريكت
+?     ^
+
+2020-02-14 21:00:51,485 - word_ma_ar_logger - ERROR - Translating tbe3, 'طبع' != 'تبع'
+- طبع
+? ^
++ تبع
+? ^
+
+2020-02-14 21:00:51,486 - word_ma_ar_logger - ERROR - Translating dreb, 'ضرب' != 'درب'
+- ضرب
+? ^
++ درب
+? ^
+
+2020-02-14 21:00:51,486 - word_ma_ar_logger - ERROR - Translating ztem, 'زطم' != 'زتم'
+- زطم
+?  ^
++ زتم
+?  ^
+
+2020-02-14 21:00:51,487 - word_ma_ar_logger - ERROR - Translating chokran, 'شوكران' != 'شكران'
+- شوكران
+?  -
++ شكران
+
+2020-02-14 21:00:51,487 - word_ma_ar_logger - ERROR - Translating doz, 'دوز' != 'دز'
+- دوز
+?  -
++ دز
+
+2020-02-14 21:00:51,488 - word_ma_ar_logger - ERROR - Translating gol, 'قول' != 'ڭل'
+- قول
++ ڭل
+
+2020-02-14 21:00:51,488 - word_ma_ar_logger - ERROR - Translating chahada, 'شهادة' != 'شاهادا'
+- شهادة
+?     ^
++ شاهادا
+?  +   ^
+
+2020-02-14 21:00:51,489 - word_ma_ar_logger - ERROR - Translating inspiriti, 'انسبيريتي' != 'إنسپيريتي'
+- انسبيريتي
+? ^  ^
++ إنسپيريتي
+? ^  ^
+
+2020-02-14 21:00:51,490 - word_ma_ar_logger - ERROR - Translating saffa9, 'صفّق' != 'سافاق'
+- صفّق
++ سافاق
+
+2020-02-14 21:00:51,490 - word_ma_ar_logger - ERROR - Translating wadda7, 'وضح' != 'واداح'
+- وضح
++ واداح
+
+2020-02-14 21:00:51,490 - word_ma_ar_logger - ERROR - Translating sarra7, 'سرح' != 'ساراح'
+- سرح
++ ساراح
+?  + +
+
+2020-02-14 21:00:51,491 - word_ma_ar_logger - ERROR - Translating 5ana9, 'خنق' != 'خاناق'
+- خنق
++ خاناق
+?  + +
+
+2020-02-14 21:00:51,491 - word_ma_ar_logger - ERROR - Translating sadd, 'سد' != 'ساد'
+- سد
++ ساد
+?  +
+
+2020-02-14 21:00:51,491 - word_ma_ar_logger - ERROR - Translating ghammad, 'غمض' != 'غاماد'
+- غمض
++ غاماد
+
+2020-02-14 21:00:51,492 - word_ma_ar_logger - ERROR - Translating barrad, 'برد' != 'باراد'
+- برد
++ باراد
+?  + +
+
+2020-02-14 21:00:51,492 - word_ma_ar_logger - ERROR - Translating 3alla9, 'علق' != 'عالاق'
+- علق
++ عالاق
+?  + +
+
+2020-02-14 21:00:51,494 - word_ma_ar_logger - ERROR - Translating 3taref, 'عترف' != 'عتارف'
+- عترف
++ عتارف
+?   +
+
+2020-02-14 21:00:51,494 - word_ma_ar_logger - ERROR - Translating 7ayyer, 'حير' != 'حاير'
+- حير
++ حاير
+?  +
+
+2020-02-14 21:00:51,495 - word_ma_ar_logger - ERROR - Translating henne2, 'هنأ' != 'هنء'
+- هنأ
+?   ^
++ هنء
+?   ^
+
+2020-02-14 21:00:51,495 - word_ma_ar_logger - ERROR - Translating serref, 'صرف' != 'سرف'
+- صرف
+? ^
++ سرف
+? ^
+
+2020-02-14 21:00:51,495 - word_ma_ar_logger - ERROR - Translating rbet, 'ربط' != 'ربت'
+- ربط
+?   ^
++ ربت
+?   ^
+
+2020-02-14 21:00:51,496 - word_ma_ar_logger - ERROR - Translating tasel, 'تصل' != 'تاسل'
+- تصل
++ تاسل
+
+2020-02-14 21:00:51,496 - word_ma_ar_logger - ERROR - Translating rda, 'رضا' != 'ردا'
+- رضا
+?  ^
++ ردا
+?  ^
+
+2020-02-14 21:00:51,496 - word_ma_ar_logger - ERROR - Translating stamer, 'ستمر' != 'ستامر'
+- ستمر
++ ستامر
+?   +
+
+2020-02-14 21:00:51,497 - word_ma_ar_logger - ERROR - Translating tayyeb, 'طيب' != 'تايب'
+- طيب
++ تايب
+
+2020-02-14 21:00:51,498 - word_ma_ar_logger - ERROR - Translating se7e7, 'صحح' != 'سحح'
+- صحح
+? ^
++ سحح
+? ^
+
+2020-02-14 21:00:51,499 - word_ma_ar_logger - ERROR - Translating siwa, 'سوا' != 'سيوا'
+- سوا
++ سيوا
+?  +
+
+2020-02-14 21:00:51,499 - word_ma_ar_logger - ERROR - Translating 7asab, 'حسب' != 'حاساب'
+- حسب
++ حاساب
+?  + +
+
+2020-02-14 21:00:51,500 - word_ma_ar_logger - ERROR - Translating 9te3, 'قطع' != 'قتع'
+- قطع
+?  ^
++ قتع
+?  ^
+
+2020-02-14 21:00:51,500 - word_ma_ar_logger - ERROR - Translating le9em, 'لقّم' != 'لقم'
+- لقّم
+?   -
++ لقم
+
+2020-02-14 21:00:51,501 - word_ma_ar_logger - ERROR - Translating fsel, 'فصل' != 'فسل'
+- فصل
+?  ^
++ فسل
+?  ^
+
+2020-02-14 21:00:51,502 - word_ma_ar_logger - ERROR - Translating 9te3, 'قطع' != 'قتع'
+- قطع
+?  ^
++ قتع
+?  ^
+
+2020-02-14 21:00:51,503 - word_ma_ar_logger - ERROR - Translating chte7, 'شطح' != 'شتح'
+- شطح
+?  ^
++ شتح
+?  ^
+
+2020-02-14 21:00:51,503 - word_ma_ar_logger - ERROR - Translating semmek, 'صمك' != 'سمك'
+- صمك
+? ^
++ سمك
+? ^
+
+2020-02-14 21:00:51,504 - word_ma_ar_logger - ERROR - Translating n9es, 'نقص' != 'نقس'
+- نقص
+?   ^
++ نقس
+?   ^
+
+2020-02-14 21:00:51,505 - word_ma_ar_logger - ERROR - Translating 3ettel, 'عطل' != 'عتل'
+- عطل
+?  ^
++ عتل
+?  ^
+
+2020-02-14 21:00:51,505 - word_ma_ar_logger - ERROR - Translating hbet, 'هبط' != 'هبت'
+- هبط
+?   ^
++ هبت
+?   ^
+
+2020-02-14 21:00:51,506 - word_ma_ar_logger - ERROR - Translating wsef, 'وصف' != 'وسف'
+- وصف
+?  ^
++ وسف
+?  ^
+
+2020-02-14 21:00:51,506 - word_ma_ar_logger - ERROR - Translating sta7e9, 'ستحق' != 'ستاحق'
+- ستحق
++ ستاحق
+?   +
+
+2020-02-14 21:00:51,506 - word_ma_ar_logger - ERROR - Translating 5ettet, 'خطط' != 'ختت'
+- خطط
++ ختت
+
+2020-02-14 21:00:51,507 - word_ma_ar_logger - ERROR - Translating tawer, 'طور' != 'تاور'
+- طور
++ تاور
+
+2020-02-14 21:00:51,507 - word_ma_ar_logger - ERROR - Translating 5talef, 'ختلف' != 'ختالف'
+- ختلف
++ ختالف
+?   +
+
+2020-02-14 21:00:51,508 - word_ma_ar_logger - ERROR - Translating hdem, 'هضم' != 'هدم'
+- هضم
+?  ^
++ هدم
+?  ^
+
+2020-02-14 21:00:51,508 - word_ma_ar_logger - ERROR - Translating wejjeh, 'وجّه' != 'وجه'
+- وجّه
+?   -
++ وجه
+
+2020-02-14 21:00:51,509 - word_ma_ar_logger - ERROR - Translating ktachef, 'كتشف' != 'كتاشف'
+- كتشف
++ كتاشف
+?   +
+
+2020-02-14 21:00:51,510 - word_ma_ar_logger - ERROR - Translating tle9, 'طلق' != 'تلق'
+- طلق
+? ^
++ تلق
+? ^
+
+2020-02-14 21:00:51,511 - word_ma_ar_logger - INFO - Total INFO logs 283 (47.25%), Total ERROR logs 316 (52.75%)

@@ -3,7 +3,6 @@ setup.cfg
 setup.py
 aaransia/__init__.py
 aaransia/constants.py
-aaransia/machine_learning.py
 aaransia/test.py
 aaransia/transliterator.py
 aaransia/utils.py

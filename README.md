@@ -10,51 +10,33 @@ The Latin/Digit Moroccan Language Framework
 
 ## Prerequisites
 
-- [`Python 3.7`](https://www.python.org/downloads/)
-- [`Pandas`](https://pandas.pydata.org/pandas-docs/stable/install.html)
+- [`Python 3`](https://www.python.org/downloads/)
   
-## Getting Started
+## Installation
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+```pip install aaransia```
 
-## Cloning the repository
+## Usage
 
-#### Using HTTP
+```python
+from aaransia import moroccan_to_arabic, moroccan_arabic_to_moroccan
 
-```
-git clone https://github.com/3aransia/3aransia.git
-cd 3aransia
-```
-
-#### Using SSH
-
-```
-git clone git@github.com:3aransia/3aransia.git
-cd 3aransia
+moroccan_to_arabic('ktb bl3rbia hnaya')
+moroccan_arabic_to_moroccan('كتب بلعربيا هنايا')
 ```
 
-### Installing Libraries
-
 ```
-pip install -r requirements.txt
+>>> كتب بلعربيا هنايا
+>>> ktb bl3rbia hnaya
 ```
-
-### Starting 3aransia
-
-```
-python main.py
-```
-
-## Authors
-
-- [AUTHORS.md](https://github.com/3aransia/3aransia/blob/develop/AUTHORS.md)
-
-## Contributiing
-
-- [CONTRIBUTING.md](https://github.com/3aransia/3aransia/blob/develop/CONTRIBUTING.md)
 
 ## Other related projects
 
-- [3aransia.api](https://github.com/3aransia/3aransia.api) The API of 3aransia
+- [3aransia.api](https://github.com/3aransia/3aransia.api) The api of 3aransia
 - [3aransia.web](https://github.com/3aransia/3aransia.web) The web app of 3aransia
 - [3aransia.github.io](https://github.com/3aransia/3aransia.github.io) The presentation, documentation and blog of 3aransia
+- [3aransia.js](https://github.com/3aransia/3aransia.js) 3aransia in JS
+- [3aransia.mobile](https://github.com/3aransia/3aransia.mobile) The mobile application of 3aransia
+- [3aransia.docs](https://github.com/3aransia/3aransia.docs) The documentation of 3aransia
+- [3aransia.community](https://github.com/3aransia/3aransia.community) The community of 3aransia
+- [3aransia.scrapper](https://github.com/3aransia/3aransia.scrapper) The scrapper of 3aransia
