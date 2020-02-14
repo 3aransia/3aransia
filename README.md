@@ -26,6 +26,7 @@ moroccan_arabic_to_moroccan('كتب بلعربيا هنايا')
 ```
 
 > ```>>> كتب بلعربيا هنايا```
+> 
 > ```>>> ktb bl3rbia hnaya```
 
 ## Other related projects
