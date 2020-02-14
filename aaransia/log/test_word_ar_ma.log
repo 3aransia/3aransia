@@ -1,2672 +1,2672 @@
-2020-02-07 00:11:54,278 - word_ar_ma_logger - INFO - Translating [item to test] ([expected result], [generated result result])
-2020-02-07 00:11:54,279 - word_ar_ma_logger - ERROR - Translating مفردات, 'lmofradat' != 'mfrdat'
+2020-02-14 21:00:51,102 - word_ar_ma_logger - INFO - Translating [item to test] ([expected result], [generated result result])
+2020-02-14 21:00:51,103 - word_ar_ma_logger - ERROR - Translating مفردات, 'lmofradat' != 'mfrdat'
 - lmofradat
 ? - -  -
 + mfrdat
 
-2020-02-07 00:11:54,280 - word_ar_ma_logger - ERROR - Translating بلدان, 'boldane' != 'bldan'
+2020-02-14 21:00:51,104 - word_ar_ma_logger - ERROR - Translating بلدان, 'boldane' != 'bldan'
 - boldane
 ?  -    -
 + bldan
 
-2020-02-07 00:11:54,280 - word_ar_ma_logger - ERROR - Translating استراليا, 'oustouraliya' != 'astralia'
+2020-02-14 21:00:51,105 - word_ar_ma_logger - ERROR - Translating استراليا, 'oustouraliya' != 'astralia'
 - oustouraliya
 + astralia
 
-2020-02-07 00:11:54,281 - word_ar_ma_logger - ERROR - Translating كامبودج, 'kombodje' != 'kambodj'
+2020-02-14 21:00:51,105 - word_ar_ma_logger - ERROR - Translating كامبودج, 'kombodje' != 'kambodj'
 - kombodje
 ?  ^     -
 + kambodj
 ?  ^
 
-2020-02-07 00:11:54,281 - word_ar_ma_logger - ERROR - Translating كندا, 'canada' != 'knda'
+2020-02-14 21:00:51,106 - word_ar_ma_logger - ERROR - Translating كندا, 'canada' != 'knda'
 - canada
 + knda
 
-2020-02-07 00:11:54,281 - word_ar_ma_logger - ERROR - Translating شينوا, 'chinwa' != 'chinoa'
+2020-02-14 21:00:51,107 - word_ar_ma_logger - ERROR - Translating شينوا, 'chinwa' != 'chinoa'
 - chinwa
 ?     ^
 + chinoa
 ?     ^
 
-2020-02-07 00:11:54,282 - word_ar_ma_logger - ERROR - Translating مصر, 'misre' != 'msr'
+2020-02-14 21:00:51,108 - word_ar_ma_logger - ERROR - Translating مصر, 'misre' != 'msr'
 - misre
 ?  -  -
 + msr
 
-2020-02-07 00:11:54,282 - word_ar_ma_logger - ERROR - Translating نڭليز, 'naglize' != 'ngliz'
+2020-02-14 21:00:51,110 - word_ar_ma_logger - ERROR - Translating نڭليز, 'naglize' != 'ngliz'
 - naglize
 ?  -    -
 + ngliz
 
-2020-02-07 00:11:54,283 - word_ar_ma_logger - ERROR - Translating المانيا, 'almaniya' != 'almania'
+2020-02-14 21:00:51,111 - word_ar_ma_logger - ERROR - Translating المانيا, 'almaniya' != 'almania'
 - almaniya
 ?       -
 + almania
 
-2020-02-07 00:11:54,283 - word_ar_ma_logger - ERROR - Translating ليونان, 'lyounane' != 'lionan'
+2020-02-14 21:00:51,112 - word_ar_ma_logger - ERROR - Translating ليونان, 'lyounane' != 'lionan'
 - lyounane
 ?  ^ -   -
 + lionan
 ?  ^
 
-2020-02-07 00:11:54,284 - word_ar_ma_logger - ERROR - Translating لهند, 'hind' != 'lhnd'
+2020-02-14 21:00:51,112 - word_ar_ma_logger - ERROR - Translating لهند, 'hind' != 'lhnd'
 - hind
 ?  -
 + lhnd
 ? +
 
-2020-02-07 00:11:54,284 - word_ar_ma_logger - ERROR - Translating أندونيسيا, 'andounissiya' != 'andonisia'
+2020-02-14 21:00:51,113 - word_ar_ma_logger - ERROR - Translating أندونيسيا, 'andounissiya' != 'andonisia'
 - andounissiya
 ?     -   - -
 + andonisia
 
-2020-02-07 00:11:54,284 - word_ar_ma_logger - ERROR - Translating طاليان, 'taliane' != 'talian'
+2020-02-14 21:00:51,113 - word_ar_ma_logger - ERROR - Translating طاليان, 'taliane' != 'talian'
 - taliane
 ?       -
 + talian
 
-2020-02-07 00:11:54,285 - word_ar_ma_logger - ERROR - Translating جاپون, 'japoune' != 'japon'
+2020-02-14 21:00:51,114 - word_ar_ma_logger - ERROR - Translating جاپون, 'japoune' != 'japon'
 - japoune
 ?     - -
 + japon
 
-2020-02-07 00:11:54,285 - word_ar_ma_logger - ERROR - Translating لمكسيك, 'lmixik' != 'lmksik'
+2020-02-14 21:00:51,114 - word_ar_ma_logger - ERROR - Translating لمكسيك, 'lmixik' != 'lmksik'
 - lmixik
 + lmksik
 
-2020-02-07 00:11:54,286 - word_ar_ma_logger - ERROR - Translating لمغريب, 'lmaghrib' != 'lmghrib'
+2020-02-14 21:00:51,115 - word_ar_ma_logger - ERROR - Translating لمغريب, 'lmaghrib' != 'lmghrib'
 - lmaghrib
 ?   -
 + lmghrib
 
-2020-02-07 00:11:54,286 - word_ar_ma_logger - ERROR - Translating لپيرو, 'lpirou' != 'lpiro'
+2020-02-14 21:00:51,115 - word_ar_ma_logger - ERROR - Translating لپيرو, 'lpirou' != 'lpiro'
 - lpirou
 ?      -
 + lpiro
 
-2020-02-07 00:11:54,288 - word_ar_ma_logger - ERROR - Translating سبنيا, 'sbaniya' != 'sbnia'
+2020-02-14 21:00:51,115 - word_ar_ma_logger - ERROR - Translating سبنيا, 'sbaniya' != 'sbnia'
 - sbaniya
 ?   -  -
 + sbnia
 
-2020-02-07 00:11:54,289 - word_ar_ma_logger - ERROR - Translating طايلاند, 'taylande' != 'tailand'
+2020-02-14 21:00:51,116 - word_ar_ma_logger - ERROR - Translating طايلاند, 'taylande' != 'tailand'
 - taylande
 ?   ^    -
 + tailand
 ?   ^
 
-2020-02-07 00:11:54,291 - word_ar_ma_logger - ERROR - Translating ميريكان, 'mirikane' != 'mirikan'
+2020-02-14 21:00:51,116 - word_ar_ma_logger - ERROR - Translating ميريكان, 'mirikane' != 'mirikan'
 - mirikane
 ?        -
 + mirikan
 
-2020-02-07 00:11:54,293 - word_ar_ma_logger - ERROR - Translating لعربية, 'l3arbia' != 'l3rbit'
+2020-02-14 21:00:51,117 - word_ar_ma_logger - ERROR - Translating لعربية, 'l3arbia' != 'l3rbit'
 - l3arbia
 ?   -   ^
 + l3rbit
 ?      ^
 
-2020-02-07 00:11:54,294 - word_ar_ma_logger - ERROR - Translating شينويا, 'chinwiya' != 'chinoia'
+2020-02-14 21:00:51,117 - word_ar_ma_logger - ERROR - Translating شينويا, 'chinwiya' != 'chinoia'
 - chinwiya
 ?     ^ -
 + chinoia
 ?     ^
 
-2020-02-07 00:11:54,295 - word_ar_ma_logger - ERROR - Translating نڭليزية, 'nagliziya' != 'nglizit'
+2020-02-14 21:00:51,118 - word_ar_ma_logger - ERROR - Translating نڭليزية, 'nagliziya' != 'nglizit'
 - nagliziya
 ?  -     ^^
 + nglizit
 ?       ^
 
-2020-02-07 00:11:54,295 - word_ar_ma_logger - ERROR - Translating فرنساويا, 'fransawiya' != 'frnsaoia'
+2020-02-14 21:00:51,118 - word_ar_ma_logger - ERROR - Translating فرنساويا, 'fransawiya' != 'frnsaoia'
 - fransawiya
 ?   -   ^ -
 + frnsaoia
 ?      ^
 
-2020-02-07 00:11:54,296 - word_ar_ma_logger - ERROR - Translating يونانيا, 'younaniya' != 'ionania'
+2020-02-14 21:00:51,119 - word_ar_ma_logger - ERROR - Translating يونانيا, 'younaniya' != 'ionania'
 - younaniya
 ? ^ -    -
 + ionania
 ? ^
 
-2020-02-07 00:11:54,297 - word_ar_ma_logger - ERROR - Translating يهودية, 'ihoudiya' != 'ihodit'
+2020-02-14 21:00:51,119 - word_ar_ma_logger - ERROR - Translating يهودية, 'ihoudiya' != 'ihodit'
 - ihoudiya
 ?    -  ^^
 + ihodit
 ?      ^
 
-2020-02-07 00:11:54,297 - word_ar_ma_logger - ERROR - Translating هندية, 'hindiya' != 'hndit'
+2020-02-14 21:00:51,120 - word_ar_ma_logger - ERROR - Translating هندية, 'hindiya' != 'hndit'
 - hindiya
 + hndit
 
-2020-02-07 00:11:54,298 - word_ar_ma_logger - ERROR - Translating ايطالية, 'italiya' != 'aitalit'
+2020-02-14 21:00:51,120 - word_ar_ma_logger - ERROR - Translating ايطالية, 'italiya' != 'aitalit'
 - italiya
 ?      ^^
 + aitalit
 ? +     ^
 
-2020-02-07 00:11:54,298 - word_ar_ma_logger - ERROR - Translating جابونية, 'japoniya' != 'jabonit'
+2020-02-14 21:00:51,120 - word_ar_ma_logger - ERROR - Translating جابونية, 'japoniya' != 'jabonit'
 - japoniya
 + jabonit
 
-2020-02-07 00:11:54,298 - word_ar_ma_logger - ERROR - Translating كورية, 'kordiya' != 'korit'
+2020-02-14 21:00:51,121 - word_ar_ma_logger - ERROR - Translating كورية, 'kordiya' != 'korit'
 - kordiya
 + korit
 
-2020-02-07 00:11:54,299 - word_ar_ma_logger - ERROR - Translating لاتينية, 'latiniya' != 'latinit'
+2020-02-14 21:00:51,121 - word_ar_ma_logger - ERROR - Translating لاتينية, 'latiniya' != 'latinit'
 - latiniya
 ?       ^^
 + latinit
 ?       ^
 
-2020-02-07 00:11:54,299 - word_ar_ma_logger - ERROR - Translating روسية, 'roussiya' != 'rosit'
+2020-02-14 21:00:51,121 - word_ar_ma_logger - ERROR - Translating روسية, 'roussiya' != 'rosit'
 - roussiya
 + rosit
 
-2020-02-07 00:11:54,299 - word_ar_ma_logger - ERROR - Translating صبليونية, 'spaniouliya' != 'sblionit'
+2020-02-14 21:00:51,122 - word_ar_ma_logger - ERROR - Translating صبليونية, 'spaniouliya' != 'sblionit'
 - spaniouliya
 + sblionit
 
-2020-02-07 00:11:54,300 - word_ar_ma_logger - ERROR - Translating الاردية, '2ordia' != 'alardit'
+2020-02-14 21:00:51,124 - word_ar_ma_logger - ERROR - Translating الاردية, '2ordia' != 'alardit'
 - 2ordia
 + alardit
 
-2020-02-07 00:11:54,300 - word_ar_ma_logger - ERROR - Translating ليامات, 'lyamate' != 'liamat'
+2020-02-14 21:00:51,124 - word_ar_ma_logger - ERROR - Translating ليامات, 'lyamate' != 'liamat'
 - lyamate
 ?  ^    -
 + liamat
 ?  ^
 
-2020-02-07 00:11:54,301 - word_ar_ma_logger - ERROR - Translating تنين, 'tnine' != 'tnin'
+2020-02-14 21:00:51,125 - word_ar_ma_logger - ERROR - Translating تنين, 'tnine' != 'tnin'
 - tnine
 ?     -
 + tnin
 
-2020-02-07 00:11:54,301 - word_ar_ma_logger - ERROR - Translating تلات, 'tlate' != 'tlat'
+2020-02-14 21:00:51,125 - word_ar_ma_logger - ERROR - Translating تلات, 'tlate' != 'tlat'
 - tlate
 ?     -
 + tlat
 
-2020-02-07 00:11:54,301 - word_ar_ma_logger - ERROR - Translating الخميس, '5amis' != 'al5mis'
+2020-02-14 21:00:51,127 - word_ar_ma_logger - ERROR - Translating الخميس, '5amis' != 'al5mis'
 - 5amis
 ?  -
 + al5mis
 ? ++
 
-2020-02-07 00:11:54,302 - word_ar_ma_logger - ERROR - Translating جمعة, 'jam3a' != 'jm3t'
+2020-02-14 21:00:51,128 - word_ar_ma_logger - ERROR - Translating جمعة, 'jam3a' != 'jm3t'
 - jam3a
 + jm3t
 
-2020-02-07 00:11:54,302 - word_ar_ma_logger - ERROR - Translating سبت, 'sabte' != 'sbt'
+2020-02-14 21:00:51,129 - word_ar_ma_logger - ERROR - Translating سبت, 'sabte' != 'sbt'
 - sabte
 ?  -  -
 + sbt
 
-2020-02-07 00:11:54,303 - word_ar_ma_logger - ERROR - Translating الحد, '7add' != 'al7d'
+2020-02-14 21:00:51,130 - word_ar_ma_logger - ERROR - Translating الحد, '7add' != 'al7d'
 - 7add
 + al7d
 
-2020-02-07 00:11:54,304 - word_ar_ma_logger - ERROR - Translating مرة, 'marra' != 'mrt'
+2020-02-14 21:00:51,130 - word_ar_ma_logger - ERROR - Translating مرة, 'marra' != 'mrt'
 - marra
 + mrt
 
-2020-02-07 00:11:54,305 - word_ar_ma_logger - ERROR - Translating ساعة, 'sa3a' != 'sa3t'
+2020-02-14 21:00:51,131 - word_ar_ma_logger - ERROR - Translating ساعة, 'sa3a' != 'sa3t'
 - sa3a
 ?    ^
 + sa3t
 ?    ^
 
-2020-02-07 00:11:54,305 - word_ar_ma_logger - ERROR - Translating دقيقة, 'd9i9a' != 'd9i9t'
+2020-02-14 21:00:51,132 - word_ar_ma_logger - ERROR - Translating دقيقة, 'd9i9a' != 'd9i9t'
 - d9i9a
 ?     ^
 + d9i9t
 ?     ^
 
-2020-02-07 00:11:54,306 - word_ar_ma_logger - ERROR - Translating تانية, 'taniya' != 'tanit'
+2020-02-14 21:00:51,132 - word_ar_ma_logger - ERROR - Translating تانية, 'taniya' != 'tanit'
 - taniya
 ?     ^^
 + tanit
 ?     ^
 
-2020-02-07 00:11:54,307 - word_ar_ma_logger - ERROR - Translating سمحلي, 'sme7lia' != 'sm7li'
+2020-02-14 21:00:51,133 - word_ar_ma_logger - ERROR - Translating سمحلي, 'sme7lia' != 'sm7li'
 - sme7lia
 ?   -   -
 + sm7li
 
-2020-02-07 00:11:54,307 - word_ar_ma_logger - ERROR - Translating بصحة, 'besse7a' != 'bs7t'
+2020-02-14 21:00:51,133 - word_ar_ma_logger - ERROR - Translating بصحة, 'besse7a' != 'bs7t'
 - besse7a
 + bs7t
 
-2020-02-07 00:11:54,308 - word_ar_ma_logger - ERROR - Translating بسلامة, 'beslama' != 'bslamt'
+2020-02-14 21:00:51,134 - word_ar_ma_logger - ERROR - Translating بسلامة, 'beslama' != 'bslamt'
 - beslama
 ?  -    ^
 + bslamt
 ?      ^
 
-2020-02-07 00:11:54,308 - word_ar_ma_logger - ERROR - Translating بصح, 'bessa7' != 'bs7'
+2020-02-14 21:00:51,134 - word_ar_ma_logger - ERROR - Translating بصح, 'bessa7' != 'bs7'
 - bessa7
 + bs7
 
-2020-02-07 00:11:54,309 - word_ar_ma_logger - ERROR - Translating سلام, 'salam' != 'slam'
+2020-02-14 21:00:51,134 - word_ar_ma_logger - ERROR - Translating سلام, 'salam' != 'slam'
 - salam
 ?  -
 + slam
 
-2020-02-07 00:11:54,309 - word_ar_ma_logger - ERROR - Translating واحد, 'wa7ed' != 'oa7d'
+2020-02-14 21:00:51,135 - word_ar_ma_logger - ERROR - Translating واحد, 'wa7ed' != 'oa7d'
 - wa7ed
 + oa7d
 
-2020-02-07 00:11:54,309 - word_ar_ma_logger - ERROR - Translating جوج, 'jouj' != 'joj'
+2020-02-14 21:00:51,135 - word_ar_ma_logger - ERROR - Translating جوج, 'jouj' != 'joj'
 - jouj
 ?   -
 + joj
 
-2020-02-07 00:11:54,310 - word_ar_ma_logger - ERROR - Translating تلاتة, 'tlata' != 'tlatt'
+2020-02-14 21:00:51,135 - word_ar_ma_logger - ERROR - Translating تلاتة, 'tlata' != 'tlatt'
 - tlata
 ?     ^
 + tlatt
 ?     ^
 
-2020-02-07 00:11:54,310 - word_ar_ma_logger - ERROR - Translating ربعة, 'reb3a' != 'rb3t'
+2020-02-14 21:00:51,136 - word_ar_ma_logger - ERROR - Translating ربعة, 'reb3a' != 'rb3t'
 - reb3a
 + rb3t
 
-2020-02-07 00:11:54,311 - word_ar_ma_logger - ERROR - Translating خمسة, '5emsa' != '5mst'
+2020-02-14 21:00:51,136 - word_ar_ma_logger - ERROR - Translating خمسة, '5emsa' != '5mst'
 - 5emsa
 + 5mst
 
-2020-02-07 00:11:54,311 - word_ar_ma_logger - ERROR - Translating ستة, 'setta' != 'stt'
+2020-02-14 21:00:51,136 - word_ar_ma_logger - ERROR - Translating ستة, 'setta' != 'stt'
 - setta
 ?  -  -
 + stt
 
-2020-02-07 00:11:54,311 - word_ar_ma_logger - ERROR - Translating سبعة, 'seb3a' != 'sb3t'
+2020-02-14 21:00:51,137 - word_ar_ma_logger - ERROR - Translating سبعة, 'seb3a' != 'sb3t'
 - seb3a
 + sb3t
 
-2020-02-07 00:11:54,312 - word_ar_ma_logger - ERROR - Translating تمنية, 'tmania' != 'tmnit'
+2020-02-14 21:00:51,137 - word_ar_ma_logger - ERROR - Translating تمنية, 'tmania' != 'tmnit'
 - tmania
 ?   -  ^
 + tmnit
 ?     ^
 
-2020-02-07 00:11:54,312 - word_ar_ma_logger - ERROR - Translating تسعود, 'tes3oud' != 'ts3od'
+2020-02-14 21:00:51,138 - word_ar_ma_logger - ERROR - Translating تسعود, 'tes3oud' != 'ts3od'
 - tes3oud
 ?  -   -
 + ts3od
 
-2020-02-07 00:11:54,312 - word_ar_ma_logger - ERROR - Translating عشرة, '3achra' != '3chrt'
+2020-02-14 21:00:51,138 - word_ar_ma_logger - ERROR - Translating عشرة, '3achra' != '3chrt'
 - 3achra
 ?  -   ^
 + 3chrt
 ?     ^
 
-2020-02-07 00:11:54,313 - word_ar_ma_logger - ERROR - Translating إييه, 'iyeh' != 'aiih'
+2020-02-14 21:00:51,138 - word_ar_ma_logger - ERROR - Translating إييه, 'iyeh' != 'aiih'
 - iyeh
 + aiih
 
-2020-02-07 00:11:54,313 - word_ar_ma_logger - ERROR - Translating لا, 'Lla' != 'la'
+2020-02-14 21:00:51,140 - word_ar_ma_logger - ERROR - Translating لا, 'Lla' != 'la'
 - Lla
 ? -
 + la
 
-2020-02-07 00:11:54,314 - word_ar_ma_logger - ERROR - Translating شكرا, 'chokran' != 'chkra'
+2020-02-14 21:00:51,141 - word_ar_ma_logger - ERROR - Translating شكرا, 'chokran' != 'chkra'
 - chokran
 ?   -   -
 + chkra
 
-2020-02-07 00:11:54,314 - word_ar_ma_logger - ERROR - Translating كنبغيك, 'Kanbghik' != 'knbghik'
+2020-02-14 21:00:51,141 - word_ar_ma_logger - ERROR - Translating كنبغيك, 'Kanbghik' != 'knbghik'
 - Kanbghik
 ? ^^
 + knbghik
 ? ^
 
-2020-02-07 00:11:54,314 - word_ar_ma_logger - ERROR - Translating توحشتك, 'Twe77eshtek' != 'to7chtk'
+2020-02-14 21:00:51,142 - word_ar_ma_logger - ERROR - Translating توحشتك, 'Twe77eshtek' != 'to7chtk'
 - Twe77eshtek
 + to7chtk
 
-2020-02-07 00:11:54,315 - word_ar_ma_logger - ERROR - Translating بزاف, 'Bezzaf' != 'bzaf'
+2020-02-14 21:00:51,143 - word_ar_ma_logger - ERROR - Translating بزاف, 'Bezzaf' != 'bzaf'
 - Bezzaf
 + bzaf
 
-2020-02-07 00:11:54,315 - word_ar_ma_logger - ERROR - Translating شوية, 'chwia' != 'choit'
+2020-02-14 21:00:51,144 - word_ar_ma_logger - ERROR - Translating شوية, 'chwia' != 'choit'
 - chwia
 + choit
 
-2020-02-07 00:11:54,315 - word_ar_ma_logger - ERROR - Translating واخا, 'Wakha' != 'oa5a'
+2020-02-14 21:00:51,144 - word_ar_ma_logger - ERROR - Translating واخا, 'Wakha' != 'oa5a'
 - Wakha
 + oa5a
 
-2020-02-07 00:11:54,316 - word_ar_ma_logger - ERROR - Translating دابا, 'Daba' != 'daba'
+2020-02-14 21:00:51,145 - word_ar_ma_logger - ERROR - Translating دابا, 'Daba' != 'daba'
 - Daba
 ? ^
 + daba
 ? ^
 
-2020-02-07 00:11:54,316 - word_ar_ma_logger - ERROR - Translating و, 'W' != 'o'
+2020-02-14 21:00:51,145 - word_ar_ma_logger - ERROR - Translating و, 'W' != 'o'
 - W
 + o
 
-2020-02-07 00:11:54,316 - word_ar_ma_logger - ERROR - Translating ماشي, 'Mashi' != 'machi'
+2020-02-14 21:00:51,146 - word_ar_ma_logger - ERROR - Translating ماشي, 'Mashi' != 'machi'
 - Mashi
 + machi
 
-2020-02-07 00:11:54,317 - word_ar_ma_logger - ERROR - Translating بغيت, 'Bghit' != 'bghit'
+2020-02-14 21:00:51,146 - word_ar_ma_logger - ERROR - Translating بغيت, 'Bghit' != 'bghit'
 - Bghit
 ? ^
 + bghit
 ? ^
 
-2020-02-07 00:11:54,317 - word_ar_ma_logger - ERROR - Translating ساليت, 'Salit' != 'salit'
+2020-02-14 21:00:51,147 - word_ar_ma_logger - ERROR - Translating ساليت, 'Salit' != 'salit'
 - Salit
 ? ^
 + salit
 ? ^
 
-2020-02-07 00:11:54,317 - word_ar_ma_logger - ERROR - Translating زوين, 'Zwin' != 'zoin'
+2020-02-14 21:00:51,147 - word_ar_ma_logger - ERROR - Translating زوين, 'Zwin' != 'zoin'
 - Zwin
 + zoin
 
-2020-02-07 00:11:54,318 - word_ar_ma_logger - ERROR - Translating خايب, '5ayb' != '5aib'
+2020-02-14 21:00:51,147 - word_ar_ma_logger - ERROR - Translating خايب, '5ayb' != '5aib'
 - 5ayb
 ?   ^
 + 5aib
 ?   ^
 
-2020-02-07 00:11:54,318 - word_ar_ma_logger - ERROR - Translating مزيان, 'Mezyan' != 'mzian'
+2020-02-14 21:00:51,148 - word_ar_ma_logger - ERROR - Translating مزيان, 'Mezyan' != 'mzian'
 - Mezyan
 + mzian
 
-2020-02-07 00:11:54,318 - word_ar_ma_logger - ERROR - Translating هضر, 'hder' != 'hdr'
+2020-02-14 21:00:51,148 - word_ar_ma_logger - ERROR - Translating هضر, 'hder' != 'hdr'
 - hder
 ?   -
 + hdr
 
-2020-02-07 00:11:54,319 - word_ar_ma_logger - ERROR - Translating فهم, 'fhem' != 'fhm'
+2020-02-14 21:00:51,149 - word_ar_ma_logger - ERROR - Translating فهم, 'fhem' != 'fhm'
 - fhem
 ?   -
 + fhm
 
-2020-02-07 00:11:54,319 - word_ar_ma_logger - ERROR - Translating فلوس, 'flous' != 'flos'
+2020-02-14 21:00:51,149 - word_ar_ma_logger - ERROR - Translating فلوس, 'flous' != 'flos'
 - flous
 ?    -
 + flos
 
-2020-02-07 00:11:54,320 - word_ar_ma_logger - ERROR - Translating هاك, 'Hak' != 'hak'
+2020-02-14 21:00:51,149 - word_ar_ma_logger - ERROR - Translating هاك, 'Hak' != 'hak'
 - Hak
 ? ^
 + hak
 ? ^
 
-2020-02-07 00:11:54,320 - word_ar_ma_logger - ERROR - Translating صافي, 'Safi' != 'safi'
+2020-02-14 21:00:51,150 - word_ar_ma_logger - ERROR - Translating صافي, 'Safi' != 'safi'
 - Safi
 ? ^
 + safi
 ? ^
 
-2020-02-07 00:11:54,320 - word_ar_ma_logger - ERROR - Translating مبروك, 'Mebrouk' != 'mbrok'
+2020-02-14 21:00:51,150 - word_ar_ma_logger - ERROR - Translating مبروك, 'Mebrouk' != 'mbrok'
 - Mebrouk
 + mbrok
 
-2020-02-07 00:11:54,321 - word_ar_ma_logger - ERROR - Translating عيا, '3ya' != '3ia'
+2020-02-14 21:00:51,150 - word_ar_ma_logger - ERROR - Translating عيا, '3ya' != '3ia'
 - 3ya
 ?  ^
 + 3ia
 ?  ^
 
-2020-02-07 00:11:54,321 - word_ar_ma_logger - ERROR - Translating طواليط, 'twalit' != 'toalit'
+2020-02-14 21:00:51,151 - word_ar_ma_logger - ERROR - Translating طواليط, 'twalit' != 'toalit'
 - twalit
 ?  ^
 + toalit
 ?  ^
 
-2020-02-07 00:11:54,322 - word_ar_ma_logger - ERROR - Translating حضاش, '7edash' != '7dach'
+2020-02-14 21:00:51,151 - word_ar_ma_logger - ERROR - Translating حضاش, '7edash' != '7dach'
 - 7edash
 ?  -  ^
 + 7dach
 ?    ^
 
-2020-02-07 00:11:54,322 - word_ar_ma_logger - ERROR - Translating طناش, 'Tenash' != 'tnach'
+2020-02-14 21:00:51,151 - word_ar_ma_logger - ERROR - Translating طناش, 'Tenash' != 'tnach'
 - Tenash
 + tnach
 
-2020-02-07 00:11:54,322 - word_ar_ma_logger - ERROR - Translating تلطاش, 'Teletash' != 'tltach'
+2020-02-14 21:00:51,152 - word_ar_ma_logger - ERROR - Translating تلطاش, 'Teletash' != 'tltach'
 - Teletash
 + tltach
 
-2020-02-07 00:11:54,323 - word_ar_ma_logger - ERROR - Translating ربعطاش, 'Rebe3tash' != 'rb3tach'
+2020-02-14 21:00:51,152 - word_ar_ma_logger - ERROR - Translating ربعطاش, 'Rebe3tash' != 'rb3tach'
 - Rebe3tash
 + rb3tach
 
-2020-02-07 00:11:54,323 - word_ar_ma_logger - ERROR - Translating خمسطاش, 'Khemstash' != '5mstach'
+2020-02-14 21:00:51,153 - word_ar_ma_logger - ERROR - Translating خمسطاش, 'Khemstash' != '5mstach'
 - Khemstash
 + 5mstach
 
-2020-02-07 00:11:54,323 - word_ar_ma_logger - ERROR - Translating سطاش, 'Settash' != 'stach'
+2020-02-14 21:00:51,153 - word_ar_ma_logger - ERROR - Translating سطاش, 'Settash' != 'stach'
 - Settash
 + stach
 
-2020-02-07 00:11:54,324 - word_ar_ma_logger - ERROR - Translating سبعطاش, 'Sebe3tash' != 'sb3tach'
+2020-02-14 21:00:51,153 - word_ar_ma_logger - ERROR - Translating سبعطاش, 'Sebe3tash' != 'sb3tach'
 - Sebe3tash
 + sb3tach
 
-2020-02-07 00:11:54,324 - word_ar_ma_logger - ERROR - Translating تمنطاش, 'Tementash' != 'tmntach'
+2020-02-14 21:00:51,154 - word_ar_ma_logger - ERROR - Translating تمنطاش, 'Tementash' != 'tmntach'
 - Tementash
 + tmntach
 
-2020-02-07 00:11:54,324 - word_ar_ma_logger - ERROR - Translating تزعطاش, 'Teze3tash' != 'tz3tach'
+2020-02-14 21:00:51,154 - word_ar_ma_logger - ERROR - Translating تزعطاش, 'Teze3tash' != 'tz3tach'
 - Teze3tash
 + tz3tach
 
-2020-02-07 00:11:54,325 - word_ar_ma_logger - ERROR - Translating حلاقم, '7la9em' != '7la9m'
+2020-02-14 21:00:51,154 - word_ar_ma_logger - ERROR - Translating حلاقم, '7la9em' != '7la9m'
 - 7la9em
 ?     -
 + 7la9m
 
-2020-02-07 00:11:54,326 - word_ar_ma_logger - ERROR - Translating لحية, 'Le7ia' != 'l7it'
+2020-02-14 21:00:51,155 - word_ar_ma_logger - ERROR - Translating لحية, 'Le7ia' != 'l7it'
 - Le7ia
 + l7it
 
-2020-02-07 00:11:54,326 - word_ar_ma_logger - ERROR - Translating فم, 'Fomm' != 'fm'
+2020-02-14 21:00:51,155 - word_ar_ma_logger - ERROR - Translating فم, 'Fomm' != 'fm'
 - Fomm
 + fm
 
-2020-02-07 00:11:54,327 - word_ar_ma_logger - ERROR - Translating دراع, 'Dra3' != 'dra3'
+2020-02-14 21:00:51,156 - word_ar_ma_logger - ERROR - Translating دراع, 'Dra3' != 'dra3'
 - Dra3
 ? ^
 + dra3
 ? ^
 
-2020-02-07 00:11:54,327 - word_ar_ma_logger - ERROR - Translating مخ, 'Mo5' != 'm5'
+2020-02-14 21:00:51,157 - word_ar_ma_logger - ERROR - Translating مخ, 'Mo5' != 'm5'
 - Mo5
 + m5
 
-2020-02-07 00:11:54,328 - word_ar_ma_logger - ERROR - Translating شعر, 'Sh3er' != 'ch3r'
+2020-02-14 21:00:51,157 - word_ar_ma_logger - ERROR - Translating شعر, 'Sh3er' != 'ch3r'
 - Sh3er
 + ch3r
 
-2020-02-07 00:11:54,328 - word_ar_ma_logger - ERROR - Translating شفر, 'Shefr' != 'chfr'
+2020-02-14 21:00:51,158 - word_ar_ma_logger - ERROR - Translating شفر, 'Shefr' != 'chfr'
 - Shefr
 + chfr
 
-2020-02-07 00:11:54,328 - word_ar_ma_logger - ERROR - Translating قلب, '9elb' != '9lb'
+2020-02-14 21:00:51,158 - word_ar_ma_logger - ERROR - Translating قلب, '9elb' != '9lb'
 - 9elb
 ?  -
 + 9lb
 
-2020-02-07 00:11:54,329 - word_ar_ma_logger - ERROR - Translating عنق, '3en9' != '3n9'
+2020-02-14 21:00:51,159 - word_ar_ma_logger - ERROR - Translating عنق, '3en9' != '3n9'
 - 3en9
 ?  -
 + 3n9
 
-2020-02-07 00:11:54,329 - word_ar_ma_logger - ERROR - Translating سنة, 'Senna' != 'snt'
+2020-02-14 21:00:51,160 - word_ar_ma_logger - ERROR - Translating سنة, 'Senna' != 'snt'
 - Senna
 + snt
 
-2020-02-07 00:11:54,329 - word_ar_ma_logger - ERROR - Translating صبع, 'Sbe3' != 'sb3'
+2020-02-14 21:00:51,161 - word_ar_ma_logger - ERROR - Translating صبع, 'Sbe3' != 'sb3'
 - Sbe3
 + sb3
 
-2020-02-07 00:11:54,330 - word_ar_ma_logger - ERROR - Translating ضهر, 'Deher' != 'dhr'
+2020-02-14 21:00:51,161 - word_ar_ma_logger - ERROR - Translating ضهر, 'Deher' != 'dhr'
 - Deher
 + dhr
 
-2020-02-07 00:11:54,330 - word_ar_ma_logger - ERROR - Translating كتف, 'Ktef' != 'ktf'
+2020-02-14 21:00:51,162 - word_ar_ma_logger - ERROR - Translating كتف, 'Ktef' != 'ktf'
 - Ktef
 + ktf
 
-2020-02-07 00:11:54,330 - word_ar_ma_logger - ERROR - Translating معدة, 'Me3da' != 'm3dt'
+2020-02-14 21:00:51,163 - word_ar_ma_logger - ERROR - Translating معدة, 'Me3da' != 'm3dt'
 - Me3da
 + m3dt
 
-2020-02-07 00:11:54,331 - word_ar_ma_logger - ERROR - Translating كبدة, 'Kebda' != 'kbdt'
+2020-02-14 21:00:51,163 - word_ar_ma_logger - ERROR - Translating كبدة, 'Kebda' != 'kbdt'
 - Kebda
 + kbdt
 
-2020-02-07 00:11:54,331 - word_ar_ma_logger - ERROR - Translating جبهة, 'Jebha' != 'jbht'
+2020-02-14 21:00:51,164 - word_ar_ma_logger - ERROR - Translating جبهة, 'Jebha' != 'jbht'
 - Jebha
 + jbht
 
-2020-02-07 00:11:54,331 - word_ar_ma_logger - ERROR - Translating ركبة, 'Rekba' != 'rkbt'
+2020-02-14 21:00:51,164 - word_ar_ma_logger - ERROR - Translating ركبة, 'Rekba' != 'rkbt'
 - Rekba
 + rkbt
 
-2020-02-07 00:11:54,332 - word_ar_ma_logger - ERROR - Translating حلق, '7el9a' != '7l9'
+2020-02-14 21:00:51,164 - word_ar_ma_logger - ERROR - Translating حلق, '7el9a' != '7l9'
 - 7el9a
 ?  -  -
 + 7l9
 
-2020-02-07 00:11:54,332 - word_ar_ma_logger - ERROR - Translating حنك, '7enk' != '7nk'
+2020-02-14 21:00:51,165 - word_ar_ma_logger - ERROR - Translating حنك, '7enk' != '7nk'
 - 7enk
 ?  -
 + 7nk
 
-2020-02-07 00:11:54,332 - word_ar_ma_logger - ERROR - Translating يد, 'yedd' != 'id'
+2020-02-14 21:00:51,165 - word_ar_ma_logger - ERROR - Translating يد, 'yedd' != 'id'
 - yedd
 + id
 
-2020-02-07 00:11:54,333 - word_ar_ma_logger - ERROR - Translating ضرس, 'Ders' != 'drs'
+2020-02-14 21:00:51,166 - word_ar_ma_logger - ERROR - Translating ضرس, 'Ders' != 'drs'
 - Ders
 + drs
 
-2020-02-07 00:11:54,333 - word_ar_ma_logger - ERROR - Translating نيف, 'Nif' != 'nif'
+2020-02-14 21:00:51,166 - word_ar_ma_logger - ERROR - Translating نيف, 'Nif' != 'nif'
 - Nif
 ? ^
 + nif
 ? ^
 
-2020-02-07 00:11:54,334 - word_ar_ma_logger - ERROR - Translating ضفر, 'Defer' != 'dfr'
+2020-02-14 21:00:51,166 - word_ar_ma_logger - ERROR - Translating ضفر, 'Defer' != 'dfr'
 - Defer
 + dfr
 
-2020-02-07 00:11:54,334 - word_ar_ma_logger - ERROR - Translating ودن, 'Wden' != 'odn'
+2020-02-14 21:00:51,167 - word_ar_ma_logger - ERROR - Translating ودن, 'Wden' != 'odn'
 - Wden
 + odn
 
-2020-02-07 00:11:54,334 - word_ar_ma_logger - ERROR - Translating سردين, 'srdine' != 'srdin'
+2020-02-14 21:00:51,167 - word_ar_ma_logger - ERROR - Translating سردين, 'srdine' != 'srdin'
 - srdine
 ?      -
 + srdin
 
-2020-02-07 00:11:54,335 - word_ar_ma_logger - ERROR - Translating عضم, '3dem' != '3dm'
+2020-02-14 21:00:51,168 - word_ar_ma_logger - ERROR - Translating عضم, '3dem' != '3dm'
 - 3dem
 ?   -
 + 3dm
 
-2020-02-07 00:11:54,335 - word_ar_ma_logger - ERROR - Translating جلد, 'Jeld' != 'jld'
+2020-02-14 21:00:51,168 - word_ar_ma_logger - ERROR - Translating جلد, 'Jeld' != 'jld'
 - Jeld
 + jld
 
-2020-02-07 00:11:54,335 - word_ar_ma_logger - ERROR - Translating رجل, 'Rjel' != 'rjl'
+2020-02-14 21:00:51,168 - word_ar_ma_logger - ERROR - Translating رجل, 'Rjel' != 'rjl'
 - Rjel
 + rjl
 
-2020-02-07 00:11:54,336 - word_ar_ma_logger - ERROR - Translating سدر, 'Sder' != 'sdr'
+2020-02-14 21:00:51,169 - word_ar_ma_logger - ERROR - Translating سدر, 'Sder' != 'sdr'
 - Sder
 + sdr
 
-2020-02-07 00:11:54,336 - word_ar_ma_logger - ERROR - Translating رية, 'Riya' != 'rit'
+2020-02-14 21:00:51,169 - word_ar_ma_logger - ERROR - Translating رية, 'Riya' != 'rit'
 - Riya
 + rit
 
-2020-02-07 00:11:54,336 - word_ar_ma_logger - ERROR - Translating حاجب, '7ajeb' != '7ajb'
+2020-02-14 21:00:51,169 - word_ar_ma_logger - ERROR - Translating حاجب, '7ajeb' != '7ajb'
 - 7ajeb
 ?    -
 + 7ajb
 
-2020-02-07 00:11:54,337 - word_ar_ma_logger - ERROR - Translating راس, 'Ras' != 'ras'
+2020-02-14 21:00:51,170 - word_ar_ma_logger - ERROR - Translating راس, 'Ras' != 'ras'
 - Ras
 ? ^
 + ras
 ? ^
 
-2020-02-07 00:11:54,337 - word_ar_ma_logger - ERROR - Translating عرق, '3er9' != '3r9'
+2020-02-14 21:00:51,170 - word_ar_ma_logger - ERROR - Translating عرق, '3er9' != '3r9'
 - 3er9
 ?  -
 + 3r9
 
-2020-02-07 00:11:54,337 - word_ar_ma_logger - ERROR - Translating كرش, 'Kersh' != 'krch'
+2020-02-14 21:00:51,170 - word_ar_ma_logger - ERROR - Translating كرش, 'Kersh' != 'krch'
 - Kersh
 + krch
 
-2020-02-07 00:11:54,338 - word_ar_ma_logger - ERROR - Translating وجه, 'Wjeh' != 'ojh'
+2020-02-14 21:00:51,171 - word_ar_ma_logger - ERROR - Translating وجه, 'Wjeh' != 'ojh'
 - Wjeh
 + ojh
 
-2020-02-07 00:11:54,338 - word_ar_ma_logger - ERROR - Translating زبدة, 'Zebda' != 'zbdt'
+2020-02-14 21:00:51,171 - word_ar_ma_logger - ERROR - Translating زبدة, 'Zebda' != 'zbdt'
 - Zebda
 + zbdt
 
-2020-02-07 00:11:54,339 - word_ar_ma_logger - ERROR - Translating مسلوق, 'Meslouq' != 'mslo9'
+2020-02-14 21:00:51,171 - word_ar_ma_logger - ERROR - Translating مسلوق, 'Meslouq' != 'mslo9'
 - Meslouq
 + mslo9
 
-2020-02-07 00:11:54,339 - word_ar_ma_logger - ERROR - Translating قهوة, 'Qehwa' != '9hot'
+2020-02-14 21:00:51,172 - word_ar_ma_logger - ERROR - Translating قهوة, 'Qehwa' != '9hot'
 - Qehwa
 + 9hot
 
-2020-02-07 00:11:54,340 - word_ar_ma_logger - ERROR - Translating كوفيتير, 'Kofitir' != 'kofitir'
+2020-02-14 21:00:51,173 - word_ar_ma_logger - ERROR - Translating كوفيتير, 'Kofitir' != 'kofitir'
 - Kofitir
 ? ^
 + kofitir
 ? ^
 
-2020-02-07 00:11:54,340 - word_ar_ma_logger - ERROR - Translating كامون, 'Kamoun' != 'kamon'
+2020-02-14 21:00:51,174 - word_ar_ma_logger - ERROR - Translating كامون, 'Kamoun' != 'kamon'
 - Kamoun
 ? ^   -
 + kamon
 ? ^
 
-2020-02-07 00:11:54,341 - word_ar_ma_logger - ERROR - Translating ما, 'Ma' != 'ma'
+2020-02-14 21:00:51,174 - word_ar_ma_logger - ERROR - Translating ما, 'Ma' != 'ma'
 - Ma
 + ma
 
-2020-02-07 00:11:54,341 - word_ar_ma_logger - ERROR - Translating دڭيڭ, 'Degig' != 'dgig'
+2020-02-14 21:00:51,175 - word_ar_ma_logger - ERROR - Translating دڭيڭ, 'Degig' != 'dgig'
 - Degig
 + dgig
 
-2020-02-07 00:11:54,342 - word_ar_ma_logger - ERROR - Translating مقلي, 'Meqli' != 'm9li'
+2020-02-14 21:00:51,175 - word_ar_ma_logger - ERROR - Translating مقلي, 'Meqli' != 'm9li'
 - Meqli
 + m9li
 
-2020-02-07 00:11:54,342 - word_ar_ma_logger - ERROR - Translating فرماج, 'Fermaj' != 'frmaj'
+2020-02-14 21:00:51,176 - word_ar_ma_logger - ERROR - Translating فرماج, 'Fermaj' != 'frmaj'
 - Fermaj
 ? ^^
 + frmaj
 ? ^
 
-2020-02-07 00:11:54,343 - word_ar_ma_logger - ERROR - Translating فاكية, 'Fakia' != 'fakit'
+2020-02-14 21:00:51,177 - word_ar_ma_logger - ERROR - Translating فاكية, 'Fakia' != 'fakit'
 - Fakia
 + fakit
 
-2020-02-07 00:11:54,343 - word_ar_ma_logger - ERROR - Translating حلوة, '7elwa' != '7lot'
+2020-02-14 21:00:51,178 - word_ar_ma_logger - ERROR - Translating حلوة, '7elwa' != '7lot'
 - 7elwa
 + 7lot
 
-2020-02-07 00:11:54,343 - word_ar_ma_logger - ERROR - Translating زيت, 'Zit' != 'zit'
+2020-02-14 21:00:51,178 - word_ar_ma_logger - ERROR - Translating زيت, 'Zit' != 'zit'
 - Zit
 ? ^
 + zit
 ? ^
 
-2020-02-07 00:11:54,344 - word_ar_ma_logger - ERROR - Translating عصير, '3asir' != '3sir'
+2020-02-14 21:00:51,179 - word_ar_ma_logger - ERROR - Translating عصير, '3asir' != '3sir'
 - 3asir
 ?  -
 + 3sir
 
-2020-02-07 00:11:54,344 - word_ar_ma_logger - ERROR - Translating خضرة, 'Khodra' != '5drt'
+2020-02-14 21:00:51,179 - word_ar_ma_logger - ERROR - Translating خضرة, 'Khodra' != '5drt'
 - Khodra
 + 5drt
 
-2020-02-07 00:11:54,345 - word_ar_ma_logger - ERROR - Translating عدس, '3des' != '3ds'
+2020-02-14 21:00:51,180 - word_ar_ma_logger - ERROR - Translating عدس, '3des' != '3ds'
 - 3des
 ?   -
 + 3ds
 
-2020-02-07 00:11:54,345 - word_ar_ma_logger - ERROR - Translating عسل, '3sel' != '3sl'
+2020-02-14 21:00:51,180 - word_ar_ma_logger - ERROR - Translating عسل, '3sel' != '3sl'
 - 3sel
 ?   -
 + 3sl
 
-2020-02-07 00:11:54,345 - word_ar_ma_logger - ERROR - Translating بيضة, 'Bida' != 'bidt'
+2020-02-14 21:00:51,180 - word_ar_ma_logger - ERROR - Translating بيضة, 'Bida' != 'bidt'
 - Bida
 + bidt
 
-2020-02-07 00:11:54,346 - word_ar_ma_logger - ERROR - Translating خبز, 'Khobz' != '5bz'
+2020-02-14 21:00:51,181 - word_ar_ma_logger - ERROR - Translating خبز, 'Khobz' != '5bz'
 - Khobz
 + 5bz
 
-2020-02-07 00:11:54,346 - word_ar_ma_logger - ERROR - Translating حوت, '7out' != '7ot'
+2020-02-14 21:00:51,181 - word_ar_ma_logger - ERROR - Translating حوت, '7out' != '7ot'
 - 7out
 ?   -
 + 7ot
 
-2020-02-07 00:11:54,346 - word_ar_ma_logger - ERROR - Translating إبزار, 'Ibzar' != 'abzar'
+2020-02-14 21:00:51,181 - word_ar_ma_logger - ERROR - Translating إبزار, 'Ibzar' != 'abzar'
 - Ibzar
 ? ^
 + abzar
 ? ^
 
-2020-02-07 00:11:54,347 - word_ar_ma_logger - ERROR - Translating روز, 'Rouz' != 'roz'
+2020-02-14 21:00:51,182 - word_ar_ma_logger - ERROR - Translating روز, 'Rouz' != 'roz'
 - Rouz
 + roz
 
-2020-02-07 00:11:54,347 - word_ar_ma_logger - ERROR - Translating مشوي, 'Meshwi' != 'mchoi'
+2020-02-14 21:00:51,182 - word_ar_ma_logger - ERROR - Translating مشوي, 'Meshwi' != 'mchoi'
 - Meshwi
 + mchoi
 
-2020-02-07 00:11:54,347 - word_ar_ma_logger - ERROR - Translating شلاضة, 'Shelada' != 'chladt'
+2020-02-14 21:00:51,182 - word_ar_ma_logger - ERROR - Translating شلاضة, 'Shelada' != 'chladt'
 - Shelada
 + chladt
 
-2020-02-07 00:11:54,348 - word_ar_ma_logger - ERROR - Translating ملحة, 'Mel7a' != 'ml7t'
+2020-02-14 21:00:51,183 - word_ar_ma_logger - ERROR - Translating ملحة, 'Mel7a' != 'ml7t'
 - Mel7a
 + ml7t
 
-2020-02-07 00:11:54,348 - word_ar_ma_logger - ERROR - Translating حريرة, '7rira' != '7rirt'
+2020-02-14 21:00:51,183 - word_ar_ma_logger - ERROR - Translating حريرة, '7rira' != '7rirt'
 - 7rira
 ?     ^
 + 7rirt
 ?     ^
 
-2020-02-07 00:11:54,348 - word_ar_ma_logger - ERROR - Translating سكر, 'Sekkar' != 'skr'
+2020-02-14 21:00:51,184 - word_ar_ma_logger - ERROR - Translating سكر, 'Sekkar' != 'skr'
 - Sekkar
 + skr
 
-2020-02-07 00:11:54,349 - word_ar_ma_logger - ERROR - Translating أتاي, 'Atay' != 'atai'
+2020-02-14 21:00:51,184 - word_ar_ma_logger - ERROR - Translating أتاي, 'Atay' != 'atai'
 - Atay
 + atai
 
-2020-02-07 00:11:54,349 - word_ar_ma_logger - ERROR - Translating لحم, 'L7em' != 'l7m'
+2020-02-14 21:00:51,184 - word_ar_ma_logger - ERROR - Translating لحم, 'L7em' != 'l7m'
 - L7em
 + l7m
 
-2020-02-07 00:11:54,349 - word_ar_ma_logger - ERROR - Translating خل, 'Khell' != '5l'
+2020-02-14 21:00:51,185 - word_ar_ma_logger - ERROR - Translating خل, 'Khell' != '5l'
 - Khell
 + 5l
 
-2020-02-07 00:11:54,350 - word_ar_ma_logger - ERROR - Translating شكون, 'Shkoun' != 'chkon'
+2020-02-14 21:00:51,185 - word_ar_ma_logger - ERROR - Translating شكون, 'Shkoun' != 'chkon'
 - Shkoun
 ? ^   -
 + chkon
 ? ^
 
-2020-02-07 00:11:54,350 - word_ar_ma_logger - ERROR - Translating أش شنو, 'Ashno' != 'ach chno'
+2020-02-14 21:00:51,185 - word_ar_ma_logger - ERROR - Translating أش شنو, 'Ashno' != 'ach chno'
 - Ashno
 + ach chno
 
-2020-02-07 00:11:54,350 - word_ar_ma_logger - ERROR - Translating علاش, '3lash' != '3lach'
+2020-02-14 21:00:51,186 - word_ar_ma_logger - ERROR - Translating علاش, '3lash' != '3lach'
 - 3lash
 ?    ^
 + 3lach
 ?    ^
 
-2020-02-07 00:11:54,351 - word_ar_ma_logger - ERROR - Translating لاش, 'Lash' != 'lach'
+2020-02-14 21:00:51,186 - word_ar_ma_logger - ERROR - Translating لاش, 'Lash' != 'lach'
 - Lash
 + lach
 
-2020-02-07 00:11:54,351 - word_ar_ma_logger - ERROR - Translating فين, 'Fin' != 'fin'
+2020-02-14 21:00:51,186 - word_ar_ma_logger - ERROR - Translating فين, 'Fin' != 'fin'
 - Fin
 ? ^
 + fin
 ? ^
 
-2020-02-07 00:11:54,351 - word_ar_ma_logger - ERROR - Translating فوقاش, 'Imta' != 'fo9ach'
+2020-02-14 21:00:51,187 - word_ar_ma_logger - ERROR - Translating فوقاش, 'Imta' != 'fo9ach'
 - Imta
 + fo9ach
 
-2020-02-07 00:11:54,352 - word_ar_ma_logger - ERROR - Translating لمن, 'Lemen' != 'lmn'
+2020-02-14 21:00:51,187 - word_ar_ma_logger - ERROR - Translating لمن, 'Lemen' != 'lmn'
 - Lemen
 + lmn
 
-2020-02-07 00:11:54,352 - word_ar_ma_logger - ERROR - Translating كيفاش, 'Kifash' != 'kifach'
+2020-02-14 21:00:51,187 - word_ar_ma_logger - ERROR - Translating كيفاش, 'Kifash' != 'kifach'
 - Kifash
 + kifach
 
-2020-02-07 00:11:54,352 - word_ar_ma_logger - ERROR - Translating شحال, 'Sh7al' != 'ch7al'
+2020-02-14 21:00:51,188 - word_ar_ma_logger - ERROR - Translating شحال, 'Sh7al' != 'ch7al'
 - Sh7al
 ? ^
 + ch7al
 ? ^
 
-2020-02-07 00:11:54,353 - word_ar_ma_logger - ERROR - Translating فضي, 'Feddi' != 'fdi'
+2020-02-14 21:00:51,188 - word_ar_ma_logger - ERROR - Translating فضي, 'Feddi' != 'fdi'
 - Feddi
 + fdi
 
-2020-02-07 00:11:54,353 - word_ar_ma_logger - ERROR - Translating بيج, 'Bij' != 'bij'
+2020-02-14 21:00:51,189 - word_ar_ma_logger - ERROR - Translating بيج, 'Bij' != 'bij'
 - Bij
 ? ^
 + bij
 ? ^
 
-2020-02-07 00:11:54,353 - word_ar_ma_logger - ERROR - Translating بيض, 'Byed' != 'bid'
+2020-02-14 21:00:51,189 - word_ar_ma_logger - ERROR - Translating بيض, 'Byed' != 'bid'
 - Byed
 + bid
 
-2020-02-07 00:11:54,354 - word_ar_ma_logger - ERROR - Translating زرق, 'zre9' != 'zr9'
+2020-02-14 21:00:51,189 - word_ar_ma_logger - ERROR - Translating زرق, 'zre9' != 'zr9'
 - zre9
 ?   -
 + zr9
 
-2020-02-07 00:11:54,354 - word_ar_ma_logger - ERROR - Translating شيبي, 'Shibi' != 'chibi'
+2020-02-14 21:00:51,190 - word_ar_ma_logger - ERROR - Translating شيبي, 'Shibi' != 'chibi'
 - Shibi
 ? ^
 + chibi
 ? ^
 
-2020-02-07 00:11:54,354 - word_ar_ma_logger - ERROR - Translating ڭرونة, 'Grouna' != 'gront'
+2020-02-14 21:00:51,190 - word_ar_ma_logger - ERROR - Translating ڭرونة, 'Grouna' != 'gront'
 - Grouna
 + gront
 
-2020-02-07 00:11:54,355 - word_ar_ma_logger - ERROR - Translating رمادي, 'Rmadi' != 'rmadi'
+2020-02-14 21:00:51,190 - word_ar_ma_logger - ERROR - Translating رمادي, 'Rmadi' != 'rmadi'
 - Rmadi
 ? ^
 + rmadi
 ? ^
 
-2020-02-07 00:11:54,355 - word_ar_ma_logger - ERROR - Translating صفر, 'Sfer' != 'sfr'
+2020-02-14 21:00:51,191 - word_ar_ma_logger - ERROR - Translating صفر, 'Sfer' != 'sfr'
 - Sfer
 + sfr
 
-2020-02-07 00:11:54,355 - word_ar_ma_logger - ERROR - Translating قهوي, '9ehwi' != '9hoi'
+2020-02-14 21:00:51,191 - word_ar_ma_logger - ERROR - Translating قهوي, '9ehwi' != '9hoi'
 - 9ehwi
 + 9hoi
 
-2020-02-07 00:11:54,356 - word_ar_ma_logger - ERROR - Translating موڤ, 'Mauve' != 'mov'
+2020-02-14 21:00:51,191 - word_ar_ma_logger - ERROR - Translating موڤ, 'Mauve' != 'mov'
 - Mauve
 + mov
 
-2020-02-07 00:11:54,356 - word_ar_ma_logger - ERROR - Translating كحل, 'K7el' != 'k7l'
+2020-02-14 21:00:51,192 - word_ar_ma_logger - ERROR - Translating كحل, 'K7el' != 'k7l'
 - K7el
 + k7l
 
-2020-02-07 00:11:54,356 - word_ar_ma_logger - ERROR - Translating خزي, '5ezzi' != '5zi'
+2020-02-14 21:00:51,192 - word_ar_ma_logger - ERROR - Translating خزي, '5ezzi' != '5zi'
 - 5ezzi
 ?  --
 + 5zi
 
-2020-02-07 00:11:54,357 - word_ar_ma_logger - ERROR - Translating دهبي, 'Dehbi' != 'dhbi'
+2020-02-14 21:00:51,192 - word_ar_ma_logger - ERROR - Translating دهبي, 'Dehbi' != 'dhbi'
 - Dehbi
 + dhbi
 
-2020-02-07 00:11:54,357 - word_ar_ma_logger - ERROR - Translating ليموني, 'Limouni' != 'limoni'
+2020-02-14 21:00:51,193 - word_ar_ma_logger - ERROR - Translating ليموني, 'Limouni' != 'limoni'
 - Limouni
 ? ^   -
 + limoni
 ? ^
 
-2020-02-07 00:11:54,357 - word_ar_ma_logger - ERROR - Translating بونجة, 'Ponja' != 'bonjt'
+2020-02-14 21:00:51,193 - word_ar_ma_logger - ERROR - Translating بونجة, 'Ponja' != 'bonjt'
 - Ponja
 + bonjt
 
-2020-02-07 00:11:54,358 - word_ar_ma_logger - ERROR - Translating حمر, '7mer' != '7mr'
+2020-02-14 21:00:51,194 - word_ar_ma_logger - ERROR - Translating حمر, '7mer' != '7mr'
 - 7mer
 ?   -
 + 7mr
 
-2020-02-07 00:11:54,358 - word_ar_ma_logger - ERROR - Translating حارس, '7aris' != '7ars'
+2020-02-14 21:00:51,194 - word_ar_ma_logger - ERROR - Translating حارس, '7aris' != '7ars'
 - 7aris
 ?    -
 + 7ars
 
-2020-02-07 00:11:54,359 - word_ar_ma_logger - ERROR - Translating خضر, '5der' != '5dr'
+2020-02-14 21:00:51,194 - word_ar_ma_logger - ERROR - Translating خضر, '5der' != '5dr'
 - 5der
 ?   -
 + 5dr
 
-2020-02-07 00:11:54,359 - word_ar_ma_logger - ERROR - Translating بنفسجي, 'Banafsaji' != 'bnfsji'
+2020-02-14 21:00:51,195 - word_ar_ma_logger - ERROR - Translating بنفسجي, 'Banafsaji' != 'bnfsji'
 - Banafsaji
 + bnfsji
 
-2020-02-07 00:11:54,359 - word_ar_ma_logger - ERROR - Translating نشيط, 'Nashit' != 'nchit'
+2020-02-14 21:00:51,195 - word_ar_ma_logger - ERROR - Translating نشيط, 'Nashit' != 'nchit'
 - Nashit
 + nchit
 
-2020-02-07 00:11:54,360 - word_ar_ma_logger - ERROR - Translating شارف, 'Sharf' != 'charf'
+2020-02-14 21:00:51,196 - word_ar_ma_logger - ERROR - Translating شارف, 'Sharf' != 'charf'
 - Sharf
 ? ^
 + charf
 ? ^
 
-2020-02-07 00:11:54,360 - word_ar_ma_logger - ERROR - Translating طماع, 'Temma3' != 'tma3'
+2020-02-14 21:00:51,196 - word_ar_ma_logger - ERROR - Translating طماع, 'Temma3' != 'tma3'
 - Temma3
 + tma3
 
-2020-02-07 00:11:54,361 - word_ar_ma_logger - ERROR - Translating مزيان, 'Mezian' != 'mzian'
+2020-02-14 21:00:51,196 - word_ar_ma_logger - ERROR - Translating مزيان, 'Mezian' != 'mzian'
 - Mezian
 ? ^^
 + mzian
 ? ^
 
-2020-02-07 00:11:54,361 - word_ar_ma_logger - ERROR - Translating محروق, 'me7rou9' != 'm7ro9'
+2020-02-14 21:00:51,197 - word_ar_ma_logger - ERROR - Translating محروق, 'me7rou9' != 'm7ro9'
 - me7rou9
 ?  -   -
 + m7ro9
 
-2020-02-07 00:11:54,361 - word_ar_ma_logger - ERROR - Translating مهرس, 'Meherres' != 'mhrs'
+2020-02-14 21:00:51,197 - word_ar_ma_logger - ERROR - Translating مهرس, 'Meherres' != 'mhrs'
 - Meherres
 + mhrs
 
-2020-02-07 00:11:54,362 - word_ar_ma_logger - ERROR - Translating مشهور, 'Meshehour' != 'mchhor'
+2020-02-14 21:00:51,198 - word_ar_ma_logger - ERROR - Translating مشهور, 'Meshehour' != 'mchhor'
 - Meshehour
 + mchhor
 
-2020-02-07 00:11:54,362 - word_ar_ma_logger - ERROR - Translating متأكد, 'Met2akked' != 'mtakd'
+2020-02-14 21:00:51,198 - word_ar_ma_logger - ERROR - Translating متأكد, 'Met2akked' != 'mtakd'
 - Met2akked
 + mtakd
 
-2020-02-07 00:11:54,362 - word_ar_ma_logger - ERROR - Translating سخون, 's5oun' != 's5on'
+2020-02-14 21:00:51,199 - word_ar_ma_logger - ERROR - Translating سخون, 's5oun' != 's5on'
 - s5oun
 ?    -
 + s5on
 
-2020-02-07 00:11:54,363 - word_ar_ma_logger - ERROR - Translating غالي, 'Ghali' != 'ghali'
+2020-02-14 21:00:51,199 - word_ar_ma_logger - ERROR - Translating غالي, 'Ghali' != 'ghali'
 - Ghali
 ? ^
 + ghali
 ? ^
 
-2020-02-07 00:11:54,363 - word_ar_ma_logger - ERROR - Translating مفركس, 'Mferkes' != 'mfrks'
+2020-02-14 21:00:51,200 - word_ar_ma_logger - ERROR - Translating مفركس, 'Mferkes' != 'mfrks'
 - Mferkes
 + mfrks
 
-2020-02-07 00:11:54,364 - word_ar_ma_logger - ERROR - Translating واضح, 'Wade7' != 'oad7'
+2020-02-14 21:00:51,200 - word_ar_ma_logger - ERROR - Translating واضح, 'Wade7' != 'oad7'
 - Wade7
 + oad7
 
-2020-02-07 00:11:54,364 - word_ar_ma_logger - ERROR - Translating معقد, 'm3e9ed' != 'm39d'
+2020-02-14 21:00:51,200 - word_ar_ma_logger - ERROR - Translating معقد, 'm3e9ed' != 'm39d'
 - m3e9ed
 ?   - -
 + m39d
 
-2020-02-07 00:11:54,364 - word_ar_ma_logger - ERROR - Translating مريح, 'Mori7' != 'mri7'
+2020-02-14 21:00:51,201 - word_ar_ma_logger - ERROR - Translating مريح, 'Mori7' != 'mri7'
 - Mori7
 + mri7
 
-2020-02-07 00:11:54,365 - word_ar_ma_logger - ERROR - Translating معروف, 'Me3rouf' != 'm3rof'
+2020-02-14 21:00:51,201 - word_ar_ma_logger - ERROR - Translating معروف, 'Me3rouf' != 'm3rof'
 - Me3rouf
 + m3rof
 
-2020-02-07 00:11:54,365 - word_ar_ma_logger - ERROR - Translating قصير, '9asir' != '9sir'
+2020-02-14 21:00:51,201 - word_ar_ma_logger - ERROR - Translating قصير, '9asir' != '9sir'
 - 9asir
 ?  -
 + 9sir
 
-2020-02-07 00:11:54,365 - word_ar_ma_logger - ERROR - Translating طايب, 'Tayeb' != 'taib'
+2020-02-14 21:00:51,202 - word_ar_ma_logger - ERROR - Translating طايب, 'Tayeb' != 'taib'
 - Tayeb
 + taib
 
-2020-02-07 00:11:54,366 - word_ar_ma_logger - ERROR - Translating خطير, 'Khatir' != '5tir'
+2020-02-14 21:00:51,202 - word_ar_ma_logger - ERROR - Translating خطير, 'Khatir' != '5tir'
 - Khatir
 + 5tir
 
-2020-02-07 00:11:54,366 - word_ar_ma_logger - ERROR - Translating فاتح, 'Fate7' != 'fat7'
+2020-02-14 21:00:51,202 - word_ar_ma_logger - ERROR - Translating فاتح, 'Fate7' != 'fat7'
 - Fate7
 + fat7
 
-2020-02-07 00:11:54,366 - word_ar_ma_logger - ERROR - Translating غامق, 'ghame9' != 'gham9'
+2020-02-14 21:00:51,203 - word_ar_ma_logger - ERROR - Translating غامق, 'ghame9' != 'gham9'
 - ghame9
 ?     -
 + gham9
 
-2020-02-07 00:11:54,367 - word_ar_ma_logger - ERROR - Translating بنين, 'Bnine' != 'bnin'
+2020-02-14 21:00:51,203 - word_ar_ma_logger - ERROR - Translating بنين, 'Bnine' != 'bnin'
 - Bnine
 + bnin
 
-2020-02-07 00:11:54,367 - word_ar_ma_logger - ERROR - Translating مرون, 'Mrewwen' != 'mron'
+2020-02-14 21:00:51,203 - word_ar_ma_logger - ERROR - Translating مرون, 'Mrewwen' != 'mron'
 - Mrewwen
 + mron
 
-2020-02-07 00:11:54,367 - word_ar_ma_logger - ERROR - Translating واعر, 'Wa3er' != 'oa3r'
+2020-02-14 21:00:51,204 - word_ar_ma_logger - ERROR - Translating واعر, 'Wa3er' != 'oa3r'
 - Wa3er
 + oa3r
 
-2020-02-07 00:11:54,368 - word_ar_ma_logger - ERROR - Translating محساد, 'Me7sad' != 'm7sad'
+2020-02-14 21:00:51,204 - word_ar_ma_logger - ERROR - Translating محساد, 'Me7sad' != 'm7sad'
 - Me7sad
 ? ^^
 + m7sad
 ? ^
 
-2020-02-07 00:11:54,368 - word_ar_ma_logger - ERROR - Translating جرب, 'jerreb' != 'jrb'
+2020-02-14 21:00:51,205 - word_ar_ma_logger - ERROR - Translating جرب, 'jerreb' != 'jrb'
 - jerreb
 + jrb
 
-2020-02-07 00:11:54,369 - word_ar_ma_logger - ERROR - Translating مضيق, 'mdye9' != 'mdi9'
+2020-02-14 21:00:51,205 - word_ar_ma_logger - ERROR - Translating مضيق, 'mdye9' != 'mdi9'
 - mdye9
 + mdi9
 
-2020-02-07 00:11:54,369 - word_ar_ma_logger - ERROR - Translating ساهل, 'Sahel' != 'sahl'
+2020-02-14 21:00:51,206 - word_ar_ma_logger - ERROR - Translating ساهل, 'Sahel' != 'sahl'
 - Sahel
 + sahl
 
-2020-02-07 00:11:54,369 - word_ar_ma_logger - ERROR - Translating ضاسر, 'Daser' != 'dasr'
+2020-02-14 21:00:51,206 - word_ar_ma_logger - ERROR - Translating ضاسر, 'Daser' != 'dasr'
 - Daser
 + dasr
 
-2020-02-07 00:11:54,370 - word_ar_ma_logger - ERROR - Translating عيان, '3iyyan' != '3ian'
+2020-02-14 21:00:51,206 - word_ar_ma_logger - ERROR - Translating عيان, '3iyyan' != '3ian'
 - 3iyyan
 ?   --
 + 3ian
 
-2020-02-07 00:11:54,370 - word_ar_ma_logger - ERROR - Translating مسدود, 'Mesdoud' != 'msdod'
+2020-02-14 21:00:51,207 - word_ar_ma_logger - ERROR - Translating مسدود, 'Mesdoud' != 'msdod'
 - Mesdoud
 + msdod
 
-2020-02-07 00:11:54,370 - word_ar_ma_logger - ERROR - Translating حمق, '7me9' != '7m9'
+2020-02-14 21:00:51,207 - word_ar_ma_logger - ERROR - Translating حمق, '7me9' != '7m9'
 - 7me9
 ?   -
 + 7m9
 
-2020-02-07 00:11:54,371 - word_ar_ma_logger - ERROR - Translating بارد, 'Bared' != 'bard'
+2020-02-14 21:00:51,207 - word_ar_ma_logger - ERROR - Translating بارد, 'Bared' != 'bard'
 - Bared
 + bard
 
-2020-02-07 00:11:54,371 - word_ar_ma_logger - ERROR - Translating معصب, 'Me3esseb' != 'm3sb'
+2020-02-14 21:00:51,208 - word_ar_ma_logger - ERROR - Translating معصب, 'Me3esseb' != 'm3sb'
 - Me3esseb
 + m3sb
 
-2020-02-07 00:11:54,371 - word_ar_ma_logger - ERROR - Translating ضريف, 'Drif' != 'drif'
+2020-02-14 21:00:51,208 - word_ar_ma_logger - ERROR - Translating ضريف, 'Drif' != 'drif'
 - Drif
 ? ^
 + drif
 ? ^
 
-2020-02-07 00:11:54,372 - word_ar_ma_logger - ERROR - Translating كبير, 'Kbir' != 'kbir'
+2020-02-14 21:00:51,209 - word_ar_ma_logger - ERROR - Translating كبير, 'Kbir' != 'kbir'
 - Kbir
 ? ^
 + kbir
 ? ^
 
-2020-02-07 00:11:54,372 - word_ar_ma_logger - ERROR - Translating غليض, 'Ghelid' != 'ghlid'
+2020-02-14 21:00:51,209 - word_ar_ma_logger - ERROR - Translating غليض, 'Ghelid' != 'ghlid'
 - Ghelid
 ? ^ -
 + ghlid
 ? ^
 
-2020-02-07 00:11:54,373 - word_ar_ma_logger - ERROR - Translating مسطي, 'msetti' != 'msti'
+2020-02-14 21:00:51,209 - word_ar_ma_logger - ERROR - Translating مسطي, 'msetti' != 'msti'
 - msetti
 ?   --
 + msti
 
-2020-02-07 00:11:54,373 - word_ar_ma_logger - ERROR - Translating فرحان, 'Fer7an' != 'fr7an'
+2020-02-14 21:00:51,210 - word_ar_ma_logger - ERROR - Translating فرحان, 'Fer7an' != 'fr7an'
 - Fer7an
 ? ^^
 + fr7an
 ? ^
 
-2020-02-07 00:11:54,373 - word_ar_ma_logger - ERROR - Translating مهم, 'Mohim' != 'mhm'
+2020-02-14 21:00:51,210 - word_ar_ma_logger - ERROR - Translating مهم, 'Mohim' != 'mhm'
 - Mohim
 + mhm
 
-2020-02-07 00:11:54,374 - word_ar_ma_logger - ERROR - Translating بريء, 'Bari2' != 'bri2'
+2020-02-14 21:00:51,210 - word_ar_ma_logger - ERROR - Translating بريء, 'Bari2' != 'bri2'
 - Bari2
 + bri2
 
-2020-02-07 00:11:54,374 - word_ar_ma_logger - ERROR - Translating دكي, 'Dki' != 'dki'
+2020-02-14 21:00:51,211 - word_ar_ma_logger - ERROR - Translating دكي, 'Dki' != 'dki'
 - Dki
 ? ^
 + dki
 ? ^
 
-2020-02-07 00:11:54,374 - word_ar_ma_logger - ERROR - Translating مغيار, 'Meghyar' != 'mghiar'
+2020-02-14 21:00:51,211 - word_ar_ma_logger - ERROR - Translating مغيار, 'Meghyar' != 'mghiar'
 - Meghyar
 + mghiar
 
-2020-02-07 00:11:54,375 - word_ar_ma_logger - ERROR - Translating زوين, 'Zwin' != 'zoin'
+2020-02-14 21:00:51,211 - word_ar_ma_logger - ERROR - Translating زوين, 'Zwin' != 'zoin'
 - Zwin
 + zoin
 
-2020-02-07 00:11:54,375 - word_ar_ma_logger - ERROR - Translating عريض, '3erid' != '3rid'
+2020-02-14 21:00:51,212 - word_ar_ma_logger - ERROR - Translating عريض, '3erid' != '3rid'
 - 3erid
 ?  -
 + 3rid
 
-2020-02-07 00:11:54,375 - word_ar_ma_logger - ERROR - Translating خفيف, 'Khfif' != '5fif'
+2020-02-14 21:00:51,212 - word_ar_ma_logger - ERROR - Translating خفيف, 'Khfif' != '5fif'
 - Khfif
 + 5fif
 
-2020-02-07 00:11:54,376 - word_ar_ma_logger - ERROR - Translating بعيد, 'B3id' != 'b3id'
+2020-02-14 21:00:51,213 - word_ar_ma_logger - ERROR - Translating بعيد, 'B3id' != 'b3id'
 - B3id
 ? ^
 + b3id
 ? ^
 
-2020-02-07 00:11:54,376 - word_ar_ma_logger - ERROR - Translating طويل, 'Twil' != 'toil'
+2020-02-14 21:00:51,213 - word_ar_ma_logger - ERROR - Translating طويل, 'Twil' != 'toil'
 - Twil
 + toil
 
-2020-02-07 00:11:54,377 - word_ar_ma_logger - ERROR - Translating مريض, 'Mrid' != 'mrid'
+2020-02-14 21:00:51,214 - word_ar_ma_logger - ERROR - Translating مريض, 'Mrid' != 'mrid'
 - Mrid
 ? ^
 + mrid
 ? ^
 
-2020-02-07 00:11:54,377 - word_ar_ma_logger - ERROR - Translating مخلط, 'M5ellet' != 'm5lt'
+2020-02-14 21:00:51,214 - word_ar_ma_logger - ERROR - Translating مخلط, 'M5ellet' != 'm5lt'
 - M5ellet
 + m5lt
 
-2020-02-07 00:11:54,377 - word_ar_ma_logger - ERROR - Translating خايب, 'Khayeb' != '5aib'
+2020-02-14 21:00:51,215 - word_ar_ma_logger - ERROR - Translating خايب, 'Khayeb' != '5aib'
 - Khayeb
 + 5aib
 
-2020-02-07 00:11:54,378 - word_ar_ma_logger - ERROR - Translating عصري, '3esri' != '3sri'
+2020-02-14 21:00:51,215 - word_ar_ma_logger - ERROR - Translating عصري, '3esri' != '3sri'
 - 3esri
 ?  -
 + 3sri
 
-2020-02-07 00:11:54,378 - word_ar_ma_logger - ERROR - Translating رطب, 'Rteb' != 'rtb'
+2020-02-14 21:00:51,215 - word_ar_ma_logger - ERROR - Translating رطب, 'Rteb' != 'rtb'
 - Rteb
 + rtb
 
-2020-02-07 00:11:54,378 - word_ar_ma_logger - ERROR - Translating فازڭ, 'Fazeg' != 'fazg'
+2020-02-14 21:00:51,216 - word_ar_ma_logger - ERROR - Translating فازڭ, 'Fazeg' != 'fazg'
 - Fazeg
 + fazg
 
-2020-02-07 00:11:54,379 - word_ar_ma_logger - ERROR - Translating متوسط, 'Metwesset' != 'mtost'
+2020-02-14 21:00:51,216 - word_ar_ma_logger - ERROR - Translating متوسط, 'Metwesset' != 'mtost'
 - Metwesset
 + mtost
 
-2020-02-07 00:11:54,379 - word_ar_ma_logger - ERROR - Translating زيزون, 'Zizoun' != 'zizon'
+2020-02-14 21:00:51,216 - word_ar_ma_logger - ERROR - Translating زيزون, 'Zizoun' != 'zizon'
 - Zizoun
 ? ^   -
 + zizon
 ? ^
 
-2020-02-07 00:11:54,380 - word_ar_ma_logger - ERROR - Translating طبيعي, 'Tabi3i' != 'tbi3i'
+2020-02-14 21:00:51,217 - word_ar_ma_logger - ERROR - Translating طبيعي, 'Tabi3i' != 'tbi3i'
 - Tabi3i
 ? ^^
 + tbi3i
 ? ^
 
-2020-02-07 00:11:54,380 - word_ar_ma_logger - ERROR - Translating ضروري, 'Darouri' != 'drori'
+2020-02-14 21:00:51,217 - word_ar_ma_logger - ERROR - Translating ضروري, 'Darouri' != 'drori'
 - Darouri
 + drori
 
-2020-02-07 00:11:54,380 - word_ar_ma_logger - ERROR - Translating كتير, 'Ktir' != 'ktir'
+2020-02-14 21:00:51,217 - word_ar_ma_logger - ERROR - Translating كتير, 'Ktir' != 'ktir'
 - Ktir
 ? ^
 + ktir
 ? ^
 
-2020-02-07 00:11:54,381 - word_ar_ma_logger - ERROR - Translating جديد, 'Jedid' != 'jdid'
+2020-02-14 21:00:51,218 - word_ar_ma_logger - ERROR - Translating جديد, 'Jedid' != 'jdid'
 - Jedid
 + jdid
 
-2020-02-07 00:11:54,381 - word_ar_ma_logger - ERROR - Translating مشغول, 'Mesheghoul' != 'mchghol'
+2020-02-14 21:00:51,218 - word_ar_ma_logger - ERROR - Translating مشغول, 'Mesheghoul' != 'mchghol'
 - Mesheghoul
 + mchghol
 
-2020-02-07 00:11:54,382 - word_ar_ma_logger - ERROR - Translating محلول, 'Me7loul' != 'm7lol'
+2020-02-14 21:00:51,219 - word_ar_ma_logger - ERROR - Translating محلول, 'Me7loul' != 'm7lol'
 - Me7loul
 + m7lol
 
-2020-02-07 00:11:54,382 - word_ar_ma_logger - ERROR - Translating صغير, 'Sghir' != 'sghir'
+2020-02-14 21:00:51,219 - word_ar_ma_logger - ERROR - Translating صغير, 'Sghir' != 'sghir'
 - Sghir
 ? ^
 + sghir
 ? ^
 
-2020-02-07 00:11:54,383 - word_ar_ma_logger - ERROR - Translating رخيص, 'r5iss' != 'r5is'
+2020-02-14 21:00:51,220 - word_ar_ma_logger - ERROR - Translating رخيص, 'r5iss' != 'r5is'
 - r5iss
 ?     -
 + r5is
 
-2020-02-07 00:11:54,383 - word_ar_ma_logger - ERROR - Translating مؤدب, 'M2eddeb' != 'm2db'
+2020-02-14 21:00:51,220 - word_ar_ma_logger - ERROR - Translating مؤدب, 'M2eddeb' != 'm2db'
 - M2eddeb
 + m2db
 
-2020-02-07 00:11:54,383 - word_ar_ma_logger - ERROR - Translating شعبي, 'She3bi' != 'ch3bi'
+2020-02-14 21:00:51,220 - word_ar_ma_logger - ERROR - Translating شعبي, 'She3bi' != 'ch3bi'
 - She3bi
 ? ^ -
 + ch3bi
 ? ^
 
-2020-02-07 00:11:54,384 - word_ar_ma_logger - ERROR - Translating خانز, '5anez' != '5anz'
+2020-02-14 21:00:51,221 - word_ar_ma_logger - ERROR - Translating خانز, '5anez' != '5anz'
 - 5anez
 ?    -
 + 5anz
 
-2020-02-07 00:11:54,384 - word_ar_ma_logger - ERROR - Translating حرش, '7resh' != '7rch'
+2020-02-14 21:00:51,221 - word_ar_ma_logger - ERROR - Translating حرش, '7resh' != '7rch'
 - 7resh
 + 7rch
 
-2020-02-07 00:11:54,385 - word_ar_ma_logger - ERROR - Translating عامر, '3amer' != '3amr'
+2020-02-14 21:00:51,222 - word_ar_ma_logger - ERROR - Translating عامر, '3amer' != '3amr'
 - 3amer
 ?    -
 + 3amr
 
-2020-02-07 00:11:54,385 - word_ar_ma_logger - ERROR - Translating محترم, 'Mo7taram' != 'm7trm'
+2020-02-14 21:00:51,222 - word_ar_ma_logger - ERROR - Translating محترم, 'Mo7taram' != 'm7trm'
 - Mo7taram
 + m7trm
 
-2020-02-07 00:11:54,386 - word_ar_ma_logger - ERROR - Translating فايق, 'faye9' != 'fai9'
+2020-02-14 21:00:51,222 - word_ar_ma_logger - ERROR - Translating فايق, 'faye9' != 'fai9'
 - faye9
 + fai9
 
-2020-02-07 00:11:54,387 - word_ar_ma_logger - ERROR - Translating مدور, 'Mdewwer' != 'mdor'
+2020-02-14 21:00:51,223 - word_ar_ma_logger - ERROR - Translating مدور, 'Mdewwer' != 'mdor'
 - Mdewwer
 + mdor
 
-2020-02-07 00:11:54,387 - word_ar_ma_logger - ERROR - Translating موسخ, 'Mossekh' != 'mos5'
+2020-02-14 21:00:51,223 - word_ar_ma_logger - ERROR - Translating موسخ, 'Mossekh' != 'mos5'
 - Mossekh
 + mos5
 
-2020-02-07 00:11:54,387 - word_ar_ma_logger - ERROR - Translating مالح, 'Male7' != 'mal7'
+2020-02-14 21:00:51,223 - word_ar_ma_logger - ERROR - Translating مالح, 'Male7' != 'mal7'
 - Male7
 + mal7
 
-2020-02-07 00:11:54,388 - word_ar_ma_logger - ERROR - Translating ناشف, 'Nashef' != 'nachf'
+2020-02-14 21:00:51,224 - word_ar_ma_logger - ERROR - Translating ناشف, 'Nashef' != 'nachf'
 - Nashef
 + nachf
 
-2020-02-07 00:11:54,388 - word_ar_ma_logger - ERROR - Translating حساس, '7essas' != '7sas'
+2020-02-14 21:00:51,224 - word_ar_ma_logger - ERROR - Translating حساس, '7essas' != '7sas'
 - 7essas
 ?  --
 + 7sas
 
-2020-02-07 00:11:54,389 - word_ar_ma_logger - ERROR - Translating ساكت, 'Saket' != 'sakt'
+2020-02-14 21:00:51,225 - word_ar_ma_logger - ERROR - Translating ساكت, 'Saket' != 'sakt'
 - Saket
 + sakt
 
-2020-02-07 00:11:54,389 - word_ar_ma_logger - ERROR - Translating قاصح, '9ase7' != '9as7'
+2020-02-14 21:00:51,225 - word_ar_ma_logger - ERROR - Translating قاصح, '9ase7' != '9as7'
 - 9ase7
 ?    -
 + 9as7
 
-2020-02-07 00:11:54,389 - word_ar_ma_logger - ERROR - Translating واسع, 'Wase3' != 'oas3'
+2020-02-14 21:00:51,225 - word_ar_ma_logger - ERROR - Translating واسع, 'Wase3' != 'oas3'
 - Wase3
 + oas3
 
-2020-02-07 00:11:54,390 - word_ar_ma_logger - ERROR - Translating مكلخ, 'mkelle5' != 'mkl5'
+2020-02-14 21:00:51,226 - word_ar_ma_logger - ERROR - Translating مكلخ, 'mkelle5' != 'mkl5'
 - mkelle5
 ?   - --
 + mkl5
 
-2020-02-07 00:11:54,390 - word_ar_ma_logger - ERROR - Translating معطل, 'M3ettel' != 'm3tl'
+2020-02-14 21:00:51,226 - word_ar_ma_logger - ERROR - Translating معطل, 'M3ettel' != 'm3tl'
 - M3ettel
 + m3tl
 
-2020-02-07 00:11:54,391 - word_ar_ma_logger - ERROR - Translating دافي, 'Dafi' != 'dafi'
+2020-02-14 21:00:51,227 - word_ar_ma_logger - ERROR - Translating دافي, 'Dafi' != 'dafi'
 - Dafi
 ? ^
 + dafi
 ? ^
 
-2020-02-07 00:11:54,391 - word_ar_ma_logger - ERROR - Translating حشومي, '7achoumi' != '7chomi'
+2020-02-14 21:00:51,227 - word_ar_ma_logger - ERROR - Translating حشومي, '7achoumi' != '7chomi'
 - 7achoumi
 ?  -   -
 + 7chomi
 
-2020-02-07 00:11:54,391 - word_ar_ma_logger - ERROR - Translating بلدي, 'beldi' != 'bldi'
+2020-02-14 21:00:51,228 - word_ar_ma_logger - ERROR - Translating بلدي, 'beldi' != 'bldi'
 - beldi
 ?  -
 + bldi
 
-2020-02-07 00:11:54,392 - word_ar_ma_logger - ERROR - Translating ماضي, 'Madi' != 'madi'
+2020-02-14 21:00:51,229 - word_ar_ma_logger - ERROR - Translating ماضي, 'Madi' != 'madi'
 - Madi
 ? ^
 + madi
 ? ^
 
-2020-02-07 00:11:54,392 - word_ar_ma_logger - ERROR - Translating مقلق, 'm9elle9' != 'm9l9'
+2020-02-14 21:00:51,229 - word_ar_ma_logger - ERROR - Translating مقلق, 'm9elle9' != 'm9l9'
 - m9elle9
 ?   - --
 + m9l9
 
-2020-02-07 00:11:54,393 - word_ar_ma_logger - ERROR - Translating خاوي, 'Khawi' != '5aoi'
+2020-02-14 21:00:51,229 - word_ar_ma_logger - ERROR - Translating خاوي, 'Khawi' != '5aoi'
 - Khawi
 + 5aoi
 
-2020-02-07 00:11:54,393 - word_ar_ma_logger - ERROR - Translating بيكالة, 'pikala' != 'bikalt'
+2020-02-14 21:00:51,230 - word_ar_ma_logger - ERROR - Translating بيكالة, 'pikala' != 'bikalt'
 - pikala
 + bikalt
 
-2020-02-07 00:11:54,394 - word_ar_ma_logger - ERROR - Translating بيسي, 'pici' != 'bisi'
+2020-02-14 21:00:51,231 - word_ar_ma_logger - ERROR - Translating بيسي, 'pici' != 'bisi'
 - pici
 + bisi
 
-2020-02-07 00:11:54,394 - word_ar_ma_logger - ERROR - Translating بولة, 'boula' != 'bolt'
+2020-02-14 21:00:51,231 - word_ar_ma_logger - ERROR - Translating بولة, 'boula' != 'bolt'
 - boula
 + bolt
 
-2020-02-07 00:11:54,395 - word_ar_ma_logger - ERROR - Translating قاشقاش, '9ach 9achd' != '9ach9ach'
+2020-02-14 21:00:51,232 - word_ar_ma_logger - ERROR - Translating قاشقاش, '9ach 9achd' != '9ach9ach'
 - 9ach 9achd
 ?     -    -
 + 9ach9ach
 
-2020-02-07 00:11:54,395 - word_ar_ma_logger - ERROR - Translating عطاش, '3attach' != '3tach'
+2020-02-14 21:00:51,232 - word_ar_ma_logger - ERROR - Translating عطاش, '3attach' != '3tach'
 - 3attach
 ?  --
 + 3tach
 
-2020-02-07 00:11:54,395 - word_ar_ma_logger - ERROR - Translating اري, 'arre' != 'ari'
+2020-02-14 21:00:51,232 - word_ar_ma_logger - ERROR - Translating اري, 'arre' != 'ari'
 - arre
 + ari
 
-2020-02-07 00:11:54,396 - word_ar_ma_logger - ERROR - Translating اطانسيو, 'Atansiou' != 'atansio'
+2020-02-14 21:00:51,233 - word_ar_ma_logger - ERROR - Translating اطانسيو, 'Atansiou' != 'atansio'
 - Atansiou
 ? ^      -
 + atansio
 ? ^
 
-2020-02-07 00:11:54,396 - word_ar_ma_logger - ERROR - Translating بابور, 'Babor' != 'babor'
+2020-02-14 21:00:51,233 - word_ar_ma_logger - ERROR - Translating بابور, 'Babor' != 'babor'
 - Babor
 ? ^
 + babor
 ? ^
 
-2020-02-07 00:11:54,397 - word_ar_ma_logger - ERROR - Translating باكيطا, 'Baguitta' != 'bakita'
+2020-02-14 21:00:51,234 - word_ar_ma_logger - ERROR - Translating باكيطا, 'Baguitta' != 'bakita'
 - Baguitta
 + bakita
 
-2020-02-07 00:11:54,397 - word_ar_ma_logger - ERROR - Translating باكية, 'Bakiya' != 'bakit'
+2020-02-14 21:00:51,234 - word_ar_ma_logger - ERROR - Translating باكية, 'Bakiya' != 'bakit'
 - Bakiya
 + bakit
 
-2020-02-07 00:11:54,397 - word_ar_ma_logger - ERROR - Translating بالكون, 'Balcone' != 'balkon'
+2020-02-14 21:00:51,234 - word_ar_ma_logger - ERROR - Translating بالكون, 'Balcone' != 'balkon'
 - Balcone
 + balkon
 
-2020-02-07 00:11:54,398 - word_ar_ma_logger - ERROR - Translating باليزا, 'Baliza' != 'baliza'
+2020-02-14 21:00:51,235 - word_ar_ma_logger - ERROR - Translating باليزا, 'Baliza' != 'baliza'
 - Baliza
 ? ^
 + baliza
 ? ^
 
-2020-02-07 00:11:54,398 - word_ar_ma_logger - ERROR - Translating بالون, 'Ballone' != 'balon'
+2020-02-14 21:00:51,235 - word_ar_ma_logger - ERROR - Translating بالون, 'Ballone' != 'balon'
 - Ballone
 + balon
 
-2020-02-07 00:11:54,398 - word_ar_ma_logger - ERROR - Translating باطرون, 'Batroune' != 'batron'
+2020-02-14 21:00:51,236 - word_ar_ma_logger - ERROR - Translating باطرون, 'Batroune' != 'batron'
 - Batroune
 ? ^    - -
 + batron
 ? ^
 
-2020-02-07 00:11:54,399 - word_ar_ma_logger - ERROR - Translating برمسبون, 'bermassioun' != 'brmsbon'
+2020-02-14 21:00:51,236 - word_ar_ma_logger - ERROR - Translating برمسبون, 'bermassioun' != 'brmsbon'
 - bermassioun
 + brmsbon
 
-2020-02-07 00:11:54,399 - word_ar_ma_logger - ERROR - Translating بيفان, 'Befane' != 'bifan'
+2020-02-14 21:00:51,236 - word_ar_ma_logger - ERROR - Translating بيفان, 'Befane' != 'bifan'
 - Befane
 + bifan
 
-2020-02-07 00:11:54,400 - word_ar_ma_logger - ERROR - Translating بيكوب, 'Bikoup' != 'bikob'
+2020-02-14 21:00:51,237 - word_ar_ma_logger - ERROR - Translating بيكوب, 'Bikoup' != 'bikob'
 - Bikoup
 + bikob
 
-2020-02-07 00:11:54,400 - word_ar_ma_logger - ERROR - Translating برويطة, 'Barwita' != 'broitt'
+2020-02-14 21:00:51,237 - word_ar_ma_logger - ERROR - Translating برويطة, 'Barwita' != 'broitt'
 - Barwita
 + broitt
 
-2020-02-07 00:11:54,400 - word_ar_ma_logger - ERROR - Translating باسبور, 'Baspour' != 'basbor'
+2020-02-14 21:00:51,238 - word_ar_ma_logger - ERROR - Translating باسبور, 'Baspour' != 'basbor'
 - Baspour
 + basbor
 
-2020-02-07 00:11:54,401 - word_ar_ma_logger - ERROR - Translating باطايو, 'Bataillou' != 'bataio'
+2020-02-14 21:00:51,238 - word_ar_ma_logger - ERROR - Translating باطايو, 'Bataillou' != 'bataio'
 - Bataillou
 + bataio
 
-2020-02-07 00:11:54,401 - word_ar_ma_logger - ERROR - Translating باطيمة, 'Batema' != 'batimt'
+2020-02-14 21:00:51,238 - word_ar_ma_logger - ERROR - Translating باطيمة, 'Batema' != 'batimt'
 - Batema
 + batimt
 
-2020-02-07 00:11:54,401 - word_ar_ma_logger - ERROR - Translating بانكا, 'Banka' != 'banka'
+2020-02-14 21:00:51,239 - word_ar_ma_logger - ERROR - Translating بانكا, 'Banka' != 'banka'
 - Banka
 ? ^
 + banka
 ? ^
 
-2020-02-07 00:11:54,402 - word_ar_ma_logger - ERROR - Translating بارابول, 'Barabole' != 'barabol'
+2020-02-14 21:00:51,239 - word_ar_ma_logger - ERROR - Translating بارابول, 'Barabole' != 'barabol'
 - Barabole
 ? ^      -
 + barabol
 ? ^
 
-2020-02-07 00:11:54,402 - word_ar_ma_logger - ERROR - Translating باربرز, 'Barbrise' != 'barbrz'
+2020-02-14 21:00:51,240 - word_ar_ma_logger - ERROR - Translating باربرز, 'Barbrise' != 'barbrz'
 - Barbrise
 + barbrz
 
-2020-02-07 00:11:54,403 - word_ar_ma_logger - ERROR - Translating باريزيانا, 'Bariziana' != 'bariziana'
+2020-02-14 21:00:51,240 - word_ar_ma_logger - ERROR - Translating باريزيانا, 'Bariziana' != 'bariziana'
 - Bariziana
 ? ^
 + bariziana
 ? ^
 
-2020-02-07 00:11:54,403 - word_ar_ma_logger - ERROR - Translating بارطقيز, 'Bart9iz' != 'bart9iz'
+2020-02-14 21:00:51,241 - word_ar_ma_logger - ERROR - Translating بارطقيز, 'Bart9iz' != 'bart9iz'
 - Bart9iz
 ? ^
 + bart9iz
 ? ^
 
-2020-02-07 00:11:54,403 - word_ar_ma_logger - ERROR - Translating بيرو, 'Birou' != 'biro'
+2020-02-14 21:00:51,241 - word_ar_ma_logger - ERROR - Translating بيرو, 'Birou' != 'biro'
 - Birou
 + biro
 
-2020-02-07 00:11:54,404 - word_ar_ma_logger - ERROR - Translating بياسا, 'Biassa' != 'biasa'
+2020-02-14 21:00:51,241 - word_ar_ma_logger - ERROR - Translating بياسا, 'Biassa' != 'biasa'
 - Biassa
 ? ^   -
 + biasa
 ? ^
 
-2020-02-07 00:11:54,404 - word_ar_ma_logger - ERROR - Translating بيشكليطة, 'Bichklita' != 'bichklitt'
+2020-02-14 21:00:51,242 - word_ar_ma_logger - ERROR - Translating بيشكليطة, 'Bichklita' != 'bichklitt'
 - Bichklita
 ? ^       ^
 + bichklitt
 ? ^       ^
 
-2020-02-07 00:11:54,405 - word_ar_ma_logger - ERROR - Translating بيدو, 'Bidou' != 'bido'
+2020-02-14 21:00:51,243 - word_ar_ma_logger - ERROR - Translating بيدو, 'Bidou' != 'bido'
 - Bidou
 + bido
 
-2020-02-07 00:11:54,405 - word_ar_ma_logger - ERROR - Translating بيجاما, 'Bijama' != 'bijama'
+2020-02-14 21:00:51,243 - word_ar_ma_logger - ERROR - Translating بيجاما, 'Bijama' != 'bijama'
 - Bijama
 ? ^
 + bijama
 ? ^
 
-2020-02-07 00:11:54,405 - word_ar_ma_logger - ERROR - Translating بيجو, 'Bijou' != 'bijo'
+2020-02-14 21:00:51,243 - word_ar_ma_logger - ERROR - Translating بيجو, 'Bijou' != 'bijo'
 - Bijou
 + bijo
 
-2020-02-07 00:11:54,406 - word_ar_ma_logger - ERROR - Translating بيرا, 'Birra' != 'bira'
+2020-02-14 21:00:51,244 - word_ar_ma_logger - ERROR - Translating بيرا, 'Birra' != 'bira'
 - Birra
 + bira
 
-2020-02-07 00:11:54,406 - word_ar_ma_logger - ERROR - Translating بيت, 'Bit' != 'bit'
+2020-02-14 21:00:51,244 - word_ar_ma_logger - ERROR - Translating بيت, 'Bit' != 'bit'
 - Bit
 ? ^
 + bit
 ? ^
 
-2020-02-07 00:11:54,407 - word_ar_ma_logger - ERROR - Translating بيطاغاز, 'Bitagaz' != 'bitaghaz'
+2020-02-14 21:00:51,245 - word_ar_ma_logger - ERROR - Translating بيطاغاز, 'Bitagaz' != 'bitaghaz'
 - Bitagaz
 ? ^
 + bitaghaz
 ? ^    +
 
-2020-02-07 00:11:54,407 - word_ar_ma_logger - ERROR - Translating بلاكار, 'blacar' != 'blakar'
+2020-02-14 21:00:51,245 - word_ar_ma_logger - ERROR - Translating بلاكار, 'blacar' != 'blakar'
 - blacar
 ?    ^
 + blakar
 ?    ^
 
-2020-02-07 00:11:54,407 - word_ar_ma_logger - ERROR - Translating بلاكا, 'Blaka' != 'blaka'
+2020-02-14 21:00:51,245 - word_ar_ma_logger - ERROR - Translating بلاكا, 'Blaka' != 'blaka'
 - Blaka
 ? ^
 + blaka
 ? ^
 
-2020-02-07 00:11:54,408 - word_ar_ma_logger - ERROR - Translating بلاصة, 'Blassa' != 'blast'
+2020-02-14 21:00:51,246 - word_ar_ma_logger - ERROR - Translating بلاصة, 'Blassa' != 'blast'
 - Blassa
 + blast
 
-2020-02-07 00:11:54,408 - word_ar_ma_logger - ERROR - Translating بلاندي, 'Blindi' != 'blandi'
+2020-02-14 21:00:51,246 - word_ar_ma_logger - ERROR - Translating بلاندي, 'Blindi' != 'blandi'
 - Blindi
 + blandi
 
-2020-02-07 00:11:54,408 - word_ar_ma_logger - ERROR - Translating بلومبي, 'Blombi' != 'blombi'
+2020-02-14 21:00:51,247 - word_ar_ma_logger - ERROR - Translating بلومبي, 'Blombi' != 'blombi'
 - Blombi
 ? ^
 + blombi
 ? ^
 
-2020-02-07 00:11:54,409 - word_ar_ma_logger - ERROR - Translating بلوزا, 'Blousa' != 'bloza'
+2020-02-14 21:00:51,247 - word_ar_ma_logger - ERROR - Translating بلوزا, 'Blousa' != 'bloza'
 - Blousa
 + bloza
 
-2020-02-07 00:11:54,409 - word_ar_ma_logger - ERROR - Translating بلوزا, 'Blouza' != 'bloza'
+2020-02-14 21:00:51,247 - word_ar_ma_logger - ERROR - Translating بلوزا, 'Blouza' != 'bloza'
 - Blouza
 ? ^  -
 + bloza
 ? ^
 
-2020-02-07 00:11:54,409 - word_ar_ma_logger - ERROR - Translating بوكوص, 'bogoss' != 'bokos'
+2020-02-14 21:00:51,248 - word_ar_ma_logger - ERROR - Translating بوكوص, 'bogoss' != 'bokos'
 - bogoss
 ?   ^  -
 + bokos
 ?   ^
 
-2020-02-07 00:11:54,410 - word_ar_ma_logger - ERROR - Translating بواطة, 'Boita' != 'boatt'
+2020-02-14 21:00:51,248 - word_ar_ma_logger - ERROR - Translating بواطة, 'Boita' != 'boatt'
 - Boita
 + boatt
 
-2020-02-07 00:11:54,410 - word_ar_ma_logger - ERROR - Translating بومبيا, 'Bombiya' != 'bombia'
+2020-02-14 21:00:51,249 - word_ar_ma_logger - ERROR - Translating بومبيا, 'Bombiya' != 'bombia'
 - Bombiya
 ? ^    -
 + bombia
 ? ^
 
-2020-02-07 00:11:54,411 - word_ar_ma_logger - ERROR - Translating بونوكازيو, 'bonokasio' != 'bonokazio'
+2020-02-14 21:00:51,249 - word_ar_ma_logger - ERROR - Translating بونوكازيو, 'bonokasio' != 'bonokazio'
 - bonokasio
 ?       ^
 + bonokazio
 ?       ^
 
-2020-02-07 00:11:54,411 - word_ar_ma_logger - ERROR - Translating بوطونة, 'Botona' != 'botont'
+2020-02-14 21:00:51,250 - word_ar_ma_logger - ERROR - Translating بوطونة, 'Botona' != 'botont'
 - Botona
 + botont
 
-2020-02-07 00:11:54,411 - word_ar_ma_logger - ERROR - Translating بودرة, 'Boudra' != 'bodrt'
+2020-02-14 21:00:51,250 - word_ar_ma_logger - ERROR - Translating بودرة, 'Boudra' != 'bodrt'
 - Boudra
 + bodrt
 
-2020-02-07 00:11:54,412 - word_ar_ma_logger - ERROR - Translating بوسة, 'Boussa' != 'bost'
+2020-02-14 21:00:51,250 - word_ar_ma_logger - ERROR - Translating بوسة, 'Boussa' != 'bost'
 - Boussa
 + bost
 
-2020-02-07 00:11:54,412 - word_ar_ma_logger - ERROR - Translating بوفتيك, 'Bouftik' != 'boftik'
+2020-02-14 21:00:51,251 - word_ar_ma_logger - ERROR - Translating بوفتيك, 'Bouftik' != 'boftik'
 - Bouftik
 ? ^ -
 + boftik
 ? ^
 
-2020-02-07 00:11:54,412 - word_ar_ma_logger - ERROR - Translating بوليس, 'Boulice' != 'bolis'
+2020-02-14 21:00:51,251 - word_ar_ma_logger - ERROR - Translating بوليس, 'Boulice' != 'bolis'
 - Boulice
 + bolis
 
-2020-02-07 00:11:54,413 - word_ar_ma_logger - ERROR - Translating بوليسي, 'Boulissi' != 'bolisi'
+2020-02-14 21:00:51,252 - word_ar_ma_logger - ERROR - Translating بوليسي, 'Boulissi' != 'bolisi'
 - Boulissi
 ? ^ -   -
 + bolisi
 ? ^
 
-2020-02-07 00:11:54,413 - word_ar_ma_logger - ERROR - Translating بون, 'Boune' != 'bon'
+2020-02-14 21:00:51,252 - word_ar_ma_logger - ERROR - Translating بون, 'Boune' != 'bon'
 - Boune
 + bon
 
-2020-02-07 00:11:54,413 - word_ar_ma_logger - ERROR - Translating بروصي, 'Brossi' != 'brosi'
+2020-02-14 21:00:51,252 - word_ar_ma_logger - ERROR - Translating بروصي, 'Brossi' != 'brosi'
 - Brossi
 ? ^   -
 + brosi
 ? ^
 
-2020-02-07 00:11:54,414 - word_ar_ma_logger - ERROR - Translating براكي, 'Braki' != 'braki'
+2020-02-14 21:00:51,253 - word_ar_ma_logger - ERROR - Translating براكي, 'Braki' != 'braki'
 - Braki
 ? ^
 + braki
 ? ^
 
-2020-02-07 00:11:54,414 - word_ar_ma_logger - ERROR - Translating برانشي, 'Branchi' != 'branchi'
+2020-02-14 21:00:51,253 - word_ar_ma_logger - ERROR - Translating برانشي, 'Branchi' != 'branchi'
 - Branchi
 ? ^
 + branchi
 ? ^
 
-2020-02-07 00:11:54,414 - word_ar_ma_logger - ERROR - Translating بريكول, 'Bricoule' != 'brikol'
+2020-02-14 21:00:51,254 - word_ar_ma_logger - ERROR - Translating بريكول, 'Bricoule' != 'brikol'
 - Bricoule
 + brikol
 
-2020-02-07 00:11:54,415 - word_ar_ma_logger - ERROR - Translating بريز, 'Brize' != 'briz'
+2020-02-14 21:00:51,254 - word_ar_ma_logger - ERROR - Translating بريز, 'Brize' != 'briz'
 - Brize
 + briz
 
-2020-02-07 00:11:54,415 - word_ar_ma_logger - ERROR - Translating بروبليم, 'Broblime' != 'broblim'
+2020-02-14 21:00:51,255 - word_ar_ma_logger - ERROR - Translating بروبليم, 'Broblime' != 'broblim'
 - Broblime
 ? ^      -
 + broblim
 ? ^
 
-2020-02-07 00:11:54,416 - word_ar_ma_logger - ERROR - Translating كابران, 'Cabrane' != 'kabran'
+2020-02-14 21:00:51,255 - word_ar_ma_logger - ERROR - Translating كابران, 'Cabrane' != 'kabran'
 - Cabrane
 ? ^     -
 + kabran
 ? ^
 
-2020-02-07 00:11:54,416 - word_ar_ma_logger - ERROR - Translating كادر, 'Cader' != 'kadr'
+2020-02-14 21:00:51,255 - word_ar_ma_logger - ERROR - Translating كادر, 'Cader' != 'kadr'
 - Cader
 + kadr
 
-2020-02-07 00:11:54,416 - word_ar_ma_logger - ERROR - Translating كانابي, 'Canappi' != 'kanabi'
+2020-02-14 21:00:51,256 - word_ar_ma_logger - ERROR - Translating كانابي, 'Canappi' != 'kanabi'
 - Canappi
 + kanabi
 
-2020-02-07 00:11:54,417 - word_ar_ma_logger - ERROR - Translating كارابيلا, 'Carabila' != 'karabila'
+2020-02-14 21:00:51,256 - word_ar_ma_logger - ERROR - Translating كارابيلا, 'Carabila' != 'karabila'
 - Carabila
 ? ^
 + karabila
 ? ^
 
-2020-02-07 00:11:54,417 - word_ar_ma_logger - ERROR - Translating كاردا, 'carda' != 'karda'
+2020-02-14 21:00:51,257 - word_ar_ma_logger - ERROR - Translating كاردا, 'carda' != 'karda'
 - carda
 ? ^
 + karda
 ? ^
 
-2020-02-07 00:11:54,417 - word_ar_ma_logger - ERROR - Translating كارني, 'Carni' != 'karni'
+2020-02-14 21:00:51,257 - word_ar_ma_logger - ERROR - Translating كارني, 'Carni' != 'karni'
 - Carni
 ? ^
 + karni
 ? ^
 
-2020-02-07 00:11:54,418 - word_ar_ma_logger - ERROR - Translating كارطونة, 'Cartonna' != 'kartont'
+2020-02-14 21:00:51,257 - word_ar_ma_logger - ERROR - Translating كارطونة, 'Cartonna' != 'kartont'
 - Cartonna
 + kartont
 
-2020-02-07 00:11:54,418 - word_ar_ma_logger - ERROR - Translating كاسك, 'caske' != 'kask'
+2020-02-14 21:00:51,258 - word_ar_ma_logger - ERROR - Translating كاسك, 'caske' != 'kask'
 - caske
 + kask
 
-2020-02-07 00:11:54,418 - word_ar_ma_logger - ERROR - Translating كاسكروط, 'Cassecrotte' != 'kaskrot'
+2020-02-14 21:00:51,258 - word_ar_ma_logger - ERROR - Translating كاسكروط, 'Cassecrotte' != 'kaskrot'
 - Cassecrotte
 + kaskrot
 
-2020-02-07 00:11:54,419 - word_ar_ma_logger - ERROR - Translating كاسرونة, 'Casserona' != 'kasront'
+2020-02-14 21:00:51,258 - word_ar_ma_logger - ERROR - Translating كاسرونة, 'Casserona' != 'kasront'
 - Casserona
 + kasront
 
-2020-02-07 00:11:54,419 - word_ar_ma_logger - ERROR - Translating كاسيطات, 'Cassetat' != 'kasitat'
+2020-02-14 21:00:51,259 - word_ar_ma_logger - ERROR - Translating كاسيطات, 'Cassetat' != 'kasitat'
 - Cassetat
 + kasitat
 
-2020-02-07 00:11:54,420 - word_ar_ma_logger - ERROR - Translating سرتافيكا, 'Certafika' != 'srtafika'
+2020-02-14 21:00:51,259 - word_ar_ma_logger - ERROR - Translating سرتافيكا, 'Certafika' != 'srtafika'
 - Certafika
 ? ^^
 + srtafika
 ? ^
 
-2020-02-07 00:11:54,420 - word_ar_ma_logger - ERROR - Translating شامبان, 'champpane' != 'chamban'
+2020-02-14 21:00:51,260 - word_ar_ma_logger - ERROR - Translating شامبان, 'champpane' != 'chamban'
 - champpane
 ?     ^^  -
 + chamban
 ?     ^
 
-2020-02-07 00:11:54,420 - word_ar_ma_logger - ERROR - Translating شانتيو, 'Chanteyyo' != 'chantio'
+2020-02-14 21:00:51,260 - word_ar_ma_logger - ERROR - Translating شانتيو, 'Chanteyyo' != 'chantio'
 - Chanteyyo
 + chantio
 
-2020-02-07 00:11:54,421 - word_ar_ma_logger - ERROR - Translating شارجان, 'charjane' != 'charjan'
+2020-02-14 21:00:51,260 - word_ar_ma_logger - ERROR - Translating شارجان, 'charjane' != 'charjan'
 - charjane
 ?        -
 + charjan
 
-2020-02-07 00:11:54,421 - word_ar_ma_logger - ERROR - Translating شوفاج, 'Chauffage' != 'chofaj'
+2020-02-14 21:00:51,261 - word_ar_ma_logger - ERROR - Translating شوفاج, 'Chauffage' != 'chofaj'
 - Chauffage
 + chofaj
 
-2020-02-07 00:11:54,422 - word_ar_ma_logger - ERROR - Translating كوافورا, 'coiffoura' != 'koafora'
+2020-02-14 21:00:51,261 - word_ar_ma_logger - ERROR - Translating كوافورا, 'coiffoura' != 'koafora'
 - coiffoura
 + koafora
 
-2020-02-07 00:11:54,422 - word_ar_ma_logger - ERROR - Translating سيدي, 'Cidi' != 'sidi'
+2020-02-14 21:00:51,262 - word_ar_ma_logger - ERROR - Translating سيدي, 'Cidi' != 'sidi'
 - Cidi
 ? ^
 + sidi
 ? ^
 
-2020-02-07 00:11:54,422 - word_ar_ma_logger - ERROR - Translating سيما, 'cima' != 'sima'
+2020-02-14 21:00:51,262 - word_ar_ma_logger - ERROR - Translating سيما, 'cima' != 'sima'
 - cima
 ? ^
 + sima
 ? ^
 
-2020-02-07 00:11:54,423 - word_ar_ma_logger - ERROR - Translating شيفور, 'Chifor' != 'chifor'
+2020-02-14 21:00:51,262 - word_ar_ma_logger - ERROR - Translating شيفور, 'Chifor' != 'chifor'
 - Chifor
 ? ^
 + chifor
 ? ^
 
-2020-02-07 00:11:54,423 - word_ar_ma_logger - ERROR - Translating شيك, 'Chik' != 'chik'
+2020-02-14 21:00:51,263 - word_ar_ma_logger - ERROR - Translating شيك, 'Chik' != 'chik'
 - Chik
 ? ^
 + chik
 ? ^
 
-2020-02-07 00:11:54,423 - word_ar_ma_logger - ERROR - Translating شينوي, 'Chiniwi' != 'chinoi'
+2020-02-14 21:00:51,263 - word_ar_ma_logger - ERROR - Translating شينوي, 'Chiniwi' != 'chinoi'
 - Chiniwi
 + chinoi
 
-2020-02-07 00:11:54,424 - word_ar_ma_logger - ERROR - Translating شكلاط, 'Chklat' != 'chklat'
+2020-02-14 21:00:51,263 - word_ar_ma_logger - ERROR - Translating شكلاط, 'Chklat' != 'chklat'
 - Chklat
 ? ^
 + chklat
 ? ^
 
-2020-02-07 00:11:54,424 - word_ar_ma_logger - ERROR - Translating شلاضة, 'Chlada' != 'chladt'
+2020-02-14 21:00:51,264 - word_ar_ma_logger - ERROR - Translating شلاضة, 'Chlada' != 'chladt'
 - Chlada
 + chladt
 
-2020-02-07 00:11:54,424 - word_ar_ma_logger - ERROR - Translating شوفو, 'Chofo' != 'chofo'
+2020-02-14 21:00:51,264 - word_ar_ma_logger - ERROR - Translating شوفو, 'Chofo' != 'chofo'
 - Chofo
 ? ^
 + chofo
 ? ^
 
-2020-02-07 00:11:54,425 - word_ar_ma_logger - ERROR - Translating تيران, 'Tirran' != 'tiran'
+2020-02-14 21:00:51,265 - word_ar_ma_logger - ERROR - Translating تيران, 'Tirran' != 'tiran'
 - Tirran
 ? ^ -
 + tiran
 ? ^
 
-2020-02-07 00:11:54,425 - word_ar_ma_logger - ERROR - Translating تيتسويت, 'Titsuit' != 'titsoit'
+2020-02-14 21:00:51,265 - word_ar_ma_logger - ERROR - Translating تيتسويت, 'Titsuit' != 'titsoit'
 - Titsuit
 ? ^   ^
 + titsoit
 ? ^   ^
 
-2020-02-07 00:11:54,426 - word_ar_ma_logger - ERROR - Translating تكونكطا, 'Tkonnecta' != 'tkonkta'
+2020-02-14 21:00:51,265 - word_ar_ma_logger - ERROR - Translating تكونكطا, 'Tkonnecta' != 'tkonkta'
 - Tkonnecta
 + tkonkta
 
-2020-02-07 00:11:54,426 - word_ar_ma_logger - ERROR - Translating طوبيس, 'Tobiss' != 'tobis'
+2020-02-14 21:00:51,266 - word_ar_ma_logger - ERROR - Translating طوبيس, 'Tobiss' != 'tobis'
 - Tobiss
 ? ^    -
 + tobis
 ? ^
 
-2020-02-07 00:11:54,426 - word_ar_ma_logger - ERROR - Translating طولة, 'Tola' != 'tolt'
+2020-02-14 21:00:51,266 - word_ar_ma_logger - ERROR - Translating طولة, 'Tola' != 'tolt'
 - Tola
 + tolt
 
-2020-02-07 00:11:54,427 - word_ar_ma_logger - ERROR - Translating طولانطي, 'Tolanti' != 'tolanti'
+2020-02-14 21:00:51,266 - word_ar_ma_logger - ERROR - Translating طولانطي, 'Tolanti' != 'tolanti'
 - Tolanti
 ? ^
 + tolanti
 ? ^
 
-2020-02-07 00:11:54,427 - word_ar_ma_logger - ERROR - Translating طونوبيل, 'Tonobile' != 'tonobil'
+2020-02-14 21:00:51,267 - word_ar_ma_logger - ERROR - Translating طونوبيل, 'Tonobile' != 'tonobil'
 - Tonobile
 ? ^      -
 + tonobil
 ? ^
 
-2020-02-07 00:11:54,427 - word_ar_ma_logger - ERROR - Translating طوريزاسيو, 'torizatio' != 'torizasio'
+2020-02-14 21:00:51,267 - word_ar_ma_logger - ERROR - Translating طوريزاسيو, 'torizatio' != 'torizasio'
 - torizatio
 ?       ^
 + torizasio
 ?       ^
 
-2020-02-07 00:11:54,428 - word_ar_ma_logger - ERROR - Translating توني, 'touni' != 'toni'
+2020-02-14 21:00:51,268 - word_ar_ma_logger - ERROR - Translating توني, 'touni' != 'toni'
 - touni
 ?   -
 + toni
 
-2020-02-07 00:11:54,428 - word_ar_ma_logger - ERROR - Translating طرابوبليك, 'Traboblik' != 'traboblik'
+2020-02-14 21:00:51,268 - word_ar_ma_logger - ERROR - Translating طرابوبليك, 'Traboblik' != 'traboblik'
 - Traboblik
 ? ^
 + traboblik
 ? ^
 
-2020-02-07 00:11:54,429 - word_ar_ma_logger - ERROR - Translating طراكس, 'trakss' != 'traks'
+2020-02-14 21:00:51,268 - word_ar_ma_logger - ERROR - Translating طراكس, 'trakss' != 'traks'
 - trakss
 ?      -
 + traks
 
-2020-02-07 00:11:54,429 - word_ar_ma_logger - ERROR - Translating تران, 'Trane' != 'tran'
+2020-02-14 21:00:51,269 - word_ar_ma_logger - ERROR - Translating تران, 'Trane' != 'tran'
 - Trane
 + tran
 
-2020-02-07 00:11:54,429 - word_ar_ma_logger - ERROR - Translating زماكري, 'Zmagri' != 'zmakri'
+2020-02-14 21:00:51,269 - word_ar_ma_logger - ERROR - Translating زماكري, 'Zmagri' != 'zmakri'
 - Zmagri
 + zmakri
 
-2020-02-07 00:11:54,430 - word_ar_ma_logger - ERROR - Translating زماكريا, 'Zmagria' != 'zmakria'
+2020-02-14 21:00:51,270 - word_ar_ma_logger - ERROR - Translating زماكريا, 'Zmagria' != 'zmakria'
 - Zmagria
 ? ^  ^
 + zmakria
 ? ^  ^
 
-2020-02-07 00:11:54,430 - word_ar_ma_logger - ERROR - Translating نريسينتي, 'Tricinti' != 'nrisinti'
+2020-02-14 21:00:51,270 - word_ar_ma_logger - ERROR - Translating نريسينتي, 'Tricinti' != 'nrisinti'
 - Tricinti
 ? ^  ^
 + nrisinti
 ? ^  ^
 
-2020-02-07 00:11:54,431 - word_ar_ma_logger - ERROR - Translating تريسيان, 'Triciyanne' != 'trisian'
+2020-02-14 21:00:51,271 - word_ar_ma_logger - ERROR - Translating تريسيان, 'Triciyanne' != 'trisian'
 - Triciyanne
 + trisian
 
-2020-02-07 00:11:54,431 - word_ar_ma_logger - ERROR - Translating تريكو, 'Trikou' != 'triko'
+2020-02-14 21:00:51,271 - word_ar_ma_logger - ERROR - Translating تريكو, 'Trikou' != 'triko'
 - Trikou
 ? ^    -
 + triko
 ? ^
 
-2020-02-07 00:11:54,431 - word_ar_ma_logger - ERROR - Translating تريني, 'Trini' != 'trini'
+2020-02-14 21:00:51,272 - word_ar_ma_logger - ERROR - Translating تريني, 'Trini' != 'trini'
 - Trini
 ? ^
 + trini
 ? ^
 
-2020-02-07 00:11:54,432 - word_ar_ma_logger - ERROR - Translating ويسكيا, 'wiskiyya' != 'oiskia'
+2020-02-14 21:00:51,272 - word_ar_ma_logger - ERROR - Translating ويسكيا, 'wiskiyya' != 'oiskia'
 - wiskiyya
 ? ^    --
 + oiskia
 ? ^
 
-2020-02-07 00:11:54,432 - word_ar_ma_logger - ERROR - Translating كسيري, 'Xciri' != 'ksiri'
+2020-02-14 21:00:51,272 - word_ar_ma_logger - ERROR - Translating كسيري, 'Xciri' != 'ksiri'
 - Xciri
 + ksiri
 
-2020-02-07 00:11:54,432 - word_ar_ma_logger - ERROR - Translating زينة, 'zina' != 'zint'
+2020-02-14 21:00:51,273 - word_ar_ma_logger - ERROR - Translating زينة, 'zina' != 'zint'
 - zina
 ?    ^
 + zint
 ?    ^
 
-2020-02-07 00:11:54,433 - word_ar_ma_logger - ERROR - Translating كونطا, 'Conta' != 'konta'
+2020-02-14 21:00:51,273 - word_ar_ma_logger - ERROR - Translating كونطا, 'Conta' != 'konta'
 - Conta
 ? ^
 + konta
 ? ^
 
-2020-02-07 00:11:54,433 - word_ar_ma_logger - ERROR - Translating كونطابل, 'Contable' != 'kontabl'
+2020-02-14 21:00:51,274 - word_ar_ma_logger - ERROR - Translating كونطابل, 'Contable' != 'kontabl'
 - Contable
 ? ^      -
 + kontabl
 ? ^
 
-2020-02-07 00:11:54,434 - word_ar_ma_logger - ERROR - Translating كونطرادا, 'Contrada' != 'kontrada'
+2020-02-14 21:00:51,274 - word_ar_ma_logger - ERROR - Translating كونطرادا, 'Contrada' != 'kontrada'
 - Contrada
 ? ^
 + kontrada
 ? ^
 
-2020-02-07 00:11:54,434 - word_ar_ma_logger - ERROR - Translating كونتور, 'Contour' != 'kontor'
+2020-02-14 21:00:51,274 - word_ar_ma_logger - ERROR - Translating كونتور, 'Contour' != 'kontor'
 - Contour
 ? ^    -
 + kontor
 ? ^
 
-2020-02-07 00:11:54,434 - word_ar_ma_logger - ERROR - Translating كونطرولور, 'Controlour' != 'kontrolor'
+2020-02-14 21:00:51,275 - word_ar_ma_logger - ERROR - Translating كونطرولور, 'Controlour' != 'kontrolor'
 - Controlour
 ? ^       -
 + kontrolor
 ? ^
 
-2020-02-07 00:11:54,435 - word_ar_ma_logger - ERROR - Translating كورسا, 'Corsa' != 'korsa'
+2020-02-14 21:00:51,275 - word_ar_ma_logger - ERROR - Translating كورسا, 'Corsa' != 'korsa'
 - Corsa
 ? ^
 + korsa
 ? ^
 
-2020-02-07 00:11:54,435 - word_ar_ma_logger - ERROR - Translating كوصطا, 'Costa' != 'kosta'
+2020-02-14 21:00:51,276 - word_ar_ma_logger - ERROR - Translating كوصطا, 'Costa' != 'kosta'
 - Costa
 ? ^
 + kosta
 ? ^
 
-2020-02-07 00:11:54,435 - word_ar_ma_logger - ERROR - Translating كوفيتير, 'Coufitire' != 'kofitir'
+2020-02-14 21:00:51,276 - word_ar_ma_logger - ERROR - Translating كوفيتير, 'Coufitire' != 'kofitir'
 - Coufitire
 ? ^ -     -
 + kofitir
 ? ^
 
-2020-02-07 00:11:54,436 - word_ar_ma_logger - ERROR - Translating كولاندير, 'Coulandere' != 'kolandir'
+2020-02-14 21:00:51,276 - word_ar_ma_logger - ERROR - Translating كولاندير, 'Coulandere' != 'kolandir'
 - Coulandere
 + kolandir
 
-2020-02-07 00:11:54,436 - word_ar_ma_logger - ERROR - Translating كوميسير, 'Coumissire' != 'komisir'
+2020-02-14 21:00:51,277 - word_ar_ma_logger - ERROR - Translating كوميسير, 'Coumissire' != 'komisir'
 - Coumissire
 + komisir
 
-2020-02-07 00:11:54,437 - word_ar_ma_logger - ERROR - Translating كوميسيو, 'Coumissiyou' != 'komisio'
+2020-02-14 21:00:51,277 - word_ar_ma_logger - ERROR - Translating كوميسيو, 'Coumissiyou' != 'komisio'
 - Coumissiyou
 + komisio
 
-2020-02-07 00:11:54,437 - word_ar_ma_logger - ERROR - Translating كونجي, 'Counji' != 'konji'
+2020-02-14 21:00:51,278 - word_ar_ma_logger - ERROR - Translating كونجي, 'Counji' != 'konji'
 - Counji
 ? ^ -
 + konji
 ? ^
 
-2020-02-07 00:11:54,437 - word_ar_ma_logger - ERROR - Translating كريدي, 'Cridi' != 'kridi'
+2020-02-14 21:00:51,278 - word_ar_ma_logger - ERROR - Translating كريدي, 'Cridi' != 'kridi'
 - Cridi
 ? ^
 + kridi
 ? ^
 
-2020-02-07 00:11:54,438 - word_ar_ma_logger - ERROR - Translating كوردا, 'Courda' != 'korda'
+2020-02-14 21:00:51,278 - word_ar_ma_logger - ERROR - Translating كوردا, 'Courda' != 'korda'
 - Courda
 ? ^ -
 + korda
 ? ^
 
-2020-02-07 00:11:54,438 - word_ar_ma_logger - ERROR - Translating كورتي, 'Courti' != 'korti'
+2020-02-14 21:00:51,279 - word_ar_ma_logger - ERROR - Translating كورتي, 'Courti' != 'korti'
 - Courti
 ? ^ -
 + korti
 ? ^
 
-2020-02-07 00:11:54,438 - word_ar_ma_logger - ERROR - Translating كريون, 'Cryone' != 'krion'
+2020-02-14 21:00:51,279 - word_ar_ma_logger - ERROR - Translating كريون, 'Cryone' != 'krion'
 - Cryone
 + krion
 
-2020-02-07 00:11:54,439 - word_ar_ma_logger - ERROR - Translating كوزينا, 'Couzina' != 'kozina'
+2020-02-14 21:00:51,279 - word_ar_ma_logger - ERROR - Translating كوزينا, 'Couzina' != 'kozina'
 - Couzina
 ? ^ -
 + kozina
 ? ^
 
-2020-02-07 00:11:54,439 - word_ar_ma_logger - ERROR - Translating ديباناج, 'dipanaj' != 'dibanaj'
+2020-02-14 21:00:51,280 - word_ar_ma_logger - ERROR - Translating ديباناج, 'dipanaj' != 'dibanaj'
 - dipanaj
 ?   ^
 + dibanaj
 ?   ^
 
-2020-02-07 00:11:54,439 - word_ar_ma_logger - ERROR - Translating ديريكتور, 'directour' != 'diriktor'
+2020-02-14 21:00:51,280 - word_ar_ma_logger - ERROR - Translating ديريكتور, 'directour' != 'diriktor'
 - directour
 + diriktor
 
-2020-02-07 00:11:54,440 - word_ar_ma_logger - ERROR - Translating ديسير, 'Dissire' != 'disir'
+2020-02-14 21:00:51,281 - word_ar_ma_logger - ERROR - Translating ديسير, 'Dissire' != 'disir'
 - Dissire
 + disir
 
-2020-02-07 00:11:54,440 - word_ar_ma_logger - ERROR - Translating ديطاي, 'ditay' != 'ditai'
+2020-02-14 21:00:51,281 - word_ar_ma_logger - ERROR - Translating ديطاي, 'ditay' != 'ditai'
 - ditay
 ?     ^
 + ditai
 ?     ^
 
-2020-02-07 00:11:54,441 - word_ar_ma_logger - ERROR - Translating دجين, 'Djine' != 'djin'
+2020-02-14 21:00:51,281 - word_ar_ma_logger - ERROR - Translating دجين, 'Djine' != 'djin'
 - Djine
 + djin
 
-2020-02-07 00:11:54,441 - word_ar_ma_logger - ERROR - Translating دوسي, 'Dossé' != 'dosi'
+2020-02-14 21:00:51,282 - word_ar_ma_logger - ERROR - Translating دوسي, 'Dossé' != 'dosi'
 - Dossé
 + dosi
 
-2020-02-07 00:11:54,441 - word_ar_ma_logger - ERROR - Translating دواش, 'Douachche' != 'doach'
+2020-02-14 21:00:51,282 - word_ar_ma_logger - ERROR - Translating دواش, 'Douachche' != 'doach'
 - Douachche
 + doach
 
-2020-02-07 00:11:54,442 - word_ar_ma_logger - ERROR - Translating دوبلفي, 'Doublvi' != 'doblfi'
+2020-02-14 21:00:51,282 - word_ar_ma_logger - ERROR - Translating دوبلفي, 'Doublvi' != 'doblfi'
 - Doublvi
 + doblfi
 
-2020-02-07 00:11:54,442 - word_ar_ma_logger - ERROR - Translating الكراج, 'elgaraj' != 'alkraj'
+2020-02-14 21:00:51,283 - word_ar_ma_logger - ERROR - Translating الكراج, 'elgaraj' != 'alkraj'
 - elgaraj
 + alkraj
 
-2020-02-07 00:11:54,442 - word_ar_ma_logger - ERROR - Translating دوزياميطا, 'Douzyam mitta ' != 'doziamita'
+2020-02-14 21:00:51,283 - word_ar_ma_logger - ERROR - Translating دوزياميطا, 'Douzyam mitta ' != 'doziamita'
 - Douzyam mitta 
 + doziamita
 
-2020-02-07 00:11:54,443 - word_ar_ma_logger - ERROR - Translating ديكري, 'digri' != 'dikri'
+2020-02-14 21:00:51,284 - word_ar_ma_logger - ERROR - Translating ديكري, 'digri' != 'dikri'
 - digri
 ?   ^
 + dikri
 ?   ^
 
-2020-02-07 00:11:54,443 - word_ar_ma_logger - ERROR - Translating ديميردي, 'darb' != 'dimirdi'
+2020-02-14 21:00:51,284 - word_ar_ma_logger - ERROR - Translating ديميردي, 'darb' != 'dimirdi'
 - darb
 + dimirdi
 
-2020-02-07 00:11:54,443 - word_ar_ma_logger - ERROR - Translating ديفو, 'Diffou' != 'difo'
+2020-02-14 21:00:51,284 - word_ar_ma_logger - ERROR - Translating ديفو, 'Diffou' != 'difo'
 - Diffou
 + difo
 
-2020-02-07 00:11:54,444 - word_ar_ma_logger - ERROR - Translating ديكاج, 'Digage' != 'dikaj'
+2020-02-14 21:00:51,285 - word_ar_ma_logger - ERROR - Translating ديكاج, 'Digage' != 'dikaj'
 - Digage
 + dikaj
 
-2020-02-07 00:11:54,444 - word_ar_ma_logger - ERROR - Translating فابور, 'Fabor' != 'fabor'
+2020-02-14 21:00:51,285 - word_ar_ma_logger - ERROR - Translating فابور, 'Fabor' != 'fabor'
 - Fabor
 ? ^
 + fabor
 ? ^
 
-2020-02-07 00:11:54,444 - word_ar_ma_logger - ERROR - Translating فاكتورة, 'Factoura' != 'faktort'
+2020-02-14 21:00:51,285 - word_ar_ma_logger - ERROR - Translating فاكتورة, 'Factoura' != 'faktort'
 - Factoura
 + faktort
 
-2020-02-07 00:11:54,445 - word_ar_ma_logger - ERROR - Translating فاكانص, 'Fakance' != 'fakans'
+2020-02-14 21:00:51,286 - word_ar_ma_logger - ERROR - Translating فاكانص, 'Fakance' != 'fakans'
 - Fakance
 + fakans
 
-2020-02-07 00:11:54,445 - word_ar_ma_logger - ERROR - Translating فاكانصي, 'Fakanssi' != 'fakansi'
+2020-02-14 21:00:51,286 - word_ar_ma_logger - ERROR - Translating فاكانصي, 'Fakanssi' != 'fakansi'
 - Fakanssi
 ? ^     -
 + fakansi
 ? ^
 
-2020-02-07 00:11:54,445 - word_ar_ma_logger - ERROR - Translating فاميلا, 'Famila' != 'famila'
+2020-02-14 21:00:51,286 - word_ar_ma_logger - ERROR - Translating فاميلا, 'Famila' != 'famila'
 - Famila
 ? ^
 + famila
 ? ^
 
-2020-02-07 00:11:54,446 - word_ar_ma_logger - ERROR - Translating فرشيطا, 'Farchita' != 'frchita'
+2020-02-14 21:00:51,287 - word_ar_ma_logger - ERROR - Translating فرشيطا, 'Farchita' != 'frchita'
 - Farchita
 ? ^^
 + frchita
 ? ^
 
-2020-02-07 00:11:54,446 - word_ar_ma_logger - ERROR - Translating فركونيط, 'Fargonite' != 'frkonit'
+2020-02-14 21:00:51,287 - word_ar_ma_logger - ERROR - Translating فركونيط, 'Fargonite' != 'frkonit'
 - Fargonite
 + frkonit
 
-2020-02-07 00:11:54,447 - word_ar_ma_logger - ERROR - Translating فرينة, 'Farina' != 'frint'
+2020-02-14 21:00:51,288 - word_ar_ma_logger - ERROR - Translating فرينة, 'Farina' != 'frint'
 - Farina
 + frint
 
-2020-02-07 00:11:54,447 - word_ar_ma_logger - ERROR - Translating فرماصيان, 'Farmaciyane' != 'frmasian'
+2020-02-14 21:00:51,288 - word_ar_ma_logger - ERROR - Translating فرماصيان, 'Farmaciyane' != 'frmasian'
 - Farmaciyane
 + frmasian
 
-2020-02-07 00:11:54,447 - word_ar_ma_logger - ERROR - Translating فرماج, 'Farmage' != 'frmaj'
+2020-02-14 21:00:51,288 - word_ar_ma_logger - ERROR - Translating فرماج, 'Farmage' != 'frmaj'
 - Farmage
 + frmaj
 
-2020-02-07 00:11:54,448 - word_ar_ma_logger - ERROR - Translating فاصمة, 'Fasma' != 'fasmt'
+2020-02-14 21:00:51,289 - word_ar_ma_logger - ERROR - Translating فاصمة, 'Fasma' != 'fasmt'
 - Fasma
 + fasmt
 
-2020-02-07 00:11:54,448 - word_ar_ma_logger - ERROR - Translating فوطوي, 'Fautouye' != 'fotoi'
+2020-02-14 21:00:51,289 - word_ar_ma_logger - ERROR - Translating فوطوي, 'Fautouye' != 'fotoi'
 - Fautouye
 + fotoi
 
-2020-02-07 00:11:54,448 - word_ar_ma_logger - ERROR - Translating فاياج, 'Fayage' != 'faiaj'
+2020-02-14 21:00:51,289 - word_ar_ma_logger - ERROR - Translating فاياج, 'Fayage' != 'faiaj'
 - Fayage
 + faiaj
 
-2020-02-07 00:11:54,449 - word_ar_ma_logger - ERROR - Translating فنيان, 'Feniyane' != 'fnian'
+2020-02-14 21:00:51,290 - word_ar_ma_logger - ERROR - Translating فنيان, 'Feniyane' != 'fnian'
 - Feniyane
 + fnian
 
-2020-02-07 00:11:54,449 - word_ar_ma_logger - ERROR - Translating فرصادا, 'Fersada' != 'frsada'
+2020-02-14 21:00:51,290 - word_ar_ma_logger - ERROR - Translating فرصادا, 'Fersada' != 'frsada'
 - Fersada
 ? ^^
 + frsada
 ? ^
 
-2020-02-07 00:11:54,449 - word_ar_ma_logger - ERROR - Translating فرملي, 'Fermli' != 'frmli'
+2020-02-14 21:00:51,290 - word_ar_ma_logger - ERROR - Translating فرملي, 'Fermli' != 'frmli'
 - Fermli
 ? ^^
 + frmli
 ? ^
 
-2020-02-07 00:11:54,450 - word_ar_ma_logger - ERROR - Translating فريا, 'féria' != 'fria'
+2020-02-14 21:00:51,291 - word_ar_ma_logger - ERROR - Translating فريا, 'féria' != 'fria'
 - féria
 ?  -
 + fria
 
-2020-02-07 00:11:54,450 - word_ar_ma_logger - ERROR - Translating فيكورا, 'Figoura' != 'fikora'
+2020-02-14 21:00:51,291 - word_ar_ma_logger - ERROR - Translating فيكورا, 'Figoura' != 'fikora'
 - Figoura
 + fikora
 
-2020-02-07 00:11:54,450 - word_ar_ma_logger - ERROR - Translating فيجطا, 'Fijta' != 'fijta'
+2020-02-14 21:00:51,292 - word_ar_ma_logger - ERROR - Translating فيجطا, 'Fijta' != 'fijta'
 - Fijta
 ? ^
 + fijta
 ? ^
 
-2020-02-07 00:11:54,451 - word_ar_ma_logger - ERROR - Translating فيلاج, 'Filage' != 'filaj'
+2020-02-14 21:00:51,292 - word_ar_ma_logger - ERROR - Translating فيلاج, 'Filage' != 'filaj'
 - Filage
 + filaj
 
-2020-02-07 00:11:54,451 - word_ar_ma_logger - ERROR - Translating فيرما, 'Firma' != 'firma'
+2020-02-14 21:00:51,292 - word_ar_ma_logger - ERROR - Translating فيرما, 'Firma' != 'firma'
 - Firma
 ? ^
 + firma
 ? ^
 
-2020-02-07 00:11:54,452 - word_ar_ma_logger - ERROR - Translating كارانطي, 'Garanti' != 'karanti'
+2020-02-14 21:00:51,293 - word_ar_ma_logger - ERROR - Translating كارانطي, 'Garanti' != 'karanti'
 - Garanti
 ? ^
 + karanti
 ? ^
 
-2020-02-07 00:11:54,452 - word_ar_ma_logger - ERROR - Translating كارصون, 'Garçone' != 'karson'
+2020-02-14 21:00:51,293 - word_ar_ma_logger - ERROR - Translating كارصون, 'Garçone' != 'karson'
 - Garçone
 + karson
 
-2020-02-07 00:11:54,452 - word_ar_ma_logger - ERROR - Translating كارو, 'Garro' != 'karo'
+2020-02-14 21:00:51,293 - word_ar_ma_logger - ERROR - Translating كارو, 'Garro' != 'karo'
 - Garro
 + karo
 
-2020-02-07 00:11:54,453 - word_ar_ma_logger - ERROR - Translating كارصون, 'Garssone' != 'karson'
+2020-02-14 21:00:51,294 - word_ar_ma_logger - ERROR - Translating كارصون, 'Garssone' != 'karson'
 - Garssone
 ? ^   -  -
 + karson
 ? ^
 
-2020-02-07 00:11:54,453 - word_ar_ma_logger - ERROR - Translating كارصونيا, 'Garssoniyya' != 'karsonia'
+2020-02-14 21:00:51,294 - word_ar_ma_logger - ERROR - Translating كارصونيا, 'Garssoniyya' != 'karsonia'
 - Garssoniyya
 ? ^  -    --
 + karsonia
 ? ^
 
-2020-02-07 00:11:54,453 - word_ar_ma_logger - ERROR - Translating كازوزا, 'Gazouza' != 'kazoza'
+2020-02-14 21:00:51,295 - word_ar_ma_logger - ERROR - Translating كازوزا, 'Gazouza' != 'kazoza'
 - Gazouza
 ? ^   -
 + kazoza
 ? ^
 
-2020-02-07 00:11:54,454 - word_ar_ma_logger - ERROR - Translating غراف, 'Gharrafe' != 'ghraf'
+2020-02-14 21:00:51,295 - word_ar_ma_logger - ERROR - Translating غراف, 'Gharrafe' != 'ghraf'
 - Gharrafe
 + ghraf
 
-2020-02-07 00:11:54,454 - word_ar_ma_logger - ERROR - Translating كودرون, 'Godrone' != 'kodron'
+2020-02-14 21:00:51,295 - word_ar_ma_logger - ERROR - Translating كودرون, 'Godrone' != 'kodron'
 - Godrone
 ? ^     -
 + kodron
 ? ^
 
-2020-02-07 00:11:54,454 - word_ar_ma_logger - ERROR - Translating كوما, 'Gouma' != 'koma'
+2020-02-14 21:00:51,296 - word_ar_ma_logger - ERROR - Translating كوما, 'Gouma' != 'koma'
 - Gouma
 + koma
 
-2020-02-07 00:11:54,455 - word_ar_ma_logger - ERROR - Translating كريسون, 'Grissoune' != 'krison'
+2020-02-14 21:00:51,296 - word_ar_ma_logger - ERROR - Translating كريسون, 'Grissoune' != 'krison'
 - Grissoune
 + krison
 
-2020-02-07 00:11:54,455 - word_ar_ma_logger - ERROR - Translating كرياج, 'Griyage' != 'kriaj'
+2020-02-14 21:00:51,296 - word_ar_ma_logger - ERROR - Translating كرياج, 'Griyage' != 'kriaj'
 - Griyage
 + kriaj
 
-2020-02-07 00:11:54,455 - word_ar_ma_logger - ERROR - Translating كروا, 'Growa' != 'kroa'
+2020-02-14 21:00:51,297 - word_ar_ma_logger - ERROR - Translating كروا, 'Growa' != 'kroa'
 - Growa
 + kroa
 
-2020-02-07 00:11:54,456 - word_ar_ma_logger - ERROR - Translating كاليزي, 'Gualizi' != 'kalizi'
+2020-02-14 21:00:51,297 - word_ar_ma_logger - ERROR - Translating كاليزي, 'Gualizi' != 'kalizi'
 - Gualizi
 ? ^^
 + kalizi
 ? ^
 
-2020-02-07 00:11:54,456 - word_ar_ma_logger - ERROR - Translating كيدون, 'guidoune' != 'kidon'
+2020-02-14 21:00:51,298 - word_ar_ma_logger - ERROR - Translating كيدون, 'guidoune' != 'kidon'
 - guidoune
 + kidon
 
-2020-02-07 00:11:54,457 - word_ar_ma_logger - ERROR - Translating كيرا, 'Guirra' != 'kira'
+2020-02-14 21:00:51,298 - word_ar_ma_logger - ERROR - Translating كيرا, 'Guirra' != 'kira'
 - Guirra
 + kira
 
-2020-02-07 00:11:54,457 - word_ar_ma_logger - ERROR - Translating كيتارا, 'Guitara' != 'kitara'
+2020-02-14 21:00:51,298 - word_ar_ma_logger - ERROR - Translating كيتارا, 'Guitara' != 'kitara'
 - Guitara
 ? ^^
 + kitara
 ? ^
 
-2020-02-07 00:11:54,457 - word_ar_ma_logger - ERROR - Translating خيزو, '5izou' != '5izo'
+2020-02-14 21:00:51,299 - word_ar_ma_logger - ERROR - Translating خيزو, '5izou' != '5izo'
 - 5izou
 ?     -
 + 5izo
 
-2020-02-07 00:11:54,458 - word_ar_ma_logger - ERROR - Translating تلفون, 'tilifone' != 'tlfon'
+2020-02-14 21:00:51,299 - word_ar_ma_logger - ERROR - Translating تلفون, 'tilifone' != 'tlfon'
 - tilifone
 ?  - -   -
 + tlfon
 
-2020-02-07 00:11:54,458 - word_ar_ma_logger - ERROR - Translating كرسي, 'korsi' != 'krsi'
+2020-02-14 21:00:51,300 - word_ar_ma_logger - ERROR - Translating كرسي, 'korsi' != 'krsi'
 - korsi
 ?  -
 + krsi
 
-2020-02-07 00:11:54,459 - word_ar_ma_logger - ERROR - Translating براد, 'berrad' != 'brad'
+2020-02-14 21:00:51,300 - word_ar_ma_logger - ERROR - Translating براد, 'berrad' != 'brad'
 - berrad
 ?  --
 + brad
 
-2020-02-07 00:11:54,459 - word_ar_ma_logger - ERROR - Translating اتاي, 'atay' != 'atai'
+2020-02-14 21:00:51,300 - word_ar_ma_logger - ERROR - Translating اتاي, 'atay' != 'atai'
 - atay
 ?    ^
 + atai
 ?    ^
 
-2020-02-07 00:11:54,459 - word_ar_ma_logger - ERROR - Translating فاليزا, 'valiza' != 'faliza'
+2020-02-14 21:00:51,301 - word_ar_ma_logger - ERROR - Translating فاليزا, 'valiza' != 'faliza'
 - valiza
 ? ^
 + faliza
 ? ^
 
-2020-02-07 00:11:54,460 - word_ar_ma_logger - ERROR - Translating سروال, 'srwal' != 'sroal'
+2020-02-14 21:00:51,301 - word_ar_ma_logger - ERROR - Translating سروال, 'srwal' != 'sroal'
 - srwal
 ?   ^
 + sroal
 ?   ^
 
-2020-02-07 00:11:54,460 - word_ar_ma_logger - ERROR - Translating تريكو, 'trikot' != 'triko'
+2020-02-14 21:00:51,302 - word_ar_ma_logger - ERROR - Translating تريكو, 'trikot' != 'triko'
 - trikot
 ?      -
 + triko
 
-2020-02-07 00:11:54,460 - word_ar_ma_logger - ERROR - Translating طبع, 'tbe3' != 'tb3'
+2020-02-14 21:00:51,302 - word_ar_ma_logger - ERROR - Translating طبع, 'tbe3' != 'tb3'
 - tbe3
 ?   -
 + tb3
 
-2020-02-07 00:11:54,461 - word_ar_ma_logger - ERROR - Translating حلم, '7lem' != '7lm'
+2020-02-14 21:00:51,302 - word_ar_ma_logger - ERROR - Translating حلم, '7lem' != '7lm'
 - 7lem
 ?   -
 + 7lm
 
-2020-02-07 00:11:54,461 - word_ar_ma_logger - ERROR - Translating ضرب, 'dreb' != 'drb'
+2020-02-14 21:00:51,303 - word_ar_ma_logger - ERROR - Translating ضرب, 'dreb' != 'drb'
 - dreb
 ?   -
 + drb
 
-2020-02-07 00:11:54,461 - word_ar_ma_logger - ERROR - Translating هرب, 'hreb' != 'hrb'
+2020-02-14 21:00:51,303 - word_ar_ma_logger - ERROR - Translating هرب, 'hreb' != 'hrb'
 - hreb
 ?   -
 + hrb
 
-2020-02-07 00:11:54,462 - word_ar_ma_logger - ERROR - Translating لعب, 'l3eb' != 'l3b'
+2020-02-14 21:00:51,303 - word_ar_ma_logger - ERROR - Translating لعب, 'l3eb' != 'l3b'
 - l3eb
 ?   -
 + l3b
 
-2020-02-07 00:11:54,462 - word_ar_ma_logger - ERROR - Translating علم, '3lem' != '3lm'
+2020-02-14 21:00:51,304 - word_ar_ma_logger - ERROR - Translating علم, '3lem' != '3lm'
 - 3lem
 ?   -
 + 3lm
 
-2020-02-07 00:11:54,463 - word_ar_ma_logger - ERROR - Translating زطم, 'ztem' != 'ztm'
+2020-02-14 21:00:51,304 - word_ar_ma_logger - ERROR - Translating زطم, 'ztem' != 'ztm'
 - ztem
 ?   -
 + ztm
 
-2020-02-07 00:11:54,463 - word_ar_ma_logger - ERROR - Translating منعت, 'mne3t' != 'mn3t'
+2020-02-14 21:00:51,304 - word_ar_ma_logger - ERROR - Translating منعت, 'mne3t' != 'mn3t'
 - mne3t
 ?   -
 + mn3t
 
-2020-02-07 00:11:54,464 - word_ar_ma_logger - ERROR - Translating حك, '7ok' != '7k'
+2020-02-14 21:00:51,305 - word_ar_ma_logger - ERROR - Translating حك, '7ok' != '7k'
 - 7ok
 ?  -
 + 7k
 
-2020-02-07 00:11:54,464 - word_ar_ma_logger - ERROR - Translating دفن, 'dfen' != 'dfn'
+2020-02-14 21:00:51,306 - word_ar_ma_logger - ERROR - Translating دفن, 'dfen' != 'dfn'
 - dfen
 ?   -
 + dfn
 
-2020-02-07 00:11:54,464 - word_ar_ma_logger - ERROR - Translating قول, 'gol' != '9ol'
+2020-02-14 21:00:51,306 - word_ar_ma_logger - ERROR - Translating قول, 'gol' != '9ol'
 - gol
 ? ^
 + 9ol
 ? ^
 
-2020-02-07 00:11:54,465 - word_ar_ma_logger - ERROR - Translating كتب, 'kteb' != 'ktb'
+2020-02-14 21:00:51,306 - word_ar_ma_logger - ERROR - Translating كتب, 'kteb' != 'ktb'
 - kteb
 ?   -
 + ktb
 
-2020-02-07 00:11:54,465 - word_ar_ma_logger - ERROR - Translating شهادة, 'chahada' != 'chhadt'
+2020-02-14 21:00:51,307 - word_ar_ma_logger - ERROR - Translating شهادة, 'chahada' != 'chhadt'
 - chahada
 ?   -   ^
 + chhadt
 ?      ^
 
-2020-02-07 00:11:54,465 - word_ar_ma_logger - ERROR - Translating هز, 'hez' != 'hz'
+2020-02-14 21:00:51,307 - word_ar_ma_logger - ERROR - Translating هز, 'hez' != 'hz'
 - hez
 ?  -
 + hz
 
-2020-02-07 00:11:54,466 - word_ar_ma_logger - ERROR - Translating انسبيريتي, 'inspiriti' != 'ansbiriti'
+2020-02-14 21:00:51,308 - word_ar_ma_logger - ERROR - Translating انسبيريتي, 'inspiriti' != 'ansbiriti'
 - inspiriti
 ? ^  ^
 + ansbiriti
 ? ^  ^
 
-2020-02-07 00:11:54,466 - word_ar_ma_logger - ERROR - Translating حكم, '7kem' != '7km'
+2020-02-14 21:00:51,308 - word_ar_ma_logger - ERROR - Translating حكم, '7kem' != '7km'
 - 7kem
 ?   -
 + 7km
 
-2020-02-07 00:11:54,467 - word_ar_ma_logger - ERROR - Translating صفّق, 'saffa9' != 'sf9'
+2020-02-14 21:00:51,309 - word_ar_ma_logger - ERROR - Translating صفّق, 'saffa9' != 'sf9'
 - saffa9
 + sf9
 
-2020-02-07 00:11:54,467 - word_ar_ma_logger - ERROR - Translating وضح, 'wadda7' != 'od7'
+2020-02-14 21:00:51,309 - word_ar_ma_logger - ERROR - Translating وضح, 'wadda7' != 'od7'
 - wadda7
 + od7
 
-2020-02-07 00:11:54,468 - word_ar_ma_logger - ERROR - Translating سرح, 'sarra7' != 'sr7'
+2020-02-14 21:00:51,309 - word_ar_ma_logger - ERROR - Translating سرح, 'sarra7' != 'sr7'
 - sarra7
 + sr7
 
-2020-02-07 00:11:54,468 - word_ar_ma_logger - ERROR - Translating خنق, '5ana9' != '5n9'
+2020-02-14 21:00:51,310 - word_ar_ma_logger - ERROR - Translating خنق, '5ana9' != '5n9'
 - 5ana9
 ?  - -
 + 5n9
 
-2020-02-07 00:11:54,468 - word_ar_ma_logger - ERROR - Translating سد, 'sadd' != 'sd'
+2020-02-14 21:00:51,310 - word_ar_ma_logger - ERROR - Translating سد, 'sadd' != 'sd'
 - sadd
 ?  --
 + sd
 
-2020-02-07 00:11:54,469 - word_ar_ma_logger - ERROR - Translating غمض, 'ghammad' != 'ghmd'
+2020-02-14 21:00:51,311 - word_ar_ma_logger - ERROR - Translating غمض, 'ghammad' != 'ghmd'
 - ghammad
 ?   - --
 + ghmd
 
-2020-02-07 00:11:54,469 - word_ar_ma_logger - ERROR - Translating برد, 'barrad' != 'brd'
+2020-02-14 21:00:51,311 - word_ar_ma_logger - ERROR - Translating برد, 'barrad' != 'brd'
 - barrad
 + brd
 
-2020-02-07 00:11:54,470 - word_ar_ma_logger - ERROR - Translating أمر, 'amer' != 'amr'
+2020-02-14 21:00:51,312 - word_ar_ma_logger - ERROR - Translating أمر, 'amer' != 'amr'
 - amer
 ?   -
 + amr
 
-2020-02-07 00:11:54,470 - word_ar_ma_logger - ERROR - Translating علق, '3alla9' != '3l9'
+2020-02-14 21:00:51,312 - word_ar_ma_logger - ERROR - Translating علق, '3alla9' != '3l9'
 - 3alla9
 + 3l9
 
-2020-02-07 00:11:54,471 - word_ar_ma_logger - ERROR - Translating تشكا من, 'tcheka men' != 'tchka mn'
+2020-02-14 21:00:51,312 - word_ar_ma_logger - ERROR - Translating تشكا من, 'tcheka men' != 'tchka mn'
 - tcheka men
 ?    -    -
 + tchka mn
 
-2020-02-07 00:11:54,471 - word_ar_ma_logger - ERROR - Translating تشكا علا, 'tcheka 3la' != 'tchka 3la'
+2020-02-14 21:00:51,313 - word_ar_ma_logger - ERROR - Translating تشكا علا, 'tcheka 3la' != 'tchka 3la'
 - tcheka 3la
 ?    -
 + tchka 3la
 
-2020-02-07 00:11:54,471 - word_ar_ma_logger - ERROR - Translating كمل, 'kemmel' != 'kml'
+2020-02-14 21:00:51,313 - word_ar_ma_logger - ERROR - Translating كمل, 'kemmel' != 'kml'
 - kemmel
 + kml
 
-2020-02-07 00:11:54,472 - word_ar_ma_logger - ERROR - Translating ركز, 'rekkez' != 'rkz'
+2020-02-14 21:00:51,314 - word_ar_ma_logger - ERROR - Translating ركز, 'rekkez' != 'rkz'
 - rekkez
 + rkz
 
-2020-02-07 00:11:54,472 - word_ar_ma_logger - ERROR - Translating هم, 'hemm' != 'hm'
+2020-02-14 21:00:51,314 - word_ar_ma_logger - ERROR - Translating هم, 'hemm' != 'hm'
 - hemm
 ?  --
 + hm
 
-2020-02-07 00:11:54,472 - word_ar_ma_logger - ERROR - Translating هتم, 'htem' != 'htm'
+2020-02-14 21:00:51,314 - word_ar_ma_logger - ERROR - Translating هتم, 'htem' != 'htm'
 - htem
 ?   -
 + htm
 
-2020-02-07 00:11:54,473 - word_ar_ma_logger - ERROR - Translating عترف, '3taref' != '3trf'
+2020-02-14 21:00:51,315 - word_ar_ma_logger - ERROR - Translating عترف, '3taref' != '3trf'
 - 3taref
 ?   - -
 + 3trf
 
-2020-02-07 00:11:54,473 - word_ar_ma_logger - ERROR - Translating حير, '7ayyer' != '7ir'
+2020-02-14 21:00:51,315 - word_ar_ma_logger - ERROR - Translating حير, '7ayyer' != '7ir'
 - 7ayyer
 + 7ir
 
-2020-02-07 00:11:54,473 - word_ar_ma_logger - ERROR - Translating هنأ, 'henne2' != 'hna'
+2020-02-14 21:00:51,315 - word_ar_ma_logger - ERROR - Translating هنأ, 'henne2' != 'hna'
 - henne2
 + hna
 
-2020-02-07 00:11:54,474 - word_ar_ma_logger - ERROR - Translating صرف, 'serref' != 'srf'
+2020-02-14 21:00:51,316 - word_ar_ma_logger - ERROR - Translating صرف, 'serref' != 'srf'
 - serref
 + srf
 
-2020-02-07 00:11:54,474 - word_ar_ma_logger - ERROR - Translating ربط, 'rbet' != 'rbt'
+2020-02-14 21:00:51,316 - word_ar_ma_logger - ERROR - Translating ربط, 'rbet' != 'rbt'
 - rbet
 ?   -
 + rbt
 
-2020-02-07 00:11:54,475 - word_ar_ma_logger - ERROR - Translating تشاور, 'tchawr' != 'tchaor'
+2020-02-14 21:00:51,317 - word_ar_ma_logger - ERROR - Translating تشاور, 'tchawr' != 'tchaor'
 - tchawr
 ?     ^
 + tchaor
 ?     ^
 
-2020-02-07 00:11:54,475 - word_ar_ma_logger - ERROR - Translating تصل, 'tasel' != 'tsl'
+2020-02-14 21:00:51,317 - word_ar_ma_logger - ERROR - Translating تصل, 'tasel' != 'tsl'
 - tasel
 ?  - -
 + tsl
 
-2020-02-07 00:11:54,475 - word_ar_ma_logger - ERROR - Translating ستمر, 'stamer' != 'stmr'
+2020-02-14 21:00:51,317 - word_ar_ma_logger - ERROR - Translating ستمر, 'stamer' != 'stmr'
 - stamer
 ?   - -
 + stmr
 
-2020-02-07 00:11:54,476 - word_ar_ma_logger - ERROR - Translating تابع, 'tabe3' != 'tab3'
+2020-02-14 21:00:51,318 - word_ar_ma_logger - ERROR - Translating تابع, 'tabe3' != 'tab3'
 - tabe3
 ?    -
 + tab3
 
-2020-02-07 00:11:54,476 - word_ar_ma_logger - ERROR - Translating ساهم, 'sahem' != 'sahm'
+2020-02-14 21:00:51,318 - word_ar_ma_logger - ERROR - Translating ساهم, 'sahem' != 'sahm'
 - sahem
 ?    -
 + sahm
 
-2020-02-07 00:11:54,477 - word_ar_ma_logger - ERROR - Translating تحكم, 't7ekkem' != 't7km'
+2020-02-14 21:00:51,319 - word_ar_ma_logger - ERROR - Translating تحكم, 't7ekkem' != 't7km'
 - t7ekkem
 ?   - --
 + t7km
 
-2020-02-07 00:11:54,477 - word_ar_ma_logger - ERROR - Translating سلم, 'sellem' != 'slm'
+2020-02-14 21:00:51,319 - word_ar_ma_logger - ERROR - Translating سلم, 'sellem' != 'slm'
 - sellem
 + slm
 
-2020-02-07 00:11:54,477 - word_ar_ma_logger - ERROR - Translating طيب, 'tayyeb' != 'tib'
+2020-02-14 21:00:51,319 - word_ar_ma_logger - ERROR - Translating طيب, 'tayyeb' != 'tib'
 - tayyeb
 + tib
 
-2020-02-07 00:11:54,478 - word_ar_ma_logger - ERROR - Translating تعاون, 't3awn' != 't3aon'
+2020-02-14 21:00:51,320 - word_ar_ma_logger - ERROR - Translating تعاون, 't3awn' != 't3aon'
 - t3awn
 ?    ^
 + t3aon
 ?    ^
 
-2020-02-07 00:11:54,478 - word_ar_ma_logger - ERROR - Translating سلك, 'sellek' != 'slk'
+2020-02-14 21:00:51,320 - word_ar_ma_logger - ERROR - Translating سلك, 'sellek' != 'slk'
 - sellek
 + slk
 
-2020-02-07 00:11:54,478 - word_ar_ma_logger - ERROR - Translating نقل, 'n9el' != 'n9l'
+2020-02-14 21:00:51,320 - word_ar_ma_logger - ERROR - Translating نقل, 'n9el' != 'n9l'
 - n9el
 ?   -
 + n9l
 
-2020-02-07 00:11:54,479 - word_ar_ma_logger - ERROR - Translating نسخ, 'nsekh' != 'ns5'
+2020-02-14 21:00:51,321 - word_ar_ma_logger - ERROR - Translating نسخ, 'nsekh' != 'ns5'
 - nsekh
 + ns5
 
-2020-02-07 00:11:54,479 - word_ar_ma_logger - ERROR - Translating صحح, 'se7e7' != 's77'
+2020-02-14 21:00:51,321 - word_ar_ma_logger - ERROR - Translating صحح, 'se7e7' != 's77'
 - se7e7
 ?  - -
 + s77
 
-2020-02-07 00:11:54,479 - word_ar_ma_logger - ERROR - Translating سوا, 'siwa' != 'soa'
+2020-02-14 21:00:51,321 - word_ar_ma_logger - ERROR - Translating سوا, 'siwa' != 'soa'
 - siwa
 + soa
 
-2020-02-07 00:11:54,480 - word_ar_ma_logger - ERROR - Translating كحب, 'k7ob' != 'k7b'
+2020-02-14 21:00:51,322 - word_ar_ma_logger - ERROR - Translating كحب, 'k7ob' != 'k7b'
 - k7ob
 ?   -
 + k7b
 
-2020-02-07 00:11:54,480 - word_ar_ma_logger - ERROR - Translating حسب, '7asab' != '7sb'
+2020-02-14 21:00:51,322 - word_ar_ma_logger - ERROR - Translating حسب, '7asab' != '7sb'
 - 7asab
 ?  - -
 + 7sb
 
-2020-02-07 00:11:54,481 - word_ar_ma_logger - ERROR - Translating حمق, '7me9' != '7m9'
+2020-02-14 21:00:51,323 - word_ar_ma_logger - ERROR - Translating حمق, '7me9' != '7m9'
 - 7me9
 ?   -
 + 7m9
 
-2020-02-07 00:11:54,481 - word_ar_ma_logger - ERROR - Translating حمق, '7emme9' != '7m9'
+2020-02-14 21:00:51,323 - word_ar_ma_logger - ERROR - Translating حمق, '7emme9' != '7m9'
 - 7emme9
 + 7m9
 
-2020-02-07 00:11:54,481 - word_ar_ma_logger - ERROR - Translating خلق, '5le9' != '5l9'
+2020-02-14 21:00:51,323 - word_ar_ma_logger - ERROR - Translating خلق, '5le9' != '5l9'
 - 5le9
 ?   -
 + 5l9
 
-2020-02-07 00:11:54,482 - word_ar_ma_logger - ERROR - Translating قطع, '9te3' != '9t3'
+2020-02-14 21:00:51,324 - word_ar_ma_logger - ERROR - Translating قطع, '9te3' != '9t3'
 - 9te3
 ?   -
 + 9t3
 
-2020-02-07 00:11:54,482 - word_ar_ma_logger - ERROR - Translating لقّم, 'le9em' != 'l9m'
+2020-02-14 21:00:51,324 - word_ar_ma_logger - ERROR - Translating لقّم, 'le9em' != 'l9m'
 - le9em
 ?  - -
 + l9m
 
-2020-02-07 00:11:54,483 - word_ar_ma_logger - ERROR - Translating بكا, 'bekka' != 'bka'
+2020-02-14 21:00:51,325 - word_ar_ma_logger - ERROR - Translating بكا, 'bekka' != 'bka'
 - bekka
 ?  --
 + bka
 
-2020-02-07 00:11:54,483 - word_ar_ma_logger - ERROR - Translating داوا, 'dawa' != 'daoa'
+2020-02-14 21:00:51,325 - word_ar_ma_logger - ERROR - Translating داوا, 'dawa' != 'daoa'
 - dawa
 ?   ^
 + daoa
 ?   ^
 
-2020-02-07 00:11:54,484 - word_ar_ma_logger - ERROR - Translating فصل, 'fsel' != 'fsl'
+2020-02-14 21:00:51,326 - word_ar_ma_logger - ERROR - Translating فصل, 'fsel' != 'fsl'
 - fsel
 ?   -
 + fsl
 
-2020-02-07 00:11:54,484 - word_ar_ma_logger - ERROR - Translating حسن, '7sen' != '7sn'
+2020-02-14 21:00:51,326 - word_ar_ma_logger - ERROR - Translating حسن, '7sen' != '7sn'
 - 7sen
 ?   -
 + 7sn
 
-2020-02-07 00:11:54,484 - word_ar_ma_logger - ERROR - Translating تجرح, 'tjre7' != 'tjr7'
+2020-02-14 21:00:51,326 - word_ar_ma_logger - ERROR - Translating تجرح, 'tjre7' != 'tjr7'
 - tjre7
 ?    -
 + tjr7
 
-2020-02-07 00:11:54,485 - word_ar_ma_logger - ERROR - Translating قطع, '9te3' != '9t3'
+2020-02-14 21:00:51,327 - word_ar_ma_logger - ERROR - Translating قطع, '9te3' != '9t3'
 - 9te3
 ?   -
 + 9t3
 
-2020-02-07 00:11:54,485 - word_ar_ma_logger - ERROR - Translating جرح, 'jre7' != 'jr7'
+2020-02-14 21:00:51,328 - word_ar_ma_logger - ERROR - Translating جرح, 'jre7' != 'jr7'
 - jre7
 ?   -
 + jr7
 
-2020-02-07 00:11:54,485 - word_ar_ma_logger - ERROR - Translating خسر, '5ser' != '5sr'
+2020-02-14 21:00:51,329 - word_ar_ma_logger - ERROR - Translating خسر, '5ser' != '5sr'
 - 5ser
 ?   -
 + 5sr
 
-2020-02-07 00:11:54,486 - word_ar_ma_logger - ERROR - Translating فزڭ, 'fzeg' != 'fzg'
+2020-02-14 21:00:51,330 - word_ar_ma_logger - ERROR - Translating فزڭ, 'fzeg' != 'fzg'
 - fzeg
 ?   -
 + fzg
 
-2020-02-07 00:11:54,486 - word_ar_ma_logger - ERROR - Translating فزڭ, 'fezzeg' != 'fzg'
+2020-02-14 21:00:51,330 - word_ar_ma_logger - ERROR - Translating فزڭ, 'fezzeg' != 'fzg'
 - fezzeg
 + fzg
 
-2020-02-07 00:11:54,486 - word_ar_ma_logger - ERROR - Translating شطح, 'chte7' != 'cht7'
+2020-02-14 21:00:51,331 - word_ar_ma_logger - ERROR - Translating شطح, 'chte7' != 'cht7'
 - chte7
 ?    -
 + cht7
 
-2020-02-07 00:11:54,487 - word_ar_ma_logger - ERROR - Translating صمك, 'semmek' != 'smk'
+2020-02-14 21:00:51,331 - word_ar_ma_logger - ERROR - Translating صمك, 'semmek' != 'smk'
 - semmek
 + smk
 
-2020-02-07 00:11:54,487 - word_ar_ma_logger - ERROR - Translating قرر, '9errer' != '9rr'
+2020-02-14 21:00:51,332 - word_ar_ma_logger - ERROR - Translating قرر, '9errer' != '9rr'
 - 9errer
 + 9rr
 
-2020-02-07 00:11:54,488 - word_ar_ma_logger - ERROR - Translating علن, '3len' != '3ln'
+2020-02-14 21:00:51,332 - word_ar_ma_logger - ERROR - Translating علن, '3len' != '3ln'
 - 3len
 ?   -
 + 3ln
 
-2020-02-07 00:11:54,488 - word_ar_ma_logger - ERROR - Translating نقص, 'n9es' != 'n9s'
+2020-02-14 21:00:51,333 - word_ar_ma_logger - ERROR - Translating نقص, 'n9es' != 'n9s'
 - n9es
 ?   -
 + n9s
 
-2020-02-07 00:11:54,489 - word_ar_ma_logger - ERROR - Translating غلب, 'ghleb' != 'ghlb'
+2020-02-14 21:00:51,333 - word_ar_ma_logger - ERROR - Translating غلب, 'ghleb' != 'ghlb'
 - ghleb
 ?    -
 + ghlb
 
-2020-02-07 00:11:54,489 - word_ar_ma_logger - ERROR - Translating دافع, 'dafe3' != 'daf3'
+2020-02-14 21:00:51,334 - word_ar_ma_logger - ERROR - Translating دافع, 'dafe3' != 'daf3'
 - dafe3
 ?    -
 + daf3
 
-2020-02-07 00:11:54,489 - word_ar_ma_logger - ERROR - Translating تحدا, 't7edda' != 't7da'
+2020-02-14 21:00:51,334 - word_ar_ma_logger - ERROR - Translating تحدا, 't7edda' != 't7da'
 - t7edda
 ?   --
 + t7da
 
-2020-02-07 00:11:54,490 - word_ar_ma_logger - ERROR - Translating عطل, '3ettel' != '3tl'
+2020-02-14 21:00:51,334 - word_ar_ma_logger - ERROR - Translating عطل, '3ettel' != '3tl'
 - 3ettel
 + 3tl
 
-2020-02-07 00:11:54,490 - word_ar_ma_logger - ERROR - Translating حرم, '7errem' != '7rm'
+2020-02-14 21:00:51,335 - word_ar_ma_logger - ERROR - Translating حرم, '7errem' != '7rm'
 - 7errem
 + 7rm
 
-2020-02-07 00:11:54,490 - word_ar_ma_logger - ERROR - Translating هبط, 'hbet' != 'hbt'
+2020-02-14 21:00:51,335 - word_ar_ma_logger - ERROR - Translating هبط, 'hbet' != 'hbt'
 - hbet
 ?   -
 + hbt
 
-2020-02-07 00:11:54,491 - word_ar_ma_logger - ERROR - Translating نزل, 'nzel' != 'nzl'
+2020-02-14 21:00:51,335 - word_ar_ma_logger - ERROR - Translating نزل, 'nzel' != 'nzl'
 - nzel
 ?   -
 + nzl
 
-2020-02-07 00:11:54,491 - word_ar_ma_logger - ERROR - Translating وصف, 'wsef' != 'osf'
+2020-02-14 21:00:51,336 - word_ar_ma_logger - ERROR - Translating وصف, 'wsef' != 'osf'
 - wsef
 + osf
 
-2020-02-07 00:11:54,491 - word_ar_ma_logger - ERROR - Translating ستحق, 'sta7e9' != 'st79'
+2020-02-14 21:00:51,336 - word_ar_ma_logger - ERROR - Translating ستحق, 'sta7e9' != 'st79'
 - sta7e9
 ?   - -
 + st79
 
-2020-02-07 00:11:54,492 - word_ar_ma_logger - ERROR - Translating خطط, '5ettet' != '5tt'
+2020-02-14 21:00:51,337 - word_ar_ma_logger - ERROR - Translating خطط, '5ettet' != '5tt'
 - 5ettet
 + 5tt
 
-2020-02-07 00:11:54,492 - word_ar_ma_logger - ERROR - Translating هدم, 'hdem' != 'hdm'
+2020-02-14 21:00:51,337 - word_ar_ma_logger - ERROR - Translating هدم, 'hdem' != 'hdm'
 - hdem
 ?   -
 + hdm
 
-2020-02-07 00:11:54,492 - word_ar_ma_logger - ERROR - Translating طور, 'tawer' != 'tor'
+2020-02-14 21:00:51,337 - word_ar_ma_logger - ERROR - Translating طور, 'tawer' != 'tor'
 - tawer
 + tor
 
-2020-02-07 00:11:54,493 - word_ar_ma_logger - ERROR - Translating ختلف, '5talef' != '5tlf'
+2020-02-14 21:00:51,338 - word_ar_ma_logger - ERROR - Translating ختلف, '5talef' != '5tlf'
 - 5talef
 ?   - -
 + 5tlf
 
-2020-02-07 00:11:54,493 - word_ar_ma_logger - ERROR - Translating تكرفس علا, 'tkerfes 3la' != 'tkrfs 3la'
+2020-02-14 21:00:51,338 - word_ar_ma_logger - ERROR - Translating تكرفس علا, 'tkerfes 3la' != 'tkrfs 3la'
 - tkerfes 3la
 ?   -  -
 + tkrfs 3la
 
-2020-02-07 00:11:54,494 - word_ar_ma_logger - ERROR - Translating حفر, '7fer' != '7fr'
+2020-02-14 21:00:51,340 - word_ar_ma_logger - ERROR - Translating حفر, '7fer' != '7fr'
 - 7fer
 ?   -
 + 7fr
 
-2020-02-07 00:11:54,494 - word_ar_ma_logger - ERROR - Translating هضم, 'hdem' != 'hdm'
+2020-02-14 21:00:51,340 - word_ar_ma_logger - ERROR - Translating هضم, 'hdem' != 'hdm'
 - hdem
 ?   -
 + hdm
 
-2020-02-07 00:11:54,494 - word_ar_ma_logger - ERROR - Translating وجّه, 'wejjeh' != 'ojh'
+2020-02-14 21:00:51,342 - word_ar_ma_logger - ERROR - Translating وجّه, 'wejjeh' != 'ojh'
 - wejjeh
 + ojh
 
-2020-02-07 00:11:54,495 - word_ar_ma_logger - ERROR - Translating توسخ, 'twse5' != 'tos5'
+2020-02-14 21:00:51,343 - word_ar_ma_logger - ERROR - Translating توسخ, 'twse5' != 'tos5'
 - twse5
 + tos5
 
-2020-02-07 00:11:54,495 - word_ar_ma_logger - ERROR - Translating وسخ, 'wesse5' != 'os5'
+2020-02-14 21:00:51,343 - word_ar_ma_logger - ERROR - Translating وسخ, 'wesse5' != 'os5'
 - wesse5
 + os5
 
-2020-02-07 00:11:54,496 - word_ar_ma_logger - ERROR - Translating أدب, 'addeb' != 'adb'
+2020-02-14 21:00:51,344 - word_ar_ma_logger - ERROR - Translating أدب, 'addeb' != 'adb'
 - addeb
 ?   --
 + adb
 
-2020-02-07 00:11:54,496 - word_ar_ma_logger - ERROR - Translating كتشف, 'ktachef' != 'ktchf'
+2020-02-14 21:00:51,345 - word_ar_ma_logger - ERROR - Translating كتشف, 'ktachef' != 'ktchf'
 - ktachef
 ?   -  -
 + ktchf
 
-2020-02-07 00:11:54,496 - word_ar_ma_logger - ERROR - Translating ناقش, 'na9ech' != 'na9ch'
+2020-02-14 21:00:51,346 - word_ar_ma_logger - ERROR - Translating ناقش, 'na9ech' != 'na9ch'
 - na9ech
 ?    -
 + na9ch
 
-2020-02-07 00:11:54,497 - word_ar_ma_logger - ERROR - Translating دوب, 'dweb' != 'dob'
+2020-02-14 21:00:51,346 - word_ar_ma_logger - ERROR - Translating دوب, 'dweb' != 'dob'
 - dweb
 + dob
 
-2020-02-07 00:11:54,497 - word_ar_ma_logger - ERROR - Translating بعد, 'be3ed' != 'b3d'
+2020-02-14 21:00:51,346 - word_ar_ma_logger - ERROR - Translating بعد, 'be3ed' != 'b3d'
 - be3ed
 ?  - -
 + b3d
 
-2020-02-07 00:11:54,497 - word_ar_ma_logger - ERROR - Translating فرق, 'ferre9' != 'fr9'
+2020-02-14 21:00:51,347 - word_ar_ma_logger - ERROR - Translating فرق, 'ferre9' != 'fr9'
 - ferre9
 + fr9
 
-2020-02-07 00:11:54,498 - word_ar_ma_logger - ERROR - Translating قسم, '9essem' != '9sm'
+2020-02-14 21:00:51,347 - word_ar_ma_logger - ERROR - Translating قسم, '9essem' != '9sm'
 - 9essem
 + 9sm
 
-2020-02-07 00:11:54,498 - word_ar_ma_logger - ERROR - Translating طلق, 'tle9' != 'tl9'
+2020-02-14 21:00:51,348 - word_ar_ma_logger - ERROR - Translating طلق, 'tle9' != 'tl9'
 - tle9
 ?   -
 + tl9
 
-2020-02-07 00:11:54,498 - word_ar_ma_logger - ERROR - Translating دوخ, 'dwe5' != 'do5'
+2020-02-14 21:00:51,348 - word_ar_ma_logger - ERROR - Translating دوخ, 'dwe5' != 'do5'
 - dwe5
 + do5
 
-2020-02-07 00:11:54,499 - word_ar_ma_logger - ERROR - Translating رسم, 'rsem' != 'rsm'
+2020-02-14 21:00:51,348 - word_ar_ma_logger - ERROR - Translating رسم, 'rsem' != 'rsm'
 - rsem
 ?   -
 + rsm
 
-2020-02-07 00:11:54,499 - word_ar_ma_logger - ERROR - Translating جبد, 'jbed' != 'jbd'
+2020-02-14 21:00:51,349 - word_ar_ma_logger - ERROR - Translating جبد, 'jbed' != 'jbd'
 - jbed
 ?   -
 + jbd
 
-2020-02-07 00:11:54,499 - word_ar_ma_logger - INFO - Total INFO logs 45 (7.51%), Total ERROR logs 554 (92.49%)
+2020-02-14 21:00:51,349 - word_ar_ma_logger - INFO - Total INFO logs 45 (7.51%), Total ERROR logs 554 (92.49%)

@@ -1,14 +1,9 @@
 import unittest
 import logging
 
-from aaransia.machine_learning import *
 from aaransia.transliterator import *
 from aaransia.constants import *
 from aaransia.utils import *
-from aaransia.make_pickle import *
-import aaransia.analyzer 
-
-make_pickle()
 
 # Refresh test files
 build_test_alphabet_ma_ar_file()
@@ -30,11 +25,6 @@ word_ma_ar_logger = logging.getLogger('word_ma_ar_logger')
 
 alphabet_ar_ma_logger = logging.getLogger('alphabet_ar_ma_logger')
 word_ar_ma_logger = logging.getLogger('word_ar_ma_logger')
-
-sentence_logger = logging.getLogger('sentence_logger')
-arabic_translation_logger = logging.getLogger('arabic_translation_logger')
-french_translation_logger = logging.getLogger('french_translation_logger')
-english_translation_logger = logging.getLogger('english_translation_logger')
 
 # Test sets
 test_cases = pd.read_csv(BASE_DIR + TEST_DIR + TEST_CASES)
@@ -161,41 +151,6 @@ class TestSequenceFunctions(unittest.TestCase):
                 count_errors += 1
         word_ar_ma_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(words_ar_ma)*100, 2)}%), Total ERROR logs {count_errors} ({round(count_errors/len(words_ar_ma)*100, 2)}%)')
         test_stats_logger.info(f'word_ar_ma_logger - Total INFO logs {count_infos} ({round(count_infos/len(words_ar_ma)*100, 2)}%), Total ERROR logs {count_errors} ({round(count_errors/len(words_ar_ma)*100, 2)}%)')
-
-    # Test moroccan sentences
-    def test_sentence_ma_ar_translation(self):
-        fh = logging.FileHandler(BASE_DIR + LOG_DIR + SENTENCE_MA_AR_TEST_LOG_FILE, 'w')
-        fh.setFormatter(formatter)
-        fh.setLevel(logging.INFO)
-        sentence_logger.addHandler(fh)
-
-    # Test arabian moroccan sentences
-    def test_sentence_ar_ma_translation(self):
-        fh = logging.FileHandler(BASE_DIR + LOG_DIR + SENTENCE_AR_MA_TEST_LOG_FILE, 'w')
-        fh.setFormatter(formatter)
-        fh.setLevel(logging.INFO)
-        sentence_logger.addHandler(fh)
-
-    # Test Arabic translation
-    def test_arabic_translation_translation(self):
-        fh = logging.FileHandler(BASE_DIR + LOG_DIR + ARABIC_TRANSLATION_TEST_LOG_FILE, 'w')
-        fh.setFormatter(formatter)
-        fh.setLevel(logging.INFO)
-        arabic_translation_logger.addHandler(fh)
-
-    # Test French translation
-    def test_french_translation_translation(self):
-        fh = logging.FileHandler(BASE_DIR + LOG_DIR + FRENCH_TRANSLATION_TEST_LOG_FILE, 'w')
-        fh.setFormatter(formatter)
-        fh.setLevel(logging.INFO)
-        french_translation_logger.addHandler(fh)
-
-    # Test English translation
-    def test_english_translation_translation(self):
-        fh = logging.FileHandler(BASE_DIR + LOG_DIR + ENGLISH_TRANSLATION_TEST_LOG_FILE, 'w')
-        fh.setFormatter(formatter)
-        fh.setLevel(logging.INFO)
-        english_translation_logger.addHandler(fh)
 
 def run_tests():
     unittest.main()

@@ -1,78 +1,78 @@
-2020-02-07 00:11:54,257 - alphabet_ma_ar_logger - INFO - Translating [item to test] ([expected result], [generated result result])
-2020-02-07 00:11:54,258 - alphabet_ma_ar_logger - ERROR - Translating  , ' ' != ''
+2020-02-14 21:00:51,085 - alphabet_ma_ar_logger - INFO - Translating [item to test] ([expected result], [generated result result])
+2020-02-14 21:00:51,086 - alphabet_ma_ar_logger - ERROR - Translating  , ' ' != ''
 -  
 + 
 
-2020-02-07 00:11:54,259 - alphabet_ma_ar_logger - ERROR - Translating 2, 'ء' != '2'
+2020-02-14 21:00:51,086 - alphabet_ma_ar_logger - ERROR - Translating 2, 'ء' != '2'
 - ء
 + 2
 
-2020-02-07 00:11:54,259 - alphabet_ma_ar_logger - ERROR - Translating 3, 'ع' != '3'
+2020-02-14 21:00:51,087 - alphabet_ma_ar_logger - ERROR - Translating 3, 'ع' != '3'
 - ع
 + 3
 
-2020-02-07 00:11:54,260 - alphabet_ma_ar_logger - ERROR - Translating 5, 'خ' != '5'
+2020-02-14 21:00:51,087 - alphabet_ma_ar_logger - ERROR - Translating 5, 'خ' != '5'
 - خ
 + 5
 
-2020-02-07 00:11:54,261 - alphabet_ma_ar_logger - ERROR - Translating 7, 'ح' != '7'
+2020-02-14 21:00:51,088 - alphabet_ma_ar_logger - ERROR - Translating 7, 'ح' != '7'
 - ح
 + 7
 
-2020-02-07 00:11:54,261 - alphabet_ma_ar_logger - ERROR - Translating 9, 'ق' != '9'
+2020-02-14 21:00:51,089 - alphabet_ma_ar_logger - ERROR - Translating 9, 'ق' != '9'
 - ق
 + 9
 
-2020-02-07 00:11:54,262 - alphabet_ma_ar_logger - ERROR - Translating a, 'ا' != 'أ'
+2020-02-14 21:00:51,090 - alphabet_ma_ar_logger - ERROR - Translating a, 'ا' != 'أ'
 - ا
 + أ
 
-2020-02-07 00:11:54,263 - alphabet_ma_ar_logger - ERROR - Translating d, 'ذ' != 'د'
+2020-02-14 21:00:51,091 - alphabet_ma_ar_logger - ERROR - Translating d, 'ذ' != 'د'
 - ذ
 + د
 
-2020-02-07 00:11:54,264 - alphabet_ma_ar_logger - ERROR - Translating d, 'ض' != 'د'
+2020-02-14 21:00:51,091 - alphabet_ma_ar_logger - ERROR - Translating d, 'ض' != 'د'
 - ض
 + د
 
-2020-02-07 00:11:54,264 - alphabet_ma_ar_logger - ERROR - Translating d, 'ظ' != 'د'
+2020-02-14 21:00:51,092 - alphabet_ma_ar_logger - ERROR - Translating d, 'ظ' != 'د'
 - ظ
 + د
 
-2020-02-07 00:11:54,264 - alphabet_ma_ar_logger - ERROR - Translating e, ' ' != 'إ'
+2020-02-14 21:00:51,092 - alphabet_ma_ar_logger - ERROR - Translating e, ' ' != 'إ'
 -  
 + إ
 
-2020-02-07 00:11:54,265 - alphabet_ma_ar_logger - ERROR - Translating i, 'ي' != 'إ'
+2020-02-14 21:00:51,093 - alphabet_ma_ar_logger - ERROR - Translating i, 'ي' != 'إ'
 - ي
 + إ
 
-2020-02-07 00:11:54,267 - alphabet_ma_ar_logger - ERROR - Translating ou, 'و' != 'أ'
+2020-02-14 21:00:51,094 - alphabet_ma_ar_logger - ERROR - Translating ou, 'و' != 'أ'
 - و
 + أ
 
-2020-02-07 00:11:54,267 - alphabet_ma_ar_logger - ERROR - Translating s, 'ص' != 'س'
+2020-02-14 21:00:51,095 - alphabet_ma_ar_logger - ERROR - Translating s, 'ص' != 'س'
 - ص
 + س
 
-2020-02-07 00:11:54,268 - alphabet_ma_ar_logger - ERROR - Translating t, 'ة' != 'ت'
+2020-02-14 21:00:51,096 - alphabet_ma_ar_logger - ERROR - Translating t, 'ة' != 'ت'
 - ة
 + ت
 
-2020-02-07 00:11:54,268 - alphabet_ma_ar_logger - ERROR - Translating t, 'ط' != 'ت'
+2020-02-14 21:00:51,096 - alphabet_ma_ar_logger - ERROR - Translating t, 'ط' != 'ت'
 - ط
 + ت
 
-2020-02-07 00:11:54,269 - alphabet_ma_ar_logger - ERROR - Translating t, 'ث' != 'ت'
+2020-02-14 21:00:51,096 - alphabet_ma_ar_logger - ERROR - Translating t, 'ث' != 'ت'
 - ث
 + ت
 
-2020-02-07 00:11:54,269 - alphabet_ma_ar_logger - ERROR - Translating x, 'كز' != 'كس'
+2020-02-14 21:00:51,097 - alphabet_ma_ar_logger - ERROR - Translating x, 'كز' != 'كس'
 - كز
 + كس
 
-2020-02-07 00:11:54,271 - alphabet_ma_ar_logger - ERROR - Translating o, 'أ' != 'و'
+2020-02-14 21:00:51,098 - alphabet_ma_ar_logger - ERROR - Translating o, 'أ' != 'و'
 - أ
 + و
 
-2020-02-07 00:11:54,272 - alphabet_ma_ar_logger - INFO - Total INFO logs 37 (66.07%), Total ERROR logs 19 (33.93%)
+2020-02-14 21:00:51,098 - alphabet_ma_ar_logger - INFO - Total INFO logs 37 (66.07%), Total ERROR logs 19 (33.93%)

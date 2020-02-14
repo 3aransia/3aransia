@@ -432,18 +432,17 @@
 2020-02-07 00:11:54,499 - test_stats_logger - INFO - word_ar_ma_logger - Total INFO logs 45 (7.51%), Total ERROR logs 554 (92.49%)
 2020-02-07 00:11:54,651 - test_stats_logger - INFO - word_ma_ar_logger - Total INFO logs 283 (47.25%), Total ERROR logs 316 (52.75%)
 2020-02-07 00:13:42,735 - test_stats_logger - INFO - 
+2020-02-14 20:57:28,230 - test_stats_logger - INFO - alphabet_ar_ma_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-14 20:57:28,244 - test_stats_logger - INFO - alphabet_ma_ar_logger - Total INFO logs 37 (66.07%), Total ERROR logs 19 (33.93%)
+2020-02-14 20:57:28,250 - test_stats_logger - INFO - test_case_logger - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-14 20:57:28,475 - test_stats_logger - INFO - word_ar_ma_logger - Total INFO logs 45 (7.51%), Total ERROR logs 554 (92.49%)
+2020-02-14 20:57:28,645 - test_stats_logger - INFO - word_ma_ar_logger - Total INFO logs 283 (47.25%), Total ERROR logs 316 (52.75%)
+2020-02-14 21:00:36,992 - test_stats_logger - INFO - 
 
-2020-02-07 00:13:57,454 - test_stats_logger - INFO - 
+2020-02-14 21:00:51,070 - test_stats_logger - INFO - 
 
-2020-02-07 00:16:07,329 - test_stats_logger - INFO - 
-
-2020-02-07 00:16:22,900 - test_stats_logger - INFO - 
-
-2020-02-07 00:17:08,667 - test_stats_logger - INFO - 
-
-2020-02-07 00:22:28,772 - test_stats_logger - INFO - 
-
-2020-02-07 00:23:04,727 - test_stats_logger - INFO - 
-
-2020-02-07 00:23:19,059 - test_stats_logger - INFO - 
-
+2020-02-14 21:00:51,085 - test_stats_logger - INFO - alphabet_ar_ma_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-14 21:00:51,098 - test_stats_logger - INFO - alphabet_ma_ar_logger - Total INFO logs 37 (66.07%), Total ERROR logs 19 (33.93%)
+2020-02-14 21:00:51,101 - test_stats_logger - INFO - test_case_logger - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-14 21:00:51,349 - test_stats_logger - INFO - word_ar_ma_logger - Total INFO logs 45 (7.51%), Total ERROR logs 554 (92.49%)
+2020-02-14 21:00:51,511 - test_stats_logger - INFO - word_ma_ar_logger - Total INFO logs 283 (47.25%), Total ERROR logs 316 (52.75%)
