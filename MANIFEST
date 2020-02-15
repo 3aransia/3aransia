@@ -4,5 +4,5 @@ setup.py
 aaransia/__init__.py
 aaransia/constants.py
 aaransia/test.py
-aaransia/transliterator.py
+aaransia/transliteration.py
 aaransia/utils.py
