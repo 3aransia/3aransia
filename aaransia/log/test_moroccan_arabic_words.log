@@ -1,2672 +1,2532 @@
-2020-02-15 03:32:26,544 - test_moroccan_arabic_words_logger - INFO - Translating [item to test] ([expected result], [generated result result])
-2020-02-15 03:32:26,545 - test_moroccan_arabic_words_logger - ERROR - Translating مفردات, 'lmofradat' != 'mfrdat'
+2020-02-15 06:49:52,593 - test_moroccan_arabic_words_logger - INFO - Translating [item to test] ([expected result], [generated result result])
+2020-02-15 06:49:52,594 - test_moroccan_arabic_words_logger - ERROR - Translating مفردات, 'lmofradat' != 'mfrdat'
 - lmofradat
 ? - -  -
 + mfrdat
 
-2020-02-15 03:32:26,546 - test_moroccan_arabic_words_logger - ERROR - Translating بلدان, 'boldane' != 'bldan'
+2020-02-15 06:49:52,595 - test_moroccan_arabic_words_logger - ERROR - Translating بلدان, 'boldane' != 'bldan'
 - boldane
 ?  -    -
 + bldan
 
-2020-02-15 03:32:26,549 - test_moroccan_arabic_words_logger - ERROR - Translating استراليا, 'oustouraliya' != 'astralia'
+2020-02-15 06:49:52,595 - test_moroccan_arabic_words_logger - ERROR - Translating استراليا, 'oustouraliya' != 'astraleea'
 - oustouraliya
-+ astralia
++ astraleea
 
-2020-02-15 03:32:26,550 - test_moroccan_arabic_words_logger - ERROR - Translating كامبودج, 'kombodje' != 'kambodj'
+2020-02-15 06:49:52,596 - test_moroccan_arabic_words_logger - ERROR - Translating كامبودج, 'kombodje' != 'cambodj'
 - kombodje
-?  ^     -
-+ kambodj
-?  ^
++ cambodj
 
-2020-02-15 03:32:26,552 - test_moroccan_arabic_words_logger - ERROR - Translating كندا, 'canada' != 'knda'
+2020-02-15 06:49:52,596 - test_moroccan_arabic_words_logger - ERROR - Translating كندا, 'canada' != 'cnda'
 - canada
-+ knda
+?  - -
++ cnda
 
-2020-02-15 03:32:26,553 - test_moroccan_arabic_words_logger - ERROR - Translating شينوا, 'chinwa' != 'chinoa'
+2020-02-15 06:49:52,597 - test_moroccan_arabic_words_logger - ERROR - Translating شينوا, 'chinwa' != 'cheenoa'
 - chinwa
-?     ^
-+ chinoa
-?     ^
++ cheenoa
 
-2020-02-15 03:32:26,554 - test_moroccan_arabic_words_logger - ERROR - Translating مصر, 'misre' != 'msr'
+2020-02-15 06:49:52,597 - test_moroccan_arabic_words_logger - ERROR - Translating مصر, 'misre' != 'mssr'
 - misre
-?  -  -
-+ msr
++ mssr
 
-2020-02-15 03:32:26,556 - test_moroccan_arabic_words_logger - ERROR - Translating نڭليز, 'naglize' != 'ngliz'
+2020-02-15 06:49:52,598 - test_moroccan_arabic_words_logger - ERROR - Translating نڭليز, 'naglize' != 'ngleez'
 - naglize
-?  -    -
-+ ngliz
++ ngleez
 
-2020-02-15 03:32:26,558 - test_moroccan_arabic_words_logger - ERROR - Translating المانيا, 'almaniya' != 'almania'
+2020-02-15 06:49:52,599 - test_moroccan_arabic_words_logger - ERROR - Translating المانيا, 'almaniya' != 'almaneea'
 - almaniya
-?       -
-+ almania
+?      ^^
++ almaneea
+?      ^^
 
-2020-02-15 03:32:26,559 - test_moroccan_arabic_words_logger - ERROR - Translating ليونان, 'lyounane' != 'lionan'
+2020-02-15 06:49:52,599 - test_moroccan_arabic_words_logger - ERROR - Translating ليونان, 'lyounane' != 'leeonan'
 - lyounane
-?  ^ -   -
-+ lionan
-?  ^
++ leeonan
 
-2020-02-15 03:32:26,559 - test_moroccan_arabic_words_logger - ERROR - Translating لهند, 'hind' != 'lhnd'
+2020-02-15 06:49:52,600 - test_moroccan_arabic_words_logger - ERROR - Translating لهند, 'hind' != 'lhnd'
 - hind
 ?  -
 + lhnd
 ? +
 
-2020-02-15 03:32:26,560 - test_moroccan_arabic_words_logger - ERROR - Translating أندونيسيا, 'andounissiya' != 'andonisia'
+2020-02-15 06:49:52,600 - test_moroccan_arabic_words_logger - ERROR - Translating أندونيسيا, 'andounissiya' != 'andoneeseea'
 - andounissiya
-?     -   - -
-+ andonisia
++ andoneeseea
 
-2020-02-15 03:32:26,560 - test_moroccan_arabic_words_logger - ERROR - Translating طاليان, 'taliane' != 'talian'
+2020-02-15 06:49:52,601 - test_moroccan_arabic_words_logger - ERROR - Translating طاليان, 'taliane' != 'taleean'
 - taliane
-?       -
-+ talian
+?    ^  -
++ taleean
+?    ^^
 
-2020-02-15 03:32:26,561 - test_moroccan_arabic_words_logger - ERROR - Translating جاپون, 'japoune' != 'japon'
+2020-02-15 06:49:52,602 - test_moroccan_arabic_words_logger - ERROR - Translating جاپون, 'japoune' != 'japon'
 - japoune
 ?     - -
 + japon
 
-2020-02-15 03:32:26,562 - test_moroccan_arabic_words_logger - ERROR - Translating لمكسيك, 'lmixik' != 'lmksik'
+2020-02-15 06:49:52,602 - test_moroccan_arabic_words_logger - ERROR - Translating لمكسيك, 'lmixik' != 'lmxeec'
 - lmixik
-+ lmksik
++ lmxeec
 
-2020-02-15 03:32:26,562 - test_moroccan_arabic_words_logger - ERROR - Translating لمغريب, 'lmaghrib' != 'lmghrib'
+2020-02-15 06:49:52,603 - test_moroccan_arabic_words_logger - ERROR - Translating لمغريب, 'lmaghrib' != 'lmghreeb'
 - lmaghrib
-?   -
-+ lmghrib
+?   -   ^
++ lmghreeb
+?      ^^
 
-2020-02-15 03:32:26,565 - test_moroccan_arabic_words_logger - ERROR - Translating لپيرو, 'lpirou' != 'lpiro'
+2020-02-15 06:49:52,603 - test_moroccan_arabic_words_logger - ERROR - Translating لپيرو, 'lpirou' != 'lpeero'
 - lpirou
-?      -
-+ lpiro
++ lpeero
 
-2020-02-15 03:32:26,567 - test_moroccan_arabic_words_logger - ERROR - Translating سبنيا, 'sbaniya' != 'sbnia'
+2020-02-15 06:49:52,604 - test_moroccan_arabic_words_logger - ERROR - Translating سبنيا, 'sbaniya' != 'sbneea'
 - sbaniya
-?   -  -
-+ sbnia
++ sbneea
 
-2020-02-15 03:32:26,569 - test_moroccan_arabic_words_logger - ERROR - Translating طايلاند, 'taylande' != 'tailand'
+2020-02-15 06:49:52,605 - test_moroccan_arabic_words_logger - ERROR - Translating طايلاند, 'taylande' != 'taeeland'
 - taylande
 ?   ^    -
-+ tailand
-?   ^
++ taeeland
+?   ^^
 
-2020-02-15 03:32:26,570 - test_moroccan_arabic_words_logger - ERROR - Translating ميريكان, 'mirikane' != 'mirikan'
+2020-02-15 06:49:52,606 - test_moroccan_arabic_words_logger - ERROR - Translating ميريكان, 'mirikane' != 'meereecan'
 - mirikane
-?        -
-+ mirikan
++ meereecan
 
-2020-02-15 03:32:26,572 - test_moroccan_arabic_words_logger - ERROR - Translating لعربية, 'l3arbia' != 'l3rbit'
+2020-02-15 06:49:52,607 - test_moroccan_arabic_words_logger - ERROR - Translating لعربية, 'l3arbia' != 'l3rbeet'
 - l3arbia
-?   -   ^
-+ l3rbit
-?      ^
++ l3rbeet
 
-2020-02-15 03:32:26,572 - test_moroccan_arabic_words_logger - ERROR - Translating شينويا, 'chinwiya' != 'chinoia'
+2020-02-15 06:49:52,608 - test_moroccan_arabic_words_logger - ERROR - Translating شينويا, 'chinwiya' != 'cheenoeea'
 - chinwiya
-?     ^ -
-+ chinoia
-?     ^
++ cheenoeea
 
-2020-02-15 03:32:26,573 - test_moroccan_arabic_words_logger - ERROR - Translating نڭليزية, 'nagliziya' != 'nglizit'
+2020-02-15 06:49:52,609 - test_moroccan_arabic_words_logger - ERROR - Translating نڭليزية, 'nagliziya' != 'ngleezeet'
 - nagliziya
-?  -     ^^
-+ nglizit
-?       ^
++ ngleezeet
 
-2020-02-15 03:32:26,573 - test_moroccan_arabic_words_logger - ERROR - Translating فرنساويا, 'fransawiya' != 'frnsaoia'
+2020-02-15 06:49:52,609 - test_moroccan_arabic_words_logger - ERROR - Translating فرنساويا, 'fransawiya' != 'frnsaoeea'
 - fransawiya
-?   -   ^ -
-+ frnsaoia
++ frnsaoeea
+
+2020-02-15 06:49:52,610 - test_moroccan_arabic_words_logger - ERROR - Translating المانيا, 'almania' != 'almaneea'
+- almania
 ?      ^
-
-2020-02-15 03:32:26,574 - test_moroccan_arabic_words_logger - ERROR - Translating يونانيا, 'younaniya' != 'ionania'
-- younaniya
-? ^ -    -
-+ ionania
-? ^
-
-2020-02-15 03:32:26,575 - test_moroccan_arabic_words_logger - ERROR - Translating يهودية, 'ihoudiya' != 'ihodit'
-- ihoudiya
-?    -  ^^
-+ ihodit
-?      ^
-
-2020-02-15 03:32:26,575 - test_moroccan_arabic_words_logger - ERROR - Translating هندية, 'hindiya' != 'hndit'
-- hindiya
-+ hndit
-
-2020-02-15 03:32:26,576 - test_moroccan_arabic_words_logger - ERROR - Translating ايطالية, 'italiya' != 'aitalit'
-- italiya
++ almaneea
 ?      ^^
-+ aitalit
-? +     ^
 
-2020-02-15 03:32:26,576 - test_moroccan_arabic_words_logger - ERROR - Translating جابونية, 'japoniya' != 'jabonit'
+2020-02-15 06:49:52,610 - test_moroccan_arabic_words_logger - ERROR - Translating يونانيا, 'younaniya' != 'eeonaneea'
+- younaniya
++ eeonaneea
+
+2020-02-15 06:49:52,611 - test_moroccan_arabic_words_logger - ERROR - Translating يهودية, 'ihoudiya' != 'eehodeet'
+- ihoudiya
++ eehodeet
+
+2020-02-15 06:49:52,611 - test_moroccan_arabic_words_logger - ERROR - Translating هندية, 'hindiya' != 'hndeet'
+- hindiya
++ hndeet
+
+2020-02-15 06:49:52,612 - test_moroccan_arabic_words_logger - ERROR - Translating ايطالية, 'italiya' != 'aeetaleet'
+- italiya
++ aeetaleet
+
+2020-02-15 06:49:52,612 - test_moroccan_arabic_words_logger - ERROR - Translating جابونية, 'japoniya' != 'jaboneet'
 - japoniya
-+ jabonit
++ jaboneet
 
-2020-02-15 03:32:26,577 - test_moroccan_arabic_words_logger - ERROR - Translating كورية, 'kordiya' != 'korit'
+2020-02-15 06:49:52,613 - test_moroccan_arabic_words_logger - ERROR - Translating كورية, 'kordiya' != 'coreet'
 - kordiya
-+ korit
++ coreet
 
-2020-02-15 03:32:26,577 - test_moroccan_arabic_words_logger - ERROR - Translating لاتينية, 'latiniya' != 'latinit'
+2020-02-15 06:49:52,613 - test_moroccan_arabic_words_logger - ERROR - Translating لاتينية, 'latiniya' != 'lateeneet'
 - latiniya
-?       ^^
-+ latinit
-?       ^
++ lateeneet
 
-2020-02-15 03:32:26,578 - test_moroccan_arabic_words_logger - ERROR - Translating روسية, 'roussiya' != 'rosit'
+2020-02-15 06:49:52,614 - test_moroccan_arabic_words_logger - ERROR - Translating روسية, 'roussiya' != 'roseet'
 - roussiya
-+ rosit
++ roseet
 
-2020-02-15 03:32:26,578 - test_moroccan_arabic_words_logger - ERROR - Translating صبليونية, 'spaniouliya' != 'sblionit'
+2020-02-15 06:49:52,614 - test_moroccan_arabic_words_logger - ERROR - Translating صبليونية, 'spaniouliya' != 'ssbleeoneet'
 - spaniouliya
-+ sblionit
++ ssbleeoneet
 
-2020-02-15 03:32:26,579 - test_moroccan_arabic_words_logger - ERROR - Translating الاردية, '2ordia' != 'alardit'
+2020-02-15 06:49:52,615 - test_moroccan_arabic_words_logger - ERROR - Translating الاردية, '2ordia' != 'alardeet'
 - 2ordia
-+ alardit
++ alardeet
 
-2020-02-15 03:32:26,581 - test_moroccan_arabic_words_logger - ERROR - Translating ليامات, 'lyamate' != 'liamat'
+2020-02-15 06:49:52,616 - test_moroccan_arabic_words_logger - ERROR - Translating ليامات, 'lyamate' != 'leeamat'
 - lyamate
 ?  ^    -
-+ liamat
-?  ^
++ leeamat
+?  ^^
 
-2020-02-15 03:32:26,582 - test_moroccan_arabic_words_logger - ERROR - Translating تنين, 'tnine' != 'tnin'
+2020-02-15 06:49:52,617 - test_moroccan_arabic_words_logger - ERROR - Translating تنين, 'tnine' != 'tneen'
 - tnine
-?     -
-+ tnin
++ tneen
 
-2020-02-15 03:32:26,583 - test_moroccan_arabic_words_logger - ERROR - Translating تلات, 'tlate' != 'tlat'
+2020-02-15 06:49:52,618 - test_moroccan_arabic_words_logger - ERROR - Translating تلات, 'tlate' != 'tlat'
 - tlate
 ?     -
 + tlat
 
-2020-02-15 03:32:26,585 - test_moroccan_arabic_words_logger - ERROR - Translating الخميس, '5amis' != 'al5mis'
+2020-02-15 06:49:52,619 - test_moroccan_arabic_words_logger - ERROR - Translating الخميس, '5amis' != 'al5mees'
 - 5amis
-?  -
-+ al5mis
-? ++
++ al5mees
 
-2020-02-15 03:32:26,586 - test_moroccan_arabic_words_logger - ERROR - Translating جمعة, 'jam3a' != 'jm3t'
+2020-02-15 06:49:52,620 - test_moroccan_arabic_words_logger - ERROR - Translating جمعة, 'jam3a' != 'jm3t'
 - jam3a
 + jm3t
 
-2020-02-15 03:32:26,587 - test_moroccan_arabic_words_logger - ERROR - Translating سبت, 'sabte' != 'sbt'
+2020-02-15 06:49:52,621 - test_moroccan_arabic_words_logger - ERROR - Translating سبت, 'sabte' != 'sbt'
 - sabte
 ?  -  -
 + sbt
 
-2020-02-15 03:32:26,589 - test_moroccan_arabic_words_logger - ERROR - Translating الحد, '7add' != 'al7d'
+2020-02-15 06:49:52,622 - test_moroccan_arabic_words_logger - ERROR - Translating الحد, '7add' != 'al7d'
 - 7add
 + al7d
 
-2020-02-15 03:32:26,589 - test_moroccan_arabic_words_logger - ERROR - Translating مرة, 'marra' != 'mrt'
+2020-02-15 06:49:52,623 - test_moroccan_arabic_words_logger - ERROR - Translating مرة, 'marra' != 'mrt'
 - marra
 + mrt
 
-2020-02-15 03:32:26,590 - test_moroccan_arabic_words_logger - ERROR - Translating ساعة, 'sa3a' != 'sa3t'
+2020-02-15 06:49:52,624 - test_moroccan_arabic_words_logger - ERROR - Translating ساعة, 'sa3a' != 'sa3t'
 - sa3a
 ?    ^
 + sa3t
 ?    ^
 
-2020-02-15 03:32:26,591 - test_moroccan_arabic_words_logger - ERROR - Translating دقيقة, 'd9i9a' != 'd9i9t'
+2020-02-15 06:49:52,625 - test_moroccan_arabic_words_logger - ERROR - Translating دقيقة, 'd9i9a' != 'd9ee9t'
 - d9i9a
-?     ^
-+ d9i9t
-?     ^
++ d9ee9t
 
-2020-02-15 03:32:26,592 - test_moroccan_arabic_words_logger - ERROR - Translating تانية, 'taniya' != 'tanit'
+2020-02-15 06:49:52,625 - test_moroccan_arabic_words_logger - ERROR - Translating تانية, 'taniya' != 'taneet'
 - taniya
-?     ^^
-+ tanit
-?     ^
++ taneet
 
-2020-02-15 03:32:26,593 - test_moroccan_arabic_words_logger - ERROR - Translating سمحلي, 'sme7lia' != 'sm7li'
+2020-02-15 06:49:52,626 - test_moroccan_arabic_words_logger - ERROR - Translating سمحلي, 'sme7lia' != 'sm7lee'
 - sme7lia
-?   -   -
-+ sm7li
++ sm7lee
 
-2020-02-15 03:32:26,593 - test_moroccan_arabic_words_logger - ERROR - Translating بصحة, 'besse7a' != 'bs7t'
+2020-02-15 06:49:52,627 - test_moroccan_arabic_words_logger - ERROR - Translating بصحة, 'besse7a' != 'bss7t'
 - besse7a
-+ bs7t
++ bss7t
 
-2020-02-15 03:32:26,594 - test_moroccan_arabic_words_logger - ERROR - Translating بسلامة, 'beslama' != 'bslamt'
+2020-02-15 06:49:52,628 - test_moroccan_arabic_words_logger - ERROR - Translating بسلامة, 'beslama' != 'bslamt'
 - beslama
 ?  -    ^
 + bslamt
 ?      ^
 
-2020-02-15 03:32:26,595 - test_moroccan_arabic_words_logger - ERROR - Translating بصح, 'bessa7' != 'bs7'
+2020-02-15 06:49:52,628 - test_moroccan_arabic_words_logger - ERROR - Translating بصح, 'bessa7' != 'bss7'
 - bessa7
-+ bs7
+?  -  -
++ bss7
 
-2020-02-15 03:32:26,595 - test_moroccan_arabic_words_logger - ERROR - Translating سلام, 'salam' != 'slam'
+2020-02-15 06:49:52,629 - test_moroccan_arabic_words_logger - ERROR - Translating سلام, 'salam' != 'slam'
 - salam
 ?  -
 + slam
 
-2020-02-15 03:32:26,597 - test_moroccan_arabic_words_logger - ERROR - Translating واحد, 'wa7ed' != 'oa7d'
+2020-02-15 06:49:52,630 - test_moroccan_arabic_words_logger - ERROR - Translating واحد, 'wa7ed' != 'oa7d'
 - wa7ed
 + oa7d
 
-2020-02-15 03:32:26,598 - test_moroccan_arabic_words_logger - ERROR - Translating جوج, 'jouj' != 'joj'
+2020-02-15 06:49:52,631 - test_moroccan_arabic_words_logger - ERROR - Translating جوج, 'jouj' != 'joj'
 - jouj
 ?   -
 + joj
 
-2020-02-15 03:32:26,599 - test_moroccan_arabic_words_logger - ERROR - Translating تلاتة, 'tlata' != 'tlatt'
+2020-02-15 06:49:52,632 - test_moroccan_arabic_words_logger - ERROR - Translating تلاتة, 'tlata' != 'tlatt'
 - tlata
 ?     ^
 + tlatt
 ?     ^
 
-2020-02-15 03:32:26,601 - test_moroccan_arabic_words_logger - ERROR - Translating ربعة, 'reb3a' != 'rb3t'
+2020-02-15 06:49:52,633 - test_moroccan_arabic_words_logger - ERROR - Translating ربعة, 'reb3a' != 'rb3t'
 - reb3a
 + rb3t
 
-2020-02-15 03:32:26,603 - test_moroccan_arabic_words_logger - ERROR - Translating خمسة, '5emsa' != '5mst'
+2020-02-15 06:49:52,634 - test_moroccan_arabic_words_logger - ERROR - Translating خمسة, '5emsa' != '5mst'
 - 5emsa
 + 5mst
 
-2020-02-15 03:32:26,604 - test_moroccan_arabic_words_logger - ERROR - Translating ستة, 'setta' != 'stt'
+2020-02-15 06:49:52,634 - test_moroccan_arabic_words_logger - ERROR - Translating ستة, 'setta' != 'stt'
 - setta
 ?  -  -
 + stt
 
-2020-02-15 03:32:26,605 - test_moroccan_arabic_words_logger - ERROR - Translating سبعة, 'seb3a' != 'sb3t'
+2020-02-15 06:49:52,635 - test_moroccan_arabic_words_logger - ERROR - Translating سبعة, 'seb3a' != 'sb3t'
 - seb3a
 + sb3t
 
-2020-02-15 03:32:26,606 - test_moroccan_arabic_words_logger - ERROR - Translating تمنية, 'tmania' != 'tmnit'
+2020-02-15 06:49:52,636 - test_moroccan_arabic_words_logger - ERROR - Translating تمنية, 'tmania' != 'tmneet'
 - tmania
-?   -  ^
-+ tmnit
-?     ^
++ tmneet
 
-2020-02-15 03:32:26,607 - test_moroccan_arabic_words_logger - ERROR - Translating تسعود, 'tes3oud' != 'ts3od'
+2020-02-15 06:49:52,637 - test_moroccan_arabic_words_logger - ERROR - Translating تسعود, 'tes3oud' != 'ts3od'
 - tes3oud
 ?  -   -
 + ts3od
 
-2020-02-15 03:32:26,607 - test_moroccan_arabic_words_logger - ERROR - Translating عشرة, '3achra' != '3chrt'
+2020-02-15 06:49:52,638 - test_moroccan_arabic_words_logger - ERROR - Translating عشرة, '3achra' != '3chrt'
 - 3achra
 ?  -   ^
 + 3chrt
 ?     ^
 
-2020-02-15 03:32:26,608 - test_moroccan_arabic_words_logger - ERROR - Translating إييه, 'iyeh' != 'aiih'
+2020-02-15 06:49:52,639 - test_moroccan_arabic_words_logger - ERROR - Translating إييه, 'iyeh' != 'aeeeeh'
 - iyeh
-+ aiih
++ aeeeeh
 
-2020-02-15 03:32:26,609 - test_moroccan_arabic_words_logger - ERROR - Translating لا, 'Lla' != 'la'
+2020-02-15 06:49:52,639 - test_moroccan_arabic_words_logger - ERROR - Translating لا, 'Lla' != 'la'
 - Lla
 ? -
 + la
 
-2020-02-15 03:32:26,610 - test_moroccan_arabic_words_logger - ERROR - Translating شكرا, 'chokran' != 'chkra'
+2020-02-15 06:49:52,640 - test_moroccan_arabic_words_logger - ERROR - Translating عافاك, '3afak' != '3afac'
+- 3afak
+?     ^
++ 3afac
+?     ^
+
+2020-02-15 06:49:52,641 - test_moroccan_arabic_words_logger - ERROR - Translating شكرا, 'chokran' != 'chcra'
 - chokran
-?   -   -
-+ chkra
++ chcra
 
-2020-02-15 03:32:26,610 - test_moroccan_arabic_words_logger - ERROR - Translating كنبغيك, 'Kanbghik' != 'knbghik'
+2020-02-15 06:49:52,642 - test_moroccan_arabic_words_logger - ERROR - Translating كنبغيك, 'Kanbghik' != 'cnbgheec'
 - Kanbghik
-? ^^
-+ knbghik
-? ^
++ cnbgheec
 
-2020-02-15 03:32:26,611 - test_moroccan_arabic_words_logger - ERROR - Translating توحشتك, 'Twe77eshtek' != 'to7chtk'
+2020-02-15 06:49:52,642 - test_moroccan_arabic_words_logger - ERROR - Translating توحشتك, 'Twe77eshtek' != 'to7chtc'
 - Twe77eshtek
-+ to7chtk
++ to7chtc
 
-2020-02-15 03:32:26,611 - test_moroccan_arabic_words_logger - ERROR - Translating بزاف, 'Bezzaf' != 'bzaf'
+2020-02-15 06:49:52,643 - test_moroccan_arabic_words_logger - ERROR - Translating بزاف, 'Bezzaf' != 'bzaf'
 - Bezzaf
 + bzaf
 
-2020-02-15 03:32:26,612 - test_moroccan_arabic_words_logger - ERROR - Translating شوية, 'chwia' != 'choit'
+2020-02-15 06:49:52,644 - test_moroccan_arabic_words_logger - ERROR - Translating شوية, 'chwia' != 'choeet'
 - chwia
-+ choit
++ choeet
 
-2020-02-15 03:32:26,613 - test_moroccan_arabic_words_logger - ERROR - Translating واخا, 'Wakha' != 'oa5a'
+2020-02-15 06:49:52,645 - test_moroccan_arabic_words_logger - ERROR - Translating واخا, 'Wakha' != 'oa5a'
 - Wakha
 + oa5a
 
-2020-02-15 03:32:26,614 - test_moroccan_arabic_words_logger - ERROR - Translating دابا, 'Daba' != 'daba'
+2020-02-15 06:49:52,645 - test_moroccan_arabic_words_logger - ERROR - Translating دابا, 'Daba' != 'daba'
 - Daba
 ? ^
 + daba
 ? ^
 
-2020-02-15 03:32:26,615 - test_moroccan_arabic_words_logger - ERROR - Translating و, 'W' != 'o'
+2020-02-15 06:49:52,646 - test_moroccan_arabic_words_logger - ERROR - Translating و, 'W' != 'o'
 - W
 + o
 
-2020-02-15 03:32:26,616 - test_moroccan_arabic_words_logger - ERROR - Translating ماشي, 'Mashi' != 'machi'
+2020-02-15 06:49:52,647 - test_moroccan_arabic_words_logger - ERROR - Translating ماشي, 'Mashi' != 'machee'
 - Mashi
-+ machi
++ machee
 
-2020-02-15 03:32:26,617 - test_moroccan_arabic_words_logger - ERROR - Translating بغيت, 'Bghit' != 'bghit'
+2020-02-15 06:49:52,648 - test_moroccan_arabic_words_logger - ERROR - Translating بغيت, 'Bghit' != 'bgheet'
 - Bghit
-? ^
-+ bghit
-? ^
++ bgheet
 
-2020-02-15 03:32:26,618 - test_moroccan_arabic_words_logger - ERROR - Translating ساليت, 'Salit' != 'salit'
+2020-02-15 06:49:52,649 - test_moroccan_arabic_words_logger - ERROR - Translating ساليت, 'Salit' != 'saleet'
 - Salit
-? ^
-+ salit
-? ^
++ saleet
 
-2020-02-15 03:32:26,619 - test_moroccan_arabic_words_logger - ERROR - Translating زوين, 'Zwin' != 'zoin'
+2020-02-15 06:49:52,649 - test_moroccan_arabic_words_logger - ERROR - Translating زوين, 'Zwin' != 'zoeen'
 - Zwin
-+ zoin
++ zoeen
 
-2020-02-15 03:32:26,621 - test_moroccan_arabic_words_logger - ERROR - Translating خايب, '5ayb' != '5aib'
+2020-02-15 06:49:52,651 - test_moroccan_arabic_words_logger - ERROR - Translating خايب, '5ayb' != '5aeeb'
 - 5ayb
-?   ^
-+ 5aib
-?   ^
++ 5aeeb
 
-2020-02-15 03:32:26,621 - test_moroccan_arabic_words_logger - ERROR - Translating مزيان, 'Mezyan' != 'mzian'
+2020-02-15 06:49:52,652 - test_moroccan_arabic_words_logger - ERROR - Translating مزيان, 'Mezyan' != 'mzeean'
 - Mezyan
-+ mzian
++ mzeean
 
-2020-02-15 03:32:26,622 - test_moroccan_arabic_words_logger - ERROR - Translating هضر, 'hder' != 'hdr'
+2020-02-15 06:49:52,653 - test_moroccan_arabic_words_logger - ERROR - Translating هضر, 'hder' != 'hdr'
 - hder
 ?   -
 + hdr
 
-2020-02-15 03:32:26,623 - test_moroccan_arabic_words_logger - ERROR - Translating فهم, 'fhem' != 'fhm'
+2020-02-15 06:49:52,654 - test_moroccan_arabic_words_logger - ERROR - Translating فهم, 'fhem' != 'fhm'
 - fhem
 ?   -
 + fhm
 
-2020-02-15 03:32:26,623 - test_moroccan_arabic_words_logger - ERROR - Translating فلوس, 'flous' != 'flos'
+2020-02-15 06:49:52,656 - test_moroccan_arabic_words_logger - ERROR - Translating فلوس, 'flous' != 'flos'
 - flous
 ?    -
 + flos
 
-2020-02-15 03:32:26,624 - test_moroccan_arabic_words_logger - ERROR - Translating هاك, 'Hak' != 'hak'
+2020-02-15 06:49:52,657 - test_moroccan_arabic_words_logger - ERROR - Translating هاك, 'Hak' != 'hac'
 - Hak
-? ^
-+ hak
-? ^
++ hac
 
-2020-02-15 03:32:26,624 - test_moroccan_arabic_words_logger - ERROR - Translating صافي, 'Safi' != 'safi'
+2020-02-15 06:49:52,657 - test_moroccan_arabic_words_logger - ERROR - Translating صافي, 'Safi' != 'ssafee'
 - Safi
-? ^
-+ safi
-? ^
++ ssafee
 
-2020-02-15 03:32:26,625 - test_moroccan_arabic_words_logger - ERROR - Translating مبروك, 'Mebrouk' != 'mbrok'
+2020-02-15 06:49:52,658 - test_moroccan_arabic_words_logger - ERROR - Translating مبروك, 'Mebrouk' != 'mbroc'
 - Mebrouk
-+ mbrok
++ mbroc
 
-2020-02-15 03:32:26,625 - test_moroccan_arabic_words_logger - ERROR - Translating عيا, '3ya' != '3ia'
+2020-02-15 06:49:52,659 - test_moroccan_arabic_words_logger - ERROR - Translating عيا, '3ya' != '3eea'
 - 3ya
-?  ^
-+ 3ia
-?  ^
++ 3eea
 
-2020-02-15 03:32:26,626 - test_moroccan_arabic_words_logger - ERROR - Translating طواليط, 'twalit' != 'toalit'
+2020-02-15 06:49:52,660 - test_moroccan_arabic_words_logger - ERROR - Translating طواليط, 'twalit' != 'toaleet'
 - twalit
-?  ^
-+ toalit
-?  ^
++ toaleet
 
-2020-02-15 03:32:26,626 - test_moroccan_arabic_words_logger - ERROR - Translating حضاش, '7edash' != '7dach'
+2020-02-15 06:49:52,660 - test_moroccan_arabic_words_logger - ERROR - Translating حضاش, '7edash' != '7dach'
 - 7edash
 ?  -  ^
 + 7dach
 ?    ^
 
-2020-02-15 03:32:26,627 - test_moroccan_arabic_words_logger - ERROR - Translating طناش, 'Tenash' != 'tnach'
+2020-02-15 06:49:52,661 - test_moroccan_arabic_words_logger - ERROR - Translating طناش, 'Tenash' != 'tnach'
 - Tenash
 + tnach
 
-2020-02-15 03:32:26,627 - test_moroccan_arabic_words_logger - ERROR - Translating تلطاش, 'Teletash' != 'tltach'
+2020-02-15 06:49:52,662 - test_moroccan_arabic_words_logger - ERROR - Translating تلطاش, 'Teletash' != 'tltach'
 - Teletash
 + tltach
 
-2020-02-15 03:32:26,628 - test_moroccan_arabic_words_logger - ERROR - Translating ربعطاش, 'Rebe3tash' != 'rb3tach'
+2020-02-15 06:49:52,663 - test_moroccan_arabic_words_logger - ERROR - Translating ربعطاش, 'Rebe3tash' != 'rb3tach'
 - Rebe3tash
 + rb3tach
 
-2020-02-15 03:32:26,628 - test_moroccan_arabic_words_logger - ERROR - Translating خمسطاش, 'Khemstash' != '5mstach'
+2020-02-15 06:49:52,663 - test_moroccan_arabic_words_logger - ERROR - Translating خمسطاش, 'Khemstash' != '5mstach'
 - Khemstash
 + 5mstach
 
-2020-02-15 03:32:26,630 - test_moroccan_arabic_words_logger - ERROR - Translating سطاش, 'Settash' != 'stach'
+2020-02-15 06:49:52,664 - test_moroccan_arabic_words_logger - ERROR - Translating سطاش, 'Settash' != 'stach'
 - Settash
 + stach
 
-2020-02-15 03:32:26,631 - test_moroccan_arabic_words_logger - ERROR - Translating سبعطاش, 'Sebe3tash' != 'sb3tach'
+2020-02-15 06:49:52,665 - test_moroccan_arabic_words_logger - ERROR - Translating سبعطاش, 'Sebe3tash' != 'sb3tach'
 - Sebe3tash
 + sb3tach
 
-2020-02-15 03:32:26,632 - test_moroccan_arabic_words_logger - ERROR - Translating تمنطاش, 'Tementash' != 'tmntach'
+2020-02-15 06:49:52,666 - test_moroccan_arabic_words_logger - ERROR - Translating تمنطاش, 'Tementash' != 'tmntach'
 - Tementash
 + tmntach
 
-2020-02-15 03:32:26,633 - test_moroccan_arabic_words_logger - ERROR - Translating تزعطاش, 'Teze3tash' != 'tz3tach'
+2020-02-15 06:49:52,668 - test_moroccan_arabic_words_logger - ERROR - Translating تزعطاش, 'Teze3tash' != 'tz3tach'
 - Teze3tash
 + tz3tach
 
-2020-02-15 03:32:26,633 - test_moroccan_arabic_words_logger - ERROR - Translating حلاقم, '7la9em' != '7la9m'
+2020-02-15 06:49:52,669 - test_moroccan_arabic_words_logger - ERROR - Translating حلاقم, '7la9em' != '7la9m'
 - 7la9em
 ?     -
 + 7la9m
 
-2020-02-15 03:32:26,635 - test_moroccan_arabic_words_logger - ERROR - Translating لحية, 'Le7ia' != 'l7it'
+2020-02-15 06:49:52,669 - test_moroccan_arabic_words_logger - ERROR - Translating لحية, 'Le7ia' != 'l7eet'
 - Le7ia
-+ l7it
++ l7eet
 
-2020-02-15 03:32:26,636 - test_moroccan_arabic_words_logger - ERROR - Translating فم, 'Fomm' != 'fm'
+2020-02-15 06:49:52,670 - test_moroccan_arabic_words_logger - ERROR - Translating فم, 'Fomm' != 'fm'
 - Fomm
 + fm
 
-2020-02-15 03:32:26,637 - test_moroccan_arabic_words_logger - ERROR - Translating دراع, 'Dra3' != 'dra3'
+2020-02-15 06:49:52,672 - test_moroccan_arabic_words_logger - ERROR - Translating دراع, 'Dra3' != 'dra3'
 - Dra3
 ? ^
 + dra3
 ? ^
 
-2020-02-15 03:32:26,638 - test_moroccan_arabic_words_logger - ERROR - Translating مخ, 'Mo5' != 'm5'
+2020-02-15 06:49:52,673 - test_moroccan_arabic_words_logger - ERROR - Translating مخ, 'Mo5' != 'm5'
 - Mo5
 + m5
 
-2020-02-15 03:32:26,639 - test_moroccan_arabic_words_logger - ERROR - Translating شعر, 'Sh3er' != 'ch3r'
+2020-02-15 06:49:52,673 - test_moroccan_arabic_words_logger - ERROR - Translating شعر, 'Sh3er' != 'ch3r'
 - Sh3er
 + ch3r
 
-2020-02-15 03:32:26,639 - test_moroccan_arabic_words_logger - ERROR - Translating شفر, 'Shefr' != 'chfr'
+2020-02-15 06:49:52,674 - test_moroccan_arabic_words_logger - ERROR - Translating شفر, 'Shefr' != 'chfr'
 - Shefr
 + chfr
 
-2020-02-15 03:32:26,640 - test_moroccan_arabic_words_logger - ERROR - Translating قلب, '9elb' != '9lb'
+2020-02-15 06:49:52,675 - test_moroccan_arabic_words_logger - ERROR - Translating قلب, '9elb' != '9lb'
 - 9elb
 ?  -
 + 9lb
 
-2020-02-15 03:32:26,640 - test_moroccan_arabic_words_logger - ERROR - Translating عنق, '3en9' != '3n9'
+2020-02-15 06:49:52,676 - test_moroccan_arabic_words_logger - ERROR - Translating عنق, '3en9' != '3n9'
 - 3en9
 ?  -
 + 3n9
 
-2020-02-15 03:32:26,641 - test_moroccan_arabic_words_logger - ERROR - Translating سنة, 'Senna' != 'snt'
+2020-02-15 06:49:52,677 - test_moroccan_arabic_words_logger - ERROR - Translating سنة, 'Senna' != 'snt'
 - Senna
 + snt
 
-2020-02-15 03:32:26,641 - test_moroccan_arabic_words_logger - ERROR - Translating صبع, 'Sbe3' != 'sb3'
+2020-02-15 06:49:52,677 - test_moroccan_arabic_words_logger - ERROR - Translating صبع, 'Sbe3' != 'ssb3'
 - Sbe3
-+ sb3
++ ssb3
 
-2020-02-15 03:32:26,642 - test_moroccan_arabic_words_logger - ERROR - Translating ضهر, 'Deher' != 'dhr'
+2020-02-15 06:49:52,678 - test_moroccan_arabic_words_logger - ERROR - Translating ضهر, 'Deher' != 'dhr'
 - Deher
 + dhr
 
-2020-02-15 03:32:26,643 - test_moroccan_arabic_words_logger - ERROR - Translating كتف, 'Ktef' != 'ktf'
+2020-02-15 06:49:52,679 - test_moroccan_arabic_words_logger - ERROR - Translating كتف, 'Ktef' != 'ctf'
 - Ktef
-+ ktf
++ ctf
 
-2020-02-15 03:32:26,644 - test_moroccan_arabic_words_logger - ERROR - Translating معدة, 'Me3da' != 'm3dt'
+2020-02-15 06:49:52,680 - test_moroccan_arabic_words_logger - ERROR - Translating معدة, 'Me3da' != 'm3dt'
 - Me3da
 + m3dt
 
-2020-02-15 03:32:26,645 - test_moroccan_arabic_words_logger - ERROR - Translating كبدة, 'Kebda' != 'kbdt'
+2020-02-15 06:49:52,680 - test_moroccan_arabic_words_logger - ERROR - Translating كبدة, 'Kebda' != 'cbdt'
 - Kebda
-+ kbdt
++ cbdt
 
-2020-02-15 03:32:26,645 - test_moroccan_arabic_words_logger - ERROR - Translating جبهة, 'Jebha' != 'jbht'
+2020-02-15 06:49:52,681 - test_moroccan_arabic_words_logger - ERROR - Translating جبهة, 'Jebha' != 'jbht'
 - Jebha
 + jbht
 
-2020-02-15 03:32:26,648 - test_moroccan_arabic_words_logger - ERROR - Translating ركبة, 'Rekba' != 'rkbt'
+2020-02-15 06:49:52,682 - test_moroccan_arabic_words_logger - ERROR - Translating ركبة, 'Rekba' != 'rcbt'
 - Rekba
-+ rkbt
++ rcbt
 
-2020-02-15 03:32:26,649 - test_moroccan_arabic_words_logger - ERROR - Translating حلق, '7el9a' != '7l9'
+2020-02-15 06:49:52,683 - test_moroccan_arabic_words_logger - ERROR - Translating حلق, '7el9a' != '7l9'
 - 7el9a
 ?  -  -
 + 7l9
 
-2020-02-15 03:32:26,650 - test_moroccan_arabic_words_logger - ERROR - Translating حنك, '7enk' != '7nk'
+2020-02-15 06:49:52,684 - test_moroccan_arabic_words_logger - ERROR - Translating حنك, '7enk' != '7nc'
 - 7enk
-?  -
-+ 7nk
++ 7nc
 
-2020-02-15 03:32:26,651 - test_moroccan_arabic_words_logger - ERROR - Translating يد, 'yedd' != 'id'
+2020-02-15 06:49:52,685 - test_moroccan_arabic_words_logger - ERROR - Translating يد, 'yedd' != 'eed'
 - yedd
-+ id
++ eed
 
-2020-02-15 03:32:26,653 - test_moroccan_arabic_words_logger - ERROR - Translating ضرس, 'Ders' != 'drs'
+2020-02-15 06:49:52,685 - test_moroccan_arabic_words_logger - ERROR - Translating ضرس, 'Ders' != 'drs'
 - Ders
 + drs
 
-2020-02-15 03:32:26,653 - test_moroccan_arabic_words_logger - ERROR - Translating نيف, 'Nif' != 'nif'
+2020-02-15 06:49:52,686 - test_moroccan_arabic_words_logger - ERROR - Translating نيف, 'Nif' != 'neef'
 - Nif
-? ^
-+ nif
-? ^
++ neef
 
-2020-02-15 03:32:26,655 - test_moroccan_arabic_words_logger - ERROR - Translating ضفر, 'Defer' != 'dfr'
+2020-02-15 06:49:52,687 - test_moroccan_arabic_words_logger - ERROR - Translating عين, '3in' != '3een'
+- 3in
++ 3een
+
+2020-02-15 06:49:52,689 - test_moroccan_arabic_words_logger - ERROR - Translating ضفر, 'Defer' != 'dfr'
 - Defer
 + dfr
 
-2020-02-15 03:32:26,655 - test_moroccan_arabic_words_logger - ERROR - Translating ودن, 'Wden' != 'odn'
+2020-02-15 06:49:52,690 - test_moroccan_arabic_words_logger - ERROR - Translating ودن, 'Wden' != 'odn'
 - Wden
 + odn
 
-2020-02-15 03:32:26,656 - test_moroccan_arabic_words_logger - ERROR - Translating سردين, 'srdine' != 'srdin'
+2020-02-15 06:49:52,691 - test_moroccan_arabic_words_logger - ERROR - Translating سردين, 'srdine' != 'srdeen'
 - srdine
-?      -
-+ srdin
++ srdeen
 
-2020-02-15 03:32:26,657 - test_moroccan_arabic_words_logger - ERROR - Translating عضم, '3dem' != '3dm'
+2020-02-15 06:49:52,691 - test_moroccan_arabic_words_logger - ERROR - Translating عضم, '3dem' != '3dm'
 - 3dem
 ?   -
 + 3dm
 
-2020-02-15 03:32:26,657 - test_moroccan_arabic_words_logger - ERROR - Translating جلد, 'Jeld' != 'jld'
+2020-02-15 06:49:52,692 - test_moroccan_arabic_words_logger - ERROR - Translating جلد, 'Jeld' != 'jld'
 - Jeld
 + jld
 
-2020-02-15 03:32:26,658 - test_moroccan_arabic_words_logger - ERROR - Translating رجل, 'Rjel' != 'rjl'
+2020-02-15 06:49:52,693 - test_moroccan_arabic_words_logger - ERROR - Translating رجل, 'Rjel' != 'rjl'
 - Rjel
 + rjl
 
-2020-02-15 03:32:26,659 - test_moroccan_arabic_words_logger - ERROR - Translating سدر, 'Sder' != 'sdr'
+2020-02-15 06:49:52,694 - test_moroccan_arabic_words_logger - ERROR - Translating سدر, 'Sder' != 'sdr'
 - Sder
 + sdr
 
-2020-02-15 03:32:26,660 - test_moroccan_arabic_words_logger - ERROR - Translating رية, 'Riya' != 'rit'
+2020-02-15 06:49:52,694 - test_moroccan_arabic_words_logger - ERROR - Translating رية, 'Riya' != 'reet'
 - Riya
-+ rit
++ reet
 
-2020-02-15 03:32:26,661 - test_moroccan_arabic_words_logger - ERROR - Translating حاجب, '7ajeb' != '7ajb'
+2020-02-15 06:49:52,695 - test_moroccan_arabic_words_logger - ERROR - Translating حاجب, '7ajeb' != '7ajb'
 - 7ajeb
 ?    -
 + 7ajb
 
-2020-02-15 03:32:26,661 - test_moroccan_arabic_words_logger - ERROR - Translating راس, 'Ras' != 'ras'
+2020-02-15 06:49:52,696 - test_moroccan_arabic_words_logger - ERROR - Translating راس, 'Ras' != 'ras'
 - Ras
 ? ^
 + ras
 ? ^
 
-2020-02-15 03:32:26,662 - test_moroccan_arabic_words_logger - ERROR - Translating عرق, '3er9' != '3r9'
+2020-02-15 06:49:52,697 - test_moroccan_arabic_words_logger - ERROR - Translating عرق, '3er9' != '3r9'
 - 3er9
 ?  -
 + 3r9
 
-2020-02-15 03:32:26,665 - test_moroccan_arabic_words_logger - ERROR - Translating كرش, 'Kersh' != 'krch'
+2020-02-15 06:49:52,697 - test_moroccan_arabic_words_logger - ERROR - Translating كرش, 'Kersh' != 'crch'
 - Kersh
-+ krch
++ crch
 
-2020-02-15 03:32:26,665 - test_moroccan_arabic_words_logger - ERROR - Translating وجه, 'Wjeh' != 'ojh'
+2020-02-15 06:49:52,698 - test_moroccan_arabic_words_logger - ERROR - Translating وجه, 'Wjeh' != 'ojh'
 - Wjeh
 + ojh
 
-2020-02-15 03:32:26,667 - test_moroccan_arabic_words_logger - ERROR - Translating زبدة, 'Zebda' != 'zbdt'
+2020-02-15 06:49:52,698 - test_moroccan_arabic_words_logger - ERROR - Translating زبدة, 'Zebda' != 'zbdt'
 - Zebda
 + zbdt
 
-2020-02-15 03:32:26,669 - test_moroccan_arabic_words_logger - ERROR - Translating مسلوق, 'Meslouq' != 'mslo9'
+2020-02-15 06:49:52,699 - test_moroccan_arabic_words_logger - ERROR - Translating مسلوق, 'Meslouq' != 'mslo9'
 - Meslouq
 + mslo9
 
-2020-02-15 03:32:26,671 - test_moroccan_arabic_words_logger - ERROR - Translating قهوة, 'Qehwa' != '9hot'
+2020-02-15 06:49:52,699 - test_moroccan_arabic_words_logger - ERROR - Translating قهوة, 'Qehwa' != '9hot'
 - Qehwa
 + 9hot
 
-2020-02-15 03:32:26,672 - test_moroccan_arabic_words_logger - ERROR - Translating كوفيتير, 'Kofitir' != 'kofitir'
+2020-02-15 06:49:52,700 - test_moroccan_arabic_words_logger - ERROR - Translating كوفيتير, 'Kofitir' != 'cofeeteer'
 - Kofitir
-? ^
-+ kofitir
-? ^
++ cofeeteer
 
-2020-02-15 03:32:26,673 - test_moroccan_arabic_words_logger - ERROR - Translating كامون, 'Kamoun' != 'kamon'
+2020-02-15 06:49:52,700 - test_moroccan_arabic_words_logger - ERROR - Translating كامون, 'Kamoun' != 'camon'
 - Kamoun
 ? ^   -
-+ kamon
++ camon
 ? ^
 
-2020-02-15 03:32:26,673 - test_moroccan_arabic_words_logger - ERROR - Translating ما, 'Ma' != 'ma'
+2020-02-15 06:49:52,701 - test_moroccan_arabic_words_logger - ERROR - Translating ما, 'Ma' != 'ma'
 - Ma
 + ma
 
-2020-02-15 03:32:26,674 - test_moroccan_arabic_words_logger - ERROR - Translating دڭيڭ, 'Degig' != 'dgig'
+2020-02-15 06:49:52,701 - test_moroccan_arabic_words_logger - ERROR - Translating دڭيڭ, 'Degig' != 'dgeeg'
 - Degig
-+ dgig
++ dgeeg
 
-2020-02-15 03:32:26,675 - test_moroccan_arabic_words_logger - ERROR - Translating مقلي, 'Meqli' != 'm9li'
+2020-02-15 06:49:52,701 - test_moroccan_arabic_words_logger - ERROR - Translating مقلي, 'Meqli' != 'm9lee'
 - Meqli
-+ m9li
++ m9lee
 
-2020-02-15 03:32:26,676 - test_moroccan_arabic_words_logger - ERROR - Translating فرماج, 'Fermaj' != 'frmaj'
+2020-02-15 06:49:52,702 - test_moroccan_arabic_words_logger - ERROR - Translating فرماج, 'Fermaj' != 'frmaj'
 - Fermaj
 ? ^^
 + frmaj
 ? ^
 
-2020-02-15 03:32:26,677 - test_moroccan_arabic_words_logger - ERROR - Translating فاكية, 'Fakia' != 'fakit'
+2020-02-15 06:49:52,702 - test_moroccan_arabic_words_logger - ERROR - Translating فاكية, 'Fakia' != 'faceet'
 - Fakia
-+ fakit
++ faceet
 
-2020-02-15 03:32:26,677 - test_moroccan_arabic_words_logger - ERROR - Translating حلوة, '7elwa' != '7lot'
+2020-02-15 06:49:52,703 - test_moroccan_arabic_words_logger - ERROR - Translating حلوة, '7elwa' != '7lot'
 - 7elwa
 + 7lot
 
-2020-02-15 03:32:26,678 - test_moroccan_arabic_words_logger - ERROR - Translating زيت, 'Zit' != 'zit'
+2020-02-15 06:49:52,703 - test_moroccan_arabic_words_logger - ERROR - Translating زيت, 'Zit' != 'zeet'
 - Zit
-? ^
-+ zit
-? ^
++ zeet
 
-2020-02-15 03:32:26,679 - test_moroccan_arabic_words_logger - ERROR - Translating عصير, '3asir' != '3sir'
+2020-02-15 06:49:52,704 - test_moroccan_arabic_words_logger - ERROR - Translating عصير, '3asir' != '3sseer'
 - 3asir
-?  -
-+ 3sir
++ 3sseer
 
-2020-02-15 03:32:26,682 - test_moroccan_arabic_words_logger - ERROR - Translating خضرة, 'Khodra' != '5drt'
+2020-02-15 06:49:52,704 - test_moroccan_arabic_words_logger - ERROR - Translating حليب, '7lib' != '7leeb'
+- 7lib
++ 7leeb
+
+2020-02-15 06:49:52,704 - test_moroccan_arabic_words_logger - ERROR - Translating خضرة, 'Khodra' != '5drt'
 - Khodra
 + 5drt
 
-2020-02-15 03:32:26,684 - test_moroccan_arabic_words_logger - ERROR - Translating عدس, '3des' != '3ds'
+2020-02-15 06:49:52,705 - test_moroccan_arabic_words_logger - ERROR - Translating عدس, '3des' != '3ds'
 - 3des
 ?   -
 + 3ds
 
-2020-02-15 03:32:26,686 - test_moroccan_arabic_words_logger - ERROR - Translating عسل, '3sel' != '3sl'
+2020-02-15 06:49:52,705 - test_moroccan_arabic_words_logger - ERROR - Translating عسل, '3sel' != '3sl'
 - 3sel
 ?   -
 + 3sl
 
-2020-02-15 03:32:26,686 - test_moroccan_arabic_words_logger - ERROR - Translating بيضة, 'Bida' != 'bidt'
+2020-02-15 06:49:52,706 - test_moroccan_arabic_words_logger - ERROR - Translating بيضة, 'Bida' != 'beedt'
 - Bida
-+ bidt
++ beedt
 
-2020-02-15 03:32:26,688 - test_moroccan_arabic_words_logger - ERROR - Translating خبز, 'Khobz' != '5bz'
+2020-02-15 06:49:52,706 - test_moroccan_arabic_words_logger - ERROR - Translating خبز, 'Khobz' != '5bz'
 - Khobz
 + 5bz
 
-2020-02-15 03:32:26,689 - test_moroccan_arabic_words_logger - ERROR - Translating حوت, '7out' != '7ot'
+2020-02-15 06:49:52,707 - test_moroccan_arabic_words_logger - ERROR - Translating حوت, '7out' != '7ot'
 - 7out
 ?   -
 + 7ot
 
-2020-02-15 03:32:26,690 - test_moroccan_arabic_words_logger - ERROR - Translating إبزار, 'Ibzar' != 'abzar'
+2020-02-15 06:49:52,707 - test_moroccan_arabic_words_logger - ERROR - Translating إبزار, 'Ibzar' != 'abzar'
 - Ibzar
 ? ^
 + abzar
 ? ^
 
-2020-02-15 03:32:26,690 - test_moroccan_arabic_words_logger - ERROR - Translating روز, 'Rouz' != 'roz'
+2020-02-15 06:49:52,708 - test_moroccan_arabic_words_logger - ERROR - Translating روز, 'Rouz' != 'roz'
 - Rouz
 + roz
 
-2020-02-15 03:32:26,691 - test_moroccan_arabic_words_logger - ERROR - Translating مشوي, 'Meshwi' != 'mchoi'
+2020-02-15 06:49:52,709 - test_moroccan_arabic_words_logger - ERROR - Translating مشوي, 'Meshwi' != 'mchoee'
 - Meshwi
-+ mchoi
++ mchoee
 
-2020-02-15 03:32:26,692 - test_moroccan_arabic_words_logger - ERROR - Translating شلاضة, 'Shelada' != 'chladt'
+2020-02-15 06:49:52,710 - test_moroccan_arabic_words_logger - ERROR - Translating شلاضة, 'Shelada' != 'chladt'
 - Shelada
 + chladt
 
-2020-02-15 03:32:26,692 - test_moroccan_arabic_words_logger - ERROR - Translating ملحة, 'Mel7a' != 'ml7t'
+2020-02-15 06:49:52,710 - test_moroccan_arabic_words_logger - ERROR - Translating ملحة, 'Mel7a' != 'ml7t'
 - Mel7a
 + ml7t
 
-2020-02-15 03:32:26,693 - test_moroccan_arabic_words_logger - ERROR - Translating حريرة, '7rira' != '7rirt'
+2020-02-15 06:49:52,711 - test_moroccan_arabic_words_logger - ERROR - Translating حريرة, '7rira' != '7reert'
 - 7rira
-?     ^
-+ 7rirt
-?     ^
++ 7reert
 
-2020-02-15 03:32:26,694 - test_moroccan_arabic_words_logger - ERROR - Translating سكر, 'Sekkar' != 'skr'
+2020-02-15 06:49:52,712 - test_moroccan_arabic_words_logger - ERROR - Translating سكر, 'Sekkar' != 'scr'
 - Sekkar
-+ skr
++ scr
 
-2020-02-15 03:32:26,694 - test_moroccan_arabic_words_logger - ERROR - Translating أتاي, 'Atay' != 'atai'
+2020-02-15 06:49:52,713 - test_moroccan_arabic_words_logger - ERROR - Translating أتاي, 'Atay' != 'ataee'
 - Atay
-+ atai
++ ataee
 
-2020-02-15 03:32:26,695 - test_moroccan_arabic_words_logger - ERROR - Translating لحم, 'L7em' != 'l7m'
+2020-02-15 06:49:52,713 - test_moroccan_arabic_words_logger - ERROR - Translating لحم, 'L7em' != 'l7m'
 - L7em
 + l7m
 
-2020-02-15 03:32:26,697 - test_moroccan_arabic_words_logger - ERROR - Translating خل, 'Khell' != '5l'
+2020-02-15 06:49:52,714 - test_moroccan_arabic_words_logger - ERROR - Translating خل, 'Khell' != '5l'
 - Khell
 + 5l
 
-2020-02-15 03:32:26,698 - test_moroccan_arabic_words_logger - ERROR - Translating شكون, 'Shkoun' != 'chkon'
+2020-02-15 06:49:52,715 - test_moroccan_arabic_words_logger - ERROR - Translating شكون, 'Shkoun' != 'chcon'
 - Shkoun
-? ^   -
-+ chkon
-? ^
++ chcon
 
-2020-02-15 03:32:26,699 - test_moroccan_arabic_words_logger - ERROR - Translating أش شنو, 'Ashno' != 'ach chno'
+2020-02-15 06:49:52,715 - test_moroccan_arabic_words_logger - ERROR - Translating أش شنو, 'Ashno' != 'ach chno'
 - Ashno
 + ach chno
 
-2020-02-15 03:32:26,701 - test_moroccan_arabic_words_logger - ERROR - Translating علاش, '3lash' != '3lach'
+2020-02-15 06:49:52,716 - test_moroccan_arabic_words_logger - ERROR - Translating علاش, '3lash' != '3lach'
 - 3lash
 ?    ^
 + 3lach
 ?    ^
 
-2020-02-15 03:32:26,703 - test_moroccan_arabic_words_logger - ERROR - Translating لاش, 'Lash' != 'lach'
+2020-02-15 06:49:52,717 - test_moroccan_arabic_words_logger - ERROR - Translating لاش, 'Lash' != 'lach'
 - Lash
 + lach
 
-2020-02-15 03:32:26,704 - test_moroccan_arabic_words_logger - ERROR - Translating فين, 'Fin' != 'fin'
+2020-02-15 06:49:52,718 - test_moroccan_arabic_words_logger - ERROR - Translating فين, 'Fin' != 'feen'
 - Fin
-? ^
-+ fin
-? ^
++ feen
 
-2020-02-15 03:32:26,705 - test_moroccan_arabic_words_logger - ERROR - Translating فوقاش, 'Imta' != 'fo9ach'
+2020-02-15 06:49:52,718 - test_moroccan_arabic_words_logger - ERROR - Translating فوقاش, 'Imta' != 'fo9ach'
 - Imta
 + fo9ach
 
-2020-02-15 03:32:26,705 - test_moroccan_arabic_words_logger - ERROR - Translating لمن, 'Lemen' != 'lmn'
+2020-02-15 06:49:52,719 - test_moroccan_arabic_words_logger - ERROR - Translating لمن, 'Lemen' != 'lmn'
 - Lemen
 + lmn
 
-2020-02-15 03:32:26,706 - test_moroccan_arabic_words_logger - ERROR - Translating كيفاش, 'Kifash' != 'kifach'
+2020-02-15 06:49:52,720 - test_moroccan_arabic_words_logger - ERROR - Translating كيفاش, 'Kifash' != 'ceefach'
 - Kifash
-+ kifach
++ ceefach
 
-2020-02-15 03:32:26,707 - test_moroccan_arabic_words_logger - ERROR - Translating شحال, 'Sh7al' != 'ch7al'
+2020-02-15 06:49:52,721 - test_moroccan_arabic_words_logger - ERROR - Translating شحال, 'Sh7al' != 'ch7al'
 - Sh7al
 ? ^
 + ch7al
 ? ^
 
-2020-02-15 03:32:26,707 - test_moroccan_arabic_words_logger - ERROR - Translating فضي, 'Feddi' != 'fdi'
+2020-02-15 06:49:52,721 - test_moroccan_arabic_words_logger - ERROR - Translating فضي, 'Feddi' != 'fdee'
 - Feddi
-+ fdi
++ fdee
 
-2020-02-15 03:32:26,708 - test_moroccan_arabic_words_logger - ERROR - Translating بيج, 'Bij' != 'bij'
+2020-02-15 06:49:52,722 - test_moroccan_arabic_words_logger - ERROR - Translating بيج, 'Bij' != 'beej'
 - Bij
-? ^
-+ bij
-? ^
++ beej
 
-2020-02-15 03:32:26,708 - test_moroccan_arabic_words_logger - ERROR - Translating بيض, 'Byed' != 'bid'
+2020-02-15 06:49:52,723 - test_moroccan_arabic_words_logger - ERROR - Translating بيض, 'Byed' != 'beed'
 - Byed
-+ bid
++ beed
 
-2020-02-15 03:32:26,709 - test_moroccan_arabic_words_logger - ERROR - Translating زرق, 'zre9' != 'zr9'
+2020-02-15 06:49:52,724 - test_moroccan_arabic_words_logger - ERROR - Translating زرق, 'zre9' != 'zr9'
 - zre9
 ?   -
 + zr9
 
-2020-02-15 03:32:26,709 - test_moroccan_arabic_words_logger - ERROR - Translating شيبي, 'Shibi' != 'chibi'
+2020-02-15 06:49:52,724 - test_moroccan_arabic_words_logger - ERROR - Translating شيبي, 'Shibi' != 'cheebee'
 - Shibi
-? ^
-+ chibi
-? ^
++ cheebee
 
-2020-02-15 03:32:26,710 - test_moroccan_arabic_words_logger - ERROR - Translating ڭرونة, 'Grouna' != 'gront'
+2020-02-15 06:49:52,725 - test_moroccan_arabic_words_logger - ERROR - Translating ڭرونة, 'Grouna' != 'gront'
 - Grouna
 + gront
 
-2020-02-15 03:32:26,710 - test_moroccan_arabic_words_logger - ERROR - Translating رمادي, 'Rmadi' != 'rmadi'
+2020-02-15 06:49:52,725 - test_moroccan_arabic_words_logger - ERROR - Translating رمادي, 'Rmadi' != 'rmadee'
 - Rmadi
-? ^
-+ rmadi
-? ^
++ rmadee
 
-2020-02-15 03:32:26,711 - test_moroccan_arabic_words_logger - ERROR - Translating صفر, 'Sfer' != 'sfr'
+2020-02-15 06:49:52,726 - test_moroccan_arabic_words_logger - ERROR - Translating صفر, 'Sfer' != 'ssfr'
 - Sfer
-+ sfr
++ ssfr
 
-2020-02-15 03:32:26,711 - test_moroccan_arabic_words_logger - ERROR - Translating قهوي, '9ehwi' != '9hoi'
+2020-02-15 06:49:52,726 - test_moroccan_arabic_words_logger - ERROR - Translating قهوي, '9ehwi' != '9hoee'
 - 9ehwi
-+ 9hoi
++ 9hoee
 
-2020-02-15 03:32:26,712 - test_moroccan_arabic_words_logger - ERROR - Translating موڤ, 'Mauve' != 'mov'
+2020-02-15 06:49:52,727 - test_moroccan_arabic_words_logger - ERROR - Translating موڤ, 'Mauve' != 'mov'
 - Mauve
 + mov
 
-2020-02-15 03:32:26,713 - test_moroccan_arabic_words_logger - ERROR - Translating كحل, 'K7el' != 'k7l'
+2020-02-15 06:49:52,727 - test_moroccan_arabic_words_logger - ERROR - Translating كحل, 'K7el' != 'c7l'
 - K7el
-+ k7l
++ c7l
 
-2020-02-15 03:32:26,714 - test_moroccan_arabic_words_logger - ERROR - Translating خزي, '5ezzi' != '5zi'
+2020-02-15 06:49:52,728 - test_moroccan_arabic_words_logger - ERROR - Translating خزي, '5ezzi' != '5zee'
 - 5ezzi
-?  --
-+ 5zi
++ 5zee
 
-2020-02-15 03:32:26,715 - test_moroccan_arabic_words_logger - ERROR - Translating دهبي, 'Dehbi' != 'dhbi'
+2020-02-15 06:49:52,728 - test_moroccan_arabic_words_logger - ERROR - Translating دهبي, 'Dehbi' != 'dhbee'
 - Dehbi
-+ dhbi
++ dhbee
 
-2020-02-15 03:32:26,716 - test_moroccan_arabic_words_logger - ERROR - Translating ليموني, 'Limouni' != 'limoni'
+2020-02-15 06:49:52,729 - test_moroccan_arabic_words_logger - ERROR - Translating ليموني, 'Limouni' != 'leemonee'
 - Limouni
-? ^   -
-+ limoni
-? ^
++ leemonee
 
-2020-02-15 03:32:26,718 - test_moroccan_arabic_words_logger - ERROR - Translating بونجة, 'Ponja' != 'bonjt'
+2020-02-15 06:49:52,729 - test_moroccan_arabic_words_logger - ERROR - Translating بونجة, 'Ponja' != 'bonjt'
 - Ponja
 + bonjt
 
-2020-02-15 03:32:26,719 - test_moroccan_arabic_words_logger - ERROR - Translating حمر, '7mer' != '7mr'
+2020-02-15 06:49:52,730 - test_moroccan_arabic_words_logger - ERROR - Translating حمر, '7mer' != '7mr'
 - 7mer
 ?   -
 + 7mr
 
-2020-02-15 03:32:26,721 - test_moroccan_arabic_words_logger - ERROR - Translating حارس, '7aris' != '7ars'
+2020-02-15 06:49:52,730 - test_moroccan_arabic_words_logger - ERROR - Translating حارس, '7aris' != '7ars'
 - 7aris
 ?    -
 + 7ars
 
-2020-02-15 03:32:26,721 - test_moroccan_arabic_words_logger - ERROR - Translating خضر, '5der' != '5dr'
+2020-02-15 06:49:52,731 - test_moroccan_arabic_words_logger - ERROR - Translating خضر, '5der' != '5dr'
 - 5der
 ?   -
 + 5dr
 
-2020-02-15 03:32:26,722 - test_moroccan_arabic_words_logger - ERROR - Translating بنفسجي, 'Banafsaji' != 'bnfsji'
+2020-02-15 06:49:52,731 - test_moroccan_arabic_words_logger - ERROR - Translating بنفسجي, 'Banafsaji' != 'bnfsjee'
 - Banafsaji
-+ bnfsji
++ bnfsjee
 
-2020-02-15 03:32:26,723 - test_moroccan_arabic_words_logger - ERROR - Translating نشيط, 'Nashit' != 'nchit'
+2020-02-15 06:49:52,732 - test_moroccan_arabic_words_logger - ERROR - Translating نشيط, 'Nashit' != 'ncheet'
 - Nashit
-+ nchit
++ ncheet
 
-2020-02-15 03:32:26,723 - test_moroccan_arabic_words_logger - ERROR - Translating شارف, 'Sharf' != 'charf'
+2020-02-15 06:49:52,733 - test_moroccan_arabic_words_logger - ERROR - Translating شارف, 'Sharf' != 'charf'
 - Sharf
 ? ^
 + charf
 ? ^
 
-2020-02-15 03:32:26,724 - test_moroccan_arabic_words_logger - ERROR - Translating طماع, 'Temma3' != 'tma3'
+2020-02-15 06:49:52,733 - test_moroccan_arabic_words_logger - ERROR - Translating قديم, '9dim' != '9deem'
+- 9dim
++ 9deem
+
+2020-02-15 06:49:52,734 - test_moroccan_arabic_words_logger - ERROR - Translating طماع, 'Temma3' != 'tma3'
 - Temma3
 + tma3
 
-2020-02-15 03:32:26,724 - test_moroccan_arabic_words_logger - ERROR - Translating مزيان, 'Mezian' != 'mzian'
+2020-02-15 06:49:52,734 - test_moroccan_arabic_words_logger - ERROR - Translating مزيان, 'Mezian' != 'mzeean'
 - Mezian
-? ^^
-+ mzian
-? ^
++ mzeean
 
-2020-02-15 03:32:26,725 - test_moroccan_arabic_words_logger - ERROR - Translating محروق, 'me7rou9' != 'm7ro9'
+2020-02-15 06:49:52,735 - test_moroccan_arabic_words_logger - ERROR - Translating محروق, 'me7rou9' != 'm7ro9'
 - me7rou9
 ?  -   -
 + m7ro9
 
-2020-02-15 03:32:26,725 - test_moroccan_arabic_words_logger - ERROR - Translating مهرس, 'Meherres' != 'mhrs'
+2020-02-15 06:49:52,735 - test_moroccan_arabic_words_logger - ERROR - Translating مهرس, 'Meherres' != 'mhrs'
 - Meherres
 + mhrs
 
-2020-02-15 03:32:26,726 - test_moroccan_arabic_words_logger - ERROR - Translating مشهور, 'Meshehour' != 'mchhor'
+2020-02-15 06:49:52,736 - test_moroccan_arabic_words_logger - ERROR - Translating مشهور, 'Meshehour' != 'mchhor'
 - Meshehour
 + mchhor
 
-2020-02-15 03:32:26,726 - test_moroccan_arabic_words_logger - ERROR - Translating متأكد, 'Met2akked' != 'mtakd'
+2020-02-15 06:49:52,736 - test_moroccan_arabic_words_logger - ERROR - Translating متأكد, 'Met2akked' != 'mtacd'
 - Met2akked
-+ mtakd
++ mtacd
 
-2020-02-15 03:32:26,727 - test_moroccan_arabic_words_logger - ERROR - Translating سخون, 's5oun' != 's5on'
+2020-02-15 06:49:52,737 - test_moroccan_arabic_words_logger - ERROR - Translating سخون, 's5oun' != 's5on'
 - s5oun
 ?    -
 + s5on
 
-2020-02-15 03:32:26,727 - test_moroccan_arabic_words_logger - ERROR - Translating غالي, 'Ghali' != 'ghali'
+2020-02-15 06:49:52,737 - test_moroccan_arabic_words_logger - ERROR - Translating غالي, 'Ghali' != 'ghalee'
 - Ghali
-? ^
-+ ghali
-? ^
++ ghalee
 
-2020-02-15 03:32:26,728 - test_moroccan_arabic_words_logger - ERROR - Translating مفركس, 'Mferkes' != 'mfrks'
+2020-02-15 06:49:52,738 - test_moroccan_arabic_words_logger - ERROR - Translating عزيز, '3ziz' != '3zeez'
+- 3ziz
++ 3zeez
+
+2020-02-15 06:49:52,738 - test_moroccan_arabic_words_logger - ERROR - Translating مفركس, 'Mferkes' != 'mfrx'
 - Mferkes
-+ mfrks
++ mfrx
 
-2020-02-15 03:32:26,729 - test_moroccan_arabic_words_logger - ERROR - Translating واضح, 'Wade7' != 'oad7'
+2020-02-15 06:49:52,739 - test_moroccan_arabic_words_logger - ERROR - Translating واضح, 'Wade7' != 'oad7'
 - Wade7
 + oad7
 
-2020-02-15 03:32:26,731 - test_moroccan_arabic_words_logger - ERROR - Translating معقد, 'm3e9ed' != 'm39d'
+2020-02-15 06:49:52,739 - test_moroccan_arabic_words_logger - ERROR - Translating معقد, 'm3e9ed' != 'm39d'
 - m3e9ed
 ?   - -
 + m39d
 
-2020-02-15 03:32:26,731 - test_moroccan_arabic_words_logger - ERROR - Translating مريح, 'Mori7' != 'mri7'
+2020-02-15 06:49:52,740 - test_moroccan_arabic_words_logger - ERROR - Translating مريح, 'Mori7' != 'mree7'
 - Mori7
-+ mri7
++ mree7
 
-2020-02-15 03:32:26,732 - test_moroccan_arabic_words_logger - ERROR - Translating معروف, 'Me3rouf' != 'm3rof'
+2020-02-15 06:49:52,740 - test_moroccan_arabic_words_logger - ERROR - Translating معروف, 'Me3rouf' != 'm3rof'
 - Me3rouf
 + m3rof
 
-2020-02-15 03:32:26,734 - test_moroccan_arabic_words_logger - ERROR - Translating قصير, '9asir' != '9sir'
+2020-02-15 06:49:52,741 - test_moroccan_arabic_words_logger - ERROR - Translating قصير, '9asir' != '9sseer'
 - 9asir
-?  -
-+ 9sir
++ 9sseer
 
-2020-02-15 03:32:26,736 - test_moroccan_arabic_words_logger - ERROR - Translating طايب, 'Tayeb' != 'taib'
+2020-02-15 06:49:52,741 - test_moroccan_arabic_words_logger - ERROR - Translating طايب, 'Tayeb' != 'taeeb'
 - Tayeb
-+ taib
++ taeeb
 
-2020-02-15 03:32:26,737 - test_moroccan_arabic_words_logger - ERROR - Translating خطير, 'Khatir' != '5tir'
+2020-02-15 06:49:52,741 - test_moroccan_arabic_words_logger - ERROR - Translating خطير, 'Khatir' != '5teer'
 - Khatir
-+ 5tir
++ 5teer
 
-2020-02-15 03:32:26,738 - test_moroccan_arabic_words_logger - ERROR - Translating فاتح, 'Fate7' != 'fat7'
+2020-02-15 06:49:52,742 - test_moroccan_arabic_words_logger - ERROR - Translating فاتح, 'Fate7' != 'fat7'
 - Fate7
 + fat7
 
-2020-02-15 03:32:26,738 - test_moroccan_arabic_words_logger - ERROR - Translating غامق, 'ghame9' != 'gham9'
+2020-02-15 06:49:52,742 - test_moroccan_arabic_words_logger - ERROR - Translating غامق, 'ghame9' != 'gham9'
 - ghame9
 ?     -
 + gham9
 
-2020-02-15 03:32:26,738 - test_moroccan_arabic_words_logger - ERROR - Translating بنين, 'Bnine' != 'bnin'
+2020-02-15 06:49:52,743 - test_moroccan_arabic_words_logger - ERROR - Translating بنين, 'Bnine' != 'bneen'
 - Bnine
-+ bnin
++ bneen
 
-2020-02-15 03:32:26,739 - test_moroccan_arabic_words_logger - ERROR - Translating مرون, 'Mrewwen' != 'mron'
+2020-02-15 06:49:52,743 - test_moroccan_arabic_words_logger - ERROR - Translating مرون, 'Mrewwen' != 'mron'
 - Mrewwen
 + mron
 
-2020-02-15 03:32:26,739 - test_moroccan_arabic_words_logger - ERROR - Translating واعر, 'Wa3er' != 'oa3r'
+2020-02-15 06:49:52,743 - test_moroccan_arabic_words_logger - ERROR - Translating واعر, 'Wa3er' != 'oa3r'
 - Wa3er
 + oa3r
 
-2020-02-15 03:32:26,740 - test_moroccan_arabic_words_logger - ERROR - Translating محساد, 'Me7sad' != 'm7sad'
+2020-02-15 06:49:52,744 - test_moroccan_arabic_words_logger - ERROR - Translating عالي, '3ali' != '3alee'
+- 3ali
++ 3alee
+
+2020-02-15 06:49:52,744 - test_moroccan_arabic_words_logger - ERROR - Translating محساد, 'Me7sad' != 'm7sad'
 - Me7sad
 ? ^^
 + m7sad
 ? ^
 
-2020-02-15 03:32:26,741 - test_moroccan_arabic_words_logger - ERROR - Translating جرب, 'jerreb' != 'jrb'
+2020-02-15 06:49:52,745 - test_moroccan_arabic_words_logger - ERROR - Translating جرب, 'jerreb' != 'jrb'
 - jerreb
 + jrb
 
-2020-02-15 03:32:26,742 - test_moroccan_arabic_words_logger - ERROR - Translating مضيق, 'mdye9' != 'mdi9'
+2020-02-15 06:49:52,746 - test_moroccan_arabic_words_logger - ERROR - Translating مضيق, 'mdye9' != 'mdee9'
 - mdye9
-+ mdi9
+?   ^
++ mdee9
+?   ^
 
-2020-02-15 03:32:26,742 - test_moroccan_arabic_words_logger - ERROR - Translating ساهل, 'Sahel' != 'sahl'
+2020-02-15 06:49:52,746 - test_moroccan_arabic_words_logger - ERROR - Translating ساهل, 'Sahel' != 'sahl'
 - Sahel
 + sahl
 
-2020-02-15 03:32:26,743 - test_moroccan_arabic_words_logger - ERROR - Translating ضاسر, 'Daser' != 'dasr'
+2020-02-15 06:49:52,747 - test_moroccan_arabic_words_logger - ERROR - Translating ضاسر, 'Daser' != 'dasr'
 - Daser
 + dasr
 
-2020-02-15 03:32:26,743 - test_moroccan_arabic_words_logger - ERROR - Translating عيان, '3iyyan' != '3ian'
+2020-02-15 06:49:52,747 - test_moroccan_arabic_words_logger - ERROR - Translating عيان, '3iyyan' != '3eean'
 - 3iyyan
-?   --
-+ 3ian
++ 3eean
 
-2020-02-15 03:32:26,743 - test_moroccan_arabic_words_logger - ERROR - Translating مسدود, 'Mesdoud' != 'msdod'
+2020-02-15 06:49:52,748 - test_moroccan_arabic_words_logger - ERROR - Translating مسدود, 'Mesdoud' != 'msdod'
 - Mesdoud
 + msdod
 
-2020-02-15 03:32:26,744 - test_moroccan_arabic_words_logger - ERROR - Translating حمق, '7me9' != '7m9'
+2020-02-15 06:49:52,748 - test_moroccan_arabic_words_logger - ERROR - Translating حمق, '7me9' != '7m9'
 - 7me9
 ?   -
 + 7m9
 
-2020-02-15 03:32:26,745 - test_moroccan_arabic_words_logger - ERROR - Translating بارد, 'Bared' != 'bard'
+2020-02-15 06:49:52,749 - test_moroccan_arabic_words_logger - ERROR - Translating بارد, 'Bared' != 'bard'
 - Bared
 + bard
 
-2020-02-15 03:32:26,745 - test_moroccan_arabic_words_logger - ERROR - Translating معصب, 'Me3esseb' != 'm3sb'
+2020-02-15 06:49:52,749 - test_moroccan_arabic_words_logger - ERROR - Translating معصب, 'Me3esseb' != 'm3ssb'
 - Me3esseb
-+ m3sb
++ m3ssb
 
-2020-02-15 03:32:26,747 - test_moroccan_arabic_words_logger - ERROR - Translating ضريف, 'Drif' != 'drif'
+2020-02-15 06:49:52,750 - test_moroccan_arabic_words_logger - ERROR - Translating سخي, 's5i' != 's5ee'
+- s5i
++ s5ee
+
+2020-02-15 06:49:52,750 - test_moroccan_arabic_words_logger - ERROR - Translating ضريف, 'Drif' != 'dreef'
 - Drif
-? ^
-+ drif
-? ^
++ dreef
 
-2020-02-15 03:32:26,748 - test_moroccan_arabic_words_logger - ERROR - Translating كبير, 'Kbir' != 'kbir'
+2020-02-15 06:49:52,751 - test_moroccan_arabic_words_logger - ERROR - Translating كبير, 'Kbir' != 'cbeer'
 - Kbir
-? ^
-+ kbir
-? ^
++ cbeer
 
-2020-02-15 03:32:26,749 - test_moroccan_arabic_words_logger - ERROR - Translating غليض, 'Ghelid' != 'ghlid'
+2020-02-15 06:49:52,751 - test_moroccan_arabic_words_logger - ERROR - Translating غليض, 'Ghelid' != 'ghleed'
 - Ghelid
-? ^ -
-+ ghlid
-? ^
++ ghleed
 
-2020-02-15 03:32:26,750 - test_moroccan_arabic_words_logger - ERROR - Translating مسطي, 'msetti' != 'msti'
+2020-02-15 06:49:52,752 - test_moroccan_arabic_words_logger - ERROR - Translating مسطي, 'msetti' != 'mstee'
 - msetti
-?   --
-+ msti
++ mstee
 
-2020-02-15 03:32:26,752 - test_moroccan_arabic_words_logger - ERROR - Translating فرحان, 'Fer7an' != 'fr7an'
+2020-02-15 06:49:52,752 - test_moroccan_arabic_words_logger - ERROR - Translating فرحان, 'Fer7an' != 'fr7an'
 - Fer7an
 ? ^^
 + fr7an
 ? ^
 
-2020-02-15 03:32:26,753 - test_moroccan_arabic_words_logger - ERROR - Translating مهم, 'Mohim' != 'mhm'
+2020-02-15 06:49:52,753 - test_moroccan_arabic_words_logger - ERROR - Translating مهم, 'Mohim' != 'mhm'
 - Mohim
 + mhm
 
-2020-02-15 03:32:26,754 - test_moroccan_arabic_words_logger - ERROR - Translating بريء, 'Bari2' != 'bri2'
+2020-02-15 06:49:52,753 - test_moroccan_arabic_words_logger - ERROR - Translating بريء, 'Bari2' != 'bree2'
 - Bari2
-+ bri2
++ bree2
 
-2020-02-15 03:32:26,755 - test_moroccan_arabic_words_logger - ERROR - Translating دكي, 'Dki' != 'dki'
+2020-02-15 06:49:52,754 - test_moroccan_arabic_words_logger - ERROR - Translating دكي, 'Dki' != 'dcee'
 - Dki
-? ^
-+ dki
-? ^
++ dcee
 
-2020-02-15 03:32:26,756 - test_moroccan_arabic_words_logger - ERROR - Translating مغيار, 'Meghyar' != 'mghiar'
+2020-02-15 06:49:52,754 - test_moroccan_arabic_words_logger - ERROR - Translating مغيار, 'Meghyar' != 'mgheear'
 - Meghyar
-+ mghiar
++ mgheear
 
-2020-02-15 03:32:26,756 - test_moroccan_arabic_words_logger - ERROR - Translating زوين, 'Zwin' != 'zoin'
+2020-02-15 06:49:52,755 - test_moroccan_arabic_words_logger - ERROR - Translating زوين, 'Zwin' != 'zoeen'
 - Zwin
-+ zoin
++ zoeen
 
-2020-02-15 03:32:26,757 - test_moroccan_arabic_words_logger - ERROR - Translating عريض, '3erid' != '3rid'
+2020-02-15 06:49:52,755 - test_moroccan_arabic_words_logger - ERROR - Translating عريض, '3erid' != '3reed'
 - 3erid
-?  -
-+ 3rid
++ 3reed
 
-2020-02-15 03:32:26,757 - test_moroccan_arabic_words_logger - ERROR - Translating خفيف, 'Khfif' != '5fif'
+2020-02-15 06:49:52,756 - test_moroccan_arabic_words_logger - ERROR - Translating خفيف, 'Khfif' != '5feef'
 - Khfif
-+ 5fif
++ 5feef
 
-2020-02-15 03:32:26,758 - test_moroccan_arabic_words_logger - ERROR - Translating بعيد, 'B3id' != 'b3id'
+2020-02-15 06:49:52,756 - test_moroccan_arabic_words_logger - ERROR - Translating بعيد, 'B3id' != 'b3eed'
 - B3id
-? ^
-+ b3id
-? ^
++ b3eed
 
-2020-02-15 03:32:26,758 - test_moroccan_arabic_words_logger - ERROR - Translating طويل, 'Twil' != 'toil'
+2020-02-15 06:49:52,757 - test_moroccan_arabic_words_logger - ERROR - Translating طويل, 'Twil' != 'toeel'
 - Twil
-+ toil
++ toeel
 
-2020-02-15 03:32:26,759 - test_moroccan_arabic_words_logger - ERROR - Translating مريض, 'Mrid' != 'mrid'
+2020-02-15 06:49:52,757 - test_moroccan_arabic_words_logger - ERROR - Translating تقيل, 't9il' != 't9eel'
+- t9il
++ t9eel
+
+2020-02-15 06:49:52,758 - test_moroccan_arabic_words_logger - ERROR - Translating رقيق, 'r9i9' != 'r9ee9'
+- r9i9
++ r9ee9
+
+2020-02-15 06:49:52,758 - test_moroccan_arabic_words_logger - ERROR - Translating مريض, 'Mrid' != 'mreed'
 - Mrid
-? ^
-+ mrid
-? ^
++ mreed
 
-2020-02-15 03:32:26,760 - test_moroccan_arabic_words_logger - ERROR - Translating مخلط, 'M5ellet' != 'm5lt'
+2020-02-15 06:49:52,759 - test_moroccan_arabic_words_logger - ERROR - Translating قبيح, '9bi7' != '9bee7'
+- 9bi7
++ 9bee7
+
+2020-02-15 06:49:52,760 - test_moroccan_arabic_words_logger - ERROR - Translating مخلط, 'M5ellet' != 'm5lt'
 - M5ellet
 + m5lt
 
-2020-02-15 03:32:26,760 - test_moroccan_arabic_words_logger - ERROR - Translating خايب, 'Khayeb' != '5aib'
+2020-02-15 06:49:52,761 - test_moroccan_arabic_words_logger - ERROR - Translating خايب, 'Khayeb' != '5aeeb'
 - Khayeb
-+ 5aib
++ 5aeeb
 
-2020-02-15 03:32:26,761 - test_moroccan_arabic_words_logger - ERROR - Translating عصري, '3esri' != '3sri'
+2020-02-15 06:49:52,761 - test_moroccan_arabic_words_logger - ERROR - Translating عصري, '3esri' != '3ssree'
 - 3esri
-?  -
-+ 3sri
++ 3ssree
 
-2020-02-15 03:32:26,762 - test_moroccan_arabic_words_logger - ERROR - Translating رطب, 'Rteb' != 'rtb'
+2020-02-15 06:49:52,762 - test_moroccan_arabic_words_logger - ERROR - Translating رطب, 'Rteb' != 'rtb'
 - Rteb
 + rtb
 
-2020-02-15 03:32:26,762 - test_moroccan_arabic_words_logger - ERROR - Translating فازڭ, 'Fazeg' != 'fazg'
+2020-02-15 06:49:52,763 - test_moroccan_arabic_words_logger - ERROR - Translating فازڭ, 'Fazeg' != 'fazg'
 - Fazeg
 + fazg
 
-2020-02-15 03:32:26,764 - test_moroccan_arabic_words_logger - ERROR - Translating متوسط, 'Metwesset' != 'mtost'
+2020-02-15 06:49:52,764 - test_moroccan_arabic_words_logger - ERROR - Translating متوسط, 'Metwesset' != 'mtost'
 - Metwesset
 + mtost
 
-2020-02-15 03:32:26,765 - test_moroccan_arabic_words_logger - ERROR - Translating زيزون, 'Zizoun' != 'zizon'
+2020-02-15 06:49:52,764 - test_moroccan_arabic_words_logger - ERROR - Translating زيزون, 'Zizoun' != 'zeezon'
 - Zizoun
-? ^   -
-+ zizon
-? ^
++ zeezon
 
-2020-02-15 03:32:26,765 - test_moroccan_arabic_words_logger - ERROR - Translating طبيعي, 'Tabi3i' != 'tbi3i'
+2020-02-15 06:49:52,765 - test_moroccan_arabic_words_logger - ERROR - Translating طبيعي, 'Tabi3i' != 'tbee3ee'
 - Tabi3i
-? ^^
-+ tbi3i
-? ^
++ tbee3ee
 
-2020-02-15 03:32:26,766 - test_moroccan_arabic_words_logger - ERROR - Translating ضروري, 'Darouri' != 'drori'
+2020-02-15 06:49:52,766 - test_moroccan_arabic_words_logger - ERROR - Translating ضروري, 'Darouri' != 'droree'
 - Darouri
-+ drori
++ droree
 
-2020-02-15 03:32:26,767 - test_moroccan_arabic_words_logger - ERROR - Translating كتير, 'Ktir' != 'ktir'
+2020-02-15 06:49:52,766 - test_moroccan_arabic_words_logger - ERROR - Translating كتير, 'Ktir' != 'cteer'
 - Ktir
-? ^
-+ ktir
-? ^
++ cteer
 
-2020-02-15 03:32:26,769 - test_moroccan_arabic_words_logger - ERROR - Translating جديد, 'Jedid' != 'jdid'
+2020-02-15 06:49:52,767 - test_moroccan_arabic_words_logger - ERROR - Translating عادي, '3adi' != '3adee'
+- 3adi
++ 3adee
+
+2020-02-15 06:49:52,768 - test_moroccan_arabic_words_logger - ERROR - Translating جديد, 'Jedid' != 'jdeed'
 - Jedid
-+ jdid
++ jdeed
 
-2020-02-15 03:32:26,770 - test_moroccan_arabic_words_logger - ERROR - Translating مشغول, 'Mesheghoul' != 'mchghol'
+2020-02-15 06:49:52,769 - test_moroccan_arabic_words_logger - ERROR - Translating مشغول, 'Mesheghoul' != 'mchghol'
 - Mesheghoul
 + mchghol
 
-2020-02-15 03:32:26,771 - test_moroccan_arabic_words_logger - ERROR - Translating محلول, 'Me7loul' != 'm7lol'
+2020-02-15 06:49:52,769 - test_moroccan_arabic_words_logger - ERROR - Translating محلول, 'Me7loul' != 'm7lol'
 - Me7loul
 + m7lol
 
-2020-02-15 03:32:26,772 - test_moroccan_arabic_words_logger - ERROR - Translating صغير, 'Sghir' != 'sghir'
+2020-02-15 06:49:52,770 - test_moroccan_arabic_words_logger - ERROR - Translating صغير, 'Sghir' != 'ssgheer'
 - Sghir
-? ^
-+ sghir
-? ^
++ ssgheer
 
-2020-02-15 03:32:26,773 - test_moroccan_arabic_words_logger - ERROR - Translating رخيص, 'r5iss' != 'r5is'
+2020-02-15 06:49:52,771 - test_moroccan_arabic_words_logger - ERROR - Translating قليل, '9lil' != '9leel'
+- 9lil
++ 9leel
+
+2020-02-15 06:49:52,771 - test_moroccan_arabic_words_logger - ERROR - Translating رخيص, 'r5iss' != 'r5eess'
 - r5iss
-?     -
-+ r5is
+?   ^
++ r5eess
+?   ^^
 
-2020-02-15 03:32:26,773 - test_moroccan_arabic_words_logger - ERROR - Translating مؤدب, 'M2eddeb' != 'm2db'
+2020-02-15 06:49:52,772 - test_moroccan_arabic_words_logger - ERROR - Translating مؤدب, 'M2eddeb' != 'm2db'
 - M2eddeb
 + m2db
 
-2020-02-15 03:32:26,774 - test_moroccan_arabic_words_logger - ERROR - Translating شعبي, 'She3bi' != 'ch3bi'
+2020-02-15 06:49:52,773 - test_moroccan_arabic_words_logger - ERROR - Translating شعبي, 'She3bi' != 'ch3bee'
 - She3bi
-? ^ -
-+ ch3bi
-? ^
++ ch3bee
 
-2020-02-15 03:32:26,775 - test_moroccan_arabic_words_logger - ERROR - Translating خانز, '5anez' != '5anz'
+2020-02-15 06:49:52,774 - test_moroccan_arabic_words_logger - ERROR - Translating قريب, '9rib' != '9reeb'
+- 9rib
++ 9reeb
+
+2020-02-15 06:49:52,774 - test_moroccan_arabic_words_logger - ERROR - Translating نقي, 'n9i' != 'n9ee'
+- n9i
++ n9ee
+
+2020-02-15 06:49:52,775 - test_moroccan_arabic_words_logger - ERROR - Translating خانز, '5anez' != '5anz'
 - 5anez
 ?    -
 + 5anz
 
-2020-02-15 03:32:26,775 - test_moroccan_arabic_words_logger - ERROR - Translating حرش, '7resh' != '7rch'
+2020-02-15 06:49:52,776 - test_moroccan_arabic_words_logger - ERROR - Translating حرش, '7resh' != '7rch'
 - 7resh
 + 7rch
 
-2020-02-15 03:32:26,776 - test_moroccan_arabic_words_logger - ERROR - Translating عامر, '3amer' != '3amr'
+2020-02-15 06:49:52,777 - test_moroccan_arabic_words_logger - ERROR - Translating عامر, '3amer' != '3amr'
 - 3amer
 ?    -
 + 3amr
 
-2020-02-15 03:32:26,776 - test_moroccan_arabic_words_logger - ERROR - Translating محترم, 'Mo7taram' != 'm7trm'
+2020-02-15 06:49:52,777 - test_moroccan_arabic_words_logger - ERROR - Translating محترم, 'Mo7taram' != 'm7trm'
 - Mo7taram
 + m7trm
 
-2020-02-15 03:32:26,777 - test_moroccan_arabic_words_logger - ERROR - Translating فايق, 'faye9' != 'fai9'
+2020-02-15 06:49:52,778 - test_moroccan_arabic_words_logger - ERROR - Translating فايق, 'faye9' != 'faee9'
 - faye9
-+ fai9
+?   ^
++ faee9
+?   ^
 
-2020-02-15 03:32:26,777 - test_moroccan_arabic_words_logger - ERROR - Translating مدور, 'Mdewwer' != 'mdor'
+2020-02-15 06:49:52,779 - test_moroccan_arabic_words_logger - ERROR - Translating مدور, 'Mdewwer' != 'mdor'
 - Mdewwer
 + mdor
 
-2020-02-15 03:32:26,778 - test_moroccan_arabic_words_logger - ERROR - Translating موسخ, 'Mossekh' != 'mos5'
+2020-02-15 06:49:52,780 - test_moroccan_arabic_words_logger - ERROR - Translating موسخ, 'Mossekh' != 'mos5'
 - Mossekh
 + mos5
 
-2020-02-15 03:32:26,778 - test_moroccan_arabic_words_logger - ERROR - Translating مالح, 'Male7' != 'mal7'
+2020-02-15 06:49:52,780 - test_moroccan_arabic_words_logger - ERROR - Translating مالح, 'Male7' != 'mal7'
 - Male7
 + mal7
 
-2020-02-15 03:32:26,779 - test_moroccan_arabic_words_logger - ERROR - Translating ناشف, 'Nashef' != 'nachf'
+2020-02-15 06:49:52,781 - test_moroccan_arabic_words_logger - ERROR - Translating ناشف, 'Nashef' != 'nachf'
 - Nashef
 + nachf
 
-2020-02-15 03:32:26,780 - test_moroccan_arabic_words_logger - ERROR - Translating حساس, '7essas' != '7sas'
+2020-02-15 06:49:52,782 - test_moroccan_arabic_words_logger - ERROR - Translating حساس, '7essas' != '7sas'
 - 7essas
 ?  --
 + 7sas
 
-2020-02-15 03:32:26,781 - test_moroccan_arabic_words_logger - ERROR - Translating ساكت, 'Saket' != 'sakt'
+2020-02-15 06:49:52,782 - test_moroccan_arabic_words_logger - ERROR - Translating ساكت, 'Saket' != 'sact'
 - Saket
-+ sakt
++ sact
 
-2020-02-15 03:32:26,782 - test_moroccan_arabic_words_logger - ERROR - Translating قاصح, '9ase7' != '9as7'
+2020-02-15 06:49:52,783 - test_moroccan_arabic_words_logger - ERROR - Translating قاصح, '9ase7' != '9ass7'
 - 9ase7
-?    -
-+ 9as7
+?    ^
++ 9ass7
+?    ^
 
-2020-02-15 03:32:26,783 - test_moroccan_arabic_words_logger - ERROR - Translating واسع, 'Wase3' != 'oas3'
+2020-02-15 06:49:52,784 - test_moroccan_arabic_words_logger - ERROR - Translating واسع, 'Wase3' != 'oas3'
 - Wase3
 + oas3
 
-2020-02-15 03:32:26,785 - test_moroccan_arabic_words_logger - ERROR - Translating مكلخ, 'mkelle5' != 'mkl5'
+2020-02-15 06:49:52,785 - test_moroccan_arabic_words_logger - ERROR - Translating مكلخ, 'mkelle5' != 'mcl5'
 - mkelle5
-?   - --
-+ mkl5
++ mcl5
 
-2020-02-15 03:32:26,787 - test_moroccan_arabic_words_logger - ERROR - Translating معطل, 'M3ettel' != 'm3tl'
+2020-02-15 06:49:52,786 - test_moroccan_arabic_words_logger - ERROR - Translating معطل, 'M3ettel' != 'm3tl'
 - M3ettel
 + m3tl
 
-2020-02-15 03:32:26,787 - test_moroccan_arabic_words_logger - ERROR - Translating دافي, 'Dafi' != 'dafi'
+2020-02-15 06:49:52,786 - test_moroccan_arabic_words_logger - ERROR - Translating دافي, 'Dafi' != 'dafee'
 - Dafi
-? ^
-+ dafi
-? ^
++ dafee
 
-2020-02-15 03:32:26,788 - test_moroccan_arabic_words_logger - ERROR - Translating حشومي, '7achoumi' != '7chomi'
+2020-02-15 06:49:52,787 - test_moroccan_arabic_words_logger - ERROR - Translating حشومي, '7achoumi' != '7chomee'
 - 7achoumi
-?  -   -
-+ 7chomi
++ 7chomee
 
-2020-02-15 03:32:26,789 - test_moroccan_arabic_words_logger - ERROR - Translating بلدي, 'beldi' != 'bldi'
+2020-02-15 06:49:52,788 - test_moroccan_arabic_words_logger - ERROR - Translating بلدي, 'beldi' != 'bldee'
 - beldi
-?  -
-+ bldi
++ bldee
 
-2020-02-15 03:32:26,789 - test_moroccan_arabic_words_logger - ERROR - Translating ماضي, 'Madi' != 'madi'
+2020-02-15 06:49:52,789 - test_moroccan_arabic_words_logger - ERROR - Translating ماضي, 'Madi' != 'madee'
 - Madi
-? ^
-+ madi
-? ^
++ madee
 
-2020-02-15 03:32:26,790 - test_moroccan_arabic_words_logger - ERROR - Translating مقلق, 'm9elle9' != 'm9l9'
+2020-02-15 06:49:52,789 - test_moroccan_arabic_words_logger - ERROR - Translating مقلق, 'm9elle9' != 'm9l9'
 - m9elle9
 ?   - --
 + m9l9
 
-2020-02-15 03:32:26,790 - test_moroccan_arabic_words_logger - ERROR - Translating خاوي, 'Khawi' != '5aoi'
+2020-02-15 06:49:52,790 - test_moroccan_arabic_words_logger - ERROR - Translating خاوي, 'Khawi' != '5aoee'
 - Khawi
-+ 5aoi
++ 5aoee
 
-2020-02-15 03:32:26,791 - test_moroccan_arabic_words_logger - ERROR - Translating بيكالة, 'pikala' != 'bikalt'
+2020-02-15 06:49:52,791 - test_moroccan_arabic_words_logger - ERROR - Translating تقليدي, 't9lidi' != 't9leedee'
+- t9lidi
++ t9leedee
+
+2020-02-15 06:49:52,792 - test_moroccan_arabic_words_logger - ERROR - Translating صبيطار, 'sbitar' != 'ssbeetar'
+- sbitar
+?   ^
++ ssbeetar
+? +  ^^
+
+2020-02-15 06:49:52,792 - test_moroccan_arabic_words_logger - ERROR - Translating بيكالة, 'pikala' != 'beecalt'
 - pikala
-+ bikalt
++ beecalt
 
-2020-02-15 03:32:26,792 - test_moroccan_arabic_words_logger - ERROR - Translating بيسي, 'pici' != 'bisi'
+2020-02-15 06:49:52,793 - test_moroccan_arabic_words_logger - ERROR - Translating طوموبيل, 'tomobil' != 'tomobeel'
+- tomobil
+?      ^
++ tomobeel
+?      ^^
+
+2020-02-15 06:49:52,793 - test_moroccan_arabic_words_logger - ERROR - Translating بيسي, 'pici' != 'beesee'
 - pici
-+ bisi
++ beesee
 
-2020-02-15 03:32:26,793 - test_moroccan_arabic_words_logger - ERROR - Translating بولة, 'boula' != 'bolt'
+2020-02-15 06:49:52,794 - test_moroccan_arabic_words_logger - ERROR - Translating بولة, 'boula' != 'bolt'
 - boula
 + bolt
 
-2020-02-15 03:32:26,793 - test_moroccan_arabic_words_logger - ERROR - Translating قاشقاش, '9ach 9achd' != '9ach9ach'
+2020-02-15 06:49:52,794 - test_moroccan_arabic_words_logger - ERROR - Translating قاشقاش, '9ach 9achd' != '9ach9ach'
 - 9ach 9achd
 ?     -    -
 + 9ach9ach
 
-2020-02-15 03:32:26,794 - test_moroccan_arabic_words_logger - ERROR - Translating عطاش, '3attach' != '3tach'
+2020-02-15 06:49:52,795 - test_moroccan_arabic_words_logger - ERROR - Translating عطاش, '3attach' != '3tach'
 - 3attach
 ?  --
 + 3tach
 
-2020-02-15 03:32:26,794 - test_moroccan_arabic_words_logger - ERROR - Translating اري, 'arre' != 'ari'
+2020-02-15 06:49:52,796 - test_moroccan_arabic_words_logger - ERROR - Translating اري, 'arre' != 'aree'
 - arre
-+ ari
+?   ^
++ aree
+?   ^
 
-2020-02-15 03:32:26,795 - test_moroccan_arabic_words_logger - ERROR - Translating اطانسيو, 'Atansiou' != 'atansio'
+2020-02-15 06:49:52,796 - test_moroccan_arabic_words_logger - ERROR - Translating اطانسيو, 'Atansiou' != 'atanseeo'
 - Atansiou
-? ^      -
-+ atansio
-? ^
++ atanseeo
 
-2020-02-15 03:32:26,795 - test_moroccan_arabic_words_logger - ERROR - Translating بابور, 'Babor' != 'babor'
+2020-02-15 06:49:52,797 - test_moroccan_arabic_words_logger - ERROR - Translating بابور, 'Babor' != 'babor'
 - Babor
 ? ^
 + babor
 ? ^
 
-2020-02-15 03:32:26,797 - test_moroccan_arabic_words_logger - ERROR - Translating باكيطا, 'Baguitta' != 'bakita'
+2020-02-15 06:49:52,797 - test_moroccan_arabic_words_logger - ERROR - Translating باكيطا, 'Baguitta' != 'baceeta'
 - Baguitta
-+ bakita
++ baceeta
 
-2020-02-15 03:32:26,798 - test_moroccan_arabic_words_logger - ERROR - Translating باكية, 'Bakiya' != 'bakit'
+2020-02-15 06:49:52,798 - test_moroccan_arabic_words_logger - ERROR - Translating باكية, 'Bakiya' != 'baceet'
 - Bakiya
-+ bakit
++ baceet
 
-2020-02-15 03:32:26,799 - test_moroccan_arabic_words_logger - ERROR - Translating بالكون, 'Balcone' != 'balkon'
+2020-02-15 06:49:52,798 - test_moroccan_arabic_words_logger - ERROR - Translating بالكون, 'Balcone' != 'balcon'
 - Balcone
-+ balkon
+? ^     -
++ balcon
+? ^
 
-2020-02-15 03:32:26,800 - test_moroccan_arabic_words_logger - ERROR - Translating باليزا, 'Baliza' != 'baliza'
+2020-02-15 06:49:52,799 - test_moroccan_arabic_words_logger - ERROR - Translating باليزا, 'Baliza' != 'baleeza'
 - Baliza
-? ^
-+ baliza
-? ^
++ baleeza
 
-2020-02-15 03:32:26,802 - test_moroccan_arabic_words_logger - ERROR - Translating بالون, 'Ballone' != 'balon'
+2020-02-15 06:49:52,800 - test_moroccan_arabic_words_logger - ERROR - Translating بالون, 'Ballone' != 'balon'
 - Ballone
 + balon
 
-2020-02-15 03:32:26,803 - test_moroccan_arabic_words_logger - ERROR - Translating باطرون, 'Batroune' != 'batron'
+2020-02-15 06:49:52,800 - test_moroccan_arabic_words_logger - ERROR - Translating باطرون, 'Batroune' != 'batron'
 - Batroune
 ? ^    - -
 + batron
 ? ^
 
-2020-02-15 03:32:26,804 - test_moroccan_arabic_words_logger - ERROR - Translating برمسبون, 'bermassioun' != 'brmsbon'
+2020-02-15 06:49:52,801 - test_moroccan_arabic_words_logger - ERROR - Translating برمسبون, 'bermassioun' != 'brmsbon'
 - bermassioun
 + brmsbon
 
-2020-02-15 03:32:26,805 - test_moroccan_arabic_words_logger - ERROR - Translating بيفان, 'Befane' != 'bifan'
+2020-02-15 06:49:52,802 - test_moroccan_arabic_words_logger - ERROR - Translating بيفان, 'Befane' != 'beefan'
 - Befane
-+ bifan
++ beefan
 
-2020-02-15 03:32:26,805 - test_moroccan_arabic_words_logger - ERROR - Translating بيكوب, 'Bikoup' != 'bikob'
+2020-02-15 06:49:52,802 - test_moroccan_arabic_words_logger - ERROR - Translating بيكوب, 'Bikoup' != 'beecob'
 - Bikoup
-+ bikob
++ beecob
 
-2020-02-15 03:32:26,806 - test_moroccan_arabic_words_logger - ERROR - Translating برويطة, 'Barwita' != 'broitt'
+2020-02-15 06:49:52,802 - test_moroccan_arabic_words_logger - ERROR - Translating برويطة, 'Barwita' != 'broeett'
 - Barwita
-+ broitt
++ broeett
 
-2020-02-15 03:32:26,806 - test_moroccan_arabic_words_logger - ERROR - Translating باسبور, 'Baspour' != 'basbor'
+2020-02-15 06:49:52,803 - test_moroccan_arabic_words_logger - ERROR - Translating باسبور, 'Baspour' != 'basbor'
 - Baspour
 + basbor
 
-2020-02-15 03:32:26,807 - test_moroccan_arabic_words_logger - ERROR - Translating باطايو, 'Bataillou' != 'bataio'
+2020-02-15 06:49:52,803 - test_moroccan_arabic_words_logger - ERROR - Translating باطايو, 'Bataillou' != 'bataeeo'
 - Bataillou
-+ bataio
++ bataeeo
 
-2020-02-15 03:32:26,807 - test_moroccan_arabic_words_logger - ERROR - Translating باطيمة, 'Batema' != 'batimt'
+2020-02-15 06:49:52,804 - test_moroccan_arabic_words_logger - ERROR - Translating باطيمة, 'Batema' != 'bateemt'
 - Batema
-+ batimt
++ bateemt
 
-2020-02-15 03:32:26,808 - test_moroccan_arabic_words_logger - ERROR - Translating بانكا, 'Banka' != 'banka'
+2020-02-15 06:49:52,805 - test_moroccan_arabic_words_logger - ERROR - Translating بانكا, 'Banka' != 'banca'
 - Banka
-? ^
-+ banka
-? ^
++ banca
 
-2020-02-15 03:32:26,808 - test_moroccan_arabic_words_logger - ERROR - Translating بارابول, 'Barabole' != 'barabol'
+2020-02-15 06:49:52,805 - test_moroccan_arabic_words_logger - ERROR - Translating بارابول, 'Barabole' != 'barabol'
 - Barabole
 ? ^      -
 + barabol
 ? ^
 
-2020-02-15 03:32:26,809 - test_moroccan_arabic_words_logger - ERROR - Translating باربرز, 'Barbrise' != 'barbrz'
+2020-02-15 06:49:52,806 - test_moroccan_arabic_words_logger - ERROR - Translating باربرز, 'Barbrise' != 'barbrz'
 - Barbrise
 + barbrz
 
-2020-02-15 03:32:26,810 - test_moroccan_arabic_words_logger - ERROR - Translating باريزيانا, 'Bariziana' != 'bariziana'
+2020-02-15 06:49:52,806 - test_moroccan_arabic_words_logger - ERROR - Translating باريزيانا, 'Bariziana' != 'bareezeeana'
 - Bariziana
-? ^
-+ bariziana
-? ^
++ bareezeeana
 
-2020-02-15 03:32:26,810 - test_moroccan_arabic_words_logger - ERROR - Translating بارطقيز, 'Bart9iz' != 'bart9iz'
+2020-02-15 06:49:52,807 - test_moroccan_arabic_words_logger - ERROR - Translating بارطقيز, 'Bart9iz' != 'bart9eez'
 - Bart9iz
-? ^
-+ bart9iz
-? ^
++ bart9eez
 
-2020-02-15 03:32:26,811 - test_moroccan_arabic_words_logger - ERROR - Translating بيرو, 'Birou' != 'biro'
+2020-02-15 06:49:52,807 - test_moroccan_arabic_words_logger - ERROR - Translating بيرو, 'Birou' != 'beero'
 - Birou
-+ biro
++ beero
 
-2020-02-15 03:32:26,811 - test_moroccan_arabic_words_logger - ERROR - Translating بياسا, 'Biassa' != 'biasa'
+2020-02-15 06:49:52,808 - test_moroccan_arabic_words_logger - ERROR - Translating بياسا, 'Biassa' != 'beeasa'
 - Biassa
-? ^   -
-+ biasa
-? ^
++ beeasa
 
-2020-02-15 03:32:26,814 - test_moroccan_arabic_words_logger - ERROR - Translating بيشكليطة, 'Bichklita' != 'bichklitt'
+2020-02-15 06:49:52,808 - test_moroccan_arabic_words_logger - ERROR - Translating بيشكليطة, 'Bichklita' != 'beechcleett'
 - Bichklita
-? ^       ^
-+ bichklitt
-? ^       ^
++ beechcleett
 
-2020-02-15 03:32:26,814 - test_moroccan_arabic_words_logger - ERROR - Translating بيدو, 'Bidou' != 'bido'
+2020-02-15 06:49:52,809 - test_moroccan_arabic_words_logger - ERROR - Translating بيدو, 'Bidou' != 'beedo'
 - Bidou
-+ bido
++ beedo
 
-2020-02-15 03:32:26,815 - test_moroccan_arabic_words_logger - ERROR - Translating بيجاما, 'Bijama' != 'bijama'
+2020-02-15 06:49:52,809 - test_moroccan_arabic_words_logger - ERROR - Translating بيجاما, 'Bijama' != 'beejama'
 - Bijama
-? ^
-+ bijama
-? ^
++ beejama
 
-2020-02-15 03:32:26,816 - test_moroccan_arabic_words_logger - ERROR - Translating بيجو, 'Bijou' != 'bijo'
+2020-02-15 06:49:52,810 - test_moroccan_arabic_words_logger - ERROR - Translating بيجو, 'Bijou' != 'beejo'
 - Bijou
-+ bijo
++ beejo
 
-2020-02-15 03:32:26,817 - test_moroccan_arabic_words_logger - ERROR - Translating بيرا, 'Birra' != 'bira'
+2020-02-15 06:49:52,811 - test_moroccan_arabic_words_logger - ERROR - Translating بيرا, 'Birra' != 'beera'
 - Birra
-+ bira
++ beera
 
-2020-02-15 03:32:26,819 - test_moroccan_arabic_words_logger - ERROR - Translating بيت, 'Bit' != 'bit'
+2020-02-15 06:49:52,811 - test_moroccan_arabic_words_logger - ERROR - Translating بيت, 'Bit' != 'beet'
 - Bit
-? ^
-+ bit
-? ^
++ beet
 
-2020-02-15 03:32:26,821 - test_moroccan_arabic_words_logger - ERROR - Translating بيطاغاز, 'Bitagaz' != 'bitaghaz'
+2020-02-15 06:49:52,812 - test_moroccan_arabic_words_logger - ERROR - Translating بيطاغاز, 'Bitagaz' != 'beetaghaz'
 - Bitagaz
-? ^
-+ bitaghaz
-? ^    +
++ beetaghaz
 
-2020-02-15 03:32:26,822 - test_moroccan_arabic_words_logger - ERROR - Translating بلاكار, 'blacar' != 'blakar'
-- blacar
-?    ^
-+ blakar
-?    ^
-
-2020-02-15 03:32:26,822 - test_moroccan_arabic_words_logger - ERROR - Translating بلاكا, 'Blaka' != 'blaka'
+2020-02-15 06:49:52,813 - test_moroccan_arabic_words_logger - ERROR - Translating بلاكا, 'Blaka' != 'blaca'
 - Blaka
-? ^
-+ blaka
-? ^
++ blaca
 
-2020-02-15 03:32:26,823 - test_moroccan_arabic_words_logger - ERROR - Translating بلاصة, 'Blassa' != 'blast'
+2020-02-15 06:49:52,813 - test_moroccan_arabic_words_logger - ERROR - Translating بلاصة, 'Blassa' != 'blasst'
 - Blassa
-+ blast
++ blasst
 
-2020-02-15 03:32:26,824 - test_moroccan_arabic_words_logger - ERROR - Translating بلاندي, 'Blindi' != 'blandi'
+2020-02-15 06:49:52,814 - test_moroccan_arabic_words_logger - ERROR - Translating بلاندي, 'Blindi' != 'blandee'
 - Blindi
-+ blandi
++ blandee
 
-2020-02-15 03:32:26,824 - test_moroccan_arabic_words_logger - ERROR - Translating بلومبي, 'Blombi' != 'blombi'
+2020-02-15 06:49:52,815 - test_moroccan_arabic_words_logger - ERROR - Translating بلومبي, 'Blombi' != 'blombee'
 - Blombi
-? ^
-+ blombi
-? ^
++ blombee
 
-2020-02-15 03:32:26,825 - test_moroccan_arabic_words_logger - ERROR - Translating بلوزا, 'Blousa' != 'bloza'
+2020-02-15 06:49:52,815 - test_moroccan_arabic_words_logger - ERROR - Translating بلوزا, 'Blousa' != 'bloza'
 - Blousa
 + bloza
 
-2020-02-15 03:32:26,826 - test_moroccan_arabic_words_logger - ERROR - Translating بلوزا, 'Blouza' != 'bloza'
+2020-02-15 06:49:52,816 - test_moroccan_arabic_words_logger - ERROR - Translating بلوزا, 'Blouza' != 'bloza'
 - Blouza
 ? ^  -
 + bloza
 ? ^
 
-2020-02-15 03:32:26,827 - test_moroccan_arabic_words_logger - ERROR - Translating بوكوص, 'bogoss' != 'bokos'
+2020-02-15 06:49:52,816 - test_moroccan_arabic_words_logger - ERROR - Translating بوكوص, 'bogoss' != 'bocoss'
 - bogoss
-?   ^  -
-+ bokos
+?   ^
++ bocoss
 ?   ^
 
-2020-02-15 03:32:26,827 - test_moroccan_arabic_words_logger - ERROR - Translating بواطة, 'Boita' != 'boatt'
+2020-02-15 06:49:52,817 - test_moroccan_arabic_words_logger - ERROR - Translating بواطة, 'Boita' != 'boatt'
 - Boita
 + boatt
 
-2020-02-15 03:32:26,828 - test_moroccan_arabic_words_logger - ERROR - Translating بومبيا, 'Bombiya' != 'bombia'
+2020-02-15 06:49:52,817 - test_moroccan_arabic_words_logger - ERROR - Translating بومبيا, 'Bombiya' != 'bombeea'
 - Bombiya
-? ^    -
-+ bombia
-? ^
++ bombeea
 
-2020-02-15 03:32:26,829 - test_moroccan_arabic_words_logger - ERROR - Translating بونوكازيو, 'bonokasio' != 'bonokazio'
+2020-02-15 06:49:52,818 - test_moroccan_arabic_words_logger - ERROR - Translating بونوكازيو, 'bonokasio' != 'bonocazeeo'
 - bonokasio
-?       ^
-+ bonokazio
-?       ^
++ bonocazeeo
 
-2020-02-15 03:32:26,831 - test_moroccan_arabic_words_logger - ERROR - Translating بوطونة, 'Botona' != 'botont'
+2020-02-15 06:49:52,818 - test_moroccan_arabic_words_logger - ERROR - Translating بوطونة, 'Botona' != 'botont'
 - Botona
 + botont
 
-2020-02-15 03:32:26,831 - test_moroccan_arabic_words_logger - ERROR - Translating بودرة, 'Boudra' != 'bodrt'
+2020-02-15 06:49:52,819 - test_moroccan_arabic_words_logger - ERROR - Translating بودرة, 'Boudra' != 'bodrt'
 - Boudra
 + bodrt
 
-2020-02-15 03:32:26,832 - test_moroccan_arabic_words_logger - ERROR - Translating بوسة, 'Boussa' != 'bost'
+2020-02-15 06:49:52,820 - test_moroccan_arabic_words_logger - ERROR - Translating بوسة, 'Boussa' != 'bost'
 - Boussa
 + bost
 
-2020-02-15 03:32:26,833 - test_moroccan_arabic_words_logger - ERROR - Translating بوفتيك, 'Bouftik' != 'boftik'
+2020-02-15 06:49:52,820 - test_moroccan_arabic_words_logger - ERROR - Translating بوفتيك, 'Bouftik' != 'bofteec'
 - Bouftik
-? ^ -
-+ boftik
-? ^
++ bofteec
 
-2020-02-15 03:32:26,835 - test_moroccan_arabic_words_logger - ERROR - Translating بوليس, 'Boulice' != 'bolis'
+2020-02-15 06:49:52,821 - test_moroccan_arabic_words_logger - ERROR - Translating بوليس, 'Boulice' != 'bolees'
 - Boulice
-+ bolis
++ bolees
 
-2020-02-15 03:32:26,836 - test_moroccan_arabic_words_logger - ERROR - Translating بوليسي, 'Boulissi' != 'bolisi'
+2020-02-15 06:49:52,822 - test_moroccan_arabic_words_logger - ERROR - Translating بوليسي, 'Boulissi' != 'boleesee'
 - Boulissi
-? ^ -   -
-+ bolisi
-? ^
++ boleesee
 
-2020-02-15 03:32:26,837 - test_moroccan_arabic_words_logger - ERROR - Translating بون, 'Boune' != 'bon'
+2020-02-15 06:49:52,822 - test_moroccan_arabic_words_logger - ERROR - Translating بون, 'Boune' != 'bon'
 - Boune
 + bon
 
-2020-02-15 03:32:26,838 - test_moroccan_arabic_words_logger - ERROR - Translating بروصي, 'Brossi' != 'brosi'
+2020-02-15 06:49:52,823 - test_moroccan_arabic_words_logger - ERROR - Translating بروصي, 'Brossi' != 'brossee'
 - Brossi
-? ^   -
-+ brosi
-? ^
++ brossee
 
-2020-02-15 03:32:26,839 - test_moroccan_arabic_words_logger - ERROR - Translating براكي, 'Braki' != 'braki'
+2020-02-15 06:49:52,824 - test_moroccan_arabic_words_logger - ERROR - Translating براكي, 'Braki' != 'bracee'
 - Braki
-? ^
-+ braki
-? ^
++ bracee
 
-2020-02-15 03:32:26,840 - test_moroccan_arabic_words_logger - ERROR - Translating برانشي, 'Branchi' != 'branchi'
+2020-02-15 06:49:52,824 - test_moroccan_arabic_words_logger - ERROR - Translating برانشي, 'Branchi' != 'branchee'
 - Branchi
-? ^
-+ branchi
-? ^
++ branchee
 
-2020-02-15 03:32:26,840 - test_moroccan_arabic_words_logger - ERROR - Translating بريكول, 'Bricoule' != 'brikol'
+2020-02-15 06:49:52,825 - test_moroccan_arabic_words_logger - ERROR - Translating بريكول, 'Bricoule' != 'breecol'
 - Bricoule
-+ brikol
++ breecol
 
-2020-02-15 03:32:26,841 - test_moroccan_arabic_words_logger - ERROR - Translating بريز, 'Brize' != 'briz'
+2020-02-15 06:49:52,825 - test_moroccan_arabic_words_logger - ERROR - Translating بريز, 'Brize' != 'breez'
 - Brize
-+ briz
++ breez
 
-2020-02-15 03:32:26,842 - test_moroccan_arabic_words_logger - ERROR - Translating بروبليم, 'Broblime' != 'broblim'
+2020-02-15 06:49:52,826 - test_moroccan_arabic_words_logger - ERROR - Translating بروبليم, 'Broblime' != 'brobleem'
 - Broblime
-? ^      -
-+ broblim
-? ^
++ brobleem
 
-2020-02-15 03:32:26,842 - test_moroccan_arabic_words_logger - ERROR - Translating كابران, 'Cabrane' != 'kabran'
+2020-02-15 06:49:52,826 - test_moroccan_arabic_words_logger - ERROR - Translating كابران, 'Cabrane' != 'cabran'
 - Cabrane
 ? ^     -
-+ kabran
++ cabran
 ? ^
 
-2020-02-15 03:32:26,843 - test_moroccan_arabic_words_logger - ERROR - Translating كادر, 'Cader' != 'kadr'
+2020-02-15 06:49:52,827 - test_moroccan_arabic_words_logger - ERROR - Translating كادر, 'Cader' != 'cadr'
 - Cader
-+ kadr
++ cadr
 
-2020-02-15 03:32:26,844 - test_moroccan_arabic_words_logger - ERROR - Translating كانابي, 'Canappi' != 'kanabi'
+2020-02-15 06:49:52,827 - test_moroccan_arabic_words_logger - ERROR - Translating كانابي, 'Canappi' != 'canabee'
 - Canappi
-+ kanabi
++ canabee
 
-2020-02-15 03:32:26,845 - test_moroccan_arabic_words_logger - ERROR - Translating كارابيلا, 'Carabila' != 'karabila'
+2020-02-15 06:49:52,828 - test_moroccan_arabic_words_logger - ERROR - Translating كارابيلا, 'Carabila' != 'carabeela'
 - Carabila
-? ^
-+ karabila
-? ^
++ carabeela
 
-2020-02-15 03:32:26,848 - test_moroccan_arabic_words_logger - ERROR - Translating كاردا, 'carda' != 'karda'
-- carda
-? ^
-+ karda
-? ^
-
-2020-02-15 03:32:26,849 - test_moroccan_arabic_words_logger - ERROR - Translating كارني, 'Carni' != 'karni'
+2020-02-15 06:49:52,829 - test_moroccan_arabic_words_logger - ERROR - Translating كارني, 'Carni' != 'carnee'
 - Carni
-? ^
-+ karni
-? ^
++ carnee
 
-2020-02-15 03:32:26,851 - test_moroccan_arabic_words_logger - ERROR - Translating كارطونة, 'Cartonna' != 'kartont'
+2020-02-15 06:49:52,829 - test_moroccan_arabic_words_logger - ERROR - Translating كارطونة, 'Cartonna' != 'cartont'
 - Cartonna
-+ kartont
++ cartont
 
-2020-02-15 03:32:26,852 - test_moroccan_arabic_words_logger - ERROR - Translating كاسك, 'caske' != 'kask'
+2020-02-15 06:49:52,830 - test_moroccan_arabic_words_logger - ERROR - Translating كاسك, 'caske' != 'casc'
 - caske
-+ kask
++ casc
 
-2020-02-15 03:32:26,854 - test_moroccan_arabic_words_logger - ERROR - Translating كاسكروط, 'Cassecrotte' != 'kaskrot'
+2020-02-15 06:49:52,830 - test_moroccan_arabic_words_logger - ERROR - Translating كاسكروط, 'Cassecrotte' != 'cascrot'
 - Cassecrotte
-+ kaskrot
++ cascrot
 
-2020-02-15 03:32:26,855 - test_moroccan_arabic_words_logger - ERROR - Translating كاسرونة, 'Casserona' != 'kasront'
+2020-02-15 06:49:52,831 - test_moroccan_arabic_words_logger - ERROR - Translating كاسرونة, 'Casserona' != 'casront'
 - Casserona
-+ kasront
++ casront
 
-2020-02-15 03:32:26,856 - test_moroccan_arabic_words_logger - ERROR - Translating كاسيطات, 'Cassetat' != 'kasitat'
+2020-02-15 06:49:52,832 - test_moroccan_arabic_words_logger - ERROR - Translating كاسيطات, 'Cassetat' != 'caseetat'
 - Cassetat
-+ kasitat
+? ^  ^
++ caseetat
+? ^  ^
 
-2020-02-15 03:32:26,857 - test_moroccan_arabic_words_logger - ERROR - Translating سرتافيكا, 'Certafika' != 'srtafika'
+2020-02-15 06:49:52,832 - test_moroccan_arabic_words_logger - ERROR - Translating سرتافيكا, 'Certafika' != 'srtafeeca'
 - Certafika
-? ^^
-+ srtafika
-? ^
++ srtafeeca
 
-2020-02-15 03:32:26,857 - test_moroccan_arabic_words_logger - ERROR - Translating شامبان, 'champpane' != 'chamban'
+2020-02-15 06:49:52,833 - test_moroccan_arabic_words_logger - ERROR - Translating شامبان, 'champpane' != 'chamban'
 - champpane
 ?     ^^  -
 + chamban
 ?     ^
 
-2020-02-15 03:32:26,858 - test_moroccan_arabic_words_logger - ERROR - Translating شانتيو, 'Chanteyyo' != 'chantio'
+2020-02-15 06:49:52,833 - test_moroccan_arabic_words_logger - ERROR - Translating شانتيو, 'Chanteyyo' != 'chanteeo'
 - Chanteyyo
-+ chantio
++ chanteeo
 
-2020-02-15 03:32:26,859 - test_moroccan_arabic_words_logger - ERROR - Translating شارجان, 'charjane' != 'charjan'
+2020-02-15 06:49:52,834 - test_moroccan_arabic_words_logger - ERROR - Translating شارجان, 'charjane' != 'charjan'
 - charjane
 ?        -
 + charjan
 
-2020-02-15 03:32:26,860 - test_moroccan_arabic_words_logger - ERROR - Translating شوفاج, 'Chauffage' != 'chofaj'
+2020-02-15 06:49:52,835 - test_moroccan_arabic_words_logger - ERROR - Translating شوفاج, 'Chauffage' != 'chofaj'
 - Chauffage
 + chofaj
 
-2020-02-15 03:32:26,861 - test_moroccan_arabic_words_logger - ERROR - Translating كوافورا, 'coiffoura' != 'koafora'
+2020-02-15 06:49:52,836 - test_moroccan_arabic_words_logger - ERROR - Translating كوافورا, 'coiffoura' != 'coafora'
 - coiffoura
-+ koafora
+?   ^^  -
++ coafora
+?   ^
 
-2020-02-15 03:32:26,861 - test_moroccan_arabic_words_logger - ERROR - Translating سيدي, 'Cidi' != 'sidi'
+2020-02-15 06:49:52,837 - test_moroccan_arabic_words_logger - ERROR - Translating سيدي, 'Cidi' != 'seedee'
 - Cidi
-? ^
-+ sidi
-? ^
++ seedee
 
-2020-02-15 03:32:26,862 - test_moroccan_arabic_words_logger - ERROR - Translating سيما, 'cima' != 'sima'
+2020-02-15 06:49:52,838 - test_moroccan_arabic_words_logger - ERROR - Translating سيما, 'cima' != 'seema'
 - cima
-? ^
-+ sima
-? ^
++ seema
 
-2020-02-15 03:32:26,865 - test_moroccan_arabic_words_logger - ERROR - Translating شيفور, 'Chifor' != 'chifor'
+2020-02-15 06:49:52,839 - test_moroccan_arabic_words_logger - ERROR - Translating شيفور, 'Chifor' != 'cheefor'
 - Chifor
-? ^
-+ chifor
-? ^
++ cheefor
 
-2020-02-15 03:32:26,866 - test_moroccan_arabic_words_logger - ERROR - Translating شيك, 'Chik' != 'chik'
+2020-02-15 06:49:52,839 - test_moroccan_arabic_words_logger - ERROR - Translating شيك, 'Chik' != 'cheec'
 - Chik
-? ^
-+ chik
-? ^
++ cheec
 
-2020-02-15 03:32:26,866 - test_moroccan_arabic_words_logger - ERROR - Translating شينوي, 'Chiniwi' != 'chinoi'
+2020-02-15 06:49:52,840 - test_moroccan_arabic_words_logger - ERROR - Translating شينوي, 'Chiniwi' != 'cheenoee'
 - Chiniwi
-+ chinoi
++ cheenoee
 
-2020-02-15 03:32:26,867 - test_moroccan_arabic_words_logger - ERROR - Translating شكلاط, 'Chklat' != 'chklat'
+2020-02-15 06:49:52,841 - test_moroccan_arabic_words_logger - ERROR - Translating شكلاط, 'Chklat' != 'chclat'
 - Chklat
-? ^
-+ chklat
-? ^
++ chclat
 
-2020-02-15 03:32:26,869 - test_moroccan_arabic_words_logger - ERROR - Translating شلاضة, 'Chlada' != 'chladt'
+2020-02-15 06:49:52,841 - test_moroccan_arabic_words_logger - ERROR - Translating شلاضة, 'Chlada' != 'chladt'
 - Chlada
 + chladt
 
-2020-02-15 03:32:26,871 - test_moroccan_arabic_words_logger - ERROR - Translating شوفو, 'Chofo' != 'chofo'
+2020-02-15 06:49:52,842 - test_moroccan_arabic_words_logger - ERROR - Translating شوفو, 'Chofo' != 'chofo'
 - Chofo
 ? ^
 + chofo
 ? ^
 
-2020-02-15 03:32:26,872 - test_moroccan_arabic_words_logger - ERROR - Translating تيران, 'Tirran' != 'tiran'
+2020-02-15 06:49:52,843 - test_moroccan_arabic_words_logger - ERROR - Translating تيران, 'Tirran' != 'teeran'
 - Tirran
-? ^ -
-+ tiran
-? ^
++ teeran
 
-2020-02-15 03:32:26,873 - test_moroccan_arabic_words_logger - ERROR - Translating تيتسويت, 'Titsuit' != 'titsoit'
+2020-02-15 06:49:52,844 - test_moroccan_arabic_words_logger - ERROR - Translating تيتسويت, 'Titsuit' != 'teetsoeet'
 - Titsuit
-? ^   ^
-+ titsoit
-? ^   ^
++ teetsoeet
 
-2020-02-15 03:32:26,873 - test_moroccan_arabic_words_logger - ERROR - Translating تكونكطا, 'Tkonnecta' != 'tkonkta'
+2020-02-15 06:49:52,844 - test_moroccan_arabic_words_logger - ERROR - Translating تكونكطا, 'Tkonnecta' != 'tconcta'
 - Tkonnecta
-+ tkonkta
++ tconcta
 
-2020-02-15 03:32:26,874 - test_moroccan_arabic_words_logger - ERROR - Translating طوبيس, 'Tobiss' != 'tobis'
+2020-02-15 06:49:52,845 - test_moroccan_arabic_words_logger - ERROR - Translating طوبيس, 'Tobiss' != 'tobees'
 - Tobiss
-? ^    -
-+ tobis
-? ^
++ tobees
 
-2020-02-15 03:32:26,874 - test_moroccan_arabic_words_logger - ERROR - Translating طولة, 'Tola' != 'tolt'
+2020-02-15 06:49:52,846 - test_moroccan_arabic_words_logger - ERROR - Translating طولة, 'Tola' != 'tolt'
 - Tola
 + tolt
 
-2020-02-15 03:32:26,875 - test_moroccan_arabic_words_logger - ERROR - Translating طولانطي, 'Tolanti' != 'tolanti'
+2020-02-15 06:49:52,846 - test_moroccan_arabic_words_logger - ERROR - Translating طولانطي, 'Tolanti' != 'tolantee'
 - Tolanti
-? ^
-+ tolanti
-? ^
++ tolantee
 
-2020-02-15 03:32:26,875 - test_moroccan_arabic_words_logger - ERROR - Translating طونوبيل, 'Tonobile' != 'tonobil'
+2020-02-15 06:49:52,847 - test_moroccan_arabic_words_logger - ERROR - Translating طونوبيل, 'Tonobile' != 'tonobeel'
 - Tonobile
-? ^      -
-+ tonobil
-? ^
++ tonobeel
 
-2020-02-15 03:32:26,876 - test_moroccan_arabic_words_logger - ERROR - Translating طوريزاسيو, 'torizatio' != 'torizasio'
+2020-02-15 06:49:52,848 - test_moroccan_arabic_words_logger - ERROR - Translating طوريزاسيو, 'torizatio' != 'toreezaseeo'
 - torizatio
-?       ^
-+ torizasio
-?       ^
++ toreezaseeo
 
-2020-02-15 03:32:26,877 - test_moroccan_arabic_words_logger - ERROR - Translating توني, 'touni' != 'toni'
+2020-02-15 06:49:52,849 - test_moroccan_arabic_words_logger - ERROR - Translating توني, 'touni' != 'tonee'
 - touni
-?   -
-+ toni
++ tonee
 
-2020-02-15 03:32:26,878 - test_moroccan_arabic_words_logger - ERROR - Translating طرابوبليك, 'Traboblik' != 'traboblik'
+2020-02-15 06:49:52,850 - test_moroccan_arabic_words_logger - ERROR - Translating طرابوبليك, 'Traboblik' != 'trabobleec'
 - Traboblik
-? ^
-+ traboblik
-? ^
++ trabobleec
 
-2020-02-15 03:32:26,878 - test_moroccan_arabic_words_logger - ERROR - Translating طراكس, 'trakss' != 'traks'
+2020-02-15 06:49:52,851 - test_moroccan_arabic_words_logger - ERROR - Translating طراكس, 'trakss' != 'trax'
 - trakss
-?      -
-+ traks
++ trax
 
-2020-02-15 03:32:26,879 - test_moroccan_arabic_words_logger - ERROR - Translating تران, 'Trane' != 'tran'
+2020-02-15 06:49:52,853 - test_moroccan_arabic_words_logger - ERROR - Translating تران, 'Trane' != 'tran'
 - Trane
 + tran
 
-2020-02-15 03:32:26,882 - test_moroccan_arabic_words_logger - ERROR - Translating زماكري, 'Zmagri' != 'zmakri'
+2020-02-15 06:49:52,854 - test_moroccan_arabic_words_logger - ERROR - Translating زماكري, 'Zmagri' != 'zmacree'
 - Zmagri
-+ zmakri
++ zmacree
 
-2020-02-15 03:32:26,883 - test_moroccan_arabic_words_logger - ERROR - Translating زماكريا, 'Zmagria' != 'zmakria'
+2020-02-15 06:49:52,855 - test_moroccan_arabic_words_logger - ERROR - Translating زماكريا, 'Zmagria' != 'zmacreea'
 - Zmagria
-? ^  ^
-+ zmakria
-? ^  ^
++ zmacreea
 
-2020-02-15 03:32:26,884 - test_moroccan_arabic_words_logger - ERROR - Translating نريسينتي, 'Tricinti' != 'nrisinti'
+2020-02-15 06:49:52,855 - test_moroccan_arabic_words_logger - ERROR - Translating نريسينتي, 'Tricinti' != 'nreeseentee'
 - Tricinti
-? ^  ^
-+ nrisinti
-? ^  ^
++ nreeseentee
 
-2020-02-15 03:32:26,885 - test_moroccan_arabic_words_logger - ERROR - Translating تريسيان, 'Triciyanne' != 'trisian'
+2020-02-15 06:49:52,856 - test_moroccan_arabic_words_logger - ERROR - Translating تريسيان, 'Triciyanne' != 'treeseean'
 - Triciyanne
-+ trisian
++ treeseean
 
-2020-02-15 03:32:26,887 - test_moroccan_arabic_words_logger - ERROR - Translating تريكو, 'Trikou' != 'triko'
+2020-02-15 06:49:52,856 - test_moroccan_arabic_words_logger - ERROR - Translating تريكو, 'Trikou' != 'treeco'
 - Trikou
-? ^    -
-+ triko
-? ^
++ treeco
 
-2020-02-15 03:32:26,889 - test_moroccan_arabic_words_logger - ERROR - Translating تريني, 'Trini' != 'trini'
+2020-02-15 06:49:52,857 - test_moroccan_arabic_words_logger - ERROR - Translating تريني, 'Trini' != 'treenee'
 - Trini
-? ^
-+ trini
-? ^
++ treenee
 
-2020-02-15 03:32:26,889 - test_moroccan_arabic_words_logger - ERROR - Translating ويسكيا, 'wiskiyya' != 'oiskia'
+2020-02-15 06:49:52,857 - test_moroccan_arabic_words_logger - ERROR - Translating ويسكيا, 'wiskiyya' != 'oeesceea'
 - wiskiyya
-? ^    --
-+ oiskia
-? ^
++ oeesceea
 
-2020-02-15 03:32:26,890 - test_moroccan_arabic_words_logger - ERROR - Translating كسيري, 'Xciri' != 'ksiri'
+2020-02-15 06:49:52,858 - test_moroccan_arabic_words_logger - ERROR - Translating كسيري, 'Xciri' != 'xeeree'
 - Xciri
-+ ksiri
++ xeeree
 
-2020-02-15 03:32:26,890 - test_moroccan_arabic_words_logger - ERROR - Translating زينة, 'zina' != 'zint'
+2020-02-15 06:49:52,858 - test_moroccan_arabic_words_logger - ERROR - Translating زينة, 'zina' != 'zeent'
 - zina
-?    ^
-+ zint
-?    ^
++ zeent
 
-2020-02-15 03:32:26,891 - test_moroccan_arabic_words_logger - ERROR - Translating كونطا, 'Conta' != 'konta'
+2020-02-15 06:49:52,859 - test_moroccan_arabic_words_logger - ERROR - Translating كونطا, 'Conta' != 'conta'
 - Conta
 ? ^
-+ konta
++ conta
 ? ^
 
-2020-02-15 03:32:26,892 - test_moroccan_arabic_words_logger - ERROR - Translating كونطابل, 'Contable' != 'kontabl'
+2020-02-15 06:49:52,860 - test_moroccan_arabic_words_logger - ERROR - Translating كونطابل, 'Contable' != 'contabl'
 - Contable
 ? ^      -
-+ kontabl
++ contabl
 ? ^
 
-2020-02-15 03:32:26,892 - test_moroccan_arabic_words_logger - ERROR - Translating كونطرادا, 'Contrada' != 'kontrada'
+2020-02-15 06:49:52,860 - test_moroccan_arabic_words_logger - ERROR - Translating كونطرادا, 'Contrada' != 'contrada'
 - Contrada
 ? ^
-+ kontrada
++ contrada
 ? ^
 
-2020-02-15 03:32:26,893 - test_moroccan_arabic_words_logger - ERROR - Translating كونتور, 'Contour' != 'kontor'
+2020-02-15 06:49:52,861 - test_moroccan_arabic_words_logger - ERROR - Translating كونتور, 'Contour' != 'contor'
 - Contour
 ? ^    -
-+ kontor
++ contor
 ? ^
 
-2020-02-15 03:32:26,893 - test_moroccan_arabic_words_logger - ERROR - Translating كونطرولور, 'Controlour' != 'kontrolor'
+2020-02-15 06:49:52,862 - test_moroccan_arabic_words_logger - ERROR - Translating كونطرولور, 'Controlour' != 'controlor'
 - Controlour
 ? ^       -
-+ kontrolor
++ controlor
 ? ^
 
-2020-02-15 03:32:26,894 - test_moroccan_arabic_words_logger - ERROR - Translating كورسا, 'Corsa' != 'korsa'
+2020-02-15 06:49:52,862 - test_moroccan_arabic_words_logger - ERROR - Translating كورسا, 'Corsa' != 'corsa'
 - Corsa
 ? ^
-+ korsa
++ corsa
 ? ^
 
-2020-02-15 03:32:26,895 - test_moroccan_arabic_words_logger - ERROR - Translating كوصطا, 'Costa' != 'kosta'
+2020-02-15 06:49:52,863 - test_moroccan_arabic_words_logger - ERROR - Translating كوصطا, 'Costa' != 'cossta'
 - Costa
 ? ^
-+ kosta
-? ^
++ cossta
+? ^ +
 
-2020-02-15 03:32:26,895 - test_moroccan_arabic_words_logger - ERROR - Translating كوفيتير, 'Coufitire' != 'kofitir'
+2020-02-15 06:49:52,863 - test_moroccan_arabic_words_logger - ERROR - Translating كوفيتير, 'Coufitire' != 'cofeeteer'
 - Coufitire
-? ^ -     -
-+ kofitir
-? ^
++ cofeeteer
 
-2020-02-15 03:32:26,897 - test_moroccan_arabic_words_logger - ERROR - Translating كولاندير, 'Coulandere' != 'kolandir'
+2020-02-15 06:49:52,864 - test_moroccan_arabic_words_logger - ERROR - Translating كولاندير, 'Coulandere' != 'colandeer'
 - Coulandere
-+ kolandir
+? ^ -      -
++ colandeer
+? ^      +
 
-2020-02-15 03:32:26,898 - test_moroccan_arabic_words_logger - ERROR - Translating كوميسير, 'Coumissire' != 'komisir'
+2020-02-15 06:49:52,864 - test_moroccan_arabic_words_logger - ERROR - Translating كوميسير, 'Coumissire' != 'comeeseer'
 - Coumissire
-+ komisir
++ comeeseer
 
-2020-02-15 03:32:26,899 - test_moroccan_arabic_words_logger - ERROR - Translating كوميسيو, 'Coumissiyou' != 'komisio'
+2020-02-15 06:49:52,865 - test_moroccan_arabic_words_logger - ERROR - Translating كوميسيو, 'Coumissiyou' != 'comeeseeo'
 - Coumissiyou
-+ komisio
++ comeeseeo
 
-2020-02-15 03:32:26,901 - test_moroccan_arabic_words_logger - ERROR - Translating كونجي, 'Counji' != 'konji'
+2020-02-15 06:49:52,866 - test_moroccan_arabic_words_logger - ERROR - Translating كونجي, 'Counji' != 'conjee'
 - Counji
-? ^ -
-+ konji
-? ^
++ conjee
 
-2020-02-15 03:32:26,903 - test_moroccan_arabic_words_logger - ERROR - Translating كريدي, 'Cridi' != 'kridi'
+2020-02-15 06:49:52,867 - test_moroccan_arabic_words_logger - ERROR - Translating كريدي, 'Cridi' != 'creedee'
 - Cridi
-? ^
-+ kridi
-? ^
++ creedee
 
-2020-02-15 03:32:26,904 - test_moroccan_arabic_words_logger - ERROR - Translating كوردا, 'Courda' != 'korda'
+2020-02-15 06:49:52,868 - test_moroccan_arabic_words_logger - ERROR - Translating كوردا, 'Courda' != 'corda'
 - Courda
 ? ^ -
-+ korda
++ corda
 ? ^
 
-2020-02-15 03:32:26,905 - test_moroccan_arabic_words_logger - ERROR - Translating كورتي, 'Courti' != 'korti'
+2020-02-15 06:49:52,869 - test_moroccan_arabic_words_logger - ERROR - Translating كورتي, 'Courti' != 'cortee'
 - Courti
-? ^ -
-+ korti
-? ^
++ cortee
 
-2020-02-15 03:32:26,906 - test_moroccan_arabic_words_logger - ERROR - Translating كريون, 'Cryone' != 'krion'
+2020-02-15 06:49:52,869 - test_moroccan_arabic_words_logger - ERROR - Translating كريون, 'Cryone' != 'creeon'
 - Cryone
-+ krion
++ creeon
 
-2020-02-15 03:32:26,906 - test_moroccan_arabic_words_logger - ERROR - Translating كوزينا, 'Couzina' != 'kozina'
+2020-02-15 06:49:52,870 - test_moroccan_arabic_words_logger - ERROR - Translating كوزينا, 'Couzina' != 'cozeena'
 - Couzina
-? ^ -
-+ kozina
-? ^
++ cozeena
 
-2020-02-15 03:32:26,907 - test_moroccan_arabic_words_logger - ERROR - Translating ديباناج, 'dipanaj' != 'dibanaj'
+2020-02-15 06:49:52,871 - test_moroccan_arabic_words_logger - ERROR - Translating ديباناج, 'dipanaj' != 'deebanaj'
 - dipanaj
-?   ^
-+ dibanaj
-?   ^
++ deebanaj
 
-2020-02-15 03:32:26,907 - test_moroccan_arabic_words_logger - ERROR - Translating ديريكتور, 'directour' != 'diriktor'
+2020-02-15 06:49:52,873 - test_moroccan_arabic_words_logger - ERROR - Translating ديريكتور, 'directour' != 'deereector'
 - directour
-+ diriktor
+?  ^     -
++ deereector
+?  ^^ +
 
-2020-02-15 03:32:26,908 - test_moroccan_arabic_words_logger - ERROR - Translating ديسير, 'Dissire' != 'disir'
+2020-02-15 06:49:52,873 - test_moroccan_arabic_words_logger - ERROR - Translating ديسير, 'Dissire' != 'deeseer'
 - Dissire
-+ disir
++ deeseer
 
-2020-02-15 03:32:26,909 - test_moroccan_arabic_words_logger - ERROR - Translating ديطاي, 'ditay' != 'ditai'
+2020-02-15 06:49:52,874 - test_moroccan_arabic_words_logger - ERROR - Translating ديطاي, 'ditay' != 'deetaee'
 - ditay
-?     ^
-+ ditai
-?     ^
++ deetaee
 
-2020-02-15 03:32:26,909 - test_moroccan_arabic_words_logger - ERROR - Translating دجين, 'Djine' != 'djin'
+2020-02-15 06:49:52,875 - test_moroccan_arabic_words_logger - ERROR - Translating دجين, 'Djine' != 'djeen'
 - Djine
-+ djin
++ djeen
 
-2020-02-15 03:32:26,910 - test_moroccan_arabic_words_logger - ERROR - Translating دوسي, 'Dossé' != 'dosi'
+2020-02-15 06:49:52,876 - test_moroccan_arabic_words_logger - ERROR - Translating دوسي, 'Dossé' != 'dosee'
 - Dossé
-+ dosi
++ dosee
 
-2020-02-15 03:32:26,910 - test_moroccan_arabic_words_logger - ERROR - Translating دواش, 'Douachche' != 'doach'
+2020-02-15 06:49:52,877 - test_moroccan_arabic_words_logger - ERROR - Translating دواش, 'Douachche' != 'doach'
 - Douachche
 + doach
 
-2020-02-15 03:32:26,911 - test_moroccan_arabic_words_logger - ERROR - Translating دوبلفي, 'Doublvi' != 'doblfi'
+2020-02-15 06:49:52,877 - test_moroccan_arabic_words_logger - ERROR - Translating دوبلفي, 'Doublvi' != 'doblfee'
 - Doublvi
-+ doblfi
++ doblfee
 
-2020-02-15 03:32:26,911 - test_moroccan_arabic_words_logger - ERROR - Translating الكراج, 'elgaraj' != 'alkraj'
+2020-02-15 06:49:52,878 - test_moroccan_arabic_words_logger - ERROR - Translating الكراج, 'elgaraj' != 'alcraj'
 - elgaraj
-+ alkraj
++ alcraj
 
-2020-02-15 03:32:26,912 - test_moroccan_arabic_words_logger - ERROR - Translating دوزياميطا, 'Douzyam mitta ' != 'doziamita'
+2020-02-15 06:49:52,879 - test_moroccan_arabic_words_logger - ERROR - Translating دوزياميطا, 'Douzyam mitta ' != 'dozeeameeta'
 - Douzyam mitta 
-+ doziamita
++ dozeeameeta
 
-2020-02-15 03:32:26,913 - test_moroccan_arabic_words_logger - ERROR - Translating ديكري, 'digri' != 'dikri'
+2020-02-15 06:49:52,880 - test_moroccan_arabic_words_logger - ERROR - Translating ديكري, 'digri' != 'deecree'
 - digri
-?   ^
-+ dikri
-?   ^
++ deecree
 
-2020-02-15 03:32:26,914 - test_moroccan_arabic_words_logger - ERROR - Translating ديميردي, 'darb' != 'dimirdi'
+2020-02-15 06:49:52,880 - test_moroccan_arabic_words_logger - ERROR - Translating ديميردي, 'darb' != 'deemeerdee'
 - darb
-+ dimirdi
++ deemeerdee
 
-2020-02-15 03:32:26,915 - test_moroccan_arabic_words_logger - ERROR - Translating ديفو, 'Diffou' != 'difo'
+2020-02-15 06:49:52,881 - test_moroccan_arabic_words_logger - ERROR - Translating ديفو, 'Diffou' != 'deefo'
 - Diffou
-+ difo
++ deefo
 
-2020-02-15 03:32:26,916 - test_moroccan_arabic_words_logger - ERROR - Translating ديكاج, 'Digage' != 'dikaj'
+2020-02-15 06:49:52,882 - test_moroccan_arabic_words_logger - ERROR - Translating ديكاج, 'Digage' != 'deecaj'
 - Digage
-+ dikaj
++ deecaj
 
-2020-02-15 03:32:26,917 - test_moroccan_arabic_words_logger - ERROR - Translating فابور, 'Fabor' != 'fabor'
+2020-02-15 06:49:52,882 - test_moroccan_arabic_words_logger - ERROR - Translating فابور, 'Fabor' != 'fabor'
 - Fabor
 ? ^
 + fabor
 ? ^
 
-2020-02-15 03:32:26,919 - test_moroccan_arabic_words_logger - ERROR - Translating فاكتورة, 'Factoura' != 'faktort'
+2020-02-15 06:49:52,884 - test_moroccan_arabic_words_logger - ERROR - Translating فاكتورة, 'Factoura' != 'factort'
 - Factoura
-+ faktort
++ factort
 
-2020-02-15 03:32:26,921 - test_moroccan_arabic_words_logger - ERROR - Translating فاكانص, 'Fakance' != 'fakans'
+2020-02-15 06:49:52,885 - test_moroccan_arabic_words_logger - ERROR - Translating فاكانص, 'Fakance' != 'facanss'
 - Fakance
-+ fakans
++ facanss
 
-2020-02-15 03:32:26,922 - test_moroccan_arabic_words_logger - ERROR - Translating فاكانصي, 'Fakanssi' != 'fakansi'
+2020-02-15 06:49:52,885 - test_moroccan_arabic_words_logger - ERROR - Translating فاكانصي, 'Fakanssi' != 'facanssee'
 - Fakanssi
-? ^     -
-+ fakansi
-? ^
++ facanssee
 
-2020-02-15 03:32:26,922 - test_moroccan_arabic_words_logger - ERROR - Translating فاميلا, 'Famila' != 'famila'
+2020-02-15 06:49:52,886 - test_moroccan_arabic_words_logger - ERROR - Translating فاميلا, 'Famila' != 'fameela'
 - Famila
-? ^
-+ famila
-? ^
++ fameela
 
-2020-02-15 03:32:26,923 - test_moroccan_arabic_words_logger - ERROR - Translating فرشيطا, 'Farchita' != 'frchita'
+2020-02-15 06:49:52,886 - test_moroccan_arabic_words_logger - ERROR - Translating فرشيطا, 'Farchita' != 'frcheeta'
 - Farchita
-? ^^
-+ frchita
-? ^
++ frcheeta
 
-2020-02-15 03:32:26,923 - test_moroccan_arabic_words_logger - ERROR - Translating فركونيط, 'Fargonite' != 'frkonit'
+2020-02-15 06:49:52,887 - test_moroccan_arabic_words_logger - ERROR - Translating فركونيط, 'Fargonite' != 'frconeet'
 - Fargonite
-+ frkonit
++ frconeet
 
-2020-02-15 03:32:26,924 - test_moroccan_arabic_words_logger - ERROR - Translating فرينة, 'Farina' != 'frint'
+2020-02-15 06:49:52,888 - test_moroccan_arabic_words_logger - ERROR - Translating فرينة, 'Farina' != 'freent'
 - Farina
-+ frint
++ freent
 
-2020-02-15 03:32:26,924 - test_moroccan_arabic_words_logger - ERROR - Translating فرماصيان, 'Farmaciyane' != 'frmasian'
+2020-02-15 06:49:52,889 - test_moroccan_arabic_words_logger - ERROR - Translating فرماصيان, 'Farmaciyane' != 'frmasseean'
 - Farmaciyane
-+ frmasian
++ frmasseean
 
-2020-02-15 03:32:26,925 - test_moroccan_arabic_words_logger - ERROR - Translating فرماج, 'Farmage' != 'frmaj'
+2020-02-15 06:49:52,889 - test_moroccan_arabic_words_logger - ERROR - Translating فرماج, 'Farmage' != 'frmaj'
 - Farmage
 + frmaj
 
-2020-02-15 03:32:26,925 - test_moroccan_arabic_words_logger - ERROR - Translating فاصمة, 'Fasma' != 'fasmt'
+2020-02-15 06:49:52,890 - test_moroccan_arabic_words_logger - ERROR - Translating فاصمة, 'Fasma' != 'fassmt'
 - Fasma
-+ fasmt
++ fassmt
 
-2020-02-15 03:32:26,926 - test_moroccan_arabic_words_logger - ERROR - Translating فوطوي, 'Fautouye' != 'fotoi'
+2020-02-15 06:49:52,890 - test_moroccan_arabic_words_logger - ERROR - Translating فوطوي, 'Fautouye' != 'fotoee'
 - Fautouye
-+ fotoi
++ fotoee
 
-2020-02-15 03:32:26,926 - test_moroccan_arabic_words_logger - ERROR - Translating فاياج, 'Fayage' != 'faiaj'
+2020-02-15 06:49:52,891 - test_moroccan_arabic_words_logger - ERROR - Translating فاياج, 'Fayage' != 'faeeaj'
 - Fayage
-+ faiaj
++ faeeaj
 
-2020-02-15 03:32:26,927 - test_moroccan_arabic_words_logger - ERROR - Translating فنيان, 'Feniyane' != 'fnian'
+2020-02-15 06:49:52,891 - test_moroccan_arabic_words_logger - ERROR - Translating فنيان, 'Feniyane' != 'fneean'
 - Feniyane
-+ fnian
++ fneean
 
-2020-02-15 03:32:26,928 - test_moroccan_arabic_words_logger - ERROR - Translating فرصادا, 'Fersada' != 'frsada'
+2020-02-15 06:49:52,892 - test_moroccan_arabic_words_logger - ERROR - Translating فرصادا, 'Fersada' != 'frssada'
 - Fersada
 ? ^^
-+ frsada
-? ^
++ frssada
+? ^ +
 
-2020-02-15 03:32:26,928 - test_moroccan_arabic_words_logger - ERROR - Translating فرملي, 'Fermli' != 'frmli'
+2020-02-15 06:49:52,892 - test_moroccan_arabic_words_logger - ERROR - Translating فرملي, 'Fermli' != 'frmlee'
 - Fermli
-? ^^
-+ frmli
-? ^
++ frmlee
 
-2020-02-15 03:32:26,929 - test_moroccan_arabic_words_logger - ERROR - Translating فريا, 'féria' != 'fria'
+2020-02-15 06:49:52,893 - test_moroccan_arabic_words_logger - ERROR - Translating فريا, 'féria' != 'freea'
 - féria
-?  -
-+ fria
++ freea
 
-2020-02-15 03:32:26,931 - test_moroccan_arabic_words_logger - ERROR - Translating فيكورا, 'Figoura' != 'fikora'
+2020-02-15 06:49:52,893 - test_moroccan_arabic_words_logger - ERROR - Translating فيكورا, 'Figoura' != 'feecora'
 - Figoura
-+ fikora
++ feecora
 
-2020-02-15 03:32:26,932 - test_moroccan_arabic_words_logger - ERROR - Translating فيجطا, 'Fijta' != 'fijta'
+2020-02-15 06:49:52,893 - test_moroccan_arabic_words_logger - ERROR - Translating فيجطا, 'Fijta' != 'feejta'
 - Fijta
-? ^
-+ fijta
-? ^
++ feejta
 
-2020-02-15 03:32:26,933 - test_moroccan_arabic_words_logger - ERROR - Translating فيلاج, 'Filage' != 'filaj'
+2020-02-15 06:49:52,894 - test_moroccan_arabic_words_logger - ERROR - Translating فيلاج, 'Filage' != 'feelaj'
 - Filage
-+ filaj
++ feelaj
 
-2020-02-15 03:32:26,934 - test_moroccan_arabic_words_logger - ERROR - Translating فيرما, 'Firma' != 'firma'
+2020-02-15 06:49:52,895 - test_moroccan_arabic_words_logger - ERROR - Translating فيرما, 'Firma' != 'feerma'
 - Firma
-? ^
-+ firma
-? ^
++ feerma
 
-2020-02-15 03:32:26,936 - test_moroccan_arabic_words_logger - ERROR - Translating كارانطي, 'Garanti' != 'karanti'
+2020-02-15 06:49:52,895 - test_moroccan_arabic_words_logger - ERROR - Translating كارانطي, 'Garanti' != 'carantee'
 - Garanti
-? ^
-+ karanti
-? ^
++ carantee
 
-2020-02-15 03:32:26,937 - test_moroccan_arabic_words_logger - ERROR - Translating كارصون, 'Garçone' != 'karson'
+2020-02-15 06:49:52,896 - test_moroccan_arabic_words_logger - ERROR - Translating كارصون, 'Garçone' != 'carsson'
 - Garçone
-+ karson
++ carsson
 
-2020-02-15 03:32:26,938 - test_moroccan_arabic_words_logger - ERROR - Translating كارو, 'Garro' != 'karo'
+2020-02-15 06:49:52,897 - test_moroccan_arabic_words_logger - ERROR - Translating كارو, 'Garro' != 'caro'
 - Garro
-+ karo
++ caro
 
-2020-02-15 03:32:26,939 - test_moroccan_arabic_words_logger - ERROR - Translating كارصون, 'Garssone' != 'karson'
+2020-02-15 06:49:52,898 - test_moroccan_arabic_words_logger - ERROR - Translating كارصون, 'Garssone' != 'carsson'
 - Garssone
-? ^   -  -
-+ karson
+? ^      -
++ carsson
 ? ^
 
-2020-02-15 03:32:26,940 - test_moroccan_arabic_words_logger - ERROR - Translating كارصونيا, 'Garssoniyya' != 'karsonia'
+2020-02-15 06:49:52,899 - test_moroccan_arabic_words_logger - ERROR - Translating كارصونيا, 'Garssoniyya' != 'carssoneea'
 - Garssoniyya
-? ^  -    --
-+ karsonia
-? ^
++ carssoneea
 
-2020-02-15 03:32:26,941 - test_moroccan_arabic_words_logger - ERROR - Translating كازوزا, 'Gazouza' != 'kazoza'
+2020-02-15 06:49:52,899 - test_moroccan_arabic_words_logger - ERROR - Translating كازوزا, 'Gazouza' != 'cazoza'
 - Gazouza
 ? ^   -
-+ kazoza
++ cazoza
 ? ^
 
-2020-02-15 03:32:26,941 - test_moroccan_arabic_words_logger - ERROR - Translating غراف, 'Gharrafe' != 'ghraf'
+2020-02-15 06:49:52,900 - test_moroccan_arabic_words_logger - ERROR - Translating غراف, 'Gharrafe' != 'ghraf'
 - Gharrafe
 + ghraf
 
-2020-02-15 03:32:26,942 - test_moroccan_arabic_words_logger - ERROR - Translating كودرون, 'Godrone' != 'kodron'
+2020-02-15 06:49:52,901 - test_moroccan_arabic_words_logger - ERROR - Translating كودرون, 'Godrone' != 'codron'
 - Godrone
 ? ^     -
-+ kodron
++ codron
 ? ^
 
-2020-02-15 03:32:26,943 - test_moroccan_arabic_words_logger - ERROR - Translating كوما, 'Gouma' != 'koma'
+2020-02-15 06:49:52,902 - test_moroccan_arabic_words_logger - ERROR - Translating كوما, 'Gouma' != 'coma'
 - Gouma
-+ koma
++ coma
 
-2020-02-15 03:32:26,943 - test_moroccan_arabic_words_logger - ERROR - Translating كريسون, 'Grissoune' != 'krison'
+2020-02-15 06:49:52,902 - test_moroccan_arabic_words_logger - ERROR - Translating كريسون, 'Grissoune' != 'creeson'
 - Grissoune
-+ krison
++ creeson
 
-2020-02-15 03:32:26,944 - test_moroccan_arabic_words_logger - ERROR - Translating كرياج, 'Griyage' != 'kriaj'
+2020-02-15 06:49:52,902 - test_moroccan_arabic_words_logger - ERROR - Translating كرياج, 'Griyage' != 'creeaj'
 - Griyage
-+ kriaj
++ creeaj
 
-2020-02-15 03:32:26,945 - test_moroccan_arabic_words_logger - ERROR - Translating كروا, 'Growa' != 'kroa'
+2020-02-15 06:49:52,903 - test_moroccan_arabic_words_logger - ERROR - Translating كروا, 'Growa' != 'croa'
 - Growa
-+ kroa
++ croa
 
-2020-02-15 03:32:26,946 - test_moroccan_arabic_words_logger - ERROR - Translating كاليزي, 'Gualizi' != 'kalizi'
+2020-02-15 06:49:52,903 - test_moroccan_arabic_words_logger - ERROR - Translating كاليزي, 'Gualizi' != 'caleezee'
 - Gualizi
-? ^^
-+ kalizi
-? ^
++ caleezee
 
-2020-02-15 03:32:26,947 - test_moroccan_arabic_words_logger - ERROR - Translating كيدون, 'guidoune' != 'kidon'
+2020-02-15 06:49:52,904 - test_moroccan_arabic_words_logger - ERROR - Translating كيدون, 'guidoune' != 'ceedon'
 - guidoune
-+ kidon
++ ceedon
 
-2020-02-15 03:32:26,948 - test_moroccan_arabic_words_logger - ERROR - Translating كيرا, 'Guirra' != 'kira'
+2020-02-15 06:49:52,904 - test_moroccan_arabic_words_logger - ERROR - Translating كيرا, 'Guirra' != 'ceera'
 - Guirra
-+ kira
++ ceera
 
-2020-02-15 03:32:26,949 - test_moroccan_arabic_words_logger - ERROR - Translating كيتارا, 'Guitara' != 'kitara'
+2020-02-15 06:49:52,905 - test_moroccan_arabic_words_logger - ERROR - Translating كيتارا, 'Guitara' != 'ceetara'
 - Guitara
-? ^^
-+ kitara
-? ^
++ ceetara
 
-2020-02-15 03:32:26,950 - test_moroccan_arabic_words_logger - ERROR - Translating خيزو, '5izou' != '5izo'
+2020-02-15 06:49:52,905 - test_moroccan_arabic_words_logger - ERROR - Translating خيزو, '5izou' != '5eezo'
 - 5izou
-?     -
-+ 5izo
++ 5eezo
 
-2020-02-15 03:32:26,952 - test_moroccan_arabic_words_logger - ERROR - Translating تلفون, 'tilifone' != 'tlfon'
+2020-02-15 06:49:52,906 - test_moroccan_arabic_words_logger - ERROR - Translating تلفون, 'tilifone' != 'tlfon'
 - tilifone
 ?  - -   -
 + tlfon
 
-2020-02-15 03:32:26,954 - test_moroccan_arabic_words_logger - ERROR - Translating كرسي, 'korsi' != 'krsi'
+2020-02-15 06:49:52,906 - test_moroccan_arabic_words_logger - ERROR - Translating كرسي, 'korsi' != 'crsee'
 - korsi
-?  -
-+ krsi
++ crsee
 
-2020-02-15 03:32:26,955 - test_moroccan_arabic_words_logger - ERROR - Translating براد, 'berrad' != 'brad'
+2020-02-15 06:49:52,907 - test_moroccan_arabic_words_logger - ERROR - Translating براد, 'berrad' != 'brad'
 - berrad
 ?  --
 + brad
 
-2020-02-15 03:32:26,956 - test_moroccan_arabic_words_logger - ERROR - Translating اتاي, 'atay' != 'atai'
+2020-02-15 06:49:52,907 - test_moroccan_arabic_words_logger - ERROR - Translating اتاي, 'atay' != 'ataee'
 - atay
-?    ^
-+ atai
-?    ^
++ ataee
 
-2020-02-15 03:32:26,956 - test_moroccan_arabic_words_logger - ERROR - Translating فاليزا, 'valiza' != 'faliza'
+2020-02-15 06:49:52,907 - test_moroccan_arabic_words_logger - ERROR - Translating فاليزا, 'valiza' != 'faleeza'
 - valiza
-? ^
-+ faliza
-? ^
++ faleeza
 
-2020-02-15 03:32:26,957 - test_moroccan_arabic_words_logger - ERROR - Translating سروال, 'srwal' != 'sroal'
+2020-02-15 06:49:52,908 - test_moroccan_arabic_words_logger - ERROR - Translating سروال, 'srwal' != 'sroal'
 - srwal
 ?   ^
 + sroal
 ?   ^
 
-2020-02-15 03:32:26,957 - test_moroccan_arabic_words_logger - ERROR - Translating تريكو, 'trikot' != 'triko'
+2020-02-15 06:49:52,908 - test_moroccan_arabic_words_logger - ERROR - Translating تريكو, 'trikot' != 'treeco'
 - trikot
-?      -
-+ triko
++ treeco
 
-2020-02-15 03:32:26,958 - test_moroccan_arabic_words_logger - ERROR - Translating طبع, 'tbe3' != 'tb3'
+2020-02-15 06:49:52,909 - test_moroccan_arabic_words_logger - ERROR - Translating طبع, 'tbe3' != 'tb3'
 - tbe3
 ?   -
 + tb3
 
-2020-02-15 03:32:26,959 - test_moroccan_arabic_words_logger - ERROR - Translating حلم, '7lem' != '7lm'
+2020-02-15 06:49:52,909 - test_moroccan_arabic_words_logger - ERROR - Translating حلم, '7lem' != '7lm'
 - 7lem
 ?   -
 + 7lm
 
-2020-02-15 03:32:26,959 - test_moroccan_arabic_words_logger - ERROR - Translating ضرب, 'dreb' != 'drb'
+2020-02-15 06:49:52,910 - test_moroccan_arabic_words_logger - ERROR - Translating ضرب, 'dreb' != 'drb'
 - dreb
 ?   -
 + drb
 
-2020-02-15 03:32:26,960 - test_moroccan_arabic_words_logger - ERROR - Translating هرب, 'hreb' != 'hrb'
+2020-02-15 06:49:52,910 - test_moroccan_arabic_words_logger - ERROR - Translating هرب, 'hreb' != 'hrb'
 - hreb
 ?   -
 + hrb
 
-2020-02-15 03:32:26,960 - test_moroccan_arabic_words_logger - ERROR - Translating لعب, 'l3eb' != 'l3b'
+2020-02-15 06:49:52,911 - test_moroccan_arabic_words_logger - ERROR - Translating لعب, 'l3eb' != 'l3b'
 - l3eb
 ?   -
 + l3b
 
-2020-02-15 03:32:26,961 - test_moroccan_arabic_words_logger - ERROR - Translating علم, '3lem' != '3lm'
+2020-02-15 06:49:52,911 - test_moroccan_arabic_words_logger - ERROR - Translating علم, '3lem' != '3lm'
 - 3lem
 ?   -
 + 3lm
 
-2020-02-15 03:32:26,961 - test_moroccan_arabic_words_logger - ERROR - Translating زطم, 'ztem' != 'ztm'
+2020-02-15 06:49:52,911 - test_moroccan_arabic_words_logger - ERROR - Translating زطم, 'ztem' != 'ztm'
 - ztem
 ?   -
 + ztm
 
-2020-02-15 03:32:26,962 - test_moroccan_arabic_words_logger - ERROR - Translating منعت, 'mne3t' != 'mn3t'
+2020-02-15 06:49:52,912 - test_moroccan_arabic_words_logger - ERROR - Translating منعت, 'mne3t' != 'mn3t'
 - mne3t
 ?   -
 + mn3t
 
-2020-02-15 03:32:26,964 - test_moroccan_arabic_words_logger - ERROR - Translating حك, '7ok' != '7k'
-- 7ok
-?  -
-+ 7k
+2020-02-15 06:49:52,912 - test_moroccan_arabic_words_logger - ERROR - Translating شوكران, 'chokran' != 'chocran'
+- chokran
+?    ^
++ chocran
+?    ^
 
-2020-02-15 03:32:26,965 - test_moroccan_arabic_words_logger - ERROR - Translating دفن, 'dfen' != 'dfn'
+2020-02-15 06:49:52,913 - test_moroccan_arabic_words_logger - ERROR - Translating حك, '7ok' != '7c'
+- 7ok
++ 7c
+
+2020-02-15 06:49:52,913 - test_moroccan_arabic_words_logger - ERROR - Translating دفن, 'dfen' != 'dfn'
 - dfen
 ?   -
 + dfn
 
-2020-02-15 03:32:26,966 - test_moroccan_arabic_words_logger - ERROR - Translating قول, 'gol' != '9ol'
+2020-02-15 06:49:52,914 - test_moroccan_arabic_words_logger - ERROR - Translating قول, 'gol' != '9ol'
 - gol
 ? ^
 + 9ol
 ? ^
 
-2020-02-15 03:32:26,966 - test_moroccan_arabic_words_logger - ERROR - Translating كتب, 'kteb' != 'ktb'
+2020-02-15 06:49:52,914 - test_moroccan_arabic_words_logger - ERROR - Translating كتب, 'kteb' != 'ctb'
 - kteb
-?   -
-+ ktb
++ ctb
 
-2020-02-15 03:32:26,969 - test_moroccan_arabic_words_logger - ERROR - Translating شهادة, 'chahada' != 'chhadt'
+2020-02-15 06:49:52,915 - test_moroccan_arabic_words_logger - ERROR - Translating شهادة, 'chahada' != 'chhadt'
 - chahada
 ?   -   ^
 + chhadt
 ?      ^
 
-2020-02-15 03:32:26,970 - test_moroccan_arabic_words_logger - ERROR - Translating هز, 'hez' != 'hz'
+2020-02-15 06:49:52,915 - test_moroccan_arabic_words_logger - ERROR - Translating هز, 'hez' != 'hz'
 - hez
 ?  -
 + hz
 
-2020-02-15 03:32:26,972 - test_moroccan_arabic_words_logger - ERROR - Translating انسبيريتي, 'inspiriti' != 'ansbiriti'
+2020-02-15 06:49:52,915 - test_moroccan_arabic_words_logger - ERROR - Translating خلي, '5li' != '5lee'
+- 5li
++ 5lee
+
+2020-02-15 06:49:52,916 - test_moroccan_arabic_words_logger - ERROR - Translating انسبيريتي, 'inspiriti' != 'ansbeereetee'
 - inspiriti
-? ^  ^
-+ ansbiriti
-? ^  ^
++ ansbeereetee
 
-2020-02-15 03:32:26,973 - test_moroccan_arabic_words_logger - ERROR - Translating حكم, '7kem' != '7km'
+2020-02-15 06:49:52,916 - test_moroccan_arabic_words_logger - ERROR - Translating باقي, 'ba9i' != 'ba9ee'
+- ba9i
++ ba9ee
+
+2020-02-15 06:49:52,917 - test_moroccan_arabic_words_logger - ERROR - Translating حكم, '7kem' != '7cm'
 - 7kem
-?   -
-+ 7km
++ 7cm
 
-2020-02-15 03:32:26,973 - test_moroccan_arabic_words_logger - ERROR - Translating صفّق, 'saffa9' != 'sf9'
+2020-02-15 06:49:52,918 - test_moroccan_arabic_words_logger - ERROR - Translating صفّق, 'saffa9' != 'ssf9'
 - saffa9
-+ sf9
++ ssf9
 
-2020-02-15 03:32:26,974 - test_moroccan_arabic_words_logger - ERROR - Translating وضح, 'wadda7' != 'od7'
+2020-02-15 06:49:52,918 - test_moroccan_arabic_words_logger - ERROR - Translating وضح, 'wadda7' != 'od7'
 - wadda7
 + od7
 
-2020-02-15 03:32:26,975 - test_moroccan_arabic_words_logger - ERROR - Translating سرح, 'sarra7' != 'sr7'
+2020-02-15 06:49:52,920 - test_moroccan_arabic_words_logger - ERROR - Translating سرح, 'sarra7' != 'sr7'
 - sarra7
 + sr7
 
-2020-02-15 03:32:26,975 - test_moroccan_arabic_words_logger - ERROR - Translating خنق, '5ana9' != '5n9'
+2020-02-15 06:49:52,920 - test_moroccan_arabic_words_logger - ERROR - Translating خنق, '5ana9' != '5n9'
 - 5ana9
 ?  - -
 + 5n9
 
-2020-02-15 03:32:26,976 - test_moroccan_arabic_words_logger - ERROR - Translating سد, 'sadd' != 'sd'
+2020-02-15 06:49:52,921 - test_moroccan_arabic_words_logger - ERROR - Translating سد, 'sadd' != 'sd'
 - sadd
 ?  --
 + sd
 
-2020-02-15 03:32:26,977 - test_moroccan_arabic_words_logger - ERROR - Translating غمض, 'ghammad' != 'ghmd'
+2020-02-15 06:49:52,922 - test_moroccan_arabic_words_logger - ERROR - Translating غمض, 'ghammad' != 'ghmd'
 - ghammad
 ?   - --
 + ghmd
 
-2020-02-15 03:32:26,978 - test_moroccan_arabic_words_logger - ERROR - Translating برد, 'barrad' != 'brd'
+2020-02-15 06:49:52,923 - test_moroccan_arabic_words_logger - ERROR - Translating برد, 'barrad' != 'brd'
 - barrad
 + brd
 
-2020-02-15 03:32:26,979 - test_moroccan_arabic_words_logger - ERROR - Translating أمر, 'amer' != 'amr'
+2020-02-15 06:49:52,924 - test_moroccan_arabic_words_logger - ERROR - Translating أمر, 'amer' != 'amr'
 - amer
 ?   -
 + amr
 
-2020-02-15 03:32:26,980 - test_moroccan_arabic_words_logger - ERROR - Translating علق, '3alla9' != '3l9'
+2020-02-15 06:49:52,925 - test_moroccan_arabic_words_logger - ERROR - Translating علق, '3alla9' != '3l9'
 - 3alla9
 + 3l9
 
-2020-02-15 03:32:26,981 - test_moroccan_arabic_words_logger - ERROR - Translating تشكا من, 'tcheka men' != 'tchka mn'
+2020-02-15 06:49:52,926 - test_moroccan_arabic_words_logger - ERROR - Translating تشكا من, 'tcheka men' != 'tchca mn'
 - tcheka men
-?    -    -
-+ tchka mn
+?    ^^   -
++ tchca mn
+?    ^
 
-2020-02-15 03:32:26,983 - test_moroccan_arabic_words_logger - ERROR - Translating تشكا علا, 'tcheka 3la' != 'tchka 3la'
+2020-02-15 06:49:52,926 - test_moroccan_arabic_words_logger - ERROR - Translating تشكا علا, 'tcheka 3la' != 'tchca 3la'
 - tcheka 3la
-?    -
-+ tchka 3la
+?    ^^
++ tchca 3la
+?    ^
 
-2020-02-15 03:32:26,984 - test_moroccan_arabic_words_logger - ERROR - Translating كمل, 'kemmel' != 'kml'
+2020-02-15 06:49:52,927 - test_moroccan_arabic_words_logger - ERROR - Translating كمل, 'kemmel' != 'cml'
 - kemmel
-+ kml
++ cml
 
-2020-02-15 03:32:26,986 - test_moroccan_arabic_words_logger - ERROR - Translating ركز, 'rekkez' != 'rkz'
+2020-02-15 06:49:52,927 - test_moroccan_arabic_words_logger - ERROR - Translating ركز, 'rekkez' != 'rx'
 - rekkez
-+ rkz
++ rx
 
-2020-02-15 03:32:26,987 - test_moroccan_arabic_words_logger - ERROR - Translating هم, 'hemm' != 'hm'
+2020-02-15 06:49:52,928 - test_moroccan_arabic_words_logger - ERROR - Translating هم, 'hemm' != 'hm'
 - hemm
 ?  --
 + hm
 
-2020-02-15 03:32:26,988 - test_moroccan_arabic_words_logger - ERROR - Translating هتم, 'htem' != 'htm'
+2020-02-15 06:49:52,928 - test_moroccan_arabic_words_logger - ERROR - Translating هتم, 'htem' != 'htm'
 - htem
 ?   -
 + htm
 
-2020-02-15 03:32:26,989 - test_moroccan_arabic_words_logger - ERROR - Translating عترف, '3taref' != '3trf'
+2020-02-15 06:49:52,929 - test_moroccan_arabic_words_logger - ERROR - Translating عترف, '3taref' != '3trf'
 - 3taref
 ?   - -
 + 3trf
 
-2020-02-15 03:32:26,990 - test_moroccan_arabic_words_logger - ERROR - Translating حير, '7ayyer' != '7ir'
+2020-02-15 06:49:52,930 - test_moroccan_arabic_words_logger - ERROR - Translating حير, '7ayyer' != '7eer'
 - 7ayyer
-+ 7ir
++ 7eer
 
-2020-02-15 03:32:26,990 - test_moroccan_arabic_words_logger - ERROR - Translating هنأ, 'henne2' != 'hna'
+2020-02-15 06:49:52,931 - test_moroccan_arabic_words_logger - ERROR - Translating هنأ, 'henne2' != 'hna'
 - henne2
 + hna
 
-2020-02-15 03:32:26,991 - test_moroccan_arabic_words_logger - ERROR - Translating صرف, 'serref' != 'srf'
+2020-02-15 06:49:52,931 - test_moroccan_arabic_words_logger - ERROR - Translating صرف, 'serref' != 'ssrf'
 - serref
-+ srf
++ ssrf
 
-2020-02-15 03:32:26,992 - test_moroccan_arabic_words_logger - ERROR - Translating ربط, 'rbet' != 'rbt'
+2020-02-15 06:49:52,932 - test_moroccan_arabic_words_logger - ERROR - Translating ربط, 'rbet' != 'rbt'
 - rbet
 ?   -
 + rbt
 
-2020-02-15 03:32:26,992 - test_moroccan_arabic_words_logger - ERROR - Translating تشاور, 'tchawr' != 'tchaor'
+2020-02-15 06:49:52,933 - test_moroccan_arabic_words_logger - ERROR - Translating تشاور, 'tchawr' != 'tchaor'
 - tchawr
 ?     ^
 + tchaor
 ?     ^
 
-2020-02-15 03:32:26,993 - test_moroccan_arabic_words_logger - ERROR - Translating تصل, 'tasel' != 'tsl'
+2020-02-15 06:49:52,934 - test_moroccan_arabic_words_logger - ERROR - Translating تصل, 'tasel' != 'tssl'
 - tasel
-?  - -
-+ tsl
++ tssl
 
-2020-02-15 03:32:26,994 - test_moroccan_arabic_words_logger - ERROR - Translating ستمر, 'stamer' != 'stmr'
+2020-02-15 06:49:52,935 - test_moroccan_arabic_words_logger - ERROR - Translating ستمر, 'stamer' != 'stmr'
 - stamer
 ?   - -
 + stmr
 
-2020-02-15 03:32:26,995 - test_moroccan_arabic_words_logger - ERROR - Translating تابع, 'tabe3' != 'tab3'
+2020-02-15 06:49:52,935 - test_moroccan_arabic_words_logger - ERROR - Translating تابع, 'tabe3' != 'tab3'
 - tabe3
 ?    -
 + tab3
 
-2020-02-15 03:32:26,996 - test_moroccan_arabic_words_logger - ERROR - Translating ساهم, 'sahem' != 'sahm'
+2020-02-15 06:49:52,936 - test_moroccan_arabic_words_logger - ERROR - Translating ساهم, 'sahem' != 'sahm'
 - sahem
 ?    -
 + sahm
 
-2020-02-15 03:32:26,998 - test_moroccan_arabic_words_logger - ERROR - Translating تحكم, 't7ekkem' != 't7km'
+2020-02-15 06:49:52,937 - test_moroccan_arabic_words_logger - ERROR - Translating تحكم, 't7ekkem' != 't7cm'
 - t7ekkem
-?   - --
-+ t7km
++ t7cm
 
-2020-02-15 03:32:26,999 - test_moroccan_arabic_words_logger - ERROR - Translating سلم, 'sellem' != 'slm'
+2020-02-15 06:49:52,937 - test_moroccan_arabic_words_logger - ERROR - Translating سلم, 'sellem' != 'slm'
 - sellem
 + slm
 
-2020-02-15 03:32:26,999 - test_moroccan_arabic_words_logger - ERROR - Translating طيب, 'tayyeb' != 'tib'
+2020-02-15 06:49:52,938 - test_moroccan_arabic_words_logger - ERROR - Translating طيب, 'tayyeb' != 'teeb'
 - tayyeb
-+ tib
++ teeb
 
-2020-02-15 03:32:27,001 - test_moroccan_arabic_words_logger - ERROR - Translating تعاون, 't3awn' != 't3aon'
+2020-02-15 06:49:52,939 - test_moroccan_arabic_words_logger - ERROR - Translating تعاون, 't3awn' != 't3aon'
 - t3awn
 ?    ^
 + t3aon
 ?    ^
 
-2020-02-15 03:32:27,002 - test_moroccan_arabic_words_logger - ERROR - Translating سلك, 'sellek' != 'slk'
+2020-02-15 06:49:52,940 - test_moroccan_arabic_words_logger - ERROR - Translating سلك, 'sellek' != 'slc'
 - sellek
-+ slk
++ slc
 
-2020-02-15 03:32:27,004 - test_moroccan_arabic_words_logger - ERROR - Translating نقل, 'n9el' != 'n9l'
+2020-02-15 06:49:52,941 - test_moroccan_arabic_words_logger - ERROR - Translating نقل, 'n9el' != 'n9l'
 - n9el
 ?   -
 + n9l
 
-2020-02-15 03:32:27,004 - test_moroccan_arabic_words_logger - ERROR - Translating نسخ, 'nsekh' != 'ns5'
+2020-02-15 06:49:52,941 - test_moroccan_arabic_words_logger - ERROR - Translating نسخ, 'nsekh' != 'ns5'
 - nsekh
 + ns5
 
-2020-02-15 03:32:27,005 - test_moroccan_arabic_words_logger - ERROR - Translating صحح, 'se7e7' != 's77'
+2020-02-15 06:49:52,942 - test_moroccan_arabic_words_logger - ERROR - Translating صحح, 'se7e7' != 'ss77'
 - se7e7
-?  - -
-+ s77
++ ss77
 
-2020-02-15 03:32:27,006 - test_moroccan_arabic_words_logger - ERROR - Translating سوا, 'siwa' != 'soa'
+2020-02-15 06:49:52,943 - test_moroccan_arabic_words_logger - ERROR - Translating سوا, 'siwa' != 'soa'
 - siwa
 + soa
 
-2020-02-15 03:32:27,006 - test_moroccan_arabic_words_logger - ERROR - Translating كحب, 'k7ob' != 'k7b'
+2020-02-15 06:49:52,944 - test_moroccan_arabic_words_logger - ERROR - Translating كحب, 'k7ob' != 'c7b'
 - k7ob
-?   -
-+ k7b
++ c7b
 
-2020-02-15 03:32:27,007 - test_moroccan_arabic_words_logger - ERROR - Translating حسب, '7asab' != '7sb'
+2020-02-15 06:49:52,945 - test_moroccan_arabic_words_logger - ERROR - Translating حسب, '7asab' != '7sb'
 - 7asab
 ?  - -
 + 7sb
 
-2020-02-15 03:32:27,007 - test_moroccan_arabic_words_logger - ERROR - Translating حمق, '7me9' != '7m9'
+2020-02-15 06:49:52,945 - test_moroccan_arabic_words_logger - ERROR - Translating حمق, '7me9' != '7m9'
 - 7me9
 ?   -
 + 7m9
 
-2020-02-15 03:32:27,008 - test_moroccan_arabic_words_logger - ERROR - Translating حمق, '7emme9' != '7m9'
+2020-02-15 06:49:52,946 - test_moroccan_arabic_words_logger - ERROR - Translating حمق, '7emme9' != '7m9'
 - 7emme9
 + 7m9
 
-2020-02-15 03:32:27,008 - test_moroccan_arabic_words_logger - ERROR - Translating خلق, '5le9' != '5l9'
+2020-02-15 06:49:52,947 - test_moroccan_arabic_words_logger - ERROR - Translating خلق, '5le9' != '5l9'
 - 5le9
 ?   -
 + 5l9
 
-2020-02-15 03:32:27,009 - test_moroccan_arabic_words_logger - ERROR - Translating قطع, '9te3' != '9t3'
+2020-02-15 06:49:52,948 - test_moroccan_arabic_words_logger - ERROR - Translating قطع, '9te3' != '9t3'
 - 9te3
 ?   -
 + 9t3
 
-2020-02-15 03:32:27,010 - test_moroccan_arabic_words_logger - ERROR - Translating لقّم, 'le9em' != 'l9m'
+2020-02-15 06:49:52,948 - test_moroccan_arabic_words_logger - ERROR - Translating لقّم, 'le9em' != 'l9m'
 - le9em
 ?  - -
 + l9m
 
-2020-02-15 03:32:27,010 - test_moroccan_arabic_words_logger - ERROR - Translating بكا, 'bekka' != 'bka'
-- bekka
-?  --
-+ bka
+2020-02-15 06:49:52,949 - test_moroccan_arabic_words_logger - ERROR - Translating بكا, 'bka' != 'bca'
+- bka
+?  ^
++ bca
+?  ^
 
-2020-02-15 03:32:27,011 - test_moroccan_arabic_words_logger - ERROR - Translating داوا, 'dawa' != 'daoa'
+2020-02-15 06:49:52,950 - test_moroccan_arabic_words_logger - ERROR - Translating بكا, 'bekka' != 'bca'
+- bekka
++ bca
+
+2020-02-15 06:49:52,951 - test_moroccan_arabic_words_logger - ERROR - Translating داوا, 'dawa' != 'daoa'
 - dawa
 ?   ^
 + daoa
 ?   ^
 
-2020-02-15 03:32:27,011 - test_moroccan_arabic_words_logger - ERROR - Translating فصل, 'fsel' != 'fsl'
+2020-02-15 06:49:52,952 - test_moroccan_arabic_words_logger - ERROR - Translating فصل, 'fsel' != 'fssl'
 - fsel
-?   -
-+ fsl
+?   ^
++ fssl
+?   ^
 
-2020-02-15 03:32:27,012 - test_moroccan_arabic_words_logger - ERROR - Translating حسن, '7sen' != '7sn'
+2020-02-15 06:49:52,952 - test_moroccan_arabic_words_logger - ERROR - Translating حسن, '7sen' != '7sn'
 - 7sen
 ?   -
 + 7sn
 
-2020-02-15 03:32:27,014 - test_moroccan_arabic_words_logger - ERROR - Translating تجرح, 'tjre7' != 'tjr7'
+2020-02-15 06:49:52,953 - test_moroccan_arabic_words_logger - ERROR - Translating تجرح, 'tjre7' != 'tjr7'
 - tjre7
 ?    -
 + tjr7
 
-2020-02-15 03:32:27,014 - test_moroccan_arabic_words_logger - ERROR - Translating قطع, '9te3' != '9t3'
+2020-02-15 06:49:52,954 - test_moroccan_arabic_words_logger - ERROR - Translating قطع, '9te3' != '9t3'
 - 9te3
 ?   -
 + 9t3
 
-2020-02-15 03:32:27,015 - test_moroccan_arabic_words_logger - ERROR - Translating جرح, 'jre7' != 'jr7'
+2020-02-15 06:49:52,954 - test_moroccan_arabic_words_logger - ERROR - Translating جرح, 'jre7' != 'jr7'
 - jre7
 ?   -
 + jr7
 
-2020-02-15 03:32:27,016 - test_moroccan_arabic_words_logger - ERROR - Translating خسر, '5ser' != '5sr'
+2020-02-15 06:49:52,955 - test_moroccan_arabic_words_logger - ERROR - Translating خسر, '5ser' != '5sr'
 - 5ser
 ?   -
 + 5sr
 
-2020-02-15 03:32:27,017 - test_moroccan_arabic_words_logger - ERROR - Translating فزڭ, 'fzeg' != 'fzg'
+2020-02-15 06:49:52,956 - test_moroccan_arabic_words_logger - ERROR - Translating فزڭ, 'fzeg' != 'fzg'
 - fzeg
 ?   -
 + fzg
 
-2020-02-15 03:32:27,019 - test_moroccan_arabic_words_logger - ERROR - Translating فزڭ, 'fezzeg' != 'fzg'
+2020-02-15 06:49:52,956 - test_moroccan_arabic_words_logger - ERROR - Translating فزڭ, 'fezzeg' != 'fzg'
 - fezzeg
 + fzg
 
-2020-02-15 03:32:27,021 - test_moroccan_arabic_words_logger - ERROR - Translating شطح, 'chte7' != 'cht7'
+2020-02-15 06:49:52,957 - test_moroccan_arabic_words_logger - ERROR - Translating شطح, 'chte7' != 'cht7'
 - chte7
 ?    -
 + cht7
 
-2020-02-15 03:32:27,021 - test_moroccan_arabic_words_logger - ERROR - Translating صمك, 'semmek' != 'smk'
+2020-02-15 06:49:52,958 - test_moroccan_arabic_words_logger - ERROR - Translating صمك, 'semmek' != 'ssmc'
 - semmek
-+ smk
++ ssmc
 
-2020-02-15 03:32:27,022 - test_moroccan_arabic_words_logger - ERROR - Translating قرر, '9errer' != '9rr'
+2020-02-15 06:49:52,959 - test_moroccan_arabic_words_logger - ERROR - Translating قرر, '9errer' != '9rr'
 - 9errer
 + 9rr
 
-2020-02-15 03:32:27,023 - test_moroccan_arabic_words_logger - ERROR - Translating علن, '3len' != '3ln'
+2020-02-15 06:49:52,960 - test_moroccan_arabic_words_logger - ERROR - Translating علن, '3len' != '3ln'
 - 3len
 ?   -
 + 3ln
 
-2020-02-15 03:32:27,023 - test_moroccan_arabic_words_logger - ERROR - Translating نقص, 'n9es' != 'n9s'
+2020-02-15 06:49:52,960 - test_moroccan_arabic_words_logger - ERROR - Translating نقص, 'n9es' != 'n9ss'
 - n9es
-?   -
-+ n9s
+?   ^
++ n9ss
+?   ^
 
-2020-02-15 03:32:27,024 - test_moroccan_arabic_words_logger - ERROR - Translating غلب, 'ghleb' != 'ghlb'
+2020-02-15 06:49:52,961 - test_moroccan_arabic_words_logger - ERROR - Translating غلب, 'ghleb' != 'ghlb'
 - ghleb
 ?    -
 + ghlb
 
-2020-02-15 03:32:27,024 - test_moroccan_arabic_words_logger - ERROR - Translating دافع, 'dafe3' != 'daf3'
+2020-02-15 06:49:52,962 - test_moroccan_arabic_words_logger - ERROR - Translating دافع, 'dafe3' != 'daf3'
 - dafe3
 ?    -
 + daf3
 
-2020-02-15 03:32:27,025 - test_moroccan_arabic_words_logger - ERROR - Translating تحدا, 't7edda' != 't7da'
+2020-02-15 06:49:52,963 - test_moroccan_arabic_words_logger - ERROR - Translating تحدا, 't7edda' != 't7da'
 - t7edda
 ?   --
 + t7da
 
-2020-02-15 03:32:27,026 - test_moroccan_arabic_words_logger - ERROR - Translating عطل, '3ettel' != '3tl'
+2020-02-15 06:49:52,963 - test_moroccan_arabic_words_logger - ERROR - Translating عطل, '3ettel' != '3tl'
 - 3ettel
 + 3tl
 
-2020-02-15 03:32:27,026 - test_moroccan_arabic_words_logger - ERROR - Translating حرم, '7errem' != '7rm'
+2020-02-15 06:49:52,964 - test_moroccan_arabic_words_logger - ERROR - Translating حرم, '7errem' != '7rm'
 - 7errem
 + 7rm
 
-2020-02-15 03:32:27,027 - test_moroccan_arabic_words_logger - ERROR - Translating هبط, 'hbet' != 'hbt'
+2020-02-15 06:49:52,965 - test_moroccan_arabic_words_logger - ERROR - Translating هبط, 'hbet' != 'hbt'
 - hbet
 ?   -
 + hbt
 
-2020-02-15 03:32:27,027 - test_moroccan_arabic_words_logger - ERROR - Translating نزل, 'nzel' != 'nzl'
+2020-02-15 06:49:52,965 - test_moroccan_arabic_words_logger - ERROR - Translating نزل, 'nzel' != 'nzl'
 - nzel
 ?   -
 + nzl
 
-2020-02-15 03:32:27,028 - test_moroccan_arabic_words_logger - ERROR - Translating وصف, 'wsef' != 'osf'
+2020-02-15 06:49:52,966 - test_moroccan_arabic_words_logger - ERROR - Translating وصف, 'wsef' != 'ossf'
 - wsef
-+ osf
++ ossf
 
-2020-02-15 03:32:27,028 - test_moroccan_arabic_words_logger - ERROR - Translating ستحق, 'sta7e9' != 'st79'
+2020-02-15 06:49:52,967 - test_moroccan_arabic_words_logger - ERROR - Translating ستحق, 'sta7e9' != 'st79'
 - sta7e9
 ?   - -
 + st79
 
-2020-02-15 03:32:27,029 - test_moroccan_arabic_words_logger - ERROR - Translating خطط, '5ettet' != '5tt'
+2020-02-15 06:49:52,968 - test_moroccan_arabic_words_logger - ERROR - Translating خطط, '5ettet' != '5tt'
 - 5ettet
 + 5tt
 
-2020-02-15 03:32:27,031 - test_moroccan_arabic_words_logger - ERROR - Translating هدم, 'hdem' != 'hdm'
+2020-02-15 06:49:52,968 - test_moroccan_arabic_words_logger - ERROR - Translating هدم, 'hdem' != 'hdm'
 - hdem
 ?   -
 + hdm
 
-2020-02-15 03:32:27,032 - test_moroccan_arabic_words_logger - ERROR - Translating طور, 'tawer' != 'tor'
+2020-02-15 06:49:52,969 - test_moroccan_arabic_words_logger - ERROR - Translating طور, 'tawer' != 'tor'
 - tawer
 + tor
 
-2020-02-15 03:32:27,033 - test_moroccan_arabic_words_logger - ERROR - Translating ختلف, '5talef' != '5tlf'
+2020-02-15 06:49:52,970 - test_moroccan_arabic_words_logger - ERROR - Translating ختلف, '5talef' != '5tlf'
 - 5talef
 ?   - -
 + 5tlf
 
-2020-02-15 03:32:27,035 - test_moroccan_arabic_words_logger - ERROR - Translating تكرفس علا, 'tkerfes 3la' != 'tkrfs 3la'
+2020-02-15 06:49:52,971 - test_moroccan_arabic_words_logger - ERROR - Translating تكرفس علا, 'tkerfes 3la' != 'tcrfs 3la'
 - tkerfes 3la
-?   -  -
-+ tkrfs 3la
+?  ^^  -
++ tcrfs 3la
+?  ^
 
-2020-02-15 03:32:27,037 - test_moroccan_arabic_words_logger - ERROR - Translating حفر, '7fer' != '7fr'
+2020-02-15 06:49:52,972 - test_moroccan_arabic_words_logger - ERROR - Translating حفر, '7fer' != '7fr'
 - 7fer
 ?   -
 + 7fr
 
-2020-02-15 03:32:27,038 - test_moroccan_arabic_words_logger - ERROR - Translating هضم, 'hdem' != 'hdm'
+2020-02-15 06:49:52,973 - test_moroccan_arabic_words_logger - ERROR - Translating هضم, 'hdem' != 'hdm'
 - hdem
 ?   -
 + hdm
 
-2020-02-15 03:32:27,039 - test_moroccan_arabic_words_logger - ERROR - Translating وجّه, 'wejjeh' != 'ojh'
+2020-02-15 06:49:52,973 - test_moroccan_arabic_words_logger - ERROR - Translating وجّه, 'wejjeh' != 'ojh'
 - wejjeh
 + ojh
 
-2020-02-15 03:32:27,039 - test_moroccan_arabic_words_logger - ERROR - Translating توسخ, 'twse5' != 'tos5'
+2020-02-15 06:49:52,974 - test_moroccan_arabic_words_logger - ERROR - Translating توسخ, 'twse5' != 'tos5'
 - twse5
 + tos5
 
-2020-02-15 03:32:27,040 - test_moroccan_arabic_words_logger - ERROR - Translating وسخ, 'wesse5' != 'os5'
+2020-02-15 06:49:52,975 - test_moroccan_arabic_words_logger - ERROR - Translating وسخ, 'wesse5' != 'os5'
 - wesse5
 + os5
 
-2020-02-15 03:32:27,041 - test_moroccan_arabic_words_logger - ERROR - Translating أدب, 'addeb' != 'adb'
+2020-02-15 06:49:52,976 - test_moroccan_arabic_words_logger - ERROR - Translating أدب, 'addeb' != 'adb'
 - addeb
 ?   --
 + adb
 
-2020-02-15 03:32:27,042 - test_moroccan_arabic_words_logger - ERROR - Translating كتشف, 'ktachef' != 'ktchf'
+2020-02-15 06:49:52,976 - test_moroccan_arabic_words_logger - ERROR - Translating كتشف, 'ktachef' != 'ctchf'
 - ktachef
-?   -  -
-+ ktchf
++ ctchf
 
-2020-02-15 03:32:27,042 - test_moroccan_arabic_words_logger - ERROR - Translating ناقش, 'na9ech' != 'na9ch'
+2020-02-15 06:49:52,977 - test_moroccan_arabic_words_logger - ERROR - Translating ناقش, 'na9ech' != 'na9ch'
 - na9ech
 ?    -
 + na9ch
 
-2020-02-15 03:32:27,043 - test_moroccan_arabic_words_logger - ERROR - Translating دوب, 'dweb' != 'dob'
+2020-02-15 06:49:52,978 - test_moroccan_arabic_words_logger - ERROR - Translating دوب, 'dweb' != 'dob'
 - dweb
 + dob
 
-2020-02-15 03:32:27,044 - test_moroccan_arabic_words_logger - ERROR - Translating بعد, 'be3ed' != 'b3d'
+2020-02-15 06:49:52,978 - test_moroccan_arabic_words_logger - ERROR - Translating بعد, 'be3ed' != 'b3d'
 - be3ed
 ?  - -
 + b3d
 
-2020-02-15 03:32:27,045 - test_moroccan_arabic_words_logger - ERROR - Translating فرق, 'ferre9' != 'fr9'
+2020-02-15 06:49:52,979 - test_moroccan_arabic_words_logger - ERROR - Translating فرق, 'ferre9' != 'fr9'
 - ferre9
 + fr9
 
-2020-02-15 03:32:27,047 - test_moroccan_arabic_words_logger - ERROR - Translating قسم, '9essem' != '9sm'
+2020-02-15 06:49:52,980 - test_moroccan_arabic_words_logger - ERROR - Translating قسم, '9essem' != '9sm'
 - 9essem
 + 9sm
 
-2020-02-15 03:32:27,049 - test_moroccan_arabic_words_logger - ERROR - Translating طلق, 'tle9' != 'tl9'
+2020-02-15 06:49:52,981 - test_moroccan_arabic_words_logger - ERROR - Translating طلق, 'tle9' != 'tl9'
 - tle9
 ?   -
 + tl9
 
-2020-02-15 03:32:27,050 - test_moroccan_arabic_words_logger - ERROR - Translating دوخ, 'dwe5' != 'do5'
+2020-02-15 06:49:52,981 - test_moroccan_arabic_words_logger - ERROR - Translating دوخ, 'dwe5' != 'do5'
 - dwe5
 + do5
 
-2020-02-15 03:32:27,050 - test_moroccan_arabic_words_logger - ERROR - Translating رسم, 'rsem' != 'rsm'
+2020-02-15 06:49:52,982 - test_moroccan_arabic_words_logger - ERROR - Translating رسم, 'rsem' != 'rsm'
 - rsem
 ?   -
 + rsm
 
-2020-02-15 03:32:27,052 - test_moroccan_arabic_words_logger - ERROR - Translating جبد, 'jbed' != 'jbd'
+2020-02-15 06:49:52,983 - test_moroccan_arabic_words_logger - ERROR - Translating جبد, 'jbed' != 'jbd'
 - jbed
 ?   -
 + jbd
 
-2020-02-15 03:32:27,052 - test_moroccan_arabic_words_logger - INFO - Total INFO logs 45 (7.51%), Total ERROR logs 554 (92.49%)
+2020-02-15 06:49:52,983 - test_moroccan_arabic_words_logger - INFO - Total INFO logs 25 (4.17%), Total ERROR logs 574 (95.83%)

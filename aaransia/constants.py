@@ -41,12 +41,14 @@ TEST_MOROCCAN_ARABIC_ALPHABET_LOGGER = 'test_moroccan_arabic_alphabet_logger'
 TEST_MOROCCAN_ARABIC_WORDS_LOGGER = 'test_moroccan_arabic_words_logger'
 
 
-# Double moroccan letters
-DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh', 'ch', 'yi', 'ee']
+# Double Moroccan Letters
+DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh', 'ch', 'yi', 'ee', 'ss']
+
+# Double Moroccan Arabic Letters
+DOUBLE_MOROCCAN_ARABIC_LETTERS = ['كز','كس']
 
 # Alphabets
-moroccan_alphabet = {   
-                ' ': [' '],
+moroccan_alphabet = {   ' ': [' '],
                 '!': ['!'],
                 ',': ['،'],
                 '.': ['.'],
@@ -56,18 +58,18 @@ moroccan_alphabet = {
                 '7': ['ح'],
                 '9': ['ق'],
                 '?': ['؟'],
-                'a': ['ا', 'أ'],
+                'a': ['ا'],
                 'b': ['ب'],
                 'c': ['ك'],
                 'ch': ['ش'],
                 'd': ['د', 'ذ', 'ض', 'ظ'],
-                'e': [' ', 'إ'],
+                'e': ['', 'ا'],
                 'ee': ['ي'],
                 'f': ['ف'],
                 'g': ['ڭ'],
                 'gh': ['غ'],
                 'h': ['ه'],
-                'i': ['ي', 'إ'],
+                'i': ['ي', 'ا'],
                 'j': ['ج'],
                 'k': ['ك'],
                 'kh': ['خ'],
@@ -75,33 +77,30 @@ moroccan_alphabet = {
                 'la': ['لا'],
                 'm': ['م'],
                 'n': ['ن'],
-                'o': ['و', 'أ'],
+                'o': ['و', 'ا'],
                 'ou': ['و'],
                 'p': ['پ'],
                 'q': ['ق'],
                 'r': ['ر'],
                 's': ['س', 'ص'],
                 'sh': ['ش'],
-                't': ['ت', 'ة', 'ط', 'ث'],
+                'ss': ['ص'],
+                't': ['ت', 'ط', 'ة', 'ث'],
                 'u': ['و'],
                 'v': ['ڤ'],
                 'w': ['و'],
-                'x': ['كس', 'كز'],
+                'x': ['كز', 'كس'],
                 'y': ['ي'],
                 'yi': ['ي'],
                 'z': ['ز']}
 
-moroccan_arabic_alphabet = {   
-                ' ': [' ', 'e'],
+moroccan_arabic_alphabet = {   ' ': [' '],
                 '!': ['!'],
                 '.': ['.'],
-                'Test Case': ['Expected Result'],
                 '،': [','],
                 '؟': ['?'],
                 'ء': ['2'],
-                'أ': ['o', 'a'],
-                'إ': ['e', 'i'],
-                'ا': ['a'],
+                'ا': ['a', 'e', 'i', 'o'],
                 'ب': ['b'],
                 'ة': ['t'],
                 'ت': ['t'],
@@ -115,7 +114,7 @@ moroccan_arabic_alphabet = {
                 'ز': ['z'],
                 'س': ['s'],
                 'ش': ['ch', 'sh'],
-                'ص': ['s'],
+                'ص': ['ss'],
                 'ض': ['d'],
                 'ط': ['t'],
                 'ظ': ['d'],
@@ -123,7 +122,7 @@ moroccan_arabic_alphabet = {
                 'غ': ['gh'],
                 'ف': ['f'],
                 'ق': ['9', 'q'],
-                'ك': ['k', 'c'],
+                'ك': ['c', 'k'],
                 'كز': ['x'],
                 'كس': ['x'],
                 'ل': ['l'],
@@ -131,8 +130,8 @@ moroccan_arabic_alphabet = {
                 'م': ['m'],
                 'ن': ['n'],
                 'ه': ['h'],
-                'و': ['o', 'w', 'ou', 'u'],
-                'ي': ['i', 'y', 'yi', 'ee'],
+                'و': ['o', 'ou', 'u', 'w'],
+                'ي': ['ee', 'i', 'y', 'yi'],
                 'پ': ['p'],
                 'ڤ': ['v'],
                 'ڭ': ['g']}

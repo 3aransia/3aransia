@@ -73,17 +73,17 @@ def normalize_arabic(text):
 # Construct the moroccan alphabet as defaultdict
 def construct_moroccan_alphabet():
     with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
-        r = csv.reader(f)
-        dd = collections.defaultdict(list)
+        r,dd = csv.reader(f), collections.defaultdict(list)
         for row in r:
+            if row[0] == "Moroccan Alphabet": continue
             dd[row[0]].append(row[1])
     pp.pprint(dd)
 
 # Construct the moroccan arabic alphabet as defaultdict
 def construct_moroccan_arabic_alphabet():
     with open(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_ALPHABET,'r') as f:
-        r = csv.reader(f)
-        dd = collections.defaultdict(list)
+        r,dd = csv.reader(f), collections.defaultdict(list)
         for row in r:
+            if row[0] == "Test Case": continue
             dd[row[0]].append(row[1])
     pp.pprint(dd)

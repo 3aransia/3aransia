@@ -48,7 +48,12 @@ def transliterate_moroccan_arabic(_str):
         else: 
             moroccan_word, word_iterator = [], iter(range(len(word))) 
             for i in word_iterator:
-                moroccan_word.append(_moroccan_arabic_letter_to_moroccan_letter(word[i], i, word))
+                if i < len(word) - 1:
+                    if word[i:i+2] in DOUBLE_MOROCCAN_ARABIC_LETTERS:
+                        moroccan_word.append(_moroccan_arabic_letter_to_moroccan_letter(word[i:i+2], i, word))
+                        next(word_iterator)
+                    else: moroccan_word.append(_moroccan_arabic_letter_to_moroccan_letter(word[i], i, word))
+                else: moroccan_word.append(_moroccan_arabic_letter_to_moroccan_letter(word[i], i, word))
             moroccan_translation.append(''.join(moroccan_word))
     moroccan_translation = ' '.join(moroccan_translation)
     return moroccan_translation

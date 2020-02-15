@@ -1,72 +1,68 @@
-2020-02-15 03:32:26,512 - test_moroccan_arabic_alphabet_logger - INFO - Translating [item to test] ([expected result], [generated result result])
-2020-02-15 03:32:26,517 - test_moroccan_arabic_alphabet_logger - ERROR - Translating  , ' ' != ''
+2020-02-15 06:49:52,566 - test_moroccan_arabic_alphabet_logger - INFO - Translating [item to test] ([expected result], [generated result result])
+2020-02-15 06:49:52,568 - test_moroccan_arabic_alphabet_logger - ERROR - Translating  , ' ' != ''
 -  
 + 
 
-2020-02-15 03:32:26,522 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ك, 'c' != 'k'
-- c
-+ k
-
-2020-02-15 03:32:26,524 - test_moroccan_arabic_alphabet_logger - ERROR - Translating  , 'e' != ''
+2020-02-15 06:49:52,576 - test_moroccan_arabic_alphabet_logger - ERROR - Translating  , 'e' != ''
 - e
 + 
 
-2020-02-15 03:32:26,525 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'e' != 'a'
+2020-02-15 06:49:52,577 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'e' != 'a'
 - e
 + a
 
-2020-02-15 03:32:26,525 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'ee' != 'i'
-- ee
-+ i
+2020-02-15 06:49:52,579 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'i' != 'ee'
+- i
++ ee
 
-2020-02-15 03:32:26,527 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'i' != 'a'
+2020-02-15 06:49:52,579 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'i' != 'a'
 - i
 + a
 
-2020-02-15 03:32:26,528 - test_moroccan_arabic_alphabet_logger - ERROR - Translating خ, 'kh' != '5'
+2020-02-15 06:49:52,580 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ك, 'k' != 'c'
+- k
++ c
+
+2020-02-15 06:49:52,581 - test_moroccan_arabic_alphabet_logger - ERROR - Translating خ, 'kh' != '5'
 - kh
 + 5
 
-2020-02-15 03:32:26,532 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'o' != 'a'
+2020-02-15 06:49:52,583 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'o' != 'a'
 - o
 + a
 
-2020-02-15 03:32:26,533 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'ou' != 'o'
+2020-02-15 06:49:52,584 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'ou' != 'o'
 - ou
 ?  -
 + o
 
-2020-02-15 03:32:26,536 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ق, 'q' != '9'
+2020-02-15 06:49:52,585 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ق, 'q' != '9'
 - q
 + 9
 
-2020-02-15 03:32:26,539 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ش, 'sh' != 'ch'
+2020-02-15 06:49:52,586 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ص, 's' != 'ss'
+- s
++ ss
+? +
+
+2020-02-15 06:49:52,588 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ش, 'sh' != 'ch'
 - sh
 + ch
 
-2020-02-15 03:32:26,540 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'u' != 'o'
+2020-02-15 06:49:52,590 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'u' != 'o'
 - u
 + o
 
-2020-02-15 03:32:26,541 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'w' != 'o'
+2020-02-15 06:49:52,591 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'w' != 'o'
 - w
 + o
 
-2020-02-15 03:32:26,542 - test_moroccan_arabic_alphabet_logger - ERROR - Translating كز, 'x' != 'kz'
-- x
-+ kz
-
-2020-02-15 03:32:26,542 - test_moroccan_arabic_alphabet_logger - ERROR - Translating كس, 'x' != 'ks'
-- x
-+ ks
-
-2020-02-15 03:32:26,543 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'y' != 'i'
+2020-02-15 06:49:52,592 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'y' != 'ee'
 - y
-+ i
++ ee
 
-2020-02-15 03:32:26,543 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'yi' != 'i'
+2020-02-15 06:49:52,592 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'yi' != 'ee'
 - yi
-? -
-+ i
++ ee
 
-2020-02-15 03:32:26,543 - test_moroccan_arabic_alphabet_logger - INFO - Total INFO logs 38 (69.09%), Total ERROR logs 17 (30.91%)
+2020-02-15 06:49:52,593 - test_moroccan_arabic_alphabet_logger - INFO - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
