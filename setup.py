@@ -1,14 +1,19 @@
-from distutils.core import setup
+from setuptools import setup, Extension
+from os import path
+
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 
 setup(
   name = 'aaransia',         # How you named your package folder (MyLib)
   packages = ['aaransia'],   # Chose the same as "name"
-  version = '0.12',      # Start with a small number and increase it with every change you make
+  version = '0.12.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'The Moroccan Latin/Digit Language Framework 3aransia',   # Give a short description about your library
-  long_description='The Moroccan Latin/Digit Language Framework 3aransia',
-  long_description_content_type="text/markdown",
+  long_description=long_description,
+  long_description_content_type='text/markdown',
   author = 'Amine M. Boulouma',                   # Type in your name
   author_email = 'amine@boulouma.com',      # Type in your E-Mail
   url = 'https://github.com/3aransia/3aransia',   # Provide either the link to your github or to your website
