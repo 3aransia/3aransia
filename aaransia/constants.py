@@ -8,26 +8,38 @@ TEST_DIR = '/test'
 
 # Data sets
 ALPHABET = '/alphabet.csv'
-DICTIONARY_SAMPLE = '/dictionary_sample.csv'
+DICTIONARY = '/dictionary.csv'
 
 # Test files
 TEST_CASES = '/test_cases.csv'
-TEST_ALPHABET_MA_AR = '/test_alphabet_ma_ar.csv'
-TEST_WORDS_MA_AR = '/test_words_ma_ar.csv'
 
-TEST_ALPHABET_AR_MA = '/test_alphabet_ar_ma.csv'
-TEST_WORDS_AR_MA = '/test_words_ar_ma.csv'
+TEST_MOROCCAN_ALPHABET = '/test_moroccan_alphabet.csv'
+TEST_MOROCCAN_WORDS = '/test_moroccan_words.csv'
+
+TEST_MOROCCAN_ARABIC_ALPHABET = '/test_moroccan_arabic_alphabet.csv'
+TEST_MOROCCAN_ARABIC_WORDS = '/test_moroccan_arabic_words.csv'
 
 # Test logs files
 TEST_CASE_LOG_FILE = '/test_case.log'
 
-ALPHABET_MA_AR_TEST_LOG_FILE = '/test_alphabet_ma_ar.log'
-WORD_MA_AR_TEST_LOG_FILE = '/test_word_ma_ar.log'
+TEST_MOROCCAN_ALPHABET_LOG_FILE = '/test_moroccan_alphabet.log'
+TEST_MOROCCAN_WORDS_LOG_FILE = '/test_moroccan_words.log'
 
-ALPHABET_AR_MA_TEST_LOG_FILE = '/test_alphabet_ar_ma.log'
-WORD_AR_MA_TEST_LOG_FILE = '/test_word_ar_ma.log'
+TEST_MOROCCAN_ARABIC_ALPHABET_LOG_FILE = '/test_moroccan_arabic_alphabet.log'
+TEST_MOROCCAN_ARABIC_WORDS_LOG_FILE = '/test_moroccan_arabic_words.log'
 
 TEST_STATS_LOG_FILE = '/test_stats.log'
+
+# Loggers
+TEST_STATS_LOGGER = 'test_stats_logger'
+TEST_CASE_LOGGER = 'test_case_logger'
+
+TEST_MOROCCAN_ALPHABET_LOGGER = 'test_moroccan_alphabet_logger'
+TEST_MOROCCAN_WORDS_LOGGER = 'test_moroccan_words_logger'
+
+TEST_MOROCCAN_ARABIC_ALPHABET_LOGGER = 'test_moroccan_arabic_alphabet_logger'
+TEST_MOROCCAN_ARABIC_WORDS_LOGGER = 'test_moroccan_arabic_words_logger'
+
 
 # Double moroccan letters
 DOUBLE_MOROCCAN_LETTERS = ['la', 'kh', 'sh', 'ou', 'gh', 'ch', 'yi', 'ee']
