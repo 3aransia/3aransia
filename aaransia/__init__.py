@@ -1,1 +1,1 @@
-from aaransia.transliterator import *
+from aaransia.transliteration import *

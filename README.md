@@ -19,10 +19,10 @@ The Latin/Digit Moroccan Language Framework
 ## Usage
 
 ```python
-from aaransia import moroccan_to_arabic, moroccan_arabic_to_moroccan
+from aaransia import transliterate_moroccan, transliterate_moroccan_arabic
 
-moroccan_to_arabic('ktb bl3rbia hnaya')
-moroccan_arabic_to_moroccan('كتب بلعربيا هنايا')
+transliterate_moroccan('ktb bl3rbia hnaya')
+transliterate_moroccan_arabic('كتب بلعربيا هنايا')
 ```
 
 ```

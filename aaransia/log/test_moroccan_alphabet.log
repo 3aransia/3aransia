@@ -1,0 +1,70 @@
+2020-02-15 03:32:26,490 - test_moroccan_alphabet_logger - INFO - Translating [item to test] ([expected result], [generated result result])
+2020-02-15 03:32:26,491 - test_moroccan_alphabet_logger - ERROR - Translating  , ' ' != ''
+-  
++ 
+
+2020-02-15 03:32:26,492 - test_moroccan_alphabet_logger - ERROR - Translating 2, 'ء' != '2'
+- ء
++ 2
+
+2020-02-15 03:32:26,493 - test_moroccan_alphabet_logger - ERROR - Translating 3, 'ع' != '3'
+- ع
++ 3
+
+2020-02-15 03:32:26,493 - test_moroccan_alphabet_logger - ERROR - Translating 5, 'خ' != '5'
+- خ
++ 5
+
+2020-02-15 03:32:26,494 - test_moroccan_alphabet_logger - ERROR - Translating 7, 'ح' != '7'
+- ح
++ 7
+
+2020-02-15 03:32:26,495 - test_moroccan_alphabet_logger - ERROR - Translating 9, 'ق' != '9'
+- ق
++ 9
+
+2020-02-15 03:32:26,499 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ذ' != 'د'
+- ذ
++ د
+
+2020-02-15 03:32:26,500 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ض' != 'د'
+- ض
++ د
+
+2020-02-15 03:32:26,502 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ظ' != 'د'
+- ظ
++ د
+
+2020-02-15 03:32:26,503 - test_moroccan_alphabet_logger - ERROR - Translating e, ' ' != 'ا'
+-  
++ ا
+
+2020-02-15 03:32:26,506 - test_moroccan_alphabet_logger - ERROR - Translating i, 'ي' != 'ا'
+- ي
++ ا
+
+2020-02-15 03:32:26,507 - test_moroccan_alphabet_logger - ERROR - Translating o, 'ا' != 'و'
+- ا
++ و
+
+2020-02-15 03:32:26,508 - test_moroccan_alphabet_logger - ERROR - Translating s, 'ص' != 'س'
+- ص
++ س
+
+2020-02-15 03:32:26,509 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ة' != 'ت'
+- ة
++ ت
+
+2020-02-15 03:32:26,510 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ث' != 'ت'
+- ث
++ ت
+
+2020-02-15 03:32:26,510 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ط' != 'ت'
+- ط
++ ت
+
+2020-02-15 03:32:26,511 - test_moroccan_alphabet_logger - ERROR - Translating x, 'كز' != 'كس'
+- كز
++ كس
+
+2020-02-15 03:32:26,512 - test_moroccan_alphabet_logger - INFO - Total INFO logs 38 (69.09%), Total ERROR logs 17 (30.91%)
