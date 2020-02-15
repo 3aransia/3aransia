@@ -68,3 +68,40 @@
 2020-02-15 06:49:52,593 - test_stats_logger - INFO - test_moroccan_arabic_alphabet_logger - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
 2020-02-15 06:49:52,983 - test_stats_logger - INFO - test_moroccan_arabic_words_logger - Total INFO logs 25 (4.17%), Total ERROR logs 574 (95.83%)
 2020-02-15 06:49:53,241 - test_stats_logger - INFO - test_moroccan_words_logger - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
+2020-02-15 06:57:57,671 - test_stats_logger - INFO - 
+
+2020-02-15 06:57:57,676 - test_stats_logger - INFO - test_case_logger - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-15 06:57:57,695 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-15 06:57:58,110 - test_stats_logger - INFO - test_moroccan_arabic_words_logger - Total INFO logs 25 (4.17%), Total ERROR logs 574 (95.83%)
+2020-02-15 06:57:58,388 - test_stats_logger - INFO - test_moroccan_words_logger - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
+2020-02-15 06:58:15,296 - test_stats_logger - INFO - 
+
+2020-02-15 06:58:15,302 - test_stats_logger - INFO - test_case_logger - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-15 06:58:15,324 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-15 06:58:15,745 - test_stats_logger - INFO - test_moroccan_arabic_words_logger - Total INFO logs 25 (4.17%), Total ERROR logs 574 (95.83%)
+2020-02-15 06:58:15,994 - test_stats_logger - INFO - test_moroccan_words_logger - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
+2020-02-15 07:00:12,742 - test_stats_logger - INFO - 
+
+2020-02-15 07:00:12,747 - test_stats_logger - INFO - test_case_logger - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-15 07:00:12,767 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-15 07:00:13,149 - test_stats_logger - INFO - test_moroccan_arabic_words_logger - Total INFO logs 25 (4.17%), Total ERROR logs 574 (95.83%)
+2020-02-15 07:00:13,401 - test_stats_logger - INFO - test_moroccan_words_logger - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
+2020-02-15 07:02:00,680 - test_stats_logger - INFO - 
+
+2020-02-15 07:02:00,686 - test_stats_logger - INFO - test_case_logger - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-15 07:02:00,702 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-15 07:02:01,090 - test_stats_logger - INFO - test_moroccan_arabic_words_logger - Total INFO logs 25 (4.17%), Total ERROR logs 574 (95.83%)
+2020-02-15 07:02:01,372 - test_stats_logger - INFO - test_moroccan_words_logger - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
+2020-02-15 08:28:03,853 - test_stats_logger - INFO - 
+
+2020-02-15 08:28:03,859 - test_stats_logger - INFO - test_case_logger - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-15 08:28:03,879 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-15 08:28:04,263 - test_stats_logger - INFO - test_moroccan_arabic_words_logger - Total INFO logs 25 (4.17%), Total ERROR logs 574 (95.83%)
+2020-02-15 08:28:04,478 - test_stats_logger - INFO - test_moroccan_words_logger - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
+2020-02-15 08:32:29,218 - test_stats_logger - INFO - 
+
+2020-02-15 08:32:29,224 - test_stats_logger - INFO - test_case_logger - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-15 08:32:29,245 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-15 08:32:29,267 - test_stats_logger - INFO - test_moroccan_arabic_alphabet_logger - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
+2020-02-15 08:32:29,580 - test_stats_logger - INFO - test_moroccan_arabic_words_logger - Total INFO logs 25 (4.17%), Total ERROR logs 574 (95.83%)
+2020-02-15 08:32:29,832 - test_stats_logger - INFO - test_moroccan_words_logger - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
