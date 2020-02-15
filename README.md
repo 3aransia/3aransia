@@ -35,4 +35,4 @@ moroccan_arabic_to_moroccan('كتب بلعربيا هنايا')
 - [3aransia.api](https://github.com/3aransia/3aransia.api) The api of 3aransia
 - [3aransia.web](https://github.com/3aransia/3aransia.web) The web app of 3aransia
 - [3aransia.js](https://github.com/3aransia/3aransia.js) 3aransia in JS
-- [3aransia.scrapper](https://github.com/3aransia/3aransia.scrapper) The scrapper of 3aransia
+- [3aransia.datasets](https://github.com/3aransia/3aransia.datatsets) The datasets of 3aransia
