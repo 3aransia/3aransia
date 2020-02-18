@@ -47,7 +47,7 @@ def build_moroccan_arabic_words_test_file():
     moroccan_words_test = moroccan_words_test[['Test Case', 'Expected Result']]
     moroccan_words_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_WORDS, index=False)
 
-# Build test moroccan latin alphabet file
+# Build test moroccan to latin alphabet file
 def build_moroccan_to_latin_alphabet_test_file():
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
     alphabet_test = alphabet.rename(columns={
@@ -55,6 +55,15 @@ def build_moroccan_to_latin_alphabet_test_file():
                           'Latin Alphabet':'Expected Result'})
     alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
     alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_TO_LATIN_ALPHABET, index=False)
+
+# Build test moroccan arabic to latin alphabet file
+def build_moroccan_arabic_to_latin_alphabet_test_file():
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet_test = alphabet.rename(columns={
+                          'Arabian Alphabet':'Test Case',
+                          'Latin Alphabet':'Expected Result'})
+    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
+    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_TO_LATIN_ALPHABET, index=False)
 
 
 # Remove noise from arabic text

@@ -21,6 +21,10 @@ def _moroccan_arabic_letter_to_moroccan_letter(letter, position, word):
 def _moroccan_letter_to_latin_letter(letter): 
     return moroccan_to_latin_alphabet[letter.lower()][0]
 
+# Transliteration of a Moroccan Arabic letter to a Latin letter
+def _moroccan_arabic_letter_to_latin_letter(letter): 
+    return moroccan_arabic_to_latin_alphabet[letter.lower()][0]
+
 # Transliteration of Moroccan to Moroccan Arabic
 def transliterate_moroccan(_str):
     moroccan_arabic_transliteration = list()
@@ -47,8 +51,7 @@ def transliterate_moroccan_arabic(_str):
     _str, moroccan_transliteration = normalize_arabic(de_noise(_str)), list()
     str_iterator = iter(_str.split())
     for word in str_iterator:
-        if word.isdigit(): 
-            moroccan_transliteration.append(word)
+        if word.isdigit(): moroccan_transliteration.append(word)
         else: 
             moroccan_word, word_iterator = [], iter(range(len(word))) 
             for i in word_iterator:
@@ -65,3 +68,7 @@ def transliterate_moroccan_arabic(_str):
 # Transliteration of Moroccan to Latin
 def transliterate_moroccan_to_latin(_str):
     return ''.join(list(map(_moroccan_letter_to_latin_letter, _str)))
+
+# Transliteration of Moroccan Arabic to Latin
+def transliterate_moroccan_arabic_to_latin(_str):
+    return ''.join(list(map(_moroccan_arabic_letter_to_latin_letter, _str)))

@@ -13,6 +13,7 @@ build_moroccan_arabic_alphabet_test_file()
 build_moroccan_arabic_words_test_file()
 
 build_moroccan_to_latin_alphabet_test_file()
+build_moroccan_arabic_to_latin_alphabet_test_file()
 
 # Logging config
 logging.root.setLevel(logging.INFO)
@@ -29,6 +30,7 @@ test_moroccan_arabic_alphabet_logger = logging.getLogger(TEST_MOROCCAN_ARABIC_AL
 test_moroccan_arabic_words_logger = logging.getLogger(TEST_MOROCCAN_ARABIC_WORDS_LOGGER)
 
 test_moroccan_to_latin_alphabet_logger = logging.getLogger(TEST_MOROCCAN_TO_LATIN_ALPHABET_LOGGER)
+test_moroccan_arabic_to_latin_alphabet_logger = logging.getLogger(TEST_MOROCCAN_ARABIC_TO_LATIN_ALPHABET_LOGGER)
 
 # Test sets
 test_cases = pd.read_csv(BASE_DIR + TEST_DIR + TEST_CASES)
@@ -40,6 +42,7 @@ alphabet_moroccan_arabic_to_moroccan = pd.read_csv(BASE_DIR + TEST_DIR + TEST_MO
 words_moroccan_arabic_to_moroccan = pd.read_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_WORDS)
 
 alphabet_moroccan_to_latin = pd.read_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_TO_LATIN_ALPHABET)
+alphabet_moroccan_arabic_to_latin = pd.read_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_TO_LATIN_ALPHABET)
 
 # Test statistics logger
 fh = logging.FileHandler(BASE_DIR + LOG_DIR + TEST_STATS_LOG_FILE, 'a')
@@ -163,8 +166,8 @@ class TestSequenceFunctions(unittest.TestCase):
         fh = logging.FileHandler(BASE_DIR + LOG_DIR + TEST_MOROCCAN_TO_LATIN_ALPHABET_LOG_FILE, 'w')
         fh.setFormatter(formatter)
         fh.setLevel(logging.INFO)
-        test_moroccan_alphabet_logger.addHandler(fh)
-        test_moroccan_alphabet_logger.info(f'Transliteration of [item to test] ([expected result], [generated result result])')
+        test_moroccan_to_latin_alphabet_logger.addHandler(fh)
+        test_moroccan_to_latin_alphabet_logger.info(f'Transliteration of [item to test] ([expected result], [generated result result])')
 
         count_infos, count_errors = 0, 0
 
@@ -174,10 +177,31 @@ class TestSequenceFunctions(unittest.TestCase):
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
             except (IndexError, KeyError, TypeError, TypeError, AssertionError) as e:
-                test_moroccan_alphabet_logger.error(f'Transliteration of {row["Test Case"]}, {e}')
+                test_moroccan_to_latin_alphabet_logger.error(f'Transliteration of {row["Test Case"]}, {e}')
                 count_errors += 1
-        test_moroccan_alphabet_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(alphabet_moroccan_to_latin)*100, 2)}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet_moroccan_to_latin)*100, 2)}%)')
+        test_moroccan_to_latin_alphabet_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(alphabet_moroccan_to_latin)*100, 2)}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet_moroccan_to_latin)*100, 2)}%)')
         test_stats_logger.info(f'{TEST_MOROCCAN_TO_LATIN_ALPHABET_LOGGER} - Total INFO logs {count_infos} ({round(count_infos/len(alphabet_moroccan_to_latin)*100, 2)}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet_moroccan_to_latin)*100, 2)}%)')
+
+    # Test moroccan arabic to latin alphabet
+    def test_moroccan_arabic_to_latin_alphabet_transliteration(self):
+        fh = logging.FileHandler(BASE_DIR + LOG_DIR + TEST_MOROCCAN_ARABIC_TO_LATIN_ALPHABET_LOG_FILE, 'w')
+        fh.setFormatter(formatter)
+        fh.setLevel(logging.INFO)
+        test_moroccan_arabic_to_latin_alphabet_logger.addHandler(fh)
+        test_moroccan_arabic_to_latin_alphabet_logger.info(f'Transliteration of [item to test] ([expected result], [generated result result])')
+
+        count_infos, count_errors = 0, 0
+
+        for index, row in alphabet_moroccan_arabic_to_latin.iterrows():
+            expected_result, moroccan_arabic_transliteration = row["Expected Result"], transliterate_moroccan_arabic_to_latin(row["Test Case"])
+            try:
+                self.assertEqual(expected_result, moroccan_arabic_transliteration)
+                count_infos += 1
+            except (IndexError, KeyError, TypeError, TypeError, AssertionError) as e:
+                test_moroccan_arabic_to_latin_alphabet_logger.error(f'Transliteration of {row["Test Case"]}, {e}')
+                count_errors += 1
+        test_moroccan_arabic_to_latin_alphabet_logger.info(f'Total INFO logs {count_infos} ({round(count_infos/len(alphabet_moroccan_arabic_to_latin)*100, 2)}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet_moroccan_arabic_to_latin)*100, 2)}%)')
+        test_stats_logger.info(f'{TEST_MOROCCAN_ARABIC_TO_LATIN_ALPHABET_LOGGER} - Total INFO logs {count_infos} ({round(count_infos/len(alphabet_moroccan_arabic_to_latin)*100, 2)}%), Total ERROR logs {count_errors} ({round(count_errors/len(alphabet_moroccan_arabic_to_latin)*100, 2)}%)')
 
 def run_tests():
     unittest.main()

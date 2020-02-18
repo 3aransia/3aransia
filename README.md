@@ -20,13 +20,20 @@ The Latin/Digit Moroccan Language Framework
 ```python
 from aaransia import transliterate_moroccan, transliterate_moroccan_arabic
 
-transliterate_moroccan('ktb bl3rbia hnaya')
-transliterate_moroccan_arabic('كتب بلعربيا هنايا')
+s_1 = "ktb bl3rbya hnaya"
+s_2 = "كتب بلعربيا هنايا"
+
+print(transliterate_moroccan(s_1))
+print(transliterate_moroccan_arabic(s_2))
+print(transliterate_moroccan_to_latin(s_1))
+print(transliterate_moroccan_arabic_to_latin(s_2))
 ```
 
 ```
 >>> كتب بلعربيا هنايا
->>> ktb bl3rbia hnaya
+>>> ktb bl3rbya hnaya
+>>> ktb bl'rbya hnaya
+>>> ktb bl'rbya hnaya
 ```
 
 ## Other related projects

@@ -11,7 +11,6 @@ Moroccan Alphabet,Arabian Alphabet,Latin Alphabet
 ?,؟,?
 a,ا,a
 b,ب,b
-c,ك,c
 ch,ش,ch
 d,د,d
 d,ذ,d
@@ -19,15 +18,17 @@ d,ض,d
 d,ظ,d
 e, ,e
 e,ا,e
-ee,ي,ee
 f,ف,f
 g,ڭ,g
 gh,غ,gh
 h,ه,h
+y,ي,y
 i,ي,i
+ee,ي,ee
 i,ا,i
 j,ج,j
 k,ك,k
+c,ك,c
 kh,خ,kh
 l,ل,l
 la,لا,la
@@ -52,6 +53,5 @@ v,ڤ,v
 w,و,w
 x,كز,x
 x,كس,x
-y,ي,y
 yi,ي,yi
 z,ز,z
