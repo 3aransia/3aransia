@@ -31,7 +31,5 @@ transliterate_moroccan_arabic('كتب بلعربيا هنايا')
 
 ## Other related projects
 
-- [3aransia.api](https://github.com/3aransia/3aransia.api) The api of 3aransia
-- [3aransia.web](https://github.com/3aransia/3aransia.web) The web app of 3aransia
-- [3aransia.js](https://github.com/3aransia/3aransia.js) 3aransia in JS
-- [3aransia.datasets](https://github.com/3aransia/3aransia.datatsets) The datasets of 3aransia
+- [3aransia.api](https://3aransia.github.io/3aransia.api) The api of 3aransia
+- [3aransia.web](http://3aransia.com) The web application of 3aransia
