@@ -1,11 +1,6 @@
 from aaransia.utils import * 
 from aaransia.transliteration import * 
 
-construct_moroccan_to_moroccan_arabic_alphabet()
-construct_moroccan_arabic_to_moroccan_alphabet()
-construct_moroccan_to_latin_alphabet()
-construct_moroccan_arabic_to_latin_alphabet()
-
 s_1 = "ktb bl3rbya hnaya"
 s_2 = "كتب بلعربيا هنايا"
 

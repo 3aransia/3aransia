@@ -1,65 +1,65 @@
-2020-02-18 03:32:09,295 - test_moroccan_arabic_to_latin_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
-2020-02-18 03:32:09,301 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of  , 'e' != ' '
+2020-02-18 19:23:46,665 - test_moroccan_arabic_to_latin_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 19:23:46,678 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of  , 'e' != ' '
 - e
 +  
 
-2020-02-18 03:32:09,301 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ا, 'e' != 'a'
+2020-02-18 19:23:46,680 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ا, 'e' != 'a'
 - e
 + a
 
-2020-02-18 03:32:09,302 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ي, 'i' != 'y'
+2020-02-18 19:23:46,686 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ي, 'i' != 'y'
 - i
 + y
 
-2020-02-18 03:32:09,303 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ي, 'ee' != 'y'
+2020-02-18 19:23:46,687 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ي, 'ee' != 'y'
 - ee
 + y
 
-2020-02-18 03:32:09,303 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ا, 'i' != 'a'
+2020-02-18 19:23:46,688 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ا, 'i' != 'a'
 - i
 + a
 
-2020-02-18 03:32:09,304 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ك, 'c' != 'k'
+2020-02-18 19:23:46,691 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ك, 'c' != 'k'
 - c
 + k
 
-2020-02-18 03:32:09,306 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ا, 'o' != 'a'
+2020-02-18 19:23:46,698 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ا, 'o' != 'a'
 - o
 + a
 
-2020-02-18 03:32:09,307 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of و, 'ou' != 'o'
+2020-02-18 19:23:46,700 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of و, 'ou' != 'o'
 - ou
 ?  -
 + o
 
-2020-02-18 03:32:09,309 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ص, 'ss' != 's'
+2020-02-18 19:23:46,705 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ص, 'ss' != 's'
 - ss
 ? -
 + s
 
-2020-02-18 03:32:09,310 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ش, 'sh' != 'ch'
+2020-02-18 19:23:46,707 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ش, 'sh' != 'ch'
 - sh
 + ch
 
-2020-02-18 03:32:09,311 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of و, 'u' != 'o'
+2020-02-18 19:23:46,713 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of و, 'u' != 'o'
 - u
 + o
 
-2020-02-18 03:32:09,313 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of و, 'w' != 'o'
+2020-02-18 19:23:46,716 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of و, 'w' != 'o'
 - w
 + o
 
-2020-02-18 03:32:09,314 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of كز, 'x' != 'kz'
+2020-02-18 19:23:46,718 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of كز, 'x' != 'kz'
 - x
 + kz
 
-2020-02-18 03:32:09,315 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of كس, 'x' != 'ks'
+2020-02-18 19:23:46,721 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of كس, 'x' != 'ks'
 - x
 + ks
 
-2020-02-18 03:32:09,315 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ي, 'yi' != 'y'
+2020-02-18 19:23:46,723 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of ي, 'yi' != 'y'
 - yi
 ?  -
 + y
 
-2020-02-18 03:32:09,316 - test_moroccan_arabic_to_latin_alphabet_logger - INFO - Total INFO logs 41 (73.21%), Total ERROR logs 15 (26.79%)
+2020-02-18 19:23:46,725 - test_moroccan_arabic_to_latin_alphabet_logger - INFO - Total INFO logs 41 (73.21%), Total ERROR logs 15 (26.79%)

@@ -1,70 +1,70 @@
-2020-02-18 03:32:09,252 - test_moroccan_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
-2020-02-18 03:32:09,253 - test_moroccan_alphabet_logger - ERROR - Transliteration of  , ' ' != ''
+2020-02-18 19:23:46,547 - test_moroccan_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 19:23:46,548 - test_moroccan_alphabet_logger - ERROR - Transliteration of  , ' ' != ''
 -  
 + 
 
-2020-02-18 03:32:09,255 - test_moroccan_alphabet_logger - ERROR - Transliteration of 2, 'ء' != '2'
+2020-02-18 19:23:46,554 - test_moroccan_alphabet_logger - ERROR - Transliteration of 2, 'ء' != '2'
 - ء
 + 2
 
-2020-02-18 03:32:09,256 - test_moroccan_alphabet_logger - ERROR - Transliteration of 3, 'ع' != '3'
+2020-02-18 19:23:46,554 - test_moroccan_alphabet_logger - ERROR - Transliteration of 3, 'ع' != '3'
 - ع
 + 3
 
-2020-02-18 03:32:09,257 - test_moroccan_alphabet_logger - ERROR - Transliteration of 5, 'خ' != '5'
+2020-02-18 19:23:46,555 - test_moroccan_alphabet_logger - ERROR - Transliteration of 5, 'خ' != '5'
 - خ
 + 5
 
-2020-02-18 03:32:09,258 - test_moroccan_alphabet_logger - ERROR - Transliteration of 7, 'ح' != '7'
+2020-02-18 19:23:46,555 - test_moroccan_alphabet_logger - ERROR - Transliteration of 7, 'ح' != '7'
 - ح
 + 7
 
-2020-02-18 03:32:09,259 - test_moroccan_alphabet_logger - ERROR - Transliteration of 9, 'ق' != '9'
+2020-02-18 19:23:46,556 - test_moroccan_alphabet_logger - ERROR - Transliteration of 9, 'ق' != '9'
 - ق
 + 9
 
-2020-02-18 03:32:09,260 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ذ' != 'د'
+2020-02-18 19:23:46,563 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ذ' != 'د'
 - ذ
 + د
 
-2020-02-18 03:32:09,260 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ض' != 'د'
+2020-02-18 19:23:46,565 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ض' != 'د'
 - ض
 + د
 
-2020-02-18 03:32:09,261 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ظ' != 'د'
+2020-02-18 19:23:46,566 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ظ' != 'د'
 - ظ
 + د
 
-2020-02-18 03:32:09,261 - test_moroccan_alphabet_logger - ERROR - Transliteration of e, ' ' != 'ا'
+2020-02-18 19:23:46,566 - test_moroccan_alphabet_logger - ERROR - Transliteration of e, ' ' != 'ا'
 -  
 + ا
 
-2020-02-18 03:32:09,262 - test_moroccan_alphabet_logger - ERROR - Transliteration of i, 'ي' != 'ا'
+2020-02-18 19:23:46,571 - test_moroccan_alphabet_logger - ERROR - Transliteration of i, 'ي' != 'ا'
 - ي
 + ا
 
-2020-02-18 03:32:09,264 - test_moroccan_alphabet_logger - ERROR - Transliteration of o, 'ا' != 'و'
+2020-02-18 19:23:46,579 - test_moroccan_alphabet_logger - ERROR - Transliteration of o, 'ا' != 'و'
 - ا
 + و
 
-2020-02-18 03:32:09,265 - test_moroccan_alphabet_logger - ERROR - Transliteration of s, 'ص' != 'س'
+2020-02-18 19:23:46,585 - test_moroccan_alphabet_logger - ERROR - Transliteration of s, 'ص' != 'س'
 - ص
 + س
 
-2020-02-18 03:32:09,266 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ط' != 'ت'
+2020-02-18 19:23:46,588 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ط' != 'ت'
 - ط
 + ت
 
-2020-02-18 03:32:09,267 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ة' != 'ت'
+2020-02-18 19:23:46,589 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ة' != 'ت'
 - ة
 + ت
 
-2020-02-18 03:32:09,267 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ث' != 'ت'
+2020-02-18 19:23:46,590 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ث' != 'ت'
 - ث
 + ت
 
-2020-02-18 03:32:09,268 - test_moroccan_alphabet_logger - ERROR - Transliteration of x, 'كس' != 'كز'
+2020-02-18 19:23:46,594 - test_moroccan_alphabet_logger - ERROR - Transliteration of x, 'كس' != 'كز'
 - كس
 + كز
 
-2020-02-18 03:32:09,269 - test_moroccan_alphabet_logger - INFO - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-18 19:23:46,597 - test_moroccan_alphabet_logger - INFO - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)

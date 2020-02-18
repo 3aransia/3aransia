@@ -1,13 +1,13 @@
-2020-02-18 03:32:09,249 - test_case_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
-2020-02-18 03:32:09,250 - test_case_logger - ERROR - Transliteration of Intissar, 'انتصار' != 'انتيصار'
+2020-02-18 19:23:46,523 - test_case_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 19:23:46,531 - test_case_logger - ERROR - Transliteration of Intissar, 'انتصار' != 'انتيصار'
 - انتصار
 + انتيصار
 ?    +
 
-2020-02-18 03:32:09,251 - test_case_logger - ERROR - Transliteration of chrit 9 dlbidat men l7anout, 'شريت 9 دلبيضات من لحانوت' != 'شريت 9 دلبيدات من لحانوت'
+2020-02-18 19:23:46,543 - test_case_logger - ERROR - Transliteration of chrit 9 dlbidat men l7anout, 'شريت 9 دلبيضات من لحانوت' != 'شريت 9 دلبيدات من لحانوت'
 - شريت 9 دلبيضات من لحانوت
 ?            ^
 + شريت 9 دلبيدات من لحانوت
 ?            ^
 
-2020-02-18 03:32:09,252 - test_case_logger - INFO - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-18 19:23:46,547 - test_case_logger - INFO - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
