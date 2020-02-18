@@ -14,19 +14,19 @@ alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
 def _moroccan_letter_to_moroccan_arabic_letter(letter, position, word): 
     if ((letter in 'o' and len(word) > 1) or letter in ('a', 'i', 'e')) and position == 0: return 'ا'
     elif (letter in ('o', 'e')) and position > 0: return ''
-    else: return alphabet.loc[alphabet['Moroccan Alphabet'] == letter]['Arabian Alphabet'].values[0]
+    else: return alphabet.loc[alphabet[MOROCCAN_ALPHABET] == letter][ARABIAN_ALPHABET].values[0]
 
 # Transliteration of an Arabic letter to an Moroccan letter
 def _moroccan_arabic_letter_to_moroccan_letter(letter, position, word): 
-    return alphabet.loc[alphabet['Arabian Alphabet'] == normalize_arabic(de_noise(letter))]['Moroccan Alphabet'].values[0]
+    return alphabet.loc[alphabet[ARABIAN_ALPHABET] == normalize_arabic(de_noise(letter))][MOROCCAN_ALPHABET].values[0]
 
 # Transliteration of a Moroccan letter to a Latin letter
 def _moroccan_letter_to_latin_letter(letter): 
-    return alphabet.loc[alphabet['Moroccan Alphabet'] == letter]['Latin Alphabet'].values[0]
+    return alphabet.loc[alphabet[MOROCCAN_ALPHABET] == letter][LATIN_ALPHABET].values[0]
 
 # Transliteration of a Moroccan Arabic letter to a Latin letter
 def _moroccan_arabic_letter_to_latin_letter(letter): 
-    return alphabet.loc[alphabet['Arabian Alphabet'] == letter]['Latin Alphabet'].values[0]
+    return alphabet.loc[alphabet[ARABIAN_ALPHABET] == letter][LATIN_ALPHABET].values[0]
 
 # Transliteration of Moroccan to Moroccan Arabic
 def transliterate_moroccan(_str):
