@@ -1,4 +1,6 @@
 from aaransia.utils import * 
 
-construct_moroccan_alphabet()
-construct_moroccan_arabic_alphabet()
+construct_moroccan_to_moroccan_arabic_alphabet()
+construct_moroccan_arabic_to_moroccan_alphabet()
+construct_moroccan_to_latin_alphabet()
+construct_moroccan_arabic_to_latin_alphabet()

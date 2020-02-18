@@ -1,70 +1,72 @@
-2020-02-15 08:32:29,224 - test_moroccan_alphabet_logger - INFO - Translating [item to test] ([expected result], [generated result result])
-2020-02-15 08:32:29,225 - test_moroccan_alphabet_logger - ERROR - Translating  , ' ' != ''
+2020-02-18 03:00:21,268 - test_moroccan_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 03:00:21,269 - test_moroccan_alphabet_logger - ERROR - Transliteration of  , ' ' != ''
 -  
 + 
 
-2020-02-15 08:32:29,226 - test_moroccan_alphabet_logger - ERROR - Translating 2, 'ء' != '2'
+2020-02-18 03:00:21,270 - test_moroccan_alphabet_logger - ERROR - Transliteration of 2, 'ء' != '2'
 - ء
 + 2
 
-2020-02-15 08:32:29,226 - test_moroccan_alphabet_logger - ERROR - Translating 3, 'ع' != '3'
+2020-02-18 03:00:21,271 - test_moroccan_alphabet_logger - ERROR - Transliteration of 3, 'ع' != '3'
 - ع
 + 3
 
-2020-02-15 08:32:29,227 - test_moroccan_alphabet_logger - ERROR - Translating 5, 'خ' != '5'
+2020-02-18 03:00:21,272 - test_moroccan_alphabet_logger - ERROR - Transliteration of 5, 'خ' != '5'
 - خ
 + 5
 
-2020-02-15 08:32:29,228 - test_moroccan_alphabet_logger - ERROR - Translating 7, 'ح' != '7'
+2020-02-18 03:00:21,273 - test_moroccan_alphabet_logger - ERROR - Transliteration of 7, 'ح' != '7'
 - ح
 + 7
 
-2020-02-15 08:32:29,229 - test_moroccan_alphabet_logger - ERROR - Translating 9, 'ق' != '9'
+2020-02-18 03:00:21,274 - test_moroccan_alphabet_logger - ERROR - Transliteration of 9, 'ق' != '9'
 - ق
 + 9
 
-2020-02-15 08:32:29,231 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ذ' != 'د'
+2020-02-18 03:00:21,276 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ذ' != 'د'
 - ذ
 + د
 
-2020-02-15 08:32:29,232 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ض' != 'د'
+2020-02-18 03:00:21,276 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ض' != 'د'
 - ض
 + د
 
-2020-02-15 08:32:29,233 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ظ' != 'د'
+2020-02-18 03:00:21,277 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ظ' != 'د'
 - ظ
 + د
 
-2020-02-15 08:32:29,233 - test_moroccan_alphabet_logger - ERROR - Translating e, ' ' != 'ا'
+2020-02-18 03:00:21,278 - test_moroccan_alphabet_logger - ERROR - Transliteration of e, ' ' != 'ا'
 -  
 + ا
 
-2020-02-15 08:32:29,235 - test_moroccan_alphabet_logger - ERROR - Translating i, 'ي' != 'ا'
+2020-02-18 03:00:21,279 - test_moroccan_alphabet_logger - ERROR - Transliteration of i, 'ي' != 'ا'
 - ي
 + ا
 
-2020-02-15 08:32:29,237 - test_moroccan_alphabet_logger - ERROR - Translating o, 'ا' != 'و'
+2020-02-18 03:00:21,284 - test_moroccan_alphabet_logger - ERROR - Transliteration of o, 'ا' != 'و'
 - ا
 + و
 
-2020-02-15 08:32:29,238 - test_moroccan_alphabet_logger - ERROR - Translating s, 'ص' != 'س'
+2020-02-18 03:00:21,286 - test_moroccan_alphabet_logger - ERROR - Transliteration of s, 'ص' != 'س'
 - ص
 + س
 
-2020-02-15 08:32:29,239 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ط' != 'ت'
+2020-02-18 03:00:21,287 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ط' != 'ت'
 - ط
 + ت
 
-2020-02-15 08:32:29,240 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ة' != 'ت'
+2020-02-18 03:00:21,287 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ة' != 'ت'
 - ة
 + ت
 
-2020-02-15 08:32:29,241 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ث' != 'ت'
+2020-02-18 03:00:21,288 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ث' != 'ت'
 - ث
 + ت
 
-2020-02-15 08:32:29,244 - test_moroccan_alphabet_logger - ERROR - Translating x, 'كس' != 'كز'
+2020-02-18 03:00:21,289 - test_moroccan_alphabet_logger - ERROR - Transliteration of x, 'كس' != 'كز'
 - كس
 + كز
 
-2020-02-15 08:32:29,245 - test_moroccan_alphabet_logger - INFO - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-18 03:00:21,290 - test_moroccan_alphabet_logger - INFO - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-18 03:00:21,724 - test_moroccan_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 03:00:21,737 - test_moroccan_alphabet_logger - INFO - Total INFO logs 56 (100.0%), Total ERROR logs 0 (0.0%)

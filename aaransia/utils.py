@@ -47,6 +47,16 @@ def build_moroccan_arabic_words_test_file():
     moroccan_words_test = moroccan_words_test[['Test Case', 'Expected Result']]
     moroccan_words_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_WORDS, index=False)
 
+# Build test moroccan latin alphabet file
+def build_moroccan_to_latin_alphabet_test_file():
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet_test = alphabet.rename(columns={
+                          'Moroccan Alphabet':'Test Case',
+                          'Latin Alphabet':'Expected Result'})
+    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
+    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_TO_LATIN_ALPHABET, index=False)
+
+
 # Remove noise from arabic text
 def de_noise(text):
     noise = re.compile(""" ّ    | # Tashdid
@@ -70,8 +80,8 @@ def normalize_arabic(text):
     text = re.sub("ئ", "ء", text)
     return(text)
 
-# Construct the moroccan alphabet as defaultdict
-def construct_moroccan_alphabet():
+# Construct the moroccan to moroccan arabic alphabet as defaultdict
+def construct_moroccan_to_moroccan_arabic_alphabet():
     with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
         r,dd = csv.reader(f), collections.defaultdict(list)
         for row in r:
@@ -79,11 +89,29 @@ def construct_moroccan_alphabet():
             dd[row[0]].append(row[1])
     pp.pprint(dd)
 
-# Construct the moroccan arabic alphabet as defaultdict
-def construct_moroccan_arabic_alphabet():
-    with open(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_ALPHABET,'r') as f:
+# Construct the moroccan arabic to moroccan alphabet as defaultdict
+def construct_moroccan_arabic_to_moroccan_alphabet():
+    with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
         r,dd = csv.reader(f), collections.defaultdict(list)
         for row in r:
-            if row[0] == "Test Case": continue
-            dd[row[0]].append(row[1])
+            if row[0] == "Moroccan Alphabet": continue
+            dd[row[1]].append(row[0])
+    pp.pprint(dd)
+
+# Construct the moroccan to latin alphabet as defaultdict
+def construct_moroccan_to_latin_alphabet():
+    with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
+        r,dd = csv.reader(f), collections.defaultdict(list)
+        for row in r:
+            if row[0] == "Moroccan Alphabet": continue
+            dd[row[0]].append(row[2])
+    pp.pprint(dd)
+
+# Construct the moroccan arabic to latin alphabet as defaultdict
+def construct_moroccan_arabic_to_latin_alphabet():
+    with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
+        r,dd = csv.reader(f), collections.defaultdict(list)
+        for row in r:
+            if row[0] == "Moroccan Alphabet": continue
+            dd[row[1]].append(row[2])
     pp.pprint(dd)

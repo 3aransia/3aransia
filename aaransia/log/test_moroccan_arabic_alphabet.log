@@ -1,68 +1,68 @@
-2020-02-15 08:32:29,246 - test_moroccan_arabic_alphabet_logger - INFO - Translating [item to test] ([expected result], [generated result result])
-2020-02-15 08:32:29,248 - test_moroccan_arabic_alphabet_logger - ERROR - Translating  , ' ' != ''
+2020-02-18 03:00:21,290 - test_moroccan_arabic_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 03:00:21,292 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of  , ' ' != ''
 -  
 + 
 
-2020-02-15 08:32:29,252 - test_moroccan_arabic_alphabet_logger - ERROR - Translating  , 'e' != ''
+2020-02-18 03:00:21,299 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of  , 'e' != ''
 - e
 + 
 
-2020-02-15 08:32:29,253 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'e' != 'a'
+2020-02-18 03:00:21,300 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ا, 'e' != 'a'
 - e
 + a
 
-2020-02-15 08:32:29,255 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'i' != 'ee'
+2020-02-18 03:00:21,303 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ي, 'i' != 'ee'
 - i
 + ee
 
-2020-02-15 08:32:29,255 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'i' != 'a'
+2020-02-18 03:00:21,304 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ا, 'i' != 'a'
 - i
 + a
 
-2020-02-15 08:32:29,256 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ك, 'k' != 'c'
+2020-02-18 03:00:21,305 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ك, 'k' != 'c'
 - k
 + c
 
-2020-02-15 08:32:29,257 - test_moroccan_arabic_alphabet_logger - ERROR - Translating خ, 'kh' != '5'
+2020-02-18 03:00:21,305 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of خ, 'kh' != '5'
 - kh
 + 5
 
-2020-02-15 08:32:29,259 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ا, 'o' != 'a'
+2020-02-18 03:00:21,307 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ا, 'o' != 'a'
 - o
 + a
 
-2020-02-15 08:32:29,261 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'ou' != 'o'
+2020-02-18 03:00:21,307 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of و, 'ou' != 'o'
 - ou
 ?  -
 + o
 
-2020-02-15 08:32:29,262 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ق, 'q' != '9'
+2020-02-18 03:00:21,308 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ق, 'q' != '9'
 - q
 + 9
 
-2020-02-15 08:32:29,263 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ص, 's' != 'ss'
+2020-02-18 03:00:21,309 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ص, 's' != 'ss'
 - s
 + ss
 ? +
 
-2020-02-15 08:32:29,264 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ش, 'sh' != 'ch'
+2020-02-18 03:00:21,309 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ش, 'sh' != 'ch'
 - sh
 + ch
 
-2020-02-15 08:32:29,265 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'u' != 'o'
+2020-02-18 03:00:21,311 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of و, 'u' != 'o'
 - u
 + o
 
-2020-02-15 08:32:29,266 - test_moroccan_arabic_alphabet_logger - ERROR - Translating و, 'w' != 'o'
+2020-02-18 03:00:21,311 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of و, 'w' != 'o'
 - w
 + o
 
-2020-02-15 08:32:29,266 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'y' != 'ee'
+2020-02-18 03:00:21,312 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ي, 'y' != 'ee'
 - y
 + ee
 
-2020-02-15 08:32:29,267 - test_moroccan_arabic_alphabet_logger - ERROR - Translating ي, 'yi' != 'ee'
+2020-02-18 03:00:21,313 - test_moroccan_arabic_alphabet_logger - ERROR - Transliteration of ي, 'yi' != 'ee'
 - yi
 + ee
 
-2020-02-15 08:32:29,267 - test_moroccan_arabic_alphabet_logger - INFO - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
+2020-02-18 03:00:21,313 - test_moroccan_arabic_alphabet_logger - INFO - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
