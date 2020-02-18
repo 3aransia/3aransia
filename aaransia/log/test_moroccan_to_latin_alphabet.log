@@ -1,0 +1,2 @@
+2020-02-18 03:15:21,031 - test_moroccan_to_latin_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 03:15:21,047 - test_moroccan_to_latin_alphabet_logger - INFO - Total INFO logs 56 (100.0%), Total ERROR logs 0 (0.0%)

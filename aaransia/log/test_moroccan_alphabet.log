@@ -1,70 +1,70 @@
-2020-02-15 03:32:26,490 - test_moroccan_alphabet_logger - INFO - Translating [item to test] ([expected result], [generated result result])
-2020-02-15 03:32:26,491 - test_moroccan_alphabet_logger - ERROR - Translating  , ' ' != ''
+2020-02-18 03:15:20,583 - test_moroccan_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 03:15:20,583 - test_moroccan_alphabet_logger - ERROR - Transliteration of  , ' ' != ''
 -  
 + 
 
-2020-02-15 03:32:26,492 - test_moroccan_alphabet_logger - ERROR - Translating 2, 'ء' != '2'
+2020-02-18 03:15:20,584 - test_moroccan_alphabet_logger - ERROR - Transliteration of 2, 'ء' != '2'
 - ء
 + 2
 
-2020-02-15 03:32:26,493 - test_moroccan_alphabet_logger - ERROR - Translating 3, 'ع' != '3'
+2020-02-18 03:15:20,585 - test_moroccan_alphabet_logger - ERROR - Transliteration of 3, 'ع' != '3'
 - ع
 + 3
 
-2020-02-15 03:32:26,493 - test_moroccan_alphabet_logger - ERROR - Translating 5, 'خ' != '5'
+2020-02-18 03:15:20,586 - test_moroccan_alphabet_logger - ERROR - Transliteration of 5, 'خ' != '5'
 - خ
 + 5
 
-2020-02-15 03:32:26,494 - test_moroccan_alphabet_logger - ERROR - Translating 7, 'ح' != '7'
+2020-02-18 03:15:20,587 - test_moroccan_alphabet_logger - ERROR - Transliteration of 7, 'ح' != '7'
 - ح
 + 7
 
-2020-02-15 03:32:26,495 - test_moroccan_alphabet_logger - ERROR - Translating 9, 'ق' != '9'
+2020-02-18 03:15:20,588 - test_moroccan_alphabet_logger - ERROR - Transliteration of 9, 'ق' != '9'
 - ق
 + 9
 
-2020-02-15 03:32:26,499 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ذ' != 'د'
+2020-02-18 03:15:20,590 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ذ' != 'د'
 - ذ
 + د
 
-2020-02-15 03:32:26,500 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ض' != 'د'
+2020-02-18 03:15:20,591 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ض' != 'د'
 - ض
 + د
 
-2020-02-15 03:32:26,502 - test_moroccan_alphabet_logger - ERROR - Translating d, 'ظ' != 'د'
+2020-02-18 03:15:20,592 - test_moroccan_alphabet_logger - ERROR - Transliteration of d, 'ظ' != 'د'
 - ظ
 + د
 
-2020-02-15 03:32:26,503 - test_moroccan_alphabet_logger - ERROR - Translating e, ' ' != 'ا'
+2020-02-18 03:15:20,594 - test_moroccan_alphabet_logger - ERROR - Transliteration of e, ' ' != 'ا'
 -  
 + ا
 
-2020-02-15 03:32:26,506 - test_moroccan_alphabet_logger - ERROR - Translating i, 'ي' != 'ا'
+2020-02-18 03:15:20,597 - test_moroccan_alphabet_logger - ERROR - Transliteration of i, 'ي' != 'ا'
 - ي
 + ا
 
-2020-02-15 03:32:26,507 - test_moroccan_alphabet_logger - ERROR - Translating o, 'ا' != 'و'
+2020-02-18 03:15:20,599 - test_moroccan_alphabet_logger - ERROR - Transliteration of o, 'ا' != 'و'
 - ا
 + و
 
-2020-02-15 03:32:26,508 - test_moroccan_alphabet_logger - ERROR - Translating s, 'ص' != 'س'
+2020-02-18 03:15:20,601 - test_moroccan_alphabet_logger - ERROR - Transliteration of s, 'ص' != 'س'
 - ص
 + س
 
-2020-02-15 03:32:26,509 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ة' != 'ت'
-- ة
-+ ت
-
-2020-02-15 03:32:26,510 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ث' != 'ت'
-- ث
-+ ت
-
-2020-02-15 03:32:26,510 - test_moroccan_alphabet_logger - ERROR - Translating t, 'ط' != 'ت'
+2020-02-18 03:15:20,602 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ط' != 'ت'
 - ط
 + ت
 
-2020-02-15 03:32:26,511 - test_moroccan_alphabet_logger - ERROR - Translating x, 'كز' != 'كس'
-- كز
-+ كس
+2020-02-18 03:15:20,603 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ة' != 'ت'
+- ة
++ ت
 
-2020-02-15 03:32:26,512 - test_moroccan_alphabet_logger - INFO - Total INFO logs 38 (69.09%), Total ERROR logs 17 (30.91%)
+2020-02-18 03:15:20,603 - test_moroccan_alphabet_logger - ERROR - Transliteration of t, 'ث' != 'ت'
+- ث
++ ت
+
+2020-02-18 03:15:20,604 - test_moroccan_alphabet_logger - ERROR - Transliteration of x, 'كس' != 'كز'
+- كس
++ كز
+
+2020-02-18 03:15:20,606 - test_moroccan_alphabet_logger - INFO - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
