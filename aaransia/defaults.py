@@ -1,5 +1,4 @@
-from collections import defaultdict
-from typing import OrderedDict
+from collections import defaultdict, OrderedDict
 
 # Project directories
 BASE_DIR = './aaransia'
