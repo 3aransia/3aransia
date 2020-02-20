@@ -76,8 +76,8 @@ for s in strings:
         for target_language in get_alphabets_codes():
             try:
                 print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
-            except SourceLanguageException as sle:
-                print(p, sle)
+             except SourceLanguageException as sle:
+                print(f'{p}, {sle}')
 ```
 
 ```
@@ -173,11 +173,11 @@ for s in strings:
 >>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ar
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> ma
->>> ktb bl2rbya hnaya chhal ma bghiti
+>>> ktb bl3rbya hnaya chhal ma bghiti
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> ar
->>> كتب بلءربيا هنايا كههال ما بڭهيتي
+>>> كتب بلعربيا هنايا كههال ما بڭهيتي
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> la
@@ -185,7 +185,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> ab
->>> ktb blʾrbya hnaya chhal ma bghiti
+>>> ktb bl'rbya hnaya chhal ma bghiti
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> gr
@@ -278,11 +278,11 @@ for s in strings:
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ab
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ma
->>> ktmp mpl2rmpya hnaya chhhal ma mpghiti
+>>> ktmp mpl3rmpya hnaya chhhal ma mpghiti
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ar
->>> كتمپ مپلءرمپيا هنايا شههال ما مپڭهيتي
+>>> كتمپ مپلعرمپيا هنايا شههال ما مپڭهيتي
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> la
@@ -290,7 +290,7 @@ for s in strings:
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ab
->>> ktmp mplʾrmpya hnaya shhhal ma mpghiti
+>>> ktmp mpl'rmpya hnaya shhhal ma mpghiti
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> gr
