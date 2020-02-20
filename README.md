@@ -1,6 +1,6 @@
 # 3aransia
 
-The Latin/Digit Moroccan Language Framework
+Languages and Dialects transliteration
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -17,26 +17,7 @@ The Latin/Digit Moroccan Language Framework
 
 ## Usage
 
-### Moroccan and Moroccan arabic transliteration
-
-```python
-from aaransia import transliterate_moroccan, transliterate_moroccan_arabic
-
-s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
-s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
-
-print(transliterate_moroccan(s_ma))
-print(transliterate_moroccan_arabic(s_ar))
-```
-
-```
->>> كتب بلعربيا هنايا شحال ما بغيتي
->>> ktb bl3rbya hnaya ch7al ma bghyty
-```
-
-### All lanuages transliteration 
-
-#### Get all alphabets codes
+### Get all alphabets codes
 
 ```python
 from aaransia import get_alphabets_codes
@@ -48,17 +29,36 @@ print(get_alphabets_codes())
 >>> ['ma', 'ar', 'la', 'ab', 'gr']
 ```
 
-#### Transliterate from all languages to all languages
+### Get all alphabets
 
+```python
+from aaransia import get_alphabets
+
+print(get_alphabets())
+```
+
+```
+>>> {   
+>>>     'ab': 'Abjadi Alphabet',
+>>>     'ar': 'Arabian Alphabet',
+>>>     'gr': 'Greek Alphabet',
+>>>     'la': 'Latin Alphabet',
+>>>     'ma': 'Moroccan Alphabet'
+>>> }
+```
+
+### Transliterate from a language or dialect to another
 ```python
 s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
 
-print(transliterate(s_ar, 'ar', 'ma'))
+print(transliterate(s_ar, source_language='ar', target_language='ma'))
 ```
 
 ```
 >>> ktb bl3rbya hnaya ch7al ma bghiti
 ```
+
+### Transliterate from all languages to all languages
 
 ```python
 from aaransia import transliterate, SourceLanguageException

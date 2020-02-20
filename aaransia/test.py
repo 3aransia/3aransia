@@ -124,7 +124,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in test_cases.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -146,7 +146,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in alphabet_moroccan_to_moroccan_arabic.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -167,7 +167,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in words_moroccan_to_moroccan_arabic.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -188,7 +188,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in alphabet_moroccan_arabic_to_moroccan.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan_arabic(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -209,7 +209,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in words_moroccan_arabic_to_moroccan.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan_arabic(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -230,7 +230,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in alphabet_moroccan_to_latin.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan_to_latin(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic_to_latin(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -251,7 +251,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in alphabet_moroccan_arabic_to_latin.iterrows():
-            expected_result, moroccan_arabic_transliteration = row["Expected Result"], transliterate_moroccan_arabic_to_latin(row["Test Case"])
+            expected_result, moroccan_arabic_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic_arabic_to_latin(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_arabic_transliteration)
                 count_infos += 1

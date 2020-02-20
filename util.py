@@ -1,18 +1,18 @@
+from pprint import PrettyPrinter
+
 from aaransia.utils import * 
 from aaransia.transliteration import * 
 from aaransia.exceptions import * 
 
-print(get_alphabets_codes())
+pp = PrettyPrinter(indent = 4)
 
-s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
-s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
+pp.pprint(get_alphabets_codes())
 
-print(transliterate_moroccan(s_ma))
-print(transliterate_moroccan_arabic(s_ar))
+pp.pprint(get_alphabets())
 
 s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
 
-print(transliterate(s_ar, 'ar', 'ma'))
+print(transliterate(s_ar, source_language='ar', target_language='ma'))
 
 s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
 s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
