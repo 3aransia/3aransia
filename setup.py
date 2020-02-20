@@ -9,9 +9,9 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
   name = 'aaransia',         # How you named your package folder (MyLib)
   packages = ['aaransia'],   # Chose the same as "name"
-  version = '0.15',      # Start with a small number and increase it with every change you make
+  version = '0.16',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'The Moroccan Latin/Digit Language Framework 3aransia',   # Give a short description about your library
+  description = 'Languages and Dialects transliteration',   # Give a short description about your library
   long_description=long_description,
   long_description_content_type='text/markdown',
   author = 'Amine M. Boulouma',                   # Type in your name
