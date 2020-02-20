@@ -4,7 +4,7 @@ import collections
 
 import pandas as pd
 
-from aaransia.constants import *
+from aaransia.defaults import *
 
 # Remove noise from arabic text
 def de_noise(text):

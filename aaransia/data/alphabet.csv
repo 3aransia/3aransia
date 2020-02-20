@@ -1,16 +1,11 @@
-Moroccan Alphabet,Arabian Alphabet,Latin Alphabet, Abjadi Alphabet, Greek Alphabet
+Moroccan Alphabet,Arabian Alphabet,Latin Alphabet,Abjadi Alphabet,Greek Alphabet
  , , , , 
 !,!,!,!,!
 ",",،,",",",",","
 .,.,.,.,.
-2,ء,',ʾ,'
-3,ع,',','
-5,خ,kh,kh,χ
-7,ح,h,ḥ,χ
-9,ق,q,q,κ
 ?,؟,?,?,?
 a,ا,a,a,α
-b,ب,b,b,β
+b,ب,b,b,μπ
 ch,ش,ch,sh,σ
 d,د,d,d,δ
 d,ذ,d,dh,δ
@@ -23,7 +18,7 @@ g,ڭ,g,g,γ
 gh,غ,gh,gh,γ
 h,ه,h,h,χ
 y,ي,y,y,υ
-i,ي,i,y,ι
+i,ي,i,i,ι
 ee,ي,ee,y,εε
 i,ا,i,i,ι
 j,ج,j,j,ζ
@@ -37,7 +32,7 @@ n,ن,n,n,ν
 o,و,o,w,ο
 o,ا,o,o,ο
 ou,و,ou,w,oυ
-p,پ,b,b,β
+p,پ,p,p,π
 q,ق,q,q,κ
 r,ر,r,r,ρ
 s,س,s,s,σ
@@ -55,3 +50,8 @@ x,كز,x,x,ξ
 x,كس,x,x,ξ
 yi,ي,yi,y,υι
 z,ز,z,z,ζ
+2,ء,',ʾ,'
+3,ع,',','
+5,خ,kh,kh,χ
+7,ح,h,ḥ,χ
+9,ق,q,q,κ

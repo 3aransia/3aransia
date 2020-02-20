@@ -2,7 +2,7 @@ import unittest
 import logging
 
 from aaransia.transliteration import *
-from aaransia.constants import *
+from aaransia.defaults import *
 from aaransia.utils import *
 
 # Building test files
@@ -11,9 +11,9 @@ from aaransia.utils import *
 def build_moroccan_alphabet_test_file():
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
     alphabet_test = alphabet.rename(columns={
-                          'Moroccan Alphabet':'Test Case',
-                          'Arabian Alphabet':'Expected Result'})
-    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
+                          MOROCCAN_ALPHABET:TEST_CASE,
+                          ARABIAN_ALPHABET:EXPECTED_RESULT})
+    alphabet_test = alphabet_test[[TEST_CASE, EXPECTED_RESULT]]
     alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ALPHABET, index=False)
 
 # Build moroccan words test File
@@ -21,18 +21,18 @@ def build_moroccan_words_test_file():
     moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY)
     moroccan_words_test = moroccan_words.drop(columns=['Arabic','French', 'English'])
     moroccan_words_test = moroccan_words_test.rename(columns={
-                          'Moroccan':'Test Case',
-                          'Moroccan Arabic':'Expected Result'})
-    moroccan_words_test = moroccan_words_test[['Test Case', 'Expected Result']]
+                          'Moroccan':TEST_CASE,
+                          'Moroccan Arabic':EXPECTED_RESULT})
+    moroccan_words_test = moroccan_words_test[[TEST_CASE, EXPECTED_RESULT]]
     moroccan_words_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_WORDS, index=False)
 
 # Build arabian alphabet test file
 def build_moroccan_arabic_alphabet_test_file():
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
     alphabet_test = alphabet.rename(columns={
-                          'Arabian Alphabet':'Test Case',
-                          'Moroccan Alphabet':'Expected Result'})
-    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
+                          ARABIAN_ALPHABET:TEST_CASE,
+                          MOROCCAN_ALPHABET:EXPECTED_RESULT})
+    alphabet_test = alphabet_test[[TEST_CASE, EXPECTED_RESULT]]
     alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_ALPHABET, index=False)
 
 # Build arabian words test file
@@ -40,27 +40,27 @@ def build_moroccan_arabic_words_test_file():
     moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY)
     moroccan_words_test = moroccan_words.drop(columns=['Arabic','French', 'English'])
     moroccan_words_test = moroccan_words_test.rename(columns={
-                          'Moroccan Arabic':'Test Case',
-                          'Moroccan':'Expected Result'})
-    moroccan_words_test = moroccan_words_test[['Test Case', 'Expected Result']]
+                          'Moroccan Arabic':TEST_CASE,
+                          'Moroccan':EXPECTED_RESULT})
+    moroccan_words_test = moroccan_words_test[[TEST_CASE, EXPECTED_RESULT]]
     moroccan_words_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_WORDS, index=False)
 
 # Build moroccan to latin alphabet test file
 def build_moroccan_to_latin_alphabet_test_file():
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
     alphabet_test = alphabet.rename(columns={
-                          'Moroccan Alphabet':'Test Case',
-                          'Latin Alphabet':'Expected Result'})
-    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
+                          MOROCCAN_ALPHABET:TEST_CASE,
+                          LATIN_ALPHABET:EXPECTED_RESULT})
+    alphabet_test = alphabet_test[[TEST_CASE, EXPECTED_RESULT]]
     alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_TO_LATIN_ALPHABET, index=False)
 
 # Build moroccan arabic to latin alphabet test file
 def build_moroccan_arabic_to_latin_alphabet_test_file():
     alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
     alphabet_test = alphabet.rename(columns={
-                          'Arabian Alphabet':'Test Case',
-                          'Latin Alphabet':'Expected Result'})
-    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
+                          ARABIAN_ALPHABET:TEST_CASE,
+                          LATIN_ALPHABET:EXPECTED_RESULT})
+    alphabet_test = alphabet_test[[TEST_CASE, EXPECTED_RESULT]]
     alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_TO_LATIN_ALPHABET, index=False)
 
 # Refresh test files based on the csv data

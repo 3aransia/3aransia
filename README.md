@@ -17,23 +17,189 @@ The Latin/Digit Moroccan Language Framework
 
 ## Usage
 
+### Moroccan and Moroccan arabic transliteration
+
 ```python
 from aaransia import transliterate_moroccan, transliterate_moroccan_arabic
 
-s_1 = "ktb bl3rbya hnaya"
-s_2 = "كتب بلعربيا هنايا"
+s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
+s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
 
-print(transliterate_moroccan(s_1))
-print(transliterate_moroccan_arabic(s_2))
-print(transliterate_moroccan_to_latin(s_1))
-print(transliterate_moroccan_arabic_to_latin(s_2))
+print(transliterate_moroccan(s_ma))
+print(transliterate_moroccan_arabic(s_ar))
 ```
 
 ```
->>> كتب بلعربيا هنايا
->>> ktb bl3rbya hnaya
->>> ktb bl'rbya hnaya
->>> ktb bl'rbya hnaya
+>>> كتب بلعربيا هنايا شحال ما بغيتي
+>>> ktb bl3rbya hnaya ch7al ma bghyty
+```
+
+### All lanuages transliteration 
+
+#### Get all alphabets codes
+
+```python
+from aaransia import get_alphabets_codes
+
+print(get_alphabets_codes())
+```
+
+```
+>>> ['ma', 'ar', 'la', 'ab', 'gr']
+```
+
+#### Transliterate from all languages to all languages
+
+```python
+s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
+
+print(transliterate(s_ar, 'ar', 'ma'))
+```
+
+```
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+```
+
+```python
+from aaransia import transliterate, SourceLanguageException
+
+s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
+s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
+s_la = "ktb bl'rbya hnaya chhal ma bghiti"
+s_ab = "ktb bl'rbya hnaya chḥal ma bghiti"
+s_gr = "κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι"
+
+strings = [s_ma, s_ar, s_la, s_ab, s_gr]
+
+for s in strings:
+    for source_language in get_alphabets_codes():
+        for target_language in get_alphabets_codes():
+            try:
+                print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
+            except SourceLanguageException as sle:
+                continue
+```
+
+```
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+>>> ma ==> ma
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+>>> 
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+>>> ma ==> ar
+>>> كتب بلعربيا هنايا كهحال ما بڭهيتي
+>>> 
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+>>> ma ==> la
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> 
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+>>> ma ==> ab
+>>> ktb bl'rbya hnaya chḥal ma bghiti
+>>> 
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+>>> ma ==> gr
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> 
+>>> كتب بلعربيا هنايا شحال ما بغيتي
+>>> ar ==> ma
+>>> ktb bl3rbya hnaya ch7al ma bghyty
+>>> 
+>>> كتب بلعربيا هنايا شحال ما بغيتي
+>>> ar ==> ar
+>>> كتب بلعربيا هنايا شحال ما بغيتي
+>>> 
+>>> كتب بلعربيا هنايا شحال ما بغيتي
+>>> ar ==> la
+>>> ktb bl'rbya hnaya chhal ma bghyty
+>>> 
+>>> كتب بلعربيا هنايا شحال ما بغيتي
+>>> ar ==> ab
+>>> ktb bl'rbya hnaya shḥal ma bghyty
+>>> 
+>>> كتب بلعربيا هنايا شحال ما بغيتي
+>>> ar ==> gr
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγυτυ
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> la ==> ma
+>>> ktb bl2rbya hnaya chhal ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> la ==> ar
+>>> كتب بلءربيا هنايا كههال ما بڭهيتي
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> la ==> la
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> la ==> ab
+>>> ktb blʾrbya hnaya chhal ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> la ==> gr
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> ab ==> ma
+>>> ktb bl3rbya hnaya chhal ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> ab ==> ar
+>>> كتب بلعربيا هنايا كههال ما بڭهيتي
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> ab ==> la
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> ab ==> ab
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> ab ==> gr
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> 
+>>> ktb bl'rbya hnaya chḥal ma bghiti
+>>> ab ==> ma
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chḥal ma bghiti
+>>> ab ==> ar
+>>> كتب بلعربيا هنايا كهحال ما بڭهيتي
+>>> 
+>>> ktb bl'rbya hnaya chḥal ma bghiti
+>>> ab ==> la
+>>> ktb bl'rbya hnaya chhal ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chḥal ma bghiti
+>>> ab ==> ab
+>>> ktb bl'rbya hnaya chḥal ma bghiti
+>>> 
+>>> ktb bl'rbya hnaya chḥal ma bghiti
+>>> ab ==> gr
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> 
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> gr ==> ma
+>>> ktmp mpl2rmpya hnaya chhhal ma mpghiti
+>>> 
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> gr ==> ar
+>>> كتمپ مپلءرمپيا هنايا شههال ما مپڭهيتي
+>>> 
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> gr ==> la
+>>> ktmp mpl'rmpya hnaya chhhal ma mpghiti
+>>> 
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> gr ==> ab
+>>> ktmp mplʾrmpya hnaya shhhal ma mpghiti
+>>> 
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> gr ==> gr
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 ```
 
 ## Other related projects
