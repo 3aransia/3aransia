@@ -77,7 +77,7 @@ for s in strings:
             try:
                 print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
              except SourceLanguageException as sle:
-                 print(p, sle)
+                print(f'{p}, {sle}')
 ```
 
 ```
