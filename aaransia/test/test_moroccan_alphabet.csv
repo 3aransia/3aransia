@@ -11,7 +11,6 @@ Test Case,Expected Result
 ?,؟
 a,ا
 b,ب
-c,ك
 ch,ش
 d,د
 d,ذ
@@ -19,15 +18,17 @@ d,ض
 d,ظ
 e, 
 e,ا
-ee,ي
 f,ف
 g,ڭ
 gh,غ
 h,ه
+y,ي
 i,ي
+ee,ي
 i,ا
 j,ج
 k,ك
+c,ك
 kh,خ
 l,ل
 la,لا
@@ -52,6 +53,5 @@ v,ڤ
 w,و
 x,كز
 x,كس
-y,ي
 yi,ي
 z,ز

@@ -1,1715 +1,1715 @@
-2020-02-18 03:15:21,047 - test_moroccan_words_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
-2020-02-18 03:15:21,048 - test_moroccan_words_logger - ERROR - Transliteration of mofradat, 'مفردات' != 'مفرادات'
+2020-02-18 19:23:48,750 - test_moroccan_words_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-18 19:23:48,757 - test_moroccan_words_logger - ERROR - Transliteration of mofradat, 'مفردات' != 'مفرادات'
 - مفردات
 + مفرادات
 ?    +
 
-2020-02-18 03:15:21,049 - test_moroccan_words_logger - ERROR - Transliteration of oustouraliya, 'استراليا' != 'وستورالييا'
+2020-02-18 19:23:48,769 - test_moroccan_words_logger - ERROR - Transliteration of oustouraliya, 'استراليا' != 'وستورالييا'
 - استراليا
 ? ^
 + وستورالييا
 ? ^  +    +
 
-2020-02-18 03:15:21,050 - test_moroccan_words_logger - ERROR - Transliteration of kombodje, 'كامبودج' != 'كمبدج'
+2020-02-18 19:23:48,772 - test_moroccan_words_logger - ERROR - Transliteration of kombodje, 'كامبودج' != 'كمبدج'
 - كامبودج
 ?  -  -
 + كمبدج
 
-2020-02-18 03:15:21,051 - test_moroccan_words_logger - ERROR - Transliteration of canada, 'كندا' != 'كانادا'
+2020-02-18 19:23:48,775 - test_moroccan_words_logger - ERROR - Transliteration of canada, 'كندا' != 'كانادا'
 - كندا
 + كانادا
 ?  + +
 
-2020-02-18 03:15:21,053 - test_moroccan_words_logger - ERROR - Transliteration of misre, 'مصر' != 'ميسر'
+2020-02-18 19:23:48,781 - test_moroccan_words_logger - ERROR - Transliteration of misre, 'مصر' != 'ميسر'
 - مصر
 + ميسر
 
-2020-02-18 03:15:21,053 - test_moroccan_words_logger - ERROR - Transliteration of naglize, 'نڭليز' != 'ناڭليز'
+2020-02-18 19:23:48,785 - test_moroccan_words_logger - ERROR - Transliteration of naglize, 'نڭليز' != 'ناڭليز'
 - نڭليز
 + ناڭليز
 ?  +
 
-2020-02-18 03:15:21,054 - test_moroccan_words_logger - ERROR - Transliteration of almaniya, 'المانيا' != 'المانييا'
+2020-02-18 19:23:48,792 - test_moroccan_words_logger - ERROR - Transliteration of almaniya, 'المانيا' != 'المانييا'
 - المانيا
 + المانييا
 ?       +
 
-2020-02-18 03:15:21,055 - test_moroccan_words_logger - ERROR - Transliteration of hind, 'لهند' != 'هيند'
+2020-02-18 19:23:48,797 - test_moroccan_words_logger - ERROR - Transliteration of hind, 'لهند' != 'هيند'
 - لهند
 ? -
 + هيند
 ?  +
 
-2020-02-18 03:15:21,055 - test_moroccan_words_logger - ERROR - Transliteration of andounissiya, 'أندونيسيا' != 'اندونيصييا'
+2020-02-18 19:23:48,803 - test_moroccan_words_logger - ERROR - Transliteration of andounissiya, 'أندونيسيا' != 'اندونيصييا'
 - أندونيسيا
 ? ^     ^
 + اندونيصييا
 ? ^     ^^
 
-2020-02-18 03:15:21,056 - test_moroccan_words_logger - ERROR - Transliteration of taliane, 'طاليان' != 'تاليان'
+2020-02-18 19:23:48,807 - test_moroccan_words_logger - ERROR - Transliteration of taliane, 'طاليان' != 'تاليان'
 - طاليان
 ? ^
 + تاليان
 ? ^
 
-2020-02-18 03:15:21,057 - test_moroccan_words_logger - ERROR - Transliteration of lmixik, 'لمكسيك' != 'لميكزيك'
+2020-02-18 19:23:48,814 - test_moroccan_words_logger - ERROR - Transliteration of lmixik, 'لمكسيك' != 'لميكزيك'
 - لمكسيك
 ?    ^
 + لميكزيك
 ?   + ^
 
-2020-02-18 03:15:21,057 - test_moroccan_words_logger - ERROR - Transliteration of lmaghrib, 'لمغريب' != 'لماغريب'
+2020-02-18 19:23:48,818 - test_moroccan_words_logger - ERROR - Transliteration of lmaghrib, 'لمغريب' != 'لماغريب'
 - لمغريب
 + لماغريب
 ?   +
 
-2020-02-18 03:15:21,059 - test_moroccan_words_logger - ERROR - Transliteration of sbaniya, 'سبنيا' != 'سبانييا'
+2020-02-18 19:23:48,825 - test_moroccan_words_logger - ERROR - Transliteration of sbaniya, 'سبنيا' != 'سبانييا'
 - سبنيا
 + سبانييا
 ?   + +
 
-2020-02-18 03:15:21,060 - test_moroccan_words_logger - ERROR - Transliteration of taylande, 'طايلاند' != 'تايلاند'
+2020-02-18 19:23:48,828 - test_moroccan_words_logger - ERROR - Transliteration of taylande, 'طايلاند' != 'تايلاند'
 - طايلاند
 ? ^
 + تايلاند
 ? ^
 
-2020-02-18 03:15:21,061 - test_moroccan_words_logger - ERROR - Transliteration of loghat, 'لوغات' != 'لغات'
+2020-02-18 19:23:48,835 - test_moroccan_words_logger - ERROR - Transliteration of loghat, 'لوغات' != 'لغات'
 - لوغات
 ?  -
 + لغات
 
-2020-02-18 03:15:21,062 - test_moroccan_words_logger - ERROR - Transliteration of l3arbia, 'لعربية' != 'لعاربيا'
+2020-02-18 19:23:48,839 - test_moroccan_words_logger - ERROR - Transliteration of l3arbia, 'لعربية' != 'لعاربيا'
 - لعربية
 ?      ^
 + لعاربيا
 ?   +   ^
 
-2020-02-18 03:15:21,063 - test_moroccan_words_logger - ERROR - Transliteration of chinwiya, 'شينويا' != 'شينوييا'
+2020-02-18 19:23:48,843 - test_moroccan_words_logger - ERROR - Transliteration of chinwiya, 'شينويا' != 'شينوييا'
 - شينويا
 + شينوييا
 ?      +
 
-2020-02-18 03:15:21,063 - test_moroccan_words_logger - ERROR - Transliteration of nagliziya, 'نڭليزية' != 'ناڭليزييا'
+2020-02-18 19:23:48,848 - test_moroccan_words_logger - ERROR - Transliteration of nagliziya, 'نڭليزية' != 'ناڭليزييا'
 - نڭليزية
 ?       ^
 + ناڭليزييا
 ?  +     ^^
 
-2020-02-18 03:15:21,064 - test_moroccan_words_logger - ERROR - Transliteration of fransawiya, 'فرنساويا' != 'فرانساوييا'
+2020-02-18 19:23:48,854 - test_moroccan_words_logger - ERROR - Transliteration of fransawiya, 'فرنساويا' != 'فرانساوييا'
 - فرنساويا
 + فرانساوييا
 ?   +     +
 
-2020-02-18 03:15:21,064 - test_moroccan_words_logger - ERROR - Transliteration of younaniya, 'يونانيا' != 'يونانييا'
+2020-02-18 19:23:48,862 - test_moroccan_words_logger - ERROR - Transliteration of younaniya, 'يونانيا' != 'يونانييا'
 - يونانيا
 + يونانييا
 ?       +
 
-2020-02-18 03:15:21,065 - test_moroccan_words_logger - ERROR - Transliteration of ihoudiya, 'يهودية' != 'اهودييا'
+2020-02-18 19:23:48,865 - test_moroccan_words_logger - ERROR - Transliteration of ihoudiya, 'يهودية' != 'اهودييا'
 - يهودية
 + اهودييا
 
-2020-02-18 03:15:21,065 - test_moroccan_words_logger - ERROR - Transliteration of hindiya, 'هندية' != 'هيندييا'
+2020-02-18 19:23:48,869 - test_moroccan_words_logger - ERROR - Transliteration of hindiya, 'هندية' != 'هيندييا'
 - هندية
 + هيندييا
 
-2020-02-18 03:15:21,066 - test_moroccan_words_logger - ERROR - Transliteration of italiya, 'ايطالية' != 'اتالييا'
+2020-02-18 19:23:48,873 - test_moroccan_words_logger - ERROR - Transliteration of italiya, 'ايطالية' != 'اتالييا'
 - ايطالية
 + اتالييا
 
-2020-02-18 03:15:21,066 - test_moroccan_words_logger - ERROR - Transliteration of japoniya, 'جابونية' != 'جاپنييا'
+2020-02-18 19:23:48,878 - test_moroccan_words_logger - ERROR - Transliteration of japoniya, 'جابونية' != 'جاپنييا'
 - جابونية
 + جاپنييا
 
-2020-02-18 03:15:21,067 - test_moroccan_words_logger - ERROR - Transliteration of kordiya, 'كورية' != 'كردييا'
+2020-02-18 19:23:48,883 - test_moroccan_words_logger - ERROR - Transliteration of kordiya, 'كورية' != 'كردييا'
 - كورية
 + كردييا
 
-2020-02-18 03:15:21,067 - test_moroccan_words_logger - ERROR - Transliteration of latiniya, 'لاتينية' != 'لاتينييا'
+2020-02-18 19:23:48,889 - test_moroccan_words_logger - ERROR - Transliteration of latiniya, 'لاتينية' != 'لاتينييا'
 - لاتينية
 ?       ^
 + لاتينييا
 ?       ^^
 
-2020-02-18 03:15:21,068 - test_moroccan_words_logger - ERROR - Transliteration of roussiya, 'روسية' != 'روصييا'
+2020-02-18 19:23:48,894 - test_moroccan_words_logger - ERROR - Transliteration of roussiya, 'روسية' != 'روصييا'
 - روسية
 + روصييا
 
-2020-02-18 03:15:21,068 - test_moroccan_words_logger - ERROR - Transliteration of spaniouliya, 'صبليونية' != 'سپانيولييا'
+2020-02-18 19:23:48,904 - test_moroccan_words_logger - ERROR - Transliteration of spaniouliya, 'صبليونية' != 'سپانيولييا'
 - صبليونية
 + سپانيولييا
 
-2020-02-18 03:15:21,069 - test_moroccan_words_logger - ERROR - Transliteration of 2ordia, 'الاردية' != 'ءرديا'
+2020-02-18 19:23:48,908 - test_moroccan_words_logger - ERROR - Transliteration of 2ordia, 'الاردية' != 'ءرديا'
 - الاردية
 + ءرديا
 
-2020-02-18 03:15:21,070 - test_moroccan_words_logger - ERROR - Transliteration of 5amis, 'الخميس' != 'خاميس'
+2020-02-18 19:23:48,921 - test_moroccan_words_logger - ERROR - Transliteration of 5amis, 'الخميس' != 'خاميس'
 - الخميس
 ?  --
 + خاميس
 ? +
 
-2020-02-18 03:15:21,070 - test_moroccan_words_logger - ERROR - Transliteration of jam3a, 'جمعة' != 'جامعا'
+2020-02-18 19:23:48,924 - test_moroccan_words_logger - ERROR - Transliteration of jam3a, 'جمعة' != 'جامعا'
 - جمعة
 + جامعا
 
-2020-02-18 03:15:21,071 - test_moroccan_words_logger - ERROR - Transliteration of sabte, 'سبت' != 'سابت'
+2020-02-18 19:23:48,927 - test_moroccan_words_logger - ERROR - Transliteration of sabte, 'سبت' != 'سابت'
 - سبت
 + سابت
 ?  +
 
-2020-02-18 03:15:21,071 - test_moroccan_words_logger - ERROR - Transliteration of 7add, 'الحد' != 'حاد'
+2020-02-18 19:23:48,930 - test_moroccan_words_logger - ERROR - Transliteration of 7add, 'الحد' != 'حاد'
 - الحد
 + حاد
 
-2020-02-18 03:15:21,072 - test_moroccan_words_logger - ERROR - Transliteration of marra, 'مرة' != 'مارا'
+2020-02-18 19:23:48,932 - test_moroccan_words_logger - ERROR - Transliteration of marra, 'مرة' != 'مارا'
 - مرة
 + مارا
 
-2020-02-18 03:15:21,072 - test_moroccan_words_logger - ERROR - Transliteration of sa3a, 'ساعة' != 'ساعا'
+2020-02-18 19:23:48,935 - test_moroccan_words_logger - ERROR - Transliteration of sa3a, 'ساعة' != 'ساعا'
 - ساعة
 ?    ^
 + ساعا
 ?    ^
 
-2020-02-18 03:15:21,073 - test_moroccan_words_logger - ERROR - Transliteration of d9i9a, 'دقيقة' != 'دقيقا'
+2020-02-18 19:23:48,939 - test_moroccan_words_logger - ERROR - Transliteration of d9i9a, 'دقيقة' != 'دقيقا'
 - دقيقة
 ?     ^
 + دقيقا
 ?     ^
 
-2020-02-18 03:15:21,073 - test_moroccan_words_logger - ERROR - Transliteration of taniya, 'تانية' != 'تانييا'
+2020-02-18 19:23:48,942 - test_moroccan_words_logger - ERROR - Transliteration of taniya, 'تانية' != 'تانييا'
 - تانية
 ?     ^
 + تانييا
 ?     ^^
 
-2020-02-18 03:15:21,074 - test_moroccan_words_logger - ERROR - Transliteration of sme7lia, 'سمحلي' != 'سمحليا'
+2020-02-18 19:23:48,946 - test_moroccan_words_logger - ERROR - Transliteration of sme7lia, 'سمحلي' != 'سمحليا'
 - سمحلي
 + سمحليا
 ?      +
 
-2020-02-18 03:15:21,074 - test_moroccan_words_logger - ERROR - Transliteration of besse7a, 'بصحة' != 'بصحا'
+2020-02-18 19:23:48,949 - test_moroccan_words_logger - ERROR - Transliteration of besse7a, 'بصحة' != 'بصحا'
 - بصحة
 ?    ^
 + بصحا
 ?    ^
 
-2020-02-18 03:15:21,075 - test_moroccan_words_logger - ERROR - Transliteration of beslama, 'بسلامة' != 'بسلاما'
+2020-02-18 19:23:48,952 - test_moroccan_words_logger - ERROR - Transliteration of beslama, 'بسلامة' != 'بسلاما'
 - بسلامة
 ?      ^
 + بسلاما
 ?      ^
 
-2020-02-18 03:15:21,076 - test_moroccan_words_logger - ERROR - Transliteration of bessa7, 'بصح' != 'بصاح'
+2020-02-18 19:23:48,955 - test_moroccan_words_logger - ERROR - Transliteration of bessa7, 'بصح' != 'بصاح'
 - بصح
 + بصاح
 ?   +
 
-2020-02-18 03:15:21,077 - test_moroccan_words_logger - ERROR - Transliteration of salam, 'سلام' != 'سالام'
+2020-02-18 19:23:48,958 - test_moroccan_words_logger - ERROR - Transliteration of salam, 'سلام' != 'سالام'
 - سلام
 + سالام
 ?  +
 
-2020-02-18 03:15:21,078 - test_moroccan_words_logger - ERROR - Transliteration of tlata, 'تلاتة' != 'تلاتا'
+2020-02-18 19:23:48,964 - test_moroccan_words_logger - ERROR - Transliteration of tlata, 'تلاتة' != 'تلاتا'
 - تلاتة
 ?     ^
 + تلاتا
 ?     ^
 
-2020-02-18 03:15:21,079 - test_moroccan_words_logger - ERROR - Transliteration of reb3a, 'ربعة' != 'ربعا'
+2020-02-18 19:23:48,967 - test_moroccan_words_logger - ERROR - Transliteration of reb3a, 'ربعة' != 'ربعا'
 - ربعة
 ?    ^
 + ربعا
 ?    ^
 
-2020-02-18 03:15:21,079 - test_moroccan_words_logger - ERROR - Transliteration of 5emsa, 'خمسة' != 'خمسا'
+2020-02-18 19:23:48,970 - test_moroccan_words_logger - ERROR - Transliteration of 5emsa, 'خمسة' != 'خمسا'
 - خمسة
 ?    ^
 + خمسا
 ?    ^
 
-2020-02-18 03:15:21,080 - test_moroccan_words_logger - ERROR - Transliteration of setta, 'ستة' != 'ستا'
+2020-02-18 19:23:48,972 - test_moroccan_words_logger - ERROR - Transliteration of setta, 'ستة' != 'ستا'
 - ستة
 ?   ^
 + ستا
 ?   ^
 
-2020-02-18 03:15:21,081 - test_moroccan_words_logger - ERROR - Transliteration of seb3a, 'سبعة' != 'سبعا'
+2020-02-18 19:23:48,975 - test_moroccan_words_logger - ERROR - Transliteration of seb3a, 'سبعة' != 'سبعا'
 - سبعة
 ?    ^
 + سبعا
 ?    ^
 
-2020-02-18 03:15:21,082 - test_moroccan_words_logger - ERROR - Transliteration of tmania, 'تمنية' != 'تمانيا'
+2020-02-18 19:23:48,979 - test_moroccan_words_logger - ERROR - Transliteration of tmania, 'تمنية' != 'تمانيا'
 - تمنية
 ?     ^
 + تمانيا
 ?   +  ^
 
-2020-02-18 03:15:21,083 - test_moroccan_words_logger - ERROR - Transliteration of 3achra, 'عشرة' != 'عاشرا'
+2020-02-18 19:23:48,985 - test_moroccan_words_logger - ERROR - Transliteration of 3achra, 'عشرة' != 'عاشرا'
 - عشرة
 + عاشرا
 
-2020-02-18 03:15:21,083 - test_moroccan_words_logger - ERROR - Transliteration of iyeh, 'إييه' != 'ايه'
+2020-02-18 19:23:48,987 - test_moroccan_words_logger - ERROR - Transliteration of iyeh, 'إييه' != 'ايه'
 - إييه
 + ايه
 
-2020-02-18 03:15:21,085 - test_moroccan_words_logger - ERROR - Transliteration of chokran, 'شكرا' != 'شكران'
+2020-02-18 19:23:48,993 - test_moroccan_words_logger - ERROR - Transliteration of chokran, 'شكرا' != 'شكران'
 - شكرا
 + شكران
 ?     +
 
-2020-02-18 03:15:21,085 - test_moroccan_words_logger - ERROR - Transliteration of Kanbghik, 'كنبغيك' != 'كانبغيك'
+2020-02-18 19:23:48,997 - test_moroccan_words_logger - ERROR - Transliteration of Kanbghik, 'كنبغيك' != 'كانبغيك'
 - كنبغيك
 + كانبغيك
 ?  +
 
-2020-02-18 03:15:21,086 - test_moroccan_words_logger - ERROR - Transliteration of chwia, 'شوية' != 'شويا'
+2020-02-18 19:23:49,005 - test_moroccan_words_logger - ERROR - Transliteration of chwia, 'شوية' != 'شويا'
 - شوية
 ?    ^
 + شويا
 ?    ^
 
-2020-02-18 03:15:21,089 - test_moroccan_words_logger - ERROR - Transliteration of hder, 'هضر' != 'هدر'
+2020-02-18 19:23:49,026 - test_moroccan_words_logger - ERROR - Transliteration of hder, 'هضر' != 'هدر'
 - هضر
 ?  ^
 + هدر
 ?  ^
 
-2020-02-18 03:15:21,090 - test_moroccan_words_logger - ERROR - Transliteration of Safi, 'صافي' != 'سافي'
+2020-02-18 19:23:49,035 - test_moroccan_words_logger - ERROR - Transliteration of Safi, 'صافي' != 'سافي'
 - صافي
 ? ^
 + سافي
 ? ^
 
-2020-02-18 03:15:21,090 - test_moroccan_words_logger - ERROR - Transliteration of twalit, 'طواليط' != 'تواليت'
+2020-02-18 19:23:49,042 - test_moroccan_words_logger - ERROR - Transliteration of twalit, 'طواليط' != 'تواليت'
 - طواليط
 + تواليت
 
-2020-02-18 03:15:21,091 - test_moroccan_words_logger - ERROR - Transliteration of 7edash, 'حضاش' != 'حداش'
+2020-02-18 19:23:49,045 - test_moroccan_words_logger - ERROR - Transliteration of 7edash, 'حضاش' != 'حداش'
 - حضاش
 ?  ^
 + حداش
 ?  ^
 
-2020-02-18 03:15:21,091 - test_moroccan_words_logger - ERROR - Transliteration of Tenash, 'طناش' != 'تناش'
+2020-02-18 19:23:49,048 - test_moroccan_words_logger - ERROR - Transliteration of Tenash, 'طناش' != 'تناش'
 - طناش
 ? ^
 + تناش
 ? ^
 
-2020-02-18 03:15:21,092 - test_moroccan_words_logger - ERROR - Transliteration of Teletash, 'تلطاش' != 'تلتاش'
+2020-02-18 19:23:49,051 - test_moroccan_words_logger - ERROR - Transliteration of Teletash, 'تلطاش' != 'تلتاش'
 - تلطاش
 ?   ^
 + تلتاش
 ?   ^
 
-2020-02-18 03:15:21,093 - test_moroccan_words_logger - ERROR - Transliteration of Rebe3tash, 'ربعطاش' != 'ربعتاش'
+2020-02-18 19:23:49,054 - test_moroccan_words_logger - ERROR - Transliteration of Rebe3tash, 'ربعطاش' != 'ربعتاش'
 - ربعطاش
 ?    ^
 + ربعتاش
 ?    ^
 
-2020-02-18 03:15:21,093 - test_moroccan_words_logger - ERROR - Transliteration of Khemstash, 'خمسطاش' != 'خمستاش'
+2020-02-18 19:23:49,059 - test_moroccan_words_logger - ERROR - Transliteration of Khemstash, 'خمسطاش' != 'خمستاش'
 - خمسطاش
 ?    ^
 + خمستاش
 ?    ^
 
-2020-02-18 03:15:21,094 - test_moroccan_words_logger - ERROR - Transliteration of Settash, 'سطاش' != 'ستاش'
+2020-02-18 19:23:49,061 - test_moroccan_words_logger - ERROR - Transliteration of Settash, 'سطاش' != 'ستاش'
 - سطاش
 ?  ^
 + ستاش
 ?  ^
 
-2020-02-18 03:15:21,094 - test_moroccan_words_logger - ERROR - Transliteration of Sebe3tash, 'سبعطاش' != 'سبعتاش'
+2020-02-18 19:23:49,065 - test_moroccan_words_logger - ERROR - Transliteration of Sebe3tash, 'سبعطاش' != 'سبعتاش'
 - سبعطاش
 ?    ^
 + سبعتاش
 ?    ^
 
-2020-02-18 03:15:21,095 - test_moroccan_words_logger - ERROR - Transliteration of Tementash, 'تمنطاش' != 'تمنتاش'
+2020-02-18 19:23:49,069 - test_moroccan_words_logger - ERROR - Transliteration of Tementash, 'تمنطاش' != 'تمنتاش'
 - تمنطاش
 ?    ^
 + تمنتاش
 ?    ^
 
-2020-02-18 03:15:21,095 - test_moroccan_words_logger - ERROR - Transliteration of Teze3tash, 'تزعطاش' != 'تزعتاش'
+2020-02-18 19:23:49,073 - test_moroccan_words_logger - ERROR - Transliteration of Teze3tash, 'تزعطاش' != 'تزعتاش'
 - تزعطاش
 ?    ^
 + تزعتاش
 ?    ^
 
-2020-02-18 03:15:21,096 - test_moroccan_words_logger - ERROR - Transliteration of Le7ia, 'لحية' != 'لحيا'
+2020-02-18 19:23:49,079 - test_moroccan_words_logger - ERROR - Transliteration of Le7ia, 'لحية' != 'لحيا'
 - لحية
 ?    ^
 + لحيا
 ?    ^
 
-2020-02-18 03:15:21,098 - test_moroccan_words_logger - ERROR - Transliteration of Senna, 'سنة' != 'سنا'
+2020-02-18 19:23:49,092 - test_moroccan_words_logger - ERROR - Transliteration of Senna, 'سنة' != 'سنا'
 - سنة
 ?   ^
 + سنا
 ?   ^
 
-2020-02-18 03:15:21,098 - test_moroccan_words_logger - ERROR - Transliteration of Sbe3, 'صبع' != 'سبع'
+2020-02-18 19:23:49,094 - test_moroccan_words_logger - ERROR - Transliteration of Sbe3, 'صبع' != 'سبع'
 - صبع
 ? ^
 + سبع
 ? ^
 
-2020-02-18 03:15:21,099 - test_moroccan_words_logger - ERROR - Transliteration of Deher, 'ضهر' != 'دهر'
+2020-02-18 19:23:49,096 - test_moroccan_words_logger - ERROR - Transliteration of Deher, 'ضهر' != 'دهر'
 - ضهر
 ? ^
 + دهر
 ? ^
 
-2020-02-18 03:15:21,099 - test_moroccan_words_logger - ERROR - Transliteration of Me3da, 'معدة' != 'معدا'
+2020-02-18 19:23:49,101 - test_moroccan_words_logger - ERROR - Transliteration of Me3da, 'معدة' != 'معدا'
 - معدة
 ?    ^
 + معدا
 ?    ^
 
-2020-02-18 03:15:21,100 - test_moroccan_words_logger - ERROR - Transliteration of Kebda, 'كبدة' != 'كبدا'
+2020-02-18 19:23:49,104 - test_moroccan_words_logger - ERROR - Transliteration of Kebda, 'كبدة' != 'كبدا'
 - كبدة
 ?    ^
 + كبدا
 ?    ^
 
-2020-02-18 03:15:21,100 - test_moroccan_words_logger - ERROR - Transliteration of Jebha, 'جبهة' != 'جبها'
+2020-02-18 19:23:49,106 - test_moroccan_words_logger - ERROR - Transliteration of Jebha, 'جبهة' != 'جبها'
 - جبهة
 ?    ^
 + جبها
 ?    ^
 
-2020-02-18 03:15:21,101 - test_moroccan_words_logger - ERROR - Transliteration of Rekba, 'ركبة' != 'ركبا'
+2020-02-18 19:23:49,109 - test_moroccan_words_logger - ERROR - Transliteration of Rekba, 'ركبة' != 'ركبا'
 - ركبة
 ?    ^
 + ركبا
 ?    ^
 
-2020-02-18 03:15:21,101 - test_moroccan_words_logger - ERROR - Transliteration of 7el9a, 'حلق' != 'حلقا'
+2020-02-18 19:23:49,112 - test_moroccan_words_logger - ERROR - Transliteration of 7el9a, 'حلق' != 'حلقا'
 - حلق
 + حلقا
 ?    +
 
-2020-02-18 03:15:21,102 - test_moroccan_words_logger - ERROR - Transliteration of Ders, 'ضرس' != 'درس'
+2020-02-18 19:23:49,119 - test_moroccan_words_logger - ERROR - Transliteration of Ders, 'ضرس' != 'درس'
 - ضرس
 ? ^
 + درس
 ? ^
 
-2020-02-18 03:15:21,103 - test_moroccan_words_logger - ERROR - Transliteration of Defer, 'ضفر' != 'دفر'
+2020-02-18 19:23:49,125 - test_moroccan_words_logger - ERROR - Transliteration of Defer, 'ضفر' != 'دفر'
 - ضفر
 ? ^
 + دفر
 ? ^
 
-2020-02-18 03:15:21,105 - test_moroccan_words_logger - ERROR - Transliteration of 3dem, 'عضم' != 'عدم'
+2020-02-18 19:23:49,132 - test_moroccan_words_logger - ERROR - Transliteration of 3dem, 'عضم' != 'عدم'
 - عضم
 ?  ^
 + عدم
 ?  ^
 
-2020-02-18 03:15:21,106 - test_moroccan_words_logger - ERROR - Transliteration of Riya, 'رية' != 'رييا'
+2020-02-18 19:23:49,140 - test_moroccan_words_logger - ERROR - Transliteration of Riya, 'رية' != 'رييا'
 - رية
 + رييا
 
-2020-02-18 03:15:21,108 - test_moroccan_words_logger - ERROR - Transliteration of Zebda, 'زبدة' != 'زبدا'
+2020-02-18 19:23:49,159 - test_moroccan_words_logger - ERROR - Transliteration of Zebda, 'زبدة' != 'زبدا'
 - زبدة
 ?    ^
 + زبدا
 ?    ^
 
-2020-02-18 03:15:21,109 - test_moroccan_words_logger - ERROR - Transliteration of Qehwa, 'قهوة' != 'قهوا'
+2020-02-18 19:23:49,165 - test_moroccan_words_logger - ERROR - Transliteration of Qehwa, 'قهوة' != 'قهوا'
 - قهوة
 ?    ^
 + قهوا
 ?    ^
 
-2020-02-18 03:15:21,109 - test_moroccan_words_logger - ERROR - Transliteration of Kofitir, 'كوفيتير' != 'كفيتير'
+2020-02-18 19:23:49,168 - test_moroccan_words_logger - ERROR - Transliteration of Kofitir, 'كوفيتير' != 'كفيتير'
 - كوفيتير
 ?  -
 + كفيتير
 
-2020-02-18 03:15:21,111 - test_moroccan_words_logger - ERROR - Transliteration of Fakia, 'فاكية' != 'فاكيا'
+2020-02-18 19:23:49,182 - test_moroccan_words_logger - ERROR - Transliteration of Fakia, 'فاكية' != 'فاكيا'
 - فاكية
 ?     ^
 + فاكيا
 ?     ^
 
-2020-02-18 03:15:21,112 - test_moroccan_words_logger - ERROR - Transliteration of 7elwa, 'حلوة' != 'حلوا'
+2020-02-18 19:23:49,185 - test_moroccan_words_logger - ERROR - Transliteration of 7elwa, 'حلوة' != 'حلوا'
 - حلوة
 ?    ^
 + حلوا
 ?    ^
 
-2020-02-18 03:15:21,112 - test_moroccan_words_logger - ERROR - Transliteration of 3asir, 'عصير' != 'عاسير'
+2020-02-18 19:23:49,190 - test_moroccan_words_logger - ERROR - Transliteration of 3asir, 'عصير' != 'عاسير'
 - عصير
 + عاسير
 
-2020-02-18 03:15:21,113 - test_moroccan_words_logger - ERROR - Transliteration of Khodra, 'خضرة' != 'خدرا'
+2020-02-18 19:23:49,195 - test_moroccan_words_logger - ERROR - Transliteration of Khodra, 'خضرة' != 'خدرا'
 - خضرة
 + خدرا
 
-2020-02-18 03:15:21,114 - test_moroccan_words_logger - ERROR - Transliteration of Bida, 'بيضة' != 'بيدا'
+2020-02-18 19:23:49,201 - test_moroccan_words_logger - ERROR - Transliteration of Bida, 'بيضة' != 'بيدا'
 - بيضة
 + بيدا
 
-2020-02-18 03:15:21,116 - test_moroccan_words_logger - ERROR - Transliteration of Ibzar, 'إبزار' != 'ابزار'
+2020-02-18 19:23:49,207 - test_moroccan_words_logger - ERROR - Transliteration of Ibzar, 'إبزار' != 'ابزار'
 - إبزار
 ? ^
 + ابزار
 ? ^
 
-2020-02-18 03:15:21,117 - test_moroccan_words_logger - ERROR - Transliteration of Shelada, 'شلاضة' != 'شلادا'
+2020-02-18 19:23:49,213 - test_moroccan_words_logger - ERROR - Transliteration of Shelada, 'شلاضة' != 'شلادا'
 - شلاضة
 + شلادا
 
-2020-02-18 03:15:21,117 - test_moroccan_words_logger - ERROR - Transliteration of Mel7a, 'ملحة' != 'ملحا'
+2020-02-18 19:23:49,216 - test_moroccan_words_logger - ERROR - Transliteration of Mel7a, 'ملحة' != 'ملحا'
 - ملحة
 ?    ^
 + ملحا
 ?    ^
 
-2020-02-18 03:15:21,118 - test_moroccan_words_logger - ERROR - Transliteration of 7rira, 'حريرة' != 'حريرا'
+2020-02-18 19:23:49,219 - test_moroccan_words_logger - ERROR - Transliteration of 7rira, 'حريرة' != 'حريرا'
 - حريرة
 ?     ^
 + حريرا
 ?     ^
 
-2020-02-18 03:15:21,119 - test_moroccan_words_logger - ERROR - Transliteration of Sekkar, 'سكر' != 'سكار'
+2020-02-18 19:23:49,221 - test_moroccan_words_logger - ERROR - Transliteration of Sekkar, 'سكر' != 'سكار'
 - سكر
 + سكار
 ?   +
 
-2020-02-18 03:15:21,120 - test_moroccan_words_logger - ERROR - Transliteration of Atay, 'أتاي' != 'اتاي'
+2020-02-18 19:23:49,224 - test_moroccan_words_logger - ERROR - Transliteration of Atay, 'أتاي' != 'اتاي'
 - أتاي
 ? ^
 + اتاي
 ? ^
 
-2020-02-18 03:15:21,121 - test_moroccan_words_logger - ERROR - Transliteration of Ashno, 'أش شنو' != 'اشن'
+2020-02-18 19:23:49,231 - test_moroccan_words_logger - ERROR - Transliteration of Ashno, 'أش شنو' != 'اشن'
 - أش شنو
 + اشن
 
-2020-02-18 03:15:21,122 - test_moroccan_words_logger - ERROR - Transliteration of Imta, 'فوقاش' != 'امتا'
+2020-02-18 19:23:49,237 - test_moroccan_words_logger - ERROR - Transliteration of Imta, 'فوقاش' != 'امتا'
 - فوقاش
 + امتا
 
-2020-02-18 03:15:21,123 - test_moroccan_words_logger - ERROR - Transliteration of Feddi, 'فضي' != 'فدي'
+2020-02-18 19:23:49,245 - test_moroccan_words_logger - ERROR - Transliteration of Feddi, 'فضي' != 'فدي'
 - فضي
 ?  ^
 + فدي
 ?  ^
 
-2020-02-18 03:15:21,124 - test_moroccan_words_logger - ERROR - Transliteration of Byed, 'بيض' != 'بيد'
+2020-02-18 19:23:49,249 - test_moroccan_words_logger - ERROR - Transliteration of Byed, 'بيض' != 'بيد'
 - بيض
 ?   ^
 + بيد
 ?   ^
 
-2020-02-18 03:15:21,126 - test_moroccan_words_logger - ERROR - Transliteration of Grouna, 'ڭرونة' != 'ڭرونا'
+2020-02-18 19:23:49,256 - test_moroccan_words_logger - ERROR - Transliteration of Grouna, 'ڭرونة' != 'ڭرونا'
 - ڭرونة
 ?     ^
 + ڭرونا
 ?     ^
 
-2020-02-18 03:15:21,126 - test_moroccan_words_logger - ERROR - Transliteration of Sfer, 'صفر' != 'سفر'
+2020-02-18 19:23:49,261 - test_moroccan_words_logger - ERROR - Transliteration of Sfer, 'صفر' != 'سفر'
 - صفر
 ? ^
 + سفر
 ? ^
 
-2020-02-18 03:15:21,127 - test_moroccan_words_logger - ERROR - Transliteration of Mauve, 'موڤ' != 'ماوڤ'
+2020-02-18 19:23:49,266 - test_moroccan_words_logger - ERROR - Transliteration of Mauve, 'موڤ' != 'ماوڤ'
 - موڤ
 + ماوڤ
 ?  +
 
-2020-02-18 03:15:21,129 - test_moroccan_words_logger - ERROR - Transliteration of Ponja, 'بونجة' != 'پنجا'
+2020-02-18 19:23:49,277 - test_moroccan_words_logger - ERROR - Transliteration of Ponja, 'بونجة' != 'پنجا'
 - بونجة
 + پنجا
 
-2020-02-18 03:15:21,130 - test_moroccan_words_logger - ERROR - Transliteration of 7aris, 'حارس' != 'حاريس'
+2020-02-18 19:23:49,282 - test_moroccan_words_logger - ERROR - Transliteration of 7aris, 'حارس' != 'حاريس'
 - حارس
 + حاريس
 ?    +
 
-2020-02-18 03:15:21,130 - test_moroccan_words_logger - ERROR - Transliteration of 5der, 'خضر' != 'خدر'
+2020-02-18 19:23:49,284 - test_moroccan_words_logger - ERROR - Transliteration of 5der, 'خضر' != 'خدر'
 - خضر
 ?  ^
 + خدر
 ?  ^
 
-2020-02-18 03:15:21,131 - test_moroccan_words_logger - ERROR - Transliteration of Banafsaji, 'بنفسجي' != 'بانافساجي'
+2020-02-18 19:23:49,290 - test_moroccan_words_logger - ERROR - Transliteration of Banafsaji, 'بنفسجي' != 'بانافساجي'
 - بنفسجي
 + بانافساجي
 ?  + +  +
 
-2020-02-18 03:15:21,132 - test_moroccan_words_logger - ERROR - Transliteration of 7amd, 'حامض' != 'حامد'
+2020-02-18 19:23:49,292 - test_moroccan_words_logger - ERROR - Transliteration of 7amd, 'حامض' != 'حامد'
 - حامض
 ?    ^
 + حامد
 ?    ^
 
-2020-02-18 03:15:21,132 - test_moroccan_words_logger - ERROR - Transliteration of Nashit, 'نشيط' != 'ناشيت'
+2020-02-18 19:23:49,295 - test_moroccan_words_logger - ERROR - Transliteration of Nashit, 'نشيط' != 'ناشيت'
 - نشيط
 + ناشيت
 
-2020-02-18 03:15:21,133 - test_moroccan_words_logger - ERROR - Transliteration of Temma3, 'طماع' != 'تماع'
+2020-02-18 19:23:49,302 - test_moroccan_words_logger - ERROR - Transliteration of Temma3, 'طماع' != 'تماع'
 - طماع
 ? ^
 + تماع
 ? ^
 
-2020-02-18 03:15:21,134 - test_moroccan_words_logger - ERROR - Transliteration of Met2akked, 'متأكد' != 'متءاكد'
+2020-02-18 19:23:49,316 - test_moroccan_words_logger - ERROR - Transliteration of Met2akked, 'متأكد' != 'متءاكد'
 - متأكد
 ?   ^
 + متءاكد
 ?   ^^
 
-2020-02-18 03:15:21,135 - test_moroccan_words_logger - ERROR - Transliteration of Wade7, 'واضح' != 'وادح'
+2020-02-18 19:23:49,328 - test_moroccan_words_logger - ERROR - Transliteration of Wade7, 'واضح' != 'وادح'
 - واضح
 ?   ^
 + وادح
 ?   ^
 
-2020-02-18 03:15:21,136 - test_moroccan_words_logger - ERROR - Transliteration of 9asir, 'قصير' != 'قاسير'
+2020-02-18 19:23:49,337 - test_moroccan_words_logger - ERROR - Transliteration of 9asir, 'قصير' != 'قاسير'
 - قصير
 + قاسير
 
-2020-02-18 03:15:21,136 - test_moroccan_words_logger - ERROR - Transliteration of Tayeb, 'طايب' != 'تايب'
+2020-02-18 19:23:49,340 - test_moroccan_words_logger - ERROR - Transliteration of Tayeb, 'طايب' != 'تايب'
 - طايب
 ? ^
 + تايب
 ? ^
 
-2020-02-18 03:15:21,137 - test_moroccan_words_logger - ERROR - Transliteration of Khatir, 'خطير' != 'خاتير'
+2020-02-18 19:23:49,343 - test_moroccan_words_logger - ERROR - Transliteration of Khatir, 'خطير' != 'خاتير'
 - خطير
 + خاتير
 
-2020-02-18 03:15:21,138 - test_moroccan_words_logger - ERROR - Transliteration of mdye9, 'مضيق' != 'مديق'
+2020-02-18 19:23:49,364 - test_moroccan_words_logger - ERROR - Transliteration of mdye9, 'مضيق' != 'مديق'
 - مضيق
 ?  ^
 + مديق
 ?  ^
 
-2020-02-18 03:15:21,139 - test_moroccan_words_logger - ERROR - Transliteration of Daser, 'ضاسر' != 'داسر'
+2020-02-18 19:23:49,369 - test_moroccan_words_logger - ERROR - Transliteration of Daser, 'ضاسر' != 'داسر'
 - ضاسر
 ? ^
 + داسر
 ? ^
 
-2020-02-18 03:15:21,139 - test_moroccan_words_logger - ERROR - Transliteration of 3iyyan, 'عيان' != 'عييان'
+2020-02-18 19:23:49,373 - test_moroccan_words_logger - ERROR - Transliteration of 3iyyan, 'عيان' != 'عييان'
 - عيان
 + عييان
 ?  +
 
-2020-02-18 03:15:21,141 - test_moroccan_words_logger - ERROR - Transliteration of Drif, 'ضريف' != 'دريف'
+2020-02-18 19:23:49,386 - test_moroccan_words_logger - ERROR - Transliteration of Drif, 'ضريف' != 'دريف'
 - ضريف
 ? ^
 + دريف
 ? ^
 
-2020-02-18 03:15:21,142 - test_moroccan_words_logger - ERROR - Transliteration of Ghelid, 'غليض' != 'غليد'
+2020-02-18 19:23:49,390 - test_moroccan_words_logger - ERROR - Transliteration of Ghelid, 'غليض' != 'غليد'
 - غليض
 ?    ^
 + غليد
 ?    ^
 
-2020-02-18 03:15:21,143 - test_moroccan_words_logger - ERROR - Transliteration of msetti, 'مسطي' != 'مستي'
+2020-02-18 19:23:49,394 - test_moroccan_words_logger - ERROR - Transliteration of msetti, 'مسطي' != 'مستي'
 - مسطي
 ?   ^
 + مستي
 ?   ^
 
-2020-02-18 03:15:21,144 - test_moroccan_words_logger - ERROR - Transliteration of Mohim, 'مهم' != 'مهيم'
+2020-02-18 19:23:49,402 - test_moroccan_words_logger - ERROR - Transliteration of Mohim, 'مهم' != 'مهيم'
 - مهم
 + مهيم
 ?   +
 
-2020-02-18 03:15:21,145 - test_moroccan_words_logger - ERROR - Transliteration of Bari2, 'بريء' != 'باريء'
+2020-02-18 19:23:49,407 - test_moroccan_words_logger - ERROR - Transliteration of Bari2, 'بريء' != 'باريء'
 - بريء
 + باريء
 ?  +
 
-2020-02-18 03:15:21,146 - test_moroccan_words_logger - ERROR - Transliteration of 3erid, 'عريض' != 'عريد'
+2020-02-18 19:23:49,416 - test_moroccan_words_logger - ERROR - Transliteration of 3erid, 'عريض' != 'عريد'
 - عريض
 ?    ^
 + عريد
 ?    ^
 
-2020-02-18 03:15:21,147 - test_moroccan_words_logger - ERROR - Transliteration of Twil, 'طويل' != 'تويل'
+2020-02-18 19:23:49,423 - test_moroccan_words_logger - ERROR - Transliteration of Twil, 'طويل' != 'تويل'
 - طويل
 ? ^
 + تويل
 ? ^
 
-2020-02-18 03:15:21,148 - test_moroccan_words_logger - ERROR - Transliteration of Mrid, 'مريض' != 'مريد'
+2020-02-18 19:23:49,430 - test_moroccan_words_logger - ERROR - Transliteration of Mrid, 'مريض' != 'مريد'
 - مريض
 ?    ^
 + مريد
 ?    ^
 
-2020-02-18 03:15:21,149 - test_moroccan_words_logger - ERROR - Transliteration of M5ellet, 'مخلط' != 'مخلت'
+2020-02-18 19:23:49,435 - test_moroccan_words_logger - ERROR - Transliteration of M5ellet, 'مخلط' != 'مخلت'
 - مخلط
 ?    ^
 + مخلت
 ?    ^
 
-2020-02-18 03:15:21,149 - test_moroccan_words_logger - ERROR - Transliteration of 3esri, 'عصري' != 'عسري'
+2020-02-18 19:23:49,440 - test_moroccan_words_logger - ERROR - Transliteration of 3esri, 'عصري' != 'عسري'
 - عصري
 ?  ^
 + عسري
 ?  ^
 
-2020-02-18 03:15:21,150 - test_moroccan_words_logger - ERROR - Transliteration of Rteb, 'رطب' != 'رتب'
+2020-02-18 19:23:49,442 - test_moroccan_words_logger - ERROR - Transliteration of Rteb, 'رطب' != 'رتب'
 - رطب
 ?  ^
 + رتب
 ?  ^
 
-2020-02-18 03:15:21,150 - test_moroccan_words_logger - ERROR - Transliteration of Metwesset, 'متوسط' != 'متوصت'
+2020-02-18 19:23:49,449 - test_moroccan_words_logger - ERROR - Transliteration of Metwesset, 'متوسط' != 'متوصت'
 - متوسط
 + متوصت
 
-2020-02-18 03:15:21,151 - test_moroccan_words_logger - ERROR - Transliteration of Tabi3i, 'طبيعي' != 'تابيعي'
+2020-02-18 19:23:49,456 - test_moroccan_words_logger - ERROR - Transliteration of Tabi3i, 'طبيعي' != 'تابيعي'
 - طبيعي
 ? ^
 + تابيعي
 ? ^^
 
-2020-02-18 03:15:21,152 - test_moroccan_words_logger - ERROR - Transliteration of Darouri, 'ضروري' != 'داروري'
+2020-02-18 19:23:49,460 - test_moroccan_words_logger - ERROR - Transliteration of Darouri, 'ضروري' != 'داروري'
 - ضروري
 ? ^
 + داروري
 ? ^^
 
-2020-02-18 03:15:21,153 - test_moroccan_words_logger - ERROR - Transliteration of Sghir, 'صغير' != 'سغير'
+2020-02-18 19:23:49,475 - test_moroccan_words_logger - ERROR - Transliteration of Sghir, 'صغير' != 'سغير'
 - صغير
 ? ^
 + سغير
 ? ^
 
-2020-02-18 03:15:21,154 - test_moroccan_words_logger - ERROR - Transliteration of M2eddeb, 'مؤدب' != 'مءدب'
+2020-02-18 19:23:49,482 - test_moroccan_words_logger - ERROR - Transliteration of M2eddeb, 'مؤدب' != 'مءدب'
 - مؤدب
 ?  ^
 + مءدب
 ?  ^
 
-2020-02-18 03:15:21,156 - test_moroccan_words_logger - ERROR - Transliteration of Mo7taram, 'محترم' != 'محتارام'
+2020-02-18 19:23:49,498 - test_moroccan_words_logger - ERROR - Transliteration of Mo7taram, 'محترم' != 'محتارام'
 - محترم
 + محتارام
 ?    + +
 
-2020-02-18 03:15:21,157 - test_moroccan_words_logger - ERROR - Transliteration of Mossekh, 'موسخ' != 'مصخ'
+2020-02-18 19:23:49,505 - test_moroccan_words_logger - ERROR - Transliteration of Mossekh, 'موسخ' != 'مصخ'
 - موسخ
 + مصخ
 
-2020-02-18 03:15:21,158 - test_moroccan_words_logger - ERROR - Transliteration of 7essas, 'حساس' != 'حصاس'
+2020-02-18 19:23:49,512 - test_moroccan_words_logger - ERROR - Transliteration of 7essas, 'حساس' != 'حصاس'
 - حساس
 ?  ^
 + حصاس
 ?  ^
 
-2020-02-18 03:15:21,158 - test_moroccan_words_logger - ERROR - Transliteration of 9ase7, 'قاصح' != 'قاسح'
+2020-02-18 19:23:49,517 - test_moroccan_words_logger - ERROR - Transliteration of 9ase7, 'قاصح' != 'قاسح'
 - قاصح
 ?   ^
 + قاسح
 ?   ^
 
-2020-02-18 03:15:21,160 - test_moroccan_words_logger - ERROR - Transliteration of 7lo, 'حلو' != 'حل'
+2020-02-18 19:23:49,523 - test_moroccan_words_logger - ERROR - Transliteration of 7lo, 'حلو' != 'حل'
 - حلو
 ?   -
 + حل
 
-2020-02-18 03:15:21,160 - test_moroccan_words_logger - ERROR - Transliteration of M3ettel, 'معطل' != 'معتل'
+2020-02-18 19:23:49,526 - test_moroccan_words_logger - ERROR - Transliteration of M3ettel, 'معطل' != 'معتل'
 - معطل
 ?   ^
 + معتل
 ?   ^
 
-2020-02-18 03:15:21,161 - test_moroccan_words_logger - ERROR - Transliteration of 7achoumi, 'حشومي' != 'حاشومي'
+2020-02-18 19:23:49,533 - test_moroccan_words_logger - ERROR - Transliteration of 7achoumi, 'حشومي' != 'حاشومي'
 - حشومي
 + حاشومي
 ?  +
 
-2020-02-18 03:15:21,162 - test_moroccan_words_logger - ERROR - Transliteration of Madi, 'ماضي' != 'مادي'
+2020-02-18 19:23:49,538 - test_moroccan_words_logger - ERROR - Transliteration of Madi, 'ماضي' != 'مادي'
 - ماضي
 ?   ^
 + مادي
 ?   ^
 
-2020-02-18 03:15:21,162 - test_moroccan_words_logger - ERROR - Transliteration of sbitar, 'صبيطار' != 'سبيتار'
+2020-02-18 19:23:49,549 - test_moroccan_words_logger - ERROR - Transliteration of sbitar, 'صبيطار' != 'سبيتار'
 - صبيطار
 + سبيتار
 
-2020-02-18 03:15:21,163 - test_moroccan_words_logger - ERROR - Transliteration of pikala, 'بيكالة' != 'پيكالا'
+2020-02-18 19:23:49,552 - test_moroccan_words_logger - ERROR - Transliteration of pikala, 'بيكالة' != 'پيكالا'
 - بيكالة
 + پيكالا
 
-2020-02-18 03:15:21,163 - test_moroccan_words_logger - ERROR - Transliteration of tomobil, 'طوموبيل' != 'تمبيل'
+2020-02-18 19:23:49,556 - test_moroccan_words_logger - ERROR - Transliteration of tomobil, 'طوموبيل' != 'تمبيل'
 - طوموبيل
 + تمبيل
 
-2020-02-18 03:15:21,163 - test_moroccan_words_logger - ERROR - Transliteration of pici, 'بيسي' != 'پيكي'
+2020-02-18 19:23:49,559 - test_moroccan_words_logger - ERROR - Transliteration of pici, 'بيسي' != 'پيكي'
 - بيسي
 + پيكي
 
-2020-02-18 03:15:21,164 - test_moroccan_words_logger - ERROR - Transliteration of boula, 'بولة' != 'بولا'
+2020-02-18 19:23:49,562 - test_moroccan_words_logger - ERROR - Transliteration of boula, 'بولة' != 'بولا'
 - بولة
 ?    ^
 + بولا
 ?    ^
 
-2020-02-18 03:15:21,164 - test_moroccan_words_logger - ERROR - Transliteration of 9ach 9achd, 'قاشقاش' != 'قاش قاشد'
+2020-02-18 19:23:49,566 - test_moroccan_words_logger - ERROR - Transliteration of 9ach 9achd, 'قاشقاش' != 'قاش قاشد'
 - قاشقاش
 + قاش قاشد
 ?    +   +
 
-2020-02-18 03:15:21,165 - test_moroccan_words_logger - ERROR - Transliteration of 3attach, 'عطاش' != 'عاتاش'
+2020-02-18 19:23:49,569 - test_moroccan_words_logger - ERROR - Transliteration of 3attach, 'عطاش' != 'عاتاش'
 - عطاش
 + عاتاش
 
-2020-02-18 03:15:21,166 - test_moroccan_words_logger - ERROR - Transliteration of arre, 'اري' != 'ار'
+2020-02-18 19:23:49,571 - test_moroccan_words_logger - ERROR - Transliteration of arre, 'اري' != 'ار'
 - اري
 ?   -
 + ار
 
-2020-02-18 03:15:21,166 - test_moroccan_words_logger - ERROR - Transliteration of Atansiou, 'اطانسيو' != 'اتانسيو'
+2020-02-18 19:23:49,575 - test_moroccan_words_logger - ERROR - Transliteration of Atansiou, 'اطانسيو' != 'اتانسيو'
 - اطانسيو
 ?  ^
 + اتانسيو
 ?  ^
 
-2020-02-18 03:15:21,167 - test_moroccan_words_logger - ERROR - Transliteration of Babor, 'بابور' != 'بابر'
+2020-02-18 19:23:49,578 - test_moroccan_words_logger - ERROR - Transliteration of Babor, 'بابور' != 'بابر'
 - بابور
 ?    -
 + بابر
 
-2020-02-18 03:15:21,167 - test_moroccan_words_logger - ERROR - Transliteration of Baguitta, 'باكيطا' != 'باڭويتا'
+2020-02-18 19:23:49,582 - test_moroccan_words_logger - ERROR - Transliteration of Baguitta, 'باكيطا' != 'باڭويتا'
 - باكيطا
 + باڭويتا
 
-2020-02-18 03:15:21,168 - test_moroccan_words_logger - ERROR - Transliteration of Bakiya, 'باكية' != 'باكييا'
+2020-02-18 19:23:49,586 - test_moroccan_words_logger - ERROR - Transliteration of Bakiya, 'باكية' != 'باكييا'
 - باكية
 ?     ^
 + باكييا
 ?     ^^
 
-2020-02-18 03:15:21,168 - test_moroccan_words_logger - ERROR - Transliteration of Balcone, 'بالكون' != 'بالكن'
+2020-02-18 19:23:49,589 - test_moroccan_words_logger - ERROR - Transliteration of Balcone, 'بالكون' != 'بالكن'
 - بالكون
 ?     -
 + بالكن
 
-2020-02-18 03:15:21,169 - test_moroccan_words_logger - ERROR - Transliteration of Ballone, 'بالون' != 'بالن'
+2020-02-18 19:23:49,594 - test_moroccan_words_logger - ERROR - Transliteration of Ballone, 'بالون' != 'بالن'
 - بالون
 ?    -
 + بالن
 
-2020-02-18 03:15:21,169 - test_moroccan_words_logger - ERROR - Transliteration of Batroune, 'باطرون' != 'باترون'
+2020-02-18 19:23:49,598 - test_moroccan_words_logger - ERROR - Transliteration of Batroune, 'باطرون' != 'باترون'
 - باطرون
 ?   ^
 + باترون
 ?   ^
 
-2020-02-18 03:15:21,170 - test_moroccan_words_logger - ERROR - Transliteration of bermassioun, 'برمسبون' != 'برماصيون'
+2020-02-18 19:23:49,603 - test_moroccan_words_logger - ERROR - Transliteration of bermassioun, 'برمسبون' != 'برماصيون'
 - برمسبون
 + برماصيون
 
-2020-02-18 03:15:21,170 - test_moroccan_words_logger - ERROR - Transliteration of Befane, 'بيفان' != 'بفان'
+2020-02-18 19:23:49,605 - test_moroccan_words_logger - ERROR - Transliteration of Befane, 'بيفان' != 'بفان'
 - بيفان
 ?  -
 + بفان
 
-2020-02-18 03:15:21,171 - test_moroccan_words_logger - ERROR - Transliteration of Bikoup, 'بيكوب' != 'بيكوپ'
+2020-02-18 19:23:49,609 - test_moroccan_words_logger - ERROR - Transliteration of Bikoup, 'بيكوب' != 'بيكوپ'
 - بيكوب
 ?     ^
 + بيكوپ
 ?     ^
 
-2020-02-18 03:15:21,171 - test_moroccan_words_logger - ERROR - Transliteration of Barwita, 'برويطة' != 'بارويتا'
+2020-02-18 19:23:49,613 - test_moroccan_words_logger - ERROR - Transliteration of Barwita, 'برويطة' != 'بارويتا'
 - برويطة
 + بارويتا
 
-2020-02-18 03:15:21,172 - test_moroccan_words_logger - ERROR - Transliteration of Baspour, 'باسبور' != 'باسپور'
+2020-02-18 19:23:49,617 - test_moroccan_words_logger - ERROR - Transliteration of Baspour, 'باسبور' != 'باسپور'
 - باسبور
 ?    ^
 + باسپور
 ?    ^
 
-2020-02-18 03:15:21,172 - test_moroccan_words_logger - ERROR - Transliteration of Bataillou, 'باطايو' != 'باتايلو'
+2020-02-18 19:23:49,622 - test_moroccan_words_logger - ERROR - Transliteration of Bataillou, 'باطايو' != 'باتايلو'
 - باطايو
 ?   ^
 + باتايلو
 ?   ^  +
 
-2020-02-18 03:15:21,173 - test_moroccan_words_logger - ERROR - Transliteration of Batema, 'باطيمة' != 'باتما'
+2020-02-18 19:23:49,625 - test_moroccan_words_logger - ERROR - Transliteration of Batema, 'باطيمة' != 'باتما'
 - باطيمة
 + باتما
 
-2020-02-18 03:15:21,174 - test_moroccan_words_logger - ERROR - Transliteration of Barabole, 'بارابول' != 'بارابل'
+2020-02-18 19:23:49,631 - test_moroccan_words_logger - ERROR - Transliteration of Barabole, 'بارابول' != 'بارابل'
 - بارابول
 ?      -
 + بارابل
 
-2020-02-18 03:15:21,174 - test_moroccan_words_logger - ERROR - Transliteration of Barbrise, 'باربرز' != 'باربريس'
+2020-02-18 19:23:49,635 - test_moroccan_words_logger - ERROR - Transliteration of Barbrise, 'باربرز' != 'باربريس'
 - باربرز
 ?      ^
 + باربريس
 ?      ^^
 
-2020-02-18 03:15:21,175 - test_moroccan_words_logger - ERROR - Transliteration of Bart9iz, 'بارطقيز' != 'بارتقيز'
+2020-02-18 19:23:49,646 - test_moroccan_words_logger - ERROR - Transliteration of Bart9iz, 'بارطقيز' != 'بارتقيز'
 - بارطقيز
 ?    ^
 + بارتقيز
 ?    ^
 
-2020-02-18 03:15:21,176 - test_moroccan_words_logger - ERROR - Transliteration of Biassa, 'بياسا' != 'بياصا'
+2020-02-18 19:23:49,655 - test_moroccan_words_logger - ERROR - Transliteration of Biassa, 'بياسا' != 'بياصا'
 - بياسا
 ?    ^
 + بياصا
 ?    ^
 
-2020-02-18 03:15:21,176 - test_moroccan_words_logger - ERROR - Transliteration of fabor, 'فابور' != 'فابر'
+2020-02-18 19:23:49,658 - test_moroccan_words_logger - ERROR - Transliteration of fabor, 'فابور' != 'فابر'
 - فابور
 ?    -
 + فابر
 
-2020-02-18 03:15:21,177 - test_moroccan_words_logger - ERROR - Transliteration of Bichklita, 'بيشكليطة' != 'بيشكليتا'
+2020-02-18 19:23:49,664 - test_moroccan_words_logger - ERROR - Transliteration of Bichklita, 'بيشكليطة' != 'بيشكليتا'
 - بيشكليطة
 ?       ^^
 + بيشكليتا
 ?       ^^
 
-2020-02-18 03:15:21,178 - test_moroccan_words_logger - ERROR - Transliteration of Bitagaz, 'بيطاغاز' != 'بيتاڭاز'
+2020-02-18 19:23:49,680 - test_moroccan_words_logger - ERROR - Transliteration of Bitagaz, 'بيطاغاز' != 'بيتاڭاز'
 - بيطاغاز
 ?   ^ ^
 + بيتاڭاز
 ?   ^ ^
 
-2020-02-18 03:15:21,179 - test_moroccan_words_logger - ERROR - Transliteration of Blassa, 'بلاصة' != 'بلاصا'
+2020-02-18 19:23:49,687 - test_moroccan_words_logger - ERROR - Transliteration of Blassa, 'بلاصة' != 'بلاصا'
 - بلاصة
 ?     ^
 + بلاصا
 ?     ^
 
-2020-02-18 03:15:21,179 - test_moroccan_words_logger - ERROR - Transliteration of Blindi, 'بلاندي' != 'بليندي'
+2020-02-18 19:23:49,691 - test_moroccan_words_logger - ERROR - Transliteration of Blindi, 'بلاندي' != 'بليندي'
 - بلاندي
 ?   ^
 + بليندي
 ?   ^
 
-2020-02-18 03:15:21,180 - test_moroccan_words_logger - ERROR - Transliteration of Blombi, 'بلومبي' != 'بلمبي'
+2020-02-18 19:23:49,695 - test_moroccan_words_logger - ERROR - Transliteration of Blombi, 'بلومبي' != 'بلمبي'
 - بلومبي
 ?   -
 + بلمبي
 
-2020-02-18 03:15:21,181 - test_moroccan_words_logger - ERROR - Transliteration of Blousa, 'بلوزا' != 'بلوسا'
+2020-02-18 19:23:49,698 - test_moroccan_words_logger - ERROR - Transliteration of Blousa, 'بلوزا' != 'بلوسا'
 - بلوزا
 ?    ^
 + بلوسا
 ?    ^
 
-2020-02-18 03:15:21,181 - test_moroccan_words_logger - ERROR - Transliteration of bogoss, 'بوكوص' != 'بڭص'
+2020-02-18 19:23:49,702 - test_moroccan_words_logger - ERROR - Transliteration of bogoss, 'بوكوص' != 'بڭص'
 - بوكوص
 + بڭص
 
-2020-02-18 03:15:21,182 - test_moroccan_words_logger - ERROR - Transliteration of Boita, 'بواطة' != 'بيتا'
+2020-02-18 19:23:49,705 - test_moroccan_words_logger - ERROR - Transliteration of Boita, 'بواطة' != 'بيتا'
 - بواطة
 + بيتا
 
-2020-02-18 03:15:21,182 - test_moroccan_words_logger - ERROR - Transliteration of Bombiya, 'بومبيا' != 'بمبييا'
+2020-02-18 19:23:49,708 - test_moroccan_words_logger - ERROR - Transliteration of Bombiya, 'بومبيا' != 'بمبييا'
 - بومبيا
 ?  -
 + بمبييا
 ?     +
 
-2020-02-18 03:15:21,183 - test_moroccan_words_logger - ERROR - Transliteration of bonokasio, 'بونوكازيو' != 'بنكاسي'
+2020-02-18 19:23:49,712 - test_moroccan_words_logger - ERROR - Transliteration of bonokasio, 'بونوكازيو' != 'بنكاسي'
 - بونوكازيو
 + بنكاسي
 
-2020-02-18 03:15:21,183 - test_moroccan_words_logger - ERROR - Transliteration of Botona, 'بوطونة' != 'بتنا'
+2020-02-18 19:23:49,715 - test_moroccan_words_logger - ERROR - Transliteration of Botona, 'بوطونة' != 'بتنا'
 - بوطونة
 + بتنا
 
-2020-02-18 03:15:21,184 - test_moroccan_words_logger - ERROR - Transliteration of Boudra, 'بودرة' != 'بودرا'
+2020-02-18 19:23:49,718 - test_moroccan_words_logger - ERROR - Transliteration of Boudra, 'بودرة' != 'بودرا'
 - بودرة
 ?     ^
 + بودرا
 ?     ^
 
-2020-02-18 03:15:21,184 - test_moroccan_words_logger - ERROR - Transliteration of Boussa, 'بوسة' != 'بوصا'
+2020-02-18 19:23:49,721 - test_moroccan_words_logger - ERROR - Transliteration of Boussa, 'بوسة' != 'بوصا'
 - بوسة
 + بوصا
 
-2020-02-18 03:15:21,185 - test_moroccan_words_logger - ERROR - Transliteration of Boulice, 'بوليس' != 'بوليك'
+2020-02-18 19:23:49,728 - test_moroccan_words_logger - ERROR - Transliteration of Boulice, 'بوليس' != 'بوليك'
 - بوليس
 ?     ^
 + بوليك
 ?     ^
 
-2020-02-18 03:15:21,186 - test_moroccan_words_logger - ERROR - Transliteration of Boulissi, 'بوليسي' != 'بوليصي'
+2020-02-18 19:23:49,731 - test_moroccan_words_logger - ERROR - Transliteration of Boulissi, 'بوليسي' != 'بوليصي'
 - بوليسي
 ?     ^
 + بوليصي
 ?     ^
 
-2020-02-18 03:15:21,187 - test_moroccan_words_logger - ERROR - Transliteration of Brossi, 'بروصي' != 'برصي'
+2020-02-18 19:23:49,736 - test_moroccan_words_logger - ERROR - Transliteration of Brossi, 'بروصي' != 'برصي'
 - بروصي
 ?   -
 + برصي
 
-2020-02-18 03:15:21,188 - test_moroccan_words_logger - ERROR - Transliteration of Broblime, 'بروبليم' != 'بربليم'
+2020-02-18 19:23:49,750 - test_moroccan_words_logger - ERROR - Transliteration of Broblime, 'بروبليم' != 'بربليم'
 - بروبليم
 ?   -
 + بربليم
 
-2020-02-18 03:15:21,189 - test_moroccan_words_logger - ERROR - Transliteration of Canappi, 'كانابي' != 'كاناپي'
+2020-02-18 19:23:49,759 - test_moroccan_words_logger - ERROR - Transliteration of Canappi, 'كانابي' != 'كاناپي'
 - كانابي
 ?     ^
 + كاناپي
 ?     ^
 
-2020-02-18 03:15:21,190 - test_moroccan_words_logger - ERROR - Transliteration of Cartonna, 'كارطونة' != 'كارتنا'
+2020-02-18 19:23:49,773 - test_moroccan_words_logger - ERROR - Transliteration of Cartonna, 'كارطونة' != 'كارتنا'
 - كارطونة
 + كارتنا
 
-2020-02-18 03:15:21,190 - test_moroccan_words_logger - ERROR - Transliteration of Cassecrotte, 'كاسكروط' != 'كاصكرت'
+2020-02-18 19:23:49,780 - test_moroccan_words_logger - ERROR - Transliteration of Cassecrotte, 'كاسكروط' != 'كاصكرت'
 - كاسكروط
 + كاصكرت
 
-2020-02-18 03:15:21,191 - test_moroccan_words_logger - ERROR - Transliteration of Casserona, 'كاسرونة' != 'كاصرنا'
+2020-02-18 19:23:49,784 - test_moroccan_words_logger - ERROR - Transliteration of Casserona, 'كاسرونة' != 'كاصرنا'
 - كاسرونة
 + كاصرنا
 
-2020-02-18 03:15:21,191 - test_moroccan_words_logger - ERROR - Transliteration of Cassetat, 'كاسيطات' != 'كاصتات'
+2020-02-18 19:23:49,788 - test_moroccan_words_logger - ERROR - Transliteration of Cassetat, 'كاسيطات' != 'كاصتات'
 - كاسيطات
 + كاصتات
 
-2020-02-18 03:15:21,192 - test_moroccan_words_logger - ERROR - Transliteration of Certafika, 'سرتافيكا' != 'كرتافيكا'
+2020-02-18 19:23:49,793 - test_moroccan_words_logger - ERROR - Transliteration of Certafika, 'سرتافيكا' != 'كرتافيكا'
 - سرتافيكا
 ? ^
 + كرتافيكا
 ? ^
 
-2020-02-18 03:15:21,193 - test_moroccan_words_logger - ERROR - Transliteration of champpane, 'شامبان' != 'شامپان'
+2020-02-18 19:23:49,797 - test_moroccan_words_logger - ERROR - Transliteration of champpane, 'شامبان' != 'شامپان'
 - شامبان
 ?    ^
 + شامپان
 ?    ^
 
-2020-02-18 03:15:21,193 - test_moroccan_words_logger - ERROR - Transliteration of Chanteyyo, 'شانتيو' != 'شانتي'
+2020-02-18 19:23:49,801 - test_moroccan_words_logger - ERROR - Transliteration of Chanteyyo, 'شانتيو' != 'شانتي'
 - شانتيو
 ?      -
 + شانتي
 
-2020-02-18 03:15:21,194 - test_moroccan_words_logger - ERROR - Transliteration of Chauffage, 'شوفاج' != 'شاوفاڭ'
+2020-02-18 19:23:49,809 - test_moroccan_words_logger - ERROR - Transliteration of Chauffage, 'شوفاج' != 'شاوفاڭ'
 - شوفاج
 ?     ^
 + شاوفاڭ
 ?  +   ^
 
-2020-02-18 03:15:21,194 - test_moroccan_words_logger - ERROR - Transliteration of coiffoura, 'كوافورا' != 'كيفورا'
+2020-02-18 19:23:49,812 - test_moroccan_words_logger - ERROR - Transliteration of coiffoura, 'كوافورا' != 'كيفورا'
 - كوافورا
 ?  ^^
 + كيفورا
 ?  ^
 
-2020-02-18 03:15:21,195 - test_moroccan_words_logger - ERROR - Transliteration of Cidi, 'سيدي' != 'كيدي'
+2020-02-18 19:23:49,815 - test_moroccan_words_logger - ERROR - Transliteration of Cidi, 'سيدي' != 'كيدي'
 - سيدي
 ? ^
 + كيدي
 ? ^
 
-2020-02-18 03:15:21,195 - test_moroccan_words_logger - ERROR - Transliteration of cima, 'سيما' != 'كيما'
+2020-02-18 19:23:49,817 - test_moroccan_words_logger - ERROR - Transliteration of cima, 'سيما' != 'كيما'
 - سيما
 ? ^
 + كيما
 ? ^
 
-2020-02-18 03:15:21,196 - test_moroccan_words_logger - ERROR - Transliteration of Chifor, 'شيفور' != 'شيفر'
+2020-02-18 19:23:49,820 - test_moroccan_words_logger - ERROR - Transliteration of Chifor, 'شيفور' != 'شيفر'
 - شيفور
 ?    -
 + شيفر
 
-2020-02-18 03:15:21,197 - test_moroccan_words_logger - ERROR - Transliteration of Chiniwi, 'شينوي' != 'شينيوي'
+2020-02-18 19:23:49,825 - test_moroccan_words_logger - ERROR - Transliteration of Chiniwi, 'شينوي' != 'شينيوي'
 - شينوي
 + شينيوي
 ?    +
 
-2020-02-18 03:15:21,197 - test_moroccan_words_logger - ERROR - Transliteration of Chklat, 'شكلاط' != 'شكلات'
+2020-02-18 19:23:49,829 - test_moroccan_words_logger - ERROR - Transliteration of Chklat, 'شكلاط' != 'شكلات'
 - شكلاط
 ?     ^
 + شكلات
 ?     ^
 
-2020-02-18 03:15:21,197 - test_moroccan_words_logger - ERROR - Transliteration of Chlada, 'شلاضة' != 'شلادا'
+2020-02-18 19:23:49,832 - test_moroccan_words_logger - ERROR - Transliteration of Chlada, 'شلاضة' != 'شلادا'
 - شلاضة
 + شلادا
 
-2020-02-18 03:15:21,198 - test_moroccan_words_logger - ERROR - Transliteration of Chofo, 'شوفو' != 'شف'
+2020-02-18 19:23:49,834 - test_moroccan_words_logger - ERROR - Transliteration of Chofo, 'شوفو' != 'شف'
 - شوفو
 ?  - -
 + شف
 
-2020-02-18 03:15:21,199 - test_moroccan_words_logger - ERROR - Transliteration of Tkonnecta, 'تكونكطا' != 'تكنكتا'
+2020-02-18 19:23:49,844 - test_moroccan_words_logger - ERROR - Transliteration of Tkonnecta, 'تكونكطا' != 'تكنكتا'
 - تكونكطا
 ?   -  ^
 + تكنكتا
 ?     ^
 
-2020-02-18 03:15:21,200 - test_moroccan_words_logger - ERROR - Transliteration of Tobiss, 'طوبيس' != 'تبيص'
+2020-02-18 19:23:49,846 - test_moroccan_words_logger - ERROR - Transliteration of Tobiss, 'طوبيس' != 'تبيص'
 - طوبيس
 + تبيص
 
-2020-02-18 03:15:21,200 - test_moroccan_words_logger - ERROR - Transliteration of Tola, 'طولة' != 'تلا'
+2020-02-18 19:23:49,848 - test_moroccan_words_logger - ERROR - Transliteration of Tola, 'طولة' != 'تلا'
 - طولة
 + تلا
 
-2020-02-18 03:15:21,201 - test_moroccan_words_logger - ERROR - Transliteration of Tolanti, 'طولانطي' != 'تلانتي'
+2020-02-18 19:23:49,852 - test_moroccan_words_logger - ERROR - Transliteration of Tolanti, 'طولانطي' != 'تلانتي'
 - طولانطي
 + تلانتي
 
-2020-02-18 03:15:21,202 - test_moroccan_words_logger - ERROR - Transliteration of Tonobile, 'طونوبيل' != 'تنبيل'
+2020-02-18 19:23:49,855 - test_moroccan_words_logger - ERROR - Transliteration of Tonobile, 'طونوبيل' != 'تنبيل'
 - طونوبيل
 + تنبيل
 
-2020-02-18 03:15:21,202 - test_moroccan_words_logger - ERROR - Transliteration of torizatio, 'طوريزاسيو' != 'تريزاتي'
+2020-02-18 19:23:49,860 - test_moroccan_words_logger - ERROR - Transliteration of torizatio, 'طوريزاسيو' != 'تريزاتي'
 - طوريزاسيو
 + تريزاتي
 
-2020-02-18 03:15:21,203 - test_moroccan_words_logger - ERROR - Transliteration of Traboblik, 'طرابوبليك' != 'تراببليك'
+2020-02-18 19:23:49,867 - test_moroccan_words_logger - ERROR - Transliteration of Traboblik, 'طرابوبليك' != 'تراببليك'
 - طرابوبليك
 ? ^   -
 + تراببليك
 ? ^
 
-2020-02-18 03:15:21,204 - test_moroccan_words_logger - ERROR - Transliteration of trakss, 'طراكس' != 'تراكص'
+2020-02-18 19:23:49,870 - test_moroccan_words_logger - ERROR - Transliteration of trakss, 'طراكس' != 'تراكص'
 - طراكس
 + تراكص
 
-2020-02-18 03:15:21,204 - test_moroccan_words_logger - ERROR - Transliteration of Zmagri, 'زماكري' != 'زماڭري'
+2020-02-18 19:23:49,876 - test_moroccan_words_logger - ERROR - Transliteration of Zmagri, 'زماكري' != 'زماڭري'
 - زماكري
 ?    ^
 + زماڭري
 ?    ^
 
-2020-02-18 03:15:21,205 - test_moroccan_words_logger - ERROR - Transliteration of Zmagria, 'زماكريا' != 'زماڭريا'
+2020-02-18 19:23:49,881 - test_moroccan_words_logger - ERROR - Transliteration of Zmagria, 'زماكريا' != 'زماڭريا'
 - زماكريا
 ?    ^
 + زماڭريا
 ?    ^
 
-2020-02-18 03:15:21,206 - test_moroccan_words_logger - ERROR - Transliteration of Tricinti, 'نريسينتي' != 'تريكينتي'
+2020-02-18 19:23:49,887 - test_moroccan_words_logger - ERROR - Transliteration of Tricinti, 'نريسينتي' != 'تريكينتي'
 - نريسينتي
 ? ^  ^
 + تريكينتي
 ? ^  ^
 
-2020-02-18 03:15:21,207 - test_moroccan_words_logger - ERROR - Transliteration of Triciyanne, 'تريسيان' != 'تريكييان'
+2020-02-18 19:23:49,892 - test_moroccan_words_logger - ERROR - Transliteration of Triciyanne, 'تريسيان' != 'تريكييان'
 - تريسيان
 ?    ^
 + تريكييان
 ?    ^^
 
-2020-02-18 03:15:21,208 - test_moroccan_words_logger - ERROR - Transliteration of wiskiyya, 'ويسكيا' != 'ويسكييا'
+2020-02-18 19:23:49,910 - test_moroccan_words_logger - ERROR - Transliteration of wiskiyya, 'ويسكيا' != 'ويسكييا'
 - ويسكيا
 + ويسكييا
 ?      +
 
-2020-02-18 03:15:21,208 - test_moroccan_words_logger - ERROR - Transliteration of Xciri, 'كسيري' != 'كزكيري'
+2020-02-18 19:23:49,913 - test_moroccan_words_logger - ERROR - Transliteration of Xciri, 'كسيري' != 'كزكيري'
 - كسيري
 ?  ^
 + كزكيري
 ?  ^^
 
-2020-02-18 03:15:21,209 - test_moroccan_words_logger - ERROR - Transliteration of zina, 'زينة' != 'زينا'
+2020-02-18 19:23:49,916 - test_moroccan_words_logger - ERROR - Transliteration of zina, 'زينة' != 'زينا'
 - زينة
 ?    ^
 + زينا
 ?    ^
 
-2020-02-18 03:15:21,210 - test_moroccan_words_logger - ERROR - Transliteration of Conta, 'كونطا' != 'كنتا'
+2020-02-18 19:23:49,918 - test_moroccan_words_logger - ERROR - Transliteration of Conta, 'كونطا' != 'كنتا'
 - كونطا
 + كنتا
 
-2020-02-18 03:15:21,210 - test_moroccan_words_logger - ERROR - Transliteration of Contable, 'كونطابل' != 'كنتابل'
+2020-02-18 19:23:49,922 - test_moroccan_words_logger - ERROR - Transliteration of Contable, 'كونطابل' != 'كنتابل'
 - كونطابل
 ?  - ^
 + كنتابل
 ?   ^
 
-2020-02-18 03:15:21,210 - test_moroccan_words_logger - ERROR - Transliteration of Contrada, 'كونطرادا' != 'كنترادا'
+2020-02-18 19:23:49,927 - test_moroccan_words_logger - ERROR - Transliteration of Contrada, 'كونطرادا' != 'كنترادا'
 - كونطرادا
 ?  - ^
 + كنترادا
 ?   ^
 
-2020-02-18 03:15:21,211 - test_moroccan_words_logger - ERROR - Transliteration of Contour, 'كونتور' != 'كنتور'
+2020-02-18 19:23:49,930 - test_moroccan_words_logger - ERROR - Transliteration of Contour, 'كونتور' != 'كنتور'
 - كونتور
 ?  -
 + كنتور
 
-2020-02-18 03:15:21,211 - test_moroccan_words_logger - ERROR - Transliteration of Controlour, 'كونطرولور' != 'كنترلور'
+2020-02-18 19:23:49,934 - test_moroccan_words_logger - ERROR - Transliteration of Controlour, 'كونطرولور' != 'كنترلور'
 - كونطرولور
 ?  - ^ -
 + كنترلور
 ?   ^
 
-2020-02-18 03:15:21,212 - test_moroccan_words_logger - ERROR - Transliteration of Corsa, 'كورسا' != 'كرسا'
+2020-02-18 19:23:49,937 - test_moroccan_words_logger - ERROR - Transliteration of Corsa, 'كورسا' != 'كرسا'
 - كورسا
 ?  -
 + كرسا
 
-2020-02-18 03:15:21,212 - test_moroccan_words_logger - ERROR - Transliteration of Costa, 'كوصطا' != 'كستا'
+2020-02-18 19:23:49,940 - test_moroccan_words_logger - ERROR - Transliteration of Costa, 'كوصطا' != 'كستا'
 - كوصطا
 + كستا
 
-2020-02-18 03:15:21,213 - test_moroccan_words_logger - ERROR - Transliteration of Coulandere, 'كولاندير' != 'كولاندر'
+2020-02-18 19:23:49,948 - test_moroccan_words_logger - ERROR - Transliteration of Coulandere, 'كولاندير' != 'كولاندر'
 - كولاندير
 ?       -
 + كولاندر
 
-2020-02-18 03:15:21,213 - test_moroccan_words_logger - ERROR - Transliteration of Coumissire, 'كوميسير' != 'كوميصير'
+2020-02-18 19:23:49,952 - test_moroccan_words_logger - ERROR - Transliteration of Coumissire, 'كوميسير' != 'كوميصير'
 - كوميسير
 ?     ^
 + كوميصير
 ?     ^
 
-2020-02-18 03:15:21,213 - test_moroccan_words_logger - ERROR - Transliteration of Coumissiyou, 'كوميسيو' != 'كوميصييو'
+2020-02-18 19:23:49,957 - test_moroccan_words_logger - ERROR - Transliteration of Coumissiyou, 'كوميسيو' != 'كوميصييو'
 - كوميسيو
 ?     ^
 + كوميصييو
 ?     ^^
 
-2020-02-18 03:15:21,215 - test_moroccan_words_logger - ERROR - Transliteration of Cryone, 'كريون' != 'كرين'
+2020-02-18 19:23:49,970 - test_moroccan_words_logger - ERROR - Transliteration of Cryone, 'كريون' != 'كرين'
 - كريون
 ?    -
 + كرين
 
-2020-02-18 03:15:21,215 - test_moroccan_words_logger - ERROR - Transliteration of dipanaj, 'ديباناج' != 'ديپاناج'
+2020-02-18 19:23:49,978 - test_moroccan_words_logger - ERROR - Transliteration of dipanaj, 'ديباناج' != 'ديپاناج'
 - ديباناج
 ?   ^
 + ديپاناج
 ?   ^
 
-2020-02-18 03:15:21,216 - test_moroccan_words_logger - ERROR - Transliteration of directour, 'ديريكتور' != 'ديركتور'
+2020-02-18 19:23:49,982 - test_moroccan_words_logger - ERROR - Transliteration of directour, 'ديريكتور' != 'ديركتور'
 - ديريكتور
 ?    -
 + ديركتور
 
-2020-02-18 03:15:21,217 - test_moroccan_words_logger - ERROR - Transliteration of Dissire, 'ديسير' != 'ديصير'
+2020-02-18 19:23:49,985 - test_moroccan_words_logger - ERROR - Transliteration of Dissire, 'ديسير' != 'ديصير'
 - ديسير
 ?   ^
 + ديصير
 ?   ^
 
-2020-02-18 03:15:21,217 - test_moroccan_words_logger - ERROR - Transliteration of ditay, 'ديطاي' != 'ديتاي'
+2020-02-18 19:23:49,989 - test_moroccan_words_logger - ERROR - Transliteration of ditay, 'ديطاي' != 'ديتاي'
 - ديطاي
 ?   ^
 + ديتاي
 ?   ^
 
-2020-02-18 03:15:21,219 - test_moroccan_words_logger - ERROR - Transliteration of Dossé, 'دوسي' != 'دص'
+2020-02-18 19:23:49,994 - test_moroccan_words_logger - ERROR - Transliteration of Dossé, 'دوسي' != 'دص'
 - دوسي
 + دص
 
-2020-02-18 03:15:21,220 - test_moroccan_words_logger - ERROR - Transliteration of Douachche, 'دواش' != 'دواشش'
+2020-02-18 19:23:49,997 - test_moroccan_words_logger - ERROR - Transliteration of Douachche, 'دواش' != 'دواشش'
 - دواش
 + دواشش
 ?     +
 
-2020-02-18 03:15:21,221 - test_moroccan_words_logger - ERROR - Transliteration of Doublvi, 'دوبلفي' != 'دوبلڤي'
+2020-02-18 19:23:50,001 - test_moroccan_words_logger - ERROR - Transliteration of Doublvi, 'دوبلفي' != 'دوبلڤي'
 - دوبلفي
 ?     ^
 + دوبلڤي
 ?     ^
 
-2020-02-18 03:15:21,221 - test_moroccan_words_logger - ERROR - Transliteration of elgaraj, 'الكراج' != 'الڭاراج'
+2020-02-18 19:23:50,005 - test_moroccan_words_logger - ERROR - Transliteration of elgaraj, 'الكراج' != 'الڭاراج'
 - الكراج
 ?   ^
 + الڭاراج
 ?   ^^
 
-2020-02-18 03:15:21,222 - test_moroccan_words_logger - ERROR - Transliteration of Douzyam mitta , 'دوزياميطا' != 'دوزيام ميتا'
+2020-02-18 19:23:50,011 - test_moroccan_words_logger - ERROR - Transliteration of Douzyam mitta , 'دوزياميطا' != 'دوزيام ميتا'
 - دوزياميطا
 ?        ^
 + دوزيام ميتا
 ?       ++ ^
 
-2020-02-18 03:15:21,223 - test_moroccan_words_logger - ERROR - Transliteration of digri, 'ديكري' != 'ديڭري'
+2020-02-18 19:23:50,015 - test_moroccan_words_logger - ERROR - Transliteration of digri, 'ديكري' != 'ديڭري'
 - ديكري
 ?   ^
 + ديڭري
 ?   ^
 
-2020-02-18 03:15:21,224 - test_moroccan_words_logger - ERROR - Transliteration of darb, 'ديميردي' != 'دارب'
+2020-02-18 19:23:50,017 - test_moroccan_words_logger - ERROR - Transliteration of darb, 'ديميردي' != 'دارب'
 - ديميردي
 + دارب
 
-2020-02-18 03:15:21,225 - test_moroccan_words_logger - ERROR - Transliteration of Digage, 'ديكاج' != 'ديڭاڭ'
+2020-02-18 19:23:50,023 - test_moroccan_words_logger - ERROR - Transliteration of Digage, 'ديكاج' != 'ديڭاڭ'
 - ديكاج
 + ديڭاڭ
 
-2020-02-18 03:15:21,225 - test_moroccan_words_logger - ERROR - Transliteration of Fabor, 'فابور' != 'فابر'
+2020-02-18 19:23:50,025 - test_moroccan_words_logger - ERROR - Transliteration of Fabor, 'فابور' != 'فابر'
 - فابور
 ?    -
 + فابر
 
-2020-02-18 03:15:21,226 - test_moroccan_words_logger - ERROR - Transliteration of Factoura, 'فاكتورة' != 'فاكتورا'
+2020-02-18 19:23:50,029 - test_moroccan_words_logger - ERROR - Transliteration of Factoura, 'فاكتورة' != 'فاكتورا'
 - فاكتورة
 ?       ^
 + فاكتورا
 ?       ^
 
-2020-02-18 03:15:21,227 - test_moroccan_words_logger - ERROR - Transliteration of Fakance, 'فاكانص' != 'فاكانك'
+2020-02-18 19:23:50,033 - test_moroccan_words_logger - ERROR - Transliteration of Fakance, 'فاكانص' != 'فاكانك'
 - فاكانص
 ?      ^
 + فاكانك
 ?      ^
 
-2020-02-18 03:15:21,228 - test_moroccan_words_logger - ERROR - Transliteration of Farchita, 'فرشيطا' != 'فارشيتا'
+2020-02-18 19:23:50,043 - test_moroccan_words_logger - ERROR - Transliteration of Farchita, 'فرشيطا' != 'فارشيتا'
 - فرشيطا
 ?     ^
 + فارشيتا
 ?  +   ^
 
-2020-02-18 03:15:21,229 - test_moroccan_words_logger - ERROR - Transliteration of Fargonite, 'فركونيط' != 'فارڭنيت'
+2020-02-18 19:23:50,047 - test_moroccan_words_logger - ERROR - Transliteration of Fargonite, 'فركونيط' != 'فارڭنيت'
 - فركونيط
 + فارڭنيت
 
-2020-02-18 03:15:21,230 - test_moroccan_words_logger - ERROR - Transliteration of Farina, 'فرينة' != 'فارينا'
+2020-02-18 19:23:50,051 - test_moroccan_words_logger - ERROR - Transliteration of Farina, 'فرينة' != 'فارينا'
 - فرينة
 ?     ^
 + فارينا
 ?  +   ^
 
-2020-02-18 03:15:21,230 - test_moroccan_words_logger - ERROR - Transliteration of Farmaciyane, 'فرماصيان' != 'فارماكييان'
+2020-02-18 19:23:50,058 - test_moroccan_words_logger - ERROR - Transliteration of Farmaciyane, 'فرماصيان' != 'فارماكييان'
 - فرماصيان
 ?     ^
 + فارماكييان
 ?  +   ^^
 
-2020-02-18 03:15:21,231 - test_moroccan_words_logger - ERROR - Transliteration of Farmage, 'فرماج' != 'فارماڭ'
+2020-02-18 19:23:50,062 - test_moroccan_words_logger - ERROR - Transliteration of Farmage, 'فرماج' != 'فارماڭ'
 - فرماج
 ?     ^
 + فارماڭ
 ?  +   ^
 
-2020-02-18 03:15:21,232 - test_moroccan_words_logger - ERROR - Transliteration of Fasma, 'فاصمة' != 'فاسما'
+2020-02-18 19:23:50,065 - test_moroccan_words_logger - ERROR - Transliteration of Fasma, 'فاصمة' != 'فاسما'
 - فاصمة
 + فاسما
 
-2020-02-18 03:15:21,232 - test_moroccan_words_logger - ERROR - Transliteration of Fautouye, 'فوطوي' != 'فاوتوي'
+2020-02-18 19:23:50,068 - test_moroccan_words_logger - ERROR - Transliteration of Fautouye, 'فوطوي' != 'فاوتوي'
 - فوطوي
 ?   ^
 + فاوتوي
 ?  + ^
 
-2020-02-18 03:15:21,233 - test_moroccan_words_logger - ERROR - Transliteration of Fayage, 'فاياج' != 'فاياڭ'
+2020-02-18 19:23:50,071 - test_moroccan_words_logger - ERROR - Transliteration of Fayage, 'فاياج' != 'فاياڭ'
 - فاياج
 ?     ^
 + فاياڭ
 ?     ^
 
-2020-02-18 03:15:21,234 - test_moroccan_words_logger - ERROR - Transliteration of Feniyane, 'فنيان' != 'فنييان'
+2020-02-18 19:23:50,075 - test_moroccan_words_logger - ERROR - Transliteration of Feniyane, 'فنيان' != 'فنييان'
 - فنيان
 + فنييان
 ?   +
 
-2020-02-18 03:15:21,235 - test_moroccan_words_logger - ERROR - Transliteration of Fersada, 'فرصادا' != 'فرسادا'
+2020-02-18 19:23:50,079 - test_moroccan_words_logger - ERROR - Transliteration of Fersada, 'فرصادا' != 'فرسادا'
 - فرصادا
 ?   ^
 + فرسادا
 ?   ^
 
-2020-02-18 03:15:21,236 - test_moroccan_words_logger - ERROR - Transliteration of Figoura, 'فيكورا' != 'فيڭورا'
+2020-02-18 19:23:50,087 - test_moroccan_words_logger - ERROR - Transliteration of Figoura, 'فيكورا' != 'فيڭورا'
 - فيكورا
 ?   ^
 + فيڭورا
 ?   ^
 
-2020-02-18 03:15:21,236 - test_moroccan_words_logger - ERROR - Transliteration of Fijta, 'فيجطا' != 'فيجتا'
+2020-02-18 19:23:50,090 - test_moroccan_words_logger - ERROR - Transliteration of Fijta, 'فيجطا' != 'فيجتا'
 - فيجطا
 ?    ^
 + فيجتا
 ?    ^
 
-2020-02-18 03:15:21,237 - test_moroccan_words_logger - ERROR - Transliteration of Filage, 'فيلاج' != 'فيلاڭ'
+2020-02-18 19:23:50,093 - test_moroccan_words_logger - ERROR - Transliteration of Filage, 'فيلاج' != 'فيلاڭ'
 - فيلاج
 ?     ^
 + فيلاڭ
 ?     ^
 
-2020-02-18 03:15:21,237 - test_moroccan_words_logger - ERROR - Transliteration of Garanti, 'كارانطي' != 'ڭارانتي'
+2020-02-18 19:23:50,102 - test_moroccan_words_logger - ERROR - Transliteration of Garanti, 'كارانطي' != 'ڭارانتي'
 - كارانطي
 ? ^    ^
 + ڭارانتي
 ? ^    ^
 
-2020-02-18 03:15:21,238 - test_moroccan_words_logger - ERROR - Transliteration of Garçone, 'كارصون' != 'ڭاركن'
+2020-02-18 19:23:50,106 - test_moroccan_words_logger - ERROR - Transliteration of Garçone, 'كارصون' != 'ڭاركن'
 - كارصون
 + ڭاركن
 
-2020-02-18 03:15:21,238 - test_moroccan_words_logger - ERROR - Transliteration of Garro, 'كارو' != 'ڭار'
+2020-02-18 19:23:50,110 - test_moroccan_words_logger - ERROR - Transliteration of Garro, 'كارو' != 'ڭار'
 - كارو
 + ڭار
 
-2020-02-18 03:15:21,239 - test_moroccan_words_logger - ERROR - Transliteration of Garssone, 'كارصون' != 'ڭارصن'
+2020-02-18 19:23:50,114 - test_moroccan_words_logger - ERROR - Transliteration of Garssone, 'كارصون' != 'ڭارصن'
 - كارصون
 ? ^   -
 + ڭارصن
 ? ^
 
-2020-02-18 03:15:21,239 - test_moroccan_words_logger - ERROR - Transliteration of Garssoniyya, 'كارصونيا' != 'ڭارصنييا'
+2020-02-18 19:23:50,120 - test_moroccan_words_logger - ERROR - Transliteration of Garssoniyya, 'كارصونيا' != 'ڭارصنييا'
 - كارصونيا
 ? ^   -
 + ڭارصنييا
 ? ^    +
 
-2020-02-18 03:15:21,240 - test_moroccan_words_logger - ERROR - Transliteration of Gazouza, 'كازوزا' != 'ڭازوزا'
+2020-02-18 19:23:50,125 - test_moroccan_words_logger - ERROR - Transliteration of Gazouza, 'كازوزا' != 'ڭازوزا'
 - كازوزا
 ? ^
 + ڭازوزا
 ? ^
 
-2020-02-18 03:15:21,240 - test_moroccan_words_logger - ERROR - Transliteration of Gharrafe, 'غراف' != 'غاراف'
+2020-02-18 19:23:50,129 - test_moroccan_words_logger - ERROR - Transliteration of Gharrafe, 'غراف' != 'غاراف'
 - غراف
 + غاراف
 ?  +
 
-2020-02-18 03:15:21,241 - test_moroccan_words_logger - ERROR - Transliteration of Godrone, 'كودرون' != 'ڭدرن'
+2020-02-18 19:23:50,132 - test_moroccan_words_logger - ERROR - Transliteration of Godrone, 'كودرون' != 'ڭدرن'
 - كودرون
 + ڭدرن
 
-2020-02-18 03:15:21,242 - test_moroccan_words_logger - ERROR - Transliteration of Gouma, 'كوما' != 'ڭوما'
+2020-02-18 19:23:50,136 - test_moroccan_words_logger - ERROR - Transliteration of Gouma, 'كوما' != 'ڭوما'
 - كوما
 ? ^
 + ڭوما
 ? ^
 
-2020-02-18 03:15:21,242 - test_moroccan_words_logger - ERROR - Transliteration of Grissoune, 'كريسون' != 'ڭريصون'
+2020-02-18 19:23:50,141 - test_moroccan_words_logger - ERROR - Transliteration of Grissoune, 'كريسون' != 'ڭريصون'
 - كريسون
 + ڭريصون
 
-2020-02-18 03:15:21,243 - test_moroccan_words_logger - ERROR - Transliteration of Griyage, 'كرياج' != 'ڭريياڭ'
+2020-02-18 19:23:50,147 - test_moroccan_words_logger - ERROR - Transliteration of Griyage, 'كرياج' != 'ڭريياڭ'
 - كرياج
 + ڭريياڭ
 
-2020-02-18 03:15:21,244 - test_moroccan_words_logger - ERROR - Transliteration of Growa, 'كروا' != 'ڭروا'
+2020-02-18 19:23:50,152 - test_moroccan_words_logger - ERROR - Transliteration of Growa, 'كروا' != 'ڭروا'
 - كروا
 ? ^
 + ڭروا
 ? ^
 
-2020-02-18 03:15:21,245 - test_moroccan_words_logger - ERROR - Transliteration of Gualizi, 'كاليزي' != 'ڭواليزي'
+2020-02-18 19:23:50,161 - test_moroccan_words_logger - ERROR - Transliteration of Gualizi, 'كاليزي' != 'ڭواليزي'
 - كاليزي
 ? ^
 + ڭواليزي
 ? ^^
 
-2020-02-18 03:15:21,245 - test_moroccan_words_logger - ERROR - Transliteration of guidoune, 'كيدون' != 'ڭويدون'
+2020-02-18 19:23:50,165 - test_moroccan_words_logger - ERROR - Transliteration of guidoune, 'كيدون' != 'ڭويدون'
 - كيدون
 ? ^
 + ڭويدون
 ? ^^
 
-2020-02-18 03:15:21,246 - test_moroccan_words_logger - ERROR - Transliteration of Guirra, 'كيرا' != 'ڭويرا'
+2020-02-18 19:23:50,169 - test_moroccan_words_logger - ERROR - Transliteration of Guirra, 'كيرا' != 'ڭويرا'
 - كيرا
 + ڭويرا
 
-2020-02-18 03:15:21,246 - test_moroccan_words_logger - ERROR - Transliteration of Guitara, 'كيتارا' != 'ڭويتارا'
+2020-02-18 19:23:50,174 - test_moroccan_words_logger - ERROR - Transliteration of Guitara, 'كيتارا' != 'ڭويتارا'
 - كيتارا
 ? ^
 + ڭويتارا
 ? ^^
 
-2020-02-18 03:15:21,248 - test_moroccan_words_logger - ERROR - Transliteration of tilifone, 'تلفون' != 'تيليفن'
+2020-02-18 19:23:50,183 - test_moroccan_words_logger - ERROR - Transliteration of tilifone, 'تلفون' != 'تيليفن'
 - تلفون
 ?    -
 + تيليفن
 ?  + +
 
-2020-02-18 03:15:21,249 - test_moroccan_words_logger - ERROR - Transliteration of valiza, 'فاليزا' != 'ڤاليزا'
+2020-02-18 19:23:50,194 - test_moroccan_words_logger - ERROR - Transliteration of valiza, 'فاليزا' != 'ڤاليزا'
 - فاليزا
 ? ^
 + ڤاليزا
 ? ^
 
-2020-02-18 03:15:21,250 - test_moroccan_words_logger - ERROR - Transliteration of trikot, 'تريكو' != 'تريكت'
+2020-02-18 19:23:50,201 - test_moroccan_words_logger - ERROR - Transliteration of trikot, 'تريكو' != 'تريكت'
 - تريكو
 ?     ^
 + تريكت
 ?     ^
 
-2020-02-18 03:15:21,251 - test_moroccan_words_logger - ERROR - Transliteration of tbe3, 'طبع' != 'تبع'
+2020-02-18 19:23:50,204 - test_moroccan_words_logger - ERROR - Transliteration of tbe3, 'طبع' != 'تبع'
 - طبع
 ? ^
 + تبع
 ? ^
 
-2020-02-18 03:15:21,252 - test_moroccan_words_logger - ERROR - Transliteration of dreb, 'ضرب' != 'درب'
+2020-02-18 19:23:50,210 - test_moroccan_words_logger - ERROR - Transliteration of dreb, 'ضرب' != 'درب'
 - ضرب
 ? ^
 + درب
 ? ^
 
-2020-02-18 03:15:21,253 - test_moroccan_words_logger - ERROR - Transliteration of ztem, 'زطم' != 'زتم'
+2020-02-18 19:23:50,220 - test_moroccan_words_logger - ERROR - Transliteration of ztem, 'زطم' != 'زتم'
 - زطم
 ?  ^
 + زتم
 ?  ^
 
-2020-02-18 03:15:21,254 - test_moroccan_words_logger - ERROR - Transliteration of chokran, 'شوكران' != 'شكران'
+2020-02-18 19:23:50,227 - test_moroccan_words_logger - ERROR - Transliteration of chokran, 'شوكران' != 'شكران'
 - شوكران
 ?  -
 + شكران
 
-2020-02-18 03:15:21,255 - test_moroccan_words_logger - ERROR - Transliteration of doz, 'دوز' != 'دز'
+2020-02-18 19:23:50,229 - test_moroccan_words_logger - ERROR - Transliteration of doz, 'دوز' != 'دز'
 - دوز
 ?  -
 + دز
 
-2020-02-18 03:15:21,256 - test_moroccan_words_logger - ERROR - Transliteration of gol, 'قول' != 'ڭل'
+2020-02-18 19:23:50,235 - test_moroccan_words_logger - ERROR - Transliteration of gol, 'قول' != 'ڭل'
 - قول
 + ڭل
 
-2020-02-18 03:15:21,256 - test_moroccan_words_logger - ERROR - Transliteration of chahada, 'شهادة' != 'شاهادا'
+2020-02-18 19:23:50,241 - test_moroccan_words_logger - ERROR - Transliteration of chahada, 'شهادة' != 'شاهادا'
 - شهادة
 ?     ^
 + شاهادا
 ?  +   ^
 
-2020-02-18 03:15:21,257 - test_moroccan_words_logger - ERROR - Transliteration of inspiriti, 'انسبيريتي' != 'انسپيريتي'
+2020-02-18 19:23:50,249 - test_moroccan_words_logger - ERROR - Transliteration of inspiriti, 'انسبيريتي' != 'انسپيريتي'
 - انسبيريتي
 ?    ^
 + انسپيريتي
 ?    ^
 
-2020-02-18 03:15:21,258 - test_moroccan_words_logger - ERROR - Transliteration of saffa9, 'صفّق' != 'سافاق'
+2020-02-18 19:23:50,256 - test_moroccan_words_logger - ERROR - Transliteration of saffa9, 'صفّق' != 'سافاق'
 - صفّق
 + سافاق
 
-2020-02-18 03:15:21,258 - test_moroccan_words_logger - ERROR - Transliteration of wadda7, 'وضح' != 'واداح'
+2020-02-18 19:23:50,259 - test_moroccan_words_logger - ERROR - Transliteration of wadda7, 'وضح' != 'واداح'
 - وضح
 + واداح
 
-2020-02-18 03:15:21,259 - test_moroccan_words_logger - ERROR - Transliteration of sarra7, 'سرح' != 'ساراح'
+2020-02-18 19:23:50,264 - test_moroccan_words_logger - ERROR - Transliteration of sarra7, 'سرح' != 'ساراح'
 - سرح
 + ساراح
 ?  + +
 
-2020-02-18 03:15:21,259 - test_moroccan_words_logger - ERROR - Transliteration of 5ana9, 'خنق' != 'خاناق'
+2020-02-18 19:23:50,268 - test_moroccan_words_logger - ERROR - Transliteration of 5ana9, 'خنق' != 'خاناق'
 - خنق
 + خاناق
 ?  + +
 
-2020-02-18 03:15:21,260 - test_moroccan_words_logger - ERROR - Transliteration of sadd, 'سد' != 'ساد'
+2020-02-18 19:23:50,271 - test_moroccan_words_logger - ERROR - Transliteration of sadd, 'سد' != 'ساد'
 - سد
 + ساد
 ?  +
 
-2020-02-18 03:15:21,260 - test_moroccan_words_logger - ERROR - Transliteration of ghammad, 'غمض' != 'غاماد'
+2020-02-18 19:23:50,274 - test_moroccan_words_logger - ERROR - Transliteration of ghammad, 'غمض' != 'غاماد'
 - غمض
 + غاماد
 
-2020-02-18 03:15:21,260 - test_moroccan_words_logger - ERROR - Transliteration of barrad, 'برد' != 'باراد'
+2020-02-18 19:23:50,278 - test_moroccan_words_logger - ERROR - Transliteration of barrad, 'برد' != 'باراد'
 - برد
 + باراد
 ?  + +
 
-2020-02-18 03:15:21,261 - test_moroccan_words_logger - ERROR - Transliteration of amer, 'أمر' != 'امر'
+2020-02-18 19:23:50,282 - test_moroccan_words_logger - ERROR - Transliteration of amer, 'أمر' != 'امر'
 - أمر
 ? ^
 + امر
 ? ^
 
-2020-02-18 03:15:21,262 - test_moroccan_words_logger - ERROR - Transliteration of 3alla9, 'علق' != 'عالاق'
+2020-02-18 19:23:50,285 - test_moroccan_words_logger - ERROR - Transliteration of 3alla9, 'علق' != 'عالاق'
 - علق
 + عالاق
 ?  + +
 
-2020-02-18 03:15:21,263 - test_moroccan_words_logger - ERROR - Transliteration of 3taref, 'عترف' != 'عتارف'
+2020-02-18 19:23:50,303 - test_moroccan_words_logger - ERROR - Transliteration of 3taref, 'عترف' != 'عتارف'
 - عترف
 + عتارف
 ?   +
 
-2020-02-18 03:15:21,264 - test_moroccan_words_logger - ERROR - Transliteration of 7ayyer, 'حير' != 'حاير'
+2020-02-18 19:23:50,306 - test_moroccan_words_logger - ERROR - Transliteration of 7ayyer, 'حير' != 'حاير'
 - حير
 + حاير
 ?  +
 
-2020-02-18 03:15:21,264 - test_moroccan_words_logger - ERROR - Transliteration of henne2, 'هنأ' != 'هنء'
+2020-02-18 19:23:50,310 - test_moroccan_words_logger - ERROR - Transliteration of henne2, 'هنأ' != 'هنء'
 - هنأ
 ?   ^
 + هنء
 ?   ^
 
-2020-02-18 03:15:21,265 - test_moroccan_words_logger - ERROR - Transliteration of serref, 'صرف' != 'سرف'
+2020-02-18 19:23:50,313 - test_moroccan_words_logger - ERROR - Transliteration of serref, 'صرف' != 'سرف'
 - صرف
 ? ^
 + سرف
 ? ^
 
-2020-02-18 03:15:21,265 - test_moroccan_words_logger - ERROR - Transliteration of rbet, 'ربط' != 'ربت'
+2020-02-18 19:23:50,315 - test_moroccan_words_logger - ERROR - Transliteration of rbet, 'ربط' != 'ربت'
 - ربط
 ?   ^
 + ربت
 ?   ^
 
-2020-02-18 03:15:21,266 - test_moroccan_words_logger - ERROR - Transliteration of tasel, 'تصل' != 'تاسل'
+2020-02-18 19:23:50,320 - test_moroccan_words_logger - ERROR - Transliteration of tasel, 'تصل' != 'تاسل'
 - تصل
 + تاسل
 
-2020-02-18 03:15:21,267 - test_moroccan_words_logger - ERROR - Transliteration of rda, 'رضا' != 'ردا'
+2020-02-18 19:23:50,323 - test_moroccan_words_logger - ERROR - Transliteration of rda, 'رضا' != 'ردا'
 - رضا
 ?  ^
 + ردا
 ?  ^
 
-2020-02-18 03:15:21,267 - test_moroccan_words_logger - ERROR - Transliteration of stamer, 'ستمر' != 'ستامر'
+2020-02-18 19:23:50,327 - test_moroccan_words_logger - ERROR - Transliteration of stamer, 'ستمر' != 'ستامر'
 - ستمر
 + ستامر
 ?   +
 
-2020-02-18 03:15:21,268 - test_moroccan_words_logger - ERROR - Transliteration of tayyeb, 'طيب' != 'تايب'
+2020-02-18 19:23:50,339 - test_moroccan_words_logger - ERROR - Transliteration of tayyeb, 'طيب' != 'تايب'
 - طيب
 + تايب
 
-2020-02-18 03:15:21,270 - test_moroccan_words_logger - ERROR - Transliteration of se7e7, 'صحح' != 'سحح'
+2020-02-18 19:23:50,349 - test_moroccan_words_logger - ERROR - Transliteration of se7e7, 'صحح' != 'سحح'
 - صحح
 ? ^
 + سحح
 ? ^
 
-2020-02-18 03:15:21,271 - test_moroccan_words_logger - ERROR - Transliteration of siwa, 'سوا' != 'سيوا'
+2020-02-18 19:23:50,352 - test_moroccan_words_logger - ERROR - Transliteration of siwa, 'سوا' != 'سيوا'
 - سوا
 + سيوا
 ?  +
 
-2020-02-18 03:15:21,272 - test_moroccan_words_logger - ERROR - Transliteration of 7asab, 'حسب' != 'حاساب'
+2020-02-18 19:23:50,357 - test_moroccan_words_logger - ERROR - Transliteration of 7asab, 'حسب' != 'حاساب'
 - حسب
 + حاساب
 ?  + +
 
-2020-02-18 03:15:21,274 - test_moroccan_words_logger - ERROR - Transliteration of 9te3, 'قطع' != 'قتع'
+2020-02-18 19:23:50,366 - test_moroccan_words_logger - ERROR - Transliteration of 9te3, 'قطع' != 'قتع'
 - قطع
 ?  ^
 + قتع
 ?  ^
 
-2020-02-18 03:15:21,275 - test_moroccan_words_logger - ERROR - Transliteration of le9em, 'لقّم' != 'لقم'
+2020-02-18 19:23:50,368 - test_moroccan_words_logger - ERROR - Transliteration of le9em, 'لقّم' != 'لقم'
 - لقّم
 ?   -
 + لقم
 
-2020-02-18 03:15:21,277 - test_moroccan_words_logger - ERROR - Transliteration of fsel, 'فصل' != 'فسل'
+2020-02-18 19:23:50,378 - test_moroccan_words_logger - ERROR - Transliteration of fsel, 'فصل' != 'فسل'
 - فصل
 ?  ^
 + فسل
 ?  ^
 
-2020-02-18 03:15:21,278 - test_moroccan_words_logger - ERROR - Transliteration of 9te3, 'قطع' != 'قتع'
+2020-02-18 19:23:50,384 - test_moroccan_words_logger - ERROR - Transliteration of 9te3, 'قطع' != 'قتع'
 - قطع
 ?  ^
 + قتع
 ?  ^
 
-2020-02-18 03:15:21,280 - test_moroccan_words_logger - ERROR - Transliteration of chte7, 'شطح' != 'شتح'
+2020-02-18 19:23:50,393 - test_moroccan_words_logger - ERROR - Transliteration of chte7, 'شطح' != 'شتح'
 - شطح
 ?  ^
 + شتح
 ?  ^
 
-2020-02-18 03:15:21,280 - test_moroccan_words_logger - ERROR - Transliteration of semmek, 'صمك' != 'سمك'
+2020-02-18 19:23:50,397 - test_moroccan_words_logger - ERROR - Transliteration of semmek, 'صمك' != 'سمك'
 - صمك
 ? ^
 + سمك
 ? ^
 
-2020-02-18 03:15:21,281 - test_moroccan_words_logger - ERROR - Transliteration of n9es, 'نقص' != 'نقس'
+2020-02-18 19:23:50,414 - test_moroccan_words_logger - ERROR - Transliteration of n9es, 'نقص' != 'نقس'
 - نقص
 ?   ^
 + نقس
 ?   ^
 
-2020-02-18 03:15:21,282 - test_moroccan_words_logger - ERROR - Transliteration of 3ettel, 'عطل' != 'عتل'
+2020-02-18 19:23:50,428 - test_moroccan_words_logger - ERROR - Transliteration of 3ettel, 'عطل' != 'عتل'
 - عطل
 ?  ^
 + عتل
 ?  ^
 
-2020-02-18 03:15:21,283 - test_moroccan_words_logger - ERROR - Transliteration of hbet, 'هبط' != 'هبت'
+2020-02-18 19:23:50,434 - test_moroccan_words_logger - ERROR - Transliteration of hbet, 'هبط' != 'هبت'
 - هبط
 ?   ^
 + هبت
 ?   ^
 
-2020-02-18 03:15:21,284 - test_moroccan_words_logger - ERROR - Transliteration of wsef, 'وصف' != 'وسف'
+2020-02-18 19:23:50,438 - test_moroccan_words_logger - ERROR - Transliteration of wsef, 'وصف' != 'وسف'
 - وصف
 ?  ^
 + وسف
 ?  ^
 
-2020-02-18 03:15:21,284 - test_moroccan_words_logger - ERROR - Transliteration of sta7e9, 'ستحق' != 'ستاحق'
+2020-02-18 19:23:50,441 - test_moroccan_words_logger - ERROR - Transliteration of sta7e9, 'ستحق' != 'ستاحق'
 - ستحق
 + ستاحق
 ?   +
 
-2020-02-18 03:15:21,285 - test_moroccan_words_logger - ERROR - Transliteration of 5ettet, 'خطط' != 'ختت'
+2020-02-18 19:23:50,444 - test_moroccan_words_logger - ERROR - Transliteration of 5ettet, 'خطط' != 'ختت'
 - خطط
 + ختت
 
-2020-02-18 03:15:21,285 - test_moroccan_words_logger - ERROR - Transliteration of tawer, 'طور' != 'تاور'
+2020-02-18 19:23:50,448 - test_moroccan_words_logger - ERROR - Transliteration of tawer, 'طور' != 'تاور'
 - طور
 + تاور
 
-2020-02-18 03:15:21,286 - test_moroccan_words_logger - ERROR - Transliteration of 5talef, 'ختلف' != 'ختالف'
+2020-02-18 19:23:50,453 - test_moroccan_words_logger - ERROR - Transliteration of 5talef, 'ختلف' != 'ختالف'
 - ختلف
 + ختالف
 ?   +
 
-2020-02-18 03:15:21,287 - test_moroccan_words_logger - ERROR - Transliteration of hdem, 'هضم' != 'هدم'
+2020-02-18 19:23:50,461 - test_moroccan_words_logger - ERROR - Transliteration of hdem, 'هضم' != 'هدم'
 - هضم
 ?  ^
 + هدم
 ?  ^
 
-2020-02-18 03:15:21,287 - test_moroccan_words_logger - ERROR - Transliteration of wejjeh, 'وجّه' != 'وجه'
+2020-02-18 19:23:50,463 - test_moroccan_words_logger - ERROR - Transliteration of wejjeh, 'وجّه' != 'وجه'
 - وجّه
 ?   -
 + وجه
 
-2020-02-18 03:15:21,288 - test_moroccan_words_logger - ERROR - Transliteration of wesse5, 'وسخ' != 'وصخ'
+2020-02-18 19:23:50,468 - test_moroccan_words_logger - ERROR - Transliteration of wesse5, 'وسخ' != 'وصخ'
 - وسخ
 ?  ^
 + وصخ
 ?  ^
 
-2020-02-18 03:15:21,289 - test_moroccan_words_logger - ERROR - Transliteration of addeb, 'أدب' != 'ادب'
+2020-02-18 19:23:50,471 - test_moroccan_words_logger - ERROR - Transliteration of addeb, 'أدب' != 'ادب'
 - أدب
 ? ^
 + ادب
 ? ^
 
-2020-02-18 03:15:21,289 - test_moroccan_words_logger - ERROR - Transliteration of ktachef, 'كتشف' != 'كتاشف'
+2020-02-18 19:23:50,474 - test_moroccan_words_logger - ERROR - Transliteration of ktachef, 'كتشف' != 'كتاشف'
 - كتشف
 + كتاشف
 ?   +
 
-2020-02-18 03:15:21,290 - test_moroccan_words_logger - ERROR - Transliteration of 9essem, 'قسم' != 'قصم'
+2020-02-18 19:23:50,484 - test_moroccan_words_logger - ERROR - Transliteration of 9essem, 'قسم' != 'قصم'
 - قسم
 ?  ^
 + قصم
 ?  ^
 
-2020-02-18 03:15:21,291 - test_moroccan_words_logger - ERROR - Transliteration of tle9, 'طلق' != 'تلق'
+2020-02-18 19:23:50,487 - test_moroccan_words_logger - ERROR - Transliteration of tle9, 'طلق' != 'تلق'
 - طلق
 ? ^
 + تلق
 ? ^
 
-2020-02-18 03:15:21,292 - test_moroccan_words_logger - INFO - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
+2020-02-18 19:23:50,495 - test_moroccan_words_logger - INFO - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)

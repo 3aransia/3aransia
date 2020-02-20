@@ -2,8 +2,66 @@ import unittest
 import logging
 
 from aaransia.transliteration import *
-from aaransia.constants import *
+from aaransia.defaults import *
 from aaransia.utils import *
+
+# Building test files
+
+# Build moroccan alphabet test file
+def build_moroccan_alphabet_test_file():
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet_test = alphabet.rename(columns={
+                          MOROCCAN_ALPHABET:TEST_CASE,
+                          ARABIAN_ALPHABET:EXPECTED_RESULT})
+    alphabet_test = alphabet_test[[TEST_CASE, EXPECTED_RESULT]]
+    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ALPHABET, index=False)
+
+# Build moroccan words test File
+def build_moroccan_words_test_file():
+    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY)
+    moroccan_words_test = moroccan_words.drop(columns=['Arabic','French', 'English'])
+    moroccan_words_test = moroccan_words_test.rename(columns={
+                          'Moroccan':TEST_CASE,
+                          'Moroccan Arabic':EXPECTED_RESULT})
+    moroccan_words_test = moroccan_words_test[[TEST_CASE, EXPECTED_RESULT]]
+    moroccan_words_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_WORDS, index=False)
+
+# Build arabian alphabet test file
+def build_moroccan_arabic_alphabet_test_file():
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet_test = alphabet.rename(columns={
+                          ARABIAN_ALPHABET:TEST_CASE,
+                          MOROCCAN_ALPHABET:EXPECTED_RESULT})
+    alphabet_test = alphabet_test[[TEST_CASE, EXPECTED_RESULT]]
+    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_ALPHABET, index=False)
+
+# Build arabian words test file
+def build_moroccan_arabic_words_test_file():
+    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY)
+    moroccan_words_test = moroccan_words.drop(columns=['Arabic','French', 'English'])
+    moroccan_words_test = moroccan_words_test.rename(columns={
+                          'Moroccan Arabic':TEST_CASE,
+                          'Moroccan':EXPECTED_RESULT})
+    moroccan_words_test = moroccan_words_test[[TEST_CASE, EXPECTED_RESULT]]
+    moroccan_words_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_WORDS, index=False)
+
+# Build moroccan to latin alphabet test file
+def build_moroccan_to_latin_alphabet_test_file():
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet_test = alphabet.rename(columns={
+                          MOROCCAN_ALPHABET:TEST_CASE,
+                          LATIN_ALPHABET:EXPECTED_RESULT})
+    alphabet_test = alphabet_test[[TEST_CASE, EXPECTED_RESULT]]
+    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_TO_LATIN_ALPHABET, index=False)
+
+# Build moroccan arabic to latin alphabet test file
+def build_moroccan_arabic_to_latin_alphabet_test_file():
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet_test = alphabet.rename(columns={
+                          ARABIAN_ALPHABET:TEST_CASE,
+                          LATIN_ALPHABET:EXPECTED_RESULT})
+    alphabet_test = alphabet_test[[TEST_CASE, EXPECTED_RESULT]]
+    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_TO_LATIN_ALPHABET, index=False)
 
 # Refresh test files based on the csv data
 build_moroccan_alphabet_test_file()
@@ -66,7 +124,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in test_cases.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -88,7 +146,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in alphabet_moroccan_to_moroccan_arabic.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -109,7 +167,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in words_moroccan_to_moroccan_arabic.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -130,7 +188,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in alphabet_moroccan_arabic_to_moroccan.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan_arabic(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -151,7 +209,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in words_moroccan_arabic_to_moroccan.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan_arabic(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic_arabic(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -172,7 +230,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in alphabet_moroccan_to_latin.iterrows():
-            expected_result, moroccan_transliteration = row["Expected Result"], transliterate_moroccan_to_latin(row["Test Case"])
+            expected_result, moroccan_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic_to_latin(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_transliteration)
                 count_infos += 1
@@ -193,7 +251,7 @@ class TestSequenceFunctions(unittest.TestCase):
         count_infos, count_errors = 0, 0
 
         for index, row in alphabet_moroccan_arabic_to_latin.iterrows():
-            expected_result, moroccan_arabic_transliteration = row["Expected Result"], transliterate_moroccan_arabic_to_latin(row["Test Case"])
+            expected_result, moroccan_arabic_transliteration = row["Expected Result"], _transliterate_moroccan_to_moroccan_arabic_arabic_to_latin(row["Test Case"])
             try:
                 self.assertEqual(expected_result, moroccan_arabic_transliteration)
                 count_infos += 1

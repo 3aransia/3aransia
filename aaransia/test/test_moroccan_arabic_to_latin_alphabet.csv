@@ -3,7 +3,7 @@ Test Case,Expected Result
 !,!
 ،,","
 .,.
-ء,e
+ء,'
 ع,'
 خ,kh
 ح,h
@@ -11,7 +11,6 @@ Test Case,Expected Result
 ؟,?
 ا,a
 ب,b
-ك,c
 ش,ch
 د,d
 ذ,d
@@ -19,15 +18,17 @@ Test Case,Expected Result
 ظ,d
  ,e
 ا,e
-ي,ee
 ف,f
 ڭ,g
 غ,gh
 ه,h
+ي,y
 ي,i
+ي,ee
 ا,i
 ج,j
 ك,k
+ك,c
 خ,kh
 ل,l
 لا,la
@@ -52,6 +53,5 @@ Test Case,Expected Result
 و,w
 كز,x
 كس,x
-ي,y
 ي,yi
 ز,z

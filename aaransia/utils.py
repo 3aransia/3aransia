@@ -1,70 +1,10 @@
 import re
 import csv
 import collections
-import pprint
 
 import pandas as pd
 
-from aaransia.constants import *
-
-pp = pprint.PrettyPrinter(indent=4)
-
-# Build test moroccan alphabet file
-def build_moroccan_alphabet_test_file():
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
-    alphabet_test = alphabet.rename(columns={
-                          'Moroccan Alphabet':'Test Case',
-                          'Arabian Alphabet':'Expected Result'})
-    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
-    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ALPHABET, index=False)
-
-# Build Test moroccan words File
-def build_moroccan_words_test_file():
-    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY)
-    moroccan_words_test = moroccan_words.drop(columns=['Arabic','French', 'English'])
-    moroccan_words_test = moroccan_words_test.rename(columns={
-                          'Moroccan':'Test Case',
-                          'Moroccan Arabic':'Expected Result'})
-    moroccan_words_test = moroccan_words_test[['Test Case', 'Expected Result']]
-    moroccan_words_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_WORDS, index=False)
-
-# Build test arabian alphabet file
-def build_moroccan_arabic_alphabet_test_file():
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
-    alphabet_test = alphabet.rename(columns={
-                          'Arabian Alphabet':'Test Case',
-                          'Moroccan Alphabet':'Expected Result'})
-    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
-    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_ALPHABET, index=False)
-
-# Build Test arabian words File
-def build_moroccan_arabic_words_test_file():
-    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY)
-    moroccan_words_test = moroccan_words.drop(columns=['Arabic','French', 'English'])
-    moroccan_words_test = moroccan_words_test.rename(columns={
-                          'Moroccan Arabic':'Test Case',
-                          'Moroccan':'Expected Result'})
-    moroccan_words_test = moroccan_words_test[['Test Case', 'Expected Result']]
-    moroccan_words_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_WORDS, index=False)
-
-# Build test moroccan to latin alphabet file
-def build_moroccan_to_latin_alphabet_test_file():
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
-    alphabet_test = alphabet.rename(columns={
-                          'Moroccan Alphabet':'Test Case',
-                          'Latin Alphabet':'Expected Result'})
-    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
-    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_TO_LATIN_ALPHABET, index=False)
-
-# Build test moroccan arabic to latin alphabet file
-def build_moroccan_arabic_to_latin_alphabet_test_file():
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
-    alphabet_test = alphabet.rename(columns={
-                          'Arabian Alphabet':'Test Case',
-                          'Latin Alphabet':'Expected Result'})
-    alphabet_test = alphabet_test[['Test Case', 'Expected Result']]
-    alphabet_test.to_csv(BASE_DIR + TEST_DIR + TEST_MOROCCAN_ARABIC_TO_LATIN_ALPHABET, index=False)
-
+from aaransia.defaults import *
 
 # Remove noise from arabic text
 def de_noise(text):
@@ -88,39 +28,3 @@ def normalize_arabic(text):
     text = re.sub("ؤ", "ء", text)
     text = re.sub("ئ", "ء", text)
     return(text)
-
-# Construct the moroccan to moroccan arabic alphabet as defaultdict
-def construct_moroccan_to_moroccan_arabic_alphabet():
-    with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
-        r,dd = csv.reader(f), collections.defaultdict(list)
-        for row in r:
-            if row[0] == "Moroccan Alphabet": continue
-            dd[row[0]].append(row[1])
-    pp.pprint(dd)
-
-# Construct the moroccan arabic to moroccan alphabet as defaultdict
-def construct_moroccan_arabic_to_moroccan_alphabet():
-    with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
-        r,dd = csv.reader(f), collections.defaultdict(list)
-        for row in r:
-            if row[0] == "Moroccan Alphabet": continue
-            dd[row[1]].append(row[0])
-    pp.pprint(dd)
-
-# Construct the moroccan to latin alphabet as defaultdict
-def construct_moroccan_to_latin_alphabet():
-    with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
-        r,dd = csv.reader(f), collections.defaultdict(list)
-        for row in r:
-            if row[0] == "Moroccan Alphabet": continue
-            dd[row[0]].append(row[2])
-    pp.pprint(dd)
-
-# Construct the moroccan arabic to latin alphabet as defaultdict
-def construct_moroccan_arabic_to_latin_alphabet():
-    with open(BASE_DIR + DATA_DIR + ALPHABET,'r') as f:
-        r,dd = csv.reader(f), collections.defaultdict(list)
-        for row in r:
-            if row[0] == "Moroccan Alphabet": continue
-            dd[row[1]].append(row[2])
-    pp.pprint(dd)

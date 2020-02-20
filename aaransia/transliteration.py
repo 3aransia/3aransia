@@ -4,31 +4,41 @@ import unidecode
 import pandas as pd
 import numpy as np
 
-from aaransia.constants import *
+from aaransia.defaults import *
 from aaransia.utils import *
+from aaransia.exceptions import *
+
+# Importing the alphabet
+alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+
+# Return available alphabets code
+def get_alphabets_codes():
+    return list(ALPHABETS)
+    
+# Return available alphabets 
+def get_alphabets():
+    return ALPHABETS
 
 # Transliteration of a Moroccan letter to an Arabian letter
 def _moroccan_letter_to_moroccan_arabic_letter(letter, position, word): 
-    if ((letter in 'o' and len(word) > 1) or letter in ('a', 'i', 'e')) and position == 0: return 'ا'
-    elif (letter in ('o', 'e')) and position > 0: return ''
-    else: return moroccan_alphabet[letter.lower()][0]
+    try:
+        if ((letter in 'o' and len(word) > 1) or letter in ('a', 'i', 'e')) and position == 0: return 'ا'
+        elif (letter in ('o', 'e')) and position > 0: return ''
+        else: return alphabet.loc[alphabet[MOROCCAN_ALPHABET] == letter][ARABIAN_ALPHABET].values[0]
+    except IndexError:
+        raise SourceLanguageException
 
-# Transliteration of an Arabic letter to an Moroccan letter
-def _moroccan_arabic_letter_to_moroccan_letter(letter, position, word): 
-    return moroccan_arabic_alphabet[normalize_arabic(de_noise(letter))][0]
-
-# Transliteration of a Moroccan letter to a Latin letter
-def _moroccan_letter_to_latin_letter(letter): 
-    return moroccan_to_latin_alphabet[letter.lower()][0]
-
-# Transliteration of a Moroccan Arabic letter to a Latin letter
-def _moroccan_arabic_letter_to_latin_letter(letter): 
-    return moroccan_arabic_to_latin_alphabet[letter.lower()][0]
+# Transliterate letter
+def _transliterate_letter(letter, source_language, target_language):
+    try:
+        return alphabet.loc[alphabet[ALPHABETS[source_language]] == letter][ALPHABETS[target_language]].values[0]
+    except IndexError:
+        raise SourceLanguageException
 
 # Transliteration of Moroccan to Moroccan Arabic
-def transliterate_moroccan(_str):
+def _transliterate_moroccan_to_moroccan_arabic(text):
     moroccan_arabic_transliteration = list()
-    for word in _str.split():
+    for word in text.split():
         if word.isdigit(): moroccan_arabic_transliteration.append(word)
         else:
             arabian_word, word, word_iterator = [], unidecode.unidecode(word.lower()), iter(range(len(word)))
@@ -46,29 +56,12 @@ def transliterate_moroccan(_str):
     moroccan_arabic_transliteration = u' '.join(moroccan_arabic_transliteration)
     return moroccan_arabic_transliteration
 
-# Transliteration of Moroccan Arabic to Moroccan
-def transliterate_moroccan_arabic(_str):
-    _str, moroccan_transliteration = normalize_arabic(de_noise(_str)), list()
-    str_iterator = iter(_str.split())
-    for word in str_iterator:
-        if word.isdigit(): moroccan_transliteration.append(word)
-        else: 
-            moroccan_word, word_iterator = [], iter(range(len(word))) 
-            for i in word_iterator:
-                if i < len(word) - 1:
-                    if word[i:i+2] in DOUBLE_MOROCCAN_ARABIC_LETTERS:
-                        moroccan_word.append(_moroccan_arabic_letter_to_moroccan_letter(word[i:i+2], i, word))
-                        next(word_iterator)
-                    else: moroccan_word.append(_moroccan_arabic_letter_to_moroccan_letter(word[i], i, word))
-                else: moroccan_word.append(_moroccan_arabic_letter_to_moroccan_letter(word[i], i, word))
-            moroccan_transliteration.append(''.join(moroccan_word))
-    moroccan_transliteration = ' '.join(moroccan_transliteration)
-    return moroccan_transliteration
-
-# Transliteration of Moroccan to Latin
-def transliterate_moroccan_to_latin(_str):
-    return ''.join(list(map(_moroccan_letter_to_latin_letter, _str)))
-
-# Transliteration of Moroccan Arabic to Latin
-def transliterate_moroccan_arabic_to_latin(_str):
-    return ''.join(list(map(_moroccan_arabic_letter_to_latin_letter, _str)))
+# Transliteration
+def transliterate(text, source_language, target_language):
+    try:
+        if source_language == MOROCCAN_ALPHABET_CODE and target_language == ARABIAN_ALPHABET_CODE:
+            return _transliterate_moroccan_to_moroccan_arabic(text)
+        else:
+            return ''.join(list(map(lambda l: _transliterate_letter(l, source_language, target_language), text)))
+    except SourceLanguageException:
+        raise SourceLanguageException(f'{SOURCE_LANGUAGE_EXCEPTION}: {source_language}')

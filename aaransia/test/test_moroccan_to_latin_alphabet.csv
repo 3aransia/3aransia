@@ -3,7 +3,7 @@ Test Case,Expected Result
 !,!
 ",",","
 .,.
-2,e
+2,'
 3,'
 5,kh
 7,h
@@ -11,7 +11,6 @@ Test Case,Expected Result
 ?,?
 a,a
 b,b
-c,c
 ch,ch
 d,d
 d,d
@@ -19,15 +18,17 @@ d,d
 d,d
 e,e
 e,e
-ee,ee
 f,f
 g,g
 gh,gh
 h,h
+y,y
 i,i
+ee,ee
 i,i
 j,j
 k,k
+c,c
 kh,kh
 l,l
 la,la
@@ -52,6 +53,5 @@ v,v
 w,w
 x,x
 x,x
-y,y
 yi,yi
 z,z
