@@ -30,4 +30,4 @@ for s in strings:
             try:
                 print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
             except SourceLanguageException as sle:
-                print(sle)
+                print(s, sle)
