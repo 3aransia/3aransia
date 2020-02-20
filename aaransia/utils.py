@@ -28,3 +28,10 @@ def normalize_arabic(text):
     text = re.sub("ؤ", "ء", text)
     text = re.sub("ئ", "ء", text)
     return(text)
+
+# Construct alphabet dictionary
+def construct_alphabet():
+    with open(BASE_DIR + DATA_DIR + ALPHABET) as fh:
+        rd, alphabet = csv.DictReader(fh, delimiter=','), list()
+        for row in rd: alphabet.append(row)
+        return alphabet

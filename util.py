@@ -10,6 +10,8 @@ pp.pprint(get_alphabets_codes())
 
 pp.pprint(get_alphabets())
 
+pp.pprint(construct_alphabet())
+
 s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
 
 print(transliterate(s_ar, source_language='ar', target_language='ma'))
@@ -28,4 +30,4 @@ for s in strings:
             try:
                 print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
             except SourceLanguageException as sle:
-                continue
+                print(sle)
