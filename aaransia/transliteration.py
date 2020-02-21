@@ -7,7 +7,7 @@ from aaransia.utils import construct_alphabet
 from aaransia.exceptions import SourceLanguageException
 
 # Load alphabet
-alphabet = construct_alphabet()
+ALPHABET = construct_alphabet()
 
 # Return available alphabets code
 def get_alphabets_codes():
@@ -32,7 +32,7 @@ def _transliterate_letter(letter, source, target):
     target -- the target language from the available languages
     """
     try:
-        for _letter in alphabet:
+        for _letter in ALPHABET:
             if _letter[ALPHABETS[source]] == letter:
                 return _letter[ALPHABETS[target]]
         return None
