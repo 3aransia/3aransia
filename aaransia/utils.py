@@ -31,7 +31,7 @@ def normalize_arabic(text):
 
 # Construct alphabet dictionary
 def construct_alphabet():
-    with open(BASE_DIR + DATA_DIR + ALPHABET) as fh:
+    with open(BASE_DIR + DATA_DIR + ALPHABET_FILE) as fh:
         rd, alphabet = csv.DictReader(fh, delimiter=','), list()
         for row in rd: alphabet.append(row)
         return alphabet

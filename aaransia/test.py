@@ -9,7 +9,7 @@ from aaransia.utils import *
 
 # Build moroccan alphabet test file
 def build_moroccan_alphabet_test_file():
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET_FILE)
     alphabet_test = alphabet.rename(columns={
                           MOROCCAN_ALPHABET:TEST_CASE,
                           ARABIAN_ALPHABET:EXPECTED_RESULT})
@@ -18,7 +18,7 @@ def build_moroccan_alphabet_test_file():
 
 # Build moroccan words test File
 def build_moroccan_words_test_file():
-    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY)
+    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY_FILE)
     moroccan_words_test = moroccan_words.drop(columns=['Arabic','French', 'English'])
     moroccan_words_test = moroccan_words_test.rename(columns={
                           'Moroccan':TEST_CASE,
@@ -28,7 +28,7 @@ def build_moroccan_words_test_file():
 
 # Build arabian alphabet test file
 def build_moroccan_arabic_alphabet_test_file():
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET_FILE)
     alphabet_test = alphabet.rename(columns={
                           ARABIAN_ALPHABET:TEST_CASE,
                           MOROCCAN_ALPHABET:EXPECTED_RESULT})
@@ -37,7 +37,7 @@ def build_moroccan_arabic_alphabet_test_file():
 
 # Build arabian words test file
 def build_moroccan_arabic_words_test_file():
-    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY)
+    moroccan_words = pd.read_csv(BASE_DIR + DATA_DIR + DICTIONARY_FILE)
     moroccan_words_test = moroccan_words.drop(columns=['Arabic','French', 'English'])
     moroccan_words_test = moroccan_words_test.rename(columns={
                           'Moroccan Arabic':TEST_CASE,
@@ -47,7 +47,7 @@ def build_moroccan_arabic_words_test_file():
 
 # Build moroccan to latin alphabet test file
 def build_moroccan_to_latin_alphabet_test_file():
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET_FILE)
     alphabet_test = alphabet.rename(columns={
                           MOROCCAN_ALPHABET:TEST_CASE,
                           LATIN_ALPHABET:EXPECTED_RESULT})
@@ -56,7 +56,7 @@ def build_moroccan_to_latin_alphabet_test_file():
 
 # Build moroccan arabic to latin alphabet test file
 def build_moroccan_arabic_to_latin_alphabet_test_file():
-    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET)
+    alphabet = pd.read_csv(BASE_DIR + DATA_DIR + ALPHABET_FILE)
     alphabet_test = alphabet.rename(columns={
                           ARABIAN_ALPHABET:TEST_CASE,
                           LATIN_ALPHABET:EXPECTED_RESULT})

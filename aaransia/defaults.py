@@ -7,8 +7,8 @@ LOG_DIR = '/log'
 TEST_DIR = '/test'
 
 # Data sets
-ALPHABET = '/alphabet.csv'
-DICTIONARY = '/dictionary.csv'
+ALPHABET_FILE = '/alphabet.csv'
+DICTIONARY_FILE = '/dictionary.csv'
 
 # Test files
 TEST_CASES = '/test_cases.csv'
@@ -85,7 +85,7 @@ ALPHABETS = {
 # Exceptions
 SOURCE_LANGUAGE_EXCEPTION = "Source language doesn't match the input text"
 
-alphabet = [   
+ALPHABET = [   
     OrderedDict([   ('Moroccan Alphabet', ' '),
                     ('Arabian Alphabet', ' '),
                     ('Latin Alphabet', ' '),
