@@ -51,7 +51,7 @@ print(get_alphabets())
 ```python
 s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
 
-print(transliterate(s_ar, source_language='ar', target_language='ma'))
+print(transliterate(s_ar, source='ar', target='ma'))
 ```
 
 ```
@@ -99,7 +99,7 @@ for s in strings:
 >>> 
 >>> ktb bl3rbya hnaya ch7al ma bghiti
 >>> ma ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγιτι
 >>> 
 >>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
 >>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
@@ -140,7 +140,7 @@ for s in strings:
 >>> 
 >>> كتب بلعربيا هنايا شحال ما بغيتي
 >>> ar ==> ab
->>> ktb bl'rbya hnaya shḥal ma bghyty
+>>> ktb bl'rbya hnaya chḥal ma bghyty
 >>> 
 >>> كتب بلعربيا هنايا شحال ما بغيتي
 >>> ar ==> gr
@@ -177,7 +177,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> ar
->>> كتب بلعربيا هنايا كههال ما بڭهيتي
+>>> كتب بلعربيا هنايا شهال ما بغيتي
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> la
@@ -189,7 +189,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγιτι
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> ab ==> ma
@@ -197,7 +197,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> ab ==> ar
->>> كتب بلعربيا هنايا كههال ما بڭهيتي
+>>> كتب بلعربيا هنايا شهال ما بغيتي
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> ab ==> la
@@ -209,7 +209,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> ab ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγιτι
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
 >>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
@@ -237,7 +237,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chḥal ma bghiti
 >>> ab ==> ar
->>> كتب بلعربيا هنايا كهحال ما بڭهيتي
+>>> كتب بلعربيا هنايا شحال ما بغيتي
 >>> 
 >>> ktb bl'rbya hnaya chḥal ma bghiti
 >>> ab ==> la
@@ -249,7 +249,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chḥal ma bghiti
 >>> ab ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγιτι
 >>> 
 >>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
 >>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
@@ -278,23 +278,23 @@ for s in strings:
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ab
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ma
->>> ktmp mpl3rmpya hnaya chhhal ma mpghiti
+>>> ktb bl3rbya hnaya chhal ma bghiti
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ar
->>> كتمپ مپلعرمپيا هنايا شههال ما مپڭهيتي
+>>> كتب بلعربيا هنايا شهال ما بڭهيتي
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> la
->>> ktmp mpl'rmpya hnaya chhhal ma mpghiti
+>>> ktb bl'rbya hnaya chhal ma bghiti
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ab
->>> ktmp mpl'rmpya hnaya shhhal ma mpghiti
+>>> ktb bl'rbya hnaya chhal ma bghiti
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγχιτι
 ```
 
 ## Other related projects
