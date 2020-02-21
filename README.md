@@ -1,6 +1,6 @@
 # 3aransia
 
-Languages and Dialects transliteration
+Transliteration of languages and dialects
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
