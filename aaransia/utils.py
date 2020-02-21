@@ -1,10 +1,12 @@
 import re
 import csv
 import collections
+import pickle
+
 
 import pandas as pd
 
-from aaransia.defaults import *
+from aaransia.defaults import BASE_DIR, DATA_DIR, ALPHABET_FILE
 
 # Remove noise from arabic text
 def de_noise(text):
