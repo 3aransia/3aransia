@@ -60,7 +60,7 @@ def _transliterate_word(word, source, target):
                 if word[i:i+2] in DOUBLE_LETTERS[source]:
                     result.append(_transliterate_letter(word[i:i+2], source, target))
                     next(word_iterator)
-                elif word[i] == word[i+1]:
+                elif word[i] == word[i+1] and source == ARABIAN_ALPHABET_CODE:
                     result.append(_transliterate_letter(word[i], source, target))
                     next(word_iterator)
                 else:
