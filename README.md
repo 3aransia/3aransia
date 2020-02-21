@@ -99,7 +99,7 @@ for s in strings:
 >>> 
 >>> ktb bl3rbya hnaya ch7al ma bghiti
 >>> ma ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
 >>> 
 >>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
 >>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
@@ -144,7 +144,7 @@ for s in strings:
 >>> 
 >>> كتب بلعربيا هنايا شحال ما بغيتي
 >>> ar ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγυτυ
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπρυτυ
 >>> 
 >>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: la
 >>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: la
@@ -189,7 +189,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> ab ==> ma
@@ -209,7 +209,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> ab ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
 >>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
@@ -249,7 +249,7 @@ for s in strings:
 >>> 
 >>> ktb bl'rbya hnaya chḥal ma bghiti
 >>> ab ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
 >>> 
 >>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
 >>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
@@ -278,23 +278,23 @@ for s in strings:
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ab
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ma
->>> ktb bl3rbya hnaya chhal ma bghiti
+>>> ktb bl3ghbya hnaya chhhal ma bghiti
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ar
->>> كتب بلعربيا هنايا شهال ما بڭهيتي
+>>> كتب بلعغبيا هنايا شههال ما بڭهيتي
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> la
->>> ktb bl'rbya hnaya chhal ma bghiti
+>>> ktb bl'ghbya hnaya chhhal ma bghiti
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ab
->>> ktb bl'rbya hnaya chhal ma bghiti
+>>> ktb bl'ghbya hnaya chhhal ma bghiti
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπγχιτι
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτιs
 ```
 
 ## Other related projects
