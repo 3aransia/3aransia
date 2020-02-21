@@ -1,13 +1,10 @@
 """This script make transliterations for the available languages"""
 
 from aaransia.defaults import (
-    ALPHABETS, ARABIAN_ALPHABET_CODE, SOURCE_LANGUAGE_EXCEPTION, DOUBLE_LETTERS
+    ALPHABETS, ARABIAN_ALPHABET_CODE, SOURCE_LANGUAGE_EXCEPTION_MESSAGE, DOUBLE_LETTERS,
+    ALPHABET
 )
-from aaransia.utils import construct_alphabet
 from aaransia.exceptions import SourceLanguageException
-
-# Load alphabet
-ALPHABET = construct_alphabet()
 
 # Return available alphabets code
 def get_alphabets_codes():
@@ -85,4 +82,4 @@ def transliterate(text, source, target):
         return ' '.join(list(map(lambda w: _transliterate_word(w, source, target),
                                  text.split())))
     except (TypeError, SourceLanguageException):
-        raise SourceLanguageException(f'{SOURCE_LANGUAGE_EXCEPTION}: {source}')
+        raise SourceLanguageException(f'{SOURCE_LANGUAGE_EXCEPTION_MESSAGE}: {source}')
