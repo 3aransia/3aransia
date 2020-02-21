@@ -1,72 +1,88 @@
-import re
+"""This script make transliterations for the available languages"""
 
-import unidecode
-import pandas as pd
-import numpy as np
+from aaransia.defaults import (
+    ALPHABETS, ARABIAN_ALPHABET_CODE, SOURCE_LANGUAGE_EXCEPTION, DOUBLE_LETTERS
+)
+from aaransia.utils import construct_alphabet
+from aaransia.exceptions import SourceLanguageException
 
-from aaransia.defaults import *
-from aaransia.utils import *
-from aaransia.exceptions import *
+# Load alphabet
+alphabet = construct_alphabet()
 
 # Return available alphabets code
 def get_alphabets_codes():
+    """Returns a list of alphabet codes"""
     return list(ALPHABETS)
-    
-# Return available alphabets 
+
+# Return available alphabets
 def get_alphabets():
+    """Returns a dictionary of alphabets with keys as alphabet codes
+    and values as plain alphabet names
+    """
     return ALPHABETS
 
-# Transliteration of a Moroccan letter to an Arabian letter
-def _moroccan_letter_to_moroccan_arabic_letter(letter, position, word): 
-    try:
-        if ((letter in 'o' and len(word) > 1) or letter in ('a', 'i', 'e')) and position == 0: return 'ا'
-        elif (letter in ('o', 'e')) and position > 0: return ''
-        else: 
-            for l in alphabet:
-                if l[MOROCCAN_ALPHABET] == letter: return l[ARABIAN_ALPHABET]
-    except IndexError:
-        raise SourceLanguageException
-
 # Transliterate letter
-def _transliterate_letter(letter, source_language, target_language):
+def _transliterate_letter(letter, source, target):
+    """Retuns the letter transliteration of the input letter accordingly
+    to the source language and the target language
+
+    Keyword arguments:
+    letter -- the letter to transliterate
+    source -- the source language from the available languages
+    target -- the target language from the available languages
+    """
     try:
-        for l in alphabet:
-            if l[ALPHABETS[source_language]] == letter:
-                return l[ALPHABETS[target_language]]
+        for _letter in alphabet:
+            if _letter[ALPHABETS[source]] == letter:
+                return _letter[ALPHABETS[target]]
+        return None
     except IndexError:
         raise SourceLanguageException
 
-# Transliteration of Moroccan to Moroccan Arabic
-def _transliterate_moroccan_to_moroccan_arabic(text):
+# Transliterate word
+def _transliterate_word(word, source, target):
+    """Retuns the word transliteration of the input word accordingly
+    to the source language and the target language
+
+    Keyword arguments:
+    word -- the word to transliterate
+    source -- the source language from the available languages
+    target -- the target language from the available languages
+    """
     try:
-        moroccan_arabic_transliteration = list()
-        for word in text.split():
-            if word.isdigit(): moroccan_arabic_transliteration.append(word)
+        if word.isdigit():
+            return word
+        if source != ARABIAN_ALPHABET_CODE:
+            word = word.lower()
+        result, word_iterator = [], iter(range(len(word)))
+        for i in word_iterator:
+            if i < len(word) - 1:
+                if word[i:i+2] in DOUBLE_LETTERS[source]:
+                    result.append(_transliterate_letter(word[i:i+2], source, target))
+                    next(word_iterator)
+                elif word[i] == word[i+1] and source == ARABIAN_ALPHABET_CODE:
+                    result.append(_transliterate_letter(word[i], source, target))
+                    next(word_iterator)
+                else:
+                    result.append(_transliterate_letter(word[i], source, target))
             else:
-                arabian_word, word, word_iterator = [], unidecode.unidecode(word.lower()), iter(range(len(word)))
-                for i in word_iterator:
-                    if i < len(word) - 1:
-                        if word[i:i+2] in DOUBLE_MOROCCAN_LETTERS:
-                            arabian_word.append(_moroccan_letter_to_moroccan_arabic_letter(word[i:i+2], i, word))
-                            next(word_iterator)
-                        elif word[i] == word[i+1]:
-                            arabian_word.append(_moroccan_letter_to_moroccan_arabic_letter(word[i], i, word))
-                            next(word_iterator)
-                        else: arabian_word.append(_moroccan_letter_to_moroccan_arabic_letter(word[i], i, word))
-                    else: arabian_word.append(_moroccan_letter_to_moroccan_arabic_letter(word[i], i, word))
-                moroccan_arabic_transliteration.append(u''.join(arabian_word).replace(u'\u200e', ''))
-        moroccan_arabic_transliteration = u' '.join(moroccan_arabic_transliteration)
-        return moroccan_arabic_transliteration
-    except IndexError:
+                result.append(_transliterate_letter(word[i], source, target))
+        return u''.join(result).replace(u'\u200e', '')
+    except TypeError:
         raise SourceLanguageException
-
 
 # Transliteration
-def transliterate(text, source_language, target_language):
+def transliterate(text, source, target):
+    """Retuns the text transliteration of the input text accordingly
+    to the source language and the target language
+
+    Keyword arguments:
+    text -- the text to transliterate
+    source -- the source language from the available languages
+    target -- the target language from the available languages
+    """
     try:
-        if source_language == MOROCCAN_ALPHABET_CODE and target_language == ARABIAN_ALPHABET_CODE:
-            return _transliterate_moroccan_to_moroccan_arabic(text)
-        else:
-            return ''.join(list(map(lambda l: _transliterate_letter(l, source_language, target_language), text)))
+        return ' '.join(list(map(lambda w: _transliterate_word(w, source, target),
+                                 text.split())))
     except (TypeError, SourceLanguageException):
-        raise SourceLanguageException(f'{SOURCE_LANGUAGE_EXCEPTION}: {source_language}')
+        raise SourceLanguageException(f'{SOURCE_LANGUAGE_EXCEPTION}: {source}')

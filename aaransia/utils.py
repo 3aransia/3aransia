@@ -1,10 +1,11 @@
 import re
 import csv
 import collections
+import pickle
 
 import pandas as pd
 
-from aaransia.defaults import *
+from aaransia.defaults import BASE_DIR, DATA_DIR, ALPHABET_FILE
 
 # Remove noise from arabic text
 def de_noise(text):
@@ -31,7 +32,7 @@ def normalize_arabic(text):
 
 # Construct alphabet dictionary
 def construct_alphabet():
-    with open(BASE_DIR + DATA_DIR + ALPHABET) as fh:
+    with open(BASE_DIR + DATA_DIR + ALPHABET_FILE) as fh:
         rd, alphabet = csv.DictReader(fh, delimiter=','), list()
         for row in rd: alphabet.append(row)
         return alphabet

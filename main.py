@@ -1,11 +1,31 @@
-from aaransia.transliteration import *
-from aaransia.utils import *
-from aaransia.test import *
+from pprint import PrettyPrinter
 
-if __name__ == "__main__":
-    choice = ''
-    while choice != '0': 
-        choice = input("Please choose tranliteration:\n1. Moroccan to Moroccan Arabic\n0. Quit\n")
-        if choice == '1': print(_transliterate_moroccan_to_moroccan_arabic(input("Enter input to translate to Moroccan Arabic: \n")))
-        elif choice == '0': print('Thank you for using 3aransia\n')
-        else: print('Incorrect entry, please try again\n')
+from aaransia.utils import * 
+from aaransia.transliteration import * 
+from aaransia.exceptions import * 
+
+pp = PrettyPrinter(indent=1)
+
+pp.pprint(get_alphabets_codes())
+
+pp.pprint(get_alphabets())
+
+s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
+
+print(transliterate(s_ar, source='ar', target='ma'))
+
+s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
+s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
+s_la = "ktb bl'rbya hnaya chhal ma bghiti"
+s_ab = "ktb bl'rbya hnaya chḥal ma bghiti"
+s_gr = "κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι"
+
+strings = [s_ma, s_ar, s_la, s_ab, s_gr]
+
+for s in strings:
+    for source_language in get_alphabets_codes():
+        for target_language in get_alphabets_codes():
+            try:
+                print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
+            except SourceLanguageException as sle:
+                print(s, sle)

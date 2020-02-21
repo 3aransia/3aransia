@@ -4,17 +4,15 @@ from aaransia.utils import *
 from aaransia.transliteration import * 
 from aaransia.exceptions import * 
 
-pp = PrettyPrinter(indent = 4)
+pp = PrettyPrinter(indent=1)
 
 pp.pprint(get_alphabets_codes())
 
 pp.pprint(get_alphabets())
 
-pp.pprint(construct_alphabet())
-
 s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
 
-print(transliterate(s_ar, source_language='ar', target_language='ma'))
+print(transliterate(s_ar, source='ar', target='ma'))
 
 s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
 s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
