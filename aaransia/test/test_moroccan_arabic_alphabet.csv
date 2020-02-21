@@ -3,11 +3,6 @@ Test Case,Expected Result
 !,!
 ،,","
 .,.
-ء,2
-ع,3
-خ,5
-ح,7
-ق,9
 ؟,?
 ا,a
 ب,b
@@ -55,3 +50,8 @@ Test Case,Expected Result
 كس,x
 ي,yi
 ز,z
+ع,3
+ء,2
+خ,5
+ح,7
+ق,9

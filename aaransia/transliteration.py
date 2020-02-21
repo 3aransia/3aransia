@@ -4,7 +4,7 @@ from aaransia.defaults import (
     ALPHABETS, ARABIAN_ALPHABET_CODE, SOURCE_LANGUAGE_EXCEPTION_MESSAGE, DOUBLE_LETTERS,
     ALPHABET
 )
-from aaransia.exceptions import SourceLanguageException
+from aaransia.exceptions import SourceLanguageError
 
 # Return available alphabets code
 def get_alphabets_codes():
@@ -32,9 +32,9 @@ def _transliterate_letter(letter, source, target):
         for _letter in ALPHABET:
             if _letter[ALPHABETS[source]] == letter:
                 return _letter[ALPHABETS[target]]
-        return None
-    except IndexError:
-        raise SourceLanguageException
+        raise SourceLanguageError
+    except (IndexError, TypeError):
+        raise SourceLanguageError
 
 # Transliterate word
 def _transliterate_word(word, source, target):
@@ -66,7 +66,7 @@ def _transliterate_word(word, source, target):
                 result.append(_transliterate_letter(word[i], source, target))
         return u''.join(result).replace(u'\u200e', '')
     except TypeError:
-        raise SourceLanguageException
+        raise SourceLanguageError
 
 # Transliteration
 def transliterate(text, source, target):
@@ -81,5 +81,5 @@ def transliterate(text, source, target):
     try:
         return ' '.join(list(map(lambda w: _transliterate_word(w, source, target),
                                  text.split())))
-    except (TypeError, SourceLanguageException):
-        raise SourceLanguageException(f'{SOURCE_LANGUAGE_EXCEPTION_MESSAGE}: {source}')
+    except (TypeError, SourceLanguageError):
+        raise SourceLanguageError(f'{SOURCE_LANGUAGE_EXCEPTION_MESSAGE}: {source}')

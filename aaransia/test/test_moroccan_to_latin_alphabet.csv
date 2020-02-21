@@ -3,11 +3,6 @@ Test Case,Expected Result
 !,!
 ",",","
 .,.
-2,'
-3,'
-5,kh
-7,h
-9,q
 ?,?
 a,a
 b,b
@@ -37,7 +32,7 @@ n,n
 o,o
 o,o
 ou,ou
-p,b
+p,p
 q,q
 r,r
 s,s
@@ -55,3 +50,8 @@ x,x
 x,x
 yi,yi
 z,z
+3,'
+2,'
+5,kh
+7,h
+9,q

@@ -61,7 +61,7 @@ print(transliterate(s_ar, source='ar', target='ma'))
 ### Transliterate from all languages to all languages
 
 ```python
-from aaransia import transliterate, SourceLanguageException
+from aaransia import transliterate, SourceLanguageError
 
 s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
 s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
@@ -76,7 +76,7 @@ for s in strings:
         for target_language in get_alphabets_codes():
             try:
                 print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
-             except SourceLanguageException as sle:
+             except SourceLanguageError as sle:
                 print(f'{p}, {sle}')
 ```
 

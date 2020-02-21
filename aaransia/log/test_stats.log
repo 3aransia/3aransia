@@ -204,3 +204,33 @@
 2020-02-18 19:23:48,703 - test_stats_logger - INFO - test_moroccan_arabic_words_logger - Total INFO logs 29 (4.84%), Total ERROR logs 570 (95.16%)
 2020-02-18 19:23:48,750 - test_stats_logger - INFO - test_moroccan_to_latin_alphabet_logger - Total INFO logs 56 (100.0%), Total ERROR logs 0 (0.0%)
 2020-02-18 19:23:50,495 - test_stats_logger - INFO - test_moroccan_words_logger - Total INFO logs 277 (46.24%), Total ERROR logs 322 (53.76%)
+2020-02-21 03:22:52,747 - test_stats_logger - INFO - 
+
+2020-02-21 03:22:52,758 - test_stats_logger - INFO - test_case_logger - Total INFO logs 1 (16.67%), Total ERROR logs 5 (83.33%)
+2020-02-21 03:22:52,778 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-21 03:22:52,798 - test_stats_logger - INFO - test_moroccan_arabic_alphabet_logger - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
+2020-02-21 03:22:52,829 - test_stats_logger - INFO - test_moroccan_to_latin_alphabet_logger - Total INFO logs 50 (89.29%), Total ERROR logs 6 (10.71%)
+2020-02-21 03:24:52,889 - test_stats_logger - INFO - 
+
+2020-02-21 03:24:52,896 - test_stats_logger - INFO - test_case_logger - Total INFO logs 1 (16.67%), Total ERROR logs 5 (83.33%)
+2020-02-21 03:24:52,916 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-21 03:24:52,939 - test_stats_logger - INFO - test_moroccan_arabic_alphabet_logger - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
+2020-02-21 03:24:52,971 - test_stats_logger - INFO - test_moroccan_to_latin_alphabet_logger - Total INFO logs 50 (89.29%), Total ERROR logs 6 (10.71%)
+2020-02-21 03:29:04,615 - test_stats_logger - INFO - 
+
+2020-02-21 03:29:04,625 - test_stats_logger - INFO - test_case_logger - Total INFO logs 1 (16.67%), Total ERROR logs 5 (83.33%)
+2020-02-21 03:29:04,647 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-21 03:29:04,669 - test_stats_logger - INFO - test_moroccan_arabic_alphabet_logger - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
+2020-02-21 03:29:04,698 - test_stats_logger - INFO - test_moroccan_to_latin_alphabet_logger - Total INFO logs 50 (89.29%), Total ERROR logs 6 (10.71%)
+2020-02-21 03:32:00,361 - test_stats_logger - INFO - 
+
+2020-02-21 03:32:00,369 - test_stats_logger - INFO - test_case_logger - Total INFO logs 1 (16.67%), Total ERROR logs 5 (83.33%)
+2020-02-21 03:32:00,392 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-21 03:32:00,414 - test_stats_logger - INFO - test_moroccan_arabic_alphabet_logger - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
+2020-02-21 03:32:00,447 - test_stats_logger - INFO - test_moroccan_to_latin_alphabet_logger - Total INFO logs 50 (89.29%), Total ERROR logs 6 (10.71%)
+2020-02-21 03:32:11,987 - test_stats_logger - INFO - 
+
+2020-02-21 03:32:11,995 - test_stats_logger - INFO - test_case_logger - Total INFO logs 1 (16.67%), Total ERROR logs 5 (83.33%)
+2020-02-21 03:32:12,015 - test_stats_logger - INFO - test_moroccan_alphabet_logger - Total INFO logs 39 (69.64%), Total ERROR logs 17 (30.36%)
+2020-02-21 03:32:12,036 - test_stats_logger - INFO - test_moroccan_arabic_alphabet_logger - Total INFO logs 40 (71.43%), Total ERROR logs 16 (28.57%)
+2020-02-21 03:32:12,067 - test_stats_logger - INFO - test_moroccan_to_latin_alphabet_logger - Total INFO logs 50 (89.29%), Total ERROR logs 6 (10.71%)

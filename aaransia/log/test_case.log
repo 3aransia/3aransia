@@ -1,13 +1,31 @@
-2020-02-18 19:23:46,523 - test_case_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
-2020-02-18 19:23:46,531 - test_case_logger - ERROR - Transliteration of Intissar, 'انتصار' != 'انتيصار'
-- انتصار
-+ انتيصار
-?    +
+2020-02-21 03:32:11,991 - test_case_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
+2020-02-21 03:32:11,992 - test_case_logger - ERROR - Transliteration of Ostad, 'استاد' != 'وستاد'
+- استاد
+? ^
++ وستاد
+? ^
 
-2020-02-18 19:23:46,543 - test_case_logger - ERROR - Transliteration of chrit 9 dlbidat men l7anout, 'شريت 9 دلبيضات من لحانوت' != 'شريت 9 دلبيدات من لحانوت'
+2020-02-21 03:32:11,993 - test_case_logger - ERROR - Transliteration of Amine, 'امين' != 'امين '
+- امين
++ امين 
+?     +
+
+2020-02-21 03:32:11,993 - test_case_logger - ERROR - Transliteration of Intissar, 'انتصار' != 'ينتيصار'
+- انتصار
+? ^
++ ينتيصار
+? ^  +
+
+2020-02-21 03:32:11,994 - test_case_logger - ERROR - Transliteration of Ewa, 'اوا' != ' وا'
+- اوا
+? ^
++  وا
+? ^
+
+2020-02-21 03:32:11,995 - test_case_logger - ERROR - Transliteration of chrit 9 dlbidat men l7anout, 'شريت 9 دلبيضات من لحانوت' != 'شريت 9 دلبيدات م ن لحانوت'
 - شريت 9 دلبيضات من لحانوت
 ?            ^
-+ شريت 9 دلبيدات من لحانوت
-?            ^
++ شريت 9 دلبيدات م ن لحانوت
+?            ^    +
 
-2020-02-18 19:23:46,547 - test_case_logger - INFO - Total INFO logs 4 (66.67%), Total ERROR logs 2 (33.33%)
+2020-02-21 03:32:11,995 - test_case_logger - INFO - Total INFO logs 1 (16.67%), Total ERROR logs 5 (83.33%)
