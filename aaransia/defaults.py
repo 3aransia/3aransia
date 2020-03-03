@@ -23,10 +23,10 @@ TEST_MOROCCAN_WORDS_LOG_FILE = '/test_moroccan_words.log'
 TEST_STATS_LOG_FILE = '/test_stats.log'
 
 # Loggers
-TEST_STATS_LOGGER = 'test_stats_logger'
+TEST_STATS_LOGGER_NAME = 'test_stats_logger'
 
-TEST_MOROCCAN_ALPHABET_LOGGER = 'test_moroccan_alphabet_logger'
-TEST_MOROCCAN_WORDS_LOGGER = 'test_moroccan_words_logger'
+TEST_MOROCCAN_ALPHABET_LOGGER_NAME = 'test_moroccan_alphabet_logger'
+TEST_MOROCCAN_WORDS_LOGGER_NAME = 'test_moroccan_words_logger'
 
 # Test strings
 TEST_CASE = 'Test Case'
