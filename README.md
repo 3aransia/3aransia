@@ -49,9 +49,9 @@ print(get_alphabets())
 
 ### Transliterate from a language or dialect to another
 ```python
-s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
+ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
 
-print(transliterate(s_ar, source='ar', target='ma'))
+print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
 ```
 
 ```
@@ -61,23 +61,25 @@ print(transliterate(s_ar, source='ar', target='ma'))
 ### Transliterate from all languages to all languages
 
 ```python
-from aaransia import transliterate, SourceLanguageException
+from aaransia import transliterate, SourceLanguageError
 
-s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
-s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
-s_la = "ktb bl'rbya hnaya chhal ma bghiti"
-s_ab = "ktb bl'rbya hnaya chḥal ma bghiti"
-s_gr = "κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι"
+MOROCCAN_SENTENCE = "ktb bl3rbya hnaya ch7al ma bghiti"
+ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
+LATIN_SENTENCE = "ktb bl'rbya hnaya chhal ma bghiti"
+ABJADI_SENTENCE = "ktb bl'rbya hnaya chḥal ma bghiti"
+GREEK_SENTENCE = "κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι"
 
-strings = [s_ma, s_ar, s_la, s_ab, s_gr]
+SENTENCES = [MOROCCAN_SENTENCE, ARABIC_SENTENCE, LATIN_SENTENCE, ABJADI_SENTENCE, GREEK_SENTENCE]
 
-for s in strings:
+for sentence in SENTENCES:
     for source_language in get_alphabets_codes():
-        for target_language in get_alphabets_codes():
-            try:
-                print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
-             except SourceLanguageException as sle:
-                print(f'{p}, {sle}')
+        try:
+            for target_language in get_alphabets_codes():
+                print(f'{sentence}\n'
+                      f'{source_language} ==> {target_language}\n'
+                      f'{transliterate(sentence, source_language, target_language)}\n')
+        except SourceLanguageError as sle:
+            print(sentence, sle)
 ```
 
 ```
@@ -102,29 +104,9 @@ for s in strings:
 >>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
 >>> 
 >>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ar
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: la
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: la
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: la
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: la
 >>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: la
 >>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ab
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ab
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ab
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ab
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: ab
 >>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: gr
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: gr
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: gr
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: gr
->>> ktb bl3rbya hnaya ch7al ma bghiti Source language doesn't match the input text: gr
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ma
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ma
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ma
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ma
 >>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ma
 >>> كتب بلعربيا هنايا شحال ما بغيتي
 >>> ar ==> ma
@@ -147,29 +129,9 @@ for s in strings:
 >>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπρυτυ
 >>> 
 >>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: la
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: la
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: la
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: la
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: la
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ab
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ab
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ab
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ab
 >>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: ab
 >>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: gr
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: gr
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: gr
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: gr
->>> كتب بلعربيا هنايا شحال ما بغيتي Source language doesn't match the input text: gr
 >>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ma
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ma
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ma
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ma
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ma
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ar
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ar
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ar
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ar
 >>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: ar
 >>> ktb bl'rbya hnaya chhal ma bghiti
 >>> la ==> ma
@@ -212,24 +174,8 @@ for s in strings:
 >>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
 >>> 
 >>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chhal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ma
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ma
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ma
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ma
 >>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ma
 >>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ar
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ar
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ar
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ar
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: ar
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: la
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: la
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: la
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: la
 >>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: la
 >>> ktb bl'rbya hnaya chḥal ma bghiti
 >>> ab ==> ma
@@ -252,29 +198,9 @@ for s in strings:
 >>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
 >>> 
 >>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
->>> ktb bl'rbya hnaya chḥal ma bghiti Source language doesn't match the input text: gr
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ma
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ma
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ma
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ma
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ma
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ar
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ar
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ar
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ar
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ar
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: la
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: la
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: la
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: la
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: la
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ab
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ab
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ab
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ab
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι Source language doesn't match the input text: ab
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> ma
@@ -294,7 +220,7 @@ for s in strings:
 >>> 
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 >>> gr ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτιs
+>>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 ```
 
 ## Other related projects

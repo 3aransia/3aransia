@@ -1,6 +1,4 @@
-class LanguageNotFound(Exception):
-    """Exception raised when language alphabet is not found for the language code
-    given."""
+"""This file contains all the exceptions of 3aransia library"""
 
-class SourceLanguageException(Exception):
+class SourceLanguageError(Exception):
     """Source language doesn't match the input text"""
