@@ -7,6 +7,10 @@ Transliteration of languages and dialects
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
 
+## Contribution
+
+For contribution you can refer to [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## Prerequisites
 
 - [`Python 3`](https://www.python.org/downloads/)
@@ -222,6 +226,19 @@ for sentence in SENTENCES:
 >>> gr ==> gr
 >>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 ```
+
+## Adding a language or a dialect
+
+1. Add it to the [alphabet](aaransia/data/alphabet.csv) CSV file
+2. Generate the whole alphabet with the ```construct_alphabet``` function from [utils.py](aaransia/utils.py)
+3. Update the [defaults.py](aaransia/defaults.py)
+   1. Add the alphabet code
+   2. Add the alphabet name
+   3. Add both of them to the alphabet dictionary
+   4. Add the double letters if they are
+   5. Add the updated alphabet got from ```construct_alphabet``` earlier (use ```PrettyPrinter``` and ```pylint``` to format it, you can refer to main.py line 15)
+4. Test the whole alphabet in [test.py](aaransia/test.py)
+5. Make a pull request
 
 ## Other related projects
 
