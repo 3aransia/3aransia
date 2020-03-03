@@ -1,5 +1,0 @@
-2020-02-21 03:32:12,037 - test_moroccan_arabic_to_latin_alphabet_logger - INFO - Transliteration of [item to test] ([expected result], [generated result result])
-2020-02-21 03:32:12,038 - test_moroccan_arabic_to_latin_alphabet_logger - ERROR - Transliteration of  , ' ' != ''
--  
-+ 
-

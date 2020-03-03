@@ -26,8 +26,12 @@ strings = [s_ma, s_ar, s_la, s_ab, s_gr]
 
 for s in strings:
     for source_language in get_alphabets_codes():
-        for target_language in get_alphabets_codes():
-            try:
-                print(f'{s}\n{source_language} ==> {target_language}\n{transliterate(s, source_language, target_language)}\n')
-            except SourceLanguageError as sle:
-                print(s, sle)
+        try:
+            for target_language in get_alphabets_codes():
+                    print(f"""
+{s}
+{source_language} ==> {target_language}
+{transliterate(s, source_language, target_language)}
+                """)
+        except SourceLanguageError as sle:
+            print(s, sle)

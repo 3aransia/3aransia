@@ -10,7 +10,7 @@ def de_noise(text):
     """Returns a de-noised arabic text
 
     Keyword arguments:
-    text -- the text to de-noise
+    @text -- the text to de-noise
     """
     noise = re.compile(""" ّ    | # Tashdid
                              َ    | # Fatha
@@ -30,7 +30,7 @@ def normalize_arabic(text):
     """Returns a normalized arabic text
 
     Keyword arguments:
-    text -- the text to normalize
+    @text -- the text to normalize
     """
     text = re.sub("[إأٱآا]", "ا", text)
     text = re.sub("ى", "ا", text)
