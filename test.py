@@ -1,4 +1,5 @@
-from aaransia.test import *
+"""This script is for testing purposes"""
 
-# Function to run tests
+from aaransia.test import run_tests
+
 run_tests()
