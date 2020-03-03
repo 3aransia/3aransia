@@ -1,37 +1,37 @@
+"""This script is for demonstration purposes"""
+
 from pprint import PrettyPrinter
 
-from aaransia.utils import * 
-from aaransia.transliteration import * 
-from aaransia.exceptions import * 
+from aaransia.utils import construct_alphabet
+from aaransia.transliteration import get_alphabets, get_alphabets_codes, transliterate
+from aaransia.exceptions import SourceLanguageError
 
-pp = PrettyPrinter(indent=1)
+PRETTY_PRINTER = PrettyPrinter(indent=1)
 
-pp.pprint(get_alphabets_codes())
+PRETTY_PRINTER.pprint(get_alphabets_codes())
 
-pp.pprint(get_alphabets())
+PRETTY_PRINTER.pprint(get_alphabets())
 
-pp.pprint(construct_alphabet())
+PRETTY_PRINTER.pprint(construct_alphabet())
 
-s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
+ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
 
-print(transliterate(s_ar, source='ar', target='ma'))
+print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
 
-s_ma = "ktb bl3rbya hnaya ch7al ma bghiti"
-s_ar = "كتب بلعربيا هنايا شحال ما بغيتي"
-s_la = "ktb bl'rbya hnaya chhal ma bghiti"
-s_ab = "ktb bl'rbya hnaya chḥal ma bghiti"
-s_gr = "κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι"
+MOROCCAN_SENTENCE = "ktb bl3rbya hnaya ch7al ma bghiti"
+ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
+LATIN_SENTENCE = "ktb bl'rbya hnaya chhal ma bghiti"
+ABJADI_SENTENCE = "ktb bl'rbya hnaya chḥal ma bghiti"
+GREEK_SENTENCE = "κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι"
 
-strings = [s_ma, s_ar, s_la, s_ab, s_gr]
+SENTENCES = [MOROCCAN_SENTENCE, ARABIC_SENTENCE, LATIN_SENTENCE, ABJADI_SENTENCE, GREEK_SENTENCE]
 
-for s in strings:
+for sentence in SENTENCES:
     for source_language in get_alphabets_codes():
         try:
             for target_language in get_alphabets_codes():
-                    print(f"""
-{s}
-{source_language} ==> {target_language}
-{transliterate(s, source_language, target_language)}
-                """)
+                print(f'{sentence}\n'
+                      f'{source_language} ==> {target_language}\n'
+                      f'{transliterate(sentence, source_language, target_language)}\n')
         except SourceLanguageError as sle:
-            print(s, sle)
+            print(sentence, sle)
