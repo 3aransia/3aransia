@@ -2,7 +2,7 @@
 
 from aaransia.defaults import (
     ALPHABETS, ARABIAN_ALPHABET_CODE, SOURCE_LANGUAGE_EXCEPTION_MESSAGE, DOUBLE_LETTERS,
-    ALPHABET, MOROCCAN_ALPHABET_CODE
+    ALPHABET, MOROCCAN_ALPHABET_CODE, SPECIAL_CHARACTERS
 )
 from aaransia.exceptions import SourceLanguageError
 
@@ -25,6 +25,8 @@ def _get_letter(letter, source, target):
     @source -- the source language from the available languages
     @target -- the target language from the available languages
     """
+    if letter in SPECIAL_CHARACTERS:
+        return letter
     for _letter in ALPHABET:
         if _letter[ALPHABETS[source]] == letter:
             return _letter[ALPHABETS[target]]

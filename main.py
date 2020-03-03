@@ -35,3 +35,7 @@ for sentence in SENTENCES:
                       f'{transliterate(sentence, source_language, target_language)}\n')
         except SourceLanguageError as sle:
             print(sentence, sle)
+
+MOROCCAN_SPECIAL_SENTENCE = "ktb bl3rbya, hnaya ch7al ma bghiti !&"
+
+print(transliterate(MOROCCAN_SPECIAL_SENTENCE, source='ma', target='la'))

@@ -7,13 +7,13 @@ import pandas as pd
 
 from aaransia.transliteration import transliterate
 from aaransia.exceptions import SourceLanguageError
-from aaransia.defaults import (BASE_DIR, LOG_DIR, TEST_DIR, DATA_DIR, MOROCCAN_ALPHABET,
-                               ARABIAN_ALPHABET, EXPECTED_RESULT, TEST_MOROCCAN_ALPHABET,
-                               DICTIONARY_FILE, TEST_MOROCCAN_WORDS, TEST_STATS_LOGGER_NAME,
-                               TEST_MOROCCAN_ALPHABET_LOGGER_NAME, TEST_MOROCCAN_WORDS_LOGGER_NAME,
-                               TEST_STATS_LOG_FILE, TEST_MOROCCAN_ALPHABET_LOG_FILE,
-                               MOROCCAN_ALPHABET_CODE, ARABIAN_ALPHABET_CODE, TEST_CASE,
-                               ALPHABET_FILE)
+from aaransia.defaults import (
+    BASE_DIR, LOG_DIR, TEST_DIR, DATA_DIR, MOROCCAN_ALPHABET, ARABIAN_ALPHABET, EXPECTED_RESULT,
+    TEST_MOROCCAN_ALPHABET, DICTIONARY_FILE, TEST_MOROCCAN_WORDS, TEST_STATS_LOGGER_NAME,
+    TEST_MOROCCAN_ALPHABET_LOGGER_NAME, TEST_MOROCCAN_WORDS_LOGGER_NAME, TEST_STATS_LOG_FILE,
+    TEST_MOROCCAN_ALPHABET_LOG_FILE, MOROCCAN_ALPHABET_CODE, ARABIAN_ALPHABET_CODE, TEST_CASE,
+    ALPHABET_FILE
+)
 
 def build_moroccan_alphabet_test_file():
     """This function is dedicated to build the moroccan alphabet test file"""

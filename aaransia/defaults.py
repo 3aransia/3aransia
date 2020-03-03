@@ -67,33 +67,18 @@ DOUBLE_LETTERS = {
 # Exceptions
 SOURCE_LANGUAGE_EXCEPTION_MESSAGE = "Source language doesn't match the input text"
 
+# Special characters
+SPECIAL_CHARACTERS = '[@_!#$%^&*()<>?/\|}{~:],.;@$-+=` '
+
+# Alphabets for testing purposes
+MOROCCAN_ALPHABET_LIST = [' ', '!', ',', '.', '?', 'a', 'b', 'ch', 'd', 'd', 'd', 'd', 'e',
+                          'e', 'f', 'g', 'gh', 'h', 'y', 'i', 'ee', 'i', 'j', 'k', 'c',
+                          'kh', 'l', 'la', 'm', 'n', 'o', 'o', 'ou', 'p', 'q', 'r', 's', 's',
+                          'ss', 'sh', 't', 't', 't', 't', 'u', 'v', 'w', 'x', 'x', 'yi', 'z',
+                          '3', '2', '5', '7', '9']
+
 # The Alphabet
-ALPHABET = [OrderedDict([('Moroccan Alphabet', ' '),
-                         ('Arabian Alphabet', ' '),
-                         ('Latin Alphabet', ' '),
-                         ('Abjadi Alphabet', ' '),
-                         ('Greek Alphabet', ' ')]),
-            OrderedDict([('Moroccan Alphabet', '!'),
-                         ('Arabian Alphabet', '!'),
-                         ('Latin Alphabet', '!'),
-                         ('Abjadi Alphabet', '!'),
-                         ('Greek Alphabet', '!')]),
-            OrderedDict([('Moroccan Alphabet', ','),
-                         ('Arabian Alphabet', '،'),
-                         ('Latin Alphabet', ','),
-                         ('Abjadi Alphabet', ','),
-                         ('Greek Alphabet', ',')]),
-            OrderedDict([('Moroccan Alphabet', '.'),
-                         ('Arabian Alphabet', '.'),
-                         ('Latin Alphabet', '.'),
-                         ('Abjadi Alphabet', '.'),
-                         ('Greek Alphabet', '.')]),
-            OrderedDict([('Moroccan Alphabet', '?'),
-                         ('Arabian Alphabet', '؟'),
-                         ('Latin Alphabet', '?'),
-                         ('Abjadi Alphabet', '?'),
-                         ('Greek Alphabet', '?')]),
-            OrderedDict([('Moroccan Alphabet', 'a'),
+ALPHABET = [OrderedDict([('Moroccan Alphabet', 'a'),
                          ('Arabian Alphabet', 'ا'),
                          ('Latin Alphabet', 'a'),
                          ('Abjadi Alphabet', 'a'),
