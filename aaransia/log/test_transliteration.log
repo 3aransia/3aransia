@@ -1,109 +1,109 @@
-2020-03-04 11:03:35,886 - test_logger - INFO - Ar - Total INFO logs 129.0 (100.0%), 
+2020-03-04 12:05:01,322 - test_logger - INFO - Ar - Total INFO logs 129.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:36,670 - test_logger - INFO - Af - Total INFO logs 147.0 (100.0%), 
+2020-03-04 12:05:02,043 - test_logger - INFO - Af - Total INFO logs 147.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:37,437 - test_logger - INFO - Sq - Total INFO logs 151.0 (100.0%), 
+2020-03-04 12:05:02,821 - test_logger - INFO - Sq - Total INFO logs 151.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:38,112 - test_logger - INFO - Az - Total INFO logs 111.0 (100.0%), 
+2020-03-04 12:05:03,467 - test_logger - INFO - Az - Total INFO logs 111.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:38,810 - test_logger - INFO - Eu - Total INFO logs 110.0 (100.0%), 
+2020-03-04 12:05:04,163 - test_logger - INFO - Eu - Total INFO logs 110.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:39,570 - test_logger - INFO - Ca - Total INFO logs 160.0 (100.0%), 
+2020-03-04 12:05:04,966 - test_logger - INFO - Ca - Total INFO logs 160.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:40,226 - test_logger - INFO - Co - Total INFO logs 142.0 (100.0%), 
+2020-03-04 12:05:05,785 - test_logger - INFO - Co - Total INFO logs 142.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:40,897 - test_logger - INFO - Hr - Total INFO logs 116.0 (100.0%), 
+2020-03-04 12:05:06,862 - test_logger - INFO - Hr - Total INFO logs 116.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:41,526 - test_logger - INFO - Cs - Total INFO logs 118.0 (100.0%), 
+2020-03-04 12:05:07,599 - test_logger - INFO - Cs - Total INFO logs 118.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:41,759 - test_logger - ERROR - Da - Transliteration of ​​et, Source alphabet language doesn't match the input text: da
-2020-03-04 11:03:42,210 - test_logger - INFO - Da - Total INFO logs 130.0 (99.24%), 
+2020-03-04 12:05:07,868 - test_logger - ERROR - Da - Transliteration of ​​et, Source alphabet language doesn't match the input text: da
+2020-03-04 12:05:08,391 - test_logger - INFO - Da - Total INFO logs 130.0 (99.24%), 
 	Total ERROR logs 1 (0.76%)
-2020-03-04 11:03:43,029 - test_logger - INFO - Nl - Total INFO logs 143.0 (100.0%), 
+2020-03-04 12:05:09,147 - test_logger - INFO - Nl - Total INFO logs 143.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:44,236 - test_logger - INFO - En - Total INFO logs 136.0 (100.0%), 
+2020-03-04 12:05:09,948 - test_logger - INFO - En - Total INFO logs 136.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:45,169 - test_logger - INFO - Eo - Total INFO logs 124.0 (100.0%), 
+2020-03-04 12:05:10,718 - test_logger - INFO - Eo - Total INFO logs 124.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:46,366 - test_logger - INFO - Et - Total INFO logs 101.0 (100.0%), 
+2020-03-04 12:05:11,485 - test_logger - INFO - Et - Total INFO logs 101.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:47,309 - test_logger - INFO - Tl - Total INFO logs 172.0 (100.0%), 
+2020-03-04 12:05:12,373 - test_logger - INFO - Tl - Total INFO logs 172.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:48,618 - test_logger - INFO - Fi - Total INFO logs 100.0 (100.0%), 
+2020-03-04 12:05:13,251 - test_logger - INFO - Fi - Total INFO logs 100.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:49,721 - test_logger - INFO - Fr - Total INFO logs 154.0 (100.0%), 
+2020-03-04 12:05:14,143 - test_logger - INFO - Fr - Total INFO logs 154.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:51,151 - test_logger - INFO - Gl - Total INFO logs 146.0 (100.0%), 
+2020-03-04 12:05:15,000 - test_logger - INFO - Gl - Total INFO logs 146.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:52,311 - test_logger - INFO - De - Total INFO logs 135.0 (100.0%), 
+2020-03-04 12:05:15,886 - test_logger - INFO - De - Total INFO logs 135.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:53,551 - test_logger - INFO - Ht - Total INFO logs 146.0 (100.0%), 
+2020-03-04 12:05:16,534 - test_logger - INFO - Ht - Total INFO logs 146.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:54,924 - test_logger - INFO - Ha - Total INFO logs 170.0 (100.0%), 
+2020-03-04 12:05:17,246 - test_logger - INFO - Ha - Total INFO logs 170.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:55,889 - test_logger - INFO - Hu - Total INFO logs 114.0 (100.0%), 
+2020-03-04 12:05:17,902 - test_logger - INFO - Hu - Total INFO logs 114.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:57,023 - test_logger - INFO - Is - Total INFO logs 120.0 (100.0%), 
+2020-03-04 12:05:18,578 - test_logger - INFO - Is - Total INFO logs 120.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:58,075 - test_logger - INFO - Ig - Total INFO logs 146.0 (100.0%), 
+2020-03-04 12:05:19,242 - test_logger - INFO - Ig - Total INFO logs 146.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:03:59,486 - test_logger - INFO - Id - Total INFO logs 118.0 (100.0%), 
+2020-03-04 12:05:19,975 - test_logger - INFO - Id - Total INFO logs 118.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:00,400 - test_logger - INFO - Ga - Total INFO logs 149.0 (100.0%), 
+2020-03-04 12:05:20,859 - test_logger - INFO - Ga - Total INFO logs 149.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:01,342 - test_logger - INFO - It - Total INFO logs 158.0 (100.0%), 
+2020-03-04 12:05:21,690 - test_logger - INFO - It - Total INFO logs 158.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:02,098 - test_logger - INFO - Ku - Total INFO logs 133.0 (100.0%), 
+2020-03-04 12:05:22,412 - test_logger - INFO - Ku - Total INFO logs 133.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:02,980 - test_logger - INFO - La - Total INFO logs 124.0 (100.0%), 
+2020-03-04 12:05:23,288 - test_logger - INFO - La - Total INFO logs 124.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:03,916 - test_logger - INFO - Lv - Total INFO logs 110.0 (100.0%), 
+2020-03-04 12:05:24,155 - test_logger - INFO - Lv - Total INFO logs 110.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:04,749 - test_logger - INFO - Lt - Total INFO logs 110.0 (100.0%), 
+2020-03-04 12:05:25,014 - test_logger - INFO - Lt - Total INFO logs 110.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:05,623 - test_logger - INFO - Mg - Total INFO logs 147.0 (100.0%), 
+2020-03-04 12:05:26,054 - test_logger - INFO - Mg - Total INFO logs 147.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:06,613 - test_logger - INFO - Ms - Total INFO logs 122.0 (100.0%), 
+2020-03-04 12:05:26,884 - test_logger - INFO - Ms - Total INFO logs 122.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:07,703 - test_logger - INFO - Mt - Total INFO logs 114.0 (100.0%), 
+2020-03-04 12:05:27,793 - test_logger - INFO - Mt - Total INFO logs 114.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:08,962 - test_logger - INFO - No - Total INFO logs 133.0 (100.0%), 
+2020-03-04 12:05:28,576 - test_logger - INFO - No - Total INFO logs 133.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:09,746 - test_logger - INFO - Pl - Total INFO logs 118.0 (100.0%), 
+2020-03-04 12:05:29,359 - test_logger - INFO - Pl - Total INFO logs 118.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:10,540 - test_logger - INFO - Pt - Total INFO logs 149.0 (100.0%), 
+2020-03-04 12:05:30,224 - test_logger - INFO - Pt - Total INFO logs 149.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:11,345 - test_logger - INFO - Ro - Total INFO logs 147.0 (100.0%), 
+2020-03-04 12:05:31,149 - test_logger - INFO - Ro - Total INFO logs 147.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:12,149 - test_logger - INFO - El - Total INFO logs 149.0 (100.0%), 
+2020-03-04 12:05:32,018 - test_logger - INFO - El - Total INFO logs 149.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:12,834 - test_logger - INFO - Sk - Total INFO logs 119.0 (100.0%), 
+2020-03-04 12:05:32,689 - test_logger - INFO - Sk - Total INFO logs 119.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:13,453 - test_logger - INFO - Sl - Total INFO logs 114.0 (100.0%), 
+2020-03-04 12:05:33,902 - test_logger - INFO - Sl - Total INFO logs 114.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:14,264 - test_logger - INFO - So - Total INFO logs 162.0 (100.0%), 
+2020-03-04 12:05:34,671 - test_logger - INFO - So - Total INFO logs 162.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:15,217 - test_logger - INFO - Es - Total INFO logs 168.0 (100.0%), 
+2020-03-04 12:05:35,477 - test_logger - INFO - Es - Total INFO logs 168.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:16,016 - test_logger - INFO - Su - Total INFO logs 123.0 (100.0%), 
+2020-03-04 12:05:36,197 - test_logger - INFO - Su - Total INFO logs 123.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:16,760 - test_logger - INFO - Sw - Total INFO logs 139.0 (100.0%), 
+2020-03-04 12:05:37,013 - test_logger - INFO - Sw - Total INFO logs 139.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:17,446 - test_logger - INFO - Sv - Total INFO logs 133.0 (100.0%), 
+2020-03-04 12:05:37,851 - test_logger - INFO - Sv - Total INFO logs 133.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:18,378 - test_logger - INFO - Tr - Total INFO logs 110.0 (100.0%), 
+2020-03-04 12:05:38,626 - test_logger - INFO - Tr - Total INFO logs 110.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:19,194 - test_logger - INFO - Uz - Total INFO logs 118.0 (100.0%), 
+2020-03-04 12:05:39,475 - test_logger - INFO - Uz - Total INFO logs 118.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:20,414 - test_logger - INFO - Vi - Total INFO logs 202.0 (100.0%), 
+2020-03-04 12:05:40,234 - test_logger - INFO - Vi - Total INFO logs 202.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:21,503 - test_logger - INFO - Cy - Total INFO logs 144.0 (100.0%), 
+2020-03-04 12:05:40,997 - test_logger - INFO - Cy - Total INFO logs 144.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:22,612 - test_logger - INFO - Xh - Total INFO logs 101.0 (100.0%), 
+2020-03-04 12:05:42,131 - test_logger - INFO - Xh - Total INFO logs 101.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:23,626 - test_logger - INFO - Yo - Total INFO logs 165.0 (100.0%), 
+2020-03-04 12:05:42,964 - test_logger - INFO - Yo - Total INFO logs 165.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:24,579 - test_logger - INFO - Zu - Total INFO logs 103.0 (100.0%), 
+2020-03-04 12:05:43,721 - test_logger - INFO - Zu - Total INFO logs 103.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)
-2020-03-04 11:04:25,244 - test_logger - INFO - Fa - Total INFO logs 154.0 (100.0%), 
+2020-03-04 12:05:44,285 - test_logger - INFO - Fa - Total INFO logs 154.0 (100.0%), 
 	Total ERROR logs 0 (0.0%)

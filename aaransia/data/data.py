@@ -17,7 +17,7 @@ def construct_alphabet():
         dict_reader, alphabet = csv.DictReader(file_handler, delimiter=','), list()
         for row in dict_reader:
             alphabet.append(row)
-    with open('alphabet.py', 'w') as file_handler:
+    with open('../alphabet.py', 'w') as file_handler:
         file_handler.write(f'''
 """Script containing the alphabet """
 
