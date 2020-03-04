@@ -22,29 +22,29 @@ For contribution you can refer to [CONTRIBUTING.md](CONTRIBUTING.md)
 ## Languages and dialects supported
 
 ```
-1. Afrikaans	2. Algerian	    3. Arabic	
-4. Azerbaijani	5. Bosnian	    6. Catalan	
-7. Corsican	    8. Czech	    9. Welsh	
-10. Danish	    11. German	    12. Greek	
-13. English	    14. Esperanto   15. Spanish	
-16. Estonian	17. Basque	    18. Persian	
-19. Finnish	    20. French	    21. Frisian	
-22. Irish	    23. Gaelic	    24. Galician	
+1. Afrikaans	    2. Algerian	        3. Arabic	
+4. Azerbaijani	    5. Bosnian	        6. Catalan	
+7. Corsican	    8. Czech	        9. Welsh	
+10. Danish	    11. German	        12. Greek	
+13. English	    14. Esperanto       15. Spanish	
+16. Estonian	    17. Basque	        18. Persian	
+19. Finnish	    20. French	        21. Frisian	
+22. Irish	    23. Gaelic	        24. Galician	
 25. Hausa	    26. Croatian	27. Creole	
-28. Hungarian	29. Hawaiian	30. Indonesian	
+28. Hungarian	    29. Hawaiian	30. Indonesian	
 31. Igbo	    32. Icelandic	33. Italian	
-34. Kinyarwanda	35. Kurdish	    36. Latin	
+34. Kinyarwanda	    35. Kurdish	        36. Latin	
 37. Libyan	    38. Lithuanian	39. Luxembourgish	
 40. Latvian	    41. Moroccan	42. Malagasy	
-43. Maori	    44. Malay	    45. Maltese	
+43. Maori	    44. Malay	        45. Maltese	
 46. Dutch	    47. Norwegian	48. Polish	
-49. Portuguese	50. Romanian	51. Samoan	
-52. Shona	    53. Slovak	    54. Slovenian	
+49. Portuguese	    50. Romanian	51. Samoan	
+52. Shona	    53. Slovak	        54. Slovenian	
 55. Somali	    56. Albanian	57. Sesotho	
-58. Sundanese	59. Swedish	    60. Swahili	
-61. Filipino	62. Tunisian	63. Turkish	
-64. Turkmen	    65. Urdu	    66. Uzbek	
-67. Vietnamese	68. Xhosa	    69. Yoruba	
+58. Sundanese	    59. Swedish	        60. Swahili	
+61. Filipino	    62. Tunisian	63. Turkish	
+64. Turkmen	    65. Urdu	        66. Uzbek	
+67. Vietnamese	    68. Xhosa	        69. Yoruba	
 70. Zulu
 ```
   
