@@ -54,6 +54,39 @@ For contribution you can refer to [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Usage
 
+### Transliterate from a language or dialect to another
+
+```python
+ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
+
+print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
+```
+
+```
+>>> ktb bl3rbya hnaya ch7al ma bghiti
+```
+
+### Transliterate cross languages and dialects to another, using the universal parameter
+```python
+from aaransia import SourceLanguageError
+
+MOROCCAN_ARABIC_SENTENCE = "ktb بلعربيا hnaya شحال ما بغيتي"
+
+try:
+    print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma'))
+except SourceLanguageError as source_language_error:
+    print(source_language_error)
+
+print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma', universal=True))
+print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ma', target='ar', universal=True))
+```
+
+```
+>>> Source alphabet language doesn't match the input text: ar
+>>> ktb bl3rbya hnaya chhal ma bghyty
+>>> كتب بلعربيا هنايا شحال ما بغيتي
+```
+
 ### Get all alphabets codes
 
 ```python
@@ -154,39 +187,6 @@ print(get_alphabets())
 >>>     'yo': 'Yoruba Alphabet',
 >>>     'zu': 'Zulu Alphabet'
 >>> }
-```
-
-### Transliterate from a language or dialect to another
-
-```python
-ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
-
-print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
-```
-
-```
->>> ktb bl3rbya hnaya ch7al ma bghiti
-```
-
-### Transliterate cross languages and dialects to another, using the universal parameter
-```python
-from aaransia import SourceLanguageError
-
-MOROCCAN_ARABIC_SENTENCE = "ktb بلعربيا hnaya شحال ما بغيتي"
-
-try:
-    print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma'))
-except SourceLanguageError as source_language_error:
-    print(source_language_error)
-
-print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma', universal=True))
-print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ma', target='ar', universal=True))
-```
-
-```
->>> Source alphabet language doesn't match the input text: ar
->>> ktb bl3rbya hnaya chhal ma bghyty
->>> كتب بلعربيا هنايا شحال ما بغيتي
 ```
 
 ## Adding a language or a dialect
