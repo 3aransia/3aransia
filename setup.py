@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
   name = 'aaransia',         # How you named your package folder (MyLib)
   packages = ['aaransia'],   # Chose the same as "name"
-  version = '0.20',      # Start with a small number and increase it with every change you make
+  version = '0.32',      # Start with a small number and increase it with every change you make
   license='Apache License 2.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Languages and Dialects transliteration',   # Give a short description about your library
   long_description=long_description,
