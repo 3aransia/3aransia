@@ -40,9 +40,9 @@ class TestTransliteration(unittest.TestCase):
         test_logget_file_handler.setLevel(logging.INFO)
         TEST_LOGGER.addHandler(test_logget_file_handler)
 
-        for i, test_sample in enumerate(TEXT_SAMPLES):
+        for i, text_sample in enumerate(TEXT_SAMPLES):
             count_infos, count_errors = 0, 0
-            for word in test_sample.split():
+            for word in text_sample.split():
                 try:
                     for target_language in ALPHABET_CODE_LIST:
                         transliteration = transliterate(word,
@@ -57,16 +57,31 @@ class TestTransliteration(unittest.TestCase):
                     TEST_LOGGER.error(f'Transliteration of {word}, '
                                       f'{source_language_error}')
                     count_errors += 1
+            
+            if count_errors == 0:
+                for target_language in ALPHABET_CODE_LIST:
+                    text = "".join([text_sample[i:i+80]+"\n\t" 
+                                    for i in range(0, len(text_sample), 80)])
+                    text_transliteration = transliterate(text_sample,
+                                                         ALPHABET_CODE_LIST[i],
+                                                         target_language)
+                    text_transliteration = "".join([text_transliteration[i:i+80]+"\n\t" 
+                                                           for i in range(0, len(text_transliteration), 80)])
+                    TEST_LOGGER.info(f'Transliteration of '
+                                    f'({ALPHABET_CODE_LIST[i]} '
+                                    f'==> {target_language})\n\t'
+                                    f'{text}==> '
+                                    f'\n\t{text_transliteration}')
 
-            info_percentage = round(count_infos/len(test_sample.split())*100/LEN_LANGUAGES, 2)
-            error_percentage = round(count_errors/len(test_sample.split())*100, 2)
+            info_percentage = round(count_infos/len(text_sample.split())*100/LEN_LANGUAGES, 2)
+            error_percentage = round(count_errors/len(text_sample.split())*100, 2)
 
             TEST_LOGGER.info(f'Total INFO logs {count_infos/LEN_LANGUAGES} '
-                             f'({info_percentage}%), '
+                             f'({info_percentage}%), \n\t'
                              f'Total ERROR logs {count_errors} '
                              f'({error_percentage}%)')
 
-            TEST_STATS_LOGGER.info(f'{TEST_LOGGER_NAME} - {ALPHABET_CODE_LIST[i].capitalize()} '
+            TEST_STATS_LOGGER.info(f'{TEST_LOGGER_NAME} - {ALPHABET_CODE_LIST[i].capitalize()}\n\t'
                                    f'Transliteration - '
                                    f'Total INFO logs {count_infos/LEN_LANGUAGES} '
                                    f'({info_percentage}%), '
