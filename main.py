@@ -2,19 +2,16 @@
 
 from pprint import PrettyPrinter
 
-from aaransia.utils import construct_alphabet
 from aaransia.transliteration import get_alphabets, get_alphabets_codes, transliterate
 from aaransia.exceptions import SourceLanguageError
 
 PRETTY_PRINTER = PrettyPrinter(indent=1)
 
-PRETTY_PRINTER.pprint(get_alphabets_codes())
-
 print(get_alphabets_codes())
 
-PRETTY_PRINTER.pprint(get_alphabets())
+print(len(get_alphabets_codes()))
 
-# PRETTY_PRINTER.pprint(construct_alphabet())
+PRETTY_PRINTER.pprint(get_alphabets())
 
 ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
 
