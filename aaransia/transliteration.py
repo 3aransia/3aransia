@@ -8,7 +8,7 @@ from aaransia.defaults import (
     ALPHABETS, ARABIC_ALPHABET_CODE, SOURCE_LANGUAGE_EXCEPTION_MESSAGE, DOUBLE_LETTERS,
     MOROCCAN_ALPHABET_CODE, SPECIAL_CHARACTERS
 )
-from aaransia.data.alphabet import ALPHABET
+from aaransia.alphabet import ALPHABET
 
 def get_alphabets_codes():
     """Returns a list of alphabet codes"""
