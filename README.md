@@ -65,13 +65,21 @@ print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
 
 ### Transliterate cross languages and dialects to another, using the universal parameter
 ```python
+from aaransia import SourceLanguageError
+
 MOROCCAN_ARABIC_SENTENCE = "ktb بلعربيا hnaya شحال ما بغيتي"
+
+try:
+    print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma'))
+except SourceLanguageError as source_language_error:
+    print(source_language_error)
 
 print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma', universal=True))
 print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ma', target='ar', universal=True))
 ```
 
 ```
+>>> Source alphabet language doesn't match the input text: ar
 >>> ktb bl3rbya hnaya chhal ma bghyty
 >>> كتب بلعربيا هنايا شحال ما بغيتي
 ```
