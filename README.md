@@ -52,6 +52,7 @@ print(get_alphabets())
 ```
 
 ### Transliterate from a language or dialect to another
+
 ```python
 ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
 
@@ -60,6 +61,17 @@ print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
 
 ```
 >>> ktb bl3rbya hnaya ch7al ma bghiti
+```
+
+### Transliterate cross languages and dialects to another, using the universal parameter
+```python
+MOROCCAN_ARABIC_SENTENCE = "ktb بلعربيا hnaya شحال ما بغيتي"
+
+print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma', universal=True))
+```
+
+```
+>>> ktb bl3rbya hnaya chhal ma bghyty
 ```
 
 ### Transliterate from all languages to all languages
