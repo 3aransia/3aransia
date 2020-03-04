@@ -30,7 +30,7 @@ print(get_alphabets_codes())
 ```
 
 ```
->>> ['ma', 'ar', 'en', 'gr']
+>>> ['ar', 'af', 'al', 'az', 'ba', 'bo', 'ca', 'co', 'cr', 'cz', 'da', 'du', 'en', 'ep', 'et', 'fp', 'fi', 'fr', 'fs', 'ga', 'ge', 'ha', 'hw', 'hu', 'ic', 'ig', 'in', 'ir', 'it', 'ki', 'ku', 'la', 'lt', 'li', 'lu', 'ma', 'mg', 'ml', 'mt', 'mo', 'no', 'po', 'pr', 'ro', 'sa', 'gr', 'se', 'sh', 'sv', 'sl', 'so', 'es', 'su', 'sw', 'tk', 'tu', 'uz', 'vi', 'we', 'xh', 'yo', 'zu', 'pa', 'pe', 'si', 'ur', 'uy']
 ```
 
 ### Get all alphabets
@@ -42,11 +42,74 @@ print(get_alphabets())
 ```
 
 ```
->>> {   
+{
+>>>    'af': 'Afrikaans Alphabet',
+>>>    'al': 'Albanian Alphabet',
 >>>    'ar': 'Arabic Alphabet',
+>>>    'az': 'Azerbaijani Alphabet',
+>>>    'ba': 'Basque Alphabet',
+>>>    'bo': 'Bosnian Alphabet',
+>>>    'ca': 'Catalan Alphabet',
+>>>    'co': 'Corsican Alphabet',
+>>>    'cr': 'Creole Alphabet',
+>>>    'cz': 'Czech Alphabet',
+>>>    'da': 'Danish Alphabet',
+>>>    'du': 'Dutch Alphabet',
 >>>    'en': 'English Alphabet',
+>>>    'ep': 'Esperanto Alphabet',
+>>>    'es': 'Spanish Alphabet',
+>>>    'et': 'Estonian Alphabet',
+>>>    'fi': 'Finnish Alphabet',
+>>>    'fp': 'Filipino Alphabet',
+>>>    'fr': 'French Alphabet',
+>>>    'fs': 'Frisian Alphabet',
+>>>    'ga': 'Gaelic Alphabet',
+>>>    'ge': 'German Alphabet',
 >>>    'gr': 'Greek Alphabet',
->>>    'ma': 'Moroccan Alphabet'
+>>>    'ha': 'Hausa Alphabet',
+>>>    'hu': 'Hungarian Alphabet',
+>>>    'hw': 'Hawaiian Alphabet',
+>>>    'ic': 'Icelandic Alphabet',
+>>>    'ig': 'Igbo Alphabet',
+>>>    'in': 'Indonesian Alphabet',
+>>>    'ir': 'Irish Alphabet',
+>>>    'it': 'Italian Alphabet',
+>>>    'ki': 'Kinyarwanda Alphabet',
+>>>    'ku': 'Kurdish Alphabet',
+>>>    'la': 'Latin Alphabet',
+>>>    'li': 'Lithuanian Alphabet',
+>>>    'lt': 'Latvian Alphabet',
+>>>    'lu': 'Luxembourgish Alphabet',
+>>>    'ma': 'Moroccan Alphabet',
+>>>    'mg': 'Malagasy Alphabet',
+>>>    'ml': 'Malay Alphabet',
+>>>    'mo': 'Maori Alphabet',
+>>>    'mt': 'Maltese Alphabet',
+>>>    'no': 'Norwegian Alphabet',
+>>>    'pa': 'Pashto Alphabet',
+>>>    'pe': 'Persian Alphabet',
+>>>    'po': 'Polish Alphabet',
+>>>    'pr': 'Portuguese Alphabet',
+>>>    'ro': 'Romanian Alphabet',
+>>>    'sa': 'Samoan Alphabet',
+>>>    'se': 'Sesotho Alphabet',
+>>>    'sh': 'Shona Alphabet',
+>>>    'si': 'Sindhi Alphabet',
+>>>    'sl': 'Slovenian Alphabet',
+>>>    'so': 'Somali Alphabet',
+>>>    'su': 'Sundanese Alphabet',
+>>>    'sv': 'Slovak Alphabet',
+>>>    'sw': 'Swedish Alphabet',
+>>>    'tk': 'Turkish Alphabet',
+>>>    'tu': 'Turkmen Alphabet',
+>>>    'ur': 'Urdu Alphabet',
+>>>    'uy': 'Uyghur Alphabet',
+>>>    'uz': 'Uzbek Alphabet',
+>>>    'vi': 'Vietnamese Alphabet',
+>>>    'we': 'Welsh Alphabet',
+>>>    'xh': 'Xhosa Alphabet',
+>>>    'yo': 'Yoruba Alphabet',
+>>>    'zu': 'Zulu Alphabet'
 >>> }
 ```
 
@@ -81,93 +144,6 @@ print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ma', target='ar', universa
 >>> Source alphabet language doesn't match the input text: ar
 >>> ktb bl3rbya hnaya chhal ma bghyty
 >>> كتب بلعربيا هنايا شحال ما بغيتي
-```
-
-### Transliterate from all languages to all languages
-
-```python
-from aaransia import transliterate, SourceLanguageError
-
-MOROCCAN_SENTENCE = "ktb bl3rbya hnaya ch7al ma bghiti"
-ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
-ENGLISH_SENTENCE = "ktb bl'rbya hnaya chhal ma bghiti"
-GREEK_SENTENCE = "κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι"
-
-SENTENCES = [MOROCCAN_SENTENCE, ARABIC_SENTENCE, ENGLISH_SENTENCE, GREEK_SENTENCE]
-
-ALPHABETS = get_alphabets_codes()
-
-for i in range(len(SENTENCES)):
-    for target_language in ALPHABETS:
-        print(f'{SENTENCES[i]}\n'
-              f'{ALPHABETS[i]} ==> {target_language}\n'
-              f'{transliterate(SENTENCES[i], ALPHABETS[i], target_language)}\n')
-```
-
-```
->>> ktb bl3rbya hnaya ch7al ma bghiti
->>> ma ==> ma
->>> ktb bl3rbya hnaya ch7al ma bghiti
->>> 
->>> ktb bl3rbya hnaya ch7al ma bghiti
->>> ma ==> ar
->>> كتب بلعربيا هنايا شحال ما بغيتي
->>> 
->>> ktb bl3rbya hnaya ch7al ma bghiti
->>> ma ==> en
->>> ktb bl'rbya hnaya chhal ma bghiti
->>> 
->>> ktb bl3rbya hnaya ch7al ma bghiti
->>> ma ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
->>> 
->>> كتب بلعربيا هنايا شحال ما بغيتي
->>> ar ==> ma
->>> ktb bl3rbya hnaya chhal ma bghyty
->>> 
->>> كتب بلعربيا هنايا شحال ما بغيتي
->>> ar ==> ar
->>> كتب بلعربيا هنايا شحال ما بغيتي
->>> 
->>> كتب بلعربيا هنايا شحال ما بغيتي
->>> ar ==> en
->>> ktb bl'rbya hnaya chhal ma bghyty
->>> 
->>> كتب بلعربيا هنايا شحال ما بغيتي
->>> ar ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπρυτυ
->>> 
->>> ktb bl'rbya hnaya chhal ma bghiti
->>> en ==> ma
->>> ktb bl'rbya hnaya chhal ma bghiti
->>> 
->>> ktb bl'rbya hnaya chhal ma bghiti
->>> en ==> ar
->>> كتب بل'ربيا هنايا شهال ما بغيتي
->>> 
->>> ktb bl'rbya hnaya chhal ma bghiti
->>> en ==> en
->>> ktb bl'rbya hnaya chhal ma bghiti
->>> 
->>> ktb bl'rbya hnaya chhal ma bghiti
->>> en ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχαλ μα μπριτι
->>> 
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
->>> gr ==> ma
->>> ktb bl'ghbya hnaya chhhal ma bghiti
->>> 
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
->>> gr ==> ar
->>> كتب بل'غبيا هنايا شههال ما بڭهيتي
->>> 
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
->>> gr ==> en
->>> ktb bl'ghbya hnaya chhhal ma bghiti
->>> 
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
->>> gr ==> gr
->>> κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι
 ```
 
 ## Adding a language or a dialect

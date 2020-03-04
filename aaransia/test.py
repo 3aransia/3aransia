@@ -8,7 +8,7 @@ from aaransia.exceptions import SourceLanguageError
 from aaransia.text_samples import TEXT_SAMPLES
 from aaransia.defaults import (
     BASE_DIR, LOG_DIR, TEST_STATS_LOGGER_NAME, TEST_LOGGER_NAME,
-    TEST_STATS_LOG_FILE, TEST_TRANSLITERATION_LOG_FILE, ALPHABET_CODE_LIST,
+    TEST_STATS_LOG_FILE, TEST_TRANSLITERATION_LOG_FILE, ALPHABETS,
     LEN_LANGUAGES
 )
 
@@ -40,16 +40,16 @@ class TestTransliteration(unittest.TestCase):
         test_logget_file_handler.setLevel(logging.INFO)
         TEST_LOGGER.addHandler(test_logget_file_handler)
 
-        for i, text_sample in enumerate(TEXT_SAMPLES):
+        for text_sample in TEXT_SAMPLES:
             count_infos, count_errors = 0, 0
-            for word in text_sample.split():
+            for word in text_sample['text'].split():
                 try:
-                    for target_language in ALPHABET_CODE_LIST:
+                    for target_language in list(ALPHABETS):
                         transliteration = transliterate(word,
-                                                        ALPHABET_CODE_LIST[i],
+                                                        text_sample['language'],
                                                         target_language)
                         TEST_LOGGER.info(f'Transliteration of {word} '
-                                         f'({ALPHABET_CODE_LIST[i]} '
+                                         f'({text_sample["language"]} '
                                          f'==> {target_language}), '
                                          f'{transliteration}')
                         count_infos += 1
@@ -59,31 +59,31 @@ class TestTransliteration(unittest.TestCase):
                     count_errors += 1
 
             if count_errors == 0:
-                for target_language in ALPHABET_CODE_LIST:
-                    text = "".join([text_sample[i:i+80]+"\n\t"
-                                    for i in range(0, len(text_sample), 80)])
-                    text_transliteration = transliterate(text_sample,
-                                                         ALPHABET_CODE_LIST[i],
+                for target_language in list(ALPHABETS):
+                    text = "".join([text_sample['text'][i:i+80]+"\n\t"
+                                    for i in range(0, len(text_sample['text']), 80)])
+                    text_transliteration = transliterate(text_sample['text'],
+                                                         text_sample['language'],
                                                          target_language)
                     text_transliteration = "".join([text_transliteration[i:i+80]+"\n\t"
                                                     for i in range(0,
                                                                    len(text_transliteration),
                                                                    80)])
                     TEST_LOGGER.info(f'Transliteration of '
-                                     f'({ALPHABET_CODE_LIST[i]} '
+                                     f'({text_sample["language"]} '
                                      f'==> {target_language})\n\t'
                                      f'{text}==> '
                                      f'\n\t{text_transliteration}')
 
-            info_percentage = round(count_infos/len(text_sample.split())*100/LEN_LANGUAGES, 2)
-            error_percentage = round(count_errors/len(text_sample.split())*100, 2)
+            info_percentage = round(count_infos/len(text_sample['text'].split())*100/LEN_LANGUAGES, 2)
+            error_percentage = round(count_errors/len(text_sample['text'].split())*100, 2)
 
             TEST_LOGGER.info(f'Total INFO logs {count_infos/LEN_LANGUAGES} '
                              f'({info_percentage}%), \n\t'
                              f'Total ERROR logs {count_errors} '
                              f'({error_percentage}%)')
 
-            TEST_STATS_LOGGER.info(f'{TEST_LOGGER_NAME} - {ALPHABET_CODE_LIST[i].capitalize()}\n\t'
+            TEST_STATS_LOGGER.info(f'{TEST_LOGGER_NAME} - {text_sample["language"].capitalize()}\n\t'
                                    f'Transliteration - '
                                    f'Total INFO logs {count_infos/LEN_LANGUAGES} '
                                    f'({info_percentage}%), '

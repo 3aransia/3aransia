@@ -6,12 +6,12 @@ from aaransia.exceptions import SourceLanguageError
 from aaransia.utils import de_noise, normalize_arabic
 from aaransia.defaults import (
     ALPHABETS, ARABIC_ALPHABET_CODE, SOURCE_LANGUAGE_EXCEPTION_MESSAGE, DOUBLE_LETTERS,
-    ALPHABET, MOROCCAN_ALPHABET_CODE, SPECIAL_CHARACTERS, ALPHABET_CODE_LIST
+    ALPHABET, MOROCCAN_ALPHABET_CODE, SPECIAL_CHARACTERS
 )
 
 def get_alphabets_codes():
     """Returns a list of alphabet codes"""
-    return ALPHABET_CODE_LIST
+    return list(ALPHABETS)
 
 def get_alphabets():
     """Returns a dictionary of alphabets with keys as alphabet codes
