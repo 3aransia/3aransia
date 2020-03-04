@@ -57,21 +57,23 @@ class TestTransliteration(unittest.TestCase):
                     TEST_LOGGER.error(f'Transliteration of {word}, '
                                       f'{source_language_error}')
                     count_errors += 1
-            
+
             if count_errors == 0:
                 for target_language in ALPHABET_CODE_LIST:
-                    text = "".join([text_sample[i:i+80]+"\n\t" 
+                    text = "".join([text_sample[i:i+80]+"\n\t"
                                     for i in range(0, len(text_sample), 80)])
                     text_transliteration = transliterate(text_sample,
                                                          ALPHABET_CODE_LIST[i],
                                                          target_language)
-                    text_transliteration = "".join([text_transliteration[i:i+80]+"\n\t" 
-                                                           for i in range(0, len(text_transliteration), 80)])
+                    text_transliteration = "".join([text_transliteration[i:i+80]+"\n\t"
+                                                    for i in range(0,
+                                                                   len(text_transliteration),
+                                                                   80)])
                     TEST_LOGGER.info(f'Transliteration of '
-                                    f'({ALPHABET_CODE_LIST[i]} '
-                                    f'==> {target_language})\n\t'
-                                    f'{text}==> '
-                                    f'\n\t{text_transliteration}')
+                                     f'({ALPHABET_CODE_LIST[i]} '
+                                     f'==> {target_language})\n\t'
+                                     f'{text}==> '
+                                     f'\n\t{text_transliteration}')
 
             info_percentage = round(count_infos/len(text_sample.split())*100/LEN_LANGUAGES, 2)
             error_percentage = round(count_errors/len(text_sample.split())*100, 2)
