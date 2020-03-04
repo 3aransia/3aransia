@@ -39,10 +39,7 @@ SENTENCES = [MOROCCAN_SENTENCE, ARABIC_SENTENCE, ENGLISH_SENTENCE, GREEK_SENTENC
 ALPHABETS = get_alphabets_codes()
 
 for i in range(len(SENTENCES)):
-    try:
-        for target_language in ALPHABETS:
-            print(f'{SENTENCES[i]}\n'
-                  f'{ALPHABETS[i]} ==> {target_language}\n'
-                  f'{transliterate(SENTENCES[i], ALPHABETS[i], target_language)}\n')
-    except SourceLanguageError as sle:
-        print(SENTENCES[i], sle)
+    for target_language in ALPHABETS:
+        print(f'{SENTENCES[i]}\n'
+                f'{ALPHABETS[i]} ==> {target_language}\n'
+                f'{transliterate(SENTENCES[i], ALPHABETS[i], target_language)}\n')

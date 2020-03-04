@@ -30,7 +30,7 @@ print(get_alphabets_codes())
 ```
 
 ```
->>> ['ma', 'ar', 'la', 'ab', 'gr']
+>>> ['ma', 'ar', 'en', 'gr']
 ```
 
 ### Get all alphabets
@@ -43,11 +43,10 @@ print(get_alphabets())
 
 ```
 >>> {   
->>>     'ab': 'Abjadi Alphabet',
->>>     'ar': 'Arabian Alphabet',
->>>     'gr': 'Greek Alphabet',
->>>     'la': 'Latin Alphabet',
->>>     'ma': 'Moroccan Alphabet'
+>>>    'ar': 'Arabic Alphabet',
+>>>    'en': 'English Alphabet',
+>>>    'gr': 'Greek Alphabet',
+>>>    'ma': 'Moroccan Alphabet'
 >>> }
 ```
 
@@ -99,13 +98,10 @@ SENTENCES = [MOROCCAN_SENTENCE, ARABIC_SENTENCE, ENGLISH_SENTENCE, GREEK_SENTENC
 ALPHABETS = get_alphabets_codes()
 
 for i in range(len(SENTENCES)):
-    try:
-        for target_language in ALPHABETS:
-            print(f'{SENTENCES[i]}\n'
-                  f'{ALPHABETS[i]} ==> {target_language}\n'
-                  f'{transliterate(SENTENCES[i], ALPHABETS[i], target_language)}\n')
-    except SourceLanguageError as sle:
-        print(SENTENCES[i], sle)
+    for target_language in ALPHABETS:
+        print(f'{SENTENCES[i]}\n'
+                f'{ALPHABETS[i]} ==> {target_language}\n'
+                f'{transliterate(SENTENCES[i], ALPHABETS[i], target_language)}\n')
 ```
 
 ```

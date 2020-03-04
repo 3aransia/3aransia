@@ -36,8 +36,7 @@ def _get_letter(letter, source, target, universal):
             return _letter[ALPHABETS[target]]
     if not universal:
         return None
-    else:
-        return letter
+    return letter
 
 
 def _transliterate_letter(letter, source, target, position, word, universal):
@@ -75,7 +74,8 @@ def _transliterate_word(word, source, target, universal):
     for i in word_iterator:
         if i < len(word) - 1:
             if word[i:i+2] in DOUBLE_LETTERS[source]:
-                result.append(_transliterate_letter(word[i:i+2], source, target, i, word, universal))
+                result.append(_transliterate_letter(word[i:i+2],
+                                                    source, target, i, word, universal))
                 next(word_iterator)
             elif word[i] == word[i+1] and target == ARABIC_ALPHABET_CODE:
                 result.append(_transliterate_letter(word[i], source, target, i, word, universal))
