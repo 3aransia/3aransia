@@ -1,0 +1,8 @@
+2020-03-04 04:36:55,092 - test_stats_logger - INFO - test_logger - Ma
+	Transliteration - Total INFO logs 51.0 (100.0%), Total ERROR logs 0 (0.0%)
+2020-03-04 04:36:55,177 - test_stats_logger - INFO - test_logger - Ar
+	Transliteration - Total INFO logs 59.0 (100.0%), Total ERROR logs 0 (0.0%)
+2020-03-04 04:36:55,394 - test_stats_logger - INFO - test_logger - En
+	Transliteration - Total INFO logs 136.0 (100.0%), Total ERROR logs 0 (0.0%)
+2020-03-04 04:36:55,465 - test_stats_logger - INFO - test_logger - Gr
+	Transliteration - Total INFO logs 69.0 (97.18%), Total ERROR logs 2 (2.82%)

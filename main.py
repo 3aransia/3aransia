@@ -18,20 +18,24 @@ ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
 
 print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
 
+MOROCCAN_ARABIC_SENTENCE = "ktb بلعربيا hnaya شحال ما بغيتي"
+
+print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma', universal=True))
+
 MOROCCAN_SENTENCE = "ktb bl3rbya hnaya ch7al ma bghiti"
 ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
-LATIN_SENTENCE = "ktb bl'rbya hnaya chhal ma bghiti"
-ABJADI_SENTENCE = "ktb bl'rbya hnaya chḥal ma bghiti"
+ENGLISH_SENTENCE = "ktb bl'rbya hnaya chhal ma bghiti"
 GREEK_SENTENCE = "κτμπ μπλ'ρμπυα χναυα σχχαλ μα μπγχιτι"
 
-SENTENCES = [MOROCCAN_SENTENCE, ARABIC_SENTENCE, LATIN_SENTENCE, ABJADI_SENTENCE, GREEK_SENTENCE]
+SENTENCES = [MOROCCAN_SENTENCE, ARABIC_SENTENCE, ENGLISH_SENTENCE, GREEK_SENTENCE]
 
-for sentence in SENTENCES:
-    for source_language in get_alphabets_codes():
-        try:
-            for target_language in get_alphabets_codes():
-                print(f'{sentence}\n'
-                      f'{source_language} ==> {target_language}\n'
-                      f'{transliterate(sentence, source_language, target_language)}\n')
-        except SourceLanguageError as sle:
-            print(sentence, sle)
+ALPHABETS = get_alphabets_codes()
+
+for i in range(len(SENTENCES)):
+    try:
+        for target_language in ALPHABETS:
+            print(f'{SENTENCES[i]}\n'
+                  f'{ALPHABETS[i]} ==> {target_language}\n'
+                  f'{transliterate(SENTENCES[i], ALPHABETS[i], target_language)}\n')
+    except SourceLanguageError as sle:
+        print(SENTENCES[i], sle)
