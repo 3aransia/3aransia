@@ -41,5 +41,5 @@ ALPHABETS = get_alphabets_codes()
 for i in range(len(SENTENCES)):
     for target_language in ALPHABETS:
         print(f'{SENTENCES[i]}\n'
-                f'{ALPHABETS[i]} ==> {target_language}\n'
-                f'{transliterate(SENTENCES[i], ALPHABETS[i], target_language)}\n')
+              f'{ALPHABETS[i]} ==> {target_language}\n'
+              f'{transliterate(SENTENCES[i], ALPHABETS[i], target_language)}\n')
