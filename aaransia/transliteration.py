@@ -6,12 +6,13 @@ from aaransia.exceptions import SourceLanguageError
 from aaransia.utils import de_noise, normalize_arabic
 from aaransia.defaults import (
     ALPHABETS, ARABIC_ALPHABET_CODE, SOURCE_LANGUAGE_EXCEPTION_MESSAGE, DOUBLE_LETTERS,
-    ALPHABET, MOROCCAN_ALPHABET_CODE, SPECIAL_CHARACTERS, ALPHABET_CODE_LIST
+    MOROCCAN_ALPHABET_CODE, SPECIAL_CHARACTERS
 )
+from aaransia.data.alphabet import ALPHABET
 
 def get_alphabets_codes():
     """Returns a list of alphabet codes"""
-    return ALPHABET_CODE_LIST
+    return list(ALPHABETS)
 
 def get_alphabets():
     """Returns a dictionary of alphabets with keys as alphabet codes
@@ -36,8 +37,7 @@ def _get_letter(letter, source, target, universal):
             return _letter[ALPHABETS[target]]
     if not universal:
         return None
-    else:
-        return letter
+    return letter
 
 
 def _transliterate_letter(letter, source, target, position, word, universal):
@@ -75,7 +75,8 @@ def _transliterate_word(word, source, target, universal):
     for i in word_iterator:
         if i < len(word) - 1:
             if word[i:i+2] in DOUBLE_LETTERS[source]:
-                result.append(_transliterate_letter(word[i:i+2], source, target, i, word, universal))
+                result.append(_transliterate_letter(word[i:i+2],
+                                                    source, target, i, word, universal))
                 next(word_iterator)
             elif word[i] == word[i+1] and target == ARABIC_ALPHABET_CODE:
                 result.append(_transliterate_letter(word[i], source, target, i, word, universal))
