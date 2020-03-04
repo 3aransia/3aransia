@@ -1,4 +1,4 @@
-2020-03-04 03:15:05,552 - test_stats_logger - INFO - test_transliteration_logger - Ma Transliteration - Total INFO logs 204 (400.0%), Total ERROR logs 0 (0.0%)
-2020-03-04 03:15:05,609 - test_stats_logger - INFO - test_transliteration_logger - Ar Transliteration - Total INFO logs 440 (745.76%), Total ERROR logs 0 (0.0%)
-2020-03-04 03:15:05,743 - test_stats_logger - INFO - test_transliteration_logger - En Transliteration - Total INFO logs 984 (723.53%), Total ERROR logs 0 (0.0%)
-2020-03-04 03:15:05,769 - test_stats_logger - INFO - test_transliteration_logger - Gr Transliteration - Total INFO logs 1036 (1459.15%), Total ERROR logs 58 (81.69%)
+2020-03-04 03:35:22,312 - test_stats_logger - INFO - test_logger - Ma Transliteration - Total INFO logs 51.0 (100.0%), Total ERROR logs 0 (0.0%)
+2020-03-04 03:35:22,354 - test_stats_logger - INFO - test_logger - Ar Transliteration - Total INFO logs 59.0 (100.0%), Total ERROR logs 0 (0.0%)
+2020-03-04 03:35:22,467 - test_stats_logger - INFO - test_logger - En Transliteration - Total INFO logs 136.0 (100.0%), Total ERROR logs 0 (0.0%)
+2020-03-04 03:35:22,486 - test_stats_logger - INFO - test_logger - Gr Transliteration - Total INFO logs 13.0 (18.31%), Total ERROR logs 58 (81.69%)

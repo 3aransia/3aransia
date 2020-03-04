@@ -6,7 +6,6 @@ from collections import OrderedDict
 BASE_DIR = './aaransia'
 DATA_DIR = '/data'
 LOG_DIR = '/log'
-TEST_DIR = '/test'
 
 # Data sets
 ALPHABET_FILE = '/alphabet.csv'
@@ -18,7 +17,7 @@ TEST_TRANSLITERATION_LOG_FILE = '/test_transliteration.log'
 
 # Loggers
 TEST_STATS_LOGGER_NAME = 'test_stats_logger'
-TEST_TRANSLITERATION_LOGGER_NAME = 'test_transliteration_logger'
+TEST_LOGGER_NAME = 'test_logger'
 
 # Alphabet codes
 MOROCCAN_ALPHABET_CODE = 'ma'
@@ -49,6 +48,9 @@ ALPHABETS = {
     ALPHABET_CODE_LIST[2]: ALPHABET_NAMES_LIST[2],
     ALPHABET_CODE_LIST[3]: ALPHABET_NAMES_LIST[3],
 }
+
+# Language count
+LEN_LANGUAGES = len(ALPHABETS)
 
 # Double Letters
 DOUBLE_LETTERS = {
