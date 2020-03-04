@@ -21,6 +21,8 @@ print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
 MOROCCAN_ARABIC_SENTENCE = "ktb بلعربيا hnaya شحال ما بغيتي"
 
 print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ar', target='ma', universal=True))
+print(transliterate(MOROCCAN_ARABIC_SENTENCE, source='ma', target='ar', universal=True))
+
 
 MOROCCAN_SENTENCE = "ktb bl3rbya hnaya ch7al ma bghiti"
 ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
