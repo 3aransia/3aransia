@@ -1,3 +1,4 @@
+#!/bin/zsh
 # chmod +x deploy.sh
 # Update software version in Setup.py first
 rm -rf dist/* && python setup.py sdist && twine upload dist/*    
