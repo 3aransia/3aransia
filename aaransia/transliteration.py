@@ -29,7 +29,8 @@ def _get_letter(letter, source, target, universal):
     @source -- the source language from the available languages
     @target -- the target language from the available languages
     """
-    letter = de_noise(normalize_arabic(unicodedata.normalize('NFD', letter)[0]))
+    if letter not in DOUBLE_LETTERS[source]:
+        letter = de_noise(normalize_arabic(unicodedata.normalize('NFD', letter)[0]))
     if letter in SPECIAL_CHARACTERS:
         return letter
     for _letter in ALPHABET:
