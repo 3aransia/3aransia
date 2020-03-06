@@ -9,6 +9,7 @@ git commit -m $1
 git push 3aransia develop 
 git checkout master
 git merge develop
+git push 3aransia master
 git checkout develop
 sleep 5m
 cd ../3aransia.api
@@ -20,5 +21,6 @@ git commit -m $1
 git push 3aransia develop 
 git checkout master
 git merge develop
+git push 3aransia master
 git checkout develop
 cd ../3aransia
