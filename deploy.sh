@@ -8,10 +8,10 @@ git add .
 git commit -m $1 
 git push 3aransia develop 
 git checkout master
-git pull 3aransia develop
+git merge develop
 git push 3aransia master
 git checkout develop
-sleep 1m
+sleep 5m
 cd ../3aransia.api
 source venv/bin/activate   
 pip install --upgrade aaransia    
@@ -20,7 +20,7 @@ git add .
 git commit -m $1 
 git push 3aransia develop 
 git checkout master
-git pull 3aransia develop
+git merge develop
 git push 3aransia master
 git checkout develop
 cd ../3aransia
