@@ -7,7 +7,9 @@ twine upload dist/*
 git add . 
 git commit -m $1 
 git push 3aransia develop 
-git push 3aransia master
+git checkout master
+git merge develop
+git checkout develop
 sleep 5m
 cd ../3aransia.api
 source venv/bin/activate   
@@ -16,5 +18,7 @@ pip freeze > requirements.txt
 git add . 
 git commit -m $1 
 git push 3aransia develop 
-git push 3aransia master
+git checkout master
+git merge develop
+git checkout develop
 cd ../3aransia
