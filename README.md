@@ -57,6 +57,8 @@ For contribution you can refer to [CONTRIBUTING.md](CONTRIBUTING.md)
 ### Transliterate from a language or dialect to another
 
 ```python
+from aaransia import transliterate 
+
 ARABIC_SENTENCE = "كتب بلعربيا هنايا شحال ما بغيتي"
 
 print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
@@ -68,7 +70,7 @@ print(transliterate(ARABIC_SENTENCE, source='ar', target='ma'))
 
 ### Transliterate cross languages and dialects to another, using the universal parameter
 ```python
-from aaransia import SourceLanguageError
+from aaransia import transliterate, SourceLanguageError
 
 MOROCCAN_ARABIC_SENTENCE = "ktb بلعربيا hnaya شحال ما بغيتي"
 

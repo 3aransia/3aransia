@@ -28,6 +28,7 @@ def _get_letter(letter, source, target, universal):
     @letter -- the letter to transliterate
     @source -- the source language from the available languages
     @target -- the target language from the available languages
+    @universal -- Toleration of cross language and dialects in sentences
     """
     if letter not in DOUBLE_LETTERS[source]:
         letter = de_noise(normalize_arabic(unicodedata.normalize('NFD', letter)[0]))
@@ -52,6 +53,7 @@ def _transliterate_letter(letter, source, target, position, word, universal):
     @target -- the target language from the available languages
     @position -- the position of the letter
     @word -- the word from where the transliteration is make
+    @universal -- Toleration of cross language and dialects in sentences
     """
     if source == MOROCCAN_ALPHABET_CODE and target == ARABIC_ALPHABET_CODE and position == 0:
         if ((letter in 'o' and len(word) > 1) or letter in ('a', 'i', 'e')):
@@ -67,6 +69,7 @@ def _transliterate_word(word, source, target, universal):
     @word -- the word to transliterate
     @source -- the source language from the available languages
     @target -- the target language from the available languages
+    @universal -- Toleration of cross language and dialects in sentences
     """
     if word.isdigit():
         return word
@@ -96,6 +99,7 @@ def transliterate(text, source, target, universal=False):
     @text -- the text to transliterate
     @source -- the source language from the available languages
     @target -- the target language from the available languages
+    @universal -- Toleration of cross language and dialects in sentences
     """
     try:
         return ' '.join(list(map(lambda word: _transliterate_word(word, source, target, universal),
